@@ -1,5 +1,47 @@
 # Research status
 
+Batch 904 completed PDF page 442, rows 1-23, from **Leland M Spore** through
+**Rosario F Squatrito**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have terminal research outcomes. Six
+official Army identity bridges are accepted; their historical occupation
+codes remain qualified and name no employer, institution or workplace.
+
+Drexel A Sprecher's immediate U.S. Army path to OSS is kept separate from his
+last civilian employment at the National Labor Relations Board. Stewart
+Springer's 1936-1940 Bass Biological Laboratory employment is published only
+as an earlier documented prewar role because the intervening chronology is
+unresolved. Robert Burns Springsteen II's McGill Manufacturing Company
+employment and immediate Army-to-OSS transfer are both documented in his
+first-person Library of Congress oral history. Enrico Squadra's 1943 Office of
+War Information role remains in temporal review. Rosario Squatrito's qualified
+Superior Die Cutting employer lead is published alongside, not in place of,
+the unresolved conflict between official longshoreman/stevedore data and later
+tool-and-die accounts.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,743/23,936 (57.4156%)**;
+verified-employer coverage is **447/23,936 (1.8675%)**;
+verified-affiliation coverage is **988/23,936 (4.1277%)**; archival-review
+coverage is **12,215/23,936 (51.0319%)**. There are **10,188** not-started
+people, **607** possible-duplicate groups and **475** conflicts. Claim
+confidence counts are **1,637 confirmed**, **4,456 high**, **1,887 medium**,
+**216 low**, **404 conflicting** and **2 unresolved**. The public projection
+contains **3,098** affiliations, **1,136** organizations, **5,607** sources and
+**8,380** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 442, row
+24, **Phillip I Squillacioti**, in Box 734. See
+`research/batch-904-progress.md` for the source-by-source audit.
+
+Batch 904 has passed evidence-schema validation, canonical reviewed-decision
+and evidence imports, database integrity and foreign-key checks, complete
+522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction and direct generated-profile assertions. The
+local Python test-runner environment stalled during its own dependency import,
+and the local full Astro build exceeded the release-session wall-clock window
+without returning an error. The clean GitHub Actions test and Pages workflows
+remain the publication gates; their results and immutable release commit will
+be recorded here after deployment.
+
 Batch 903 completed PDF page 441, rows 24-46, from the second **Grace M
 Spiro** row through **Henry N Sporborg**, preserving all 23 printed rows and
 linking them to 19 active people. All 19 have terminal research outcomes. Six

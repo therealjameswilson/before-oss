@@ -1,0 +1,1816 @@
+{
+  "bundle_version": "batch-904-v1",
+  "reviewer": "Before OSS Batch 904 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b904",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 734",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 442, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain immutable. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b904",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted protected-identifier bridges",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. Coded occupations identify no employer."
+    },
+    {
+      "key": "army-tech-b904",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b904",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-174 and 177; categories 001, 110, 137, 227, 677 and 747 visually checked",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify neither employers nor workplaces."
+    },
+    {
+      "key": "ushmm-sprecher-b904",
+      "stable_url": "https://encyclopedia.ushmm.org/content/en/oral-history/drexel-sprecher-describes-german-documentation-that-could-be-used-as-evidence",
+      "title": "Drexel Sprecher describes German documentation that could be used as evidence",
+      "author_creator": "Drexel A. Sprecher",
+      "repository_publisher": "United States Holocaust Memorial Museum",
+      "locator": "Biographical note accompanying oral-history excerpt",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Holocaust Encyclopedia oral histories",
+      "rights_notes": "Project-authored paraphrases only."
+    },
+    {
+      "key": "jackson-sprecher-b904",
+      "stable_url": "https://thejacksonlist.com/wp-content/uploads/2014/02/20060424-Jackson-List-re-Sprecher.pdf",
+      "title": "Drexel A. Sprecher, Nuremberg Prosecutor",
+      "author_creator": "John Q. Barrett",
+      "repository_publisher": "The Jackson List",
+      "publication_record_date": "2006-04-24",
+      "locator": "Biographical chronology; NLRB service, Army enlistment and 1944 OSS transfer",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Project-authored paraphrases only."
+    },
+    {
+      "key": "noaa-springer-b904",
+      "stable_url": "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/mfr7541.pdf",
+      "title": "Historical Knowledge of Sharks: Ancient Science, Earliest American Encounters and American Science, Fisheries, and Utilization",
+      "author_creator": "José I. Castro",
+      "repository_publisher": "National Marine Fisheries Service, National Oceanic and Atmospheric Administration",
+      "publication_record_date": "2013",
+      "locator": "Marine Fisheries Review 75(4); OSS shark-repellent project discussion",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Used for project-authored identity and OSS-context paraphrases."
+    },
+    {
+      "key": "mote-springer-b904",
+      "stable_url": "https://dspace.mote.org/bitstream/handle/2075/2958/Stewart%20Springer%20Discovering%20Sharks.pdf?isAllowed=y&sequence=1",
+      "title": "Stewart Springer: Discovering Sharks",
+      "repository_publisher": "Mote Marine Laboratory Digital Repository",
+      "locator": "Biographical chronology; Bass Biological Laboratory employment, 1936-1940",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Project-authored paraphrases only."
+    },
+    {
+      "key": "govinfo-museum-springer-b904",
+      "stable_url": "https://www.govinfo.gov/content/pkg/SERIALSET-10393_00_00/pdf/SERIALSET-10393_00_00.pdf",
+      "archival_identifier": "United States Congressional Serial Set 10393",
+      "title": "Annual Report of the United States National Museum for 1938",
+      "author_creator": "United States National Museum",
+      "repository_publisher": "U.S. Government Publishing Office",
+      "publication_record_date": "1938",
+      "locator": "Report of accessions; Bass Biological Laboratory specimens obtained through Stewart Springer",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official contemporary corroboration of the institutional relationship."
+    },
+    {
+      "key": "loc-springsteen-b904",
+      "stable_url": "https://www.loc.gov/item/afc2001001.23487/",
+      "archival_identifier": "AFC/2001/001/23487; transcript sr0001.xml",
+      "title": "Robert Burns Springsteen II Collection",
+      "author_creator": "Robert Burns Springsteen II",
+      "repository_publisher": "Veterans History Project, American Folklife Center, Library of Congress",
+      "publication_record_date": "2004",
+      "locator": "Oral-history transcript; McGill employment, May 1942 Army entry and April 1944 OSS transfer",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Veterans History Project Collection",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "ihs-springsteen-b904",
+      "stable_url": "https://indianahistory.org/wp-content/uploads/robert-springsteen-papers-1918-1995.pdf",
+      "archival_identifier": "SC 2907",
+      "title": "Robert Springsteen Papers, 1918-1995: Collection Guide",
+      "author_creator": "Indiana Historical Society",
+      "repository_publisher": "William Henry Smith Memorial Library, Indiana Historical Society",
+      "locator": "Biographical sketch and collection description",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Robert Springsteen Papers, 1918-1995",
+      "rights_notes": "Finding-aid facts only; no manuscript images are republished."
+    },
+    {
+      "key": "govinfo-mcgill-b904",
+      "stable_url": "https://www.govinfo.gov/content/pkg/CREC-2005-07-29/pdf/CREC-2005-07-29-extensions.pdf",
+      "title": "Recognizing the 100th Anniversary of McGill Manufacturing Company",
+      "author_creator": "Representative Chris Chocola",
+      "repository_publisher": "Congressional Record; U.S. Government Publishing Office",
+      "publication_record_date": "2005-07-28",
+      "locator": "Extensions of Remarks; company history and Valparaiso location",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Used to normalize the historical company name and location."
+    },
+    {
+      "key": "govinfo-owi-b904",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1943-pt7/pdf/GPO-CRECB-1943-pt7-10.pdf",
+      "title": "Congressional Record, 78th Congress, First Session, Part 7",
+      "author_creator": "United States Congress",
+      "repository_publisher": "U.S. Government Publishing Office",
+      "publication_record_date": "1943",
+      "locator": "Office of War Information personnel listing; Italian-language section, New York",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Contemporary official personnel listing."
+    },
+    {
+      "key": "loc-nuremberg-squatrito-b904",
+      "stable_url": "https://tile.loc.gov/storage-services/service/ll/llmlp/2011525363_NT_Nazi_Vol-V/2011525363_NT_Nazi_Vol-V.pdf",
+      "archival_identifier": "Law Library of Congress, Nazi Conspiracy and Aggression, Volume V",
+      "title": "Nazi Conspiracy and Aggression, Volume V",
+      "author_creator": "Office of United States Chief of Counsel for Prosecution of Axis Criminality",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "1946",
+      "locator": "Operation Ginny record naming T/5 Rosario F. Squatrito; protected identifier withheld",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The public project withholds the protected identifier."
+    },
+    {
+      "key": "nps-squatrito-b904",
+      "stable_url": "https://www.nps.gov/parkhistory/online_books/oss/chap8.pdf",
+      "title": "OSS Training in the National Parks and Service Abroad in World War II, Chapter 8",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008",
+      "locator": "Chapter 8; Operation Ginny II discussion",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Project-authored paraphrases only."
+    },
+    {
+      "key": "repubblica-squatrito-b904",
+      "stable_url": "https://www.repubblica.it/economia/2018/06/28/news/il_plotone_perduto-300968534/amp/",
+      "title": "Il plotone perduto",
+      "repository_publisher": "la Repubblica",
+      "publication_record_date": "2018-06-28",
+      "locator": "Biographical discussion of Rosario Squatrito before enlistment",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The named-employer claim is qualified and conflicts with the official Army occupation category."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b904",
+      "organization_id": "24facf23-e75a-54f2-a37a-0ef1509bc18a",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": [
+        "Army of the United States"
+      ],
+      "organization_type": "military_service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Reuses the reviewed canonical organization and is modeled as a military assignment, not a civilian employer."
+    },
+    {
+      "key": "nlrb-b904",
+      "organization_id": "ff44a1b8-3794-5839-bf93-0471ce4d5578",
+      "canonical_name": "National Labor Relations Board",
+      "historical_name": "National Labor Relations Board",
+      "aliases": [
+        "NLRB"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Reuses the reviewed canonical federal organization."
+    },
+    {
+      "key": "owi-b904",
+      "organization_id": "c48b74b9-1a67-5480-bb47-8dd73d10abf4",
+      "canonical_name": "Office of War Information",
+      "historical_name": "Office of War Information",
+      "aliases": [
+        "OWI"
+      ],
+      "organization_type": "federal wartime agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Reuses the reviewed canonical wartime agency."
+    },
+    {
+      "key": "bass-lab-b904",
+      "canonical_name": "Bass Biological Laboratory",
+      "historical_name": "Bass Biological Laboratory",
+      "aliases": [],
+      "organization_type": "marine biological laboratory",
+      "sector": "academia_and_research",
+      "city": "Englewood",
+      "state_or_region": "Florida",
+      "country": "United States",
+      "normalization_notes": "Historical laboratory name preserved; no modern successor is inferred."
+    },
+    {
+      "key": "mcgill-b904",
+      "canonical_name": "McGill Manufacturing Company",
+      "historical_name": "McGill Manufacturing Company",
+      "aliases": [
+        "McGill's"
+      ],
+      "organization_type": "manufacturer",
+      "sector": "business_and_industry",
+      "city": "Valparaiso",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "normalization_notes": "The company name is normalized from Springsteen's oral-history reference to McGill's using the official Congressional Record history."
+    },
+    {
+      "key": "superior-die-b904",
+      "canonical_name": "Superior Die Cutting",
+      "historical_name": "Superior Die Cutting",
+      "aliases": [],
+      "organization_type": "manufacturing company",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical name retained exactly as reported; no successor relationship is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "jack-h-spradlin-occupation-b904",
+      "person_id": "58c92e6a-ef6d-54da-a94b-12c52fdcb449",
+      "relationship_type": "employment",
+      "occupation": "Filers, grinders, buffers, and polishers (metal)",
+      "end_date": "1942-09-28",
+      "date_precision": "Historical civilian-occupation code 677 was recorded at Army entry on 1942-09-28; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "albert-i-spratt-occupation-b904",
+      "person_id": "076fc4ee-8c19-5bfa-8ef1-82ba3e0be35d",
+      "relationship_type": "employment",
+      "occupation": "Printing and publishing clerks, not elsewhere classified",
+      "end_date": "1941-06-03",
+      "date_precision": "Historical civilian-occupation code 110 was recorded at Army entry on 1941-06-03; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "roland-g-spratt-occupation-b904",
+      "person_id": "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
+      "relationship_type": "employment",
+      "occupation": "Stenographers and typists",
+      "end_date": "1943-04-29",
+      "date_precision": "Historical civilian-occupation code 137 was recorded at Army entry on 1943-04-29; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "robert-f-spreen-occupation-b904",
+      "person_id": "af55a43e-3770-5b40-89a0-3f5af651de66",
+      "relationship_type": "employment",
+      "occupation": "Accountants and auditors",
+      "end_date": "1942-04-09",
+      "date_precision": "Historical civilian-occupation code 001 was recorded at Army entry on 1942-04-09; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "nicholas-c-squadrito-occupation-b904",
+      "person_id": "42d57907-48c2-528a-a8d8-2809034a9ef3",
+      "relationship_type": "employment",
+      "occupation": "Waiters and waitresses, except private family",
+      "end_date": "1941-02-25",
+      "date_precision": "Historical civilian-occupation code 227 was recorded at Army entry on 1941-02-25; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "rosario-f-squatrito-occupation-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "relationship_type": "employment",
+      "occupation": "Longshoremen and stevedores",
+      "end_date": "1942-10-26",
+      "date_precision": "Historical civilian-occupation code 747 was recorded at Army entry on 1942-10-26; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "drexel-sprecher-us-army-b904",
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "organization_key": "us-army-b904",
+      "organization_name_as_found": "Army",
+      "role_title": "enlisted soldier",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "A biographical chronology states that he enlisted in 1942 and transferred into OSS in 1944.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The Army assignment is the explicit immediate predecessor to OSS and is not labeled a civilian employer."
+    },
+    {
+      "key": "drexel-sprecher-nlrb-b904",
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "organization_key": "nlrb-b904",
+      "organization_name_as_found": "National Labor Relations Board",
+      "role_title": "trial attorney",
+      "occupation": "attorney",
+      "relationship_type": "employment",
+      "start_date": "1938",
+      "end_date": "1942",
+      "date_precision": "The biographical chronology places NLRB employment from law-school graduation in 1938 until Army enlistment in 1942.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Last civilian employer before military service; kept separate from the immediate Army-to-OSS path."
+    },
+    {
+      "key": "stewart-springer-bass-lab-b904",
+      "person_id": "2073d664-3994-5e55-8146-4b004808533b",
+      "organization_key": "bass-lab-b904",
+      "organization_name_as_found": "Bass Biological Laboratory",
+      "role_title": "resident guide, collector, and specimen preparer",
+      "occupation": "shark fisherman and marine collector",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1940",
+      "date_precision": "Institutional biography dates the work 1936-1940; the gap before wartime OSS-associated work prevents an immediate-predecessor claim.",
+      "city": "Englewood",
+      "state_or_region": "Florida",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Documented earlier pre-OSS employment only; not presented as immediate or last civilian employment."
+    },
+    {
+      "key": "robert-springsteen-us-army-b904",
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "organization_key": "us-army-b904",
+      "organization_name_as_found": "Army",
+      "role_title": "finance officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-05",
+      "end_date": "1944-04-20",
+      "date_precision": "Springsteen's oral history dates Army entry to May 1942 and reporting to OSS to 20 April 1944.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Immediate military path to OSS; not a civilian employer."
+    },
+    {
+      "key": "robert-springsteen-mcgill-b904",
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "organization_key": "mcgill-b904",
+      "organization_name_as_found": "McGill's",
+      "relationship_type": "employment",
+      "end_date": "1942-05",
+      "date_precision": "The oral history says he quit this job when ordered into Army service in May 1942; no exact start date or job title is stated.",
+      "city": "Valparaiso",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The role is intentionally left blank because the transcript names the employer but not a job title."
+    },
+    {
+      "key": "enrico-squadra-owi-b904",
+      "person_id": "054aa915-9d6d-56e0-be23-9baa8cc41dd8",
+      "organization_key": "owi-b904",
+      "organization_name_as_found": "Office of War Information",
+      "role_title": "associate script editor",
+      "relationship_type": "government_assignment",
+      "start_date": "1943",
+      "end_date": "1943",
+      "date_precision": "A 1943 Congressional Record listing supplies the agency, section, city and title; the sequence relative to OSS remains unestablished.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Distinctive exact name and wartime context support identity, but the personnel file is needed to establish the OWI-to-OSS sequence."
+    },
+    {
+      "key": "rosario-squatrito-superior-die-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "organization_key": "superior-die-b904",
+      "organization_name_as_found": "Superior Die Cutting",
+      "occupation": "tool-and-die worker",
+      "relationship_type": "employment",
+      "end_date": "1942",
+      "date_precision": "A retrospective newspaper account places this employment before enlistment; the exact dates are not stated and the occupation conflicts with the official Army entry category.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified employer claim preserved alongside the contradictory official Army occupation code."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-jack-h-spradlin-b904",
+      "person_id": "58c92e6a-ef6d-54da-a94b-12c52fdcb449",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jack H Spradlin row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "Confirmed for Rosario Squatrito by an additional official wartime record; otherwise high confidence from the protected-identifier bridge and name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904",
+          "locator_override": "PDF page 442 row 3; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-albert-i-spratt-b904",
+      "person_id": "076fc4ee-8c19-5bfa-8ef1-82ba3e0be35d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert I Spratt row is a high-confidence match to the reviewed official Army record. The official Army record includes the suffix Jr., retained as a documented variant.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "Confirmed for Rosario Squatrito by an additional official wartime record; otherwise high confidence from the protected-identifier bridge and name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904",
+          "locator_override": "PDF page 442 row 4; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-roland-g-spratt-b904",
+      "person_id": "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roland G Spratt row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "Confirmed for Rosario Squatrito by an additional official wartime record; otherwise high confidence from the protected-identifier bridge and name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904",
+          "locator_override": "PDF page 442 row 5; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-f-spreen-b904",
+      "person_id": "af55a43e-3770-5b40-89a0-3f5af651de66",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert F Spreen row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "Confirmed for Rosario Squatrito by an additional official wartime record; otherwise high confidence from the protected-identifier bridge and name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904",
+          "locator_override": "PDF page 442 row 7; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-nicholas-c-squadrito-b904",
+      "person_id": "42d57907-48c2-528a-a8d8-2809034a9ef3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nicholas C Squadrito row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "Confirmed for Rosario Squatrito by an additional official wartime record; otherwise high confidence from the protected-identifier bridge and name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904",
+          "locator_override": "PDF page 442 row 22; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-rosario-f-squatrito-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rosario F Squatrito row is a confirmed-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "Confirmed for Rosario Squatrito by an additional official wartime record; otherwise high confidence from the protected-identifier bridge and name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904",
+          "locator_override": "PDF page 442 row 23; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "loc-nuremberg-squatrito-b904",
+          "locator_override": "Operation Ginny record; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jack-h-spradlin-b904",
+      "person_id": "58c92e6a-ef6d-54da-a94b-12c52fdcb449",
+      "affiliation_key": "jack-h-spradlin-occupation-b904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-28, Jack H Spradlin was recorded in the historical filers, grinders, buffers, and polishers (metal) category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 677, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "For Rosario Squatrito this official category conflicts with accounts describing tool-and-die work; otherwise it remains a qualified occupation lead.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 677; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b904",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 174; category 6-77",
+          "excerpt_override": "Filers, grinders, buffers, and polishers (metal)"
+        }
+      ]
+    },
+    {
+      "key": "occupation-albert-i-spratt-b904",
+      "person_id": "076fc4ee-8c19-5bfa-8ef1-82ba3e0be35d",
+      "affiliation_key": "albert-i-spratt-occupation-b904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-06-03, Albert I Spratt was recorded in the historical printing and publishing clerks, not elsewhere classified category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 110, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "For Rosario Squatrito this official category conflicts with accounts describing tool-and-die work; otherwise it remains a qualified occupation lead.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 110; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b904",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 172; category 1-10",
+          "excerpt_override": "Printing and publishing clerks, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "occupation-roland-g-spratt-b904",
+      "person_id": "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
+      "affiliation_key": "roland-g-spratt-occupation-b904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-29, Roland G Spratt was recorded in the historical stenographers and typists category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 137, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "For Rosario Squatrito this official category conflicts with accounts describing tool-and-die work; otherwise it remains a qualified occupation lead.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 137; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b904",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 172; category 1-37",
+          "excerpt_override": "Stenographers and typists"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-f-spreen-b904",
+      "person_id": "af55a43e-3770-5b40-89a0-3f5af651de66",
+      "affiliation_key": "robert-f-spreen-occupation-b904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-09, Robert F Spreen was recorded in the historical accountants and auditors category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 001, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "For Rosario Squatrito this official category conflicts with accounts describing tool-and-die work; otherwise it remains a qualified occupation lead.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 001; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b904",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 170; category 0-01",
+          "excerpt_override": "Accountants and auditors"
+        }
+      ]
+    },
+    {
+      "key": "occupation-nicholas-c-squadrito-b904",
+      "person_id": "42d57907-48c2-528a-a8d8-2809034a9ef3",
+      "affiliation_key": "nicholas-c-squadrito-occupation-b904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-02-25, Nicholas C Squadrito was recorded in the historical waiters and waitresses, except private family category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 227, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "For Rosario Squatrito this official category conflicts with accounts describing tool-and-die work; otherwise it remains a qualified occupation lead.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 227; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b904",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 172; category 2-27",
+          "excerpt_override": "Waiters and waitresses, except private family"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rosario-f-squatrito-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "affiliation_key": "rosario-f-squatrito-occupation-b904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-26, Rosario F Squatrito was recorded in the historical longshoremen and stevedores category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 747, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "For Rosario Squatrito this official category conflicts with accounts describing tool-and-die work; otherwise it remains a qualified occupation lead.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 747; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b904",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 174; category 7-47",
+          "excerpt_override": "Longshoremen and stevedores"
+        }
+      ]
+    },
+    {
+      "key": "identity-drexel-sprecher-b904",
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "claim_type": "identity",
+      "claim_text": "The indexed Drexel A Sprecher is confirmed as attorney and later Nuremberg prosecutor Drexel A. Sprecher.",
+      "evidence_paraphrase": "Institutional and scholarly biographies provide the same distinctive name, education, Army-to-OSS chronology and legal career.",
+      "identity_match_assessment": "Confirmed by the distinctive exact name plus the explicit 1944 OSS transfer chronology.",
+      "temporal_assessment": "The sources distinguish civilian NLRB employment, Army service and the later OSS transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No occupation or employer is inferred from education alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904"
+        },
+        {
+          "source_key": "ushmm-sprecher-b904"
+        },
+        {
+          "source_key": "jackson-sprecher-b904"
+        }
+      ]
+    },
+    {
+      "key": "immediate-drexel-sprecher-army-b904",
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "affiliation_key": "drexel-sprecher-us-army-b904",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Drexel Sprecher's immediate pre-OSS affiliation was the United States Army, from which he transferred into OSS in 1944.",
+      "evidence_paraphrase": "A biographical chronology states that Sprecher enlisted in 1942 and transferred from the Army into OSS in 1944.",
+      "identity_match_assessment": "Confirmed by distinctive name and matching legal and wartime chronology.",
+      "temporal_assessment": "Explicit immediate transfer from Army service to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army is modeled as a military assignment, not an employer.",
+      "sources": [
+        {
+          "source_key": "jackson-sprecher-b904"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-drexel-sprecher-nlrb-b904",
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "affiliation_key": "drexel-sprecher-nlrb-b904",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The National Labor Relations Board was Drexel Sprecher's last civilian employer before Army service.",
+      "evidence_paraphrase": "Biographical accounts place him at the NLRB from 1938 until his 1942 enlistment.",
+      "identity_match_assessment": "Confirmed by distinctive name and matching education, legal career and wartime chronology.",
+      "temporal_assessment": "Explicitly date-bounded immediately before military service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Kept separate from the Army as immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "ushmm-sprecher-b904"
+        },
+        {
+          "source_key": "jackson-sprecher-b904"
+        }
+      ]
+    },
+    {
+      "key": "identity-stewart-springer-b904",
+      "person_id": "2073d664-3994-5e55-8146-4b004808533b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stewart Springer is the shark researcher who worked on an OSS shark-repellent project.",
+      "evidence_paraphrase": "A NOAA history names Stewart Springer as the shark fisherman and senior investigator on the OSS-associated research team.",
+      "identity_match_assessment": "High confidence from the distinctive name and explicit OSS project context.",
+      "temporal_assessment": "The source establishes wartime OSS-associated work but not the exact recruitment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile does not infer an OSS employment grade or exact transfer date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904"
+        },
+        {
+          "source_key": "noaa-springer-b904"
+        }
+      ]
+    },
+    {
+      "key": "earlier-stewart-springer-bass-b904",
+      "person_id": "2073d664-3994-5e55-8146-4b004808533b",
+      "affiliation_key": "stewart-springer-bass-lab-b904",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Stewart Springer worked at Bass Biological Laboratory from 1936 to 1940 as a guide, collector and specimen preparer.",
+      "evidence_paraphrase": "An institutional biography dates the laboratory work; a 1938 federal report independently connects specimens from the laboratory to Springer.",
+      "identity_match_assessment": "High confidence from the distinctive name, marine-science specialty and later documented OSS shark work.",
+      "temporal_assessment": "Documented prewar employment; the 1940-to-wartime gap prevents an immediate-predecessor claim.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as an earlier role only, not as immediate or last civilian employment.",
+      "sources": [
+        {
+          "source_key": "mote-springer-b904"
+        },
+        {
+          "source_key": "govinfo-museum-springer-b904"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-springsteen-b904",
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Robert B Springsteen is confirmed as Robert Burns Springsteen II, an Army finance officer transferred to OSS in 1944.",
+      "evidence_paraphrase": "The Library of Congress oral history supplies the matching name, Army service, officer status and exact OSS reporting date.",
+      "identity_match_assessment": "Confirmed by full-name variant, rank, Army chronology and explicit OSS service.",
+      "temporal_assessment": "The oral history explicitly sequences civilian work, Army service and OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full-name variant is preserved without overwriting the index form.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904"
+        },
+        {
+          "source_key": "loc-springsteen-b904"
+        },
+        {
+          "source_key": "ihs-springsteen-b904"
+        }
+      ]
+    },
+    {
+      "key": "immediate-robert-springsteen-army-b904",
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "affiliation_key": "robert-springsteen-us-army-b904",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Robert Springsteen's immediate pre-OSS affiliation was the United States Army; he reported to OSS on 20 April 1944.",
+      "evidence_paraphrase": "His oral history describes Army service from May 1942 and selection at Duke for transfer to OSS.",
+      "identity_match_assessment": "Confirmed by name, rank and explicit first-person chronology.",
+      "temporal_assessment": "Explicit immediate Army-to-OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army is modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "loc-springsteen-b904"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-robert-springsteen-mcgill-b904",
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "affiliation_key": "robert-springsteen-mcgill-b904",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "McGill Manufacturing Company was Robert Springsteen's last civilian employer before Army service in May 1942.",
+      "evidence_excerpt": "So I quit my job and went home.",
+      "evidence_paraphrase": "Springsteen says he was working at McGill's and quit when ordered into Army service in May 1942.",
+      "identity_match_assessment": "Confirmed by first-person oral history and matching service chronology.",
+      "temporal_assessment": "Explicit last civilian employment immediately before Army service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No job title is invented; the official company history supports normalization and location only.",
+      "sources": [
+        {
+          "source_key": "loc-springsteen-b904",
+          "locator_override": "Oral-history transcript sr0001.xml; opening civilian-work and Army-entry discussion"
+        },
+        {
+          "source_key": "govinfo-mcgill-b904",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-enrico-squadra-b904",
+      "person_id": "054aa915-9d6d-56e0-be23-9baa8cc41dd8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Enrico Squadra is a high-confidence match to the 1943 Office of War Information employee of that distinctive name.",
+      "evidence_paraphrase": "A contemporary federal personnel listing places Enrico Squadra in wartime New York as an Italian-language associate script editor.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and closely relevant wartime language-work context; no protected identifier is available.",
+      "temporal_assessment": "The affiliation is dated to 1943, but its sequence relative to OSS is unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile flags the temporal gap and requests personnel-file review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b904"
+        },
+        {
+          "source_key": "govinfo-owi-b904"
+        }
+      ]
+    },
+    {
+      "key": "other-enrico-squadra-owi-b904",
+      "person_id": "054aa915-9d6d-56e0-be23-9baa8cc41dd8",
+      "affiliation_key": "enrico-squadra-owi-b904",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A 1943 federal personnel listing records Enrico Squadra as an associate script editor in the Office of War Information's Italian-language section in New York.",
+      "evidence_paraphrase": "The Congressional Record supplies his agency, section, location, title and annual salary.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and wartime context.",
+      "temporal_assessment": "Documented wartime affiliation with uncertain relation to OSS; not labeled immediate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Personnel-file evidence is needed before classifying the affiliation as an immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "govinfo-owi-b904"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-rosario-squatrito-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "affiliation_key": "rosario-squatrito-superior-die-b904",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "A retrospective newspaper account identifies Superior Die Cutting as Rosario Squatrito's employer before enlistment.",
+      "evidence_paraphrase": "The account places Squatrito at the named New York employer before military service and describes tool-and-die work.",
+      "identity_match_assessment": "Confirmed identity from protected official identifiers and matching Operation Ginny context; the employer evidence itself is secondary.",
+      "temporal_assessment": "Probably the last civilian employer before enlistment, but exact dates are unstated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The employer claim is visibly qualified because the Army record carries a conflicting longshoreman/stevedore occupation category.",
+      "sources": [
+        {
+          "source_key": "repubblica-squatrito-b904"
+        },
+        {
+          "source_key": "nps-squatrito-b904",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "conflict-rosario-squatrito-occupation-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "claim_type": "occupation",
+      "claim_text": "Rosario Squatrito's pre-service occupation is conflicting: official Army data records a longshoreman/stevedore category, while later accounts describe tool-and-die work.",
+      "evidence_paraphrase": "The official coded record and two narrative accounts assign materially different occupational descriptions.",
+      "identity_match_assessment": "Confirmed as the same person through protected identifiers and Operation Ginny context.",
+      "temporal_assessment": "All evidence refers to the pre-enlistment period, but the discrepancy cannot be reconciled from accessible sources.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both claims remain visible; neither is silently preferred, and default analytics exclude the conflict.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b904",
+          "locator_override": "Civilian occupation code 747; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b904",
+          "locator_override": "PDF physical page 174; category 7-47"
+        },
+        {
+          "source_key": "nps-squatrito-b904",
+          "support_type": "contradicts"
+        },
+        {
+          "source_key": "repubblica-squatrito-b904",
+          "support_type": "contradicts"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "0e4c121e-b8ec-53c4-8219-6d33cad480e7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Leland M Spore, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name and variant searches did not establish which Leland M Spore is represented or a dated pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7c9f82dc-142b-5566-83c4-495af70f5a9b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edith W Spradley, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name, employer, obituary and institutional searches did not produce a defensible identity bridge for Edith W Spradley.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ac952b9c-0215-5883-9d22-ceb512908c48",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rudolph Spreier, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name and spelling-variant searches did not connect Rudolph Spreier to a dated employer or OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3fa53ca6-fce8-565b-944b-b872380114aa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Chester F Sprimont, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name, employer, obituary and archival searches did not establish Chester F Sprimont's identity or chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "31ca18e1-89a7-58c1-bae3-0a1ee1a467c9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William W Spring, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Common-name results did not provide two corroborating identifiers for the indexed William W Spring.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "476fe9eb-9662-5271-8eb7-3c2f370115ef",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elsie S Springer, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name and institutional searches did not establish the indexed Elsie S Springer's pre-OSS identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b36e0245-af72-538e-b3d0-5841840320c9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies L P Springs, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Initials-only results could not resolve L P Springs without the Box 734 personnel file.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b48d9fda-49b5-58a2-98a6-93bbbb61beba",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harold A Sprinkle, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. A military cemetery namesake lacks the identifiers needed to assign it to Harold A Sprinkle's index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ea9b8cab-a554-5f4a-87eb-77ebd07e5229",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies J M Sprouse, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Initials-only searches did not resolve J M Sprouse or establish a pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fecbed6a-6fba-503d-b571-d63944ca0320",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Michael Sproveri, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. A discovery-only operational-group roster names Michael Sproveri but supplies no reliable pre-OSS employer or independent identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f2cd23cc-a4d3-56d9-b5e2-9c16cc68f04c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Donald W Sprung, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. A postwar automobile-business namesake lacks a prewar chronology and is not assigned to Donald W Sprung.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6d2674bf-13cd-57ca-a279-773396e0c696",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edwin A Sprunger, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name and variant searches did not establish Edwin A Sprunger's identity or a dated pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "99dfd800-7906-5a3f-b637-14c1ab450fb6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lester J Spry, Box 734 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. Exact-name, employer, obituary and archival searches did not produce a defensible Lester J Spry identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "58c92e6a-ef6d-54da-a94b-12c52fdcb449",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 734 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "076fc4ee-8c19-5bfa-8ef1-82ba3e0be35d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 734 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Albert I Spratt Jr"
+      ]
+    },
+    {
+      "person_id": "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 734 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af55a43e-3770-5b40-89a0-3f5af651de66",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 734 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "42d57907-48c2-528a-a8d8-2809034a9ef3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 734 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "identity_status": "confirmed",
+      "identity_evidence": "The distinctive exact name, legal education, Army-to-OSS transfer and later Nuremberg role align across institutional and scholarly sources.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Optional Box 734 review may refine his Army and OSS assignment dates; the NLRB employer and Army-to-OSS sequence are already well supported.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "2073d664-3994-5e55-8146-4b004808533b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive name and NOAA's explicit OSS shark-project account connect the indexed person to marine researcher Stewart Springer.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 734 to identify Springer's affiliation between Bass Biological Laboratory in 1940 and wartime OSS-associated work.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "identity_status": "confirmed",
+      "identity_evidence": "The Library of Congress oral history provides the full-name variant, matching Army officer status, civilian-employment chronology and exact OSS reporting date.",
+      "name_variants": [
+        "Robert Burns Springsteen II"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Optional personnel-file review may identify his exact McGill job title and refine the Army finance assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "054aa915-9d6d-56e0-be23-9baa8cc41dd8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A contemporary federal listing supplies the distinctive exact name and a closely relevant wartime Italian-language government role.",
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 734 to establish whether and when the Office of War Information assignment preceded OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "identity_status": "confirmed",
+      "identity_evidence": "A protected official identifier connects the index, Army record and Operation Ginny evidence. The pre-service occupation remains conflicting.",
+      "name_variants": [
+        "Rosario Squatrito",
+        "Rosy Squatrito"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 734 and contemporary employment records to reconcile the official longshoreman/stevedore category with the reported Superior Die Cutting employment and tool-and-die description.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page442-row1-leland-m-spore-b904",
+      "person_id": "0e4c121e-b8ec-53c4-8219-6d33cad480e7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leland M Spore; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name and variant searches did not establish which Leland M Spore is represented or a dated pre-OSS affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and variant searches did not establish which Leland M Spore is represented or a dated pre-OSS affiliation. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row2-edith-w-spradley-b904",
+      "person_id": "7c9f82dc-142b-5566-83c4-495af70f5a9b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edith W Spradley; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name, employer, obituary and institutional searches did not produce a defensible identity bridge for Edith W Spradley.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, employer, obituary and institutional searches did not produce a defensible identity bridge for Edith W Spradley. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row3-jack-h-spradlin-b904",
+      "person_id": "58c92e6a-ef6d-54da-a94b-12c52fdcb449",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack H Spradlin; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. The protected-identifier bridge supports identity and a dated historical metal-finishing occupation category, but not a named employer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row4-albert-i-spratt-b904",
+      "person_id": "076fc4ee-8c19-5bfa-8ef1-82ba3e0be35d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Albert I Spratt; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. The protected-identifier bridge supports identity, the Jr. name variant and a dated printing/publishing clerk category, but not a named employer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row5-roland-g-spratt-b904",
+      "person_id": "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roland G Spratt; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. The protected-identifier bridge supports identity and a dated stenographer/typist category, but not a named employer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row6-drexel-a-sprecher-b904",
+      "person_id": "672a4274-ae72-52bf-9bab-dd71e29b3294",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Drexel A Sprecher; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. Institutional and scholarly biographies establish NLRB employment, Army service and the 1944 OSS transfer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row7-robert-f-spreen-b904",
+      "person_id": "af55a43e-3770-5b40-89a0-3f5af651de66",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert F Spreen; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. The protected-identifier bridge supports identity and a dated accountant/auditor category, but not a named employer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row8-rudolph-spreier-b904",
+      "person_id": "ac952b9c-0215-5883-9d22-ceb512908c48",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rudolph Spreier; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name and spelling-variant searches did not connect Rudolph Spreier to a dated employer or OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and spelling-variant searches did not connect Rudolph Spreier to a dated employer or OSS chronology. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row9-chester-f-sprimont-b904",
+      "person_id": "3fa53ca6-fce8-565b-944b-b872380114aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Chester F Sprimont; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name, employer, obituary and archival searches did not establish Chester F Sprimont's identity or chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, employer, obituary and archival searches did not establish Chester F Sprimont's identity or chronology. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row10-william-w-spring-b904",
+      "person_id": "31ca18e1-89a7-58c1-bae3-0a1ee1a467c9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William W Spring; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name results did not provide two corroborating identifiers for the indexed William W Spring.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Common-name results did not provide two corroborating identifiers for the indexed William W Spring. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row11-elsie-s-springer-b904",
+      "person_id": "476fe9eb-9662-5271-8eb7-3c2f370115ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elsie S Springer; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name and institutional searches did not establish the indexed Elsie S Springer's pre-OSS identity or employer.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and institutional searches did not establish the indexed Elsie S Springer's pre-OSS identity or employer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row12-stewart-springer-b904",
+      "person_id": "2073d664-3994-5e55-8146-4b004808533b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stewart Springer; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. NOAA establishes the OSS shark-project identity; institutional and federal evidence document Bass Biological Laboratory employment from 1936 to 1940. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row13-l-p-springs-b904",
+      "person_id": "b36e0245-af72-538e-b3d0-5841840320c9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "L P Springs; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Initials-only results could not resolve L P Springs without the Box 734 personnel file.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Initials-only results could not resolve L P Springs without the Box 734 personnel file. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row14-robert-b-springsteen-b904",
+      "person_id": "8fcf8ba3-38ce-5b0f-a5bf-ebf8d7cb6819",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert B Springsteen; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. The Library of Congress first-person transcript explicitly sequences McGill employment, May 1942 Army entry and April 1944 OSS transfer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row15-harold-a-sprinkle-b904",
+      "person_id": "b48d9fda-49b5-58a2-98a6-93bbbb61beba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold A Sprinkle; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A military cemetery namesake lacks the identifiers needed to assign it to Harold A Sprinkle's index row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A military cemetery namesake lacks the identifiers needed to assign it to Harold A Sprinkle's index row. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row16-j-m-sprouse-b904",
+      "person_id": "ea9b8cab-a554-5f4a-87eb-77ebd07e5229",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "J M Sprouse; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Initials-only searches did not resolve J M Sprouse or establish a pre-OSS affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Initials-only searches did not resolve J M Sprouse or establish a pre-OSS affiliation. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row17-michael-sproveri-b904",
+      "person_id": "fecbed6a-6fba-503d-b571-d63944ca0320",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Michael Sproveri; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A discovery-only operational-group roster names Michael Sproveri but supplies no reliable pre-OSS employer or independent identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A discovery-only operational-group roster names Michael Sproveri but supplies no reliable pre-OSS employer or independent identity bridge. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row18-donald-w-sprung-b904",
+      "person_id": "f2cd23cc-a4d3-56d9-b5e2-9c16cc68f04c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald W Sprung; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A postwar automobile-business namesake lacks a prewar chronology and is not assigned to Donald W Sprung.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A postwar automobile-business namesake lacks a prewar chronology and is not assigned to Donald W Sprung. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row19-edwin-a-sprunger-b904",
+      "person_id": "6d2674bf-13cd-57ca-a279-773396e0c696",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edwin A Sprunger; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name and variant searches did not establish Edwin A Sprunger's identity or a dated pre-OSS affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and variant searches did not establish Edwin A Sprunger's identity or a dated pre-OSS affiliation. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row20-lester-j-spry-b904",
+      "person_id": "99dfd800-7906-5a3f-b637-14c1ab450fb6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lester J Spry; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name, employer, obituary and archival searches did not produce a defensible Lester J Spry identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, employer, obituary and archival searches did not produce a defensible Lester J Spry identity bridge. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row21-enrico-squadra-b904",
+      "person_id": "054aa915-9d6d-56e0-be23-9baa8cc41dd8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Enrico Squadra; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. A contemporary Congressional Record listing establishes the 1943 Office of War Information role but not the transfer sequence. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row22-nicholas-c-squadrito-b904",
+      "person_id": "42d57907-48c2-528a-a8d8-2809034a9ef3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas C Squadrito; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. The protected-identifier bridge supports identity and a dated waiter/waitress occupation category, but not a named employer. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    },
+    {
+      "key": "page442-row23-rosario-f-squatrito-b904",
+      "person_id": "504c8c55-3a64-59b8-a686-8c86b1c1ab6d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rosario F Squatrito; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 734; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_904",
+      "started_at": "2026-10-25T22:10:00Z",
+      "completed_at": "2026-10-25T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only rosters, chronologically irrelevant results and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a supported, qualified or explicitly conflicting outcome. Official identity evidence and Operation Ginny context confirm the person; the Army occupation category conflicts with later tool-and-die accounts. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 734 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b904-v1"
+    }
+  ]
+}
