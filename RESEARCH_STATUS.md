@@ -1,5 +1,44 @@
 # Research status
 
+Batch 912 completed PDF page 446, rows 24-46, from **Theodore Steimack**
+through **Edwards G Steinhope**, preserving all 23 printed rows and linking
+them to 23 separate active people. All 23 now have terminal research outcomes.
+Seven nonshared protected-identifier Army identity bridges are accepted. Six
+dated occupation categories remain qualified and name no employer; the
+official list supplies no label for code 037, and a malformed grade field is
+not interpreted.
+
+Saul Steinberg is a high-confidence identity match based on the NARA personal-
+name index and person-specific Yale archival evidence. His U.S. Naval Reserve
+commission is the best-supported immediate pre-OSS pathway; his earlier *New
+Yorker* professional affiliation and Regio Politecnico Milan student status
+remain separate, and no last civilian employer is invented. A contemporary
+Congressional Record table documents Estelle H. Steinacker's July 1942
+departure from the Civilian Pilot Training Division for an unnamed higher-paid
+position. That qualified government-assignment evidence remains under temporal
+review. NARA file leads for Maldwin Stein and Wilbur Stein are archival leads,
+not employer claims.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,925/23,936 (58.1760%)**;
+verified-employer coverage is **450/23,936 (1.8800%)**;
+verified-affiliation coverage is **998/23,936 (4.1695%)**; archival-review
+coverage is **12,398/23,936 (51.7965%)**. There are **10,006** not-started
+people, **614** possible-duplicate groups and **481** conflicts. Claim
+confidence counts are **1,641 confirmed**, **4,530 high**, **1,951 medium**,
+**228 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,168** affiliations, **1,146** organizations, **5,685** sources and
+**8,525** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 447, row 1,
+**Irene H Steininger**, in Box 743. See `research/batch-912-progress.md` for the
+source-by-source audit.
+
+Batch 912 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, database integrity, complete
+522-page extraction validation, derived export regeneration, coverage
+reporting and public-data redaction. Release-test, build and deployment results
+will be added after the current release finishes.
+
 Batch 911 completed PDF page 446, rows 1-23, from **Leroy Steele** through
 **Jerome A Steiker**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have terminal research outcomes. Six
