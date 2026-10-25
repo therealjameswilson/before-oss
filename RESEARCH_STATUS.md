@@ -1,5 +1,43 @@
 # Research status
 
+Batch 911 completed PDF page 446, rows 1-23, from **Leroy Steele** through
+**Jerome A Steiker**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have terminal research outcomes. Six
+nonshared protected-identifier Army identity bridges are accepted. Barry Steen
+remains conflicting because the same protected identifier appears on a distinct
+Barry Stern row, and no disputed occupation is published.
+
+Thomas E. Stefan's immediate pre-OSS pathway through the U.S. Army is separated
+from his last named civilian employer before service, Boston's Arch Street
+Tavern. Henry E. Stehli's Stehli Silks Corporation role is the best-supported
+civilian pathway into OSS, with probable rather than explicit temporal
+immediacy. A direct OSS board report confirms only the first of two Nicholas J.
+Steichen rows and documents Army Air Forces service before a March 1943 OSS
+finance assignment; the second row remains separate and unresolved. Golda I.
+Stegner and Sidney G. Steifel retain visibly qualified, medium-confidence
+prewar-employment claims and remain excluded from default employer analytics.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,902/23,936 (58.0799%)**;
+verified-employer coverage is **450/23,936 (1.8800%)**;
+verified-affiliation coverage is **997/23,936 (4.1653%)**; archival-review
+coverage is **12,375/23,936 (51.7004%)**. There are **10,029** not-started
+people, **614** possible-duplicate groups and **481** conflicts. Claim
+confidence counts are **1,641 confirmed**, **4,519 high**, **1,943 medium**,
+**228 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,158** affiliations, **1,144** organizations, **5,676** sources and
+**8,506** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 446, row
+24. See `research/batch-911-progress.md` for the source-by-source audit.
+
+Batch 911 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, database integrity, coverage
+reporting, public-data redaction, all 146 Python tests, a deterministic
+25,126-page static build, the 93/93 bounded browser and accessibility release
+matrix, the 25,126-page internal-link check, the public-identifier scan and the
+zero-vulnerability production dependency audit. Continuous integration,
+deployment and unauthenticated live verification remain separate release gates.
+
 Batch 910 completed PDF page 445, rows 24-46, from **Lewis C Stavanja**
 through **Francis R Steele**, preserving all 23 printed rows and linking them
 to 23 separate active people. All 23 now have terminal research outcomes. Two

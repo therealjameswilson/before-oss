@@ -1,0 +1,1851 @@
+{
+  "bundle_version": "batch-911-v1",
+  "reviewer": "Before OSS Batch 911 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b911",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 741-743",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 446, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain immutable. The two Nicholas J. Steichen rows remain separate, and full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b911",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted and two conflicting reviewed Batch 911 candidate matches",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw Army row or full protected identifier is retained in public assets. The Barry Steen candidates remain conflicting because the identifier is shared with Barry Stern."
+    },
+    {
+      "key": "army-tech-b911",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b911",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175; six civilian-occupation categories visually and textually checked",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation categories identify neither a named employer nor an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "hoover-oss-cairo-board-b911",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331585/full",
+      "archival_identifier": "Millard Preston Goodfellow papers; OSS Board of Officers interview report",
+      "title": "OSS Board of Officers report, Cairo personnel interviews",
+      "author_creator": "United States Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives Digital Collections",
+      "publication_record_date": "1944-05",
+      "locator": "PDF physical page 30, section XXII, Nicholas J. Steichen",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Millard Preston Goodfellow papers",
+      "rights_notes": "The direct interview establishes the protected-identifier identity, Army Air Forces entry, March 1943 OSS transfer and finance assignment."
+    },
+    {
+      "key": "tirana-observatory-stefan-b911",
+      "stable_url": "https://tiranaobservatory.com/2021/04/15/with-the-reds-captain-tom-stefan-and-enver-hoxha/",
+      "title": "With the Reds: Captain Tom Stefan and Enver Hoxha",
+      "author_creator": "Peter Lucas",
+      "repository_publisher": "Tirana Observatory",
+      "publication_record_date": "2021-04-15",
+      "locator": "Biographical chronology naming the Arch Street Tavern, Army entry and OSS entry",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Lucas cites extensive OSS records and interviews. The project publishes only short supporting excerpts."
+    },
+    {
+      "key": "tirana-times-stefan-b911",
+      "stable_url": "https://www.tiranatimes.com/hollywood-movie-to-tell-hoxhas-friendship-story_102360/",
+      "title": "Hollywood movie to tell Hoxha's friendship story",
+      "author_creator": "Adapted from The Citizen of Laconia",
+      "repository_publisher": "Tirana Times",
+      "publication_record_date": "ca. 2007",
+      "locator": "Biographical section identifying Thomas Eftim Stefan, education, 1942 Army entry and 1943 OSS service",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used to corroborate the expanded middle name and chronology, not as the sole employer evidence."
+    },
+    {
+      "key": "cia-review-stehli-b911",
+      "source_id": "a9bf6f20-1e79-5385-9c88-6aa41976a5a8",
+      "stable_url": "https://www.cia.gov/resources/csi/static/review-spies-in-congo.pdf",
+      "title": "Review of Spies in the Congo: America's Atomic Mission in World War II",
+      "author_creator": "David A. Foy",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2016-12",
+      "locator": "Studies in Intelligence, volume 60, number 4, pages 36-37",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Intelligence in Public Media",
+      "rights_notes": "The CIA review corroborates Henry Stehli's OSS Congo identity and July 1944 arrival; it does not supply his civilian employer."
+    },
+    {
+      "key": "williams-spies-congo-b911",
+      "stable_url": "https://www.hachettebookgroup.com/titles/susan-williams/spies-in-the-congo/9781610396547/",
+      "archival_identifier": "ISBN 9781610396547",
+      "title": "Spies in the Congo: America's Atomic Mission in World War II",
+      "author_creator": "Susan Williams",
+      "repository_publisher": "PublicAffairs",
+      "publication_record_date": "2016-08-09",
+      "locator": "Chapter 13, print pages 147-148; Henry Emil Stehli biography and July 1944 OSS arrival",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Bibliographic pointer to a scholarly book grounded in NARA and family papers; no book text is republished."
+    },
+    {
+      "key": "time-silk-reprint-b911",
+      "stable_url": "https://thedreamstress.com/2010/12/them-and-the-silk-trade/",
+      "title": "'Them' and the silk trade (reprint of Time, September 12, 1932)",
+      "author_creator": "Time magazine; reprinted by The Dreamstress",
+      "repository_publisher": "The Dreamstress",
+      "publication_record_date": "1932-09-12; reprinted 2010-12-24",
+      "locator": "Paragraph naming Henry E. Stehli as secretary and treasurer of Stehli Silks Corp.",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "A modern reprint of a contemporary magazine article; used with Williams's independently researched biography."
+    },
+    {
+      "key": "umn-directory-1922-b911",
+      "stable_url": "https://conservancy.umn.edu/bitstream/11299/52264/1/Directory1922-1923.pdf",
+      "title": "The University Address Book, 1922-1923",
+      "author_creator": "University of Minnesota",
+      "repository_publisher": "University of Minnesota Digital Conservancy",
+      "publication_record_date": "1922-1923",
+      "locator": "PDF page 31, Golda I. Stegner entry",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Minnesota directories",
+      "rights_notes": "The public claim omits the historical residential address and telephone number."
+    },
+    {
+      "key": "umn-address-book-1928-b911",
+      "stable_url": "https://conservancy.umn.edu/bitstreams/f4851862-3bb5-4547-828b-f901cb34bb04/download",
+      "title": "The University Address Book",
+      "author_creator": "University of Minnesota",
+      "repository_publisher": "University of Minnesota Digital Conservancy",
+      "publication_record_date": "1924-1925",
+      "locator": "Printed page 140, Golda I. Stegner student entry",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Minnesota directories",
+      "rights_notes": "Used as identity and chronology context. The public claim omits historical address and telephone details."
+    },
+    {
+      "key": "congress-golda-stegner-b911",
+      "stable_url": "https://www.congress.gov/83/crecb/1953/07/21/GPO-CRECB-1953-pt7-8.pdf",
+      "archival_identifier": "83rd Congress, Congressional Record, July 21, 1953, page 9401",
+      "title": "Congressional Record — House, July 21, 1953",
+      "author_creator": "United States Congress",
+      "repository_publisher": "Congress.gov; U.S. Government Publishing Office",
+      "publication_record_date": "1953-07-21",
+      "locator": "Page 9401, bill for the relief of Golda I. Stegner",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Postwar Minneapolis and Department of the Army context only; unrelated medical details are not reproduced or used."
+    },
+    {
+      "key": "digitalnc-steifel-1937-b911",
+      "stable_url": "https://lib.digitalnc.org/nanna/record/25176/files/dirforsyth_000796_000001.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+      "archival_identifier": "DigitalNC record 25176",
+      "title": "Hill's Winston-Salem (Forsyth County, N.C.) City Directory, 1937",
+      "author_creator": "Hill Directory Company",
+      "repository_publisher": "DigitalNC; University of North Carolina at Chapel Hill",
+      "publication_record_date": "1937",
+      "locator": "Sidney G. Steifel entry and Steifel Mattress Co. entry",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "North Carolina city directories",
+      "rights_notes": "The public claim omits spouse and residential-address details."
+    },
+    {
+      "key": "rinat-veterans-jonas-b911",
+      "stable_url": "https://images.shulcloud.com/443/uploads/Veterans-Day/2024/Booklet2024.pdf",
+      "title": "Rinat Veterans Day Booklet 2024",
+      "author_creator": "Congregation Rinat Yisrael",
+      "repository_publisher": "Congregation Rinat Yisrael",
+      "publication_record_date": "2024",
+      "locator": "PDF physical page 25, Jonas Steigman detailed entry; name also appears on physical page 10",
+      "access_date": "2026-10-25",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Community-contributed corroboration for Army and Ritchie Boys service; not used to interpret the malformed Army grade field."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b911",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The source establishes Army service but does not justify inventing a more specific unit."
+    },
+    {
+      "key": "usaaf-b911",
+      "organization_id": "75a3a185-5c26-548b-8be6-9bcdf51bc4eb",
+      "canonical_name": "United States Army Air Forces",
+      "historical_name": "U.S. Army Air Forces",
+      "aliases": [
+        "Army Air Forces",
+        "Air Forces"
+      ],
+      "organization_type": "military air service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1941-1947",
+      "normalization_notes": "The OSS interview says only Air Forces; no pre-OSS unit is invented."
+    },
+    {
+      "key": "arch-street-tavern-b911",
+      "canonical_name": "Arch Street Tavern",
+      "historical_name": "Arch Street Tavern",
+      "aliases": [],
+      "organization_type": "restaurant",
+      "sector": "business_and_industry",
+      "city": "Boston",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "The historical business name is preserved as reported; no successor organization is asserted."
+    },
+    {
+      "key": "stehli-silks-b911",
+      "canonical_name": "Stehli Silks Corporation",
+      "historical_name": "Stehli Silks Corp.",
+      "aliases": [
+        "Stehli Silks",
+        "Stehli and Company"
+      ],
+      "organization_type": "silk and textile manufacturer",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "U.S. operations established ca. 1897; later corporate history not normalized here",
+      "normalization_notes": "The family business and corporate name are linked by the cited sources; no modern successor is substituted."
+    },
+    {
+      "key": "umn-b911",
+      "organization_id": "a7d41a87-9f88-51a4-9eb3-fb8de0ce10a1",
+      "canonical_name": "University of Minnesota",
+      "historical_name": "University of Minnesota",
+      "aliases": [],
+      "organization_type": "public university",
+      "sector": "academia_and_research",
+      "city": "Minneapolis and Saint Paul",
+      "state_or_region": "Minnesota",
+      "country": "United States",
+      "normalization_notes": "Golda Stegner's staff role is distinct from her later student listing."
+    },
+    {
+      "key": "steifel-mattress-b911",
+      "canonical_name": "Steifel Mattress Company",
+      "historical_name": "Steifel Mattress Co.",
+      "aliases": [
+        "Steifel Mattress Co"
+      ],
+      "organization_type": "mattress manufacturer",
+      "sector": "business_and_industry",
+      "city": "Winston-Salem",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "active_dates": "Documented in the 1937 city directory",
+      "normalization_notes": "The historical spelling Steifel is preserved; no modern successor is asserted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "richard-j-steele-occupation-b911",
+      "person_id": "d11bb24e-11a5-5a60-838a-9f94a5349443",
+      "occupation": "occupations in mechanical treatment of metals, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-10-02",
+      "date_precision": "The official Army entry record assigns historical civilian-occupation code 688 on 1942-10-02; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The coded category is dated at Army entry; it is not a named employer and is not silently promoted to the immediate pre-OSS field."
+    },
+    {
+      "key": "robert-l-steele-occupation-b911",
+      "person_id": "1c396a67-7acc-5ede-bdd5-38d665600b68",
+      "occupation": "sales clerk",
+      "relationship_type": "employment",
+      "end_date": "1941-03-19",
+      "date_precision": "The official Army entry record assigns historical civilian-occupation code 170 on 1941-03-19; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The coded category is dated at Army entry; it is not a named employer and is not silently promoted to the immediate pre-OSS field."
+    },
+    {
+      "key": "george-e-stefo-occupation-b911",
+      "person_id": "5e9ca4a9-8f38-5ade-a2e8-d2ed7c70f03f",
+      "occupation": "cook, except private family",
+      "relationship_type": "employment",
+      "end_date": "1942-10-10",
+      "date_precision": "The official Army entry record assigns historical civilian-occupation code 226 on 1942-10-10; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The coded category is dated at Army entry; it is not a named employer and is not silently promoted to the immediate pre-OSS field."
+    },
+    {
+      "key": "armand-d-steholm-occupation-b911",
+      "person_id": "cbd7ba3e-326a-50c7-b47d-5d3c47ddce58",
+      "occupation": "warehousing, storekeeping, handling, loading, unloading, and related occupations",
+      "relationship_type": "employment",
+      "end_date": "1943-01-08",
+      "date_precision": "The official Army entry record assigns historical civilian-occupation code 788 on 1943-01-08; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The coded category is dated at Army entry; it is not a named employer and is not silently promoted to the immediate pre-OSS field."
+    },
+    {
+      "key": "nicholas-j-steichen-occupation-b911",
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "occupation": "managers and officials, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-04-07",
+      "date_precision": "The official Army entry record assigns historical civilian-occupation code 097 on 1942-04-07; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The coded category is dated at Army entry; it is not a named employer and is not silently promoted to the immediate pre-OSS field."
+    },
+    {
+      "key": "jonas-steigman-occupation-b911",
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "occupation": "retail manager",
+      "relationship_type": "employment",
+      "end_date": "1942-09-21",
+      "date_precision": "The official Army entry record assigns historical civilian-occupation code 072 on 1942-09-21; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The coded category is dated at Army entry; it is not a named employer and is not silently promoted to the immediate pre-OSS field."
+    },
+    {
+      "key": "thomas-stefan-army-b911",
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "organization_key": "us-army-b911",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "commissioned officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-04-10",
+      "end_date": "1943-08-18",
+      "date_precision": "The biographical chronology dates Army entry to April 10, 1942 and OSS entry to August 18, 1943; no intermediate Army unit is named.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Immediate military pathway kept separate from the last civilian employer."
+    },
+    {
+      "key": "thomas-stefan-arch-street-b911",
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "organization_key": "arch-street-tavern-b911",
+      "organization_name_as_found": "Arch Street Tavern",
+      "role_title": "restaurant worker",
+      "occupation": "dishwasher and table cleaner",
+      "relationship_type": "employment",
+      "end_date": "1942-04",
+      "date_precision": "The biography explicitly places this Boston work before Army entry on April 10, 1942.",
+      "city": "Boston",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The Army intervened between civilian employment and OSS entry, so the tavern is not labeled the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "henry-stehli-silks-b911",
+      "person_id": "b58a981b-bec0-5212-bec0-b044dd904d6d",
+      "organization_key": "stehli-silks-b911",
+      "organization_name_as_found": "Stehli Silks Corp.",
+      "role_title": "secretary and treasurer",
+      "occupation": "textile-company executive",
+      "relationship_type": "employment",
+      "end_date": "1944",
+      "date_precision": "A 1932 contemporary article names the executive role; Williams says he worked in the family company in peacetime and joined the Congo OSS team in July 1944.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The sources strongly support the family company as his civilian pathway, but do not explicitly say he left it immediately before OSS appointment."
+    },
+    {
+      "key": "golda-stegner-umn-b911",
+      "person_id": "56b1a29e-0aac-5706-b3be-7b56982ffc13",
+      "organization_key": "umn-b911",
+      "organization_name_as_found": "University of Minnesota",
+      "role_title": "stenographer, Department of Animal Husbandry",
+      "occupation": "stenographer",
+      "relationship_type": "employment",
+      "start_date": "1922",
+      "end_date": "1923",
+      "date_precision": "The university's 1922-1923 address book names the role; a later address book lists the same rare full name as a student.",
+      "city": "Saint Paul",
+      "state_or_region": "Minnesota",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact rare-name and Minnesota continuity support a qualified match; no source independently states that the university employee later served in OSS."
+    },
+    {
+      "key": "sidney-steifel-mattress-b911",
+      "person_id": "fc427301-8f5e-5e33-b8b9-4ab8d630cc17",
+      "organization_key": "steifel-mattress-b911",
+      "organization_name_as_found": "Steifel Mattress Co.",
+      "role_title": "driver",
+      "occupation": "driver",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "end_date": "1937",
+      "date_precision": "The 1937 city directory names the exact rare full name and employer; no reviewed source proves the immediate pre-OSS sequence.",
+      "city": "Winston-Salem",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The uncommon exact name and prewar chronology support a qualified match, but the personnel file remains necessary for a direct identity bridge."
+    },
+    {
+      "key": "nicholas-steichen-usaaf-b911",
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "organization_key": "usaaf-b911",
+      "organization_name_as_found": "Air Forces",
+      "role_title": "Technician Third Grade; finance training",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-04-07",
+      "end_date": "1943-03",
+      "date_precision": "The 1944 OSS interview explicitly dates Army entry, identifies the Air Forces and dates transfer to OSS to March 1943.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The source does not name a more specific Air Forces unit or civilian employer."
+    },
+    {
+      "key": "jonas-steigman-army-b911",
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "organization_key": "us-army-b911",
+      "organization_name_as_found": "Army",
+      "role_title": "Ritchie Boys intelligence trainee or member",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-09-21",
+      "date_precision": "The official Army record dates entry; a community veterans record identifies Army and Ritchie Boys service but does not date the OSS relationship.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The malformed Army grade value 7VT is preserved privately and not interpreted as a rank."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-richard-j-steele-b911",
+      "person_id": "d11bb24e-11a5-5a60-838a-9f94a5349443",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard J Steele is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index row to Army name STEELE RICHARD J and a dated entry record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "The Army record dates entry to 1942-10-02 but does not itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed publicly. The Army record is used as an identity bridge, not proof of a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 2; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Accepted reviewed identity bridge; Army name STEELE RICHARD J; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-richard-j-steele-b911",
+      "person_id": "d11bb24e-11a5-5a60-838a-9f94a5349443",
+      "affiliation_key": "richard-j-steele-occupation-b911",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-02, Richard J Steele was recorded in the historical civilian-occupation category occupations in mechanical treatment of metals, not elsewhere classified; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 688, which the visually checked NARA code list maps to occupations in mechanical treatment of metals, not elsewhere classified.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as the immediate pre-OSS role.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1942-10-02; occupation code 688; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b911",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b911",
+          "locator_override": "PDF physical page 174; historical category 688"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-l-steele-b911",
+      "person_id": "1c396a67-7acc-5ede-bdd5-38d665600b68",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert L Steele is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index row to Army name STEELE ROBERT L and a dated entry record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "The Army record dates entry to 1941-03-19 but does not itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed publicly. The Army record is used as an identity bridge, not proof of a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 3; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Accepted reviewed identity bridge; Army name STEELE ROBERT L; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-l-steele-b911",
+      "person_id": "1c396a67-7acc-5ede-bdd5-38d665600b68",
+      "affiliation_key": "robert-l-steele-occupation-b911",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-19, Robert L Steele was recorded in the historical civilian-occupation category sales clerk; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 170, which the visually checked NARA code list maps to sales clerk.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as the immediate pre-OSS role.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1941-03-19; occupation code 170; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b911",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b911",
+          "locator_override": "PDF physical page 171; historical category 170"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-e-stefo-b911",
+      "person_id": "5e9ca4a9-8f38-5ade-a2e8-d2ed7c70f03f",
+      "claim_type": "identity",
+      "claim_text": "The indexed George E Stefo is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index row to Army name STEFO GEORGE E and a dated entry record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "The Army record dates entry to 1942-10-10 but does not itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed publicly. The Army record is used as an identity bridge, not proof of a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Accepted reviewed identity bridge; Army name STEFO GEORGE E; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-e-stefo-b911",
+      "person_id": "5e9ca4a9-8f38-5ade-a2e8-d2ed7c70f03f",
+      "affiliation_key": "george-e-stefo-occupation-b911",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-10, George E Stefo was recorded in the historical civilian-occupation category cook, except private family; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 226, which the visually checked NARA code list maps to cook, except private family.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as the immediate pre-OSS role.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1942-10-10; occupation code 226; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b911",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b911",
+          "locator_override": "PDF physical page 172; historical category 226"
+        }
+      ]
+    },
+    {
+      "key": "identity-armand-d-steholm-b911",
+      "person_id": "cbd7ba3e-326a-50c7-b47d-5d3c47ddce58",
+      "claim_type": "identity",
+      "claim_text": "The indexed Armand D Steholm is a high-confidence match to the reviewed official Army record. The Army spelling Stenholm is retained as a variant rather than silently correcting the index.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index row to Army name STENHOLM ARMAND D and a dated entry record.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier; the one-letter surname discrepancy remains explicit.",
+      "temporal_assessment": "The Army record dates entry to 1943-01-08 but does not itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed publicly. The Army record is used as an identity bridge, not proof of a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 16; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Accepted reviewed identity bridge; Army name STENHOLM ARMAND D; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-armand-d-steholm-b911",
+      "person_id": "cbd7ba3e-326a-50c7-b47d-5d3c47ddce58",
+      "affiliation_key": "armand-d-steholm-occupation-b911",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-08, Armand D Steholm was recorded in the historical civilian-occupation category warehousing, storekeeping, handling, loading, unloading, and related occupations; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 788, which the visually checked NARA code list maps to warehousing, storekeeping, handling, loading, unloading, and related occupations.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier; the one-letter surname discrepancy remains explicit.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as the immediate pre-OSS role.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1943-01-08; occupation code 788; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b911",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b911",
+          "locator_override": "PDF physical page 175; historical category 788"
+        }
+      ]
+    },
+    {
+      "key": "identity-nicholas-j-steichen-b911",
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nicholas J Steichen is confirmed as the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index row to Army name STEICHEN NICHOLAS J and a dated entry record.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement across the index, Army record and direct OSS interview.",
+      "temporal_assessment": "The Army record dates entry to 1942-04-07 but does not itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed publicly. The Army record is used as an identity bridge, not proof of a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 18; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Accepted reviewed identity bridge; Army name STEICHEN NICHOLAS J; protected identifier withheld"
+        },
+        {
+          "source_key": "hoover-oss-cairo-board-b911",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 30, section XXII; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-nicholas-j-steichen-b911",
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "affiliation_key": "nicholas-j-steichen-occupation-b911",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-07, Nicholas J Steichen was recorded in the historical civilian-occupation category managers and officials, not elsewhere classified; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 097, which the visually checked NARA code list maps to managers and officials, not elsewhere classified.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement across the index, Army record and direct OSS interview.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as the immediate pre-OSS role.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1942-04-07; occupation code 097; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b911",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b911",
+          "locator_override": "PDF physical page 171; historical category 097"
+        }
+      ]
+    },
+    {
+      "key": "identity-jonas-steigman-b911",
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jonas Steigman is a high-confidence match to the reviewed official Army record. The Army spelling Steigmann is retained as a variant, and the malformed grade value is not interpreted.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index row to Army name STEIGMANN JONAS and a dated entry record.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier plus independent Army intelligence-service corroboration.",
+      "temporal_assessment": "The Army record dates entry to 1942-09-21 but does not itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed publicly. The Army record is used as an identity bridge, not proof of a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 22; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Accepted reviewed identity bridge; Army name STEIGMANN JONAS; protected identifier withheld"
+        },
+        {
+          "source_key": "rinat-veterans-jonas-b911",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 25, Jonas Steigman Army and Ritchie Boys entry"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jonas-steigman-b911",
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "affiliation_key": "jonas-steigman-occupation-b911",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-21, Jonas Steigman was recorded in the historical civilian-occupation category retail manager; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 072, which the visually checked NARA code list maps to retail manager.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier plus independent Army intelligence-service corroboration.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as the immediate pre-OSS role.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1942-09-21; occupation code 072; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b911",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b911",
+          "locator_override": "PDF physical page 171; historical category 072"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-eftim-stefan-b911",
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Thomas E. Stefan is a high-confidence match to Thomas Eftim Stefan, the Albanian-speaking U.S. Army and OSS liaison officer.",
+      "evidence_paraphrase": "The exact name and middle initial, captain rank, Albanian assignment, Army chronology and person-specific OSS service align across two biographies.",
+      "identity_match_assessment": "High confidence from the distinctive expanded name, matching captain rank and independently documented OSS Albania service.",
+      "temporal_assessment": "The sources separately date civilian work, Army entry and OSS entry.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full middle name is retained as a documented variant; the indexed form remains primary.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 8; Captain Thomas E. Stefan"
+        },
+        {
+          "source_key": "tirana-observatory-stefan-b911",
+          "locator_override": "Biographical chronology and OSS Albania assignment"
+        },
+        {
+          "source_key": "tirana-times-stefan-b911",
+          "support_type": "context_only",
+          "locator_override": "Thomas Eftim Stefan biography and captain chronology"
+        }
+      ]
+    },
+    {
+      "key": "immediate-thomas-stefan-army-b911",
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "affiliation_key": "thomas-stefan-army-b911",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Thomas E. Stefan's immediate pre-OSS pathway was U.S. Army service from April 1942 until his documented OSS entry in 1943.",
+      "evidence_excerpt": "volunteered to join the U.S. Army April 10, 1942",
+      "evidence_paraphrase": "The biography explicitly sequences Army entry, commissioning and military-intelligence schooling before OSS entry.",
+      "identity_match_assessment": "High confidence from name, rank, Albanian-language role and person-specific OSS chronology.",
+      "temporal_assessment": "Explicit Army-to-OSS sequence; no pre-OSS Army unit is named.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The military assignment is distinct from the earlier civilian employer.",
+      "sources": [
+        {
+          "source_key": "tirana-observatory-stefan-b911",
+          "locator_override": "Army entry and August 18, 1943 OSS entry chronology"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-thomas-stefan-arch-street-b911",
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "affiliation_key": "thomas-stefan-arch-street-b911",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Immediately before Army service, Thomas E. Stefan worked at Boston's Arch Street Tavern as a restaurant worker while attending college at night.",
+      "evidence_excerpt": "worked in an Albanian owned restaurant called the Arch Street Tavern",
+      "evidence_paraphrase": "The biography names the employer and work, then dates voluntary Army entry to April 10, 1942.",
+      "identity_match_assessment": "High confidence from the distinctive expanded name and person-specific OSS Albania chronology.",
+      "temporal_assessment": "Strongly date-bounded as the last named civilian work before Army entry; the Army intervened before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as last civilian employer before service, not as the immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "tirana-observatory-stefan-b911",
+          "locator_override": "Arch Street Tavern and pre-Army chronology"
+        },
+        {
+          "source_key": "tirana-times-stefan-b911",
+          "support_type": "context_only",
+          "locator_override": "Boston work, night college and 1942 Army entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-emil-stehli-b911",
+      "person_id": "b58a981b-bec0-5212-bec0-b044dd904d6d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry E. Stehli is a high-confidence match to Henry Emil Stehli, the Stehli Silks executive who joined the OSS team in the Belgian Congo.",
+      "evidence_paraphrase": "The rare exact indexed name, expanded middle name, family-company biography and CIA-reviewed OSS Congo chronology align.",
+      "identity_match_assessment": "High confidence from the rare name plus person-specific July 1944 OSS Congo assignment in authoritative and scholarly sources.",
+      "temporal_assessment": "The sources place family-company work before his July 1944 Congo assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full middle name is retained as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 15; Henry E. Stehli, Box 742"
+        },
+        {
+          "source_key": "williams-spies-congo-b911",
+          "locator_override": "Chapter 13, print pages 147-148"
+        },
+        {
+          "source_key": "cia-review-stehli-b911",
+          "support_type": "context_only",
+          "locator_override": "Studies in Intelligence, volume 60, number 4, pages 36-37"
+        }
+      ]
+    },
+    {
+      "key": "employer-henry-stehli-silks-b911",
+      "person_id": "b58a981b-bec0-5212-bec0-b044dd904d6d",
+      "affiliation_key": "henry-stehli-silks-b911",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Henry E. Stehli's best-supported civilian pathway into OSS was the family firm Stehli Silks Corporation, where he was a company executive.",
+      "evidence_excerpt": "secretary and treasurer of Stehli Silks Corp.",
+      "evidence_paraphrase": "A 1932 contemporary article names his role; Williams says he joined the family company and later the Congo OSS team in July 1944.",
+      "identity_match_assessment": "High confidence from the rare name and independent, person-specific OSS Congo evidence.",
+      "temporal_assessment": "Probable immediate civilian affiliation; the sources do not explicitly state the exact date he left the firm.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile visibly preserves probable, rather than explicit, temporal immediacy.",
+      "sources": [
+        {
+          "source_key": "time-silk-reprint-b911",
+          "locator_override": "Reprinted 1932 paragraph naming Henry E. Stehli and his corporate office"
+        },
+        {
+          "source_key": "williams-spies-congo-b911",
+          "locator_override": "Chapter 13, print pages 147-148; family company and July 1944 OSS arrival"
+        },
+        {
+          "source_key": "cia-review-stehli-b911",
+          "support_type": "context_only",
+          "locator_override": "July 1944 Congo OSS arrival"
+        }
+      ]
+    },
+    {
+      "key": "identity-golda-stegner-b911",
+      "person_id": "56b1a29e-0aac-5706-b3be-7b56982ffc13",
+      "claim_type": "identity",
+      "claim_text": "The indexed Golda I. Stegner is a probable match to the University of Minnesota stenographer and later student of the same rare full name.",
+      "evidence_paraphrase": "Two university directories and a postwar federal record preserve the exact rare full name and Minnesota continuity.",
+      "identity_match_assessment": "Probable; no source outside the index directly states that the university employee served in OSS.",
+      "temporal_assessment": "The university employment is explicitly prewar; its relation to OSS recruitment remains unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The affiliation is excluded from default employer analytics pending personnel-file confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 14; Golda I. Stegner"
+        },
+        {
+          "source_key": "umn-directory-1922-b911",
+          "locator_override": "PDF page 31, Golda I. Stegner staff entry"
+        },
+        {
+          "source_key": "umn-address-book-1928-b911",
+          "support_type": "context_only",
+          "locator_override": "Printed page 140, Golda I. Stegner student entry"
+        },
+        {
+          "source_key": "congress-golda-stegner-b911",
+          "support_type": "context_only",
+          "locator_override": "Page 9401; exact name and Minneapolis context only"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-golda-stegner-umn-b911",
+      "person_id": "56b1a29e-0aac-5706-b3be-7b56982ffc13",
+      "affiliation_key": "golda-stegner-umn-b911",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the qualified identity match is correct, Golda I. Stegner worked as a stenographer in the University of Minnesota Department of Animal Husbandry in 1922-1923.",
+      "evidence_excerpt": "Stenographer, Dept Animal Husbandry",
+      "evidence_paraphrase": "The university's contemporary directory names the exact rare full name, role and department.",
+      "identity_match_assessment": "Probable from rare-name and Minnesota continuity, but not independently bridged to OSS service.",
+      "temporal_assessment": "Documented prewar employment; not shown to be immediate or her last civilian employer before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical private address and telephone details are omitted.",
+      "sources": [
+        {
+          "source_key": "umn-directory-1922-b911",
+          "locator_override": "PDF page 31, Golda I. Stegner entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-sidney-steifel-b911",
+      "person_id": "fc427301-8f5e-5e33-b8b9-4ab8d630cc17",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sidney G. Steifel is a probable match to the Winston-Salem mattress-company employee of the same rare full name.",
+      "evidence_paraphrase": "A contemporary directory records the exact uncommon name and a plausible prewar employment chronology.",
+      "identity_match_assessment": "Probable; the city directory supplies no OSS, box or protected-identifier bridge.",
+      "temporal_assessment": "The job is documented in 1937 but is not shown to be immediately before OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile remains visibly qualified and requires Box 742 confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 20; Sidney G. Steifel"
+        },
+        {
+          "source_key": "digitalnc-steifel-1937-b911",
+          "locator_override": "Sidney G. Steifel entry and employer listing"
+        }
+      ]
+    },
+    {
+      "key": "employer-sidney-steifel-mattress-b911",
+      "person_id": "fc427301-8f5e-5e33-b8b9-4ab8d630cc17",
+      "affiliation_key": "sidney-steifel-mattress-b911",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the qualified identity match is correct, Sidney G. Steifel worked as a driver for Steifel Mattress Company in Winston-Salem in 1937.",
+      "evidence_excerpt": "driver Steifel Mattress Co",
+      "evidence_paraphrase": "The contemporary city directory names the person, role and employer.",
+      "identity_match_assessment": "Probable from the uncommon exact name; no independent OSS bridge is available.",
+      "temporal_assessment": "Documented prewar employment only; not shown to be immediate or the last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from default employer analytics; historical private address and spouse details are omitted.",
+      "sources": [
+        {
+          "source_key": "digitalnc-steifel-1937-b911",
+          "locator_override": "Sidney G. Steifel entry and Steifel Mattress Co. listing"
+        }
+      ]
+    },
+    {
+      "key": "immediate-nicholas-steichen-usaaf-b911",
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "affiliation_key": "nicholas-steichen-usaaf-b911",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Nicholas J. Steichen entered the Army Air Forces on April 7, 1942 and came to OSS for finance work in March 1943.",
+      "evidence_excerpt": "The Air Forces ... March, 1943 ... Finance work",
+      "evidence_paraphrase": "His direct OSS interview explicitly identifies the military branch, Army entry date, OSS transfer month and finance assignment.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement across the index, Army record and OSS interview.",
+      "temporal_assessment": "Explicit immediate military pathway from the Air Forces to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The second same-name index row has a different protected identifier and receives none of this evidence.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-cairo-board-b911",
+          "locator_override": "PDF physical page 30, section XXII; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "army-jonas-steigman-b911",
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "affiliation_key": "jonas-steigman-army-b911",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Jonas Steigman had documented U.S. Army service beginning September 21, 1942 and was associated with the Ritchie Boys; the precise OSS transition is unresolved.",
+      "evidence_paraphrase": "The official entry record and an independent community veterans record align on Army and intelligence-service context.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier plus the uncommon name and Ritchie Boys corroboration.",
+      "temporal_assessment": "Wartime Army service is established, but neither source dates the OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The Army grade value is malformed and is not normalized to a rank.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Army-entry date 1942-09-21; protected identifier withheld"
+        },
+        {
+          "source_key": "rinat-veterans-jonas-b911",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 25, Jonas Steigman entry"
+        }
+      ]
+    },
+    {
+      "key": "candidate-barry-steen-stern-b911",
+      "person_id": "b01fb41c-7382-5dbf-963e-d783d61ce4a5",
+      "claim_type": "identity",
+      "claim_text": "An official Army candidate cannot be assigned to Barry Steen because the same protected identifier also appears on a distinct Barry Stern index row.",
+      "evidence_paraphrase": "The Army candidate is recorded as Barry Stern and its identifier is shared by two preserved index entities.",
+      "identity_match_assessment": "Conflicting; the identifier collision and surname disagreement prevent assignment.",
+      "temporal_assessment": "The candidate's Army occupation and chronology remain unusable until both personnel files are compared.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "needs_review",
+      "match_notes": "Private review claim only; no protected identifier or occupation is published.",
+      "sources": [
+        {
+          "source_key": "nara-index-b911",
+          "locator_override": "PDF page 446 row 5 and separate Barry Stern row; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b911",
+          "locator_override": "Conflicting shared-identifier candidate; protected identifier withheld"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bbbd4757-0a81-5450-bc6e-916c018f177f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Leroy Steele, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A possible LeRoy James Steele biography names Lockheed Aircraft, but no OSS, box, rank or protected-identifier evidence connects that namesake to this row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fb49b3e8-8903-538b-8edc-ec824f4d9e08",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Benjamin F Steely, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and variant searches produced no source that establishes a person-specific OSS identity or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b0a2730-bae9-561e-a5b6-227e666cba3d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Henry V Steenberghe, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A Belgian historian with a similar name appears only in postwar material and lacks an OSS or archival-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0cfa6a06-2cdc-5659-84dc-37a909d120dd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ernest W Stees, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Military and obituary leads lack a protected identifier, a person-specific OSS assignment or reliable prewar employment evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9422efef-ffce-5906-90e8-0a371c147543",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Michael J Stefancich, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, occupation, obituary, directory and institutional searches produced no defensible person-specific result.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38ccaa39-1ff4-5080-97dd-734397c60d56",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rino C Stefani, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Discovery-only genealogy results supply no reliable employer or independent bridge to the indexed technician fourth grade.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "97691c35-acb6-5ac8-bc15-9777a225754b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John Stefen, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches produced no defensible identity or affiliation result.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "146e3441-81a5-52ff-95a7-d342205fa719",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles L Stegman, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Wyoming ranch and rodeo references for a namesake lack corroborating OSS, box or protected-identifier evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8afaf29b-607d-594d-b33f-4fc376a858e3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jerome E Steholm, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A Michigan namesake under the spelling Stenholm appears in discovery-only records but lacks an OSS or protected-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bba51774-77c2-58a6-9a5d-d637bc2b9e0f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Nicholas J Steichen, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. This second Nicholas J. Steichen row has a different protected identifier and is not merged with the directly documented technician third grade.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6530a8a7-2ac5-5a9d-a112-b66572c96ba2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Seymour Steiger, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, occupation, employer, obituary and archival searches produced no defensible person-specific result.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "91a1d7f6-7034-5945-b739-ea27df2fa688",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jerome A Steiker, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Results for Jerome J. Steiker have the wrong middle initial and no independent OSS bridge, so they are rejected as namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b01fb41c-7382-5dbf-963e-d783d61ce4a5",
+      "identity_status": "conflicting",
+      "identity_evidence": "The Army candidate is recorded as Barry Stern and its protected identifier is shared across distinct Barry Steen and Barry Stern index entities. Neither row receives the Army occupation evidence.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "shared-identifier:barry-steen-stern",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Barry Steen and Barry Stern personnel files together before accepting any Army identity, occupation or chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d11bb24e-11a5-5a60-838a-9f94a5349443",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the index row to the reviewed official Army record; the mechanical-metals category names no employer.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 741 to identify the employer behind the Army occupation category and the assignment immediately preceding OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c396a67-7acc-5ede-bdd5-38d665600b68",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the index row to the reviewed official Army record; the sales-clerk category names no employer.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 741 to identify the employer behind the Army occupation category and the assignment immediately preceding OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and middle initial, captain rank, Albanian-language assignment and person-specific OSS chronology support the match to Thomas Eftim Stefan.",
+      "name_variants": [
+        "Thomas Eftim Stefan",
+        "Tom Stefan"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 741 for a direct personnel-file citation and to confirm whether any civilian job intervened between the Arch Street Tavern and Army entry.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "5e9ca4a9-8f38-5ade-a2e8-d2ed7c70f03f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the index row to the reviewed official Army record; the cooks category names no employer.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 741 to identify the employer behind the Army occupation category and the assignment immediately preceding OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "56b1a29e-0aac-5706-b3be-7b56982ffc13",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact full name appears in two University of Minnesota directories and a later official federal record with Minnesota continuity, but no independent source directly states that this university employee served in OSS.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 741 to confirm the University of Minnesota identity and determine her immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b58a981b-bec0-5212-bec0-b044dd904d6d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare indexed name, expanded middle name, family-company biography and CIA-reviewed OSS Congo chronology support the match to Henry Emil Stehli.",
+      "name_variants": [
+        "Henry Emil Stehli"
+      ],
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 742 to establish the exact date he left Stehli Silks and whether any military or government assignment intervened before OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "cbd7ba3e-326a-50c7-b47d-5d3c47ddce58",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier supports the Army identity bridge despite the one-letter surname difference between indexed Steholm and Army Stenholm. The warehouse-related category names no employer.",
+      "name_variants": [
+        "Armand D Stenholm"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 743 for direct confirmation of the Stenholm variant, the employer behind the occupation category and the immediate pre-OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact protected identifier agrees across the index, official Army record and direct 1944 OSS interview. The other Nicholas J. Steichen row has a different identifier and remains separate.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 742 to identify the employer behind the Army occupation category and any Air Forces unit before the March 1943 OSS transfer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fc427301-8f5e-5e33-b8b9-4ab8d630cc17",
+      "identity_status": "probable",
+      "identity_evidence": "The uncommon exact full name and contemporary Winston-Salem directory support a qualified match, but no independent OSS or protected-identifier bridge was found.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 742 to confirm the city-directory identity and determine whether Steifel Mattress Company was his last civilian employer before OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier supports the Army identity bridge despite the Steigman/Steigmann spelling difference; a community veterans record independently corroborates Army and Ritchie Boys service.",
+      "name_variants": [
+        "Jonas Steigmann"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 742 to confirm the surname spelling, resolve the damaged Army grade field, identify any retail employer and date the OSS transition.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page446-row1-leroy-steele-b911",
+      "person_id": "bbbd4757-0a81-5450-bc6e-916c018f177f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leroy Steele; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A possible LeRoy James Steele biography names Lockheed Aircraft, but no OSS, box, rank or protected-identifier evidence connects that namesake to this row.",
+      "research_notes": "A possible LeRoy James Steele biography names Lockheed Aircraft, but no OSS, box, rank or protected-identifier evidence connects that namesake to this row. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row2-richard-j-steele-b911",
+      "person_id": "d11bb24e-11a5-5a60-838a-9f94a5349443",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard J Steele; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row3-robert-l-steele-b911",
+      "person_id": "1c396a67-7acc-5ede-bdd5-38d665600b68",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Steele; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row4-benjamin-f-steely-b911",
+      "person_id": "fb49b3e8-8903-538b-8edc-ec824f4d9e08",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benjamin F Steely; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Exact-name and variant searches produced no source that establishes a person-specific OSS identity or pre-OSS affiliation.",
+      "research_notes": "Exact-name and variant searches produced no source that establishes a person-specific OSS identity or pre-OSS affiliation. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row5-barry-steen-b911",
+      "person_id": "b01fb41c-7382-5dbf-963e-d783d61ce4a5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Barry Steen; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The Army candidate remains conflicting because its protected identifier is shared across distinct Barry Steen and Barry Stern index entities.",
+      "research_notes": "The Army candidate remains conflicting because its protected identifier is shared across distinct Barry Steen and Barry Stern index entities. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row6-henry-v-steenberghe-b911",
+      "person_id": "2b0a2730-bae9-561e-a5b6-227e666cba3d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry V Steenberghe; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A Belgian historian with a similar name appears only in postwar material and lacks an OSS or archival-identifier bridge.",
+      "research_notes": "A Belgian historian with a similar name appears only in postwar material and lacks an OSS or archival-identifier bridge. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row7-ernest-w-stees-b911",
+      "person_id": "0cfa6a06-2cdc-5659-84dc-37a909d120dd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest W Stees; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Military and obituary leads lack a protected identifier, a person-specific OSS assignment or reliable prewar employment evidence.",
+      "research_notes": "Military and obituary leads lack a protected identifier, a person-specific OSS assignment or reliable prewar employment evidence. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row8-thomas-e-stefan-b911",
+      "person_id": "fb261687-3eae-59fd-af2e-3bae5b7c8086",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas E Stefan; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row9-michael-j-stefancich-b911",
+      "person_id": "9422efef-ffce-5906-90e8-0a371c147543",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Michael J Stefancich; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Exact-name OSS, occupation, obituary, directory and institutional searches produced no defensible person-specific result.",
+      "research_notes": "Exact-name OSS, occupation, obituary, directory and institutional searches produced no defensible person-specific result. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row10-rino-c-stefani-b911",
+      "person_id": "38ccaa39-1ff4-5080-97dd-734397c60d56",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rino C Stefani; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Discovery-only genealogy results supply no reliable employer or independent bridge to the indexed technician fourth grade.",
+      "research_notes": "Discovery-only genealogy results supply no reliable employer or independent bridge to the indexed technician fourth grade. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row11-john-stefen-b911",
+      "person_id": "97691c35-acb6-5ac8-bc15-9777a225754b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Stefen; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Exact-name and spelling-variant searches produced no defensible identity or affiliation result.",
+      "research_notes": "Exact-name and spelling-variant searches produced no defensible identity or affiliation result. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row12-george-e-stefo-b911",
+      "person_id": "5e9ca4a9-8f38-5ade-a2e8-d2ed7c70f03f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George E Stefo; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row13-charles-l-stegman-b911",
+      "person_id": "146e3441-81a5-52ff-95a7-d342205fa719",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles L Stegman; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Wyoming ranch and rodeo references for a namesake lack corroborating OSS, box or protected-identifier evidence.",
+      "research_notes": "Wyoming ranch and rodeo references for a namesake lack corroborating OSS, box or protected-identifier evidence. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row14-golda-i-stegner-b911",
+      "person_id": "56b1a29e-0aac-5706-b3be-7b56982ffc13",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Golda I Stegner; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row15-henry-e-stehli-b911",
+      "person_id": "b58a981b-bec0-5212-bec0-b044dd904d6d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry E Stehli; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row16-armand-d-steholm-b911",
+      "person_id": "cbd7ba3e-326a-50c7-b47d-5d3c47ddce58",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Armand D Steholm; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 743; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row17-jerome-e-steholm-b911",
+      "person_id": "8afaf29b-607d-594d-b33f-4fc376a858e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jerome E Steholm; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 743; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A Michigan namesake under the spelling Stenholm appears in discovery-only records but lacks an OSS or protected-identifier bridge.",
+      "research_notes": "A Michigan namesake under the spelling Stenholm appears in discovery-only records but lacks an OSS or protected-identifier bridge. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row18-nicholas-j-steichen-b911",
+      "person_id": "1fdf2d00-716b-5267-9dc8-1d6308a5e536",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas J Steichen; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row19-nicholas-j-steichen-b911",
+      "person_id": "bba51774-77c2-58a6-9a5d-d637bc2b9e0f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas J Steichen; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "This second Nicholas J. Steichen row has a different protected identifier and is not merged with the directly documented technician third grade.",
+      "research_notes": "This second Nicholas J. Steichen row has a different protected identifier and is not merged with the directly documented technician third grade. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row20-sidney-g-steifel-b911",
+      "person_id": "fc427301-8f5e-5e33-b8b9-4ab8d630cc17",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sidney G Steifel; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row21-seymour-steiger-b911",
+      "person_id": "6530a8a7-2ac5-5a9d-a112-b66572c96ba2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Seymour Steiger; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Exact-name OSS, occupation, employer, obituary and archival searches produced no defensible person-specific result.",
+      "research_notes": "Exact-name OSS, occupation, employer, obituary and archival searches produced no defensible person-specific result. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row22-jonas-steigman-b911",
+      "person_id": "155216f5-9e40-5a4c-8bd8-305dbf61c714",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jonas Steigman; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records, private-data aggregators and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    },
+    {
+      "key": "page446-row23-jerome-a-steiker-b911",
+      "person_id": "91a1d7f6-7034-5945-b739-ea27df2fa688",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jerome A Steiker; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 742; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_911",
+      "started_at": "2026-10-25T18:30:00Z",
+      "completed_at": "2026-10-26T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Results for Jerome J. Steiker have the wrong middle initial and no independent OSS bridge, so they are rejected as namesakes.",
+      "research_notes": "Results for Jerome J. Steiker have the wrong middle initial and no independent OSS bridge, so they are rejected as namesakes. Automated CIA or LoC transport failures remain recorded as errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, final claims point to inspectable sources, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b911-v1"
+    }
+  ]
+}
