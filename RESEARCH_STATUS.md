@@ -36,8 +36,11 @@ subtests, the deterministic 200-profile audit, the 96/96 browser and
 accessibility matrix, the 25,101-page internal-link check, private-identifier
 scan, local manifest verification, zero-warning 25,101-page Astro build,
 dependency audit and two deterministic builds. CI, deployment and
-unauthenticated live verification remain separate release gates until the
-content commit is published.
+unauthenticated live verification also passed: content commit
+`79e34f9ec54eff59aa078bc70ba3ddf957b85ef1`, Test run `39158324681`, and
+Pages run `39158324688` all succeeded. A fresh 2026-10-25 public verification
+matched all 67 assets, eight core routes, 37 source-register pages and 23 Batch
+897 profiles to that immutable commit.
 
 Batch 896 completed PDF page 438, rows 1-23, from **Herbert K Sokoloff** through
 **Francis F Sommer**, preserving all 23 printed rows and linking them to 23

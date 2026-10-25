@@ -115,7 +115,11 @@ with no serious or critical violations. Every internal link resolves. The
 private-identifier audit finds zero unexpected matches, all 67 manifest assets
 verify locally, the production dependency audit reports zero vulnerabilities,
 and two consecutive builds produce identical public and output tree digests.
-CI, deployment and unauthenticated verification remain pending release gates.
+Content commit `79e34f9ec54eff59aa078bc70ba3ddf957b85ef1` passed GitHub
+Actions Test run `39158324681` and Pages run `39158324688`. The
+unauthenticated deployed-release verifier passed again on 2026-10-25: all 67
+manifest assets (119,682,986 bytes), eight core routes, 37 source-register
+pages and 23 Batch 897 profiles matched the immutable commit.
 
 ## Resume inputs
 
