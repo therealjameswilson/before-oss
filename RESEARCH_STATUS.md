@@ -36,8 +36,18 @@ source-by-source audit.
 Batch 912 has passed evidence-schema validation, isolated and canonical
 duplicate-safe imports, import idempotency, database integrity, complete
 522-page extraction validation, derived export regeneration, coverage
-reporting and public-data redaction. Release-test, build and deployment results
-will be added after the current release finishes.
+reporting, public-data redaction, all 146 Python tests, checked-in manifest
+verification, a deterministic 25,128-page static build, the 93/93 bounded
+browser and accessibility release matrix, the 25,128-page internal-link check,
+the rebuilt-source public-identifier audit and the zero-vulnerability
+production dependency audit. Test run `40244110244` and Pages run
+`40244110449` completed successfully. Batch 912 is public from immutable
+content commit `f84e85283e3dc09182eef20d8c620b0d80f65488`; the verifier matched
+all 67 public assets (121,761,286 bytes), eight core routes, 38 source-register
+pages and all 23 affected profiles. The workflow emitted platform migration
+and action-runtime deprecation annotations. The dependency install also reports
+five development-tool advisories; the deployed static site has no runtime
+package dependency, and the production-only audit reports zero vulnerabilities.
 
 Batch 911 completed PDF page 446, rows 1-23, from **Leroy Steele** through
 **Jerome A Steiker**, preserving all 23 printed rows and linking them to 23
