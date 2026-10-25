@@ -66,7 +66,7 @@ test("Batch 904 Army occupation bridges stay qualified as occupations", async ({
     await page.goto(`./people/${id}/`);
     const main = page.locator("main");
     await expect(main).toContainText(occupation);
-    await expect(main).toContainText("qualified lead");
+    await expect(main).toContainText("no employer is identified");
     await expect(main.locator("section[aria-labelledby='civilian-employer']")).toContainText(
       "No reliable pre-OSS employer has yet been identified",
     );
