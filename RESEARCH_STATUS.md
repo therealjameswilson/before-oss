@@ -32,8 +32,13 @@ reporting, public-data redaction, all 146 Python tests and 84 parameterized
 subtests, the deterministic 200-profile audit, the 90/90 browser and
 accessibility release matrix, 25,109-page internal-link check, private-
 identifier scan, local manifest verification, zero-vulnerability production
-dependency audit and two deterministic builds. The release candidate is not
-yet public; CI, deployment and unauthenticated verification remain pending.
+dependency audit and two deterministic builds. Continuous integration and
+deployment also pass. Batch 900 is public from immutable content commit
+`062ac182e285a380a4cb552351d4512d7525a92a`. GitHub Actions Test run
+`40203386516` and Pages deployment run `40203386559` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (120,078,854 bytes), eight core routes, 38 source-register pages
+and all 23 directly affected profiles.
 
 Batch 899 completed PDF page 439, rows 24-46, from **M J Soustelle** through
 **Andrew Spanos**, preserving all 23 printed rows and linking them to 23 active

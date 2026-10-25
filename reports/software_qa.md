@@ -13,9 +13,11 @@ formatted variants across 25,181 output artifacts with zero unexpected full-
 number matches. The local verifier matches 67 assets / 120,078,854 bytes. Two
 builds reproduce output-tree SHA-256
 `470aece3eec796c09260d3a36dc0a388e36db5807deeda67388b89bacbe269a0`.
-The production dependency audit finds zero vulnerabilities. CI, Pages and
-unauthenticated deployed verification remain separate pending gates. See
-`reports/release_batch_900.md`.
+The production dependency audit finds zero vulnerabilities. GitHub Actions
+Test run `40203386516` and Pages run `40203386559` succeeded for content commit
+`062ac182e285a380a4cb552351d4512d7525a92a`; the unauthenticated verifier
+matched all 67 manifest assets, eight core routes, 38 source-register pages and
+all 23 Batch 900 profiles. See `reports/release_batch_900.md`.
 
 Run: 2026-10-13 America/New_York, Batch 767 exact-verified public release. All
 **139/139** Python tests and 78 subtests pass; SQLite integrity, foreign-key,
