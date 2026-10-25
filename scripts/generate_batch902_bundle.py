@@ -1,0 +1,355 @@
+#!/usr/bin/env python3
+"""Generate the reviewed Batch 902 evidence bundle from audited constants."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / "research/evidence-page441-sperry-to-spiro-review_batch-902_2026-10-25.json"
+
+INDEX = "nara-index-b902"
+ARMY = "army-bulk-b902"
+TECH = "army-tech-b902"
+CODES = "army-codes-b902"
+BOWDOIN = "bowdoin-spingarn-obituary-b902"
+BOWDOIN_PDF = "bowdoin-fall-2005-spingarn-b902"
+WAPO = "washington-post-spiegel-obituary-b902"
+CAMBRIDGE = "cambridge-hagemann-spiegel-b902"
+GUGGENHEIM = "guggenheim-spiegel-list-b902"
+TRECCANI = "treccani-spinelli-b902"
+ANTIFASCIST = "antifascistispagna-spinelli-b902"
+
+
+PEOPLE = {
+    1: ("989dc0b4-8775-571a-bcbf-ef35253a6ad7", "Ann Sperry"),
+    2: ("2e82ba9e-45c5-5e8c-88e8-45461da6c26b", "Anne Sperry"),
+    3: ("7a69f633-b44e-577d-a8dd-69853acff3ab", "Edith Sperry"),
+    4: ("8a5c5fc6-c42d-59c1-ae8f-1b4eb4016262", "Gunther J Speyer"),
+    5: ("a38189f4-0af5-5945-b4b0-ced968869fd4", "Vincent H Spezia"),
+    6: ("23918e3b-eea4-5a2d-beb2-ed3bc5c5808e", "Astor R Spezzano"),
+    7: ("82530ee1-c03f-5692-a8a3-0ca9e4942d06", "John B Spidell"),
+    8: ("4967f3ba-9acd-51ad-bbd7-c4c90dc5835e", "Henry W Spiegel"),
+    9: ("8d32f19f-759e-57bd-9b72-edc31b5ea36b", "Irving Spiegel"),
+    10: ("352972f9-10bd-5401-814f-9e109af2fc0a", "Nathan Spiegel"),
+    11: ("d37c5b8f-e59c-597e-8960-80b87c34976b", "Joe G Spiegler"),
+    12: ("791a77b5-e77b-5ebb-bb1e-6c3500d3911f", "Alan G Spielman"),
+    13: ("7c99d61f-bf69-5ccf-a9a3-df06278133c9", "Alan G Spielman"),
+    14: ("56a06a5c-eb38-583f-a5d3-97ef0b392064", "Francis E Spiezer"),
+    15: ("8a932868-bb4a-5bfc-85be-b77ef69871ed", "James M Spigner"),
+    16: ("75b29c03-ed04-579d-97f3-fdf5c8972bdd", "Isaac P Spike"),
+    17: ("cfaa40c5-45d8-5f53-941a-7a9353f29178", "David H Spiller"),
+    18: ("7e1b875f-7c61-540f-b430-907565ef6329", "Frank W Spiller"),
+    19: ("a415fc27-60e9-5602-bbdd-df33b8b47b26", "Saverio Spinelli"),
+    20: ("b11c3a96-c099-5b37-a4a5-9345e08735d4", "Veniero Spinelli"),
+    21: ("75827460-c5df-5427-ae00-ad88babe8aca", "Edward Spingarn"),
+    22: ("284c71df-f606-5ce2-83ec-251d33730f53", "Merle J Spirek"),
+    23: ("c5c624f4-500f-5e4c-96a2-703c98460a04", "Grace M Spiro"),
+}
+
+
+ARMY_OCCUPATIONS = [
+    {"row": 4, "slug": "gunther-j-speyer", "date": "1942-10-06", "code": "175", "occupation": "Salespersons", "relationship_type": "employment", "locator": "PDF physical page 171; category 1-75"},
+    {"row": 7, "slug": "john-b-spidell", "date": "1941-11-28", "code": "776", "occupation": "Inspectors, not elsewhere classified", "relationship_type": "employment", "locator": "PDF physical page 175; category 7-76"},
+    {"row": 8, "slug": "henry-w-spiegel", "date": "1942-10-13", "code": "011", "occupation": "College presidents, professors, and instructors", "relationship_type": "employment", "locator": "PDF physical page 170; category 0-11"},
+    {"row": 9, "slug": "irving-h-spiegel", "date": "1942-11-17", "code": "932", "occupation": "Construction occupations, not elsewhere classified", "relationship_type": "employment", "locator": "PDF physical pages 174 and 176; category 9-32"},
+    {"row": 14, "slug": "francis-e-spiezer", "date": "1943-07-26", "code": "992", "occupation": "Students", "relationship_type": "student", "locator": "PDF physical page 304; corrected Code No. 30 category 9-92"},
+    {"row": 16, "slug": "isaac-p-spike", "date": "1943-07-31", "code": "735", "occupation": "Routemen", "relationship_type": "employment", "locator": "PDF physical page 174; category 7-35"},
+    {"row": 19, "slug": "saverio-spinelli", "date": "1943-07-07", "code": "524", "occupation": "Brick and stone masons, and tile setters", "relationship_type": "employment", "locator": "PDF physical pages 174-175; category 5-24"},
+]
+
+
+UNRESOLVED = {
+    1: "Exact-name and variant searches did not identify which Ann Sperry is represented or establish a pre-OSS employer.",
+    2: "Exact-name searches produced namesakes but no bridge from Anne Sperry to OSS, Box 733 or a dated employer.",
+    3: "Exact-name and obituary searches did not connect an Edith Sperry namesake to the indexed file or a prewar affiliation.",
+    5: "Exact-name, OSS, obituary, institutional and archival searches produced no reliable identity or employer bridge.",
+    6: "The distinctive name produced no source connecting the indexed person to OSS chronology or a named employer.",
+    10: "The common name produced multiple namesakes without two corroborating identifiers beyond the name.",
+    15: "Exact-name and middle-initial searches did not produce a source linking this James M Spigner to OSS or a prewar employer.",
+    17: "Exact-name searches returned chronologically incompatible namesakes and no defensible wartime identity.",
+    18: "Exact-name, occupation and obituary searches did not establish the indexed Frank W Spiller's identity or employer.",
+    22: "Exact-name and variant searches did not yield a reliable identity, occupation or employer match for Merle J Spirek.",
+}
+
+
+def sources() -> list[dict[str, object]]:
+    return [
+        {
+            "key": INDEX,
+            "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+            "archival_identifier": "RG 226, Entry A1-224, Box 733",
+            "title": "OSS Personnel Files from Excel",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "2010-12-23",
+            "locator": "PDF page 441, rows 1-23; checked against layout-preserving text and a rendered page image",
+            "access_date": "2026-10-25",
+            "source_quality": "A_direct_official",
+            "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+            "rights_notes": "All 23 printed rows remain immutable. The duplicate Alan G Spielman rows and the adjacent second Grace M Spiro row are not merged by name. Full protected identifiers remain private.",
+        },
+        {
+            "key": ARMY,
+            "stable_url": "https://catalog.archives.gov/id/1263923",
+            "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+            "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+            "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "1938-1946; merged file created 2002",
+            "locator": "Official unrestricted ASNEF.FIN.DAT; seven accepted protected-identifier matches and one shared-identifier conflict",
+            "access_date": "2026-10-25",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records",
+            "document_number": "ASNEF.FIN.DAT",
+            "rights_notes": "No raw row or full protected identifier is retained in public assets. Coded occupations identify no employer, and a non-hit is not negative proof.",
+        },
+        {
+            "key": TECH,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+            "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+            "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "1994-2005; reference copy modified 2011",
+            "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+            "access_date": "2026-10-25",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable.",
+        },
+        {
+            "key": CODES,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+            "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+            "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "2011-01-12; modified 2011-03-17",
+            "locator": "PDF physical pages 170-176 and 304; categories 011, 175, 524, 735, 776, 932 and corrected 992 visually checked",
+            "access_date": "2026-10-25",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Historical labels identify neither employers nor workplaces. Visual review corrected code 524 to brick and stone masons and tile setters.",
+        },
+        {
+            "key": BOWDOIN,
+            "stable_url": "https://obituaries.bowdoin.edu/edward-david-woodberry-spingarn-33/",
+            "title": "Edward David Woodberry Spingarn '33",
+            "repository_publisher": "Bowdoin College",
+            "publication_record_date": "2005",
+            "locator": "Alumni obituary; Trinity teaching, Signal Corps 1942-1944 and OSS 1944-1945 chronology",
+            "access_date": "2026-10-25",
+            "source_quality": "B_authoritative_institutional",
+            "rights_notes": "The page's impossible birth year conflicts with its 1933 graduation chronology and is not retained. Project-authored paraphrases only.",
+        },
+        {
+            "key": BOWDOIN_PDF,
+            "stable_url": "https://www.bowdoin.edu/communications/pdf/2005-fall.pdf",
+            "title": "Bowdoin Magazine, Fall 2005",
+            "author_creator": "Bowdoin College",
+            "repository_publisher": "Bowdoin College",
+            "publication_record_date": "2005",
+            "locator": "PDF page 77; Edward David Woodberry Spingarn '33 obituary",
+            "access_date": "2026-10-25",
+            "source_quality": "B_authoritative_institutional",
+            "rights_notes": "Corroborating institutional version; the same impossible birth-year error is not retained.",
+        },
+        {
+            "key": WAPO,
+            "stable_url": "https://www.washingtonpost.com/archive/local/1995/07/26/obituaries/74b1c0ff-6aec-4f2d-97bb-6380c4a4ea9a/",
+            "title": "Obituaries: Henry William Spiegel, Economics Professor",
+            "repository_publisher": "The Washington Post",
+            "publication_record_date": "1995-07-26",
+            "locator": "Henry William Spiegel obituary; Duquesne economics department 1939-1942 and Army/OSS wartime service",
+            "access_date": "2026-10-25",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "rights_notes": "Project-authored paraphrases only; family and medical details are not retained.",
+        },
+        {
+            "key": CAMBRIDGE,
+            "stable_url": "https://www.cambridge.org/core/journals/journal-of-the-history-of-economic-thought/article/emigre-economists-in-america-their-impact-and-their-experiences/AE6E3EE95449F0A1B2DA35BA8245F426",
+            "title": "Émigré Economists in America: Their Impact and Their Experiences",
+            "author_creator": "Harald Hagemann",
+            "repository_publisher": "Cambridge University Press on behalf of the History of Economics Society",
+            "publication_record_date": "2024-02-12",
+            "locator": "Henry William Spiegel section; PhD, OSS work and postwar academic chronology",
+            "access_date": "2026-10-25",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "rights_notes": "Open-access scholarly corroboration; project-authored paraphrase only.",
+        },
+        {
+            "key": GUGGENHEIM,
+            "stable_url": "https://s3.amazonaws.com/archives.phillipscollection.org/pdf/IRD_1382_a.pdf",
+            "title": "John Simon Guggenheim Memorial Foundation historical fellowship list",
+            "author_creator": "John Simon Guggenheim Memorial Foundation",
+            "repository_publisher": "Phillips Collection archives",
+            "locator": "Henry William Spiegel entry: Master Sergeant, Army; Associate Professor of Economics, Duquesne University",
+            "access_date": "2026-10-25",
+            "source_quality": "B_authoritative_institutional",
+            "rights_notes": "The list corroborates rank and Duquesne title; it does not supply an exact separation date.",
+        },
+        {
+            "key": TRECCANI,
+            "stable_url": "https://www.treccani.it/enciclopedia/altiero-spinelli_(Dizionario-Biografico)/",
+            "title": "Spinelli, Altiero",
+            "author_creator": "Francesco Gui",
+            "repository_publisher": "Dizionario Biografico degli Italiani, Treccani",
+            "publication_record_date": "2018",
+            "locator": "Volume 93; family-background paragraph on Veniero Spinelli's OSS contact and return as a U.S. soldier",
+            "access_date": "2026-10-25",
+            "source_quality": "B_authoritative_institutional",
+            "rights_notes": "The biography documents contact and military context, not a precise formal OSS personnel chronology.",
+        },
+        {
+            "key": ANTIFASCIST,
+            "stable_url": "https://www.antifascistispagna.it/?page_id=758&ricerca=3354",
+            "title": "Spinelli Veniero: profilo biografico",
+            "repository_publisher": "Antifascisti combattenti e volontari della Guerra di Spagna",
+            "locator": "Biographical profile; Turin employment at FIAT before July 1931 arrest and later exile chronology",
+            "access_date": "2026-10-25",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "rights_notes": "The profile supplies earlier employment only. It is not used to call FIAT the immediate pre-OSS affiliation.",
+        },
+    ]
+
+
+def organizations() -> list[dict[str, object]]:
+    return [
+        {"key": "duquesne-b902", "canonical_name": "Duquesne University", "historical_name": "Duquesne University", "organization_type": "university", "sector": "academia_and_research", "city": "Pittsburgh", "state_or_region": "Pennsylvania", "country": "United States", "normalization_notes": "The historical institution name is preserved; department and faculty role remain separate fields."},
+        {"key": "trinity-b902", "canonical_name": "Trinity College", "historical_name": "Trinity College", "organization_type": "college", "sector": "academia_and_research", "city": "Hartford", "state_or_region": "Connecticut", "country": "United States", "normalization_notes": "This is Trinity College in Connecticut, not another institution with the same name."},
+        {"key": "signal-corps-b902", "organization_id": "b74385f0-d945-50be-af5c-5127da015fbf", "canonical_name": "U.S. Army Signal Corps", "historical_name": "U.S. Army Signal Corps", "aliases": ["Army Signal Corps"], "organization_type": "military branch", "sector": "military", "country": "United States", "normalization_notes": "Reuses the existing canonical organization; modeled as a military assignment, never a civilian employer."},
+        {"key": "fiat-b902", "canonical_name": "FIAT", "historical_name": "FIAT", "aliases": ["Fiat"], "organization_type": "industrial company", "sector": "business_and_industry", "city": "Turin", "state_or_region": "Piedmont", "country": "Italy", "normalization_notes": "The historical name as found is retained. No modern successor name is substituted."},
+        {"key": "us-army-b902", "organization_id": "24facf23-e75a-54f2-a37a-0ef1509bc18a", "canonical_name": "United States Army", "historical_name": "U.S. Army", "aliases": ["Army of the United States"], "organization_type": "military_service", "sector": "military", "country": "United States", "normalization_notes": "Reuses an existing canonical organization; modeled separately from OSS contact and from civilian work."},
+    ]
+
+
+def army_affiliation(item: dict[str, object]) -> dict[str, object]:
+    person_id, _name = PEOPLE[int(item["row"])]
+    student = item["relationship_type"] == "student"
+    return {
+        "key": f"{item['slug']}-occupation-b902",
+        "person_id": person_id,
+        "relationship_type": item["relationship_type"],
+        "occupation": "Student; institution not recorded" if student else item["occupation"],
+        "end_date": item["date"],
+        "date_precision": f"Historical civilian-occupation code {item['code']} was recorded at Army entry on {item['date']}; no employer or OSS-transfer date is named.",
+        "country": "United States",
+        "immediate_pre_oss": False,
+        "last_civilian_pre_service": False,
+        "pre_oss_temporal_basis": "strongly_date_bounded",
+        "identity_confidence": "high_confidence",
+        "claim_confidence": "medium",
+        "source_quality": "A_direct_official",
+        "publication_status": "publish_qualified",
+        "research_notes": "The historical category is not converted into a named employer, institution, workplace or exact title.",
+    }
+
+
+def substantive_affiliations() -> list[dict[str, object]]:
+    return [
+        {"key": "henry-spiegel-duquesne-b902", "person_id": PEOPLE[8][0], "organization_key": "duquesne-b902", "organization_name_as_found": "Duquesne University", "role_title": "associate professor of economics", "occupation": "economist and teacher", "relationship_type": "employment", "start_date": "1939", "end_date": "1942", "date_precision": "The Washington Post dates economics-department service from 1939 through 1942; the Guggenheim list gives associate professor. No exact separation day is stated.", "city": "Pittsburgh", "state_or_region": "Pennsylvania", "country": "United States", "immediate_pre_oss": False, "last_civilian_pre_service": True, "pre_oss_temporal_basis": "strongly_date_bounded", "identity_confidence": "high_confidence", "claim_confidence": "high", "source_quality": "B_authoritative_institutional", "publication_status": "published", "research_notes": "Best-supported last civilian employer before wartime Army/OSS service. The accessible sources do not establish a distinct pre-OSS Army-transfer sequence."},
+        {"key": "edward-spingarn-trinity-b902", "person_id": PEOPLE[21][0], "organization_key": "trinity-b902", "organization_name_as_found": "Trinity College", "role_title": "economics teacher", "occupation": "economist and teacher", "relationship_type": "employment", "start_date": None, "end_date": "1942", "date_precision": "Bowdoin states that he was teaching economics at Trinity when commissioned and then served in the Signal Corps from 1942. No start or exact separation date is stated.", "city": "Hartford", "state_or_region": "Connecticut", "country": "United States", "immediate_pre_oss": False, "last_civilian_pre_service": True, "pre_oss_temporal_basis": "strongly_date_bounded", "identity_confidence": "high_confidence", "claim_confidence": "high", "source_quality": "B_authoritative_institutional", "publication_status": "published", "research_notes": "The intervening Signal Corps assignment means Trinity is not labeled immediate pre-OSS."},
+        {"key": "edward-spingarn-signal-corps-b902", "person_id": PEOPLE[21][0], "organization_key": "signal-corps-b902", "organization_name_as_found": "U.S. Army Signal Corps", "role_title": "Army officer", "relationship_type": "military_assignment", "start_date": "1942", "end_date": "1944", "date_precision": "Bowdoin explicitly dates Signal Corps service to 1942-1944 and OSS service to 1944-1945.", "country": "United States", "immediate_pre_oss": True, "last_civilian_pre_service": False, "pre_oss_temporal_basis": "explicit_immediate", "identity_confidence": "high_confidence", "claim_confidence": "high", "source_quality": "B_authoritative_institutional", "publication_status": "published", "research_notes": "This military assignment is the best-supported immediate predecessor and is not called a civilian employer."},
+        {"key": "veniero-spinelli-fiat-b902", "person_id": PEOPLE[20][0], "organization_key": "fiat-b902", "organization_name_as_found": "FIAT", "role_title": "employee", "relationship_type": "employment", "start_date": None, "end_date": "1931-07", "date_precision": "The biographical profile states that he moved to Turin to work at FIAT and was arrested in July 1931; no start date or job title is given.", "city": "Turin", "state_or_region": "Piedmont", "country": "Italy", "immediate_pre_oss": False, "last_civilian_pre_service": False, "pre_oss_temporal_basis": "documented_prewar", "identity_confidence": "high_confidence", "claim_confidence": "medium", "source_quality": "C_reputable_contemporary_or_scholarly", "publication_status": "publish_qualified", "research_notes": "Earlier documented employment only. Later exile, Spanish service, French Foreign Legion and U.S. military service prevent treating FIAT as immediate or last civilian work without further evidence."},
+        {"key": "veniero-spinelli-us-army-b902", "person_id": PEOPLE[20][0], "organization_key": "us-army-b902", "organization_name_as_found": "soldato statunitense", "role_title": "soldier", "relationship_type": "military_assignment", "start_date": "1942", "end_date": None, "date_precision": "Treccani says he returned to Italy as a U.S. soldier while in contact with OSS; supporting biographies date U.S. Army entry to 1942. No formal transfer date is established.", "country": "United States", "immediate_pre_oss": False, "last_civilian_pre_service": False, "pre_oss_temporal_basis": "temporal_relation_uncertain", "identity_confidence": "high_confidence", "claim_confidence": "medium", "source_quality": "B_authoritative_institutional", "publication_status": "publish_qualified", "research_notes": "Military context is documented, but the accessible sources do not establish whether or when a formal OSS assignment followed."},
+    ]
+
+
+def army_identity_claim(item: dict[str, object]) -> dict[str, object]:
+    row = int(item["row"])
+    person_id, name = PEOPLE[row]
+    variant = " The Army source additionally supplies the middle initial H." if row == 9 else ""
+    source_note = " The Army grade field is malformed and is not published." if row == 19 else ""
+    return {"key": f"identity-{item['slug']}-b902", "person_id": person_id, "claim_type": "identity", "claim_text": f"The indexed {name} row is a high-confidence match to the reviewed official Army record.{variant}{source_note}", "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.", "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge.", "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.", "sources": [{"source_key": INDEX, "locator_override": f"PDF page 441 row {row}; protected identifier withheld"}, {"source_key": ARMY, "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"}]}
+
+
+def army_occupation_claim(item: dict[str, object]) -> dict[str, object]:
+    person_id, name = PEOPLE[int(item["row"])]
+    if item["relationship_type"] == "student":
+        claim_text = f"At Army entry on {item['date']}, {name} was recorded in the historical student category; no institution or employer is identified."
+    else:
+        claim_text = f"At Army entry on {item['date']}, {name} was recorded in the historical {str(item['occupation']).lower()} category; no employer is identified."
+    return {"key": f"occupation-{item['slug']}-b902", "person_id": person_id, "affiliation_key": f"{item['slug']}-occupation-b902", "claim_type": "occupation", "claim_text": claim_text, "evidence_paraphrase": f"The accepted Army record carries civilian-occupation code {item['code']}, decoded from NARA's official code list.", "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.", "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.", "source_quality": "A_direct_official", "claim_confidence": "medium", "publication_status": "publish_qualified", "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.", "sources": [{"source_key": ARMY, "locator_override": f"Accepted reviewed identity record; civilian occupation code {item['code']}; protected identifier withheld"}, {"source_key": TECH, "support_type": "context_only", "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"}, {"source_key": CODES, "locator_override": item["locator"], "excerpt_override": item["occupation"]}]}
+
+
+def substantive_claims() -> list[dict[str, object]]:
+    return [
+        {"key": "last-civilian-henry-spiegel-duquesne-b902", "person_id": PEOPLE[8][0], "affiliation_key": "henry-spiegel-duquesne-b902", "claim_type": "last_civilian_pre_service", "claim_text": "Duquesne University is Henry William Spiegel's best-supported last civilian employer before wartime Army and OSS service.", "evidence_paraphrase": "The Washington Post dates economics-department service to 1939-1942; a Guggenheim list calls him associate professor and Army master sergeant.", "identity_match_assessment": "High confidence from the exact name, nonshared protected identifier and independent biographical chronology explicitly naming OSS.", "temporal_assessment": "Strongly date-bounded to 1939-1942 before wartime service; the exact separation date is unknown.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "Duquesne is a civilian employer. The Army occupation code is corroborative context but does not name the university.", "sources": [{"source_key": WAPO, "locator_override": "Henry William Spiegel obituary, economics department 1939-1942"}, {"source_key": GUGGENHEIM, "locator_override": "Henry William Spiegel entry; associate professor of economics, Duquesne University"}, {"source_key": CAMBRIDGE, "support_type": "context_only", "locator_override": "Henry William Spiegel section; OSS work"}]},
+        {"key": "wartime-henry-spiegel-oss-b902", "person_id": PEOPLE[8][0], "claim_type": "identity", "claim_text": "Independent biographical sources identify Henry William Spiegel as an economist who served in the Army and worked for OSS during World War II.", "evidence_paraphrase": "The Washington Post explicitly links his Army service to OSS; Cambridge independently says he worked for OSS.", "identity_match_assessment": "High confidence when combined with the exact-name protected-identifier bridge.", "temporal_assessment": "Wartime context is explicit, but the sources do not document a separate pre-OSS transfer date.", "source_quality": "C_reputable_contemporary_or_scholarly", "claim_confidence": "high", "publication_status": "published", "match_notes": "This supports identity and wartime context, not a separate immediate-predecessor affiliation.", "sources": [{"source_key": WAPO}, {"source_key": CAMBRIDGE}]},
+        {"key": "identity-edward-spingarn-b902", "person_id": PEOPLE[21][0], "claim_type": "identity", "claim_text": "The indexed Edward Spingarn is a high-confidence match to economist and Army captain Edward David Woodberry Spingarn.", "evidence_paraphrase": "Bowdoin gives the distinctive full name, Trinity teaching, Signal Corps service and OSS service from 1944 to 1945.", "identity_match_assessment": "High confidence from the rare name and detailed institutional chronology explicitly naming OSS.", "temporal_assessment": "The source dates Signal Corps service to 1942-1944 and OSS service to 1944-1945.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "The impossible birth year on Bowdoin's page is excluded and does not support identity.", "sources": [{"source_key": INDEX, "locator_override": "PDF page 441 row 21; Box 733"}, {"source_key": BOWDOIN}, {"source_key": BOWDOIN_PDF, "support_type": "context_only"}]},
+        {"key": "last-civilian-edward-spingarn-trinity-b902", "person_id": PEOPLE[21][0], "affiliation_key": "edward-spingarn-trinity-b902", "claim_type": "last_civilian_pre_service", "claim_text": "Trinity College is Edward Spingarn's best-supported last civilian employer before Army service.", "evidence_paraphrase": "Bowdoin states that he was teaching economics at Trinity when commissioned, then served in the Signal Corps from 1942.", "identity_match_assessment": "High-confidence identity from the rare name and explicit OSS/Army chronology.", "temporal_assessment": "Strongly date-bounded before 1942 military service; no exact Trinity start or separation date is stated.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "The postwar assistant professorship is not used to infer the prewar title.", "sources": [{"source_key": BOWDOIN}, {"source_key": BOWDOIN_PDF, "support_type": "context_only"}]},
+        {"key": "immediate-edward-spingarn-signal-corps-b902", "person_id": PEOPLE[21][0], "affiliation_key": "edward-spingarn-signal-corps-b902", "claim_type": "immediate_pre_oss_affiliation", "claim_text": "The U.S. Army Signal Corps is Edward Spingarn's best-supported immediate pre-OSS assignment.", "evidence_paraphrase": "Bowdoin dates Signal Corps service to 1942-1944 and OSS service to 1944-1945.", "identity_match_assessment": "High-confidence identity from the distinctive name and explicit institutional chronology.", "temporal_assessment": "Explicit immediate sequence: Signal Corps through 1944, followed by OSS in 1944-1945.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "This is a military assignment, not a civilian employer.", "sources": [{"source_key": BOWDOIN}, {"source_key": BOWDOIN_PDF, "support_type": "context_only"}]},
+        {"key": "identity-veniero-spinelli-b902", "person_id": PEOPLE[20][0], "claim_type": "identity", "claim_text": "The indexed Veniero Spinelli is a high-confidence match to the anti-fascist exile and U.S. soldier described by Treccani.", "evidence_paraphrase": "Treccani identifies the distinctive name, U.S. Army return to Italy and contact with OSS; the NARA index independently lists an OSS personnel file.", "identity_match_assessment": "High confidence from the distinctive exact name and matching OSS/U.S. military context.", "temporal_assessment": "The wartime connection is explicit, but the formal administrative sequence remains uncertain.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "The claim does not call him an operative or infer a specific OSS role.", "sources": [{"source_key": INDEX, "locator_override": "PDF page 441 row 20; Box 733"}, {"source_key": TRECCANI, "locator_override": "Volume 93; Veniero Spinelli family-background paragraph"}]},
+        {"key": "earlier-veniero-spinelli-fiat-b902", "person_id": PEOPLE[20][0], "affiliation_key": "veniero-spinelli-fiat-b902", "claim_type": "other_pre_oss_affiliation", "claim_text": "Veniero Spinelli worked at FIAT in Turin before his July 1931 arrest; this is earlier documented employment, not an immediate pre-OSS employer.", "evidence_paraphrase": "The biographical profile says he moved to Turin to work at FIAT and was arrested there in July 1931.", "identity_match_assessment": "High-confidence identity from the distinctive name and corroborating life chronology.", "temporal_assessment": "Documented prewar employment, separated from OSS contact by imprisonment, exile and military service.", "source_quality": "C_reputable_contemporary_or_scholarly", "claim_confidence": "medium", "publication_status": "publish_qualified", "match_notes": "No job title, start date or later civilian-employment sequence is invented.", "sources": [{"source_key": ANTIFASCIST}]},
+        {"key": "military-veniero-spinelli-us-army-b902", "person_id": PEOPLE[20][0], "affiliation_key": "veniero-spinelli-us-army-b902", "claim_type": "other_pre_oss_affiliation", "claim_text": "Veniero Spinelli returned to Italy as a U.S. soldier while in contact with OSS; the formal sequence between those affiliations remains uncertain.", "evidence_paraphrase": "Treccani distinguishes OSS contact from his return as an American soldier.", "identity_match_assessment": "High-confidence identity from the distinctive name and matched wartime context.", "temporal_assessment": "Temporal relation uncertain; no reviewed source supplies a formal transfer or recruitment date.", "source_quality": "B_authoritative_institutional", "claim_confidence": "medium", "publication_status": "publish_qualified", "match_notes": "Military service is not mislabeled as employment and OSS contact is not inflated into a specific operational role.", "sources": [{"source_key": TRECCANI}]},
+        {"key": "conflict-joe-g-spiegler-b902", "person_id": PEOPLE[11][0], "claim_type": "identity", "claim_text": "Joe G Spiegler has a protected-identifier conflict with a separately printed Joe G Speigler row on the preceding index page.", "evidence_paraphrase": "The official Army candidate agrees in name but the same protected identifier appears on two separately preserved, differently spelled index rows.", "identity_match_assessment": "Conflicting. The names are similar and the identifier is shared, but the personnel files must establish whether this is duplication or source error.", "temporal_assessment": "The dated Army occupation cannot be transferred while identity resolution remains conflicting.", "source_quality": "A_direct_official", "claim_confidence": "conflicting", "publication_status": "conflicting", "match_notes": "Do not merge the rows or publish code 105 until both files are reviewed.", "sources": [{"source_key": INDEX, "locator_override": "PDF pages 440-441; two separately printed spelling variants; protected identifier withheld"}, {"source_key": ARMY, "support_type": "context_only", "locator_override": "Shared-identifier candidate; protected identifier withheld"}]},
+    ]
+
+
+def archive_update(row: int, reason: str) -> dict[str, object]:
+    person_id, name = PEOPLE[row]
+    return {"person_id": person_id, "identity_status": "unresolved", "identity_evidence": f"The visually verified index row supplies {name}, Box 733 and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper and archival protocol found no defensible identity bridge. {reason}", "manual_review_required": True, "research_status": "requires_archival_review", "next_action": "Review the indexed Box 733 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "critical"}
+
+
+def person_updates() -> list[dict[str, object]]:
+    updates = [archive_update(row, reason) for row, reason in UNRESOLVED.items()]
+    for item in ARMY_OCCUPATIONS:
+        row = int(item["row"])
+        person_id, _name = PEOPLE[row]
+        update = {"person_id": person_id, "identity_status": "high_confidence", "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.", "personnel_category": "enlisted_army_personnel", "commissioned_officer": False, "allied_or_foreign_personnel": False, "manual_review_required": True, "research_status": "verified_employer_found" if row == 8 else "occupation_only_found", "next_action": "Review the indexed Box 733 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution." if row != 8 else "Review Box 733 to confirm the Duquesne separation date and whether a distinct Army assignment preceded OSS service.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "high"}
+        if row == 9:
+            update["name_variants"] = ["Irving H Spiegel", "Irving H. Spiegel"]
+        if row == 8:
+            update["name_variants"] = ["Henry William Spiegel", "Henry W. Spiegel"]
+        updates.append(update)
+    for row in (12, 13):
+        updates.append({"person_id": PEOPLE[row][0], "identity_status": "ambiguous", "identity_evidence": "Two separately printed Alan G Spielman rows occur on page 441. One lacks a protected identifier and the other has one; a name match alone cannot establish duplication.", "manual_review_required": True, "possible_duplicate_group": "same-name:alan-g-spielman-page441", "research_status": "needs_identity_review", "next_action": "Review both Box 733 personnel files together before assigning any external biography or merging the rows.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "critical"})
+    updates.extend([
+        {"person_id": PEOPLE[11][0], "identity_status": "conflicting", "identity_evidence": "The Army candidate uses a protected identifier also printed for a separately preserved Joe G Speigler row on page 440. Spelling and duplication remain unresolved.", "manual_review_required": True, "possible_duplicate_group": "shared-identifier:joe-g-spiegler-speigler-pages440-441", "research_status": "conflicting_sources", "next_action": "Review the Joe G Speigler and Joe G Spiegler personnel files together before accepting the Army occupation or merging either entity.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "critical"},
+        {"person_id": PEOPLE[20][0], "identity_status": "high_confidence", "identity_evidence": "The distinctive exact name and Treccani's matching U.S. military and OSS-contact chronology establish a high-confidence identity.", "personnel_category": "enlisted_army_personnel", "commissioned_officer": False, "allied_or_foreign_personnel": False, "manual_review_required": True, "research_status": "documented_prewar_employer_found", "next_action": "Review Box 733 to determine the formal OSS relationship, exact U.S. Army chronology and whether any later civilian employment intervened after FIAT.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "high"},
+        {"person_id": PEOPLE[21][0], "identity_status": "high_confidence", "identity_evidence": "The rare name and Bowdoin's detailed Trinity, Signal Corps and OSS chronology establish a high-confidence identity.", "name_variants": ["Edward David Woodberry Spingarn", "Edward D. W. Spingarn"], "personnel_category": "commissioned_army_officer", "commissioned_officer": True, "allied_or_foreign_personnel": False, "manual_review_required": True, "research_status": "verified_employer_found", "next_action": "Review Box 733 to confirm the exact Trinity title and dates, Signal Corps unit and 1944 OSS transfer date.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "high"},
+        {"person_id": PEOPLE[23][0], "identity_status": "ambiguous", "identity_evidence": "This Grace M Spiro row is immediately followed by a second separately printed Grace M Spiro row with the same visible name and no protected identifier. Name alone cannot establish duplication.", "manual_review_required": True, "possible_duplicate_group": "same-name:grace-m-spiro-page441", "research_status": "needs_identity_review", "next_action": "Review both Box 733 personnel files together before merging the rows or assigning an external biography.", "personnel_file_digitized": False, "personnel_file_reviewed": False, "archival_review_priority": "critical"},
+    ])
+    return updates
+
+
+def research_attempts() -> list[dict[str, object]]:
+    attempts: list[dict[str, object]] = []
+    evidence_rows = {4, 7, 8, 9, 11, 12, 13, 14, 16, 19, 20, 21, 23}
+    for row, (person_id, name) in PEOPLE.items():
+        if row in UNRESOLVED:
+            note, sources_reviewed, rejected = UNRESOLVED[row], 5, 6
+        elif row in {4, 7, 9, 14, 16, 19}:
+            note, sources_reviewed, rejected = "The accepted protected-identifier bridge supports identity and a dated historical occupation or student category, but not a named employer or immediate OSS chronology.", 7, 5
+        elif row == 8:
+            note, sources_reviewed, rejected = "The Army bridge establishes identity; the Washington Post, Cambridge and Guggenheim sources establish Duquesne employment and wartime OSS context.", 10, 4
+        elif row == 11:
+            note, sources_reviewed, rejected = "The Army identifier is shared with a separately printed spelling variant, so code 105 is withheld and the case remains conflicting.", 7, 7
+        elif row in {12, 13}:
+            note, sources_reviewed, rejected = "Two same-name rows remain separate because the accessible sources do not show whether they represent one person or two.", 6, 8
+        elif row == 20:
+            note, sources_reviewed, rejected = "Treccani establishes the distinctive wartime identity and OSS contact; a historical profile documents earlier FIAT employment but not an immediate predecessor role.", 9, 5
+        elif row == 21:
+            note, sources_reviewed, rejected = "Bowdoin establishes the rare-name identity, Trinity employment, Signal Corps assignment and 1944-1945 OSS service.", 9, 4
+        elif row == 23:
+            note, sources_reviewed, rejected = "The adjacent same-name row prevents a name-only identity assignment; both personnel files require comparison.", 6, 8
+        else:
+            raise AssertionError(row)
+        attempts.append({"key": f"page441-row{row}-{name.lower().replace(' ', '-')}-b902", "person_id": person_id, "source_adapter": "manual_staged_protocol", "query_text": f"{name}; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 733; protected-identifier Army crosswalk where available", "query_variant_type": "staged_identity_employment_archival_protocol_batch_902", "started_at": "2026-10-25T18:05:00Z", "completed_at": "2026-10-25T19:42:00Z", "outcome": "source_reviewed" if row in evidence_rows else "candidate_rejected", "sources_reviewed": sources_reviewed, "candidate_sources_rejected": rejected, "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned." if row in evidence_rows else note, "research_notes": ("Reviewed evidence established a supported, qualified or explicitly conflicting outcome. " if row in evidence_rows else "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. ") + note + " Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room and Library of Congress exact-name passes returned no additional relevant result, and no exposed NARA API credential was used.", "next_action": "Review the indexed Box 733 personnel file; compare the paired file where a same-name or shared-identifier conflict is recorded.", "attempt_number": 1, "research_agent_version": "before-oss-b902-v1"})
+    return attempts
+
+
+def main() -> None:
+    affiliations = [army_affiliation(item) for item in ARMY_OCCUPATIONS] + substantive_affiliations()
+    claims = [army_identity_claim(item) for item in ARMY_OCCUPATIONS]
+    claims += [army_occupation_claim(item) for item in ARMY_OCCUPATIONS]
+    claims += substantive_claims()
+    bundle = {"bundle_version": "batch-902-v1", "reviewer": "Before OSS Batch 902 evidence review", "sources": sources(), "organizations": organizations(), "affiliations": affiliations, "claims": claims, "person_updates": person_updates(), "research_attempts": research_attempts()}
+    OUTPUT.write_text(json.dumps(bundle, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()

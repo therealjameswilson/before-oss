@@ -1,5 +1,41 @@
 # Research status
 
+Batch 902 completed PDF page 441, rows 1-23, from **Ann Sperry** through the
+first **Grace M Spiro** row, preserving all 23 printed rows and linking them to
+23 separate active people. All 23 have terminal research outcomes. Seven
+official Army identity bridges are accepted. The two Alan G Spielman rows and
+the two Grace M Spiro rows remain separate, and Joe G Spiegler's conflict with
+the page-440 Joe G Speigler row remains visible without transferring disputed
+evidence.
+
+Seven historical Army categories remain qualified and name no employer,
+institution or workplace. Henry W Spiegel's Duquesne University employment is
+published as his high-confidence last civilian employer. Edward Spingarn's
+Trinity College employment and immediate U.S. Army Signal Corps assignment are
+kept distinct. Veniero Spinelli's FIAT work is published only as medium-
+confidence earlier prewar employment because later exile and military service
+intervene.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,702/23,936 (57.2443%)**;
+verified-employer coverage is **444/23,936 (1.8549%)**;
+verified-affiliation coverage is **983/23,936 (4.1068%)**; archival-review
+coverage is **12,173/23,936 (50.8565%)**. There are **10,229** not-started
+people, **606** possible-duplicate groups and **473** conflicts. The public
+projection contains **3,076** affiliations, **1,132** organizations, **5,582**
+sources and **8,338** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+441, row 24, the second **Grace M Spiro** row, visually confirmed in Box 733.
+See `research/batch-902-progress.md` for the source-by-source audit. Batch 902
+has passed isolated and canonical idempotency imports, database integrity
+checks, complete 522-page extraction validation, derived export regeneration,
+coverage reporting, public-data redaction, all 146 Python tests, the
+deterministic 200-profile audit, the 99/99 browser and accessibility release
+matrix, 25,114-page internal-link check, private-identifier scan, local
+manifest verification, zero-vulnerability production dependency audit and two
+deterministic builds. Continuous integration, deployment and unauthenticated
+live verification are pending the Batch 902 content commit.
+
 Batch 901 completed PDF page 440, rows 24-46, from **Marion J Spence** through
 **Jerome Sperling**, preserving all 23 printed rows and linking them to 22
 active people. All 22 have terminal research outcomes. Four official Army
