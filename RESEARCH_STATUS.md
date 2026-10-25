@@ -36,8 +36,12 @@ and a zero-warning 25,109-page Astro build. The complete 90/90 browser and
 accessibility release matrix, 25,109-page internal-link check, private-
 identifier scan, local manifest verification, zero-vulnerability production
 dependency audit and two deterministic builds also pass. Continuous-
-integration and deployment gates remain pending; the currently public site
-therefore still reports Batch 898.
+integration and deployment also pass. Batch 899 is public from immutable
+content commit `8a4a792cec02543c174f3bb07bbdf0c2b124aea3`. GitHub Actions Test run
+`40201435733` and Pages deployment run `40201435732` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (119,976,622 bytes), eight core routes, 38 source-register pages
+and all 23 directly affected profiles.
 
 Batch 898 completed PDF page 439, rows 1-23, from **Gene Sorisi** through
 **Jacques Soustelle**, preserving all 23 printed rows and linking them to 23
