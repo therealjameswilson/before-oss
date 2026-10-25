@@ -32,15 +32,23 @@ research remains unfinished. The next indexed boundary is PDF page 442, row
 24, **Phillip I Squillacioti**, in Box 734. See
 `research/batch-904-progress.md` for the source-by-source audit.
 
-Batch 904 has passed evidence-schema validation, canonical reviewed-decision
-and evidence imports, database integrity and foreign-key checks, complete
-522-page extraction validation, derived export regeneration, coverage
-reporting, public-data redaction and direct generated-profile assertions. The
-local Python test-runner environment stalled during its own dependency import,
-and the local full Astro build exceeded the release-session wall-clock window
-without returning an error. The clean GitHub Actions test and Pages workflows
-remain the publication gates; their results and immutable release commit will
-be recorded here after deployment.
+Batch 904 has passed evidence-schema validation, duplicate-safe canonical
+reviewed-decision and evidence imports, database integrity and foreign-key
+checks, complete 522-page extraction validation, derived export regeneration,
+coverage reporting, all 146 Python tests, a zero-error and zero-warning Astro
+check across 535 files, the deterministic static build, a 96/96 browser and
+accessibility release matrix, a 25,118-page internal-link check, manifest
+verification, rebuilt private-identifier audit input and public redaction
+audit. Continuous integration Test run `40214937334` and Pages deployment run
+`40214664110` completed successfully. Batch 904 is public from immutable
+content commit `3b3d89b6eb2eafef9f44f74d8f008a5273b70e08`; test-only correction
+commit `e84608dd7cde3e7193be5469eafc5c5b340a5e13` aligned a regression
+assertion with the page's existing qualified wording. The unauthenticated
+deployed-release verifier matched all 67 public assets (120,704,017 bytes),
+eight core routes, 38 source-register pages and all 23 directly affected
+profiles. The dependency install reported five audit findings in the build
+toolchain (one low, one moderate and three high); these did not affect the
+successful static build but remain an explicit maintenance item.
 
 Batch 903 completed PDF page 441, rows 24-46, from the second **Grace M
 Spiro** row through **Henry N Sporborg**, preserving all 23 printed rows and
