@@ -1,5 +1,44 @@
 # Research status
 
+Batch 903 completed PDF page 441, rows 24-46, from the second **Grace M
+Spiro** row through **Henry N Sporborg**, preserving all 23 printed rows and
+linking them to 19 active people. All 19 have terminal research outcomes. Six
+official Army identity bridges are accepted. Four exact duplicate pairs remain
+preserved as eight source rows while each pair is linked through its shared
+protected identifier. The two Grace M Spiro rows remain separate people in a
+visible possible-duplicate group.
+
+Six historical Army occupation categories remain qualified and name no
+employer, institution or workplace. Boris Robert Spiroff's U.S. Army service
+is published as his explicit immediate pre-OSS military affiliation. Henry N
+Sporborg remains accurately identified as a British Army and SOE officer whose
+allied cooperation helped establish OSS Special Operations; he is not recast
+as a U.S. OSS employee. Slaughter and May is published only as his medium-
+confidence, qualified probable last civilian employer because the accessible
+chronology lacks an exact departure date. Chester L Spooner's materially
+different Army namesake remains a visible conflict with no occupation
+transferred.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,721/23,936 (57.3237%)**;
+verified-employer coverage is **444/23,936 (1.8549%)**;
+verified-affiliation coverage is **985/23,936 (4.1151%)**; archival-review
+coverage is **12,192/23,936 (50.9358%)**. There are **10,210** not-started
+people, **607** possible-duplicate groups and **474** conflicts. The public
+projection contains **3,085** affiliations, **1,133** organizations, **5,591**
+sources and **8,356** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+442, row 1, **Leland M Spore**, visually confirmed in Box 734. See
+`research/batch-903-progress.md` for the source-by-source audit. Batch 903 has
+passed isolated and canonical duplicate-safe imports, database integrity
+checks, complete 522-page extraction validation, derived export regeneration,
+coverage reporting, public-data redaction, all 146 Python tests, the
+deterministic 200-profile audit, the 93/93 browser and accessibility release
+matrix, 25,115-page internal-link check, private-identifier scan, local
+manifest verification, zero-vulnerability production dependency audit and two
+deterministic builds. Continuous integration, deployment and unauthenticated
+live verification are pending the Batch 903 content commit.
+
 Batch 902 completed PDF page 441, rows 1-23, from **Ann Sperry** through the
 first **Grace M Spiro** row, preserving all 23 printed rows and linking them to
 23 separate active people. All 23 have terminal research outcomes. Seven
