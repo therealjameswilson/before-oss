@@ -43,8 +43,12 @@ tablet and accessibility release matrix passed, as did the 25,140-page
 internal-link check, checked-in public-manifest guard, protected-identifier
 audit and zero-vulnerability production dependency audit. Two consecutive
 builds reproduced identical public and output trees. Five dependency findings
-remain confined to the development toolchain. Public deployment verification
-is pending and will be recorded in `reports/release_batch_922.md`.
+remain confined to the development toolchain. Batch 922 is public from
+immutable content commit `e70dadec0477f693f3dbc071824c8f6bddb8df4c`.
+GitHub Actions Test run `40301838824` and Pages deployment run `40301838826`
+both completed successfully. The unauthenticated deployed-release verifier
+matched all 67 public assets (122,817,400 bytes), eight core routes, 39 source-
+register pages and all 23 directly affected profiles.
 
 Batch 921 completed PDF page 451, rows 1-23, from **Franz T Stone** through
 **William R Stoppe**, preserving all 23 printed rows and linking them to 23

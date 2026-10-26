@@ -71,6 +71,21 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-Not yet published. This section will record the immutable content commit,
-successful GitHub Actions Test and Pages runs, live manifest identity and
-unauthenticated route/profile verification after deployment.
+Batch 922 is public from immutable content commit
+`e70dadec0477f693f3dbc071824c8f6bddb8df4c`. GitHub Actions Test run
+[`40301838824`](https://github.com/therealjameswilson/before-oss/actions/runs/40301838824)
+and Pages deployment run
+[`40301838826`](https://github.com/therealjameswilson/before-oss/actions/runs/40301838826)
+both completed successfully. The unauthenticated deployed-release verifier
+matched all 67 public assets (122,817,400 bytes) to manifest SHA-256
+`061273032ffd29a0dcf45045081c9765861823c1be9c3666f44247694c08ad39`,
+verified eight core routes, 39 source-register pages and all 23 directly
+affected profiles at <https://therealjameswilson.github.io/before-oss/>.
+
+The first post-deployment verification encountered one transient GitHub Pages
+503 while fetching a profile. The exact same immutable-commit verification was
+repeated after the edge cache settled and then passed in full; no release file
+or verifier input was changed. The workflows emitted non-blocking annotations
+about GitHub's Node.js 20 action-runtime transition and the pending
+`ubuntu-latest` runner migration. Neither annotation altered the successful
+build, test, redaction audit or deployment.
