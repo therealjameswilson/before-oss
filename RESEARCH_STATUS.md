@@ -41,7 +41,11 @@ accessibility release matrix pass, as do the 25,144-page internal-link check,
 checked-in public-manifest guard, protected-identifier audit, zero-vulnerability
 production dependency audit and deterministic consecutive builds. GitHub
 Actions and public-deployment results are recorded in
-`reports/release_batch_924.md` after the immutable release is verified.
+`reports/release_batch_924.md`. Batch 924 is public from immutable content
+commit `75dd9950757ef228be254d258003587538477bc4`. GitHub Actions Test run
+`40313731816` and Pages deployment run `40313731826` both completed
+successfully. The unauthenticated verifier matched all 67 public assets, eight
+core routes, 39 source-register pages and all 23 directly affected profiles.
 
 Batch 923 completed PDF page 452, rows 1-23, from **Carl A Strahle** through
 **William J Strauss**, preserving all 23 printed rows and linking them to 23

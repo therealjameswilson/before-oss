@@ -99,9 +99,13 @@ Archive location: 230/86/41/05
 - Astro reports no errors, warnings or hints across 555 checked files and
   builds 25,144 static pages. The 33/33 Batch 924 desktop, phone and tablet
   browser checks pass, including linked duplicate-peer presentation.
-- Full release-matrix, internal-link, identifier-redaction, deterministic-build,
-  dependency, GitHub Actions and unauthenticated deployment results are
-  recorded in `reports/release_batch_924.md` after publication.
+- The 102/102 browser release matrix, 30 axe scans, internal-link check,
+  identifier-redaction audit, deterministic builds and production dependency
+  audit pass. GitHub Actions Test and Pages workflows pass. Unauthenticated
+  verification matches every public manifest asset, eight core routes, all 39
+  source-register pages and all 23 Batch 924 profiles to immutable content
+  commit `75dd9950757ef228be254d258003587538477bc4`. Exact results are recorded
+  in `reports/release_batch_924.md`.
 
 ## Resume point
 
