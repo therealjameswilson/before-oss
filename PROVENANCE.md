@@ -39,6 +39,37 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 919 Army, COI, OSS Greece and chronology review
+
+For Batch 919, the official Army bulk ZIP was independently retrieved from
+NARA's public media endpoint. Its SHA-256 was
+`80c46e83937c6483d11def47fbb1629cab0ac135694fdfa09268b66d826f1066`;
+the extracted `ASNEF.FIN.DAT` again matched the established 837,221,112-byte
+file, 9,200,232-record count and SHA-256 above. One exact-name, nonshared
+protected-identifier row was accepted for Fraser R. Stokes. Occupation code 101
+was visually checked in [NARA's compiled code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+at physical page 171 and retained as a historical occupation without a named
+employer.
+
+Michael L. Stiver's qualified COI affiliation comes from the [Harry Ransom
+Center's C. Hartley Grattan papers finding aid](https://norman.hrc.utexas.edu/fasearch/pdf/01097.pdf),
+read with NARA's [OSS timeline](https://www.archives.gov/research/military/ww2/oss/timeline).
+Tom Stix's high-confidence wartime identity uses an official OSS report scan
+held by [ELIA](https://www.elia.org.gr/userfiles/pdf_archieve/1945%201-2745%20Peloponnesus%2C%20Thessaly%2C%20Macedonia%2C%20German%20Atrocities%2C%20Food%20Shortages%2C%20Skouras%2C%20%5B27%20pgs%5D%20226-210-WN17661%2C%20226-140-Folder%20164%20%28Admin%29.pdf)
+and Kyriakos Nalmpantis's [Kent State dissertation](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=kent1271704826&disposition=inline),
+which identifies him as commander of SI mission Stygia and cites the NARA
+mission record. Neither source supplies a pre-OSS employer. Stanley Stockwitz's
+probable identity is supported by a [funeral-home obituary](https://ompsfuneralhome.com/obituary/stanley-stephen-stockwitz/),
+but its 1940 OSS date conflicts with the official timeline and remains visibly
+qualified.
+
+The bounded Library of Congress pass made 23 successful current API searches.
+Nine candidate newspaper results were checked against the underlying official
+page text and rejected. The CIA Reading Room adapter failed closed under its
+robots policy; that source-access limitation is not negative evidence. The
+NARA Catalog API key was not used, no API response body was stored, and
+protected identifiers remain excluded from public assets.
+
 ### Batch 918 Army, Signal OCS, 10th Mountain and candidate review
 
 For Batch 918, the official Army bulk file was checked through the page- and

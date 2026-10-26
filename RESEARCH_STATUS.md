@@ -1,5 +1,49 @@
 # Research status
 
+Batch 919 completed PDF page 450, rows 1-23, from **Louis E Stites** through
+**Henry C Stokes**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes. One
+nonshared protected-identifier Army identity bridge is accepted for Fraser R.
+Stokes; his dated historical occupation category remains qualified and names
+no employer or workplace.
+
+Michael L. Stiver is a probable match to a Coordinator of Information entry in
+the Harry Ransom Center's Grattan papers finding aid. The affiliation remains
+qualified, is not labeled immediate and is not treated as civilian employment.
+Tom Stix is a high-confidence match to the lieutenant documented in an OSS
+report from Greece and in a NARA-grounded study of Operation Stygia, without
+importing an unbridged namesake's radio work. Stanley Stockwitz is a probable
+match to an obituary whose 1940 OSS date conflicts with NARA's 1942 creation
+date; both the identity uncertainty and chronology conflict remain visible.
+Nine Library of Congress newspaper candidates were inspected and rejected.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,086/23,936 (58.8486%)**;
+verified-employer coverage is **451/23,936 (1.8842%)**;
+verified-affiliation coverage is **1,003/23,936 (4.1903%)**; archival-review
+coverage is **12,559/23,936 (52.4691%)**. There are **9,845** not-started
+people, **617** possible-duplicate groups and **485** conflicts. Claim
+confidence counts are **1,645 confirmed**, **4,582 high**, **1,995 medium**,
+**236 low**, **409 conflicting** and **2 unresolved**. The public projection
+contains **3,221** affiliations, **1,155** organizations, **5,736** sources and
+**8,627** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 450, row
+24, **Isabel Stokes**, in Box 749. See `research/batch-919-progress.md` for the
+source-by-source audit.
+
+Batch 919 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import replay, SQLite integrity and foreign-key checks,
+derived export regeneration, coverage reporting and public-data redaction. All
+147 Python tests passed, and the 200-profile structural audit passed all seven
+checks. Astro reported no errors, warnings or hints across 550 checked files
+and built 25,138 static pages. The 24/24 Batch 919 browser suite and the 93/93
+bounded desktop, phone, tablet and accessibility release matrix passed, as did
+the 25,138-page internal-link check, checked-in public-manifest guard,
+protected-identifier audit and zero-vulnerability production dependency audit.
+Two consecutive builds reproduced identical public and output trees. Five
+dependency findings remain confined to the development toolchain. CI,
+deployment and unauthenticated live verification remain pending.
+
 Batch 918 completed PDF page 449, rows 24-46, from **Bernard J Sties** through
 **Leroy G Stiteler**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes. Seven
