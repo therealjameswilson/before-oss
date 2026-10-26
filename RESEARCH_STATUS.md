@@ -44,8 +44,16 @@ as did the 25,137-page internal-link check, checked-in public-manifest guard,
 protected-identifier audit and zero-vulnerability production dependency audit.
 Two consecutive builds reproduced the same 25,209-file output tree at SHA-256
 `83ec73d307e579e36cd0a4c0e1cce8865fe0a49cc0b5747038b8a7a336efbafc`.
-Five advisories remain confined to the development toolchain. Batch 918 is not
-yet represented by a published immutable release commit.
+Five advisories remain confined to the development toolchain.
+
+Test run `40274302621` and Pages run `40274302531` completed successfully.
+Batch 918 is public from immutable content commit
+`b6687388dccb84284cdbcdaec5f18379e806228f`; the read-only deployment verifier
+matched all 67 public assets (122,468,182 bytes), eight core routes, 39 source-
+register pages and all 23 affected profiles. The deployed manifest SHA-256 is
+`8d2c28b3ccfdd445889d589b088966fd3a159f61d23136a6a63dcec05c32920c`.
+The workflows emitted platform-migration and action-runtime deprecation
+annotations, but no release failure.
 
 Batch 917 completed PDF page 449, rows 1-23, from **Jack S Stewart** through
 **Sidney G Stiefel**, preserving all 23 printed rows and linking them to 23

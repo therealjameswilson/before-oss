@@ -60,7 +60,9 @@ Archive location: 230/86/41/04
 - The protected-identifier audit checked 12,926 normalized identifiers and 120 formatted variants across 25,209 production artifacts, rejected 1,402 substring coincidences and found zero unexpected boundary, aggregate or manifest-size matches.
 - Two consecutive builds reproduced the same 25,209-file, 334,652,632-byte output tree at SHA-256 `83ec73d307e579e36cd0a4c0e1cce8865fe0a49cc0b5747038b8a7a336efbafc`.
 - Production dependencies report zero vulnerabilities. Five advisories remain confined to the development toolchain and do not become runtime dependencies of the static site.
-- Batch 918 has not yet been pushed or deployed as an immutable public release.
+- Test workflow `40274302621` and Pages workflow `40274302531` completed successfully. Batch 918 is public from immutable content commit `b6687388dccb84284cdbcdaec5f18379e806228f`.
+- The read-only live verifier matched all 67 public assets (122,468,182 bytes), eight core routes, 39 source-register pages and all 23 Batch 918 profiles at manifest SHA-256 `8d2c28b3ccfdd445889d589b088966fd3a159f61d23136a6a63dcec05c32920c`.
+- GitHub emitted platform-migration and action-runtime deprecation annotations, but no release failure.
 
 ## Resume point
 
