@@ -5,7 +5,6 @@ import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
-from subprocess import CompletedProcess
 from unittest.mock import patch
 
 from scripts.audit_public_identifiers import (
@@ -88,13 +87,8 @@ class PublicIdentifierAuditTests(unittest.TestCase):
                 )
 
             with patch(
-                "scripts.audit_public_identifiers.subprocess.run",
-                return_value=CompletedProcess(
-                    args=["rg"],
-                    returncode=0,
-                    stdout="\n".join(events),
-                    stderr="",
-                ),
+                "scripts.audit_public_identifiers._ripgrep_json_events",
+                return_value=iter(events),
             ):
                 (
                     candidates,
@@ -152,13 +146,8 @@ class PublicIdentifierAuditTests(unittest.TestCase):
                 )
 
             with patch(
-                "scripts.audit_public_identifiers.subprocess.run",
-                return_value=CompletedProcess(
-                    args=["rg"],
-                    returncode=0,
-                    stdout="\n".join(events),
-                    stderr="",
-                ),
+                "scripts.audit_public_identifiers._ripgrep_json_events",
+                return_value=iter(events),
             ):
                 (
                     candidates,

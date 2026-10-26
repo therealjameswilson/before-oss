@@ -41,6 +41,18 @@ const publicOrganizationIds = new Set(
     (organization) => organization.organization_id,
   ),
 );
+const duplicatePeers = profile.possible_duplicate_group
+  ? (peopleData as unknown as PersonProfile[])
+      .filter(
+        (candidate) =>
+          candidate.person_id !== profile.person_id &&
+          candidate.possible_duplicate_group === profile.possible_duplicate_group,
+      )
+      .sort((left, right) =>
+        left.display_name.localeCompare(right.display_name) ||
+        left.person_id.localeCompare(right.person_id),
+      )
+  : [];
 const category = profile.personnel_category.replaceAll("_", " ");
 const indexedNames = profile.source_records
   .map((row) =>
@@ -412,8 +424,30 @@ const historicalOrganizationName = (item: Affiliation) =>
             <dd><Badge value={profile.identity_status} /></dd>
           </div>
           <div>
-            <dt>Duplicate group</dt>
-            <dd>{profile.possible_duplicate_group ?? "None currently flagged"}</dd>
+            <dt>Possible duplicate group</dt>
+            <dd>
+              {
+                profile.possible_duplicate_group ? (
+                  <>
+                    <span>{profile.possible_duplicate_group}</span>
+                    {duplicatePeers.length > 0 && (
+                      <ul class="duplicate-peers" aria-label="Related indexed records">
+                        {duplicatePeers.map((peer) => (
+                          <li>
+                            <a href={`${base}people/${peer.person_id}/`}>
+                              {peer.display_name}
+                            </a>
+                            <span> — {peer.identity_status.replaceAll("_", " ")}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </>
+                ) : (
+                  "None currently flagged"
+                )
+              }
+            </dd>
           </div>
           <div>
             <dt>Personnel file indexed</dt>
@@ -464,3 +498,18 @@ const historicalOrganizationName = (item: Affiliation) =>
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .duplicate-peers {
+    margin: 0.55rem 0 0;
+    padding-left: 1.15rem;
+  }
+
+  .duplicate-peers li + li {
+    margin-top: 0.3rem;
+  }
+
+  .duplicate-peers span {
+    color: var(--ink-soft);
+  }
+</style>

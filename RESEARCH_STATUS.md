@@ -1,5 +1,48 @@
 # Research status
 
+Batch 924 completed PDF page 452, rows 24-46, from **William S Strauss**
+through **Theophanes G Strimenos**, preserving all 23 printed rows and linking
+them to 23 separate active people. All 23 now have saved terminal research
+outcomes. Six reviewed protected-identifier Army bridges were accepted. The
+Ernest H. Streed and Thomas W. Streeter candidates were rejected because their
+Army names conflict; no candidate field crossed either conflict.
+
+George Strawbridge is a high-confidence match to George Strawbridge Sr. His
+Campbell Soup Company employment is a qualified probable last civilian
+employer before service, not an explicit immediate OSS predecessor. An
+official declassified OSS report confirms Theophanes G. Strimenos and his
+Alabama National Guard / Army pathway before OSS. His last civilian work was
+at an unnamed Mobile cafe, so no organization name was invented. Stephen
+Streeter and Nicholas L. Strike receive qualified identity or earlier-
+affiliation findings without unsupported employer claims. Five other accepted
+Army occupation or status categories identify no employer or institution.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,201/23,936 (59.3290%)**;
+verified-employer coverage is **455/23,936 (1.9009%)**;
+verified-affiliation coverage is **1,010/23,936 (4.2196%)**; archival-review
+coverage is **12,674/23,936 (52.9495%)**. There are **9,730** not-started
+people, **622** possible-duplicate groups and **490** conflicts. Claim
+confidence counts are **1,649 confirmed**, **4,626 high**, **2,026 medium**,
+**242 low**, **412 conflicting** and **2 unresolved**. The public projection
+contains **3,261** affiliations, **1,161** organizations, **5,779** sources and
+**8,709** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 453, row 1,
+**Charlie E Stringer**, in Box 753. See `research/batch-924-progress.md` for the
+source-by-source audit.
+
+Batch 924 has passed evidence-schema validation, canonical duplicate-safe
+import, import replay, SQLite integrity and foreign-key checks, derived export
+regeneration, coverage reporting, public-data redaction and the 200-profile
+structural audit. All 147 Python tests pass. Astro reported no errors,
+warnings or hints across 555 checked files and built 25,144 static pages. The
+33/33 Batch 924 suite and 102/102 bounded desktop, phone, tablet and
+accessibility release matrix pass, as do the 25,144-page internal-link check,
+checked-in public-manifest guard, protected-identifier audit, zero-vulnerability
+production dependency audit and deterministic consecutive builds. GitHub
+Actions and public-deployment results are recorded in
+`reports/release_batch_924.md` after the immutable release is verified.
+
 Batch 923 completed PDF page 452, rows 1-23, from **Carl A Strahle** through
 **William J Strauss**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes. Nine

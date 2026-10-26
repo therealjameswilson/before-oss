@@ -131,25 +131,11 @@ def scan(
         "-",
         str(public_root),
     ]
-    completed = subprocess.run(
-        command,
-        input="\n".join(patterns) + "\n",
-        text=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        check=False,
-    )
-    # ripgrep returns 1 when no match exists; either 0 or 1 is a valid audit.
-    if completed.returncode not in (0, 1):
-        raise RuntimeError(
-            f"ripgrep privacy scan failed with exit code {completed.returncode}"
-        )
-
     candidate_matches = 0
     boundary_matches = 0
     aggregate_false_positives = 0
     manifest_size_false_positives = 0
-    for raw_event in completed.stdout.splitlines():
+    for raw_event in _ripgrep_json_events(command, patterns):
         event = json.loads(raw_event)
         if event.get("type") != "match":
             continue
@@ -211,6 +197,37 @@ def scan(
         aggregate_false_positives,
         manifest_size_false_positives,
     )
+
+
+def _ripgrep_json_events(command: list[str], patterns: list[str]):
+    """Yield ripgrep events without retaining its potentially large output."""
+    process = subprocess.Popen(
+        command,
+        text=True,
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    assert process.stdin is not None
+    assert process.stdout is not None
+    assert process.stderr is not None
+    try:
+        process.stdin.write("\n".join(patterns) + "\n")
+        process.stdin.close()
+        yield from process.stdout
+        stderr = process.stderr.read()
+        returncode = process.wait()
+    except BaseException:
+        process.kill()
+        process.wait()
+        raise
+    # ripgrep returns 1 when no match exists; either 0 or 1 is a valid audit.
+    if returncode not in (0, 1):
+        detail = stderr.strip()
+        suffix = f": {detail}" if detail else ""
+        raise RuntimeError(
+            f"ripgrep privacy scan failed with exit code {returncode}{suffix}"
+        )
 
 
 def main() -> int:

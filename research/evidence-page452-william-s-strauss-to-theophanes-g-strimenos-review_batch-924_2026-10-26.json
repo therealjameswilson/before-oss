@@ -1,0 +1,1610 @@
+{
+  "bundle_version": "batch-924-v1",
+  "reviewer": "Before OSS Batch 924 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b924",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 752-753",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 452, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. Two Elmer Streeter rows, two William C. Strickland rows, and the Streif/Strief spellings were visually verified."
+    },
+    {
+      "key": "army-bulk-b924",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted and two rejected Batch 924 protected-identifier candidates",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. The Ernest H. Streed and Thomas W. Streeter candidates were rejected. Coded occupations identify no employer."
+    },
+    {
+      "key": "army-tech-b924",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b924",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175 and 304; Batch 924 categories visually checked",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation categories identify neither an employer nor a workplace. The category wording is retained without modernization."
+    },
+    {
+      "key": "princeton-george-strawbridge-b924",
+      "stable_url": "https://paw.princeton.edu/memorial/george-strawbridge-sr-33",
+      "title": "George Strawbridge Sr. '33",
+      "author_creator": "Princeton Class of 1933",
+      "repository_publisher": "Princeton Alumni Weekly, Princeton University",
+      "publication_record_date": "2013-12-04",
+      "locator": "Memorial paragraphs 2-4",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The memorial says he worked for Campbell Soup before and after World War II, but does not date the prewar job or call it the immediate predecessor to OSS."
+    },
+    {
+      "key": "st-paul-george-strawbridge-b924",
+      "stable_url": "https://www.sps70.org/AlumniHorae/20thAH.pdf",
+      "title": "Twentieth Century Alumni Horae, 1906-1930",
+      "author_creator": "St. Paul's School Alumni Association",
+      "repository_publisher": "St. Paul's School",
+      "publication_record_date": "2012",
+      "locator": "PDF physical page 62, printed page 103; George Strawbridge entry",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The institutional obituary gives exact family, education, February 1941-October 1945 Army and OSS service, and rank at separation. It says Campbell Soup employment after the war only."
+    },
+    {
+      "key": "betekinto-stephen-streeter-b924",
+      "stable_url": "https://www.betekinto.hu/en/2_2016",
+      "title": "Angleton's Hungarians: A Case Study of Central European Counterintelligence in Rome 1945-1946",
+      "author_creator": "Duncan Bare",
+      "repository_publisher": "Betekintő, Historical Archives of the Hungarian State Security",
+      "publication_record_date": "2016",
+      "locator": "Issue 2/2016 English abstract; article PDF caption and note cite NARA II, RG 226, Entry 224, Box 752",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The scholarly article names Stephen Streeter in OSS X-2 Balkans, but its Box 752 citation conflicts with the index's Box 753. The identity is therefore qualified and no pre-OSS affiliation is inferred."
+    },
+    {
+      "key": "deseret-nicholas-strike-b924",
+      "stable_url": "https://www.deseret.com/1997/1/1/19287025/death-nicholas-louis-strike/",
+      "title": "Death: Nicholas Louis Strike",
+      "author_creator": "Deseret News",
+      "repository_publisher": "Deseret News",
+      "publication_record_date": "1997-01-01",
+      "locator": "Biographical paragraphs 1-5",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The obituary gives the exact full name, education, 1939-1940 Sons of Pericles presidency and wartime Navy service. It does not mention OSS; the identity remains probable."
+    },
+    {
+      "key": "ahepa-nicholas-strike-b924",
+      "stable_url": "https://ahepahistory.org/AHEPA-Magazines/1962-Ahepa-Magazines-Opt.pdf",
+      "title": "The Ahepan, 1962 issues",
+      "author_creator": "Order of AHEPA",
+      "repository_publisher": "AHEPA History",
+      "publication_record_date": "1962",
+      "locator": "PDF physical page 40, printed page 20, Strike Follows Dad's Footsteps; physical page 50, Sons report",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The organization's magazine identifies Nick Strike as a former Sons of Pericles Supreme President before World War II and confirms the Salt Lake City family context."
+    },
+    {
+      "key": "hoover-theophanes-strimenos-b924",
+      "stable_url": "https://digitalcollections.hoover.org/objects/73291/goodfellow-memo-regarding-supplementary-interim-report-of-os",
+      "archival_identifier": "Hoover ID 69085.167; HIA-GOODFELLOW-4-A-9-5-3",
+      "title": "Goodfellow memo regarding supplementary interim report of OSS board",
+      "author_creator": "Millard Preston Goodfellow",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-13",
+      "locator": "Section XV, First Sergeant Theophanes G. Strimenos",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "Millard Preston Goodfellow papers; declassified U.S. government records",
+      "document_number": "69085.167",
+      "rights_notes": "The declassified official report gives the exact protected identifier, civilian occupation, Army entry and September 1943 OSS assignment. The protected identifier is not public."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "campbell-soup-b924",
+      "canonical_name": "Campbell Soup Company",
+      "historical_name": "Campbell Soup",
+      "aliases": [
+        "Campbell Soup Company"
+      ],
+      "organization_type": "food manufacturing company",
+      "sector": "business_and_industry",
+      "city": "Camden",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "normalization_notes": "The institutional memorial's historical employer wording is preserved. No modern corporate restructuring is implied."
+    },
+    {
+      "key": "alabama-national-guard-b924",
+      "canonical_name": "Alabama National Guard",
+      "historical_name": "Alabama National Guard",
+      "aliases": [],
+      "organization_type": "state National Guard",
+      "sector": "military",
+      "state_or_region": "Alabama",
+      "country": "United States",
+      "normalization_notes": "The organization is preserved exactly as named in the 1944 OSS interview; no unit is inferred."
+    },
+    {
+      "key": "sons-of-pericles-b924",
+      "organization_id": "a120746f-204d-533e-926f-edd93e9f8ac3",
+      "canonical_name": "Sons of Pericles",
+      "historical_name": "Sons of Pericles",
+      "aliases": [
+        "Order of Sons of Pericles"
+      ],
+      "organization_type": "youth fraternal organization",
+      "sector": "labor_nonprofit_and_religion",
+      "country": "United States",
+      "normalization_notes": "Existing organization reused. Leadership is a professional or volunteer affiliation, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-strawbridge-campbell-b924",
+      "person_id": "e00eb3c2-d676-526a-89c2-e6829a91046a",
+      "organization_key": "campbell-soup-b924",
+      "organization_name_as_found": "Campbell Soup",
+      "role_title": "public relations and assistant treasurer",
+      "occupation": "public relations and corporate administration",
+      "relationship_type": "employment",
+      "end_date": "1941-02",
+      "date_precision": "Princeton says he worked for Campbell Soup before and after World War II; St. Paul's dates Army service from February 1941. The exact prewar start and end dates are not stated.",
+      "city": "Camden",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "A named prewar employer and probable last civilian employer before Army service. Neither memorial explicitly calls it the immediate OSS predecessor."
+    },
+    {
+      "key": "nicholas-strike-sons-pericles-b924",
+      "person_id": "526fc414-2a93-566a-9f5e-1246122f61f5",
+      "organization_key": "sons-of-pericles-b924",
+      "organization_name_as_found": "Sons of Pericles",
+      "role_title": "national president",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1939",
+      "end_date": "1940",
+      "date_precision": "The obituary gives 1939 and 1940; the AHEPA magazine independently describes his national leadership before World War II.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented prewar organizational leadership, not employment. The exact-name wartime Navy officer lacks an independent OSS bridge, so the person match remains probable."
+    },
+    {
+      "key": "theophanes-strimenos-alabama-guard-b924",
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "organization_key": "alabama-national-guard-b924",
+      "organization_name_as_found": "Alabama National Guard",
+      "role_title": "soldier; later first sergeant",
+      "relationship_type": "military_assignment",
+      "start_date": "1940-11",
+      "end_date": "1943-09",
+      "date_precision": "The OSS report says he entered the Army with the Alabama National Guard in November 1940 and was assigned to OSS in September 1943.",
+      "state_or_region": "Alabama",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Military assignment, not civilian employment. The official report supplies the entry-to-OSS chronology directly."
+    },
+    {
+      "key": "theophanes-strimenos-cafe-b924",
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "role_title": "cafe worker",
+      "occupation": "cafe worker; historical Army category: waiters and waitresses except private family",
+      "relationship_type": "employment",
+      "end_date": "1940-11-25",
+      "date_precision": "The OSS report says he worked in a Mobile cafe in civilian life; the Army record dates entry to 1940-11-25 and codes the occupation as 227. No cafe name is supplied.",
+      "city": "Mobile",
+      "state_or_region": "Alabama",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The last civilian occupation is explicit, but the employer is unnamed and is not normalized into an invented organization."
+    },
+    {
+      "key": "elmer-e-streeter-occupation-b924",
+      "person_id": "a83e8685-38a2-598b-bc91-42598bd5232d",
+      "occupation": "Machinists' apprentices",
+      "relationship_type": "employment",
+      "end_date": "1943-06-03",
+      "date_precision": "Historical civilian-occupation code 794 was recorded at Army entry on 1943-06-03; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "norman-e-streeter-occupation-b924",
+      "person_id": "802cbb13-1a4d-5078-a233-6fefbc226de0",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "employment",
+      "end_date": "1945-03-20",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1945-03-20; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "pierre-d-streit-occupation-b924",
+      "person_id": "8e39dd9b-d723-5ced-9d44-ab0d7dfd42d9",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1943-06-03",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-06-03; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "william-c-strickland-occupation-b924",
+      "person_id": "1cd1e7c4-8c21-5d0a-86e1-788915338430",
+      "occupation": "Stock clerks",
+      "relationship_type": "employment",
+      "end_date": "1941-04-09",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1941-04-09; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "robert-a-stricklin-occupation-b924",
+      "person_id": "d36a49ed-dd13-552b-9509-6477fe43872a",
+      "occupation": "Semiprofessional occupations, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-08-12",
+      "date_precision": "Historical civilian-occupation code 068 was recorded at Army entry on 1943-08-12; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-george-strawbridge-b924",
+      "person_id": "e00eb3c2-d676-526a-89c2-e6829a91046a",
+      "claim_type": "identity",
+      "claim_text": "The indexed George Strawbridge is a high-confidence match to Princeton alumnus and Army major George Strawbridge, who served in the Quartermaster Corps and OSS.",
+      "evidence_excerpt": "Quartermaster Corps of the U.S. Army and in the Office of Strategic Services",
+      "evidence_paraphrase": "Two institutional memorials agree on his education, wartime Army service, major rank and distinctive identity; St. Paul's explicitly names OSS.",
+      "identity_match_assessment": "High confidence from the exact uncommon name, consistent Philadelphia and Princeton context, dated Army service and direct institutional OSS statement.",
+      "temporal_assessment": "St. Paul's dates service from February 1941 to October 1945; the exact OSS assignment dates are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected index value is not published. No sequence between Quartermaster Corps and OSS is invented.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 25; Box 752; protected value withheld"
+        },
+        {
+          "source_key": "st-paul-george-strawbridge-b924",
+          "locator_override": "PDF physical page 62, printed page 103; George Strawbridge entry"
+        },
+        {
+          "source_key": "princeton-george-strawbridge-b924",
+          "support_type": "context_only",
+          "locator_override": "Memorial paragraphs 2-4"
+        }
+      ]
+    },
+    {
+      "key": "prewar-george-strawbridge-campbell-b924",
+      "person_id": "e00eb3c2-d676-526a-89c2-e6829a91046a",
+      "affiliation_key": "george-strawbridge-campbell-b924",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "George Strawbridge worked for Campbell Soup in public relations and as assistant treasurer before and after World War II; it is his probable last civilian employer before February 1941 Army service, not a proven immediate OSS predecessor.",
+      "evidence_excerpt": "Before and after WWII, George spent some years with Campbell Soup",
+      "evidence_paraphrase": "Princeton's memorial names the employer and roles; St. Paul's independently dates his Army and OSS service from February 1941.",
+      "identity_match_assessment": "High-confidence person match from two institutional memorials and direct OSS context.",
+      "temporal_assessment": "Prewar employment is explicit, but its exact end date and any intervening role before OSS are not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The employer is published with a probable-immediate temporal label and excluded from default confirmed/high employer analytics.",
+      "sources": [
+        {
+          "source_key": "princeton-george-strawbridge-b924",
+          "locator_override": "Memorial paragraph 4"
+        },
+        {
+          "source_key": "st-paul-george-strawbridge-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 62; service dated February 1941-October 1945"
+        }
+      ]
+    },
+    {
+      "key": "identity-ernest-streed-conflict-b924",
+      "person_id": "dbe6304d-6bb1-5483-93b6-eb41572f0668",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate for Ernest H Streed was rejected because the official row reads Ernest H Steed and the protected identifier is shared by separate index records.",
+      "evidence_paraphrase": "The name spelling and nonunique protected identifier do not support transferring the Army row to this index person.",
+      "identity_match_assessment": "Conflicting: the protected value is not unique within the index and the Army surname omits the indexed r.",
+      "temporal_assessment": "No Army date or occupation is transferred; Box 752 review is required.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The rejected candidate remains auditable. A second generated candidate also remains unaccepted; neither supplies a public fact.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 26; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "support_type": "contradicts",
+          "locator_override": "Rejected reviewed candidate; Army surname Steed; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-streeter-b924",
+      "person_id": "3ec9d787-c0ca-5d3b-9bf6-8266543a29d6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stephen Streeter is a probable match to the OSS X-2 Balkans officer described by Duncan Bare, but the article's Box 752 citation conflicts with the index's Box 753.",
+      "evidence_excerpt": "chief of Counterintelligence Balkans ... and his lieutenant, Stephen Streeter",
+      "evidence_paraphrase": "A scholarly archival study gives the exact distinctive name, OSS X-2 role and a personnel-file citation one box away from the index row.",
+      "identity_match_assessment": "Probable from the distinctive exact name and direct OSS context; the box discrepancy prevents a high-confidence match.",
+      "temporal_assessment": "The article documents OSS and postwar intelligence work, not a pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, nationality or language background is inferred from the article for the index row pending Box 753 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 30; Box 753"
+        },
+        {
+          "source_key": "betekinto-stephen-streeter-b924",
+          "locator_override": "Issue 2/2016 English abstract; article note cites Box 752"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-streeter-conflict-b924",
+      "person_id": "2abae00d-4604-50eb-a84d-23049d23c7c0",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate for Thomas W Streeter was rejected because the protected identifier selects an official Army row named James E OConnell.",
+      "evidence_paraphrase": "The official Army name conflicts completely with the indexed name, so none of its fields belongs to this person.",
+      "identity_match_assessment": "Conflicting protected-identifier result; no name agreement.",
+      "temporal_assessment": "No Army date, grade or occupation is transferred; Box 753 review is required.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflict is displayed rather than resolved by convenience.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 31; Box 753; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "support_type": "contradicts",
+          "locator_override": "Rejected reviewed candidate; Army row names James E OConnell; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-nicholas-strike-b924",
+      "person_id": "526fc414-2a93-566a-9f5e-1246122f61f5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nicholas L Strike is a probable match to Nicholas Louis Strike, the prewar Sons of Pericles president and wartime Navy officer.",
+      "evidence_excerpt": "In 1939 and 1940 ... National President of the Sons of Pericles",
+      "evidence_paraphrase": "The exact distinctive full name, prewar national role and World War II Navy service align, but neither reviewed source mentions OSS.",
+      "identity_match_assessment": "Probable, not high confidence, because the rare exact name and wartime military chronology agree but an independent OSS or Box 753 bridge is missing.",
+      "temporal_assessment": "The 1939-1940 affiliation is explicitly prewar; the obituary does not date OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Postwar Ajax employment is excluded. The profile remains marked for archival review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 45; Box 753"
+        },
+        {
+          "source_key": "deseret-nicholas-strike-b924",
+          "locator_override": "Biographical paragraphs 1-5"
+        },
+        {
+          "source_key": "ahepa-nicholas-strike-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 40 and 50; former Supreme President before World War II"
+        }
+      ]
+    },
+    {
+      "key": "prewar-nicholas-strike-sons-b924",
+      "person_id": "526fc414-2a93-566a-9f5e-1246122f61f5",
+      "affiliation_key": "nicholas-strike-sons-pericles-b924",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nicholas Louis Strike served as national president of the Sons of Pericles in 1939 and 1940; this is a qualified professional or volunteer affiliation, not employment.",
+      "evidence_excerpt": "traveled the country as National President of the Sons of Pericles",
+      "evidence_paraphrase": "A contemporary organizational retrospective corroborates the obituary's prewar national leadership account.",
+      "identity_match_assessment": "The person match remains probable because no reviewed source independently connects this Navy officer to OSS.",
+      "temporal_assessment": "Explicitly dated 1939-1940 and therefore documented prewar; immediacy to OSS is not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The organization is not described as an employer and is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "deseret-nicholas-strike-b924",
+          "locator_override": "Biographical paragraph 2"
+        },
+        {
+          "source_key": "ahepa-nicholas-strike-b924",
+          "locator_override": "PDF physical page 50; prewar Supreme Presidency retrospective"
+        }
+      ]
+    },
+    {
+      "key": "identity-theophanes-strimenos-b924",
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Theophanes G Strimenos is confirmed as the first sergeant interviewed in the May 1944 OSS board report.",
+      "evidence_excerpt": "First Sergeant Theophanes G. Strimenos",
+      "evidence_paraphrase": "The declassified official report and index agree on the exact name and protected identifier and give a direct OSS service chronology.",
+      "identity_match_assessment": "Confirmed by exact name, protected identifier and direct OSS record. The identifier remains private.",
+      "temporal_assessment": "The report says he entered the Army in November 1940 and was assigned to OSS in September 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The direct official record supports the identity without reliance on a namesake biography.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 46; Box 753; protected identifier withheld"
+        },
+        {
+          "source_key": "hoover-theophanes-strimenos-b924",
+          "locator_override": "Section XV; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "immediate-theophanes-strimenos-guard-b924",
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "affiliation_key": "theophanes-strimenos-alabama-guard-b924",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Theophanes G. Strimenos entered the Army with the Alabama National Guard in November 1940 and was assigned to OSS in September 1943.",
+      "evidence_excerpt": "Entered the Army with the Alabama National Guard in November 1940",
+      "evidence_paraphrase": "The official OSS interview gives the predecessor military affiliation and the month of his OSS assignment in one chronology.",
+      "identity_match_assessment": "Confirmed exact-person official record.",
+      "temporal_assessment": "Explicit immediate military pathway to the September 1943 OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "hoover-theophanes-strimenos-b924",
+          "locator_override": "Section XV, First Sergeant Theophanes G. Strimenos"
+        }
+      ]
+    },
+    {
+      "key": "civilian-theophanes-strimenos-cafe-b924",
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "affiliation_key": "theophanes-strimenos-cafe-b924",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Before Army service, Theophanes G. Strimenos worked in an unnamed cafe in Mobile, Alabama; the employer's name is not given.",
+      "evidence_excerpt": "in civilian life, worked in a cafe in Mobile, Alabama",
+      "evidence_paraphrase": "The official OSS report states the civilian occupation and city; the accepted Army row dates entry and supplies a compatible waiter category.",
+      "identity_match_assessment": "Confirmed exact-person official records linked by a protected identifier.",
+      "temporal_assessment": "Explicitly civilian life before November 1940 Army entry; definitely last civilian work before service, but not immediately before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No cafe, proprietor or corporate employer is invented.",
+      "sources": [
+        {
+          "source_key": "hoover-theophanes-strimenos-b924",
+          "locator_override": "Section XV; civilian-life sentence"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "support_type": "context_only",
+          "locator_override": "Accepted reviewed identity record; Army entry 1940-11-25 and occupation code 227; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 172; historical category 2-27"
+        }
+      ]
+    },
+    {
+      "key": "identity-elmer-e-streeter-b924",
+      "person_id": "a83e8685-38a2-598b-bc91-42598bd5232d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Elmer E Streeter row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "An exact compatible name and nonshared protected identifier connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact or compatible full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-06-03; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 27; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-elmer-e-streeter-b924",
+      "person_id": "a83e8685-38a2-598b-bc91-42598bd5232d",
+      "affiliation_key": "elmer-e-streeter-occupation-b924",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-03, Elmer E Streeter was recorded in a historical occupation category, Machinists' apprentices; no employer is identified.",
+      "evidence_excerpt": "Machinists' apprentices",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 794, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 794; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b924",
+          "locator_override": "PDF physical pages 175 and 304; historical category 7-94",
+          "excerpt_override": "Machinists' apprentices"
+        }
+      ]
+    },
+    {
+      "key": "identity-norman-e-streeter-b924",
+      "person_id": "802cbb13-1a4d-5078-a233-6fefbc226de0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Norman E Streeter row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "An exact compatible name and nonshared protected identifier connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact or compatible full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1945-03-20; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 29; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-norman-e-streeter-b924",
+      "person_id": "802cbb13-1a4d-5078-a233-6fefbc226de0",
+      "affiliation_key": "norman-e-streeter-occupation-b924",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-03-20, Norman E Streeter was recorded in a historical occupation category, Chauffeurs and drivers, bus, taxi, truck, and tractor; no employer is identified. Because this entry date is in 1945, its relation to OSS service is uncertain.",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to March 1945; chronology relative to OSS is unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b924",
+          "locator_override": "PDF physical page 174; historical category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "identity-pierre-d-streit-b924",
+      "person_id": "8e39dd9b-d723-5ced-9d44-ab0d7dfd42d9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Pierre D Streit row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "An exact compatible name and nonshared protected identifier connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact or compatible full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-06-03; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 35; Box 753; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-pierre-d-streit-b924",
+      "person_id": "8e39dd9b-d723-5ced-9d44-ab0d7dfd42d9",
+      "affiliation_key": "pierre-d-streit-occupation-b924",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-03, Pierre D Streit was recorded in the historical occupation group Students; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b924",
+          "locator_override": "PDF physical page 304; historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-c-strickland-b924",
+      "person_id": "1cd1e7c4-8c21-5d0a-86e1-788915338430",
+      "claim_type": "identity",
+      "claim_text": "The indexed William C Strickland row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "An exact compatible name and nonshared protected identifier connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact or compatible full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1941-04-09; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 41; Box 753; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-c-strickland-b924",
+      "person_id": "1cd1e7c4-8c21-5d0a-86e1-788915338430",
+      "affiliation_key": "william-c-strickland-occupation-b924",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-04-09, William C Strickland was recorded in a historical occupation category, Stock clerks; no employer is identified.",
+      "evidence_excerpt": "Stock clerks",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 138, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b924",
+          "locator_override": "PDF physical pages 171 and 304; historical category 1-38",
+          "excerpt_override": "Stock clerks"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-a-stricklin-b924",
+      "person_id": "d36a49ed-dd13-552b-9509-6477fe43872a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert A Stricklin row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "An exact compatible name and nonshared protected identifier connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact or compatible full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-08-12; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b924",
+          "locator_override": "PDF page 452 row 43; Box 753; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-a-stricklin-b924",
+      "person_id": "d36a49ed-dd13-552b-9509-6477fe43872a",
+      "affiliation_key": "robert-a-stricklin-occupation-b924",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-08-12, Robert A Stricklin was recorded in a historical occupation category, Semiprofessional occupations, not elsewhere classified; no employer is identified.",
+      "evidence_excerpt": "Semiprofessional occupations, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 068, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b924",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 068; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b924",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b924",
+          "locator_override": "PDF physical pages 171 and 304; historical category 0-68",
+          "excerpt_override": "Semiprofessional occupations, not elsewhere classified"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "c1d42fce-baf7-5259-978e-1360e936b29b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William S Strauss, Box 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Exact-name and variant searches produced no person-specific result with an OSS or Box 752 identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e46e59df-3e9d-5073-93f5-e72c7616ac24",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elmer S Streeter, Box 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. The protected identifier produced no Army bulk match; the adjacent Elmer E. Streeter has a different middle initial and protected identifier and remains separate.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "be5357e2-eebe-5242-b343-45bcfba5ed52"
+    },
+    {
+      "person_id": "515e65a9-5d06-5f79-b585-4a2cd23eb528",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kathleen Streissguth, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Exact-name, institutional, obituary, newspaper and archival searches produced no defensible identity or employment evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "543bc104-fac6-5352-84ca-e0d1a66b38e7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies J E Strick, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Initials-only searches were too ambiguous to support a person match, employer or institution.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ebdb36f9-54a2-5972-b030-0fef7dd7b5c8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Bessie Strickland, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Common-name searches produced no corroborating identifier or Box 753 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "684a6676-6e1a-527a-89a3-22d9f12957ed",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Irene Strickland, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Common-name and occupation searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c7b71ec2-a3bb-5508-acb1-3749dea49018",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary W Strickland, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Common-name and middle-initial searches produced no person-specific result tied to OSS or Box 753.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1466bcf3-31c9-5381-9c42-223d086dd20c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert E Strickland, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Common-name searches produced no second corroborating identifier or defensible pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d8dbe549-c4b2-5dfe-9070-ab83a98b79f8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William C Strickland, Box 753 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. This row has a different protected identifier from the adjacent William C. Strickland row and remains separate; no defensible external match was found.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "7ccb8152-181b-5d8f-b250-233fcac4065b"
+    },
+    {
+      "person_id": "e00eb3c2-d676-526a-89c2-e6829a91046a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "St. Paul's and Princeton institutional memorials identify the uncommon exact-name Army major, Quartermaster Corps and OSS veteran and his Campbell Soup work before and after World War II.",
+      "name_variants": [
+        "George Strawbridge Sr."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 752 for exact Campbell Soup dates and the sequence between civilian work, Quartermaster Corps and OSS. The employer is probable last civilian pre-service, not proven immediate to OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dbe6304d-6bb1-5483-93b6-eb41572f0668",
+      "identity_status": "conflicting",
+      "identity_evidence": "The official Army candidate spells the surname Steed and the protected identifier is shared by separate index records. The candidate and all attached fields were rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 752 to establish the correct identifier and pre-OSS affiliation. Do not transfer any field from the rejected Ernest H Steed Army row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3ec9d787-c0ca-5d3b-9bf6-8266543a29d6",
+      "identity_status": "probable",
+      "identity_evidence": "A scholarly archival study identifies an exact-name Stephen Streeter in OSS X-2 Balkans but cites Box 752, while the index row is Box 753.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 753 and the article's cited Box 752 personnel file to resolve the box discrepancy and identify any pre-OSS employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2abae00d-4604-50eb-a84d-23049d23c7c0",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier selects an official Army row named James E OConnell, not Thomas W Streeter. The candidate and every attached field were rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 753 to establish the correct identifier and pre-OSS affiliation. Do not transfer any field from the rejected Army row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "803ea5df-1954-5848-829c-a5af19f134d2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The adjacent Robert E Streif and Robert E Strief rows may represent a spelling variant or different people. A Dallas lawyer named Robert Edwin Strief lacks an OSS or Box 753 bridge and was not assigned.",
+      "possible_duplicate_group": "4152634c-e3bf-59c4-a97e-f2f22fbbfbd5",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both adjacent Box 753 files to determine whether Streif and Strief are spelling variants or different people; do not assign the Dallas lawyer without a direct bridge.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "873441b6-b61b-5cd4-988e-64204693367a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Public records contain at least two Walter H Streilein namesakes with different military and death histories; neither has a defensible OSS or Box 753 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 753 for rank, service branch, birth year or other disambiguators before assigning either Walter H Streilein namesake.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9e24f3ef-d1e6-5f00-9661-33583be17f01",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The adjacent Robert E Strief and Robert E Streif rows may represent a spelling variant or different people. A Dallas lawyer named Robert Edwin Strief lacks an OSS or Box 753 bridge and was not assigned.",
+      "possible_duplicate_group": "4152634c-e3bf-59c4-a97e-f2f22fbbfbd5",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both adjacent Box 753 files to determine whether Streif and Strief are spelling variants or different people; do not assign the Dallas lawyer without a direct bridge.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "526fc414-2a93-566a-9f5e-1246122f61f5",
+      "identity_status": "probable",
+      "identity_evidence": "The uncommon exact name Nicholas Louis Strike, documented 1939-1940 national leadership and wartime Navy service align, but no reviewed source independently mentions OSS or Box 753.",
+      "name_variants": [
+        "Nicholas Louis Strike",
+        "Nick Strike"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 753 to confirm the Navy officer identity, OSS assignment and any civilian employment before service. The Sons of Pericles role is not employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The index, accepted Army row and declassified May 1944 OSS board report agree on the exact name and protected identifier and give a direct November 1940 Army to September 1943 OSS chronology.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The immediate Alabama National Guard pathway and last civilian cafe work are established. Review Box 753 only to identify the cafe, if recorded, and refine unit chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "not_required"
+    },
+    {
+      "person_id": "a83e8685-38a2-598b-bc91-42598bd5232d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Machinists' apprentices' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "be5357e2-eebe-5242-b343-45bcfba5ed52"
+    },
+    {
+      "person_id": "802cbb13-1a4d-5078-a233-6fefbc226de0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Chauffeurs and drivers, bus, taxi, truck, and tractor' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e39dd9b-d723-5ced-9d44-ab0d7dfd42d9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 753 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Students' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1cd1e7c4-8c21-5d0a-86e1-788915338430",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 753 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Stock clerks' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "William C Strickland Jr."
+      ],
+      "possible_duplicate_group": "7ccb8152-181b-5d8f-b250-233fcac4065b"
+    },
+    {
+      "person_id": "d36a49ed-dd13-552b-9509-6477fe43872a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 753 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Semiprofessional occupations, not elsewhere classified' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page452-row24-william-s-strauss-b924",
+      "person_id": "c1d42fce-baf7-5259-978e-1360e936b29b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William S Strauss; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name and variant searches produced no person-specific result with an OSS or Box 752 identity bridge.",
+      "research_notes": "Exact-name and variant searches produced no person-specific result with an OSS or Box 752 identity bridge. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row25-george-strawbridge-b924",
+      "person_id": "e00eb3c2-d676-526a-89c2-e6829a91046a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George Strawbridge; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "Two institutional memorials established high-confidence identity and qualified prewar Campbell Soup employment, but not an explicit immediate OSS predecessor. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row26-ernest-h-streed-b924",
+      "person_id": "dbe6304d-6bb1-5483-93b6-eb41572f0668",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest H Streed; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The protected-identifier Army candidate conflicted with the indexed name or was nonunique; every attached field was rejected.",
+      "research_notes": "The protected-identifier Army candidate conflicted with the indexed name or was nonunique; every attached field was rejected. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row27-elmer-e-streeter-b924",
+      "person_id": "a83e8685-38a2-598b-bc91-42598bd5232d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elmer E Streeter; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Machinists' apprentices, but no named employer or institution. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row28-elmer-s-streeter-b924",
+      "person_id": "e46e59df-3e9d-5073-93f5-e72c7616ac24",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elmer S Streeter; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The protected identifier produced no Army bulk match; the adjacent Elmer E. Streeter has a different middle initial and protected identifier and remains separate.",
+      "research_notes": "The protected identifier produced no Army bulk match; the adjacent Elmer E. Streeter has a different middle initial and protected identifier and remains separate. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row29-norman-e-streeter-b924",
+      "person_id": "802cbb13-1a4d-5078-a233-6fefbc226de0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norman E Streeter; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Chauffeurs and drivers, bus, taxi, truck, and tractor, but no named employer or institution. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row30-stephen-streeter-b924",
+      "person_id": "3ec9d787-c0ca-5d3b-9bf6-8266543a29d6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stephen Streeter; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "A scholarly archival study established a probable OSS X-2 identity; its Box 752 citation conflicts with the index's Box 753, so no employer was assigned. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row31-thomas-w-streeter-b924",
+      "person_id": "2abae00d-4604-50eb-a84d-23049d23c7c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas W Streeter; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The protected-identifier Army candidate conflicted with the indexed name or was nonunique; every attached field was rejected.",
+      "research_notes": "The protected-identifier Army candidate conflicted with the indexed name or was nonunique; every attached field was rejected. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row32-robert-e-streif-b924",
+      "person_id": "803ea5df-1954-5848-829c-a5af19f134d2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert E Streif; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Plausible namesakes or spelling variants lacked a second identifier or Box 753 bridge and were not assigned.",
+      "research_notes": "Plausible namesakes or spelling variants lacked a second identifier or Box 753 bridge and were not assigned. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row33-walter-h-streilein-b924",
+      "person_id": "873441b6-b61b-5cd4-988e-64204693367a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter H Streilein; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Plausible namesakes or spelling variants lacked a second identifier or Box 753 bridge and were not assigned.",
+      "research_notes": "Plausible namesakes or spelling variants lacked a second identifier or Box 753 bridge and were not assigned. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row34-kathleen-streissguth-b924",
+      "person_id": "515e65a9-5d06-5f79-b585-4a2cd23eb528",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kathleen Streissguth; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, institutional, obituary, newspaper and archival searches produced no defensible identity or employment evidence.",
+      "research_notes": "Exact-name, institutional, obituary, newspaper and archival searches produced no defensible identity or employment evidence. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row35-pierre-d-streit-b924",
+      "person_id": "8e39dd9b-d723-5ced-9d44-ab0d7dfd42d9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Pierre D Streit; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Students, but no named employer or institution. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row36-j-e-strick-b924",
+      "person_id": "543bc104-fac6-5352-84ca-e0d1a66b38e7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "J E Strick; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Initials-only searches were too ambiguous to support a person match, employer or institution.",
+      "research_notes": "Initials-only searches were too ambiguous to support a person match, employer or institution. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row37-bessie-strickland-b924",
+      "person_id": "ebdb36f9-54a2-5972-b030-0fef7dd7b5c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bessie Strickland; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name searches produced no corroborating identifier or Box 753 bridge.",
+      "research_notes": "Common-name searches produced no corroborating identifier or Box 753 bridge. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row38-irene-strickland-b924",
+      "person_id": "684a6676-6e1a-527a-89a3-22d9f12957ed",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irene Strickland; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name and occupation searches produced no defensible identity bridge.",
+      "research_notes": "Common-name and occupation searches produced no defensible identity bridge. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row39-mary-w-strickland-b924",
+      "person_id": "c7b71ec2-a3bb-5508-acb1-3749dea49018",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary W Strickland; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name and middle-initial searches produced no person-specific result tied to OSS or Box 753.",
+      "research_notes": "Common-name and middle-initial searches produced no person-specific result tied to OSS or Box 753. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row40-robert-e-strickland-b924",
+      "person_id": "1466bcf3-31c9-5381-9c42-223d086dd20c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert E Strickland; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name searches produced no second corroborating identifier or defensible pre-OSS affiliation.",
+      "research_notes": "Common-name searches produced no second corroborating identifier or defensible pre-OSS affiliation. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row41-william-c-strickland-b924",
+      "person_id": "1cd1e7c4-8c21-5d0a-86e1-788915338430",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William C Strickland; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Stock clerks, but no named employer or institution. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row42-william-c-strickland-b924",
+      "person_id": "d8dbe549-c4b2-5dfe-9070-ab83a98b79f8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William C Strickland; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "This row has a different protected identifier from the adjacent William C. Strickland row and remains separate; no defensible external match was found.",
+      "research_notes": "This row has a different protected identifier from the adjacent William C. Strickland row and remains separate; no defensible external match was found. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row43-robert-a-stricklin-b924",
+      "person_id": "d36a49ed-dd13-552b-9509-6477fe43872a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert A Stricklin; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Semiprofessional occupations, not elsewhere classified, but no named employer or institution. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row44-robert-e-strief-b924",
+      "person_id": "9e24f3ef-d1e6-5f00-9661-33583be17f01",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert E Strief; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Plausible namesakes or spelling variants lacked a second identifier or Box 753 bridge and were not assigned.",
+      "research_notes": "Plausible namesakes or spelling variants lacked a second identifier or Box 753 bridge and were not assigned. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row45-nicholas-l-strike-b924",
+      "person_id": "526fc414-2a93-566a-9f5e-1246122f61f5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas L Strike; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An obituary and AHEPA magazine established probable identity and a 1939-1940 Sons of Pericles role, but no independent OSS bridge or prewar employer. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    },
+    {
+      "key": "page452-row46-theophanes-g-strimenos-b924",
+      "person_id": "2b92e253-f5d1-5fb0-93d1-662da49b084d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Theophanes G Strimenos; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 752-753; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_924",
+      "started_at": "2026-10-26T10:28:00Z",
+      "completed_at": "2026-10-26T10:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "A direct declassified OSS report and accepted Army bridge confirmed identity, the Alabama National Guard-to-OSS path and unnamed Mobile cafe work before Army service. The CIA and Library of Congress adapters failed closed before returning results; institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b924-v1"
+    }
+  ]
+}
