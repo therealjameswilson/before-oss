@@ -1,5 +1,51 @@
 # Research status
 
+Batch 913 completed PDF page 447, rows 1-23, from **Irene H Steininger**
+through the first **Joachim A Stenzel** row, preserving all 23 printed rows and
+linking them to 23 separate active people. All 23 now have saved research
+outcomes. Five nonshared protected-identifier Army identity bridges are
+accepted; historical occupation categories remain qualified and name no
+employer.
+
+Bernard K. Steinitz is a confirmed match to Bernd Karl Steinitz, later Bernd
+Stevens. His U.S. Army service is the best-supported immediate pathway into
+OSS special training. A Johnson Tire Company role remains medium-confidence
+and temporally uncertain rather than being promoted to immediate or last
+civilian employment. Eliot Stellar's 1943-1944 Air Force psychology service is
+explicitly sequenced before OSS service, while his earlier NDRC assignment and
+student affiliations remain separate. Jean C. Stellhorn's 1943 waiter entry is
+published only as a probable, qualified city-directory match. Leonard V.
+Stemnock and the page 443 Leonard V. Stamnock remain separate people in one
+possible-duplicate group pending review of both files.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,948/23,936 (58.2721%)**;
+verified-employer coverage is **450/23,936 (1.8800%)**;
+verified-affiliation coverage is **1,000/23,936 (4.1778%)**; archival-review
+coverage is **12,421/23,936 (51.8925%)**. There are **9,983** not-started
+people, **615** possible-duplicate groups and **481** conflicts. Claim
+confidence counts are **1,645 confirmed**, **4,536 high**, **1,959 medium**,
+**228 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,180** affiliations, **1,148** organizations, **5,692** sources and
+**8,543** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 447, row 24,
+the second **Joachim A Stenzel** row in Box 744. See
+`research/batch-913-progress.md` for the source-by-source audit.
+
+Batch 913 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, database integrity, complete
+522-page extraction validation, derived export regeneration, coverage
+reporting and public-data redaction. All 146 Python tests and 84 parameterized
+subtests passed. The 200-profile structural audit passed all seven checks;
+Astro reported no errors, warnings or hints across 544 checked files and built
+25,130 static pages. The 93/93 bounded desktop, phone, tablet and accessibility
+release matrix passed, as did the 25,130-page internal-link check, rebuilt-
+source public-identifier audit, checked-in manifest verification and zero-
+vulnerability production dependency audit. Two consecutive builds reproduced
+identical public and output trees. Five advisories remain confined to the
+development toolchain; the deployed static site has no runtime package
+dependency. CI and public deployment verification remain pending.
+
 Batch 912 completed PDF page 446, rows 24-46, from **Theodore Steimack**
 through **Edwards G Steinhope**, preserving all 23 printed rows and linking
 them to 23 separate active people. All 23 now have terminal research outcomes.

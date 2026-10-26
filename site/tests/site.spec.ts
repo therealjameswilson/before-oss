@@ -51,7 +51,7 @@ test("home reports the complete index and incomplete research honestly", async (
   ).toBeVisible();
   await expect(
     page.getByText(
-      `The broader affiliation measure currently covers ${stats.verified_affiliation_people} entities.`,
+      `The broader affiliation measure currently covers ${stats.verified_affiliation_people.toLocaleString("en-US")} entities.`,
       { exact: false },
     ),
   ).toBeVisible();
