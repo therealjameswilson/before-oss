@@ -45,4 +45,13 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-Publication and unauthenticated live verification are pending. Local validation does not establish a public release.
+Batch 920 is public from immutable content commit
+`777bdd337d14fa521abf5d143c03118877992c66`. GitHub Actions Test run
+[`40289011883`](https://github.com/therealjameswilson/before-oss/actions/runs/40289011883)
+and Pages deployment run
+[`40289011874`](https://github.com/therealjameswilson/before-oss/actions/runs/40289011874)
+both completed successfully. The unauthenticated deployed-release verifier
+matched all 67 public assets (122,664,631 bytes) to manifest SHA-256
+`17c64a5a0030e511bb82f0f7a6a6bb4fb39e0ec7c937cb4a1b1e59ed9d22488c`,
+verified eight core routes, 39 source-register pages and all 23 directly
+affected profiles at <https://therealjameswilson.github.io/before-oss/>.

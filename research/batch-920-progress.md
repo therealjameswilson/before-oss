@@ -63,6 +63,12 @@ Archive locations: 230/86/41/04-05
 - Two consecutive builds reproduced the same 70-file, 125,011,777-byte public tree at SHA-256 `b5128d477caebf48a52c247833073266d842fbe33882e625568084744ef754e7` and the same 25,211-file, 334,968,013-byte output tree at SHA-256 `2437504e22549f6c160bf9a8997154b2971bb06aa0ec2bb54ac38b5f75983e6d`.
 - Production dependencies report zero vulnerabilities. Five findings remain confined to the development toolchain and do not become runtime dependencies of the static site.
 
+## Publication verification
+
+- Content commit `777bdd337d14fa521abf5d143c03118877992c66` passed GitHub Actions Test run `40289011883` and Pages deployment run `40289011874`.
+- The unauthenticated deployed-release verifier matched all 67 public assets (122,664,631 bytes), eight core routes, 39 source-register pages and all 23 Batch 920 profiles at <https://therealjameswilson.github.io/before-oss/>.
+- The live public manifest SHA-256 is `17c64a5a0030e511bb82f0f7a6a6bb4fb39e0ec7c937cb4a1b1e59ed9d22488c`.
+
 ## Resume point
 
 Continue with PDF page 451, row 1, **Franz T. Stone**, Box 750, archive location 230/86/41/05. Reuse the saved evidence bundle and reviewed adapter decisions; do not repeat completed source calls.

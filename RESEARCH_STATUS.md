@@ -44,9 +44,13 @@ bounded desktop, phone, tablet and accessibility release matrix passed, as did
 the 25,139-page internal-link check, checked-in public-manifest guard,
 protected-identifier audit and zero-vulnerability production dependency audit.
 Two consecutive builds reproduced identical public and output trees. Five
-dependency findings remain confined to the development toolchain. CI and live-
-publication results are recorded in `reports/release_batch_920.md` after those
-separate gates complete.
+dependency findings remain confined to the development toolchain. Batch 920 is
+public from immutable content commit
+`777bdd337d14fa521abf5d143c03118877992c66`. GitHub Actions Test run
+`40289011883` and Pages deployment run `40289011874` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (122,664,631 bytes), eight core routes, 39 source-register pages
+and all 23 directly affected profiles.
 
 Batch 919 completed PDF page 450, rows 1-23, from **Louis E Stites** through
 **Henry C Stokes**, preserving all 23 printed rows and linking them to 23
