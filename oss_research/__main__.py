@@ -117,6 +117,21 @@ def parser() -> argparse.ArgumentParser:
     army_bulk.add_argument("--file", type=_path, required=True)
     army_bulk.add_argument("--max-candidates", type=int, default=500)
     army_bulk.add_argument("--expected-sha256", default=ARMY_BULK_SHA256)
+    army_bulk.add_argument(
+        "--source-page",
+        type=int,
+        help="Limit candidate checkpointing to one personnel-index PDF page",
+    )
+    army_bulk.add_argument(
+        "--row-start",
+        type=int,
+        help="First source row on --source-page (inclusive)",
+    )
+    army_bulk.add_argument(
+        "--row-end",
+        type=int,
+        help="Last source row on --source-page (inclusive)",
+    )
     army_bulk.add_argument("--dry-run", action="store_true")
 
     sub.add_parser("export-derived")
@@ -306,6 +321,9 @@ def main(argv: list[str] | None = None) -> int:
                 max_candidates=args.max_candidates,
                 dry_run=args.dry_run,
                 expected_sha256=args.expected_sha256,
+                source_page=args.source_page,
+                row_start=args.row_start,
+                row_end=args.row_end,
             )
             finish_run(
                 connection,

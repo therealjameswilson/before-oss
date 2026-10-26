@@ -34,6 +34,8 @@ ADAPTER_VERSION = "army-bulk-identity-v1"
 class IndexedRow:
     person_id: str
     source_record_id: str
+    source_page: int
+    source_row_number: int
     surname: str
     given: str
     middle: str
@@ -102,11 +104,18 @@ def _alignment(indexed: IndexedRow, army_name: str) -> str:
     return "name_agrees"
 
 
-def _eligible_rows(connection: sqlite3.Connection) -> tuple[dict[bytes, list[IndexedRow]], int]:
+def _eligible_rows(
+    connection: sqlite3.Connection,
+    *,
+    source_page: int | None = None,
+    row_start: int | None = None,
+    row_end: int | None = None,
+) -> tuple[dict[bytes, list[IndexedRow]], int]:
     rows = list(
         connection.execute(
             """
-            SELECT l.person_id, s.source_record_id, s.last_name, s.first_name,
+            SELECT l.person_id, s.source_record_id, s.source_page,
+                   s.source_row_number, s.last_name, s.first_name,
                    s.middle_name_or_initial, s.serial_number_normalized
             FROM source_records s
             JOIN person_source_links l ON l.source_record_id = s.source_record_id
@@ -122,10 +131,12 @@ def _eligible_rows(connection: sqlite3.Connection) -> tuple[dict[bytes, list[Ind
     eligible: dict[bytes, list[IndexedRow]] = {}
     for identifier, members in raw.items():
         shared = len({row["person_id"] for row in members}) > 1
-        eligible[identifier] = [
+        selected = [
             IndexedRow(
                 person_id=row["person_id"],
                 source_record_id=row["source_record_id"],
+                source_page=row["source_page"],
+                source_row_number=row["source_row_number"],
                 surname=row["last_name"] or "",
                 given=row["first_name"] or "",
                 middle=row["middle_name_or_initial"] or "",
@@ -133,7 +144,17 @@ def _eligible_rows(connection: sqlite3.Connection) -> tuple[dict[bytes, list[Ind
                 shared_identifier=shared,
             )
             for row in members
+            if (
+                source_page is None
+                or (
+                    row["source_page"] == source_page
+                    and (row_start is None or row["source_row_number"] >= row_start)
+                    and (row_end is None or row["source_row_number"] <= row_end)
+                )
+            )
         ]
+        if selected:
+            eligible[identifier] = selected
     return eligible, sum(map(len, eligible.values()))
 
 
@@ -187,6 +208,9 @@ def match_army_bulk(
     max_candidates: int = 500,
     dry_run: bool = False,
     expected_sha256: str = ARMY_BULK_SHA256,
+    source_page: int | None = None,
+    row_start: int | None = None,
+    row_end: int | None = None,
 ) -> dict[str, object]:
     """Scan once, checkpoint candidates in bounded idempotent batches.
 
@@ -196,6 +220,16 @@ def match_army_bulk(
     """
     if max_candidates < 1:
         raise ValueError("max_candidates must be at least one")
+    if source_page is None and (row_start is not None or row_end is not None):
+        raise ValueError("row bounds require source_page")
+    if source_page is not None and source_page < 1:
+        raise ValueError("source_page must be at least one")
+    if row_start is not None and row_start < 1:
+        raise ValueError("row_start must be at least one")
+    if row_end is not None and row_end < 1:
+        raise ValueError("row_end must be at least one")
+    if row_start is not None and row_end is not None and row_start > row_end:
+        raise ValueError("row_start cannot exceed row_end")
     if not path.is_file():
         raise FileNotFoundError(f"Army bulk file not found: {path}")
     actual_size = path.stat().st_size
@@ -204,7 +238,12 @@ def match_army_bulk(
     actual_hash = _file_sha256(path)
     if actual_hash != expected_sha256:
         raise ValueError("Army bulk file SHA-256 mismatch; no candidates were stored")
-    indexed, eligible_row_count = _eligible_rows(connection)
+    indexed, eligible_row_count = _eligible_rows(
+        connection,
+        source_page=source_page,
+        row_start=row_start,
+        row_end=row_end,
+    )
     candidates, records = scan_army_bulk(path, indexed)
     if records != ARMY_BULK_RECORDS:
         raise ValueError(f"Army bulk record-count mismatch: {records}")
@@ -273,6 +312,9 @@ def match_army_bulk(
         "bulk_file_sha256": actual_hash,
         "bulk_file_bytes": actual_size,
         "bulk_records_scanned": records,
+        "source_page": source_page,
+        "row_start": row_start,
+        "row_end": row_end,
         "eligible_index_rows": eligible_row_count,
         "eligible_index_people": len({row.person_id for members in indexed.values() for row in members}),
         "matched_private_identifiers": len(matched_identifiers),

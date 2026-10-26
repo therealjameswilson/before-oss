@@ -175,6 +175,7 @@ run the private crosswalk in bounded, resumable batches:
 ```bash
 python3 -m oss_research army-bulk-match --file /absolute/path/ASNEF.FIN.DAT --dry-run
 python3 -m oss_research army-bulk-match --file /absolute/path/ASNEF.FIN.DAT --max-candidates 500
+python3 -m oss_research army-bulk-match --file /absolute/path/ASNEF.FIN.DAT --source-page 449 --row-start 1 --row-end 23 --dry-run
 ```
 
 Repeat the second command until `candidates_remaining` is zero. The file is
@@ -187,6 +188,8 @@ The command does **not** change research statuses, establish anyone's OSS
 identity by itself, create employer claims, or consume Catalog API quota.
 Name conflicts and shared index identifiers are explicitly flagged for review.
 Army-entry occupation codes are not named employers.
+The optional page and row bounds checkpoint only the audited batch while still
+detecting identifiers shared with people elsewhere in the full index.
 `python3 -m oss_research export-derived` writes a separate restricted
 `research/army_bulk_review_queue.csv`, prioritized by name conflict and
 shared-identifier risk. Its private `conflict_triage` column separates names

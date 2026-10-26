@@ -39,6 +39,33 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 917 Army, Allied and duplicate-candidate review
+
+For Batch 917, the official Army bulk file was checked through the page- and
+row-scoped adapter against page 449, rows 1-23 while still detecting
+identifiers shared elsewhere in the full index. Two nonshared protected-
+identifier rows were accepted. Occupation codes 105 and 306 were visually
+checked in [NARA's compiled code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+and retained as occupations without named employers.
+
+Oswald Stewart's military and student chronology is supported by his
+[published obituary](https://obits.lehighvalleylive.com/us/obituaries/etpa/name/oswald-stewart-obituary?id=14953246)
+and an [MIT alumni report](https://alum.mit.edu/sites/default/files/2017-05/FY04_Report.pdf).
+Martin Kasimir Stewen's Finnish military-attache assignment is supported by
+research from the [Finnish National Defence University](https://www.doria.fi/bitstream/handle/10024/125274/FDS_Palokangas_netpdf.pdf?sequence=2)
+and [Lund University](https://lup.lub.lu.se/luur/download?fileOId=9218237&func=downloadFile&recordOId=9218235).
+Greek and Norwegian Operational Group sources support Constantine Stiakakis
+and Oddberg P. Stiansen without supplying pre-OSS employer evidence.
+
+Institutional Karel Stiassni and Ernst Carl Stiefel sources remain private,
+low-confidence candidates because each name maps to two separately printed
+index rows. Their biographical content is assigned to neither row and is
+excluded from public exports. The CIA Reading Room was in system maintenance
+during a final targeted recheck; that access limitation is not treated as
+negative evidence. The NARA Catalog API key was not used, no API response body
+was stored, and temporary bulk and rendered codebook files will be removed
+after release verification.
+
 ### Batch 916 Army and Arthur W. Stewart review
 
 For Batch 916, the official Army bulk ZIP was independently retrieved through

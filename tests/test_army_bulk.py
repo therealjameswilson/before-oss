@@ -166,6 +166,81 @@ class ArmyBulkTests(unittest.TestCase):
             finally:
                 connection.close()
 
+    def test_page_scope_checkpoints_only_selected_rows_and_keeps_global_shared_flag(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            connection = connect(root / "research.sqlite")
+            try:
+                migrate(connection)
+                rows = [
+                    ("row-page-one", 1, 1, "Stewart", "Joseph", "E", "12345678"),
+                    ("row-page-two", 2, 1, "Stewart", "John", "E", "12345678"),
+                    ("row-other", 2, 2, "Stewart", "William", "D", "87654321"),
+                ]
+                with connection:
+                    for source_id, page, row_number, surname, given, middle, identifier in rows:
+                        connection.execute(
+                            """
+                            INSERT INTO source_records(
+                                source_record_id, source_pdf, source_pdf_sha256,
+                                source_page, source_row_number, raw_row_text,
+                                last_name_raw, first_name_raw, middle_initial_raw,
+                                serial_number_raw, display_name, normalized_name,
+                                last_name, first_name, middle_name_or_initial,
+                                serial_number_normalized, personnel_category,
+                                parser_confidence, ingested_at, parser_version
+                            ) VALUES (?, 'fixture.pdf', 'fixture-sha256', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,
+                                      'unknown_or_indeterminate', 1.0, '2026-09-19T00:00:00Z', 'fixture')
+                            """,
+                            (
+                                source_id,
+                                page,
+                                row_number,
+                                f"{surname} {given} {middle}",
+                                surname,
+                                given,
+                                middle,
+                                identifier,
+                                f"{given} {middle} {surname}",
+                                f"{surname} {given} {middle}".upper(),
+                                surname,
+                                given,
+                                middle,
+                                identifier,
+                            ),
+                        )
+                build_identities(connection)
+                payload = _record("12345678", "STEWART JOSEPH E") + _record(
+                    "87654321", "STEWART WILLIAM D"
+                )
+                path = root / "ASNEF.FIN.DAT"
+                path.write_bytes(payload)
+                expected_hash = hashlib.sha256(payload).hexdigest()
+                with patch.object(army_bulk, "ARMY_BULK_BYTES", len(payload)), patch.object(
+                    army_bulk, "ARMY_BULK_RECORDS", 2
+                ):
+                    result = army_bulk.match_army_bulk(
+                        connection,
+                        path,
+                        source_page=1,
+                        row_start=1,
+                        row_end=1,
+                        expected_sha256=expected_hash,
+                    )
+                self.assertEqual(result["eligible_index_rows"], 1)
+                self.assertEqual(result["identity_candidates_total"], 1)
+                self.assertEqual(result["shared_index_identifier_candidates"], 1)
+                evidence = json.loads(
+                    connection.execute(
+                        "SELECT evidence_json FROM candidate_matches WHERE candidate_url = ?",
+                        (army_bulk.ARMY_BULK_URL,),
+                    ).fetchone()[0]
+                )
+                self.assertTrue(evidence["identifier_shared_by_multiple_index_people"])
+                self.assertEqual(evidence["source_record_id"], "row-page-one")
+            finally:
+                connection.close()
+
 
 if __name__ == "__main__":
     unittest.main()

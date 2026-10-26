@@ -1,5 +1,50 @@
 # Research status
 
+Batch 917 completed PDF page 449, rows 1-23, from **Jack S Stewart** through
+**Sidney G Stiefel**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes. Two
+nonshared protected-identifier Army identity bridges are accepted; “Clerks,
+general office” and “General farmers” remain qualified occupations and name no
+employer.
+
+Oswald Stewart is a high-confidence match to Oswald Stewart II. His Army anti-
+aircraft service in the China-Burma-India theater is the explicit immediate
+military pathway into OSS, while MIT is kept separately as student status.
+Martin K. Stewen's Finnish military-attache assignment is published with its
+temporal uncertainty visible. Constantine Stiakakis and Oddberg P. Stiansen
+have high-confidence Operational Group identities without invented pre-OSS
+employers. The two Karel C. Stiassni rows and two Ernest C. Stiefel rows remain
+separate possible duplicates; external candidates are withheld at low
+confidence pending review of all four Box 747 files.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,040/23,936 (58.6564%)**;
+verified-employer coverage is **451/23,936 (1.8842%)**;
+verified-affiliation coverage is **1,003/23,936 (4.1903%)**; archival-review
+coverage is **12,513/23,936 (52.2769%)**. There are **9,891** not-started
+people, **617** possible-duplicate groups and **484** conflicts. Claim
+confidence counts are **1,645 confirmed**, **4,572 high**, **1,984 medium**,
+**234 low**, **409 conflicting** and **2 unresolved**. The public projection
+contains **3,210** affiliations, **1,152** organizations, **5,721** sources and
+**8,606** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 449, row
+24, **Bernard J Sties**, in Box 747. See `research/batch-917-progress.md` for
+the source-by-source audit.
+
+Batch 917 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, SQLite integrity and foreign-key
+checks, derived export regeneration, coverage reporting and public-data
+redaction. All 147 Python tests passed. The 200-profile structural audit passed
+all seven checks; Astro reported no errors, warnings or hints across 548
+checked files and built 25,135 static pages. The 93/93 bounded desktop, phone,
+tablet and accessibility release matrix passed, as did the 25,135-page
+internal-link check, public-identifier audit, checked-in manifest verification
+and zero-vulnerability production dependency audit. Two consecutive builds
+reproduced identical 70-file public and 25,207-file output trees. Five
+advisories remain confined to the development toolchain; the deployed static
+site has no runtime package dependency. Continuous integration, deployment and
+unauthenticated live verification remain separate release gates.
+
 Batch 916 completed PDF page 448, rows 24-46, from **Rebecca B Stevens**
 through **Harvey S Stewart**, preserving all 23 printed rows and linking them
 to 23 separate active people. All 23 now have saved research outcomes. Eleven

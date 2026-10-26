@@ -1,0 +1,1523 @@
+{
+  "bundle_version": "batch-917-v1",
+  "reviewer": "Before OSS Batch 917 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b917",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 746-747",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 449, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All separately printed rows remain separate. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b917",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; two accepted reviewed Batch 917 identity bridges",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. Coded occupations identify no employer."
+    },
+    {
+      "key": "army-tech-b917",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b917",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-172; Batch 917 categories 1-05 and 3-06 visually checked",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels identify neither employers nor workplaces."
+    },
+    {
+      "key": "express-times-oswald-stewart-b917",
+      "stable_url": "https://obits.lehighvalleylive.com/us/obituaries/etpa/name/oswald-stewart-obituary?id=14953246",
+      "title": "Oswald Stewart Obituary",
+      "repository_publisher": "The Express-Times",
+      "publication_record_date": "2009-01-14",
+      "locator": "Biographical paragraph on MIT, Army anti-aircraft service and 1945 transfer to OSS",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Express-Times obituaries",
+      "rights_notes": "Only short evidence excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "mit-alumni-oswald-stewart-b917",
+      "stable_url": "https://alum.mit.edu/sites/default/files/2017-05/FY04_Report.pdf",
+      "title": "Association of Alumni and Alumnae of MIT Fiscal Year 2004 Report",
+      "author_creator": "MIT Alumni Association",
+      "repository_publisher": "Massachusetts Institute of Technology",
+      "publication_record_date": "2004",
+      "locator": "PDF pages 24-25; Oswald Stewart '39 among Harold E. Lobdell Distinguished Service Award recipients",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "MIT Alumni Association reports",
+      "rights_notes": "Institutional corroboration supports class-year identity; student status is not employment."
+    },
+    {
+      "key": "finland-ndu-stewen-b917",
+      "stable_url": "https://www.doria.fi/bitstream/handle/10024/125274/FDS_Palokangas_netpdf.pdf?sequence=2",
+      "title": "Exploding Wilderness: Guerrilla-type activities in the Finnish art of war",
+      "author_creator": "Marko Palokangas",
+      "repository_publisher": "National Defence University of Finland",
+      "publication_record_date": "2016",
+      "locator": "PDF physical page 86 and note 266; Martin Stewen identified as Finland's military attaché in Stockholm",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Finnish Defence Studies 20",
+      "rights_notes": "Used for the documented wartime role; it does not establish an OSS employment relationship."
+    },
+    {
+      "key": "lund-stewen-b917",
+      "stable_url": "https://lup.lub.lu.se/luur/download?fileOId=9218237&func=downloadFile&recordOId=9218235",
+      "title": "Keep Quiet and Nobody Gets Hurt: Investigating the Decline of the Swedish-Finnish Intelligence Sharing Relationship 1943-1948",
+      "author_creator": "Luukas Lilover and Wilmer Filen",
+      "repository_publisher": "Lund University, Department of Political Science",
+      "publication_record_date": "2025",
+      "locator": "PDF physical page 6; Martin Kasimir Stewen identified as Finland's military attaché to Stockholm, 1942-1944",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Lund University student papers",
+      "rights_notes": "Corroborates the full name and dated military assignment; temporal relation to the indexed OSS file remains uncertain."
+    },
+    {
+      "key": "war-memorials-stiakakis-b917",
+      "stable_url": "https://uswarmemorials.org/html/monument_details.php?MemID=1865&SiteID=1414&file=monument_details.php&page=4",
+      "title": "Greek Operational Group (OSS) Soldier Monument",
+      "author_creator": "American War Memorials Overseas, Inc.",
+      "repository_publisher": "American War Memorials Overseas, Inc.",
+      "publication_record_date": "Monument dedicated 2005-05-26",
+      "locator": "People list and unit fields naming Constantine Stiakakis, Company C, 2671st Special Reconnaissance Battalion and OSS Greek Operational Group",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "American War Memorials Overseas database",
+      "rights_notes": "Supports an identity and OSS-unit bridge only; it names no pre-OSS employer."
+    },
+    {
+      "key": "ossog-stiansen-b917",
+      "stable_url": "https://ossog.info/norway/norso_01.html",
+      "title": "Office of Strategic Services Operational Groups: Operation Rype",
+      "author_creator": "Art Frizzell",
+      "repository_publisher": "Office of Strategic Services Operational Groups",
+      "locator": "Norwegian OG personnel roster; T/5 Oddberg P. Stiansen marked as part of the initial RYPE deployment",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Norwegian Operational Group histories",
+      "rights_notes": "The compiler identifies NARA records and Colby reports as sources. No pre-OSS employer is supplied."
+    },
+    {
+      "key": "vesterheim-stiansen-b917",
+      "stable_url": "https://vesterheim.org/norwegian-special-operations-group-percy-red/",
+      "title": "Rieder Grunseth and the Norwegian Special Operations Group - Operation Percy Red",
+      "author_creator": "Jon Grunseth",
+      "repository_publisher": "Vesterheim Norwegian-American Museum",
+      "publication_record_date": "2025",
+      "locator": "Percy Red roster naming T/5 Oddberg Stiansen",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Vesterheim Blog",
+      "rights_notes": "Museum-hosted family history corroborates the OSS operational-group roster; it names no pre-OSS employer."
+    },
+    {
+      "key": "npu-karel-stiassni-b917",
+      "stable_url": "https://www.npu.cz/uop/brno/akce/2022/MCMA_CS_stopa/sbornik_web.pdf",
+      "title": "Czechoslovak Traces in Subcarpathian Ruthenia, Monuments at Risk, and Heritage Preservation",
+      "author_creator": "Vlasta Loutocka and Hana Urbaskova, editors",
+      "repository_publisher": "National Heritage Institute, Brno Methodological Centre of Modern Architecture",
+      "publication_record_date": "2022",
+      "locator": "PDF physical page 116; Karel Stiassni described as a U.S. Army first lieutenant during Czechoslovakia's liberation",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Heritage Institute publications",
+      "rights_notes": "A low-confidence identity candidate for two separately printed same-name rows; not published as settled fact."
+    },
+    {
+      "key": "us-court-ernst-stiefel-b917",
+      "stable_url": "https://www.rid.uscourts.gov/sites/rid/files/historical/documents/20150908-LawyersWithoutRightsExhibit-Book2.pdf",
+      "title": "Lawyers Without Rights",
+      "author_creator": "German Federal Bar and American Bar Association Section of International Law",
+      "repository_publisher": "United States District Court for the District of Rhode Island",
+      "locator": "PDF physical page 17; Ernst Stiefel panel describing Board of Economic Warfare work, Army draft and OSS deployment",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Lawyers Without Rights exhibit",
+      "rights_notes": "The biography is retained as a low-confidence candidate for two separate Ernest C. Stiefel index rows."
+    },
+    {
+      "key": "deutsche-biographie-stiefel-b917",
+      "stable_url": "https://www.deutsche-biographie.de/gnd118829386.html",
+      "archival_identifier": "GND 118829386",
+      "title": "Stiefel, Ernst (Ernest) Carl",
+      "author_creator": "Kurt Biedenkopf",
+      "repository_publisher": "Deutsche Biographie / Neue Deutsche Biographie",
+      "publication_record_date": "2013",
+      "locator": "Name variants and biography; consultant in the Office of Economic Warfare before Army service",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Neue Deutsche Biographie 25",
+      "rights_notes": "Supports the Ernest/Ernst name variants but does not identify which printed index row is intended."
+    },
+    {
+      "key": "washington-post-stiefel-b917",
+      "stable_url": "https://www.washingtonpost.com/archive/politics/2000/10/29/oss-unit-used-insurance-data-as-weapons-of-war/98a387c0-dce3-4d7f-bf46-f1cc2eb915ba/",
+      "title": "OSS Unit Used Insurance Data as Weapons of War",
+      "author_creator": "Mark Fritz",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2000-10-28",
+      "locator": "Paragraph identifying Ernest Stiefel as a member of the OSS Insurance Intelligence Unit",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post archive",
+      "rights_notes": "Contextual corroboration only; duplicate index rows prevent assignment to a single entity."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b917",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Specific units remain in affiliation wording; Army service is not civilian employment."
+    },
+    {
+      "key": "mit-b917",
+      "organization_id": "c254b90a-52af-5598-a9f9-9ac1d4406f16",
+      "canonical_name": "Massachusetts Institute of Technology",
+      "historical_name": "Massachusetts Institute of Technology",
+      "aliases": [
+        "MIT"
+      ],
+      "organization_type": "university and research institute",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Student relationships are modeled separately from employment."
+    },
+    {
+      "key": "finnish-defence-forces-b917",
+      "organization_id": "1d84ab6b-d293-50c8-bfc3-4122d0407cf9",
+      "canonical_name": "Finnish Defence Forces",
+      "historical_name": "Finnish Defence Forces",
+      "aliases": [
+        "Defence Forces of Finland"
+      ],
+      "organization_type": "national military service",
+      "sector": "military",
+      "country": "Finland",
+      "normalization_notes": "The source wording is preserved as Finland's military attache to Stockholm; no civilian employer relationship is inferred."
+    },
+    {
+      "key": "board-economic-warfare-b917",
+      "organization_id": "c560e197-f162-5279-b2f2-b75de9c71872",
+      "canonical_name": "Board of Economic Warfare",
+      "historical_name": "Board of Economic Warfare",
+      "aliases": [
+        "BEW"
+      ],
+      "organization_type": "federal wartime agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1943",
+      "normalization_notes": "Existing organization reused. Government assignment is kept distinct from civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-e-stewart-occupation-b917",
+      "person_id": "b4d722ee-4bc5-5c6e-b4d5-e15241c446c2",
+      "relationship_type": "employment",
+      "occupation": "Clerks, general office",
+      "end_date": "1943-03-12",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1943-03-12; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "william-d-stewart-occupation-b917",
+      "person_id": "1b7afa81-e3d0-5dde-995a-88d889a470cd",
+      "relationship_type": "employment",
+      "occupation": "General farmers",
+      "end_date": "1942-04-28",
+      "date_precision": "Historical civilian-occupation code 306 was recorded at Army entry on 1942-04-28; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "oswald-stewart-army-anti-aircraft-b917",
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "organization_key": "us-army-b917",
+      "organization_name_as_found": "Army anti-aircraft units in the China-Burma-India theater",
+      "role_title": "second lieutenant to major",
+      "relationship_type": "military_assignment",
+      "start_date": "1940",
+      "end_date": "1945",
+      "date_precision": "The obituary states Army service began in 1940 and that he transferred from anti-aircraft units to OSS in 1945.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The military assignment is not labeled a civilian employer. The indexed personnel file is still needed for exact unit and transfer dates."
+    },
+    {
+      "key": "oswald-stewart-mit-student-b917",
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "organization_key": "mit-b917",
+      "organization_name_as_found": "MIT",
+      "role_title": "mechanical-engineering student",
+      "relationship_type": "student",
+      "end_date": "1939",
+      "date_precision": "The obituary states that he graduated in 1939; the MIT alumni report independently identifies Oswald Stewart as class of 1939.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "MIT is a documented educational affiliation, not an employer."
+    },
+    {
+      "key": "martin-stewen-finland-attache-b917",
+      "person_id": "4cf845da-4243-52c6-a37e-e59ea3e03ed0",
+      "organization_key": "finnish-defence-forces-b917",
+      "organization_name_as_found": "Finland's military attache to Stockholm",
+      "role_title": "military attache",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "Two scholarly institutional sources identify the role; neither fixes its temporal relation to the indexed OSS personnel file.",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The assignment is documented, but the accessible sources do not establish that it immediately preceded an OSS recruitment, employment or transfer."
+    },
+    {
+      "key": "ernest-c-stiefel-board-economic-warfare-row20-b917",
+      "person_id": "69267441-cc57-5de4-b128-7cbf3fbb193e",
+      "organization_key": "board-economic-warfare-b917",
+      "organization_name_as_found": "Board of Economic Warfare",
+      "role_title": "researcher and writer on insurance questions",
+      "relationship_type": "government_assignment",
+      "end_date": "1943",
+      "date_precision": "The biography explicitly places this work before a December 1943 Army draft and OSS deployment, but the duplicate index rows cannot be distinguished.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "ambiguous",
+      "claim_confidence": "low",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "withheld_low_confidence",
+      "research_notes": "Private candidate only. Two separately printed Ernest C. Stiefel rows remain distinct pending Box 747 review."
+    },
+    {
+      "key": "ernest-c-stiefel-board-economic-warfare-row21-b917",
+      "person_id": "8ca1e52d-f2f9-5479-ac6d-74cfd3e4ee59",
+      "organization_key": "board-economic-warfare-b917",
+      "organization_name_as_found": "Board of Economic Warfare",
+      "role_title": "researcher and writer on insurance questions",
+      "relationship_type": "government_assignment",
+      "end_date": "1943",
+      "date_precision": "The biography explicitly places this work before a December 1943 Army draft and OSS deployment, but the duplicate index rows cannot be distinguished.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "ambiguous",
+      "claim_confidence": "low",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "withheld_low_confidence",
+      "research_notes": "Private candidate only. Two separately printed Ernest C. Stiefel rows remain distinct pending Box 747 review."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-e-stewart-b917",
+      "person_id": "b4d722ee-4bc5-5c6e-b4d5-e15241c446c2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph E Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation remains separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 5; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b917",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-e-stewart-b917",
+      "person_id": "b4d722ee-4bc5-5c6e-b4d5-e15241c446c2",
+      "affiliation_key": "joseph-e-stewart-occupation-b917",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-12, the official record assigned Joseph E Stewart the historical civilian-occupation category 'Clerks, general office'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 105, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b917",
+          "locator_override": "Army-entry date 1943-03-12; occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b917",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b917",
+          "locator_override": "PDF physical page 171; category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-d-stewart-b917",
+      "person_id": "1b7afa81-e3d0-5dde-995a-88d889a470cd",
+      "claim_type": "identity",
+      "claim_text": "The indexed William D Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation remains separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 10; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b917",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-d-stewart-b917",
+      "person_id": "1b7afa81-e3d0-5dde-995a-88d889a470cd",
+      "affiliation_key": "william-d-stewart-occupation-b917",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-28, the official record assigned William D Stewart the historical civilian-occupation category 'General farmers'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 306, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b917",
+          "locator_override": "Army-entry date 1942-04-28; occupation code 306; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b917",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b917",
+          "locator_override": "PDF physical page 172; category 3-06",
+          "excerpt_override": "General farmers"
+        }
+      ]
+    },
+    {
+      "key": "identity-oswald-stewart-ii-b917",
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "claim_type": "identity",
+      "claim_text": "The indexed Oswald Stewart is a high-confidence match to Oswald Stewart II, MIT class of 1939 and a U.S. Army officer transferred to OSS in 1945.",
+      "evidence_paraphrase": "A detailed obituary supplies the distinctive name, education, Army chronology and explicit OSS transfer; MIT independently corroborates the class-year identity.",
+      "identity_match_assessment": "High confidence from a distinctive exact name, explicit OSS service, compatible Army chronology and independent MIT class-year corroboration.",
+      "temporal_assessment": "The obituary explicitly dates Army service to 1940-1946 and transfer to OSS to 1945.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The high-confidence identity does not establish a civilian employer; the indexed file remains necessary for exact unit and transfer dates.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 8; protected identifier withheld"
+        },
+        {
+          "source_key": "express-times-oswald-stewart-b917"
+        },
+        {
+          "source_key": "mit-alumni-oswald-stewart-b917",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "immediate-oswald-stewart-army-b917",
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "affiliation_key": "oswald-stewart-army-anti-aircraft-b917",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Oswald Stewart served in U.S. Army anti-aircraft units in the China-Burma-India theater immediately before transferring to OSS in 1945.",
+      "evidence_excerpt": "transferring to the OSS in 1945",
+      "evidence_paraphrase": "The obituary places his anti-aircraft service before and his OSS transfer in 1945.",
+      "identity_match_assessment": "High-confidence Oswald Stewart II identity supported by the explicit OSS obituary and MIT corroboration.",
+      "temporal_assessment": "Explicit immediate sequence: Army anti-aircraft units followed by transfer to OSS in 1945.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A military assignment is published, not a civilian employer. Exact unit and transfer-day details await the personnel file.",
+      "sources": [
+        {
+          "source_key": "express-times-oswald-stewart-b917",
+          "excerpt_override": "transferring to the OSS in 1945"
+        }
+      ]
+    },
+    {
+      "key": "prewar-oswald-stewart-mit-b917",
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "affiliation_key": "oswald-stewart-mit-student-b917",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Oswald Stewart graduated from MIT in 1939 with a degree in mechanical engineering.",
+      "evidence_excerpt": "graduated from MIT in 1939 with a degree in mechanical engineering",
+      "evidence_paraphrase": "The obituary provides the degree and year; the MIT alumni report identifies Oswald Stewart as class of 1939.",
+      "identity_match_assessment": "High-confidence identity from the explicit OSS obituary and matching MIT class-year record.",
+      "temporal_assessment": "Documented prewar student status ending in 1939, before Army service began in 1940.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "MIT is correctly labeled as an educational institution rather than an employer.",
+      "sources": [
+        {
+          "source_key": "express-times-oswald-stewart-b917",
+          "excerpt_override": "graduated from MIT in 1939 with a degree in mechanical engineering"
+        },
+        {
+          "source_key": "mit-alumni-oswald-stewart-b917",
+          "excerpt_override": "Oswald Stewart '39"
+        }
+      ]
+    },
+    {
+      "key": "identity-martin-kasimir-stewen-b917",
+      "person_id": "4cf845da-4243-52c6-a37e-e59ea3e03ed0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Martin K. Stewen is a high-confidence match to Finnish Colonel Martin Kasimir Stewen.",
+      "evidence_paraphrase": "Two institutional studies independently identify the distinctive full name and wartime military-attache role in Stockholm.",
+      "identity_match_assessment": "High confidence from the distinctive exact surname and initial, full-name expansion and mutually compatible Finnish military chronology.",
+      "temporal_assessment": "The dated 1942-1944 role supports wartime identity but does not define the precise relationship to the indexed OSS file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The sources document a Finnish officer and intelligence liaison context; they do not convert him into a U.S. OSS employee.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 12"
+        },
+        {
+          "source_key": "finland-ndu-stewen-b917",
+          "excerpt_override": "Martin Stewen, Finland's military attache in Stockholm"
+        },
+        {
+          "source_key": "lund-stewen-b917",
+          "excerpt_override": "Stewen, Martin Kasimir - Finland's Military attache to Stockholm 1942-1944"
+        }
+      ]
+    },
+    {
+      "key": "wartime-martin-stewen-attache-b917",
+      "person_id": "4cf845da-4243-52c6-a37e-e59ea3e03ed0",
+      "affiliation_key": "martin-stewen-finland-attache-b917",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Martin Kasimir Stewen served as Finland's military attache to Stockholm from 1942 to 1944.",
+      "evidence_paraphrase": "The Lund study dates the assignment to 1942-1944, while the Finnish National Defence University independently identifies the same role.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed name Martin K. Stewen.",
+      "temporal_assessment": "The military assignment is dated, but its sequence relative to the indexed OSS relationship remains uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile visibly qualifies the temporal relation and does not call the Finnish military assignment a civilian employer.",
+      "sources": [
+        {
+          "source_key": "finland-ndu-stewen-b917",
+          "excerpt_override": "Martin Stewen, Finland's military attache in Stockholm"
+        },
+        {
+          "source_key": "lund-stewen-b917",
+          "excerpt_override": "Stewen, Martin Kasimir - Finland's Military attache to Stockholm 1942-1944"
+        }
+      ]
+    },
+    {
+      "key": "identity-constantine-stiakakis-b917",
+      "person_id": "4ff0a066-312a-565a-9c00-89411b79e4e5",
+      "claim_type": "identity",
+      "claim_text": "The indexed T/5 Constantine Stiakakis is a high-confidence match to the OSS Greek Operational Group servicemember commemorated by name in Athens.",
+      "evidence_paraphrase": "The distinctive exact name appears in both the official index and the Greek Operational Group monument database, which supplies the OSS unit context.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, compatible T/5 Army status and specific OSS Greek Operational Group context.",
+      "temporal_assessment": "The sources establish wartime OSS-unit identity but supply no earlier employer or predecessor assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No claim is made that the unit-level 122nd Infantry recruitment narrative proves this person's immediate pre-OSS assignment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 13; rank T/5"
+        },
+        {
+          "source_key": "war-memorials-stiakakis-b917",
+          "excerpt_override": "Constantine Stiakakis"
+        }
+      ]
+    },
+    {
+      "key": "identity-oddberg-p-stiansen-b917",
+      "person_id": "22a1cfab-ac86-558e-87c6-31fc98b6174c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Oddberg P. Stiansen is a high-confidence match to T/5 Oddberg P. Stiansen of the OSS Norwegian Operational Group.",
+      "evidence_paraphrase": "An archive-informed operational-group roster and a Norwegian-American museum history independently name the distinctive servicemember and rank.",
+      "identity_match_assessment": "High confidence from the distinctive full name, matching middle initial, rank and two mutually compatible OSS operational-group sources.",
+      "temporal_assessment": "The sources establish OSS service and deployment context but identify no pre-OSS employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No civilian occupation or employer is inferred from Norwegian-American operational-group service.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 14; protected identifier withheld"
+        },
+        {
+          "source_key": "ossog-stiansen-b917",
+          "excerpt_override": "T/5 Oddberg P. Stiansen"
+        },
+        {
+          "source_key": "vesterheim-stiansen-b917",
+          "excerpt_override": "T/5 Oddberg Stiansen"
+        }
+      ]
+    },
+    {
+      "key": "candidate-karel-c-stiassni-row15-b917",
+      "person_id": "eaf13bea-cd19-5e19-8433-f2d51325d53d",
+      "claim_type": "identity",
+      "claim_text": "An institutional history documents a Karel Stiassni who served as a U.S. Army first lieutenant, but it cannot yet be assigned to this separately printed index row.",
+      "evidence_paraphrase": "The rare exact name and U.S. Army service are compatible, but page 449 contains two Karel C. Stiassni rows with different protected identifiers.",
+      "identity_match_assessment": "Ambiguous. Direct personnel-file evidence is required before assigning the external biography to either source row.",
+      "temporal_assessment": "The source documents wartime Army service but supplies no proven OSS entry sequence for this index row.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private review candidate only. The two rows remain separate and no famous or convenient biography is selected by name alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 15; protected identifier withheld"
+        },
+        {
+          "source_key": "npu-karel-stiassni-b917",
+          "excerpt_override": "Karel Stiassni"
+        }
+      ]
+    },
+    {
+      "key": "candidate-karel-c-stiassni-row16-b917",
+      "person_id": "97a168bb-761a-5998-b82d-3814fc261154",
+      "claim_type": "identity",
+      "claim_text": "An institutional history documents a Karel Stiassni who served as a U.S. Army first lieutenant, but it cannot yet be assigned to this separately printed index row.",
+      "evidence_paraphrase": "The rare exact name and U.S. Army service are compatible, but page 449 contains two Karel C. Stiassni rows with different protected identifiers.",
+      "identity_match_assessment": "Ambiguous. Direct personnel-file evidence is required before assigning the external biography to either source row.",
+      "temporal_assessment": "The source documents wartime Army service but supplies no proven OSS entry sequence for this index row.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private review candidate only. The two rows remain separate and no famous or convenient biography is selected by name alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 16; protected identifier withheld"
+        },
+        {
+          "source_key": "npu-karel-stiassni-b917",
+          "excerpt_override": "Karel Stiassni"
+        }
+      ]
+    },
+    {
+      "key": "candidate-ernest-c-stiefel-row20-b917",
+      "person_id": "69267441-cc57-5de4-b128-7cbf3fbb193e",
+      "claim_type": "identity",
+      "claim_text": "The Ernst Carl Stiefel biography is a strong name-and-OSS candidate, but it cannot yet be assigned to this separately printed Ernest C. Stiefel row.",
+      "evidence_paraphrase": "Institutional and newspaper sources connect the Ernest/Ernst C. name variants to OSS insurance work, while page 449 contains two separate same-name rows.",
+      "identity_match_assessment": "Ambiguous. The external biography cannot distinguish the row with a protected identifier from the row without one.",
+      "temporal_assessment": "The biography supplies an explicit Board of Economic Warfare-to-Army/OSS chronology for the candidate, not a resolved row assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private candidate only. Both index rows remain visible and require Box 747 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 20; protected identifier withheld when present"
+        },
+        {
+          "source_key": "us-court-ernst-stiefel-b917",
+          "excerpt_override": "deployed with the Office of Strategic Services"
+        },
+        {
+          "source_key": "deutsche-biographie-stiefel-b917",
+          "excerpt_override": "Stiefel, Ernest C."
+        },
+        {
+          "source_key": "washington-post-stiefel-b917",
+          "support_type": "context_only",
+          "excerpt_override": "Ernest Stiefel, a member of the intelligence unit"
+        }
+      ]
+    },
+    {
+      "key": "candidate-immediate-ernest-c-stiefel-row20-b917",
+      "person_id": "69267441-cc57-5de4-b128-7cbf3fbb193e",
+      "affiliation_key": "ernest-c-stiefel-board-economic-warfare-row20-b917",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "A candidate biography places Ernst Carl Stiefel with the Board of Economic Warfare before his December 1943 Army draft and OSS deployment.",
+      "evidence_paraphrase": "The institutional exhibit explicitly gives the sequence, but the duplicate source rows make person-level assignment unresolved.",
+      "identity_match_assessment": "Low for this row because two separately printed Ernest C. Stiefel records cannot yet be distinguished.",
+      "temporal_assessment": "Explicit immediate sequence for the external candidate; unverified row assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Not published as fact and excluded from default analytics until the indexed personnel files resolve the duplicate rows.",
+      "sources": [
+        {
+          "source_key": "us-court-ernst-stiefel-b917",
+          "excerpt_override": "involved with the Board of Economic Warfare"
+        },
+        {
+          "source_key": "deutsche-biographie-stiefel-b917",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "candidate-ernest-c-stiefel-row21-b917",
+      "person_id": "8ca1e52d-f2f9-5479-ac6d-74cfd3e4ee59",
+      "claim_type": "identity",
+      "claim_text": "The Ernst Carl Stiefel biography is a strong name-and-OSS candidate, but it cannot yet be assigned to this separately printed Ernest C. Stiefel row.",
+      "evidence_paraphrase": "Institutional and newspaper sources connect the Ernest/Ernst C. name variants to OSS insurance work, while page 449 contains two separate same-name rows.",
+      "identity_match_assessment": "Ambiguous. The external biography cannot distinguish the row with a protected identifier from the row without one.",
+      "temporal_assessment": "The biography supplies an explicit Board of Economic Warfare-to-Army/OSS chronology for the candidate, not a resolved row assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private candidate only. Both index rows remain visible and require Box 747 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b917",
+          "locator_override": "PDF page 449 row 21; protected identifier withheld when present"
+        },
+        {
+          "source_key": "us-court-ernst-stiefel-b917",
+          "excerpt_override": "deployed with the Office of Strategic Services"
+        },
+        {
+          "source_key": "deutsche-biographie-stiefel-b917",
+          "excerpt_override": "Stiefel, Ernest C."
+        },
+        {
+          "source_key": "washington-post-stiefel-b917",
+          "support_type": "context_only",
+          "excerpt_override": "Ernest Stiefel, a member of the intelligence unit"
+        }
+      ]
+    },
+    {
+      "key": "candidate-immediate-ernest-c-stiefel-row21-b917",
+      "person_id": "8ca1e52d-f2f9-5479-ac6d-74cfd3e4ee59",
+      "affiliation_key": "ernest-c-stiefel-board-economic-warfare-row21-b917",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "A candidate biography places Ernst Carl Stiefel with the Board of Economic Warfare before his December 1943 Army draft and OSS deployment.",
+      "evidence_paraphrase": "The institutional exhibit explicitly gives the sequence, but the duplicate source rows make person-level assignment unresolved.",
+      "identity_match_assessment": "Low for this row because two separately printed Ernest C. Stiefel records cannot yet be distinguished.",
+      "temporal_assessment": "Explicit immediate sequence for the external candidate; unverified row assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Not published as fact and excluded from default analytics until the indexed personnel files resolve the duplicate rows.",
+      "sources": [
+        {
+          "source_key": "us-court-ernst-stiefel-b917",
+          "excerpt_override": "involved with the Board of Economic Warfare"
+        },
+        {
+          "source_key": "deutsche-biographie-stiefel-b917",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b4d722ee-4bc5-5c6e-b4d5-e15241c446c2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1b7afa81-e3d0-5dde-995a-88d889a470cd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 747 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c9617d96-7e59-5dfb-becb-b56e55966fe9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jack S Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, middle-initial, occupation, obituary, institutional, newspaper, directory and archival searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "424de3fa-57da-5422-a92a-550d3d3cab89",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James R Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The protected index identifier produced no compatible official Army candidate, while exact-name searches returned unbridged namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0ca29a30-7007-5330-b5ca-771fe271362c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John H Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A Navy-lieutenant memorial candidate lacks an OSS, protected-identifier or Box 746 bridge and was rejected as an unassigned namesake.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f68bdcb-c062-5641-904b-740da9e3a3c3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph C Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name results did not supply two corroborating identifiers beyond the name or a reliable pre-OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "01c7dcd8-d894-539c-89d9-dac9c047a162",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Margaret M Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and institutional searches produced no source with a defensible OSS identity bridge or pre-OSS employer chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "55972627-d528-57a7-970f-fbd22d908154",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary Stewart, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The no-middle-name index row could not be distinguished from numerous namesakes through accessible official, obituary and institutional sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a216ee02-5f8d-59f2-87e2-de5f415e7395",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Susan S Stewart, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation, obituary, institutional and archival searches produced no reliable person-specific match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a174e1da-0c19-511d-8077-713c025c4a44",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William R Stewart, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and middle-initial variants returned incompatible namesakes without an OSS assignment or protected-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ea33c2c9-c603-5fc8-b072-fdff25ca39f2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Betty A Stich, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation, obituary and archival searches found no reliable pre-OSS identity or employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d11d21d0-a731-5b46-9e9b-83d0f950c77b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Shirlene J Stich, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The distinctive indexed name produced no reliable official, institutional, obituary, directory or archival result beyond the index.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "581f6054-c633-54e8-a250-b8648f881a73",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Howard L Stickney, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A Howard Loren Stickney Marine casualty record lacks an OSS, index-identifier or Box 747 bridge and was rejected as an unassigned namesake.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ca0f3cc1-cd83-5041-be1b-9386d6b5592b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rudolph C Stiefel, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A biographical note for engineer Rudolf Stiefel depends principally on family relationship and supplies no direct OSS or protected-identifier bridge to this row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5503f49d-9886-520b-b7eb-7b696ab2aedf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sidney G Stiefel, Box 747 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A Honolulu obituary for Sidney Stiefel supplies no middle initial, OSS link, wartime chronology or protected-identifier bridge and was not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed name is explicitly connected to OSS in a detailed obituary that dates Army anti-aircraft service and a 1945 OSS transfer. MIT independently corroborates Oswald Stewart's 1939 class year.",
+      "name_variants": [
+        "Oswald Stewart II"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 personnel file for exact Army unit and OSS transfer dates and any last civilian employer. MIT is student status, not employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "4cf845da-4243-52c6-a37e-e59ea3e03ed0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two institutional studies independently expand the distinctive indexed name to Martin Kasimir Stewen and identify his wartime Finnish military-attache role in Stockholm. The precise temporal relation to the indexed OSS file remains unproven.",
+      "name_variants": [
+        "Martin Kasimir Stewen",
+        "Colonel Martin Stewen"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 file to determine Martin Stewen's precise OSS relationship and whether the 1942-1944 Finnish military-attache assignment immediately preceded it.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4ff0a066-312a-565a-9c00-89411b79e4e5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name, indexed T/5 rank and specific OSS Greek Operational Group monument context support a high-confidence identity. The unit-level recruitment narrative is not assigned as this person's immediate pre-OSS pathway.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 file for Constantine Stiakakis's pre-OSS assignment or employer; do not infer an individual transfer from the unit history alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "22a1cfab-ac86-558e-87c6-31fc98b6174c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive full name and middle initial are independently corroborated by an archive-informed OSS Norwegian Operational Group roster and a Vesterheim museum history, both identifying T/5 Oddberg Stiansen.",
+      "name_variants": [
+        "T/5 Oddberg P Stiansen",
+        "T/5 Oddberg Stiansen"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 747 file for Oddberg Stiansen's immediate pre-OSS assignment and last civilian employer; operational-group service supplies neither.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eaf13bea-cd19-5e19-8433-f2d51325d53d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "PDF page 449 contains two separately printed Karel C. Stiassni rows with different protected identifiers. Accessible external candidates cannot distinguish the rows, remain withheld at low confidence and are assigned to neither.",
+      "possible_duplicate_group": "same-name:karel-c-stiassni-page449",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both indexed Box 747 personnel files and protected identifiers before merging either row or publishing any external biography for a specific entity.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "97a168bb-761a-5998-b82d-3814fc261154",
+      "identity_status": "ambiguous",
+      "identity_evidence": "PDF page 449 contains two separately printed Karel C. Stiassni rows with different protected identifiers. Accessible external candidates cannot distinguish the rows, remain withheld at low confidence and are assigned to neither.",
+      "possible_duplicate_group": "same-name:karel-c-stiassni-page449",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both indexed Box 747 personnel files and protected identifiers before merging either row or publishing any external biography for a specific entity.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "69267441-cc57-5de4-b128-7cbf3fbb193e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "PDF page 449 contains two separately printed Ernest C. Stiefel rows. One carries a protected identifier and one does not. Accessible external candidates cannot distinguish the rows, remain withheld at low confidence and are assigned to neither.",
+      "possible_duplicate_group": "same-name:ernest-c-stiefel-page449",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both indexed Box 747 personnel files before merging either row or publishing any external employment chronology for a specific entity.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8ca1e52d-f2f9-5479-ac6d-74cfd3e4ee59",
+      "identity_status": "ambiguous",
+      "identity_evidence": "PDF page 449 contains two separately printed Ernest C. Stiefel rows. One carries a protected identifier and one does not. Accessible external candidates cannot distinguish the rows, remain withheld at low confidence and are assigned to neither.",
+      "possible_duplicate_group": "same-name:ernest-c-stiefel-page449",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both indexed Box 747 personnel files before merging either row or publishing any external employment chronology for a specific entity.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page449-row1-jack-s-stewart-b917",
+      "person_id": "c9617d96-7e59-5dfb-becb-b56e55966fe9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack S Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, middle-initial, occupation, obituary, institutional, newspaper, directory and archival searches produced no defensible identity bridge.",
+      "research_notes": "Exact-name, middle-initial, occupation, obituary, institutional, newspaper, directory and archival searches produced no defensible identity bridge. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row2-james-r-stewart-b917",
+      "person_id": "424de3fa-57da-5422-a92a-550d3d3cab89",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James R Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected index identifier produced no compatible official Army candidate, while exact-name searches returned unbridged namesakes.",
+      "research_notes": "The protected index identifier produced no compatible official Army candidate, while exact-name searches returned unbridged namesakes. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row3-john-h-stewart-b917",
+      "person_id": "0ca29a30-7007-5330-b5ca-771fe271362c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John H Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A Navy-lieutenant memorial candidate lacks an OSS, protected-identifier or Box 746 bridge and was rejected as an unassigned namesake.",
+      "research_notes": "A Navy-lieutenant memorial candidate lacks an OSS, protected-identifier or Box 746 bridge and was rejected as an unassigned namesake. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row4-joseph-c-stewart-b917",
+      "person_id": "0f68bdcb-c062-5641-904b-740da9e3a3c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph C Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results did not supply two corroborating identifiers beyond the name or a reliable pre-OSS chronology.",
+      "research_notes": "Common-name results did not supply two corroborating identifiers beyond the name or a reliable pre-OSS chronology. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row5-joseph-e-stewart-b917",
+      "person_id": "b4d722ee-4bc5-5c6e-b4d5-e15241c446c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph E Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row6-margaret-m-stewart-b917",
+      "person_id": "01c7dcd8-d894-539c-89d9-dac9c047a162",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Margaret M Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and institutional searches produced no source with a defensible OSS identity bridge or pre-OSS employer chronology.",
+      "research_notes": "Exact-name and institutional searches produced no source with a defensible OSS identity bridge or pre-OSS employer chronology. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row7-mary-stewart-b917",
+      "person_id": "55972627-d528-57a7-970f-fbd22d908154",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The no-middle-name index row could not be distinguished from numerous namesakes through accessible official, obituary and institutional sources.",
+      "research_notes": "The no-middle-name index row could not be distinguished from numerous namesakes through accessible official, obituary and institutional sources. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row8-oswald-stewart-b917",
+      "person_id": "b5b5b7f7-19d2-58cd-a62d-d307daa17538",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Oswald Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A high-confidence identity and explicit Army anti-aircraft-to-OSS transfer were accepted; MIT student status is documented separately from employment. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row9-susan-s-stewart-b917",
+      "person_id": "a216ee02-5f8d-59f2-87e2-de5f415e7395",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Susan S Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, obituary, institutional and archival searches produced no reliable person-specific match.",
+      "research_notes": "Exact-name, occupation, obituary, institutional and archival searches produced no reliable person-specific match. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row10-william-d-stewart-b917",
+      "person_id": "1b7afa81-e3d0-5dde-995a-88d889a470cd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William D Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row11-william-r-stewart-b917",
+      "person_id": "a174e1da-0c19-511d-8077-713c025c4a44",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William R Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and middle-initial variants returned incompatible namesakes without an OSS assignment or protected-identifier bridge.",
+      "research_notes": "Exact-name and middle-initial variants returned incompatible namesakes without an OSS assignment or protected-identifier bridge. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row12-martin-k-stewen-b917",
+      "person_id": "4cf845da-4243-52c6-a37e-e59ea3e03ed0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Martin K Stewen; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A high-confidence identity and dated Finnish military-attache assignment were accepted with an explicit temporal qualification relative to OSS. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row13-constantine-stiakakis-b917",
+      "person_id": "4ff0a066-312a-565a-9c00-89411b79e4e5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Constantine Stiakakis; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A high-confidence OSS Greek Operational Group identity was accepted; the unit history does not establish an individual pre-OSS pathway. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row14-oddberg-p-stiansen-b917",
+      "person_id": "22a1cfab-ac86-558e-87c6-31fc98b6174c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Oddberg P Stiansen; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A high-confidence OSS Norwegian Operational Group identity was accepted from two compatible sources; no pre-OSS employer was found. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row15-karel-c-stiassni-b917",
+      "person_id": "eaf13bea-cd19-5e19-8433-f2d51325d53d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Karel C Stiassni; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A specific external biography was retained as a private low-confidence candidate, but same-name duplicate source rows prevent a defensible assignment without the personnel files. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row16-karel-c-stiassni-b917",
+      "person_id": "97a168bb-761a-5998-b82d-3814fc261154",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Karel C Stiassni; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A specific external biography was retained as a private low-confidence candidate, but same-name duplicate source rows prevent a defensible assignment without the personnel files. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row17-betty-a-stich-b917",
+      "person_id": "ea33c2c9-c603-5fc8-b072-fdff25ca39f2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Betty A Stich; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, obituary and archival searches found no reliable pre-OSS identity or employer evidence.",
+      "research_notes": "Exact-name, occupation, obituary and archival searches found no reliable pre-OSS identity or employer evidence. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row18-shirlene-j-stich-b917",
+      "person_id": "d11d21d0-a731-5b46-9e9b-83d0f950c77b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shirlene J Stich; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The distinctive indexed name produced no reliable official, institutional, obituary, directory or archival result beyond the index.",
+      "research_notes": "The distinctive indexed name produced no reliable official, institutional, obituary, directory or archival result beyond the index. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row19-howard-l-stickney-b917",
+      "person_id": "581f6054-c633-54e8-a250-b8648f881a73",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Howard L Stickney; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A Howard Loren Stickney Marine casualty record lacks an OSS, index-identifier or Box 747 bridge and was rejected as an unassigned namesake.",
+      "research_notes": "A Howard Loren Stickney Marine casualty record lacks an OSS, index-identifier or Box 747 bridge and was rejected as an unassigned namesake. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row20-ernest-c-stiefel-b917",
+      "person_id": "69267441-cc57-5de4-b128-7cbf3fbb193e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest C Stiefel; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A specific external biography was retained as a private low-confidence candidate, but same-name duplicate source rows prevent a defensible assignment without the personnel files. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row21-ernest-c-stiefel-b917",
+      "person_id": "8ca1e52d-f2f9-5479-ac6d-74cfd3e4ee59",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest C Stiefel; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records, relatives-only matches and postwar-only material were not assigned.",
+      "research_notes": "A specific external biography was retained as a private low-confidence candidate, but same-name duplicate source rows prevent a defensible assignment without the personnel files. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row22-rudolph-c-stiefel-b917",
+      "person_id": "ca0f3cc1-cd83-5041-be1b-9386d6b5592b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rudolph C Stiefel; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A biographical note for engineer Rudolf Stiefel depends principally on family relationship and supplies no direct OSS or protected-identifier bridge to this row.",
+      "research_notes": "A biographical note for engineer Rudolf Stiefel depends principally on family relationship and supplies no direct OSS or protected-identifier bridge to this row. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    },
+    {
+      "key": "page449-row23-sidney-g-stiefel-b917",
+      "person_id": "5503f49d-9886-520b-b7eb-7b696ab2aedf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sidney G Stiefel; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 747; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_917",
+      "started_at": "2026-10-26T03:08:00Z",
+      "completed_at": "2026-10-26T04:24:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A Honolulu obituary for Sidney Stiefel supplies no middle initial, OSS link, wartime chronology or protected-identifier bridge and was not assigned.",
+      "research_notes": "A Honolulu obituary for Sidney Stiefel supplies no middle initial, OSS link, wartime chronology or protected-identifier bridge and was not assigned. Search-result snippets were discovery aids only; public claims point to inspectable sources. The CIA Reading Room was temporarily in maintenance during a recheck. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 747 personnel file for corroborating identifiers, exact transition dates and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b917-v1"
+    }
+  ]
+}
