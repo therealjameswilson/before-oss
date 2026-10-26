@@ -39,6 +39,37 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 918 Army, Signal OCS, 10th Mountain and candidate review
+
+For Batch 918, the official Army bulk file was checked through the page- and
+row-scoped adapter against page 449, rows 24-46 while still detecting
+identifiers shared elsewhere in the full index. Seven exact-name,
+nonshared-protected-identifier candidates were accepted as private identity
+crosswalks. A candidate for Robert E. Stillwell was rejected because the Army
+record spells the surname `STILWELL`; its grade and occupation were not
+transferred. Occupation codes 003, 105, 698, 753, 783, 948 and 983 were visually
+checked in [NARA's compiled code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+and retained as occupations without named employers. A damaged Walter E.
+Stirnus grade value was preserved privately and not normalized or published.
+
+Bradford J. Stimpson's qualified wartime training lead comes from the
+[Army Signal Corps OCS historical roster](https://www.armysignalocs.com/archived/ww2/44_34.html),
+which lists a 21 June 1944 graduation date. Walter E. Stirnus's 86th Infantry
+assignment is supported by the [Denver Public Library 10th Mountain Division
+Name Index](https://history.denverlibrary.org/sites/history/files/10th_mountain_index_0.pdf).
+Both profiles state that the available sources do not establish the sequence
+relative to OSS service. Official postwar sources for Harry F. Stimpson and
+Branko Stipanovic remain private, low-confidence identity candidates; no
+employer or affiliation is assigned from them.
+
+The bounded Library of Congress pass made 23 successful current API searches.
+Two newspaper OCR candidates were checked against the underlying page text and
+rejected for a wrong middle initial and OCR word-joining. The CIA Reading Room
+adapter failed closed when its robots endpoint was unavailable; that source-
+access failure is recorded and is not negative evidence. The NARA Catalog API
+key was not used, no NARA API response body was stored, and protected
+identifiers remain excluded from public assets.
+
 ### Batch 917 Army, Allied and duplicate-candidate review
 
 For Batch 917, the official Army bulk file was checked through the page- and

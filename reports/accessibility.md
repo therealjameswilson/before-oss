@@ -7281,3 +7281,15 @@ qualified freelance work, the separately preserved Rattenberg/Rottenberg
 conflict, exact clipped notes, scientific-notation identifier masking, current
 coverage totals, and the oil-company category. All 30 axe scans reported no
 serious accessibility violations.
+
+## Batch 918 accessibility and responsive regression
+
+The bounded release suite passed **93 / 93** checks: 24 Batch 918 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and
+tablet widths. It verifies all 23 direct profiles, seven reviewed Army
+identity matches, the Stillwell/Stilwell conflict, the separation of Army
+occupation codes from employers, the qualified Stimpson and Stirnus wartime
+affiliations, private namesake-candidate details, protected-identifier
+masking, exact coverage, and the oil-company category. All 30 axe scans
+reported no serious accessibility violations.

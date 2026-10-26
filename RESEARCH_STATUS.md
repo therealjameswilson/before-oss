@@ -1,5 +1,52 @@
 # Research status
 
+Batch 918 completed PDF page 449, rows 24-46, from **Bernard J Sties** through
+**Leroy G Stiteler**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes. Seven
+nonshared protected-identifier Army identity bridges are accepted; their dated
+historical occupation categories remain qualified and name no employer. The
+protected-identifier candidate for Robert E. Stillwell is rejected as a
+resolved identity because the Army record spells the surname `STILWELL`; no
+grade or occupation is transferred across that conflict.
+
+Bradford J. Stimpson is a probable match to a Signal Corps OCS Class 34-1944
+graduate. The 21 June 1944 training date is published at medium confidence with
+the sequence relative to OSS explicitly unknown. Walter E. Stirnus is a high-
+confidence Army identity whose 10th Mountain Division roster entry places him
+in headquarters company, 86th Infantry; that wartime assignment likewise is
+not labeled an immediate pre-OSS predecessor. Harry F. Stimpson and Branko
+Stipanovic namesake leads remain private and low confidence. Two Library of
+Congress newspaper OCR hits were inspected and rejected rather than treated as
+evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,063/23,936 (58.7525%)**;
+verified-employer coverage is **451/23,936 (1.8842%)**;
+verified-affiliation coverage is **1,003/23,936 (4.1903%)**; archival-review
+coverage is **12,536/23,936 (52.3730%)**. There are **9,868** not-started
+people, **617** possible-duplicate groups and **485** conflicts. Claim
+confidence counts are **1,645 confirmed**, **4,580 high**, **1,992 medium**,
+**236 low**, **409 conflicting** and **2 unresolved**. The public projection
+contains **3,219** affiliations, **1,154** organizations, **5,727** sources and
+**8,622** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 450, row 1,
+**Louis E Stites**, in Box 748. See `research/batch-918-progress.md` for the
+source-by-source audit.
+
+Batch 918 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import replay, SQLite integrity and foreign-key checks,
+derived export regeneration, coverage reporting and public-data redaction.
+All 147 Python tests passed, and the 200-profile structural audit passed all
+seven checks. Astro reported no errors, warnings or hints across 549 checked
+files and built 25,137 static pages. The 24/24 Batch 918 browser suite and the
+93/93 bounded desktop, phone, tablet and accessibility release matrix passed,
+as did the 25,137-page internal-link check, checked-in public-manifest guard,
+protected-identifier audit and zero-vulnerability production dependency audit.
+Two consecutive builds reproduced the same 25,209-file output tree at SHA-256
+`83ec73d307e579e36cd0a4c0e1cce8865fe0a49cc0b5747038b8a7a336efbafc`.
+Five advisories remain confined to the development toolchain. Batch 918 is not
+yet represented by a published immutable release commit.
+
 Batch 917 completed PDF page 449, rows 1-23, from **Jack S Stewart** through
 **Sidney G Stiefel**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes. Two
