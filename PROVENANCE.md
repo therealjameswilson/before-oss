@@ -39,6 +39,27 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 916 Army and Arthur W. Stewart review
+
+For Batch 916, the official Army bulk ZIP was independently retrieved through
+the public Catalog record and had SHA-256
+`80c46e83937c6483d11def47fbb1629cab0ac135694fdfa09268b66d826f1066`.
+The extracted `ASNEF.FIN.DAT` again matched the established project SHA-256
+and 9,200,232-record count above. Eleven nonshared protected-identifier rows
+were reviewed. Their civilian-occupation codes were visually checked in
+[NARA's compiled code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+at physical pages 170-172 and 304. Neither the bulk file nor its raw rows are
+committed or exposed publicly.
+
+Arthur W. Stewart's identity and prewar art activity are additionally supported
+by the [Encyclopedia of Alabama](https://encyclopediaofalabama.org/article/dixie-art-colony/),
+the [Dixie Art Colony Foundation archive](https://dixieartcolony.org/gallery-category/arthur-stewart/),
+and the [Birmingham Museum of Art](https://www.artsbma.org/collection/miss-hannah-elliott/).
+These institutional sources are used for the 1936 artist-participant
+affiliation, not to invent employment. The NARA Catalog API key was not used,
+no API response body was stored, and temporary bulk and rendered codebook
+files are removed after release verification.
+
 ## Reviewed digitized personnel-file sources
 
 The second reviewed evidence batch used NARA's public digitized personnel-file

@@ -1,0 +1,1664 @@
+{
+  "bundle_version": "batch-916-v1",
+  "reviewer": "Before OSS Batch 916 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b916",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 746",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 448, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All printed rows remain separate. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b916",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eleven accepted reviewed Batch 916 identity bridges",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. Coded occupations identify no employer."
+    },
+    {
+      "key": "army-tech-b916",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b916",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-172 and 304; all eleven Batch 916 categories visually checked",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify neither employers nor workplaces. The amended table maps code 992 to Students."
+    },
+    {
+      "key": "encyclopedia-alabama-arthur-stewart-b916",
+      "stable_url": "https://encyclopediaofalabama.org/article/dixie-art-colony/",
+      "title": "Dixie Art Colony",
+      "author_creator": "Lynn Barstis Williams Katz, Auburn University Libraries",
+      "repository_publisher": "Encyclopedia of Alabama",
+      "publication_record_date": "2025-04-18; updated 2025-12-05",
+      "locator": "Paragraphs describing Arthur Stewart's 1936 arrival, Perry County background and art study at Judson College",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Encyclopedia of Alabama",
+      "rights_notes": "Institutional history used for a concise prewar affiliation; no employer relationship is inferred."
+    },
+    {
+      "key": "dixie-art-colony-arthur-stewart-b916",
+      "stable_url": "https://dixieartcolony.org/gallery-category/arthur-stewart/",
+      "title": "Arthur Stewart Archives",
+      "author_creator": "Dixie Art Colony Foundation",
+      "repository_publisher": "Dixie Art Colony Foundation",
+      "publication_record_date": "Collection pages dated 2016-2023",
+      "locator": "Arthur Stewart artist category and artwork records identifying Arthur Walter Stewart",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dixie Art Colony Foundation archives",
+      "rights_notes": "Direct organizational archive used to corroborate the full name and artistic affiliation."
+    },
+    {
+      "key": "birmingham-museum-arthur-stewart-b916",
+      "stable_url": "https://www.artsbma.org/collection/miss-hannah-elliott/",
+      "title": "Miss Hannah Elliott",
+      "author_creator": "Birmingham Museum of Art",
+      "repository_publisher": "Birmingham Museum of Art",
+      "publication_record_date": "Artwork dated 1940",
+      "locator": "Collection record for Arthur Stewart's 1940 portrait, accession 1981.51",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Birmingham Museum of Art collection",
+      "rights_notes": "Museum metadata corroborates the artist's 1915-2001 life dates and documented prewar activity."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "dixie-art-colony-b916",
+      "organization_id": "5ff8b974-76c0-5603-b741-2b7b6de2b7d5",
+      "canonical_name": "Dixie Art Colony",
+      "historical_name": "Dixie Art Colony",
+      "aliases": [],
+      "organization_type": "informal art colony and summer art school",
+      "sector": "arts_and_culture",
+      "state_or_region": "Alabama",
+      "country": "United States",
+      "active_dates": "1933-1945; 1947-1948",
+      "normalization_notes": "The historical colony is distinct from the Dixie Art Colony Foundation, founded in 2015. Participant status is not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "alexander-stevenson-occupation-b916",
+      "person_id": "b968b43f-3213-5f0c-a176-335cdef07db8",
+      "relationship_type": "employment",
+      "occupation": "Professional occupations, not elsewhere classified",
+      "end_date": "1945-03-03",
+      "date_precision": "Historical civilian-occupation code 039 was recorded at Army entry on 1945-03-03; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "wayne-j-stevenson-occupation-b916",
+      "person_id": "4e7c1024-67a2-5bd5-af44-8b7fc75cad42",
+      "relationship_type": "employment",
+      "occupation": "Clerks, general office",
+      "end_date": "1940-09-16",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1940-09-16; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "richard-c-steward-occupation-b916",
+      "person_id": "5ed0be1f-d66f-50be-b9e0-b16e22090251",
+      "relationship_type": "employment",
+      "occupation": "Decorators and window dressers",
+      "end_date": "1943-02-09",
+      "date_precision": "Historical civilian-occupation code 043 was recorded at Army entry on 1943-02-09; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "arthur-w-stewart-occupation-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "relationship_type": "employment",
+      "occupation": "Artists, sculptors, and teachers of art",
+      "end_date": "1941-07-17",
+      "date_precision": "Historical civilian-occupation code 004 was recorded at Army entry on 1941-07-17; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "charles-l-stewart-occupation-b916",
+      "person_id": "d4159c13-03e6-5bdf-b2ca-822b44c3cf1b",
+      "relationship_type": "employment",
+      "occupation": "Managers and officials, not elsewhere classified",
+      "end_date": "1943-05-29",
+      "date_precision": "Historical civilian-occupation code 097 was recorded at Army entry on 1943-05-29; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "dean-w-stewart-occupation-b916",
+      "person_id": "29512173-cebb-5f66-9f7c-c5f5faddff1c",
+      "relationship_type": "employment",
+      "occupation": "Mail carriers",
+      "end_date": "1942-03-04",
+      "date_precision": "Historical civilian-occupation code 128 was recorded at Army entry on 1942-03-04; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "donald-c-stewart-occupation-b916",
+      "person_id": "f6fa86e3-545f-5628-9e71-4ab7a97085d0",
+      "relationship_type": "employment",
+      "occupation": "Hotel and restaurant managers",
+      "end_date": "1942-07-17",
+      "date_precision": "Historical civilian-occupation code 071 was recorded at Army entry on 1942-07-17; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "francis-j-stewart-occupation-b916",
+      "person_id": "d2588419-39c6-56c9-bdec-34411ed7e547",
+      "relationship_type": "employment",
+      "occupation": "Guards and watchmen, except crossing watchmen",
+      "end_date": "1944-07-10",
+      "date_precision": "Historical civilian-occupation code 261 was recorded at Army entry on 1944-07-10; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "george-w-stewart-occupation-b916",
+      "person_id": "c9cb6a53-a776-5546-a5bd-7e0d9050485d",
+      "relationship_type": "employment",
+      "occupation": "General farmers",
+      "end_date": "1942-04-28",
+      "date_precision": "Historical civilian-occupation code 306 was recorded at Army entry on 1942-04-28; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "harrison-m-stewart-occupation-b916",
+      "person_id": "9138358d-a977-5800-befd-70a991f2f5f7",
+      "relationship_type": "student",
+      "occupation": "Students",
+      "end_date": "1943-06-21",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-06-21; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "harvey-s-stewart-occupation-b916",
+      "person_id": "9a695ad7-53e7-5bab-8db7-690290c2cab1",
+      "relationship_type": "employment",
+      "occupation": "Policemen and detectives, public service",
+      "end_date": "1942-08-24",
+      "date_precision": "Historical civilian-occupation code 266 was recorded at Army entry on 1942-08-24; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "arthur-w-stewart-dixie-art-colony-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "organization_key": "dixie-art-colony-b916",
+      "organization_name_as_found": "Dixie Art Colony",
+      "role_title": "artist participant",
+      "occupation": "artist",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1936",
+      "date_precision": "The institutional history states that Arthur Stewart joined in 1936; no end date or employment relationship is supplied.",
+      "state_or_region": "Alabama",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Dixie Art Colony was an art camp and summer art school. Arthur Stewart is modeled as a participant, not an employee, and the affiliation is not labeled immediately pre-OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-alexander-stevenson-b916",
+      "person_id": "b968b43f-3213-5f0c-a176-335cdef07db8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alexander Stevenson row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-alexander-stevenson-b916",
+      "person_id": "b968b43f-3213-5f0c-a176-335cdef07db8",
+      "affiliation_key": "alexander-stevenson-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-03-03, the official record assigned Alexander Stevenson the historical civilian-occupation category 'Professional occupations, not elsewhere classified'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 039, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1945-03-03; occupation code 039; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 171; category 0-39",
+          "excerpt_override": "Professional occupations, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "identity-wayne-j-stevenson-b916",
+      "person_id": "4e7c1024-67a2-5bd5-af44-8b7fc75cad42",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wayne J Stevenson row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 34; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-wayne-j-stevenson-b916",
+      "person_id": "4e7c1024-67a2-5bd5-af44-8b7fc75cad42",
+      "affiliation_key": "wayne-j-stevenson-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1940-09-16, the official record assigned Wayne J Stevenson the historical civilian-occupation category 'Clerks, general office'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 105, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1940-09-16; occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 171; category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-c-steward-b916",
+      "person_id": "5ed0be1f-d66f-50be-b9e0-b16e22090251",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard C Steward row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 35; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-richard-c-steward-b916",
+      "person_id": "5ed0be1f-d66f-50be-b9e0-b16e22090251",
+      "affiliation_key": "richard-c-steward-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-09, the official record assigned Richard C Steward the historical civilian-occupation category 'Decorators and window dressers'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 043, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1943-02-09; occupation code 043; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 171; category 0-43",
+          "excerpt_override": "Decorators and window dressers"
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-w-stewart-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur W Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 36; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-arthur-w-stewart-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "affiliation_key": "arthur-w-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-07-17, the official record assigned Arthur W Stewart the historical civilian-occupation category 'Artists, sculptors, and teachers of art'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 004, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1941-07-17; occupation code 004; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 170; category 0-04",
+          "excerpt_override": "Artists, sculptors, and teachers of art"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-l-stewart-b916",
+      "person_id": "d4159c13-03e6-5bdf-b2ca-822b44c3cf1b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles L Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 37; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-charles-l-stewart-b916",
+      "person_id": "d4159c13-03e6-5bdf-b2ca-822b44c3cf1b",
+      "affiliation_key": "charles-l-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-29, the official record assigned Charles L Stewart the historical civilian-occupation category 'Managers and officials, not elsewhere classified'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 097, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1943-05-29; occupation code 097; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 171; category 0-97",
+          "excerpt_override": "Managers and officials, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "identity-dean-w-stewart-b916",
+      "person_id": "29512173-cebb-5f66-9f7c-c5f5faddff1c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dean W Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 38; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dean-w-stewart-b916",
+      "person_id": "29512173-cebb-5f66-9f7c-c5f5faddff1c",
+      "affiliation_key": "dean-w-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-04, the official record assigned Dean W Stewart the historical civilian-occupation category 'Mail carriers'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 128, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1942-03-04; occupation code 128; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 171; category 1-28",
+          "excerpt_override": "Mail carriers"
+        }
+      ]
+    },
+    {
+      "key": "identity-donald-c-stewart-b916",
+      "person_id": "f6fa86e3-545f-5628-9e71-4ab7a97085d0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald C Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 39; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-donald-c-stewart-b916",
+      "person_id": "f6fa86e3-545f-5628-9e71-4ab7a97085d0",
+      "affiliation_key": "donald-c-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-17, the official record assigned Donald C Stewart the historical civilian-occupation category 'Hotel and restaurant managers'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 071, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1942-07-17; occupation code 071; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 171; category 0-71",
+          "excerpt_override": "Hotel and restaurant managers"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-j-stewart-b916",
+      "person_id": "d2588419-39c6-56c9-bdec-34411ed7e547",
+      "claim_type": "identity",
+      "claim_text": "The indexed Francis J Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 40; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-francis-j-stewart-b916",
+      "person_id": "d2588419-39c6-56c9-bdec-34411ed7e547",
+      "affiliation_key": "francis-j-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-07-10, the official record assigned Francis J Stewart the historical civilian-occupation category 'Guards and watchmen, except crossing watchmen'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 261, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1944-07-10; occupation code 261; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 172; category 2-61",
+          "excerpt_override": "Guards and watchmen, except crossing watchmen"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-w-stewart-b916",
+      "person_id": "c9cb6a53-a776-5546-a5bd-7e0d9050485d",
+      "claim_type": "identity",
+      "claim_text": "The indexed George W Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 41; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-w-stewart-b916",
+      "person_id": "c9cb6a53-a776-5546-a5bd-7e0d9050485d",
+      "affiliation_key": "george-w-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-28, the official record assigned George W Stewart the historical civilian-occupation category 'General farmers'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 306, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1942-04-28; occupation code 306; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 172; category 3-06",
+          "excerpt_override": "General farmers"
+        }
+      ]
+    },
+    {
+      "key": "identity-harrison-m-stewart-b916",
+      "person_id": "9138358d-a977-5800-befd-70a991f2f5f7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harrison M Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-harrison-m-stewart-b916",
+      "person_id": "9138358d-a977-5800-befd-70a991f2f5f7",
+      "affiliation_key": "harrison-m-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-21, the official record assigned Harrison M Stewart the historical civilian-occupation category 'Students'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 992, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1943-06-21; occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 304; amended category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-harvey-s-stewart-b916",
+      "person_id": "9a695ad7-53e7-5bab-8db7-690290c2cab1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harvey S Stewart row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible name.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 46; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-harvey-s-stewart-b916",
+      "person_id": "9a695ad7-53e7-5bab-8db7-690290c2cab1",
+      "affiliation_key": "harvey-s-stewart-occupation-b916",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-24, the official record assigned Harvey S Stewart the historical civilian-occupation category 'Policemen and detectives, public service'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 266, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Army-entry date 1942-08-24; occupation code 266; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b916",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b916",
+          "locator_override": "PDF physical page 172; category 2-66",
+          "excerpt_override": "Policemen and detectives, public service"
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-walter-stewart-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur W. Stewart is a high-confidence match to Alabama artist Arthur Walter Stewart (1915-2001).",
+      "evidence_paraphrase": "The Army bridge supplies the suffix, Alabama context, 1915 birth year and artist code; art institutions independently document the matching artist and prewar work.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier, Army name with junior suffix, Alabama birth and residence, 1915 birth year, artist occupation, and mutually compatible institutional art records.",
+      "temporal_assessment": "The combined records establish a dated prewar artistic identity but do not identify an OSS entry date or immediate predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No single public source exposes the protected identifier. The identity is high-confidence rather than confirmed from a digitized OSS personnel file.",
+      "sources": [
+        {
+          "source_key": "nara-index-b916",
+          "locator_override": "PDF page 448 row 36; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b916",
+          "locator_override": "Accepted Arthur W Stewart Jr identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "encyclopedia-alabama-arthur-stewart-b916"
+        },
+        {
+          "source_key": "dixie-art-colony-arthur-stewart-b916",
+          "excerpt_override": "Arthur Walter Stewart"
+        },
+        {
+          "source_key": "birmingham-museum-arthur-stewart-b916",
+          "excerpt_override": "Arthur Stewart, American, 1915 - 2001"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-arthur-stewart-dixie-art-colony-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "affiliation_key": "arthur-w-stewart-dixie-art-colony-b916",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Arthur W. Stewart joined the Dixie Art Colony as an artist participant in 1936.",
+      "evidence_excerpt": "In 1936, Arthur Stewart joined the colony.",
+      "evidence_paraphrase": "The institutional history identifies the Perry County artist, describes his earlier art study and dates his arrival at the colony to 1936.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier, Army name with junior suffix, Alabama birth and residence, 1915 birth year, artist occupation, and mutually compatible institutional art records.",
+      "temporal_assessment": "Documented prewar professional affiliation. The source does not call the colony his employer or establish that it immediately preceded OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Participant status is kept separate from employment, student status, and immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "encyclopedia-alabama-arthur-stewart-b916",
+          "excerpt_override": "In 1936, Arthur Stewart joined the colony."
+        },
+        {
+          "source_key": "dixie-art-colony-arthur-stewart-b916",
+          "locator_override": "Arthur Stewart artist category and collection records"
+        },
+        {
+          "source_key": "birmingham-museum-arthur-stewart-b916",
+          "support_type": "context_only",
+          "locator_override": "Arthur Stewart painting dated 1940"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b968b43f-3213-5f0c-a176-335cdef07db8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4e7c1024-67a2-5bd5-af44-8b7fc75cad42",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5ed0be1f-d66f-50be-b9e0-b16e22090251",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the index row to Arthur W Stewart Jr in the official Army file. Alabama birth and residence, a 1915 birth year and the artist occupation align with institutional records for Arthur Walter Stewart and his prewar work. The personnel file is still needed for the immediate pre-OSS affiliation.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify Arthur Walter Stewart's immediate pre-OSS affiliation and last civilian employer. Dixie Art Colony participation is documented but is not employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Arthur W Stewart Jr",
+        "Arthur Walter Stewart"
+      ]
+    },
+    {
+      "person_id": "d4159c13-03e6-5bdf-b2ca-822b44c3cf1b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29512173-cebb-5f66-9f7c-c5f5faddff1c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f6fa86e3-545f-5628-9e71-4ab7a97085d0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d2588419-39c6-56c9-bdec-34411ed7e547",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c9cb6a53-a776-5546-a5bd-7e0d9050485d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9138358d-a977-5800-befd-70a991f2f5f7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Harrison M Stewart Jr"
+      ]
+    },
+    {
+      "person_id": "9a695ad7-53e7-5bab-8db7-690290c2cab1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 746 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "59aef3b2-c750-53ca-ae7b-b655520fac6b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rebecca B Stevens, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, middle-initial, obituary, institutional, newspaper, directory and archival searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8a9a7f4d-a482-5901-a9c5-2d3102153e8f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rowland P Stevens, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The protected index identifier produced no compatible official Army candidate, and exact-name variants produced no reliable identity or chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a9149157-d807-516b-b2fe-49bf722495eb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Beatrice Ellen Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The full indexed given name was preserved, but exact-name and institutional searches found no person-specific OSS or employment bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f85654fd-b770-5089-88f2-aa6e0d5d4b21",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Caroline S Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name and initial searches returned incompatible directory and family-history results without an OSS assignment or two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0a9b0230-fe9b-5242-91e3-2799e1d8b28d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Chester Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation, obituary and archival searches found no reliable pre-OSS identity or employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5f8a1e5-9fc9-55bb-923a-dd2248c55366",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dorothy S Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name results did not supply the protected identifier, OSS assignment or corroborating chronology required for assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ce0c6016-a47a-5cb8-8495-01fc0967c3e4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harold R Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A later Cleveland insurance-directory namesake lacks an OSS, protected-identifier or wartime chronology bridge and was not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0c1c613e-024d-5afc-9a43-1ef18d06932a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Thomas T Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and middle-initial searches produced no source with a defensible OSS identity bridge or pre-OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e5fcfea6-b88a-5014-9c82-e3ac48159c39",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Viola M Stevenson, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation, newspaper, obituary and archival searches produced no reliable person-specific match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a07b46f7-fd11-5e8b-99d3-459107ce1ad5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gordon Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A biography of OSS officer Gordon Matthews Stewart is a plausible namesake only; the no-middle-name index row has no protected identifier or Box 746 bridge to that biography.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0923d0e0-c668-5900-89e7-8b6ec446a291",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Grace A Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation, obituary, institutional and archival searches produced no defensible identity or employment match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "db9f016d-859a-59a8-8215-fb8378f17a24",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gretchen E Stewart, Box 746 and archive location, but staged NARA context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and variant searches produced no source with two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page448-row24-rebecca-b-stevens-b916",
+      "person_id": "59aef3b2-c750-53ca-ae7b-b655520fac6b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rebecca B Stevens; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, middle-initial, obituary, institutional, newspaper, directory and archival searches produced no defensible identity bridge.",
+      "research_notes": "Exact-name, middle-initial, obituary, institutional, newspaper, directory and archival searches produced no defensible identity bridge. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row25-rowland-p-stevens-b916",
+      "person_id": "8a9a7f4d-a482-5901-a9c5-2d3102153e8f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rowland P Stevens; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected index identifier produced no compatible official Army candidate, and exact-name variants produced no reliable identity or chronology.",
+      "research_notes": "The protected index identifier produced no compatible official Army candidate, and exact-name variants produced no reliable identity or chronology. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row26-alexander-stevenson-b916",
+      "person_id": "b968b43f-3213-5f0c-a176-335cdef07db8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alexander Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row27-beatrice-ellen-stevenson-b916",
+      "person_id": "a9149157-d807-516b-b2fe-49bf722495eb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Beatrice Ellen Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The full indexed given name was preserved, but exact-name and institutional searches found no person-specific OSS or employment bridge.",
+      "research_notes": "The full indexed given name was preserved, but exact-name and institutional searches found no person-specific OSS or employment bridge. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row28-caroline-s-stevenson-b916",
+      "person_id": "f85654fd-b770-5089-88f2-aa6e0d5d4b21",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Caroline S Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name and initial searches returned incompatible directory and family-history results without an OSS assignment or two corroborating identifiers.",
+      "research_notes": "Common-name and initial searches returned incompatible directory and family-history results without an OSS assignment or two corroborating identifiers. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row29-chester-stevenson-b916",
+      "person_id": "0a9b0230-fe9b-5242-91e3-2799e1d8b28d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Chester Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, obituary and archival searches found no reliable pre-OSS identity or employer evidence.",
+      "research_notes": "Exact-name, occupation, obituary and archival searches found no reliable pre-OSS identity or employer evidence. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row30-dorothy-s-stevenson-b916",
+      "person_id": "b5f8a1e5-9fc9-55bb-923a-dd2248c55366",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dorothy S Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results did not supply the protected identifier, OSS assignment or corroborating chronology required for assignment.",
+      "research_notes": "Common-name results did not supply the protected identifier, OSS assignment or corroborating chronology required for assignment. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row31-harold-r-stevenson-b916",
+      "person_id": "ce0c6016-a47a-5cb8-8495-01fc0967c3e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold R Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A later Cleveland insurance-directory namesake lacks an OSS, protected-identifier or wartime chronology bridge and was not assigned.",
+      "research_notes": "A later Cleveland insurance-directory namesake lacks an OSS, protected-identifier or wartime chronology bridge and was not assigned. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row32-thomas-t-stevenson-b916",
+      "person_id": "0c1c613e-024d-5afc-9a43-1ef18d06932a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas T Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and middle-initial searches produced no source with a defensible OSS identity bridge or pre-OSS chronology.",
+      "research_notes": "Exact-name and middle-initial searches produced no source with a defensible OSS identity bridge or pre-OSS chronology. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row33-viola-m-stevenson-b916",
+      "person_id": "e5fcfea6-b88a-5014-9c82-e3ac48159c39",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Viola M Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, newspaper, obituary and archival searches produced no reliable person-specific match.",
+      "research_notes": "Exact-name, occupation, newspaper, obituary and archival searches produced no reliable person-specific match. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row34-wayne-j-stevenson-b916",
+      "person_id": "4e7c1024-67a2-5bd5-af44-8b7fc75cad42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wayne J Stevenson; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row35-richard-c-steward-b916",
+      "person_id": "5ed0be1f-d66f-50be-b9e0-b16e22090251",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard C Steward; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row36-arthur-w-stewart-b916",
+      "person_id": "edef257d-0310-5658-9b94-ec2807a16757",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur W Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "The official Army identity and occupation were accepted. Institutional art sources support Arthur Walter Stewart's 1936 Dixie Art Colony participation and prewar activity, but do not name an immediate employer. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for exact employment dates and the documented pre-OSS transition.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row37-charles-l-stewart-b916",
+      "person_id": "d4159c13-03e6-5bdf-b2ca-822b44c3cf1b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles L Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row38-dean-w-stewart-b916",
+      "person_id": "29512173-cebb-5f66-9f7c-c5f5faddff1c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dean W Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row39-donald-c-stewart-b916",
+      "person_id": "f6fa86e3-545f-5628-9e71-4ab7a97085d0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald C Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row40-francis-j-stewart-b916",
+      "person_id": "d2588419-39c6-56c9-bdec-34411ed7e547",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis J Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row41-george-w-stewart-b916",
+      "person_id": "c9cb6a53-a776-5546-a5bd-7e0d9050485d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George W Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row42-gordon-stewart-b916",
+      "person_id": "a07b46f7-fd11-5e8b-99d3-459107ce1ad5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gordon Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A biography of OSS officer Gordon Matthews Stewart is a plausible namesake only; the no-middle-name index row has no protected identifier or Box 746 bridge to that biography.",
+      "research_notes": "A biography of OSS officer Gordon Matthews Stewart is a plausible namesake only; the no-middle-name index row has no protected identifier or Box 746 bridge to that biography. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row43-grace-a-stewart-b916",
+      "person_id": "0923d0e0-c668-5900-89e7-8b6ec446a291",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Grace A Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, obituary, institutional and archival searches produced no defensible identity or employment match.",
+      "research_notes": "Exact-name, occupation, obituary, institutional and archival searches produced no defensible identity or employment match. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row44-gretchen-e-stewart-b916",
+      "person_id": "db9f016d-859a-59a8-8215-fb8378f17a24",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gretchen E Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and variant searches produced no source with two corroborating identifiers beyond the name.",
+      "research_notes": "Exact-name and variant searches produced no source with two corroborating identifiers beyond the name. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row45-harrison-m-stewart-b916",
+      "person_id": "9138358d-a977-5800-befd-70a991f2f5f7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harrison M Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    },
+    {
+      "key": "page448-row46-harvey-s-stewart-b916",
+      "person_id": "9a695ad7-53e7-5bab-8db7-690290c2cab1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harvey S Stewart; NARA/index context; CIA Reading Room and Library of Congress official-domain exact-name checks; OSS, rank and spelling variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 746; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_916",
+      "started_at": "2026-10-26T01:56:00Z",
+      "completed_at": "2026-10-26T02:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically incompatible records and postwar-only material were not assigned.",
+      "research_notes": "A reviewed official Army identity and dated historical occupation or student category were accepted; no named employer is supplied. Search-result snippets were discovery aids only; public claims point to inspectable sources. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 746 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b916-v1"
+    }
+  ]
+}

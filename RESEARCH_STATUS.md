@@ -1,5 +1,50 @@
 # Research status
 
+Batch 916 completed PDF page 448, rows 24-46, from **Rebecca B Stevens**
+through **Harvey S Stewart**, preserving all 23 printed rows and linking them
+to 23 separate active people. All 23 now have saved research outcomes. Eleven
+nonshared protected-identifier Army identity bridges are accepted; the dated
+historical occupation and student categories remain qualified and name no
+employer.
+
+Arthur W. Stewart is a high-confidence match to Alabama artist Arthur Walter
+Stewart (1915-2001). Institutional records document his 1936 Dixie Art Colony
+participation and prewar artwork. The colony is modeled as a professional
+affiliation rather than an employer, and neither it nor the Army artist code is
+promoted to an immediate pre-OSS or last-civilian-employer claim. A biography
+of OSS officer Gordon Matthews Stewart remains an unbridged namesake and was
+not assigned to the no-middle-name index row. Twelve people require Box 746
+personnel-file review.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,017/23,936 (58.5603%)**;
+verified-employer coverage is **451/23,936 (1.8842%)**;
+verified-affiliation coverage is **1,002/23,936 (4.1862%)**; archival-review
+coverage is **12,490/23,936 (52.1808%)**. There are **9,914** not-started
+people, **615** possible-duplicate groups and **484** conflicts. Claim
+confidence counts are **1,645 confirmed**, **4,564 high**, **1,981 medium**,
+**228 low**, **409 conflicting** and **2 unresolved**. The public projection
+contains **3,205** affiliations, **1,151** organizations, **5,710** sources and
+**8,595** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 449, row 1,
+**Jack S Stewart**, in Box 746. See `research/batch-916-progress.md` for the
+source-by-source audit.
+
+Batch 916 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, SQLite integrity and foreign-key
+checks, derived export regeneration, coverage reporting and public-data
+redaction. All 146 Python tests passed. The 200-profile structural audit passed
+all seven checks; Astro reported no errors, warnings or hints across 547
+checked files and built 25,134 static pages. The 87/87 bounded desktop, phone,
+tablet and accessibility release matrix passed, as did the 25,134-page
+internal-link check, public-identifier audit, checked-in manifest verification
+and zero-vulnerability production dependency audit. Two consecutive builds
+reproduced identical 70-file public and 25,206-file output trees. Five
+advisories remain confined to the development toolchain; the deployed static
+site has no runtime package dependency. Continuous integration, deployment and
+unauthenticated live verification remain separate release gates for this
+unpublished batch.
+
 Batch 915 completed PDF page 448, rows 1-23, from **Samuel Stern** through
 **Mary E Stevens**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved research outcomes. Four
