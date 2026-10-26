@@ -109,9 +109,11 @@ the printed Box 736 / `? Move t` note and archive location 230/86/41/03
   build, 96-check browser release matrix, 30 axe scans, internal-link check,
   public-manifest guard, protected-identifier audit and production dependency
   audit pass. Consecutive builds reproduce identical public and output trees.
-- CI, Pages deployment and unauthenticated deployed-site verification remain
-  pending. Exact results are recorded in `reports/release_batch_923.md`; this
-  progress record does not treat local generation as publication.
+- GitHub Actions Test and Pages workflows pass. Unauthenticated verification
+  matches every public manifest asset, eight core routes, all 39 source-
+  register pages and all 23 Batch 923 profiles to immutable content commit
+  `8efa0948eefca4864212ad61897481357eb732bc`. Exact results are recorded in
+  `reports/release_batch_923.md`.
 
 ## Resume point
 

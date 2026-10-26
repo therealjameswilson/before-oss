@@ -43,8 +43,12 @@ accessibility release matrix passed, as did the 25,142-page internal-link
 check, checked-in public-manifest guard, protected-identifier audit and zero-
 vulnerability production dependency audit. Two consecutive builds reproduced
 identical public and output trees. Five dependency findings remain confined to
-the development toolchain. CI, Pages deployment and unauthenticated deployed-
-site verification remain pending.
+the development toolchain. Batch 923 is public from immutable content commit
+`8efa0948eefca4864212ad61897481357eb732bc`. GitHub Actions Test run
+`40306613541` and Pages deployment run `40306613441` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (123,003,139 bytes), eight core routes, 39 source-register pages
+and all 23 directly affected profiles.
 
 Batch 922 completed PDF page 451, rows 24-46, from **Robert G Storey** through
 **Eli Strahinic**, preserving all 23 printed rows and linking them to 23

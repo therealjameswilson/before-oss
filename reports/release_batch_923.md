@@ -68,6 +68,17 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-Publication is pending the immutable content commit, successful GitHub Actions
-Test and Pages workflows, and unauthenticated deployed-release verification.
-Local generation and local QA do not by themselves establish publication.
+Batch 923 is public from immutable content commit
+`8efa0948eefca4864212ad61897481357eb732bc`. GitHub Actions Test run
+[`40306613541`](https://github.com/therealjameswilson/before-oss/actions/runs/40306613541)
+and Pages deployment run
+[`40306613441`](https://github.com/therealjameswilson/before-oss/actions/runs/40306613441)
+both completed successfully. The unauthenticated deployed-release verifier
+matched all 67 public assets (123,003,139 bytes) to manifest SHA-256
+`7b875176d864e915b06f14367e4dc729a0f393b6186c329f09af7ba0be6478fe`,
+verified eight core routes, 39 source-register pages and all 23 directly
+affected profiles at <https://therealjameswilson.github.io/before-oss/>.
+
+The workflows emitted non-blocking annotations about GitHub's Node.js 20
+action-runtime transition and the `ubuntu-latest` runner migration. Neither
+annotation altered the successful build, test, redaction audit or deployment.
