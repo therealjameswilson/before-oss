@@ -42,8 +42,17 @@ and zero-vulnerability production dependency audit. Two consecutive builds
 reproduced identical 70-file public and 25,206-file output trees. Five
 advisories remain confined to the development toolchain; the deployed static
 site has no runtime package dependency. Continuous integration, deployment and
-unauthenticated live verification remain separate release gates for this
-unpublished batch.
+unauthenticated live verification also passed as recorded below.
+
+Test run `40261728559` and Pages run `40261728635` completed successfully.
+Batch 916 is public from immutable content commit
+`fa64383cc0826d39ab0e6acc67bb3cb66c3cf19c`; the read-only deployment
+verifier matched all 67 public assets (122,254,642 bytes), eight core routes,
+39 source-register pages and all 23 affected profiles. The deployed manifest
+SHA-256 is
+`769ed00040b6a594d3e70e938c1576dc79f20b762e7b81c5af84e572850bf93c`.
+The workflows emitted platform-migration and action-runtime deprecation
+annotations, but no release failure.
 
 Batch 915 completed PDF page 448, rows 1-23, from **Samuel Stern** through
 **Mary E Stevens**, preserving all 23 printed rows and linking them to 23
