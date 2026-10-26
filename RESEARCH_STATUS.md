@@ -45,6 +45,16 @@ development toolchain; the deployed static site has no runtime package
 dependency. Continuous integration, deployment and unauthenticated live
 verification remain separate release gates.
 
+Test run `40256761912` and Pages run `40256761886` completed successfully.
+Batch 915 is public from immutable content commit
+`4d19fac294c7cfbec5936c327cbd0e341c6f2470`; the read-only deployment
+verifier matched all 67 public assets (122,100,763 bytes), eight core routes,
+39 source-register pages and all 24 affected or duplicate-linked profiles.
+The deployed manifest SHA-256 is
+`3dacdd85797773429ab70b1dd4a921aa2d4b93b5c6da39795022e10fbc9baa10`.
+The workflows emitted platform-migration and action-runtime deprecation
+annotations, but no release failure.
+
 Batch 914 completed PDF page 447, rows 24-46, from the second **Joachim A
 Stenzel** row through **Michael F Stern**, preserving all 23 printed rows and
 linking them to 23 separate active people. All 23 now have saved research
