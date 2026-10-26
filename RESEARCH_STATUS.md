@@ -44,7 +44,15 @@ source public-identifier audit, checked-in manifest verification and zero-
 vulnerability production dependency audit. Two consecutive builds reproduced
 identical public and output trees. Five advisories remain confined to the
 development toolchain; the deployed static site has no runtime package
-dependency. CI and public deployment verification remain pending.
+dependency.
+
+Test run `40252012444` and Pages run `40252012349` completed successfully.
+Batch 913 is public from immutable content commit
+`6c49f3a9d9c283f1a088741f82044f2e2aae52b6`; the read-only deployment
+verifier matched all 67 public assets (121,896,920 bytes), eight core routes,
+38 source-register pages and all 24 affected or duplicate-linked profiles.
+The workflows emitted platform-migration and action-runtime deprecation
+annotations, but no release failure.
 
 Batch 912 completed PDF page 446, rows 24-46, from **Theodore Steimack**
 through **Edwards G Steinhope**, preserving all 23 printed rows and linking
