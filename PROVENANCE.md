@@ -39,6 +39,51 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 922 Robert Storey, Hans Storhaug and John Stoyka review
+
+For Batch 922, the official Army bulk file was checked through the page- and
+row-scoped adapter while still detecting identifiers shared elsewhere in the
+full index. Exact-name, nonshared protected identifiers were accepted as
+private identity bridges for Willard E. Stott, Bernard C. Stough, Harris
+Stover and John L. Stoyka. The Cecil C. Stovall candidate was rejected because
+the official Army row carries middle initial O while the visually checked OSS
+index prints C; no candidate field was transferred.
+
+Occupation codes 032, 316, 475 and 992 were visually checked in [NARA's
+compiled code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+at physical pages 171-173 and 304. They remain historical occupation or status
+categories without named employers, farms, shops, schools or workplaces.
+Bernard Stough's damaged grade was not normalized. John Stoyka's independent
+OSS identity evidence comes from the National Park Service's [OSS in Action:
+The Pacific and the Far East](https://home.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm),
+which directly names Sergeant John L. Stoyka as a Cat Team radio operator.
+
+Robert Gerald Storey's qualified last-civilian finding uses an official
+[U.S. Reports counsel listing](https://www.govinfo.gov/content/pkg/USREPORTS-313/pdf/USREPORTS-313-BackMatter-7.pdf),
+visually checked at PDF physical page 24, printed page 581, together with
+institutional histories from [Southern Methodist
+University](https://blog.smu.edu/smumagazine/2025/10/27/dean-storey-journals/)
+and the [Center for American and International
+Law](https://www.cailaw.org/Southwestern-Institute-for-International-and-Comparative-Law/About-Us/storey-award.html).
+The evidence supports private Dallas legal practice in May 1941 before Army
+service later that year; it does not identify his 1941 firm or establish an
+explicit immediate-pre-OSS transition.
+
+Hans Storhaug's exact distinctive name, printed SGT rank and Norwegian note
+match the Norwegian Industrial Workers Museum's [Gunnerside
+account](https://www.nia.no/en/the-saboteurs/). His December 1940 entry into
+Norwegian Independent Company 1 is modeled as an Allied military assignment,
+not employment. The source does not establish the path by which his personnel
+file entered the OSS index.
+
+The CIA Reading Room adapter failed closed under its robots policy and the
+Library of Congress adapter recorded a transport failure without consuming a
+query. Separate site-restricted Reading Room searches and staged exact-name,
+official-site, employer, occupation, institutional, obituary and archival
+searches covered all 23 people. The NARA Catalog API key was not used, no API
+response body was stored, and protected identifiers remain excluded from
+public assets.
+
 ### Batch 921 Franz Stone, Kirk Stone and William Stoppe review
 
 For Batch 921, the official Army bulk file was checked through the page- and

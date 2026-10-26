@@ -1,5 +1,51 @@
 # Research status
 
+Batch 922 completed PDF page 451, rows 24-46, from **Robert G Storey** through
+**Eli Strahinic**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes. Four
+exact-name, nonshared protected-identifier Army bridges were accepted; the
+Cecil C. Stovall candidate was rejected because the index middle initial C
+conflicts with O in the Army row, and no candidate field was transferred.
+
+Robert G. Storey is a high-confidence match to Dallas lawyer and Army Air
+Corps Colonel Robert Gerald Storey. A visually checked official May 1941 court
+listing and institutional histories support a qualified last-civilian finding
+of private legal practice in Dallas; no 1941 firm or explicit immediate-pre-
+OSS transition is claimed. Hans Storhaug's December 1940 Norwegian Independent
+Company 1 service is published as an Allied military assignment, not
+employment. Four Army occupation or status categories—farm hands, machinists,
+students, and teachers or instructors—remain qualified and identify no
+employer or institution. A National Park Service history independently names
+John L. Stoyka as an OSS Cat Team radio operator. That identity finding is
+kept separate from his pre-Army occupation category.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,155/23,936 (59.1369%)**;
+verified-employer coverage is **452/23,936 (1.8884%)**;
+verified-affiliation coverage is **1,006/23,936 (4.2029%)**; archival-review
+coverage is **12,628/23,936 (52.7574%)**. There are **9,776** not-started
+people, **619** possible-duplicate groups and **487** conflicts. Claim
+confidence counts are **1,646 confirmed**, **4,603 high**, **2,008 medium**,
+**242 low**, **410 conflicting** and **2 unresolved**. The public projection
+contains **3,239** affiliations, **1,157** organizations, **5,757** sources and
+**8,663** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 452, row 1,
+**Carl A Strahle**, in Box 751. See `research/batch-922-progress.md` for the
+source-by-source audit.
+
+Batch 922 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import replay, SQLite integrity and foreign-key checks,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests passed. Astro reported no
+errors, warnings or hints across 553 checked files and built 25,140 static
+pages. The 24/24 Batch 922 browser suite and 93/93 bounded desktop, phone,
+tablet and accessibility release matrix passed, as did the 25,140-page
+internal-link check, checked-in public-manifest guard, protected-identifier
+audit and zero-vulnerability production dependency audit. Two consecutive
+builds reproduced identical public and output trees. Five dependency findings
+remain confined to the development toolchain. Public deployment verification
+is pending and will be recorded in `reports/release_batch_922.md`.
+
 Batch 921 completed PDF page 451, rows 1-23, from **Franz T Stone** through
 **William R Stoppe**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes.
