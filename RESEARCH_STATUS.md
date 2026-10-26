@@ -1,5 +1,50 @@
 # Research status
 
+Batch 921 completed PDF page 451, rows 1-23, from **Franz T Stone** through
+**William R Stoppe**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes.
+William R. Stoppe has a high-confidence exact-name, protected-identifier Army
+bridge and a qualified 1943 historical occupation category that names no
+employer. The conflicting-name Norman Stone Army candidate was rejected with
+no field transfer.
+
+The two adjacent Franz T. Stone rows remain separate and ambiguous. Official
+Library of Congress records document a Franz T. Stone at the Office of
+Production Management and Dr. Franz Stone at OSS, but neither distinguishes
+the two rows; those leads remain low confidence and withheld. Kirk H. Stone is
+a high-confidence match to the geographer documented in COI/OSS archival
+research. His Michigan and Syracuse degrees are published as student
+affiliations, not employment. Institutional biographies of architect Oscar
+Stonorov remain private low-confidence leads because no source reviewed bridges
+them to the Box 750 row.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,132/23,936 (59.0408%)**;
+verified-employer coverage is **452/23,936 (1.8884%)**;
+verified-affiliation coverage is **1,005/23,936 (4.1987%)**; archival-review
+coverage is **12,605/23,936 (52.6613%)**. There are **9,799** not-started
+people, **619** possible-duplicate groups and **486** conflicts. Claim
+confidence counts are **1,646 confirmed**, **4,596 high**, **2,003 medium**,
+**242 low**, **410 conflicting** and **2 unresolved**. The public projection
+contains **3,233** affiliations, **1,157** organizations, **5,748** sources and
+**8,651** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 451, row
+24, **Robert G Storey**, in Box 751. See `research/batch-921-progress.md` for
+the source-by-source audit.
+
+Batch 921 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import replay, SQLite integrity and foreign-key checks,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests and 84 subtests passed.
+Astro reported no errors, warnings or hints across 552 checked files and built
+25,140 static pages. The 21/21 Batch 921 browser suite and 90/90 bounded
+desktop, phone, tablet and accessibility release matrix passed, as did the
+25,140-page internal-link check, checked-in public-manifest guard,
+protected-identifier audit and zero-vulnerability production dependency audit.
+Two consecutive builds reproduced identical public and output trees. Five
+dependency findings remain confined to the development toolchain. Publication
+verification will be appended after the GitHub Actions release completes.
+
 Batch 920 completed PDF page 450, rows 24-46, from **Isabel Stokes** through
 **Franklin M Stone**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes.

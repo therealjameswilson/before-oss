@@ -39,6 +39,46 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 921 Franz Stone, Kirk Stone and William Stoppe review
+
+For Batch 921, the official Army bulk file was checked through the page- and
+row-scoped adapter while still detecting identifiers shared elsewhere in the
+full index. William R. Stoppe's exact-name, nonshared protected identifier was
+accepted as a private identity bridge. The Norman Stone candidate was rejected
+because the official Army row names Edmund J. De Lorenzo; no candidate field
+was transferred. Occupation code 802 was visually checked in [NARA's compiled
+code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+at physical page 173. It remains a historical occupation category without a
+named employer or workplace.
+
+The two adjacent Franz T. Stone rows remain separate. A [Library of Congress
+official caption](https://www.loc.gov/item/2017689998/) documents a Franz T.
+Stone as a special adviser in the Office of Production Management; NARA's
+[Record Group 179 history](https://www.archives.gov/research/guide-fed-records/groups/179.html)
+dates that agency to January 1941-January 1942. A visually checked [1945 OSRD
+report](https://tile.loc.gov/storage-services/service/gdc/gdcosrdmicrofilmpublic/2020673190/2020673190.pdf),
+physical pages 2 and 4, names Dr. Franz Stone at OSS. Neither source identifies
+which adjacent index row is the subject or whether the index duplicated one
+person. Both candidate affiliations therefore remain low confidence and
+withheld.
+
+Kirk H. Stone's high-confidence identity uses Barnes and Crampton's
+[university-hosted scholarly chapter](https://blogs.ubc.ca/trevorbarnes/files/2015/09/proofs.pdf),
+which cites his 1 July 1942 letter to William J. Donovan in RG 226, Entry 1,
+Box 7, Folder 14. The Southeastern Division of the Association of American
+Geographers [professional obituary](https://higherlogicdownload.s3.amazonaws.com/AAG/84c8f118-b8f0-4f1f-b48c-c0c0b8e1105f/UploadedImages/spring1998.pdf)
+corroborates the geographer identity and degree years. Michigan and Syracuse
+are modeled as student affiliations, not employers. German Historical
+Institute and University of Wyoming biographies of architect Oscar Stonorov
+remain low-confidence private leads because no source reviewed bridges that
+biography to OSS or Box 750.
+
+The bounded Library of Congress adapter completed 23 current searches and 34
+candidates were inspected and rejected. The CIA Reading Room adapter failed
+closed under its robots policy; separate site-restricted searches supplied no
+admissible evidence. The NARA Catalog API key was not used, no API response
+body was stored, and protected identifiers remain excluded from public assets.
+
 ### Batch 920 Army, OSS awards and Thomas Stonborough review
 
 For Batch 920, the official Army bulk ZIP was independently retrieved from
