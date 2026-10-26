@@ -60,7 +60,11 @@ Archive location: 230/86/41/04
 - The protected-identifier audit checked 12,926 normalized identifiers and 120 formatted variants across 25,210 production artifacts, inspected 1,401 candidate substrings and found zero unexpected boundary, aggregate or manifest-size matches.
 - Two consecutive builds reproduced the same 70-file, 124,883,654-byte public tree at SHA-256 `6d80996a4a5f7bdcbc7a57dbefd53f79018207ae11b3373c7a7f182418b4c2ce` and the same 25,210-file, 334,761,298-byte output tree at SHA-256 `643f9cee477f0582a3c3858e85a7dc45bf2002b662e803f49a80a13573de99f2`.
 - Production dependencies report zero vulnerabilities. Five dependency findings remain confined to the development toolchain and do not become runtime dependencies of the static site.
-- These local results do not by themselves establish CI success or public deployment.
+- Immutable content commit `9a01e360d4cfdb5acfa1f1fbbf47d158a0f6b9b5`
+  passed GitHub Actions Test run `40280865341` and Pages run `40280865346`.
+  The unauthenticated deployment verifier matched all 67 assets, eight core
+  routes, 39 source-register pages and all 23 Batch 919 profiles at
+  `https://therealjameswilson.github.io/before-oss/`.
 
 ## Resume point
 

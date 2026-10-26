@@ -44,4 +44,11 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-- Publication is pending the immutable content commit, GitHub Actions Test and Pages workflows, and an unauthenticated live-manifest comparison.
+- Immutable content commit: `9a01e360d4cfdb5acfa1f1fbbf47d158a0f6b9b5`.
+- GitHub Actions Test run `40280865341`: success.
+- GitHub Pages run `40280865346`: success.
+- The unauthenticated deployment verifier matched all 67 public assets across
+  122,536,498 bytes, eight core routes, 39 source-register pages and all 23
+  Batch 919 profiles at `https://therealjameswilson.github.io/before-oss/`.
+- The deployed manifest SHA-256 is
+  `a44adffa84ebc5bfe0af002dd42c710dff50f848211e4bd91d734187507ee876`.

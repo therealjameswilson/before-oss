@@ -41,8 +41,15 @@ bounded desktop, phone, tablet and accessibility release matrix passed, as did
 the 25,138-page internal-link check, checked-in public-manifest guard,
 protected-identifier audit and zero-vulnerability production dependency audit.
 Two consecutive builds reproduced identical public and output trees. Five
-dependency findings remain confined to the development toolchain. CI,
-deployment and unauthenticated live verification remain pending.
+dependency findings remain confined to the development toolchain. Test run
+`40280865341` and Pages run `40280865346` completed successfully. Batch 919 is
+public from immutable content commit
+`9a01e360d4cfdb5acfa1f1fbbf47d158a0f6b9b5`; the read-only deployment verifier
+matched all 67 public assets (122,536,498 bytes), eight core routes, 39 source-
+register pages and all 23 affected profiles. The deployed manifest SHA-256 is
+`a44adffa84ebc5bfe0af002dd42c710dff50f848211e4bd91d734187507ee876`.
+The workflows emitted platform-migration and action-runtime deprecation
+annotations, but no release failure.
 
 Batch 918 completed PDF page 449, rows 24-46, from **Bernard J Sties** through
 **Leroy G Stiteler**, preserving all 23 printed rows and linking them to 23
