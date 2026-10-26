@@ -1,5 +1,50 @@
 # Research status
 
+Batch 915 completed PDF page 448, rows 1-23, from **Samuel Stern** through
+**Mary E Stevens**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved research outcomes. Four
+nonshared protected-identifier Army identity bridges are accepted; the dated
+historical occupation categories remain qualified and name no employer.
+
+James M. Steuber and the page 453 James M. Strueber remain separate people in
+one protected-identifier conflict group. The Army source spells the surname
+Stueber, so no disputed identity or occupation is transferred. Julian Steuer's
+amended student code is modeled as student status, not employment. Harley C.
+Stevens is a high-confidence match to the OSS detachment commander in
+Chungking. Standard Oil Company of California is his best-supported immediate
+civilian affiliation and last civilian employer; Pillsbury Madison & Sutro is
+kept separately as earlier prewar employment. No exact Standard Oil title or
+wartime leave arrangement is inferred. Unbridged George Stevens and Edmund
+Stevens namesakes were rejected.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,994/23,936 (58.4642%)**;
+verified-employer coverage is **451/23,936 (1.8842%)**;
+verified-affiliation coverage is **1,001/23,936 (4.1820%)**; archival-review
+coverage is **12,467/23,936 (52.0847%)**. There are **9,937** not-started
+people, **615** possible-duplicate groups and **484** conflicts. Claim
+confidence counts are **1,645 confirmed**, **4,551 high**, **1,970 medium**,
+**228 low**, **409 conflicting** and **2 unresolved**. The public projection
+contains **3,193** affiliations, **1,150** organizations, **5,703** sources and
+**8,571** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 448, row
+24, **Rebecca B Stevens**, in Box 746. See `research/batch-915-progress.md` for
+the source-by-source audit.
+
+Batch 915 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, database integrity, derived export
+regeneration, coverage reporting and public-data redaction. All 146 Python
+tests passed. The 200-profile structural audit passed all seven checks; Astro
+reported no errors, warnings or hints across 546 checked files and built
+25,133 static pages. The 87/87 bounded desktop, phone, tablet and accessibility
+release matrix passed, as did the 25,133-page internal-link check, rebuilt-
+source public-identifier audit, checked-in manifest verification and zero-
+vulnerability production dependency audit. Two consecutive builds reproduced
+identical public and output trees. Five advisories remain confined to the
+development toolchain; the deployed static site has no runtime package
+dependency. Continuous integration, deployment and unauthenticated live
+verification remain separate release gates.
+
 Batch 914 completed PDF page 447, rows 24-46, from the second **Joachim A
 Stenzel** row through **Michael F Stern**, preserving all 23 printed rows and
 linking them to 23 separate active people. All 23 now have saved research
@@ -27,7 +72,7 @@ confidence counts are **1,645 confirmed**, **4,543 high**, **1,966 medium**,
 contains **3,187** affiliations, **1,148** organizations, **5,696** sources and
 **8,557** published, qualified or conflict claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 448, row 1,
-**Kurt Stern**, in Box 745. See `research/batch-914-progress.md` for the
+**Samuel Stern**, in Box 745. See `research/batch-914-progress.md` for the
 source-by-source audit.
 
 Batch 914 has passed isolated and canonical duplicate-safe imports, import

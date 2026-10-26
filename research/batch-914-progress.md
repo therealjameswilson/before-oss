@@ -34,4 +34,4 @@ Archive location: 230/86/41/04
 
 ## Resume point
 
-Continue with PDF page 448, row 1, **Kurt Stern**, Box 745, archive location 230/86/41/04. Reuse the saved evidence bundle and reviewed identity decisions; do not repeat completed source calls.
+Continue with PDF page 448, row 1, **Samuel Stern**, Box 745, archive location 230/86/41/04. The earlier Kurt Stern wording was a resume-note error corrected from the rendered page; reuse the saved evidence bundle and reviewed identity decisions and do not repeat completed source calls.
