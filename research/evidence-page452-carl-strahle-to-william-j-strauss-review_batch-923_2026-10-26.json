@@ -1,0 +1,1884 @@
+{
+  "bundle_version": "batch-923-v1",
+  "reviewer": "Before OSS Batch 923 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b923",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 751-752",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 452, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. The Eric W Strait note and Jean S Strauss French rank note were visually verified."
+    },
+    {
+      "key": "army-bulk-b923",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; nine accepted and one rejected Batch 923 protected-identifier candidates",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. The Ralph N Stratis/George Norman F conflict was rejected. Coded occupations identify no employer."
+    },
+    {
+      "key": "army-tech-b923",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b923",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 172-176 and 304; accepted Batch 923 categories visually checked, including 9-65 and corrected 9-92",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical occupation categories identify neither an employer nor a workplace and are published only as qualified leads."
+    },
+    {
+      "key": "bowdoin-arthur-stratton-b923",
+      "stable_url": "https://archivesspace.bowdoin.edu/repositories/2/resources/321",
+      "archival_identifier": "M173",
+      "title": "Arthur Stratton papers",
+      "author_creator": "Emma Barton-Norris",
+      "repository_publisher": "George J. Mitchell Department of Special Collections & Archives, Bowdoin College Library",
+      "publication_record_date": "2023",
+      "locator": "Biographical/Historical Note, lines 60-66",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Arthur Stratton papers",
+      "rights_notes": "The finding aid explicitly dates Robert College teaching to 1942-1944 and says he then joined OSS."
+    },
+    {
+      "key": "ccu-chester-strait-b923",
+      "stable_url": "https://ccu.edu.mm/ccu-history/",
+      "title": "CCU History",
+      "author_creator": "Chin Christian University",
+      "repository_publisher": "Chin Christian University",
+      "locator": "History section, opening paragraph",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The institutional history names Rev Dr Chester U Strait as an American Baptist missionary who opened the Hakha Bible school in 1928."
+    },
+    {
+      "key": "oregon-news-chester-strait-b923",
+      "stable_url": "https://oregonnews.uoregon.edu/lccn/sn90051770/1942-05-11/ed-1/seq-1/",
+      "archival_identifier": "sn90051770, 1942-05-11, edition 1, page 1",
+      "title": "The Bend Bulletin",
+      "repository_publisher": "Historic Oregon Newspapers, University of Oregon Libraries",
+      "publication_record_date": "1942-05-11",
+      "locator": "Page 1; Baptist convention notice naming Rev. Chester U. Strait",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Contemporary newspaper context identifies him as a missionary to Burma in May 1942; it does not establish an OSS entry date."
+    },
+    {
+      "key": "providence-directory-irving-strasmich-b923",
+      "stable_url": "https://ldsgenealogy.com/RI/books/Polks-Providence-Providence-County-RI-city-directory-1942-part-270.htm",
+      "title": "Polk's Providence city directory, 1942",
+      "repository_publisher": "Polk directory reproduced by LDSGenealogy from Archive.org",
+      "publication_record_date": "1942",
+      "locator": "Part 270; Strasmich entries",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The transcription names both a private law office and Rhode Island Division of Taxation role. The page warns that its transcription may contain OCR errors; exact wording is retained and corroborated separately."
+    },
+    {
+      "key": "rijha-irving-strasmich-b923",
+      "stable_url": "https://rijha.org/wp-content/uploads/RIJH-Notes/Notes%20PDF/Notes%2012.2%201996.pdf",
+      "title": "Early Rhode Island Jewish Lawyers",
+      "repository_publisher": "Rhode Island Jewish Historical Association",
+      "publication_record_date": "1996",
+      "locator": "Rhode Island Jewish Historical Notes, volume 12.2, page 237",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The institutional roster identifies Irving H. Strasmich of Providence and gives his 1939 bar-admission date."
+    },
+    {
+      "key": "special-operations-memorial-ralph-stratis-b923",
+      "stable_url": "https://75thrra.org/wp-content/uploads/2022/11/2010_1.pdf",
+      "title": "Patrolling, Summer 2010",
+      "author_creator": "Special Operations Memorial Foundation",
+      "repository_publisher": "75th Ranger Regiment Association",
+      "publication_record_date": "2010-05-15",
+      "locator": "PDF page 87, printed page 86; Special Operations Memorial Update",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The memorial update says the OSS Society funded the Detachment 101 casualty names and includes T/SGT Ralph N. Stratis. It does not resolve the conflicting Army identifier."
+    },
+    {
+      "key": "shd-jean-strauss-b923",
+      "stable_url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2019-10/SHDGR_INV_28P4_DOSSIERS_DES_AGENTS_DES_RESEAUX_0.pdf",
+      "archival_identifier": "GR 28 P 4 394/74; GR 16 P 557827",
+      "title": "Dossiers des agents des réseaux",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Ministère des Armées, France",
+      "publication_record_date": "2017",
+      "locator": "Inventory entry GR 28 P 4 394/74, dossier individuel de Jean Strauss, 1943-1944",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The official inventory confirms a Jean Strauss resistance-network file but does not itself give rank, alias, employer or a pre-OSS role."
+    },
+    {
+      "key": "infiltrations-jean-strauss-b923",
+      "stable_url": "https://polejeanmoulin.com/resources/infiltrations_en_france.pdf",
+      "title": "Historique 2ieme GM: Infiltrations en France",
+      "repository_publisher": "Pôle Jean Moulin",
+      "publication_record_date": "2017-12-31",
+      "locator": "10 July 1944; Sussex/OSS Sanctuaire mission entry",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The compiled chronology cites NARA M1623, an OSS Sanctuaire mission report, French military files and RAF logs. Its former SAS/FAFL statement is published only as a qualified lead."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "robert-college-b923",
+      "organization_id": "f1e21135-44f7-55fb-aad3-c0378ef5782f",
+      "canonical_name": "Robert College",
+      "historical_name": "Robert College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "normalization_notes": "The historical institutional name is retained. The teaching job also served as cover for a separate intelligence assignment."
+    },
+    {
+      "key": "free-french-forces-b923",
+      "organization_id": "e69cd54a-0807-54a9-b819-01cae8268999",
+      "canonical_name": "Free French Forces",
+      "historical_name": "Free French forces",
+      "aliases": [
+        "Forces françaises libres",
+        "Free French"
+      ],
+      "organization_type": "Allied military forces",
+      "sector": "military",
+      "country": "France",
+      "active_dates": "1940-1944",
+      "normalization_notes": "The source's wording is preserved; no specific French branch or unit is inferred."
+    },
+    {
+      "key": "american-baptist-foreign-mission-society-b923",
+      "organization_id": "345ab958-cdb0-42c8-973f-6a7bde05e2b2",
+      "canonical_name": "American Baptist Foreign Mission Society",
+      "historical_name": "American Baptist Foreign Mission Society",
+      "aliases": [
+        "American Baptist mission",
+        "American Baptist missionary service"
+      ],
+      "organization_type": "missionary society",
+      "sector": "labor_nonprofit_and_religion",
+      "country": "United States",
+      "normalization_notes": "The institutional source says American Baptist missionary. A separate Chin community history supplies the historical society name; the source wording remains visible."
+    },
+    {
+      "key": "rhode-island-division-taxation-b923",
+      "organization_id": "50429896-84a6-4701-9df3-f759921e9ec8",
+      "canonical_name": "Rhode Island Division of Taxation",
+      "historical_name": "RI Div of Taxation",
+      "aliases": [
+        "Rhode Island Division of Taxation",
+        "RI Div of Taxation"
+      ],
+      "organization_type": "state government tax agency",
+      "sector": "state_or_local_government",
+      "city": "Providence",
+      "state_or_region": "Rhode Island",
+      "country": "United States",
+      "normalization_notes": "Historical directory wording is preserved; no modern successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "chester-strait-baptist-mission-b923",
+      "person_id": "87f3b2ad-f8df-51eb-b329-2e6f130f09c0",
+      "organization_key": "american-baptist-foreign-mission-society-b923",
+      "organization_name_as_found": "American Baptist missionary",
+      "role_title": "missionary and Bible-school founder",
+      "occupation": "missionary and educator",
+      "relationship_type": "employment",
+      "start_date": "1925",
+      "end_date": "1940-12",
+      "date_precision": "Institutional sources date the Hakha Bible school to 1928 and describe service between the world wars; a community history dates departure from Hakha to December 1940.",
+      "city": "Hakha",
+      "state_or_region": "Chin Hills",
+      "country": "Burma",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "A definite prewar institutional affiliation, but the reviewed sources do not prove it was immediately before OSS or identify the transition from missionary work to wartime service."
+    },
+    {
+      "key": "irving-strasmich-ri-taxation-b923",
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "organization_key": "rhode-island-division-taxation-b923",
+      "organization_name_as_found": "RI Div of Taxation",
+      "role_title": "tax research director",
+      "occupation": "lawyer and tax researcher",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "end_date": "1943-10-27",
+      "date_precision": "The 1942 city directory records the role; Army entry occurred on 1943-10-27. The exact end date and OSS transfer date are not stated.",
+      "city": "Providence",
+      "state_or_region": "Rhode Island",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The directory records this government role concurrently with private law practice. Neither is claimed as the immediate OSS predecessor."
+    },
+    {
+      "key": "irving-strasmich-law-practice-b923",
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "organization_name_as_found": "lawyer, 171 Westminster, room 312",
+      "role_title": "lawyer",
+      "occupation": "lawyer",
+      "relationship_type": "self_employment",
+      "start_date": "1942",
+      "end_date": "1943-10-27",
+      "date_precision": "The 1942 city directory gives a private office address; Army entry occurred on 1943-10-27. The exact end date and OSS transfer date are not stated.",
+      "city": "Providence",
+      "state_or_region": "Rhode Island",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "No firm name is supplied. The role was concurrent with his Rhode Island tax assignment, so the two affiliations are not placed in an invented sequence."
+    },
+    {
+      "key": "arthur-stratton-robert-college-b923",
+      "person_id": "17cdb2c1-6f4e-5de8-843c-b623c8b630e3",
+      "organization_key": "robert-college-b923",
+      "organization_name_as_found": "Robert College",
+      "role_title": "English teacher",
+      "occupation": "teacher",
+      "relationship_type": "employment",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "Bowdoin's finding aid explicitly says he taught from 1942 to 1944, when he joined OSS; exact dates are not supplied.",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source explicitly links the end of this employment to joining OSS. Robert College's historical name is retained."
+    },
+    {
+      "key": "jean-strauss-free-french-b923",
+      "person_id": "5e5dee83-05e7-57de-9f5c-516b74de4492",
+      "organization_key": "free-french-forces-b923",
+      "organization_name_as_found": "SAS FAFL",
+      "role_title": "lieutenant",
+      "relationship_type": "military_assignment",
+      "end_date": "1944-07-10",
+      "date_precision": "A compiled mission chronology describes Jean Strauss, alias Jean Sagan, as formerly SAS/FAFL before the 10 July 1944 OSS Sanctuaire mission; exact service dates are not supplied.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Military assignment, not civilian employment. The source's SAS/FAFL abbreviation is preserved and not expanded into a more specific unit without direct file review."
+    },
+    {
+      "key": "david-c-strain-occupation-b923",
+      "person_id": "f9da7ec5-13c9-58b9-82b6-d23563f5f9f7",
+      "occupation": "Meatcutters, except in slaughtering and packing houses",
+      "relationship_type": "employment",
+      "end_date": "1941-03-31",
+      "date_precision": "Historical civilian-occupation code 558 was recorded at Army entry on 1941-03-31; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "david-t-strasinger-occupation-b923",
+      "person_id": "b2bac5dc-7654-5841-a2bb-8bd0ec1e87a1",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1943-04-02",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-04-02; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "donald-stratton-occupation-b923",
+      "person_id": "e12f553f-c269-5280-83cd-a93ce1d9b25e",
+      "occupation": "Clerks, general office",
+      "relationship_type": "employment",
+      "end_date": "1940-10-15",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1940-10-15; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "joseph-m-straub-occupation-b923",
+      "person_id": "6a9c043b-80ce-5712-a398-4f494790d7ac",
+      "occupation": "Cooks, except private family",
+      "relationship_type": "employment",
+      "end_date": "1941-01-27",
+      "date_precision": "Historical civilian-occupation code 226 was recorded at Army entry on 1941-01-27; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "kenneth-h-straus-occupation-b923",
+      "person_id": "6891cabd-4f97-54fc-9124-8e47cc99cbe5",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1943-06-11",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-06-11; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "walter-straus-occupation-b923",
+      "person_id": "f36cfcbc-5657-5640-a1a9-5a790c938a5e",
+      "occupation": "Agents and appraisers, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-03-15",
+      "date_precision": "Historical civilian-occupation code 148 was recorded at Army entry on 1943-03-15; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "otto-strauss-occupation-b923",
+      "person_id": "445357d5-dcbd-553d-be0a-ce3195fef4aa",
+      "occupation": "Nonprocess occupations in manufacturing, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-10-16",
+      "date_precision": "Historical civilian-occupation code 965 was recorded at Army entry on 1942-10-16; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "william-j-strauss-occupation-b923",
+      "person_id": "a0685439-62bd-583d-8ee2-402a9bdf6282",
+      "occupation": "Dairy farmers",
+      "relationship_type": "employment",
+      "end_date": "1943-03-08",
+      "date_precision": "Historical civilian-occupation code 304 was recorded at Army entry on 1943-03-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-chester-strait-b923",
+      "person_id": "87f3b2ad-f8df-51eb-b329-2e6f130f09c0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Chester U Strait is a high-confidence match to Rev. Dr. Chester U. Strait, the American Baptist missionary and educator in Hakha.",
+      "evidence_excerpt": "Rev Dr Chester U Strait and spouse, an American Baptist missionary couple",
+      "evidence_paraphrase": "Chin Christian University gives the exact distinctive name and identifies the Hakha missionary and Bible-school role.",
+      "identity_match_assessment": "High confidence from exact first name, middle initial and surname plus a distinctive long-term institutional role documented by multiple Chin sources.",
+      "temporal_assessment": "The missionary work is documented from 1925 through 1940; the reviewed sources do not establish his OSS entry date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The finding does not assume that missionary service was immediately before OSS or conflate later Army chaplaincy with civilian employment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 3; Box 751; protected identifier withheld"
+        },
+        {
+          "source_key": "ccu-chester-strait-b923",
+          "locator_override": "History section, opening paragraph"
+        },
+        {
+          "source_key": "oregon-news-chester-strait-b923",
+          "support_type": "context_only",
+          "locator_override": "Page 1; May 1942 Baptist convention notice"
+        }
+      ]
+    },
+    {
+      "key": "prewar-chester-strait-b923",
+      "person_id": "87f3b2ad-f8df-51eb-b329-2e6f130f09c0",
+      "affiliation_key": "chester-strait-baptist-mission-b923",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Chester U. Strait served as an American Baptist missionary and educator in Hakha, establishing a Bible school in 1928; this is documented prewar work, not a proven immediate OSS predecessor.",
+      "evidence_excerpt": "started a Bible school in Hakha in 1928",
+      "evidence_paraphrase": "The institutional history names Strait and dates the Hakha Bible school to 1928; a contemporary 1942 newspaper still described him as a missionary to Burma.",
+      "identity_match_assessment": "High-confidence match from the exact distinctive name and corroborating missionary chronology.",
+      "temporal_assessment": "Definitely pre-OSS, but the transition to wartime service and OSS is not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Organization wording is normalized separately and the historical source wording remains visible.",
+      "sources": [
+        {
+          "source_key": "ccu-chester-strait-b923",
+          "locator_override": "History section, opening paragraph"
+        },
+        {
+          "source_key": "oregon-news-chester-strait-b923",
+          "support_type": "context_only",
+          "locator_override": "Page 1; May 1942 Baptist convention notice"
+        }
+      ]
+    },
+    {
+      "key": "identity-irving-strasmich-b923",
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Irving H Strasmich is a high-confidence match to Providence lawyer and Rhode Island tax research director Irving H. Strasmich.",
+      "evidence_excerpt": "Irving H lawyer ... also tax research dir RI Div of Taxation",
+      "evidence_paraphrase": "The exact name, accepted protected Army identifier, 1942 directory entry and institutional bar-admission roster agree.",
+      "identity_match_assessment": "High confidence from exact full-name agreement, a nonshared protected identifier, Providence location and independent professional records.",
+      "temporal_assessment": "The directory documents both civilian roles in 1942; Army entry occurred on 1943-10-27.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is not exposed. Neither concurrent 1942 role is forced into an unsupported sequence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 10; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "providence-directory-irving-strasmich-b923",
+          "locator_override": "Part 270; Strasmich entries"
+        },
+        {
+          "source_key": "rijha-irving-strasmich-b923",
+          "support_type": "context_only",
+          "locator_override": "Volume 12.2, page 237"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-irving-strasmich-tax-b923",
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "affiliation_key": "irving-strasmich-ri-taxation-b923",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "In 1942 Irving H. Strasmich was tax research director for the Rhode Island Division of Taxation; the role is strongly date-bounded before his 1943 Army entry but not explicitly tied to OSS recruitment.",
+      "evidence_excerpt": "tax research dir RI Div of Taxation",
+      "evidence_paraphrase": "The 1942 city directory names the agency and role; the accepted official Army record dates entry to 1943-10-27.",
+      "identity_match_assessment": "High-confidence identity from exact name, professional context and the accepted protected Army bridge.",
+      "temporal_assessment": "Strongly date-bounded last civilian government role; exact end and OSS transition dates are unknown.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Government assignment is kept distinct from private law practice and from a civilian employer label.",
+      "sources": [
+        {
+          "source_key": "providence-directory-irving-strasmich-b923",
+          "locator_override": "Part 270; Strasmich entries"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "support_type": "context_only",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-10-27; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-irving-strasmich-law-b923",
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "affiliation_key": "irving-strasmich-law-practice-b923",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Irving H. Strasmich also maintained a Providence law office in 1942; it was concurrent with his state tax role and no law-firm employer is named.",
+      "evidence_excerpt": "lawyer 171 Westminster rm 312",
+      "evidence_paraphrase": "The directory supplies a private office address, while the bar roster independently confirms his 1939 admission.",
+      "identity_match_assessment": "High-confidence identity from exact name, Providence professional records and the accepted protected Army bridge.",
+      "temporal_assessment": "Strongly date-bounded before Army entry, but the exact end date and sequence relative to the tax role are unknown.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Presented as self-employment; no firm or employer is invented.",
+      "sources": [
+        {
+          "source_key": "providence-directory-irving-strasmich-b923",
+          "locator_override": "Part 270; Strasmich entries"
+        },
+        {
+          "source_key": "rijha-irving-strasmich-b923",
+          "support_type": "context_only",
+          "locator_override": "Volume 12.2, page 237"
+        }
+      ]
+    },
+    {
+      "key": "identity-ralph-stratis-b923",
+      "person_id": "2cd8072e-ab12-5eb2-958a-ee82f5e17bd1",
+      "claim_type": "identity",
+      "claim_text": "The exact-name Ralph N. Stratis is documented as an OSS Detachment 101 technical sergeant, but the index's protected identifier selects a different Army name and remains in conflict.",
+      "evidence_excerpt": "T/SGT Ralph N. Stratis",
+      "evidence_paraphrase": "A special-operations memorial list funded by the OSS Society names Stratis among Detachment 101 losses; the Army identifier candidate names George Norman F and was rejected.",
+      "identity_match_assessment": "The distinctive exact name and OSS unit support the indexed person, but the protected identifier conflict prevents a confirmed identity and blocks transfer of all Army fields.",
+      "temporal_assessment": "The memorial establishes wartime OSS service, not a pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The conflict is displayed rather than resolved by convenience. No occupation code from the rejected Army row is transferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 12; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "special-operations-memorial-ralph-stratis-b923",
+          "locator_override": "PDF page 87, printed page 86; Detachment 101 list"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "support_type": "contradicts",
+          "locator_override": "Rejected candidate; official row names George Norman F; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-stratton-b923",
+      "person_id": "17cdb2c1-6f4e-5de8-843c-b623c8b630e3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur Stratton is a high-confidence match to author and educator Arthur Mills Stratton.",
+      "evidence_excerpt": "Arthur Mills Stratton was born on July 27, 1911",
+      "evidence_paraphrase": "Bowdoin's archival finding aid gives the full name and explicitly documents Robert College teaching followed by OSS service.",
+      "identity_match_assessment": "High confidence from the exact name, an authoritative archival biography and the unusually specific Robert College-to-OSS chronology.",
+      "temporal_assessment": "The finding aid dates Robert College employment to 1942-1944 and says he joined OSS in 1944.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index omits the middle name; it is added only as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 13; Box 752"
+        },
+        {
+          "source_key": "bowdoin-arthur-stratton-b923",
+          "locator_override": "Biographical/Historical Note, lines 60-66"
+        }
+      ]
+    },
+    {
+      "key": "immediate-arthur-stratton-b923",
+      "person_id": "17cdb2c1-6f4e-5de8-843c-b623c8b630e3",
+      "affiliation_key": "arthur-stratton-robert-college-b923",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Arthur Mills Stratton taught English at Robert College in Turkey from 1942 to 1944, when he joined OSS.",
+      "evidence_excerpt": "taught English at Robert College in Turkey from 1942 to 1944, when he joined",
+      "evidence_paraphrase": "The Bowdoin archival finding aid explicitly links the dated employment to his entry into OSS.",
+      "identity_match_assessment": "High-confidence identity from the authoritative full-name biography and direct OSS chronology.",
+      "temporal_assessment": "Explicit immediate predecessor: the source says the teaching ended when he joined OSS in 1944.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Robert College is retained as the historical employer name; no modern institution is substituted.",
+      "sources": [
+        {
+          "source_key": "bowdoin-arthur-stratton-b923",
+          "locator_override": "Biographical/Historical Note, line 63"
+        }
+      ]
+    },
+    {
+      "key": "identity-jean-strauss-b923",
+      "person_id": "5e5dee83-05e7-57de-9f5c-516b74de4492",
+      "claim_type": "identity",
+      "claim_text": "The indexed French Lieutenant Jean S Strauss is a high-confidence match to Jean Strauss, alias Jean Sagan, of the OSS Sanctuaire mission.",
+      "evidence_excerpt": "Jean Strauss alias Jean Sagan",
+      "evidence_paraphrase": "The exact name, French military context, OSS mission chronology and official French resistance-network dossier align.",
+      "identity_match_assessment": "High confidence from the exact name, French lieutenant note, a specific OSS mission and an official French dossier for Jean Strauss covering 1943-1944.",
+      "temporal_assessment": "The official dossier covers 1943-1944; the mission chronology dates Sanctuaire to July 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Sagan alias is retained as a documented variant. The official inventory alone does not supply the alias, so the compiled chronology remains separately cited.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 21; LT; French note; Box 752"
+        },
+        {
+          "source_key": "shd-jean-strauss-b923",
+          "locator_override": "GR 28 P 4 394/74; GR 16 P 557827; 1943-1944"
+        },
+        {
+          "source_key": "infiltrations-jean-strauss-b923",
+          "locator_override": "10 July 1944; OSS Sanctuaire mission entry"
+        }
+      ]
+    },
+    {
+      "key": "preoss-jean-strauss-free-french-b923",
+      "person_id": "5e5dee83-05e7-57de-9f5c-516b74de4492",
+      "affiliation_key": "jean-strauss-free-french-b923",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A compiled mission chronology describes Jean Strauss, alias Jean Sagan, as formerly SAS/FAFL before his July 1944 OSS Sanctuaire mission; the exact unit and dates require file review.",
+      "evidence_excerpt": "Jean Strauss alias Jean Sagan ... Ex SAS FAFL 35721",
+      "evidence_paraphrase": "The chronology places a Free French/SAS antecedent before the named OSS mission and cites NARA, French military and RAF records.",
+      "identity_match_assessment": "High-confidence person match, but the antecedent service detail depends on a compiled chronology rather than a reviewed personnel file.",
+      "temporal_assessment": "Earlier than the July 1944 OSS mission, but exact start and end dates are not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Military assignment, not civilian employment. The source abbreviation is preserved and the exact unit remains an archival-review question.",
+      "sources": [
+        {
+          "source_key": "infiltrations-jean-strauss-b923",
+          "locator_override": "10 July 1944; OSS Sanctuaire mission entry"
+        },
+        {
+          "source_key": "shd-jean-strauss-b923",
+          "support_type": "context_only",
+          "locator_override": "Official Jean Strauss dossier inventory, 1943-1944"
+        }
+      ]
+    },
+    {
+      "key": "identity-david-c-strain-b923",
+      "person_id": "f9da7ec5-13c9-58b9-82b6-d23563f5f9f7",
+      "claim_type": "identity",
+      "claim_text": "The indexed David C Strain row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1941-03-31; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 2; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-david-c-strain-b923",
+      "person_id": "f9da7ec5-13c9-58b9-82b6-d23563f5f9f7",
+      "affiliation_key": "david-c-strain-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-31, David C Strain was recorded in a historical occupation category, Meatcutters, except in slaughtering and packing houses; no employer is identified.",
+      "evidence_excerpt": "Meatcutters, except in slaughtering and packing houses",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 558, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 558; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 173; historical category 5-58",
+          "excerpt_override": "Meatcutters, except in slaughtering and packing houses"
+        }
+      ]
+    },
+    {
+      "key": "identity-david-t-strasinger-b923",
+      "person_id": "b2bac5dc-7654-5841-a2bb-8bd0ec1e87a1",
+      "claim_type": "identity",
+      "claim_text": "The indexed David T Strasinger row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-04-02; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 9; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-david-t-strasinger-b923",
+      "person_id": "b2bac5dc-7654-5841-a2bb-8bd0ec1e87a1",
+      "affiliation_key": "david-t-strasinger-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-02, David T Strasinger was recorded in the historical occupation group Students; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-donald-stratton-b923",
+      "person_id": "e12f553f-c269-5280-83cd-a93ce1d9b25e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald Stratton row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1940-10-15; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 14; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-donald-stratton-b923",
+      "person_id": "e12f553f-c269-5280-83cd-a93ce1d9b25e",
+      "affiliation_key": "donald-stratton-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1940-10-15, Donald Stratton was recorded in a historical occupation category, Clerks, general office; no employer is identified.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 176; historical category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-m-straub-b923",
+      "person_id": "6a9c043b-80ce-5712-a398-4f494790d7ac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph M Straub row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1941-01-27; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 15; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-m-straub-b923",
+      "person_id": "6a9c043b-80ce-5712-a398-4f494790d7ac",
+      "affiliation_key": "joseph-m-straub-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-01-27, Joseph M Straub was recorded in a historical occupation category, Cooks, except private family; no employer is identified.",
+      "evidence_excerpt": "Cooks, except private family",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 226, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 226; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 172; historical category 2-26",
+          "excerpt_override": "Cooks, except private family"
+        }
+      ]
+    },
+    {
+      "key": "identity-kenneth-h-straus-b923",
+      "person_id": "6891cabd-4f97-54fc-9124-8e47cc99cbe5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kenneth H Straus row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-06-11; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 18; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-kenneth-h-straus-b923",
+      "person_id": "6891cabd-4f97-54fc-9124-8e47cc99cbe5",
+      "affiliation_key": "kenneth-h-straus-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-11, Kenneth H Straus was recorded in the historical occupation group Students; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-straus-b923",
+      "person_id": "f36cfcbc-5657-5640-a1a9-5a790c938a5e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Walter Straus row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-03-15; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 19; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-walter-straus-b923",
+      "person_id": "f36cfcbc-5657-5640-a1a9-5a790c938a5e",
+      "affiliation_key": "walter-straus-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-15, Walter Straus was recorded in an historical occupation category, Agents and appraisers, not elsewhere classified; no employer is identified.",
+      "evidence_excerpt": "Agents and appraisers, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 148, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 148; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 176; historical category 1-48",
+          "excerpt_override": "Agents and appraisers, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "identity-otto-strauss-b923",
+      "person_id": "445357d5-dcbd-553d-be0a-ce3195fef4aa",
+      "claim_type": "identity",
+      "claim_text": "The indexed Otto Strauss row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1942-10-16; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 22; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-otto-strauss-b923",
+      "person_id": "445357d5-dcbd-553d-be0a-ce3195fef4aa",
+      "affiliation_key": "otto-strauss-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-16, Otto Strauss was recorded in a historical occupation category, Nonprocess occupations in manufacturing, not elsewhere classified; no employer is identified.",
+      "evidence_excerpt": "Nonprocess occupations in manufacturing, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 965, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 965; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 174; historical category 9-65, visually checked",
+          "excerpt_override": "Nonprocess occupations in manufacturing, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-j-strauss-b923",
+      "person_id": "a0685439-62bd-583d-8ee2-402a9bdf6282",
+      "claim_type": "identity",
+      "claim_text": "The indexed William J Strauss row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army entry is dated 1943-03-08; it does not establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the historical occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b923",
+          "locator_override": "PDF page 452 row 23; Box 752; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-j-strauss-b923",
+      "person_id": "a0685439-62bd-583d-8ee2-402a9bdf6282",
+      "affiliation_key": "william-j-strauss-occupation-b923",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-08, William J Strauss was recorded in a historical occupation category, Dairy farmers; no employer is identified.",
+      "evidence_excerpt": "Dairy farmers",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 304, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b923",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 304; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b923",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b923",
+          "locator_override": "PDF physical page 176; historical category 3-04",
+          "excerpt_override": "Dairy farmers"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8cbb3774-7e59-5d55-bffb-53acecd22cd2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Carl A Strahle, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. An exact-name obituary described a printing career without establishing that it began before Army or OSS service; cemetery and document mirrors did not supply a defensible employer chronology.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c94b3848-9fd5-5853-ba51-7d70a707f844",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Eric W Strait, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. The index note is damaged or displaced, and exact-name and variant searches produced no defensible identity or affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "972a7829-ca52-58bc-9597-b70e0a545af6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mario C Strambi, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. The printed eight-digit identifier produced no Army bulk match, and discovery-only genealogy results supplied no OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f756f79c-5861-5b36-b2e8-0a2439f88282",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Carl O Strand, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. A different Carl O Strand Army row carried a conflicting identifier and was rejected as a namesake.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fa55068c-e7b6-5df7-8b60-c9d6f53b4719",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Philip R Strand, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Exact-name, occupation, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ea04c4d9-241f-52fe-950c-4527a4c5de5a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gloria Strashun, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Exact-name and variant searches produced no person-specific result with an OSS or Box 752 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1933c580-1550-57b5-b64b-a552134b0674",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John G Stratford, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. The PFC rank is preserved from the index, but common-name searches produced no second corroborating identifier or pre-OSS affiliation.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4ee4ac5f-f8de-5020-b864-1f0a4d49d393",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Suzanne Straub, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Exact-name and variant searches produced no defensible wartime identity or employment evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a85c5a8e-d1a6-552c-8fd1-1f158bb6a41c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles Straughn, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Modern biographies and directory results concerned later-born or otherwise unbridged Charles Straughn namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "80763df7-ed6d-5048-ab8d-0b02bfb25db2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frances C Strauss, rank where printed, Box 751 or 752 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper and archival searches found no defensible identity bridge. Exact-name and variant searches produced no defensible identity, employer or institutional result.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "87f3b2ad-f8df-51eb-b329-2e6f130f09c0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact distinctive name and Chin institutional histories identify Rev. Dr. Chester U. Strait as an American Baptist missionary and educator in Hakha before World War II.",
+      "name_variants": [
+        "Rev. Dr. Chester U. Strait",
+        "Chester Ulysses Strait"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 751 for the wartime transition from missionary work to any Army or OSS assignment. The American Baptist affiliation is documented prewar, not proven immediate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name, a nonshared protected Army identifier, a 1942 Providence directory and an institutional bar roster identify lawyer and Rhode Island tax research director Irving H. Strasmich.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 752 for the exact end dates of the concurrent law and Rhode Island tax roles and for the immediate OSS recruitment or transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2cd8072e-ab12-5eb2-958a-ee82f5e17bd1",
+      "identity_status": "conflicting",
+      "identity_evidence": "An OSS Society-supported memorial list identifies T/SGT Ralph N. Stratis in OSS Detachment 101, but the protected index identifier selects an official Army row named George Norman F. The conflict blocks transfer of every Army field.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 752 to establish the correct protected identifier and pre-OSS affiliation. Do not use occupation code 736 from the rejected Army row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "17cdb2c1-6f4e-5de8-843c-b623c8b630e3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Bowdoin's authoritative archival biography identifies Arthur Mills Stratton and explicitly connects his 1942-1944 Robert College teaching to joining OSS.",
+      "name_variants": [
+        "Arthur Mills Stratton"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 752 only to refine the exact 1944 OSS entry date and assignment; the immediate Robert College employment is already explicit.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "not_required"
+    },
+    {
+      "person_id": "5e5dee83-05e7-57de-9f5c-516b74de4492",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name, indexed French lieutenant rank, official 1943-1944 French resistance-network dossier and OSS Sanctuaire mission chronology identify Jean Strauss, alias Jean Sagan.",
+      "name_variants": [
+        "Jean Strauss",
+        "Jean Sagan"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the French GR 28 P 4 394/74 and GR 16 P 557827 files plus Box 752 to establish exact SAS/FAFL unit, dates and any earlier civilian employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f9da7ec5-13c9-58b9-82b6-d23563f5f9f7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Meatcutters, except in slaughtering and packing houses' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b2bac5dc-7654-5841-a2bb-8bd0ec1e87a1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Students' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e12f553f-c269-5280-83cd-a93ce1d9b25e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Clerks, general office' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6a9c043b-80ce-5712-a398-4f494790d7ac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Cooks, except private family' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6891cabd-4f97-54fc-9124-8e47cc99cbe5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Students' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f36cfcbc-5657-5640-a1a9-5a790c938a5e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Agents and appraisers, not elsewhere classified' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "445357d5-dcbd-553d-be0a-ce3195fef4aa",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Nonprocess occupations in manufacturing, not elsewhere classified' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a0685439-62bd-583d-8ee2-402a9bdf6282",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 752 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category 'Dairy farmers' into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page452-row1-carl-a-strahle-b923",
+      "person_id": "8cbb3774-7e59-5d55-bffb-53acecd22cd2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl A Strahle; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "An exact-name obituary described a printing career without establishing that it began before Army or OSS service; cemetery and document mirrors did not supply a defensible employer chronology.",
+      "research_notes": "An exact-name obituary described a printing career without establishing that it began before Army or OSS service; cemetery and document mirrors did not supply a defensible employer chronology. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row2-david-c-strain-b923",
+      "person_id": "f9da7ec5-13c9-58b9-82b6-d23563f5f9f7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "David C Strain; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Meatcutters, except in slaughtering and packing houses, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row3-chester-u-strait-b923",
+      "person_id": "87f3b2ad-f8df-51eb-b329-2e6f130f09c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Chester U Strait; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "Institutional and contemporary sources established high-confidence identity and American Baptist missionary and educational work in Hakha, but not the immediate OSS transition. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row4-eric-w-strait-b923",
+      "person_id": "c94b3848-9fd5-5853-ba51-7d70a707f844",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eric W Strait; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The index note is damaged or displaced, and exact-name and variant searches produced no defensible identity or affiliation bridge.",
+      "research_notes": "The index note is damaged or displaced, and exact-name and variant searches produced no defensible identity or affiliation bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row5-mario-c-strambi-b923",
+      "person_id": "972a7829-ca52-58bc-9597-b70e0a545af6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mario C Strambi; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The printed eight-digit identifier produced no Army bulk match, and discovery-only genealogy results supplied no OSS bridge.",
+      "research_notes": "The printed eight-digit identifier produced no Army bulk match, and discovery-only genealogy results supplied no OSS bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row6-carl-o-strand-b923",
+      "person_id": "f756f79c-5861-5b36-b2e8-0a2439f88282",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl O Strand; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A different Carl O Strand Army row carried a conflicting identifier and was rejected as a namesake.",
+      "research_notes": "A different Carl O Strand Army row carried a conflicting identifier and was rejected as a namesake. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row7-philip-r-strand-b923",
+      "person_id": "fa55068c-e7b6-5df7-8b60-c9d6f53b4719",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip R Strand; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, occupation, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "research_notes": "Exact-name, occupation, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row8-gloria-strashun-b923",
+      "person_id": "ea04c4d9-241f-52fe-950c-4527a4c5de5a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gloria Strashun; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name and variant searches produced no person-specific result with an OSS or Box 752 bridge.",
+      "research_notes": "Exact-name and variant searches produced no person-specific result with an OSS or Box 752 bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row9-david-t-strasinger-b923",
+      "person_id": "b2bac5dc-7654-5841-a2bb-8bd0ec1e87a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "David T Strasinger; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Students, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row10-irving-h-strasmich-b923",
+      "person_id": "8a29e7f0-d5a9-592c-bad5-39061fd0a0f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irving H Strasmich; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted Army bridge, 1942 city directory and bar roster established high-confidence identity, concurrent private law practice and a Rhode Island tax-research role before 1943 Army entry. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row11-john-g-stratford-b923",
+      "person_id": "1933c580-1550-57b5-b64b-a552134b0674",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John G Stratford; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The PFC rank is preserved from the index, but common-name searches produced no second corroborating identifier or pre-OSS affiliation.",
+      "research_notes": "The PFC rank is preserved from the index, but common-name searches produced no second corroborating identifier or pre-OSS affiliation. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row12-ralph-n-stratis-b923",
+      "person_id": "2cd8072e-ab12-5eb2-958a-ee82f5e17bd1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ralph N Stratis; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Independent evidence identifies T/SGT Ralph N. Stratis in OSS Detachment 101, but the protected identifier selects George Norman F; the Army candidate and every attached field were rejected.",
+      "research_notes": "Independent evidence identifies T/SGT Ralph N. Stratis in OSS Detachment 101, but the protected identifier selects George Norman F; the Army candidate and every attached field were rejected. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row13-arthur-stratton-b923",
+      "person_id": "17cdb2c1-6f4e-5de8-843c-b623c8b630e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Stratton; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "Bowdoin's archival finding aid established high-confidence identity and explicit immediate Robert College employment from 1942 to the 1944 OSS entry. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row14-donald-stratton-b923",
+      "person_id": "e12f553f-c269-5280-83cd-a93ce1d9b25e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald Stratton; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Clerks, general office, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row15-joseph-m-straub-b923",
+      "person_id": "6a9c043b-80ce-5712-a398-4f494790d7ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph M Straub; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Cooks, except private family, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row16-suzanne-straub-b923",
+      "person_id": "4ee4ac5f-f8de-5020-b864-1f0a4d49d393",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Suzanne Straub; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name and variant searches produced no defensible wartime identity or employment evidence.",
+      "research_notes": "Exact-name and variant searches produced no defensible wartime identity or employment evidence. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row17-charles-straughn-b923",
+      "person_id": "a85c5a8e-d1a6-552c-8fd1-1f158bb6a41c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles Straughn; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Modern biographies and directory results concerned later-born or otherwise unbridged Charles Straughn namesakes.",
+      "research_notes": "Modern biographies and directory results concerned later-born or otherwise unbridged Charles Straughn namesakes. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row18-kenneth-h-straus-b923",
+      "person_id": "6891cabd-4f97-54fc-9124-8e47cc99cbe5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kenneth H Straus; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Students, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row19-walter-straus-b923",
+      "person_id": "f36cfcbc-5657-5640-a1a9-5a790c938a5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter Straus; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Agents and appraisers, not elsewhere classified, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row20-frances-c-strauss-b923",
+      "person_id": "80763df7-ed6d-5048-ab8d-0b02bfb25db2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frances C Strauss; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name and variant searches produced no defensible identity, employer or institutional result.",
+      "research_notes": "Exact-name and variant searches produced no defensible identity, employer or institutional result. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row21-jean-s-strauss-b923",
+      "person_id": "5e5dee83-05e7-57de-9f5c-516b74de4492",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jean S Strauss; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An official French dossier inventory and a cited mission chronology established high-confidence identity and a qualified former SAS/FAFL military antecedent, but no civilian employer. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row22-otto-strauss-b923",
+      "person_id": "445357d5-dcbd-553d-be0a-ce3195fef4aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Otto Strauss; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Nonprocess occupations in manufacturing, not elsewhere classified, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    },
+    {
+      "key": "page452-row23-william-j-strauss-b923",
+      "person_id": "a0685439-62bd-583d-8ee2-402a9bdf6282",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Strauss; NARA/index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Boxes 751-752; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_923",
+      "started_at": "2026-10-26T10:04:00Z",
+      "completed_at": "2026-10-26T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, discovery-only genealogy or people-finder results, wrong identifiers, wrong initials, postwar-only leads and sources without an OSS or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical category, Dairy farmers, but no named employer or institution. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches returned no exact-name result. The Library of Congress adapter failed before returning results, so institutional, obituary, newspaper, directory and archival web searches supplied the alternative protocol step. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b923-v1"
+    }
+  ]
+}

@@ -1,5 +1,51 @@
 # Research status
 
+Batch 923 completed PDF page 452, rows 1-23, from **Carl A Strahle** through
+**William J Strauss**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes. Nine
+exact-name, nonshared protected-identifier Army bridges were accepted. The
+Ralph N. Stratis candidate was rejected because the protected identifier selects
+an Army row named George Norman F; no candidate field crossed that conflict.
+
+Arthur Mills Stratton's Bowdoin archival biography explicitly identifies his
+1942-1944 English teaching at Robert College as the immediate employment before
+he joined OSS. Irving H. Strasmich's 1942 Providence directory entry documents
+concurrent private law practice and a Rhode Island Division of Taxation role
+before his 1943 Army entry; neither is called an explicit immediate OSS
+predecessor. Chester U. Strait's American Baptist missionary and educational
+work in Hakha is documented prewar but not shown to be immediate. Eight Army
+occupation or status categories remain qualified and identify no employer,
+school, institution or workplace. French Lieutenant Jean S. Strauss is a high-
+confidence match to Jean Strauss, alias Jean Sagan; his former SAS/FAFL service
+is a qualified military antecedent, not civilian employment.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,178/23,936 (59.2330%)**;
+verified-employer coverage is **455/23,936 (1.9009%)**;
+verified-affiliation coverage is **1,009/23,936 (4.2154%)**; archival-review
+coverage is **12,651/23,936 (52.8534%)**. There are **9,753** not-started
+people, **619** possible-duplicate groups and **488** conflicts. Claim
+confidence counts are **1,646 confirmed**, **4,620 high**, **2,017 medium**,
+**242 low**, **410 conflicting** and **2 unresolved**. The public projection
+contains **3,252** affiliations, **1,159** organizations, **5,769** sources and
+**8,689** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 452, row 24,
+**William S Strauss**, in Box 752. See `research/batch-923-progress.md` for the
+source-by-source audit.
+
+Batch 923 has passed evidence-schema validation, canonical duplicate-safe
+import, import replay, SQLite integrity and foreign-key checks, derived export
+regeneration, coverage reporting, public-data redaction and the 200-profile
+structural audit. All 147 Python tests passed. Astro reported no errors,
+warnings or hints across 554 checked files and built 25,142 static pages. The
+27/27 Batch 923 browser suite and 96/96 bounded desktop, phone, tablet and
+accessibility release matrix passed, as did the 25,142-page internal-link
+check, checked-in public-manifest guard, protected-identifier audit and zero-
+vulnerability production dependency audit. Two consecutive builds reproduced
+identical public and output trees. Five dependency findings remain confined to
+the development toolchain. CI, Pages deployment and unauthenticated deployed-
+site verification remain pending.
+
 Batch 922 completed PDF page 451, rows 24-46, from **Robert G Storey** through
 **Eli Strahinic**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes. Four
