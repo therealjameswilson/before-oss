@@ -63,8 +63,8 @@ index rows. Their biographical content is assigned to neither row and is
 excluded from public exports. The CIA Reading Room was in system maintenance
 during a final targeted recheck; that access limitation is not treated as
 negative evidence. The NARA Catalog API key was not used, no API response body
-was stored, and temporary bulk and rendered codebook files will be removed
-after release verification.
+was stored, and temporary bulk, rendered index and rendered codebook files were
+removed after release verification.
 
 ### Batch 916 Army and Arthur W. Stewart review
 

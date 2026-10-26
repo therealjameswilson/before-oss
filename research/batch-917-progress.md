@@ -62,7 +62,8 @@ Archive location: 230/86/41/04
 - The 67-asset public manifest verified 122,353,328 bytes at SHA-256 `c1f41c24ccc8137b8acf828f74da96d4e5956b3b7c416e11d5962a420c62d11c`.
 - Two consecutive builds reproduced public-tree SHA-256 `03f6d1aed00b1f2d03f0ea2676c91a4c1034ebb9c7d499afb5b399ab79e06c39` and output-tree SHA-256 `c6461d8c393f5972845d5111f307c914fb5115d00b903626798a06ff9f6b1d61`.
 - The production dependency audit found zero vulnerabilities. Five advisories remain confined to the development toolchain; the deployed static site has no runtime package dependency.
-- Continuous integration, Pages deployment and unauthenticated live verification remain separate release gates until the content commit is published.
+- GitHub Actions Test run `40269827592` and Pages run `40269827611` passed for content commit `1494eac1da8e49b9ecd2d52724068b9add4e7c02`.
+- The unauthenticated verifier matched all 67 public assets, eight core routes, 39 source-register pages and all 23 Batch 917 profiles to that immutable commit.
 
 ## Resume point
 
