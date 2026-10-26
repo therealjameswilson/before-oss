@@ -39,6 +39,43 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 920 Army, OSS awards and Thomas Stonborough review
+
+For Batch 920, the official Army bulk ZIP was independently retrieved from
+NARA's public media endpoint. Its SHA-256 was
+`80c46e83937c6483d11def47fbb1629cab0ac135694fdfa09268b66d826f1066`;
+the extracted `ASNEF.FIN.DAT` again matched the established 837,221,112-byte,
+9,200,232-record file and SHA-256 above. Eight protected-identifier candidates
+were accepted as private identity bridges. The James K. Stokes candidate was
+rejected because the Army row's middle initial is E, and no candidate fields
+were transferred. Three eligible identifiers produced no match and were not
+treated as negative service evidence.
+
+Occupation codes 002, 105, 138, 175, 497, 499 and 653 were visually checked in
+[NARA's compiled code lists](https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf)
+at physical pages 171 and 174-176. They remain historical occupation categories
+without named employers. Code 993 is absent from the reviewed list and is not
+interpreted. A separate [NARA OSS awards scan](https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf),
+physical page 183, was rendered and visually inspected; its M/Sgt Samuel J.
+Stolin entry confirms identity but supplies no pre-OSS employer.
+
+Thomas H. W. Stonborough's chronology comes from the Hoover Institution's
+[official OSS Board of Officers record](https://digitalcollections.hoover.org/internal/media/dispatcher/331570/full),
+dated 2 May 1944, physical page 7. The direct command-line media request met an
+access-challenge response, so the project used Hoover's indexed transcription
+and stable document reference without bypassing the restriction. The record
+explicitly places his Cleveland-area Office of Price Administration Research
+Director role immediately before OSS entry in July 1943 and his own unnamed
+market-research business before the OPA assignment.
+
+The bounded Library of Congress pass completed current searches for all 23
+people. Twenty-nine candidate newspaper pages across eight people were checked
+against official context and rejected. The CIA Reading Room adapter failed
+closed under its robots policy; separate site-restricted public searches did
+not supply admissible identity or employer evidence. The NARA Catalog API key
+was not used, no API response body was stored, and protected identifiers remain
+excluded from public assets.
+
 ### Batch 919 Army, COI, OSS Greece and chronology review
 
 For Batch 919, the official Army bulk ZIP was independently retrieved from

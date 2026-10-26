@@ -1,5 +1,53 @@
 # Research status
 
+Batch 920 completed PDF page 450, rows 24-46, from **Isabel Stokes** through
+**Franklin M Stone**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes.
+Eight protected-identifier Army identity bridges are accepted; seven produce
+dated historical occupation categories that remain qualified and name no
+employer. A ninth Army candidate is rejected because James K. Stokes's index
+row conflicts with the Army row's middle initial E.
+
+A direct official OSS board examination documents Thomas H. W. Stonborough's
+two preceding work stages. His Cleveland-area Office of Price Administration
+Research Director role is the explicit immediate government assignment before
+his July 1943 OSS entry; his earlier unnamed market-research business is the
+last documented civilian work before that intervening assignment. A visually
+checked NARA OSS awards record separately confirms M/Sgt Samuel J. Stolin's
+identity. The two adjacent Frank D. Stone rows remain separate; the second has
+a high-confidence Army identity bridge, while the first remains ambiguous.
+Occupation code 993 is undefined in the reviewed NARA list and is not
+interpreted. Twenty-nine Library of Congress candidates were inspected and
+rejected.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,109/23,936 (58.9447%)**;
+verified-employer coverage is **452/23,936 (1.8884%)**;
+verified-affiliation coverage is **1,004/23,936 (4.1945%)**; archival-review
+coverage is **12,582/23,936 (52.5652%)**. There are **9,822** not-started
+people, **618** possible-duplicate groups and **486** conflicts. Claim
+confidence counts are **1,646 confirmed**, **4,592 high**, **2,002 medium**,
+**236 low**, **410 conflicting** and **2 unresolved**. The public projection
+contains **3,230** affiliations, **1,156** organizations, **5,742** sources and
+**8,646** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 451, row 1,
+**Franz T Stone**, in Box 750. See `research/batch-920-progress.md` for the
+source-by-source audit.
+
+Batch 920 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import replay, SQLite integrity and foreign-key checks,
+derived export regeneration, coverage reporting and public-data redaction. All
+147 Python tests passed, and the 200-profile structural audit passed all seven
+checks. Astro reported no errors, warnings or hints across 551 checked files
+and built 25,139 static pages. The 21/21 Batch 920 browser suite and the 90/90
+bounded desktop, phone, tablet and accessibility release matrix passed, as did
+the 25,139-page internal-link check, checked-in public-manifest guard,
+protected-identifier audit and zero-vulnerability production dependency audit.
+Two consecutive builds reproduced identical public and output trees. Five
+dependency findings remain confined to the development toolchain. CI and live-
+publication results are recorded in `reports/release_batch_920.md` after those
+separate gates complete.
+
 Batch 919 completed PDF page 450, rows 1-23, from **Louis E Stites** through
 **Henry C Stokes**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes. One

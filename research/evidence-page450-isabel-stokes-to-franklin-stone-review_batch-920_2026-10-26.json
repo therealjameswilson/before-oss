@@ -1,0 +1,1470 @@
+{
+  "bundle_version": "batch-920-v1",
+  "reviewer": "Before OSS Batch 920 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b920",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 749-750",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 450, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. The two Frank D Stone rows carry different protected identifiers and are not merged. Full identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b920",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight accepted Batch 920 identity bridges, one rejected middle-initial conflict and three identifier nonhits",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. Coded occupations identify no employer, and a nonhit is not negative service evidence."
+    },
+    {
+      "key": "army-tech-b920",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b920",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171 and 174-176; categories 002, 105, 138, 175, 497, 499 and 653 visually checked",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels identify neither employers nor workplaces. Code 993 is absent from the reviewed list and is not interpreted."
+    },
+    {
+      "key": "nara-oss-awards-stolin-b920",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA JFK release 104-10165-10120",
+      "title": "OSS awards and decorations board records",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945",
+      "locator": "PDF physical page 183, internal page 8; SO Branch 2 Unit Commander's Certificate of Merit list",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The scan was OCR-located and visually inspected. It confirms Samuel J. Stolin's OSS master-sergeant identity but supplies no pre-OSS employer."
+    },
+    {
+      "key": "hoover-oss-board-stonborough-b920",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331570/full",
+      "archival_identifier": "Hoover Institution internal media 331570",
+      "title": "Report of OSS Board of Officers examination at Bastia, Corsica",
+      "author_creator": "Office of Strategic Services Board of Officers",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-02",
+      "locator": "PDF physical page 7; examination of Thomas H. W. Stonborough",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The declassified official record was reviewed through Hoover's indexed transcription and stable document reference; only short excerpts and project-authored paraphrases are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "opa-b920",
+      "organization_id": "a37403a5-5878-511c-9413-dd7054848aa0",
+      "canonical_name": "United States Office of Price Administration",
+      "historical_name": "Office of Price Administration",
+      "aliases": [
+        "OPA"
+      ],
+      "organization_type": "federal wartime agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1947",
+      "normalization_notes": "Reuses the existing canonical organization. The Cleveland area office remains a location of the historical agency, not a separate employer."
+    },
+    {
+      "key": "stonborough-market-research-b920",
+      "canonical_name": "Thomas H. W. Stonborough's market research business",
+      "historical_name": "his own market research business",
+      "aliases": [],
+      "organization_type": "self-employed market research practice",
+      "sector": "self_employed",
+      "country": "United States",
+      "normalization_notes": "The official source does not name the business. The project label preserves ownership and does not invent a firm name."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "james-w-stokes-occupation-b920",
+      "person_id": "12343f77-a18b-559d-864b-71cc57d115c4",
+      "relationship_type": "employment",
+      "occupation": "Actors and actresses",
+      "end_date": "1942-05-18",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1942-05-18; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "james-r-stokes-occupation-b920",
+      "person_id": "1d94cda6-a735-5a4a-9047-27a27013cc61",
+      "relationship_type": "employment",
+      "occupation": "Clerks, general office",
+      "end_date": "1941-09-15",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1941-09-15; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "robert-f-stolb-occupation-b920",
+      "person_id": "041c3b88-ce0b-5a7c-bbac-bfbc68000c0a",
+      "relationship_type": "employment",
+      "occupation": "Chemical products producing occupations, not elsewhere classified",
+      "end_date": "1942-05-05",
+      "date_precision": "Historical civilian-occupation code 653 was recorded at Army entry on 1942-05-05; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "samuel-j-stolin-occupation-b920",
+      "person_id": "3f95a78f-89c6-59d5-8120-f97cef7d50c2",
+      "relationship_type": "employment",
+      "occupation": "Stock clerks",
+      "end_date": "1942-10-23",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1942-10-23; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "carl-stolle-occupation-b920",
+      "person_id": "fd99bf74-21d1-5158-87bf-5f1f007d2ac1",
+      "relationship_type": "employment",
+      "occupation": "Electricians",
+      "end_date": "1942-10-12",
+      "date_precision": "Historical civilian-occupation code 497 was recorded at Army entry on 1942-10-12; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "norman-e-stoller-occupation-b920",
+      "person_id": "ef6b0129-32d4-5866-90f7-0758bc48a640",
+      "relationship_type": "employment",
+      "occupation": "Salespersons",
+      "end_date": "1942-12-11",
+      "date_precision": "Historical civilian-occupation code 175 was recorded at Army entry on 1942-12-11; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "bruce-d-stone-occupation-b920",
+      "person_id": "5dc90dbe-8b7b-5fa5-8a11-96e0f50480b3",
+      "relationship_type": "employment",
+      "occupation": "Electrical machinery and accessories manufacturing occupations, not elsewhere classified",
+      "end_date": "1943-02-11",
+      "date_precision": "Historical civilian-occupation code 499 was recorded at Army entry on 1943-02-11; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, institution or exact title."
+    },
+    {
+      "key": "thomas-stonborough-opa-b920",
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "organization_key": "opa-b920",
+      "organization_name_as_found": "Office of Price Administration",
+      "role_title": "Research Director, Cleveland area",
+      "occupation": "research director",
+      "relationship_type": "government_assignment",
+      "end_date": "1943-07",
+      "date_precision": "The OSS board says this was his previous position when he entered OSS in July 1943; no exact day or start date is stated.",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Modeled as a federal government assignment, not a civilian employer."
+    },
+    {
+      "key": "thomas-stonborough-market-research-b920",
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "organization_key": "stonborough-market-research-b920",
+      "organization_name_as_found": "his own market research business",
+      "occupation": "market researcher",
+      "relationship_type": "self_employment",
+      "date_precision": "The OSS board places this work before his Cleveland-area OPA position; it gives no business name or exact dates.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Published as the last documented civilian work before the intervening federal assignment, not as the immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-james-w-stokes-b920",
+      "person_id": "12343f77-a18b-559d-864b-71cc57d115c4",
+      "claim_type": "identity",
+      "claim_text": "The indexed James W Stokes row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and the reviewed name alignment.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-w-stokes-b920",
+      "person_id": "12343f77-a18b-559d-864b-71cc57d115c4",
+      "affiliation_key": "james-w-stokes-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-18, James W Stokes was recorded in the historical actors and actresses category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 002, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 002; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical page 175; alphabetical listing for Actors and actresses",
+          "excerpt_override": "Actors and actresses"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-r-stokes-b920",
+      "person_id": "1d94cda6-a735-5a4a-9047-27a27013cc61",
+      "claim_type": "identity",
+      "claim_text": "The indexed James R Stokes row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and the reviewed name alignment.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 27; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-r-stokes-b920",
+      "person_id": "1d94cda6-a735-5a4a-9047-27a27013cc61",
+      "affiliation_key": "james-r-stokes-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-09-15, James R Stokes was recorded in the historical clerks, general office category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical page 171; category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-f-stolb-b920",
+      "person_id": "041c3b88-ce0b-5a7c-bbac-bfbc68000c0a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert F Stolb row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and the reviewed name alignment.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 30; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-f-stolb-b920",
+      "person_id": "041c3b88-ce0b-5a7c-bbac-bfbc68000c0a",
+      "affiliation_key": "robert-f-stolb-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-05, Robert F Stolb was recorded in the historical chemical products producing occupations, not elsewhere classified category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 653, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 653; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical page 176; category 6-53",
+          "excerpt_override": "Chemical products producing occupations, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "identity-samuel-j-stolin-b920",
+      "person_id": "3f95a78f-89c6-59d5-8120-f97cef7d50c2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Samuel J Stolin row is confirmed as the OSS master sergeant named in a direct official record and matched to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record. A separate OSS award record names M/Sgt Samuel J. Stolin.",
+      "identity_match_assessment": "Confirmed by exact distinctive name, a nonshared protected identifier and a separate direct OSS master-sergeant record.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 32; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "nara-oss-awards-stolin-b920",
+          "locator_override": "PDF physical page 183, internal page 8"
+        }
+      ],
+      "evidence_excerpt": "M/Sgt Samuel J. Stolin — Approved"
+    },
+    {
+      "key": "occupation-samuel-j-stolin-b920",
+      "person_id": "3f95a78f-89c6-59d5-8120-f97cef7d50c2",
+      "affiliation_key": "samuel-j-stolin-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-23, Samuel J Stolin was recorded in the historical stock clerks category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 138, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical pages 171 and 176; category 1-38",
+          "excerpt_override": "Stock clerks"
+        }
+      ]
+    },
+    {
+      "key": "identity-carl-stolle-b920",
+      "person_id": "fd99bf74-21d1-5158-87bf-5f1f007d2ac1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl Stolle row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and the reviewed name alignment.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 34; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-carl-stolle-b920",
+      "person_id": "fd99bf74-21d1-5158-87bf-5f1f007d2ac1",
+      "affiliation_key": "carl-stolle-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-12, Carl Stolle was recorded in the historical electricians category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 497, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 497; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical pages 174 and 176; category 4-97",
+          "excerpt_override": "Electricians"
+        }
+      ]
+    },
+    {
+      "key": "identity-norman-e-stoller-b920",
+      "person_id": "ef6b0129-32d4-5866-90f7-0758bc48a640",
+      "claim_type": "identity",
+      "claim_text": "The indexed Norman E Stoller row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and the reviewed name alignment.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 35; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-norman-e-stoller-b920",
+      "person_id": "ef6b0129-32d4-5866-90f7-0758bc48a640",
+      "affiliation_key": "norman-e-stoller-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-11, Norman E Stoller was recorded in the historical salespersons category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 175, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 175; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical page 171; category 1-75",
+          "excerpt_override": "Salespersons"
+        }
+      ]
+    },
+    {
+      "key": "identity-bruce-d-stone-b920",
+      "person_id": "5dc90dbe-8b7b-5fa5-8a11-96e0f50480b3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bruce D Stone row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and the reviewed name alignment.",
+      "temporal_assessment": "The records support identity and a dated Army-entry occupation category; they do not establish the OSS transfer sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 40; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-bruce-d-stone-b920",
+      "person_id": "5dc90dbe-8b7b-5fa5-8a11-96e0f50480b3",
+      "affiliation_key": "bruce-d-stone-occupation-b920",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-11, Bruce D Stone was recorded in the historical electrical machinery and accessories manufacturing occupations, not elsewhere classified category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 499, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 499; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b920",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "locator_override": "PDF physical pages 174 and 176; category 4-99",
+          "excerpt_override": "Electrical machinery and accessories manufacturing occupations, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "identity-frank-d-stone-row45-b920",
+      "person_id": "368971b6-e196-56dc-be2d-d22ae72978a6",
+      "claim_type": "identity",
+      "claim_text": "The second indexed Frank D Stone row is a high-confidence match to the reviewed official Army record and remains separate from the adjacent same-name row.",
+      "evidence_paraphrase": "A nonshared protected identifier selects an exact-name Army record; the adjacent Frank D Stone row carries a different protected identifier.",
+      "identity_match_assessment": "High confidence for this row only from exact name and a nonshared protected identifier; no merge with the adjacent row is permitted.",
+      "temporal_assessment": "The Army entry is dated 1943-01-06. Its occupation code 993 is undefined in the reviewed NARA list and is not interpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The damaged grade field and undefined occupation code are withheld. Full identifiers are not exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 rows 44-45; two separate Frank D Stone rows; protected identifiers withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "locator_override": "Accepted exact-name row-45 identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b920",
+          "support_type": "context_only",
+          "locator_override": "Reviewed occupation list; code 993 absent and not interpreted"
+        }
+      ]
+    },
+    {
+      "key": "conflict-james-k-stokes-b920",
+      "person_id": "33413cb8-c61e-56e2-81e7-5e2e8a613240",
+      "claim_type": "identity",
+      "claim_text": "James K Stokes's protected identifier points to an official Army record under the materially different middle initial E.",
+      "evidence_paraphrase": "The protected identifier agrees, but the Army row names James E Stokes; no grade, date or occupation is transferred.",
+      "identity_match_assessment": "Conflicting. A protected identifier cannot override a substantive middle-initial disagreement without the personnel file.",
+      "temporal_assessment": "No Army chronology or occupation is assigned while identity remains conflicting.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 749 before correcting an identifier or accepting the Army candidate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b920",
+          "support_type": "context_only",
+          "locator_override": "Rejected middle-initial-conflict candidate; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-stonborough-b920",
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas Stonborough is a high-confidence match to civilian OSS member Thomas H. W. Stonborough examined at Bastia in 1944.",
+      "evidence_excerpt": "Thomas H. W. Stonborough, civilian. Entered the OSS July 1943 in New York.",
+      "evidence_paraphrase": "A direct OSS board record supplies the distinctive full name, civilian status, entry month and wartime assignment.",
+      "identity_match_assessment": "High confidence from the distinctive exact first and surname plus direct OSS context; Box 749 remains needed to confirm the omitted middle names.",
+      "temporal_assessment": "The record dates OSS entry to July 1943 and explicitly describes the two preceding work stages.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index form remains primary display text; Thomas H. W. Stonborough is preserved as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b920",
+          "locator_override": "PDF page 450 row 39; Box 749"
+        },
+        {
+          "source_key": "hoover-oss-board-stonborough-b920",
+          "locator_override": "PDF physical page 7; first examination"
+        }
+      ]
+    },
+    {
+      "key": "immediate-thomas-stonborough-opa-b920",
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "affiliation_key": "thomas-stonborough-opa-b920",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Thomas H. W. Stonborough's immediate pre-OSS affiliation was the Cleveland-area Office of Price Administration, where he was Research Director.",
+      "evidence_excerpt": "Previous position was Research Director, Cleveland area, Office of Price Administration",
+      "evidence_paraphrase": "The OSS board explicitly identifies this as his previous position when recording his July 1943 OSS entry.",
+      "identity_match_assessment": "High confidence from the distinctive name and direct official OSS personnel examination.",
+      "temporal_assessment": "Explicit immediate predecessor to OSS entry in July 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The OPA is modeled as a federal government assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-stonborough-b920",
+          "locator_override": "PDF physical page 7; first examination"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-thomas-stonborough-market-research-b920",
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "affiliation_key": "thomas-stonborough-market-research-b920",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Before his OPA government assignment, Thomas H. W. Stonborough conducted his own market research business.",
+      "evidence_excerpt": "prior to that time, he conducted his own market research business",
+      "evidence_paraphrase": "The official OSS board sequences self-employed market research before the Cleveland-area OPA role and July 1943 OSS entry.",
+      "identity_match_assessment": "High confidence from the distinctive name and direct official OSS personnel examination.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian work before the intervening OPA government assignment; exact dates are unstated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The unnamed business is not given an invented firm name and is not mislabeled as the immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-stonborough-b920",
+          "locator_override": "PDF physical page 7; first examination"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bf4437e8-a3fb-5387-b289-c9e27e117b4e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Isabel Stokes, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name results concerned unbridged namesakes, including a modern organizer and an Australian serviceman's spouse; no OSS or Box 749 bridge was found.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3e179fd6-e6a9-5bf2-b1ca-5997e5df0300",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert Stokes, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Two Library of Congress candidates lacked a middle name, protected-identifier link, OSS context or Box 749 bridge; a common-name match alone is insufficient.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b98dfab5-e0d0-51d7-b9ce-3696abcc8827",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alice O Stolb, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation, obituary, institutional, newspaper and archival searches produced no person-specific result with an OSS or Box 749 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f47a9347-c428-512a-8421-04b72a6e8fc2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John A Stolba, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Searches produced older and unrelated Stolba namesakes but no matching middle initial, OSS context, employer or Box 749 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1e2adc0f-26d5-5033-992f-828b60315c18",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Carrol J Stoll, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and variant searches produced no reliable identity or employment evidence for the indexed spelling Carrol J Stoll.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b97f6b08-7810-5cd3-b4e3-b6c0138ac4c6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edwin R Stolp, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The official Army bulk crosswalk found no exact protected-identifier record; because that source is damaged and incomplete, the nonhit is not negative service evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "67c66b5e-b4f4-59cd-bab9-62be1163b616",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George W Stolte, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The official Army bulk crosswalk found no exact protected-identifier record, and an early city-directory namesake could not be bridged to the index row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3988ba42-de0b-58ed-9d67-87122d344b2d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William J Stolte, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The official Army bulk crosswalk found no exact protected-identifier record; later banking and obituary namesakes lacked a wartime identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f3851d6e-3d61-5083-9420-e249e5569012",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charlotte B Stone, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name results were postwar or unbridged namesakes and supplied no OSS, protected-identifier or Box 749 connection.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "92e75949-e907-5931-b0c7-1dfe8c5141cc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward A Stone, Box 749 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Five Library of Congress candidates concerned Edward C. Stone or were unsupported OCR results; none established Edward A. Stone's identity or employment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c1173b12-5447-565c-b347-429b4d680b14",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Everett L Stone, Box 750 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Three Library of Congress candidates were too early, wrong-initial or OCR false positives; no source established the indexed Everett L Stone.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 750 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "18c19532-d243-5e0a-982e-6a79be33cce2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Franklin M Stone, Box 750 and archive location, but staged NARA/index, CIA Reading Room, exact-name OSS, occupation, employer, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The short printed identifier lies outside the Army adapter's defensible scope, and exact-name results were later or unbridged namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 750 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "12343f77-a18b-559d-864b-71cc57d115c4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1d94cda6-a735-5a4a-9047-27a27013cc61",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "041c3b88-ce0b-5a7c-bbac-bfbc68000c0a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f95a78f-89c6-59d5-8120-f97cef7d50c2",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. A separate direct OSS award record names M/Sgt Samuel J. Stolin.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fd99bf74-21d1-5158-87bf-5f1f007d2ac1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ef6b0129-32d4-5866-90f7-0758bc48a640",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5dc90dbe-8b7b-5fa5-8a11-96e0f50480b3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to the official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 749 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33413cb8-c61e-56e2-81e7-5e2e8a613240",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier points to an official Army record named James E Stokes, not indexed James K Stokes. The middle-initial conflict prevents identity, grade, date or occupation transfer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 749 before correcting the identifier or accepting the Army candidate; no reliable pre-OSS employer has yet been identified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A direct official OSS board examination names civilian Thomas H. W. Stonborough, dates his OSS entry to July 1943 and supplies the two preceding work stages. The distinctive first and surname match the index; Box 749 should confirm the omitted middle names.",
+      "name_variants": [
+        "Thomas H. W. Stonborough"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 749 to confirm the full name and seek the market-research business name and dates; the immediate OPA assignment is already explicit.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "ae7a9be2-be83-544b-853c-7e8b43b6272e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "This is the first of two adjacent, separately printed Frank D Stone rows. It carries a different protected identifier from the accepted Army-linked second row and remains a separate unresolved person.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "same-name:frank-d-stone-page450",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 750 Frank D Stone files together before merging records or assigning external evidence. No reliable pre-OSS employer has yet been identified for this row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "368971b6-e196-56dc-be2d-d22ae72978a6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect this second Frank D Stone row to the reviewed Army record. The first same-name row carries a different identifier and is not merged. The damaged grade and undefined occupation code are withheld.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "same-name:frank-d-stone-page450",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 750 Frank D Stone files together to establish distinct full identities and this row's immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page450-row24-isabel-stokes-b920",
+      "person_id": "bf4437e8-a3fb-5387-b289-c9e27e117b4e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Isabel Stokes; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Exact-name results concerned unbridged namesakes, including a modern organizer and an Australian serviceman's spouse; no OSS or Box 749 bridge was found.",
+      "research_notes": "Exact-name results concerned unbridged namesakes, including a modern organizer and an Australian serviceman's spouse; no OSS or Box 749 bridge was found. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row25-james-w-stokes-b920",
+      "person_id": "12343f77-a18b-559d-864b-71cc57d115c4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James W Stokes; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical occupation category, not an employer or immediate OSS predecessor. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row26-james-k-stokes-b920",
+      "person_id": "33413cb8-c61e-56e2-81e7-5e2e8a613240",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James K Stokes; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "The protected-identifier Army candidate was rejected as an identity resolution because its middle initial E conflicts with indexed K. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row27-james-r-stokes-b920",
+      "person_id": "1d94cda6-a735-5a4a-9047-27a27013cc61",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James R Stokes; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical occupation category, not an employer or immediate OSS predecessor. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row28-robert-stokes-b920",
+      "person_id": "3e179fd6-e6a9-5bf2-b1ca-5997e5df0300",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Stokes; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Two Library of Congress candidates lacked a middle name, protected-identifier link, OSS context or Box 749 bridge; a common-name match alone is insufficient.",
+      "research_notes": "Two Library of Congress candidates lacked a middle name, protected-identifier link, OSS context or Box 749 bridge; a common-name match alone is insufficient. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row29-alice-o-stolb-b920",
+      "person_id": "b98dfab5-e0d0-51d7-b9ce-3696abcc8827",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alice O Stolb; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Exact-name, occupation, obituary, institutional, newspaper and archival searches produced no person-specific result with an OSS or Box 749 bridge.",
+      "research_notes": "Exact-name, occupation, obituary, institutional, newspaper and archival searches produced no person-specific result with an OSS or Box 749 bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row30-robert-f-stolb-b920",
+      "person_id": "041c3b88-ce0b-5a7c-bbac-bfbc68000c0a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert F Stolb; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical occupation category, not an employer or immediate OSS predecessor. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row31-john-a-stolba-b920",
+      "person_id": "f47a9347-c428-512a-8421-04b72a6e8fc2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John A Stolba; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Searches produced older and unrelated Stolba namesakes but no matching middle initial, OSS context, employer or Box 749 bridge.",
+      "research_notes": "Searches produced older and unrelated Stolba namesakes but no matching middle initial, OSS context, employer or Box 749 bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row32-samuel-j-stolin-b920",
+      "person_id": "3f95a78f-89c6-59d5-8120-f97cef7d50c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Samuel J Stolin; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "The protected-identifier Army bridge and a separate OSS awards-board master-sergeant entry confirm identity; the Army occupation remains qualified and names no employer. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row33-carrol-j-stoll-b920",
+      "person_id": "1e2adc0f-26d5-5033-992f-828b60315c18",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carrol J Stoll; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Exact-name and variant searches produced no reliable identity or employment evidence for the indexed spelling Carrol J Stoll.",
+      "research_notes": "Exact-name and variant searches produced no reliable identity or employment evidence for the indexed spelling Carrol J Stoll. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row34-carl-stolle-b920",
+      "person_id": "fd99bf74-21d1-5158-87bf-5f1f007d2ac1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl Stolle; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical occupation category, not an employer or immediate OSS predecessor. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row35-norman-e-stoller-b920",
+      "person_id": "ef6b0129-32d4-5866-90f7-0758bc48a640",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norman E Stoller; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical occupation category, not an employer or immediate OSS predecessor. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row36-edwin-r-stolp-b920",
+      "person_id": "b97f6b08-7810-5cd3-b4e3-b6c0138ac4c6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edwin R Stolp; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The official Army bulk crosswalk found no exact protected-identifier record; because that source is damaged and incomplete, the nonhit is not negative service evidence.",
+      "research_notes": "The official Army bulk crosswalk found no exact protected-identifier record; because that source is damaged and incomplete, the nonhit is not negative service evidence. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row37-george-w-stolte-b920",
+      "person_id": "67c66b5e-b4f4-59cd-bab9-62be1163b616",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George W Stolte; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The official Army bulk crosswalk found no exact protected-identifier record, and an early city-directory namesake could not be bridged to the index row.",
+      "research_notes": "The official Army bulk crosswalk found no exact protected-identifier record, and an early city-directory namesake could not be bridged to the index row. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row38-william-j-stolte-b920",
+      "person_id": "3988ba42-de0b-58ed-9d67-87122d344b2d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Stolte; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The official Army bulk crosswalk found no exact protected-identifier record; later banking and obituary namesakes lacked a wartime identity bridge.",
+      "research_notes": "The official Army bulk crosswalk found no exact protected-identifier record; later banking and obituary namesakes lacked a wartime identity bridge. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row39-thomas-stonborough-b920",
+      "person_id": "acf22eae-f5a0-50fd-b211-edbcccb657f7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas Stonborough; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "A direct OSS board examination explicitly documented the immediate Cleveland-area OPA assignment and earlier self-employed market research. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row40-bruce-d-stone-b920",
+      "person_id": "5dc90dbe-8b7b-5fa5-8a11-96e0f50480b3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bruce D Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge established identity and a dated historical occupation category, not an employer or immediate OSS predecessor. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row41-charlotte-b-stone-b920",
+      "person_id": "f3851d6e-3d61-5083-9420-e249e5569012",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charlotte B Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Exact-name results were postwar or unbridged namesakes and supplied no OSS, protected-identifier or Box 749 connection.",
+      "research_notes": "Exact-name results were postwar or unbridged namesakes and supplied no OSS, protected-identifier or Box 749 connection. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row42-edward-a-stone-b920",
+      "person_id": "92e75949-e907-5931-b0c7-1dfe8c5141cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward A Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 749; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Five Library of Congress candidates concerned Edward C. Stone or were unsupported OCR results; none established Edward A. Stone's identity or employment.",
+      "research_notes": "Five Library of Congress candidates concerned Edward C. Stone or were unsupported OCR results; none established Edward A. Stone's identity or employment. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 749 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row43-everett-l-stone-b920",
+      "person_id": "c1173b12-5447-565c-b347-429b4d680b14",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Everett L Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 750; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Three Library of Congress candidates were too early, wrong-initial or OCR false positives; no source established the indexed Everett L Stone.",
+      "research_notes": "Three Library of Congress candidates were too early, wrong-initial or OCR false positives; no source established the indexed Everett L Stone. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 750 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row44-frank-d-stone-b920",
+      "person_id": "ae7a9be2-be83-544b-853c-7e8b43b6272e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank D Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 750; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The first Frank D Stone row remains separate because its protected identifier differs from the adjacent Army-linked row; name-only sources cannot be assigned.",
+      "research_notes": "The first Frank D Stone row remains separate because its protected identifier differs from the adjacent Army-linked row; name-only sources cannot be assigned. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 750 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row45-frank-d-stone-b920",
+      "person_id": "368971b6-e196-56dc-be2d-d22ae72978a6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank D Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 750; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, wrong initials, OCR/token false positives, postwar-only leads and inaccessible item pages were not assigned.",
+      "research_notes": "The second Frank D Stone row has an accepted exact-name Army identity bridge, but its damaged grade and undefined occupation code were not interpreted. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 750 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    },
+    {
+      "key": "page450-row46-franklin-m-stone-b920",
+      "person_id": "18c19532-d243-5e0a-982e-6a79be33cce2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Franklin M Stone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 750; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_920",
+      "started_at": "2026-10-26T06:45:00Z",
+      "completed_at": "2026-10-26T07:18:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The short printed identifier lies outside the Army adapter's defensible scope, and exact-name results were later or unbridged namesakes.",
+      "research_notes": "The short printed identifier lies outside the Army adapter's defensible scope, and exact-name results were later or unbridged namesakes. The CIA adapter failed closed on its robots check; separate site-restricted public Reading Room searches covered all 23 names. The current Library of Congress API pass completed for all 23 people, producing 29 candidate pages across eight people; every candidate was individually inspected and rejected. No search snippet was used as final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review the indexed Box 750 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b920-v1"
+    }
+  ]
+}
