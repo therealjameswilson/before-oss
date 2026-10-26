@@ -42,8 +42,13 @@ desktop, phone, tablet and accessibility release matrix passed, as did the
 25,140-page internal-link check, checked-in public-manifest guard,
 protected-identifier audit and zero-vulnerability production dependency audit.
 Two consecutive builds reproduced identical public and output trees. Five
-dependency findings remain confined to the development toolchain. Publication
-verification will be appended after the GitHub Actions release completes.
+dependency findings remain confined to the development toolchain. Batch 921 is
+public from immutable content commit
+`37423339c1f8b05430d3f1fe6c9e72777ec1ad64`. GitHub Actions Test run
+`40296419320` and Pages deployment run `40296419131` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (122,723,990 bytes), eight core routes, 39 source-register pages
+and all 23 directly affected profiles.
 
 Batch 920 completed PDF page 450, rows 24-46, from **Isabel Stokes** through
 **Franklin M Stone**, preserving all 23 printed rows and linking them to 23

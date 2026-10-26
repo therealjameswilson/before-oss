@@ -70,5 +70,17 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-Publication identifiers and unauthenticated deployment-verification results
-will be added after the GitHub Actions release completes.
+Batch 921 is public from immutable content commit
+`37423339c1f8b05430d3f1fe6c9e72777ec1ad64`. GitHub Actions Test run
+[`40296419320`](https://github.com/therealjameswilson/before-oss/actions/runs/40296419320)
+and Pages deployment run
+[`40296419131`](https://github.com/therealjameswilson/before-oss/actions/runs/40296419131)
+both completed successfully. The unauthenticated deployed-release verifier
+matched all 67 public assets (122,723,990 bytes) to manifest SHA-256
+`b254bf7c445336141199dcdeb9fe00e64531afce84d463d89ea3ca59e9a9e211`,
+verified eight core routes, 39 source-register pages and all 23 directly
+affected profiles at <https://therealjameswilson.github.io/before-oss/>.
+
+The workflows emitted non-blocking annotations about GitHub's Node.js 20 action
+runtime transition and the pending `ubuntu-latest` runner migration. Neither
+annotation altered the successful build, test, redaction audit or deployment.

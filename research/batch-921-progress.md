@@ -119,6 +119,16 @@ Archive location: 230/86/41/05
   confined to the development toolchain and do not become runtime dependencies
   of the static site.
 
+## Publication verification
+
+- Content commit `37423339c1f8b05430d3f1fe6c9e72777ec1ad64` passed GitHub
+  Actions Test run `40296419320` and Pages deployment run `40296419131`.
+- The unauthenticated deployed-release verifier matched all 67 public assets
+  (122,723,990 bytes), eight core routes, 39 source-register pages and all 23
+  Batch 921 profiles at <https://therealjameswilson.github.io/before-oss/>.
+- The live public manifest SHA-256 is
+  `b254bf7c445336141199dcdeb9fe00e64531afce84d463d89ea3ca59e9a9e211`.
+
 ## Resume point
 
 Continue with PDF page 451, row 24, **Robert G. Storey**, Box 751, archive
