@@ -1,0 +1,1637 @@
+{
+  "bundle_version": "batch-927-v1",
+  "reviewer": "Before OSS Batch 927 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b927",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 754-755",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 454, rows 1-23; checked against layout-preserving text and the rendered page image",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. Two Andre Studler rows with different identifiers are not merged."
+    },
+    {
+      "key": "army-bulk-b927",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; ten accepted Batch 927 protected-identifier candidates",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record or full protected identifier is retained in public assets. Codes 093 and 993 remain uninterpreted; other coded occupations name neither employer nor workplace."
+    },
+    {
+      "key": "army-tech-b927",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b927",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-176 and 304; Batch 927 categories visually checked",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer nor workplace. Codes 093 and 993 are absent from the reviewed list and remain uninterpreted."
+    },
+    {
+      "key": "broadcasting-milburn-stuckwish-b927",
+      "stable_url": "https://archive.org/details/broadcasting22unse/page/n1377/mode/1up",
+      "archival_identifier": "Internet Archive item broadcasting22unse; Library of Congress call number TK 6540 .B85; LCCN 33014221",
+      "title": "Broadcasting, June 1, 1942",
+      "author_creator": "Broadcasting Publications Inc.",
+      "repository_publisher": "Broadcasting Publications Inc.; digitized by the Library of Congress and Media History Digital Library",
+      "publication_record_date": "1942-06-01",
+      "locator": "Printed page 44, middle-left column; Internet Archive leaf 1377",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting [Jan-June 1942], volume 22",
+      "rights_notes": "Contemporary trade report visually checked against the page scan. The excerpt is limited to the words needed to support the claim."
+    },
+    {
+      "key": "lorris-andre-studler-b927",
+      "stable_url": "https://www.museelorris.fr/resistants/andre-joseph-lucien-marie-studler",
+      "title": "André Joseph Lucien Marie STUDLER",
+      "author_creator": "Musée départemental de la Résistance et de la Déportation de Lorris",
+      "repository_publisher": "Musée départemental de la Résistance et de la Déportation de Lorris",
+      "publication_record_date": "page accessed 2026",
+      "locator": "Biographical chronology and prewar-employment paragraph",
+      "access_date": "2026-10-26",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The biography names 1939 work at an unnamed U.S. distillery and later OSS/SOE service, but cannot be assigned to either same-name index row."
+    },
+    {
+      "key": "alliance-francaise-andre-studler-b927",
+      "stable_url": "https://afheritage.org/lilian-vera-rolfe-au-dela-du-courage",
+      "title": "Lilian Vera Rolfe: Au-delà du courage",
+      "author_creator": "Alliance Française Heritage",
+      "repository_publisher": "Alliance Française Heritage",
+      "publication_record_date": "page accessed 2026",
+      "locator": "Historian-network discussion identifying André Studler",
+      "access_date": "2026-10-26",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Corroborates the biographical candidate's French birth, OSS affiliation and SOE Historian-network service; it does not distinguish the two index rows."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "wsoy-b927",
+      "canonical_name": "WSOY",
+      "historical_name": "WSOY",
+      "aliases": [
+        "WSOY Radio"
+      ],
+      "organization_type": "radio station",
+      "sector": "journalism_and_media",
+      "city": "Decatur",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "Historical call sign preserved. No modern ownership or successor relationship is inferred."
+    },
+    {
+      "key": "us-army-signal-corps-b927",
+      "organization_id": "37fe0e48-9745-5a0a-8e04-6be9bc7c5c91",
+      "canonical_name": "United States Army Signal Corps",
+      "historical_name": "Signal Corps",
+      "aliases": [
+        "U.S. Army Signal Corps"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. The contemporary source says only that Stuckwish joined the Signal Corps."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "frances-j-stuckart-occupation-b927",
+      "person_id": "7fffeae0-b21a-59fd-8459-07c091f1a6a1",
+      "occupation": "Mechanics and repairmen, motor vehicle",
+      "relationship_type": "employment",
+      "end_date": "1942-11-28",
+      "date_precision": "Historical civilian-occupation code 781 was recorded at Army entry on 1942-11-28; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "milburn-stuckwish-occupation-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "occupation": "Mechanics and repairmen, n.e.c.",
+      "relationship_type": "employment",
+      "end_date": "1943-03-08",
+      "date_precision": "Historical civilian-occupation code 983 was recorded at Army entry on 1943-03-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "herbert-l-studer-occupation-b927",
+      "person_id": "ec3bf3ea-b87e-5082-a555-dbe8b0193dbe",
+      "occupation": "Clerks in trade, n.e.c.",
+      "relationship_type": "employment",
+      "end_date": "1942-11-19",
+      "date_precision": "Historical civilian-occupation code 112 was recorded at Army entry on 1942-11-19; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "raymond-e-stuehrmann-occupation-b927",
+      "person_id": "9a99693e-5e8e-5169-8d79-dcc67092fcd1",
+      "occupation": "Stock clerks",
+      "relationship_type": "employment",
+      "end_date": "1943-05-12",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1943-05-12; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "herbert-q-stump-occupation-b927",
+      "person_id": "c60f1480-7bf2-51b5-97cf-22490aa910da",
+      "occupation": "Miners and mining-machine operators",
+      "relationship_type": "employment",
+      "end_date": "1942-07-31",
+      "date_precision": "Historical civilian-occupation code 721 was recorded at Army entry on 1942-07-31; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "curtis-e-sturgeon-occupation-b927",
+      "person_id": "84a73577-2e7a-51de-8c84-2b57d0740b94",
+      "occupation": "Clerks, general office",
+      "relationship_type": "employment",
+      "end_date": "1942-09-12",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1942-09-12; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "orvil-d-sturgeon-occupation-b927",
+      "person_id": "06cae7dc-f03d-503e-a737-7540ee80be5c",
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "employment",
+      "end_date": "1942-04-14",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1942-04-14; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "harry-d-sturges-occupation-b927",
+      "person_id": "a1b14ddc-bc9d-5967-b71e-abab7126851c",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1943-03-19",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-03-19; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "milburn-stuckwish-wsoy-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "organization_key": "wsoy-b927",
+      "organization_name_as_found": "WSOY",
+      "role_title": "chief engineer",
+      "occupation": "radio engineer",
+      "relationship_type": "employment",
+      "end_date": "1942-06",
+      "date_precision": "A June 1, 1942 contemporary report says WSOY chief engineer Milburn H. Stuckwish had joined the Signal Corps; exact separation and enlistment dates are not supplied.",
+      "city": "Decatur",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "This is the named civilian employer immediately before Signal Corps service, not the immediate OSS predecessor because military service intervened."
+    },
+    {
+      "key": "milburn-stuckwish-signal-corps-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "organization_key": "us-army-signal-corps-b927",
+      "organization_name_as_found": "Signal Corps",
+      "role_title": "Signal Corps member assigned to engineering training",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-06",
+      "end_date": "1943-03-08",
+      "date_precision": "A June 1, 1942 report says he had joined and would report to the University of Illinois for six months of engineering work; the Army row records entry on 1943-03-08, so the administrative chronology requires file review.",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Best-supported wartime predecessor to OSS, but the reviewed sources do not state the OSS transfer date and the Army-entry date postdates the trade report."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-albert-e-stucchio-row4-b927",
+      "person_id": "11275515-e068-5f2d-a6aa-2948b20653a0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert E Stucchio row is a high-confidence match to an official Army record dated 1942-12-14.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1942-12-14; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row. Occupation code 093 remains uninterpreted because it is absent from the reviewed official code list.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 4; Box 754"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-12-14; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-frances-j-stuckart-row5-b927",
+      "person_id": "7fffeae0-b21a-59fd-8459-07c091f1a6a1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frances J Stuckart row is a high-confidence match to an official Army record dated 1942-11-28.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier; the Frances/Francis first-name discrepancy is preserved as a variant and requires personnel-file review.",
+      "temporal_assessment": "The record documents Army entry on 1942-11-28; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 5; Box 754"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-11-28; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-milburn-stuckwish-row6-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Milburn Stuckwish row is a high-confidence match to an official Army record dated 1943-03-08.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1943-03-08; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 6; Box 754"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-03-08; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-l-studer-row7-b927",
+      "person_id": "ec3bf3ea-b87e-5082-a555-dbe8b0193dbe",
+      "claim_type": "identity",
+      "claim_text": "The indexed Herbert L Studer row is a high-confidence match to an official Army record dated 1942-11-19.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1942-11-19; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 7; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-11-19; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-andre-studler-row8-b927",
+      "person_id": "efd15875-a9d2-5057-ae7f-86b219a950cb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Andre Studler row is a high-confidence match to an official Army record dated 1942-12-15.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1942-12-15; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row. Occupation code 993 remains uninterpreted because it is absent from the reviewed official code list.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 8; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-12-15; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-e-stuehrmann-row10-b927",
+      "person_id": "9a99693e-5e8e-5169-8d79-dcc67092fcd1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Raymond E Stuehrmann row is a high-confidence match to an official Army record dated 1943-05-12.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1943-05-12; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 10; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-05-12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-q-stump-row13-b927",
+      "person_id": "c60f1480-7bf2-51b5-97cf-22490aa910da",
+      "claim_type": "identity",
+      "claim_text": "The indexed Herbert Q Stump row is a high-confidence match to an official Army record dated 1942-07-31.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1942-07-31; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 13; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-07-31; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-curtis-e-sturgeon-row17-b927",
+      "person_id": "84a73577-2e7a-51de-8c84-2b57d0740b94",
+      "claim_type": "identity",
+      "claim_text": "The indexed Curtis E Sturgeon row is a high-confidence match to an official Army record dated 1942-09-12.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1942-09-12; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 17; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-09-12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-orvil-d-sturgeon-row18-b927",
+      "person_id": "06cae7dc-f03d-503e-a737-7540ee80be5c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Orvil D Sturgeon row is a high-confidence match to an official Army record dated 1942-04-14.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1942-04-14; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 18; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-04-14; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-harry-d-sturges-row19-b927",
+      "person_id": "a1b14ddc-bc9d-5967-b71e-abab7126851c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry D Sturges row is a high-confidence match to an official Army record dated 1943-03-19.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact or compatible full name and a nonshared protected identifier.",
+      "temporal_assessment": "The record documents Army entry on 1943-03-19; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer or OSS assignment is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 19; Box 755"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-03-19; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frances-j-stuckart-b927",
+      "person_id": "7fffeae0-b21a-59fd-8459-07c091f1a6a1",
+      "affiliation_key": "frances-j-stuckart-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-28, Frances J Stuckart was recorded in the historical occupation category Mechanics and repairmen, motor vehicle; no employer is identified.",
+      "evidence_excerpt": "Mechanics and repairmen, motor vehicle",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 781, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 781; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 175; historical category 7-81",
+          "excerpt_override": "Mechanics and repairmen, motor vehicle"
+        }
+      ]
+    },
+    {
+      "key": "occupation-milburn-stuckwish-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "affiliation_key": "milburn-stuckwish-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-08, Milburn Stuckwish was recorded in the historical occupation category Mechanics and repairmen, n.e.c.; no employer is identified.",
+      "evidence_excerpt": "Mechanics and repairmen, n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 983, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 983; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 175; historical category 9-83",
+          "excerpt_override": "Mechanics and repairmen, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "occupation-herbert-l-studer-b927",
+      "person_id": "ec3bf3ea-b87e-5082-a555-dbe8b0193dbe",
+      "affiliation_key": "herbert-l-studer-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-19, Herbert L Studer was recorded in the historical occupation category Clerks in trade, n.e.c.; no employer is identified.",
+      "evidence_excerpt": "Clerks in trade, n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 112, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 112; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 171; historical category 1-12",
+          "excerpt_override": "Clerks in trade, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "occupation-raymond-e-stuehrmann-b927",
+      "person_id": "9a99693e-5e8e-5169-8d79-dcc67092fcd1",
+      "affiliation_key": "raymond-e-stuehrmann-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-12, Raymond E Stuehrmann was recorded in the historical occupation category Stock clerks; no employer is identified.",
+      "evidence_excerpt": "Stock clerks",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 138, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical pages 171 and 304; historical category 1-38",
+          "excerpt_override": "Stock clerks"
+        }
+      ]
+    },
+    {
+      "key": "occupation-herbert-q-stump-b927",
+      "person_id": "c60f1480-7bf2-51b5-97cf-22490aa910da",
+      "affiliation_key": "herbert-q-stump-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-31, Herbert Q Stump was recorded in the historical occupation category Miners and mining-machine operators; no employer is identified.",
+      "evidence_excerpt": "Miners and mining-machine operators",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 721, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 721; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 174; historical category 7-21",
+          "excerpt_override": "Miners and mining-machine operators"
+        }
+      ]
+    },
+    {
+      "key": "occupation-curtis-e-sturgeon-b927",
+      "person_id": "84a73577-2e7a-51de-8c84-2b57d0740b94",
+      "affiliation_key": "curtis-e-sturgeon-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-12, Curtis E Sturgeon was recorded in the historical occupation category Clerks, general office; no employer is identified.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 171; historical category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "occupation-orvil-d-sturgeon-b927",
+      "person_id": "06cae7dc-f03d-503e-a737-7540ee80be5c",
+      "affiliation_key": "orvil-d-sturgeon-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-14, Orvil D Sturgeon was recorded in the historical occupation category Farm hands, general farms; no employer is identified.",
+      "evidence_excerpt": "Farm hands, general farms",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 316, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 316; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 172; historical category 3-16",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ]
+    },
+    {
+      "key": "occupation-harry-d-sturges-b927",
+      "person_id": "a1b14ddc-bc9d-5967-b71e-abab7126851c",
+      "affiliation_key": "harry-d-sturges-occupation-b927",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-19, Harry D Sturges was recorded in the historical occupation group Students; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b927",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b927",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b927",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-milburn-stuckwish-wsoy-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "affiliation_key": "milburn-stuckwish-wsoy-b927",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Milburn H. Stuckwish was chief engineer of WSOY in Decatur, Illinois, immediately before joining the Signal Corps in 1942, making WSOY his last documented civilian employer before military service.",
+      "evidence_excerpt": "chief engineer of WSOY, Decatur, Ill., has joined the Signal Corps",
+      "evidence_paraphrase": "A contemporary radio trade journal names Stuckwish, his WSOY role and the transition into Signal Corps service in one sentence.",
+      "identity_match_assessment": "High confidence from the rare full name with middle initial, the protected-identifier Army bridge and the compatible mechanics-and-repair occupation category.",
+      "temporal_assessment": "Explicit immediate transition from WSOY to the Signal Corps in a June 1, 1942 report; the precise administrative dates still require the personnel file.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "WSOY is a named employer. University of Illinois is described only as planned Signal Corps engineering training and is not classified as an employer.",
+      "sources": [
+        {
+          "source_key": "broadcasting-milburn-stuckwish-b927",
+          "locator_override": "Printed page 44, middle-left column; Internet Archive leaf 1377"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "support_type": "context_only",
+          "locator_override": "Accepted reviewed identity record; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "immediate-milburn-stuckwish-signal-corps-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "affiliation_key": "milburn-stuckwish-signal-corps-b927",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The best-supported immediate pre-OSS pathway for Milburn H. Stuckwish is Signal Corps service after leaving WSOY; the OSS transfer date has not been located.",
+      "evidence_excerpt": "has joined the Signal Corps",
+      "evidence_paraphrase": "The June 1942 report places Signal Corps service immediately after WSOY employment and describes planned engineering training.",
+      "identity_match_assessment": "High-confidence person match; the protected identifier remains private.",
+      "temporal_assessment": "Probable immediate to OSS rather than explicit: the military transition is explicit, but no reviewed source dates the later OSS transfer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Military assignment, not civilian employment. The personnel file remains necessary to resolve the 1942 report and 1943 Army-entry date.",
+      "sources": [
+        {
+          "source_key": "broadcasting-milburn-stuckwish-b927",
+          "locator_override": "Printed page 44, middle-left column; Internet Archive leaf 1377"
+        },
+        {
+          "source_key": "army-bulk-b927",
+          "support_type": "context_only",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-03-08; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-andre-joseph-studler-candidate-row8-b927",
+      "person_id": "efd15875-a9d2-5057-ae7f-86b219a950cb",
+      "claim_type": "identity",
+      "claim_text": "André Joseph Lucien Marie Studler, a French-American OSS/SOE officer who worked in an unnamed U.S. distillery in 1939, is an unassigned candidate for this index row.",
+      "evidence_excerpt": "travaille dans une distillerie aux Etats-Unis",
+      "evidence_paraphrase": "The museum biography gives birth and death dates, alias Sylvain, 1939 distillery work, OSS service and detachment to the SOE Historian network.",
+      "identity_match_assessment": "Low for this row: two exact-name index rows carry different identifiers, and the biography contains no identifier that selects either file.",
+      "temporal_assessment": "The 1939 distillery occupation is explicitly prewar, but it cannot be assigned to either indexed entity and the employer is unnamed.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private candidate attached to both rows. The entities remain separate; neither receives a published distillery affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 8; Box 755; full identifier private"
+        },
+        {
+          "source_key": "lorris-andre-studler-b927",
+          "locator_override": "Biographical chronology and prewar-employment paragraph"
+        },
+        {
+          "source_key": "alliance-francaise-andre-studler-b927",
+          "support_type": "context_only",
+          "locator_override": "Historian-network discussion identifying André Studler"
+        }
+      ]
+    },
+    {
+      "key": "identity-andre-joseph-studler-candidate-row9-b927",
+      "person_id": "e0d20032-a8a6-5969-ac0d-7b8b4b0f8825",
+      "claim_type": "identity",
+      "claim_text": "André Joseph Lucien Marie Studler, a French-American OSS/SOE officer who worked in an unnamed U.S. distillery in 1939, is an unassigned candidate for this index row.",
+      "evidence_excerpt": "travaille dans une distillerie aux Etats-Unis",
+      "evidence_paraphrase": "The museum biography gives birth and death dates, alias Sylvain, 1939 distillery work, OSS service and detachment to the SOE Historian network.",
+      "identity_match_assessment": "Low for this row: two exact-name index rows carry different identifiers, and the biography contains no identifier that selects either file.",
+      "temporal_assessment": "The 1939 distillery occupation is explicitly prewar, but it cannot be assigned to either indexed entity and the employer is unnamed.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private candidate attached to both rows. The entities remain separate; neither receives a published distillery affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b927",
+          "locator_override": "PDF page 454 row 9; Box 755; full identifier private"
+        },
+        {
+          "source_key": "lorris-andre-studler-b927",
+          "locator_override": "Biographical chronology and prewar-employment paragraph"
+        },
+        {
+          "source_key": "alliance-francaise-andre-studler-b927",
+          "support_type": "context_only",
+          "locator_override": "Historian-network discussion identifying André Studler"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e5e776b8-838a-5134-9260-ab3689b45911",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard W Stubbs, Box 754 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Common-name searches produced no two-identifier bridge to the Box 754 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 754 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7cfbdb61-a69c-52d0-a5e6-0e231dcd7b94",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Henri Stuber, Box 754 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches found no reliable OSS identity bridge or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 754 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f74af8e7-fcfa-59f7-ac55-15f09a6dc691",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles H Stubing, Box 754 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and middle-initial searches found no person-specific source tied to OSS or Box 754.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 754 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9b759a46-6f5c-55e3-a43c-7cb5defe636d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Chester A Stull, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Common-name and middle-initial searches found no reliable identity bridge or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0187e76b-697c-50f6-b339-dd21113fc090",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Thomas L Stuller, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. A veteran-register namesake lacks a protected-identifier, Box 755 or OSS bridge and was not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9850650d-d563-5820-96d2-5ef1531fc79d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies St. Claire D Stumper, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and punctuation-variant searches found no corroborating identifier or reliable affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "22ee62e0-b002-58a3-9457-a32070fdb2ce",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies * Stur, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. The index explicitly notes that no first name is present; an incomplete surname cannot support safe person matching.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4526cad1-9e66-5fdb-b2e2-be181091b4ad",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Melvin Sturcz, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. A Sturcz-to-Sturz family-name lead and later insurance career lack an OSS, Box 755 or protected-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5bac785c-c25d-5df9-8727-52f18314b1a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harry W Sturges, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Common-name searches produced no two-identifier bridge to the Box 755 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5c56dbfd-1ee8-5e72-8db0-7993c3d29b3b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harriet M Sturgis, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and middle-initial searches found no reliable OSS identity bridge or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a0233aea-bec1-5f0c-8cc2-17b83e6be0f8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Norman R Sturgis, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Common-name and middle-initial searches found no person-specific source tied to OSS or Box 755.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "daa577d8-28fa-5ae1-a29a-e56c693b3451",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Anton M Sturrett, Box 755 and archive location, but staged official, CIA, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. The protected index value produced no matching Army candidate, and public searches found no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "11275515-e068-5f2d-a6aa-2948b20653a0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 754 for the immediate pre-OSS affiliation and named employer or institution. Historical occupation code 093 remains uninterpreted.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7fffeae0-b21a-59fd-8459-07c091f1a6a1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the indexed Frances J Stuckart row to an official Army record spelling the first name Francis. The discrepancy remains visible.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 754 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Francis J Stuckart"
+      ]
+    },
+    {
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 754 to establish the Signal Corps-to-OSS transfer date and reconcile the June 1942 trade report with the March 1943 Army-entry date. WSOY is verified as the last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Milburn H Stuckwish"
+      ]
+    },
+    {
+      "person_id": "ec3bf3ea-b87e-5082-a555-dbe8b0193dbe",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "efd15875-a9d2-5057-ae7f-86b219a950cb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record. A museum biography is an unassigned candidate because a second Andre Studler row has a different identifier.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution. Historical occupation code 993 remains uninterpreted.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "8b99c51b-18e2-54a6-81cb-7b44b9929e85"
+    },
+    {
+      "person_id": "9a99693e-5e8e-5169-8d79-dcc67092fcd1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c60f1480-7bf2-51b5-97cf-22490aa910da",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "84a73577-2e7a-51de-8c84-2b57d0740b94",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "06cae7dc-f03d-503e-a737-7540ee80be5c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a1b14ddc-bc9d-5967-b71e-abab7126851c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 755 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e0d20032-a8a6-5969-ac0d-7b8b4b0f8825",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Two Andre Studler source rows have different identifiers and therefore remain separate. A museum biography for André Joseph Lucien Marie Studler cannot be assigned to either file without direct linkage.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 755 files together for birth date, alias Sylvain, nationality, Army history and OSS/SOE Historian-network references before assigning the biography or its unnamed-distillery occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "8b99c51b-18e2-54a6-81cb-7b44b9929e85"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page454-row1-richard-w-stubbs-b927",
+      "person_id": "e5e776b8-838a-5134-9260-ab3689b45911",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard W Stubbs; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 754; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Common-name searches produced no two-identifier bridge to the Box 754 person. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 754 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row2-henri-stuber-b927",
+      "person_id": "7cfbdb61-a69c-52d0-a5e6-0e231dcd7b94",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henri Stuber; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 754; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches found no reliable OSS identity bridge or pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 754 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row3-charles-h-stubing-b927",
+      "person_id": "f74af8e7-fcfa-59f7-ac55-15f09a6dc691",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles H Stubing; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 754; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Exact-name and middle-initial searches found no person-specific source tied to OSS or Box 754. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 754 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row4-albert-e-stucchio-b927",
+      "person_id": "11275515-e068-5f2d-a6aa-2948b20653a0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Albert E Stucchio; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 754; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity, but occupation code 093 remains uninterpreted and no named employer or institution was found. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 754 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row5-frances-j-stuckart-b927",
+      "person_id": "7fffeae0-b21a-59fd-8459-07c091f1a6a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frances J Stuckart; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 754; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Mechanics and repairmen, motor vehicle, but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 754 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row6-milburn-stuckwish-b927",
+      "person_id": "aa07696d-4d28-52cf-b475-bf3d4bddcef4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Milburn Stuckwish; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 754; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "A contemporary June 1942 trade report establishes WSOY, the chief-engineer role and the immediate transition to Signal Corps service; the accepted Army bridge corroborates identity. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 754 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row7-herbert-l-studer-b927",
+      "person_id": "ec3bf3ea-b87e-5082-a555-dbe8b0193dbe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert L Studer; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Clerks in trade, n.e.c., but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row8-andre-studler-b927",
+      "person_id": "efd15875-a9d2-5057-ae7f-86b219a950cb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andre Studler; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "The Army row establishes this indexed entity, but the museum biography remains unassigned because the adjacent same-name index entity has a different identifier. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row9-andre-studler-b927",
+      "person_id": "e0d20032-a8a6-5969-ac0d-7b8b4b0f8825",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andre Studler; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "The museum OSS/SOE biography is a strong exact-name candidate, but no identifier selects this row rather than the adjacent same-name row. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row10-raymond-e-stuehrmann-b927",
+      "person_id": "9a99693e-5e8e-5169-8d79-dcc67092fcd1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond E Stuehrmann; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Stock clerks, but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row11-chester-a-stull-b927",
+      "person_id": "9b759a46-6f5c-55e3-a43c-7cb5defe636d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Chester A Stull; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Common-name and middle-initial searches found no reliable identity bridge or pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row12-thomas-l-stuller-b927",
+      "person_id": "0187e76b-697c-50f6-b339-dd21113fc090",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas L Stuller; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "A veteran-register namesake lacks a protected-identifier, Box 755 or OSS bridge and was not assigned. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row13-herbert-q-stump-b927",
+      "person_id": "c60f1480-7bf2-51b5-97cf-22490aa910da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert Q Stump; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Miners and mining-machine operators, but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row14-st-claire-d-stumper-b927",
+      "person_id": "9850650d-d563-5820-96d2-5ef1531fc79d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "St. Claire D Stumper; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Exact-name and punctuation-variant searches found no corroborating identifier or reliable affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row15-stur-b927",
+      "person_id": "22ee62e0-b002-58a3-9457-a32070fdb2ce",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "* Stur; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "The index explicitly notes that no first name is present; an incomplete surname cannot support safe person matching. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row16-melvin-sturcz-b927",
+      "person_id": "4526cad1-9e66-5fdb-b2e2-be181091b4ad",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Melvin Sturcz; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "A Sturcz-to-Sturz family-name lead and later insurance career lack an OSS, Box 755 or protected-identifier bridge. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row17-curtis-e-sturgeon-b927",
+      "person_id": "84a73577-2e7a-51de-8c84-2b57d0740b94",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Curtis E Sturgeon; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Clerks, general office, but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row18-orvil-d-sturgeon-b927",
+      "person_id": "06cae7dc-f03d-503e-a737-7540ee80be5c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Orvil D Sturgeon; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Farm hands, general farms, but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row19-harry-d-sturges-b927",
+      "person_id": "a1b14ddc-bc9d-5967-b71e-abab7126851c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry D Sturges; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "An accepted protected-identifier Army bridge establishes high-confidence identity and the dated historical category Students, but no named employer or institution. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row20-harry-w-sturges-b927",
+      "person_id": "5bac785c-c25d-5df9-8727-52f18314b1a8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry W Sturges; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Common-name searches produced no two-identifier bridge to the Box 755 person. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row21-harriet-m-sturgis-b927",
+      "person_id": "5c56dbfd-1ee8-5e72-8db0-7993c3d29b3b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harriet M Sturgis; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Exact-name and middle-initial searches found no reliable OSS identity bridge or pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row22-norman-r-sturgis-b927",
+      "person_id": "a0233aea-bec1-5f0c-8cc2-17b83e6be0f8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norman R Sturgis; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "Common-name and middle-initial searches found no person-specific source tied to OSS or Box 755. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    },
+    {
+      "key": "page454-row23-anton-m-sturrett-b927",
+      "person_id": "daa577d8-28fa-5ae1-a29a-e56c693b3451",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anton M Sturrett; NARA index and public Archives context; CIA Reading Room site-restricted exact-name check; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_927",
+      "started_at": "2026-10-27T02:30:00Z",
+      "completed_at": "2026-10-27T05:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific result.",
+      "research_notes": "The protected index value produced no matching Army candidate, and public searches found no defensible identity bridge. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b927-v1"
+    }
+  ]
+}

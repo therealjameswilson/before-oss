@@ -1,5 +1,46 @@
 # Research status
 
+Batch 927 completed PDF page 454, rows 1-23, from **Richard W Stubbs**
+through **Anton M Sturrett**, preserving all 23 printed rows and linking them
+to 23 separate active people. All 23 now have saved terminal research outcomes.
+Ten reviewed protected-identifier Army bridges were accepted, and no protected
+identifier is present in the public projection.
+
+Milburn Stuckwish is a high-confidence match to Milburn H. Stuckwish. A
+contemporary June 1942 trade report identifies him as WSOY's chief engineer
+immediately before Signal Corps service; WSOY is published as his last civilian
+employer, while the Signal Corps is separately modeled as a qualified probable
+immediate military pathway to OSS. Eight Army occupation or status findings
+name no employer or institution. Two same-name Andre Studler rows with different
+identifiers remain separate and visibly linked; a museum biography naming 1939
+work at an unidentified U.S. distillery remains withheld from both profiles.
+Official occupation codes 093 and 993 remain uninterpreted.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,268/23,936 (59.6090%)**;
+verified-employer coverage is **457/23,936 (1.9093%)**;
+verified-affiliation coverage is **1,013/23,936 (4.2321%)**; archival-review
+coverage is **12,741/23,936 (53.2294%)**. There are **9,663** not-started
+people, **627** possible-duplicate groups and **491** conflicts. Claim
+confidence counts are **1,649 confirmed**, **4,648 high**, **2,052 medium**,
+**251 low**, **413 conflicting** and **2 unresolved**. The public projection
+contains **3,289** affiliations, **1,162** organizations, **5,797** sources and
+**8,758** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 454, row 24,
+**Donald B Sturtevant**, in Box 755. See `research/batch-927-progress.md` for
+the source-by-source audit.
+
+Batch 927 has passed evidence-schema validation, duplicate-safe isolated
+replay, canonical import, SQLite integrity and foreign-key checks, derived
+export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 558 files
+with zero errors, warnings or hints and builds 25,145 static pages. The 24/24
+Batch 927 browser matrix and the full 93/93 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Live-deployment
+results are recorded in `reports/release_batch_927.md` as the release proceeds.
+
 Batch 926 completed PDF page 453, rows 24-46, from **Harry Strozer**
 through **Jack R Stubbs**, preserving all 23 printed rows and linking them to
 23 separate active people. All 23 now have saved terminal research outcomes.
