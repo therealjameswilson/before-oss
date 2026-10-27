@@ -109,6 +109,11 @@ Archive location: 230/86/41/05
   vulnerabilities and two consecutive builds have the same tree digest.
 - Exact reproducibility values and deployment verification are recorded in
   `reports/release_batch_928.md`.
+- Batch 928 is public from immutable content commit
+  `967c7aaf57a91f78b68ef6091d8d677a8e6c3585`. GitHub Actions Test run
+  `40448622874` and Pages run `40448622870` passed. The unauthenticated
+  verifier matched the committed 67-asset manifest, eight core routes, all 39
+  source-register pages and all 23 affected profiles.
 
 ## Resume point
 

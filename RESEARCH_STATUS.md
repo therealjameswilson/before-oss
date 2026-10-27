@@ -40,8 +40,12 @@ with zero errors, warnings or hints and builds 25,146 static pages. The 27/27
 Batch 928 browser matrix and the full 96/96 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. Live-deployment
-results are recorded in `reports/release_batch_928.md` as the release proceeds.
+dependency audit and two deterministic consecutive builds. Batch 928 is public
+from immutable content commit `967c7aaf57a91f78b68ef6091d8d677a8e6c3585`.
+GitHub Actions Test run `40448622874` and Pages run `40448622870` passed. The
+unauthenticated verifier matched all 67 assets, eight core routes, 39 source-
+register pages and all 23 affected profiles to the committed manifest. See
+`reports/release_batch_928.md`.
 
 Batch 927 completed PDF page 454, rows 1-23, from **Richard W Stubbs**
 through **Anton M Sturrett**, preserving all 23 printed rows and linking them
