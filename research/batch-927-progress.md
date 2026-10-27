@@ -93,8 +93,10 @@ Archive location: 230/86/41/05
   and the full 93/93 bounded browser and accessibility release suite pass.
 - The complete internal-link check, protected-identifier audit, checked-in
   public manifest, zero-vulnerability production dependency audit and two
-  deterministic consecutive builds pass. Deployment checks are recorded in
-  `reports/release_batch_927.md` as the release proceeds.
+  deterministic consecutive builds pass. Batch 927 is public from immutable
+  content commit `dae5cc806266d7ff589c92cfe35c1084b66a4e5a`; the independent
+  GitHub Test and Pages workflows and unauthenticated deployment verification
+  pass. Exact release evidence is recorded in `reports/release_batch_927.md`.
 
 ## Resume point
 
