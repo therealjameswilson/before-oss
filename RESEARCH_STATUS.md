@@ -1,5 +1,49 @@
 # Research status
 
+Batch 925 completed PDF page 453, rows 1-23, from **Charlie E Stringer**
+through **Bernard E Strozenski**, preserving all 23 printed rows and linking
+them to 23 separate active people. All 23 now have saved terminal research
+outcomes. Twenty-two new staged-protocol attempts were added; Edmund I.
+Stromholt's earlier completed outcome was preserved unchanged. Seven reviewed
+protected-identifier Army bridges were accepted, and no protected identifier
+is present in the public projection.
+
+Anthony J. Strobl is a high-confidence match to the commercial artist who
+entered Army service in December 1941. Walt Disney Studios is his documented
+last civilian employer before service, not an explicit immediate predecessor
+to OSS. Birger Stromsheim is a probable match to Birger Strømsheim; his prewar
+construction contracting and Norwegian Independent Company 1 service are
+published with visible medium-confidence qualifications. Harry D. Strouse
+remains an unresolved father-son identity conflict, with no career transferred
+to the index row. Five other accepted Army occupation or status categories
+name no employer or institution, and James A. Stringer's undefined official
+code 055 is not interpreted.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,223/23,936 (59.4210%)**;
+verified-employer coverage is **456/23,936 (1.9051%)**;
+verified-affiliation coverage is **1,011/23,936 (4.2238%)**; archival-review
+coverage is **12,696/23,936 (53.0414%)**. There are **9,708** not-started
+people, **623** possible-duplicate groups and **491** conflicts. Claim
+confidence counts are **1,649 confirmed**, **4,634 high**, **2,035 medium**,
+**245 low**, **413 conflicting** and **2 unresolved**. The public projection
+contains **3,270** affiliations, **1,161** organizations, **5,786** sources and
+**8,727** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 453, row 24,
+**Harry Strozer**, in Box 754. See `research/batch-925-progress.md` for the
+source-by-source audit.
+
+Batch 925 has passed evidence-schema validation, canonical import, SQLite
+integrity and foreign-key checks, derived export regeneration, coverage
+reporting, public-data redaction and the 200-profile structural audit. All 147
+Python tests pass. Astro reports no errors, warnings or hints across 556 checked
+files and builds 25,144 static pages. The 30/30 Batch 925 suite and 99/99
+bounded desktop, phone, tablet and accessibility release matrix pass, as do
+the internal-link check, protected-identifier audit, deterministic consecutive
+builds and zero-vulnerability production dependency audit. GitHub Actions and
+live deployment results are recorded in `reports/release_batch_925.md` after
+publication.
+
 Batch 924 completed PDF page 452, rows 24-46, from **William S Strauss**
 through **Theophanes G Strimenos**, preserving all 23 printed rows and linking
 them to 23 separate active people. All 23 now have saved terminal research
