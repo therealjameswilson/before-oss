@@ -1,5 +1,50 @@
 # Research status
 
+Batch 926 completed PDF page 453, rows 24-46, from **Harry Strozer**
+through **Jack R Stubbs**, preserving all 23 printed rows and linking them to
+23 separate active people. All 23 now have saved terminal research outcomes.
+Twenty-two new staged-protocol attempts were added; James M. Strueber's earlier
+conflicting outcome was preserved unchanged. Six reviewed protected-identifier
+Army bridges were accepted, and no protected identifier is present in the
+public projection.
+
+Walter Struwe is a high-confidence match to Walter Strüwe. His membership in
+the exiled German trade-unionist group presented to an OSS recruiter in late
+August 1944 is an explicit immediate professional affiliation, not a named
+employer. Zbigniew Strzelinski is a high-confidence match to Zbigniew
+Strzeliński, whose real name was Zbigniew Paprzycki; his qualified military
+pathway runs from conscripted Wehrmacht service through the Polish Armed
+Forces to OSS Project Eagle. Six Army occupation or status findings name no
+employer or institution. Low-confidence Harry Strozer, François Strub and
+Richard Kingsley Stuart candidates remain withheld from public claims. The
+duplicate Benjamin Strunk, Arthur W. Stuart and Richard Stuart rows remain
+separate and visibly linked.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,245/23,936 (59.5129%)**;
+verified-employer coverage is **456/23,936 (1.9051%)**;
+verified-affiliation coverage is **1,012/23,936 (4.2279%)**; archival-review
+coverage is **12,718/23,936 (53.1334%)**. There are **9,686** not-started
+people, **626** possible-duplicate groups and **491** conflicts. Claim
+confidence counts are **1,649 confirmed**, **4,637 high**, **2,043 medium**,
+**249 low**, **413 conflicting** and **2 unresolved**. The public projection
+contains **3,279** affiliations, **1,161** organizations, **5,792** sources and
+**8,738** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 454, row 1,
+**Richard W Stubbs**, in Box 754. See `research/batch-926-progress.md` for the
+source-by-source audit.
+
+Batch 926 has passed evidence-schema validation, duplicate-safe isolated
+replay, canonical import, SQLite integrity and foreign-key checks, derived
+export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro reports no
+errors, warnings or hints across 557 checked files and builds 25,144 static
+pages. The 27/27 Batch 926 browser suite and 96/96 bounded desktop, phone,
+tablet and accessibility release matrix pass, as do the internal-link check,
+protected-identifier audit, deterministic consecutive builds and zero-
+vulnerability production dependency audit. Public deployment verification is
+pending; results will be recorded in `reports/release_batch_926.md`.
+
 Batch 925 completed PDF page 453, rows 1-23, from **Charlie E Stringer**
 through **Bernard E Strozenski**, preserving all 23 printed rows and linking
 them to 23 separate active people. All 23 now have saved terminal research
