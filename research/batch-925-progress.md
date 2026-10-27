@@ -103,8 +103,12 @@ Archive location: 230/86/41/05
   suite and 99/99 bounded desktop, phone, tablet and accessibility release
   matrix pass, as do the internal-link check, identifier-redaction audit,
   deterministic consecutive builds and production dependency audit.
-- GitHub Actions and unauthenticated live deployment verification are recorded
-  in `reports/release_batch_925.md` after publication.
+- Batch 925 is public from immutable content commit
+  `c0ec05f806b39119a13c6bd54a63c00b1b949a91`. GitHub Actions Test run
+  `40435905530` and Pages run `40435905579` passed. The unauthenticated
+  deployment verifier matched all 67 assets, eight core routes, 39 source
+  pages and the 22 profiles changed by the evidence bundle to the committed
+  manifest. Full details are in `reports/release_batch_925.md`.
 
 ## Resume point
 

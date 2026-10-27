@@ -68,4 +68,18 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-Pending GitHub Actions and unauthenticated live verification.
+- Batch 925 is public from immutable content commit
+  `c0ec05f806b39119a13c6bd54a63c00b1b949a91`.
+- GitHub Actions Test run `40435905530` completed successfully, including the
+  147-test Python suite, manifest verification, browser release suite and
+  public-identifier audit.
+- GitHub Pages run `40435905579` completed successfully.
+- The unauthenticated deployment verifier matched all 67 assets and
+  123,275,443 bytes to the committed manifest SHA-256
+  `b8ef5d626fab28845b164a91f342b51babe9ff8be3e14c2ff0907d9337b2cea8`.
+  It also verified eight core routes, 39 source-register pages and all 22
+  profiles changed by the evidence bundle. Edmund I. Stromholt's preserved
+  existing profile and four representative changed profiles separately
+  returned HTTP 200.
+- The live statistics asset reports the exact release-candidate counts above.
+  Public site: <https://therealjameswilson.github.io/before-oss/>.

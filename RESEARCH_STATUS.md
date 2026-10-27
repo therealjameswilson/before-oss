@@ -40,9 +40,12 @@ Python tests pass. Astro reports no errors, warnings or hints across 556 checked
 files and builds 25,144 static pages. The 30/30 Batch 925 suite and 99/99
 bounded desktop, phone, tablet and accessibility release matrix pass, as do
 the internal-link check, protected-identifier audit, deterministic consecutive
-builds and zero-vulnerability production dependency audit. GitHub Actions and
-live deployment results are recorded in `reports/release_batch_925.md` after
-publication.
+builds and zero-vulnerability production dependency audit. Batch 925 is public
+from immutable content commit
+`c0ec05f806b39119a13c6bd54a63c00b1b949a91`. GitHub Actions Test run
+`40435905530` and Pages run `40435905579` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 39 source-register pages and all 22
+changed profiles to the committed manifest. See `reports/release_batch_925.md`.
 
 Batch 924 completed PDF page 452, rows 24-46, from **William S Strauss**
 through **Theophanes G Strimenos**, preserving all 23 printed rows and linking
