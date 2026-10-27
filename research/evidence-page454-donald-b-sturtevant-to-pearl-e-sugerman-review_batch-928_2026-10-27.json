@@ -1,0 +1,1235 @@
+{
+  "bundle_version": "batch-928-v1",
+  "reviewer": "Before OSS Batch 928 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b928",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 755-756",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 454, rows 24-46; checked against layout-preserving text and the rendered page image",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. Kay and Kelichi Sugahara are linked for review but not merged."
+    },
+    {
+      "key": "army-bulk-b928",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; four accepted Batch 928 protected-identifier candidates",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record or full protected identifier is retained in public assets. Code 047 remains uninterpreted; other coded occupations name neither employer nor workplace."
+    },
+    {
+      "key": "army-tech-b928",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b928",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171, 174 and 304; Batch 928 categories visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer nor workplace. Code 047 is absent from the reviewed list and remains uninterpreted."
+    },
+    {
+      "key": "nara-styma-citation-b928",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "104-10165-10120",
+      "title": "OSS citations and related records (file 104-10165-10120)",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "World War II; released 2017",
+      "locator": "PDF physical page 81; internal restricted page 3; Tec 3 Mitchell Styma citation",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The citation prints the same protected identifier as the index. Public excerpts and notes omit that value."
+    },
+    {
+      "key": "adst-styma-b928",
+      "stable_url": "https://adst.org/Readers/Yugoslavia-1.pdf",
+      "title": "Yugoslavia Country Reader",
+      "author_creator": "Joseph Walter Neubert; Association for Diplomatic Studies and Training",
+      "repository_publisher": "Association for Diplomatic Studies and Training",
+      "publication_record_date": "Neubert self-interview, 2007",
+      "locator": "PDF physical page 26, internal page 26; Joseph Walter Neubert self-interview",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Foreign Affairs Oral History Collection country readers",
+      "rights_notes": "The account names no employer or sponsoring organization for the prewar courier runs."
+    },
+    {
+      "key": "elia-stymfal-b928",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1945%201-1845%20OSS%20Base,%20OSS%20Agents,%20%5B7%20pgs%5D%20226-211%20WN22856%20(Admin).pdf",
+      "archival_identifier": "226-211 WN22856; memorandum 600/3",
+      "title": "Athens personnel list of 1 January 1945",
+      "author_creator": "Lewis Leary, Chief, SI, Office of Strategic Services, Cairo",
+      "repository_publisher": "Hellenic Literary and Historical Archive (ELIA-MIET)",
+      "publication_record_date": "1945-01-18",
+      "locator": "PDF physical page 7; personnel transferred or discharged from Athens office",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Base and OSS Agents records",
+      "document_number": "226-211 WN22856",
+      "rights_notes": "The wartime roster identifies Peter A. Stymfal as a Pfc. operative in Greece and records return to Cairo; it supplies no pre-OSS employer."
+    },
+    {
+      "key": "ucla-kay-sugahara-b928",
+      "stable_url": "https://learn.aasc.ucla.edu/sugahara/about/",
+      "title": "About – Sugahara Project",
+      "author_creator": "UCLA Asian American Studies Center",
+      "repository_publisher": "UCLA Asian American Studies Center",
+      "publication_record_date": "Page copyright 2022; note based on 1982 profile and 1988 curriculum vitae",
+      "locator": "Kay Keiichi Sugahara biographical note, paragraphs 1-4",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Sugahara Project",
+      "rights_notes": "The note distinguishes the 1932 customs-brokerage firm, forced removal and 1942 OSS service. Postwar oil activity is not treated as pre-OSS employment."
+    },
+    {
+      "key": "arlington-kay-sugahara-b928",
+      "stable_url": "https://www.arlingtoncemetery.mil/Explore/Notable-Graves/Minorities/Japanese-American-Service-Members",
+      "title": "Japanese-American Service Members",
+      "author_creator": "Arlington National Cemetery",
+      "repository_publisher": "Office of Army Cemeteries, United States Army",
+      "publication_record_date": "Page accessed 2026",
+      "locator": "Columbarium table, I-15-3: Sugahara, Kay K.; served: OSS",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Arlington National Cemetery notable graves",
+      "rights_notes": "Official exact-name OSS corroboration. The page does not document prewar employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "universal-foreign-service-company-b928",
+      "canonical_name": "Universal Foreign Service Company",
+      "historical_name": "Universal Foreign Service Company",
+      "aliases": [],
+      "organization_type": "customs brokerage",
+      "sector": "business_and_industry",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": "Founded after Kay Sugahara's 1932 UCLA graduation; later history not established in the reviewed sources",
+      "normalization_notes": "Historical name preserved. No successor, merger or modern equivalent is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "mitchell-styma-occupation-b928",
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "occupation": "Machine shop and related occupations, n.e.c.",
+      "relationship_type": "employment",
+      "end_date": "1942-01-06",
+      "date_precision": "Historical civilian-occupation code 678 was recorded at Army entry on 1942-01-06; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "peter-a-stymfal-occupation-b928",
+      "person_id": "39a5e6cf-0a32-5641-b2df-4c895e8ef402",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1943-05-24",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-05-24; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "carlos-v-sucre-occupation-b928",
+      "person_id": "670c1d13-5f3f-5cf5-a261-9de3acb32552",
+      "occupation": "Wholesale managers",
+      "relationship_type": "employment",
+      "end_date": "1943-05-17",
+      "date_precision": "Historical civilian-occupation code 073 was recorded at Army entry on 1943-05-17; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, institution, workplace or exact job title."
+    },
+    {
+      "key": "mitchell-styma-courier-b928",
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "role_title": "courier",
+      "occupation": "courier",
+      "relationship_type": "unknown",
+      "end_date": "1939",
+      "date_precision": "A 2007 oral-history recollection says he made courier runs to Lisbon until the fall of Poland; no employer, sponsoring organization, start date or precise end date is named.",
+      "country": "Portugal",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented prewar activity, not a named employer and not established as the immediate predecessor to OSS service."
+    },
+    {
+      "key": "kay-sugahara-universal-foreign-service-b928",
+      "person_id": "0b2bf8f8-0fd8-51f8-8723-aa2c6b37111a",
+      "organization_key": "universal-foreign-service-company-b928",
+      "organization_name_as_found": "Universal Foreign Service Company",
+      "role_title": "founder and owner",
+      "occupation": "customs broker",
+      "relationship_type": "self_employment",
+      "start_date": "1932",
+      "end_date": "1942",
+      "date_precision": "The UCLA note says he opened the firm after graduating in 1932, then separately describes forced removal and joining OSS in 1942; the exact separation date is not stated.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Last documented civilian enterprise before wartime displacement and OSS service. The intervening forced removal means the firm is not labeled the immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-carl-a-stutz-row27-b928",
+      "person_id": "04f65c85-7d87-513c-ae7d-91942da15d9c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl A Stutz row is a high-confidence match to an official Army record dated 1943-06-12.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact full name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record documents entry on 1943-06-12; it does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row. Occupation code 047 remains uninterpreted because it is absent from the reviewed official code list.",
+      "sources": [
+        {
+          "source_key": "nara-index-b928",
+          "locator_override": "PDF page 454 row 27; Box 756"
+        },
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-06-12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-mitchell-styma-row32-b928",
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Mitchell Styma row is a confirmed match to an official Army record dated 1942-01-06.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "Confirmed by the exact name, a nonshared protected identifier and a NARA OSS citation carrying the same protected value.",
+      "temporal_assessment": "The Army record documents entry on 1942-01-06; it does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b928",
+          "locator_override": "PDF page 454 row 32; Box 756"
+        },
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-01-06; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        },
+        {
+          "source_key": "nara-styma-citation-b928",
+          "locator_override": "PDF physical page 81; internal restricted page 3; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-peter-a-stymfal-row33-b928",
+      "person_id": "39a5e6cf-0a32-5641-b2df-4c895e8ef402",
+      "claim_type": "identity",
+      "claim_text": "The indexed Peter A Stymfal row is a high-confidence match to an official Army record dated 1943-05-24.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the exact full name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record documents entry on 1943-05-24; it does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b928",
+          "locator_override": "PDF page 454 row 33; Box 756"
+        },
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-05-24; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        },
+        {
+          "source_key": "elia-stymfal-b928",
+          "locator_override": "PDF physical page 7; Peter A. Stymfal, Pfc., operative, Greece"
+        }
+      ]
+    },
+    {
+      "key": "identity-carlos-v-sucre-row41-b928",
+      "person_id": "670c1d13-5f3f-5cf5-a261-9de3acb32552",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carlos V Sucre row is a high-confidence match to an official Army record dated 1943-05-17.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier; the Carlos V/Carlos U middle-initial disagreement remains visible as a variant.",
+      "temporal_assessment": "The Army record documents entry on 1943-05-17; it does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b928",
+          "locator_override": "PDF page 454 row 41; Box 756"
+        },
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-05-17; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-mitchell-styma-b928",
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "affiliation_key": "mitchell-styma-occupation-b928",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-06, Mitchell Styma was recorded in the historical occupation category Machine shop and related occupations, n.e.c.; no employer is identified.",
+      "evidence_excerpt": "Machine shop and related occupations, n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 678, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 678; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b928",
+          "locator_override": "PDF physical page 174; historical category 6-78",
+          "excerpt_override": "Machine shop and related occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "occupation-peter-a-stymfal-b928",
+      "person_id": "39a5e6cf-0a32-5641-b2df-4c895e8ef402",
+      "affiliation_key": "peter-a-stymfal-occupation-b928",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-24, Peter A Stymfal was recorded in the historical occupation group Students; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b928",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "occupation-carlos-v-sucre-b928",
+      "person_id": "670c1d13-5f3f-5cf5-a261-9de3acb32552",
+      "affiliation_key": "carlos-v-sucre-occupation-b928",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-17, Carlos V Sucre was recorded in the historical occupation category Wholesale managers; no employer is identified.",
+      "evidence_excerpt": "Wholesale managers",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 073, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, school, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b928",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 073; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b928",
+          "locator_override": "PDF physical page 171; historical category 0-73",
+          "excerpt_override": "Wholesale managers"
+        }
+      ]
+    },
+    {
+      "key": "prewar-courier-mitchell-styma-b928",
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "affiliation_key": "mitchell-styma-courier-b928",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Mitchell Styma performed courier runs to Lisbon before returning to the United States and later serving in OSS; the employer or sponsoring organization is not named.",
+      "evidence_excerpt": "did courier runs to Lisbon until the fall of Poland. Then he returned to the U.S. and served in the OSS",
+      "evidence_paraphrase": "Joseph Walter Neubert's oral-history account places Styma's courier activity before his return to the United States and subsequent OSS service.",
+      "identity_match_assessment": "Confirmed by the NARA OSS citation and protected-identifier bridge; the oral history adds birthplace, Polish education and OSS details.",
+      "temporal_assessment": "Explicitly pre-OSS, but not shown to be immediately prior; the fall of Poland predates OSS service and an interval remains undocumented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as documented prewar activity, not a named employer and not an immediate affiliation.",
+      "sources": [
+        {
+          "source_key": "adst-styma-b928",
+          "locator_override": "PDF physical page 26, internal page 26; Joseph Walter Neubert self-interview"
+        },
+        {
+          "source_key": "nara-styma-citation-b928",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 81; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-kay-keiichi-sugahara-b928",
+      "person_id": "0b2bf8f8-0fd8-51f8-8723-aa2c6b37111a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kay K Sugahara is a high-confidence match to Kay Keiichi Sugahara, whose UCLA biography and Arlington record both identify OSS service.",
+      "evidence_excerpt": "In 1942 Sugahara joined the Office of Strategic Services",
+      "evidence_paraphrase": "UCLA supplies the full name and chronology; Arlington independently lists Kay K. Sugahara with OSS service.",
+      "identity_match_assessment": "High confidence from the rare exact indexed form, expanded middle name, two authoritative institutional sources and explicit OSS references.",
+      "temporal_assessment": "Both sources identify wartime OSS service; UCLA dates entry to 1942.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The adjacent Kelichi K Sugahara row remains separate and is linked only as a possible variant/duplicate requiring the personnel files.",
+      "sources": [
+        {
+          "source_key": "nara-index-b928",
+          "locator_override": "PDF page 454 row 43; Box 756"
+        },
+        {
+          "source_key": "ucla-kay-sugahara-b928",
+          "locator_override": "Kay Keiichi Sugahara biographical note, paragraphs 1-4"
+        },
+        {
+          "source_key": "arlington-kay-sugahara-b928",
+          "locator_override": "Columbarium table, I-15-3"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-kay-sugahara-universal-b928",
+      "person_id": "0b2bf8f8-0fd8-51f8-8723-aa2c6b37111a",
+      "affiliation_key": "kay-sugahara-universal-foreign-service-b928",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Kay Keiichi Sugahara founded Universal Foreign Service Company after graduating in 1932 and worked as a customs broker before forced removal and OSS service in 1942.",
+      "evidence_excerpt": "he opened his own firm, Universal Foreign Service Company",
+      "evidence_paraphrase": "The UCLA institutional biography names the firm, the 1932 starting point, Sugahara's customs-broker occupation, wartime forced removal and 1942 OSS entry.",
+      "identity_match_assessment": "High confidence from the distinctive name and independent UCLA and Arlington OSS identifications.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian enterprise before wartime displacement and service; not labeled immediate because forced removal intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Self-employment and named company are preserved separately. UCLA's postwar oil activity is excluded from this pre-OSS claim and the site's oil-company category.",
+      "sources": [
+        {
+          "source_key": "ucla-kay-sugahara-b928",
+          "locator_override": "Kay Keiichi Sugahara biographical note, paragraphs 2-4"
+        },
+        {
+          "source_key": "arlington-kay-sugahara-b928",
+          "support_type": "context_only",
+          "locator_override": "Columbarium table, I-15-3"
+        }
+      ]
+    },
+    {
+      "key": "identity-kelichi-k-sugahara-candidate-b928",
+      "person_id": "630c03c4-c927-5520-986c-07339921cf4d",
+      "claim_type": "identity",
+      "claim_text": "Kay Keiichi Sugahara is a possible identity candidate for the separate Kelichi K Sugahara index row.",
+      "evidence_paraphrase": "The adjacent rows share surname, box and similar given-name letters, while UCLA expands Kay's middle name to Keiichi; no source proves that the two rows represent one person.",
+      "identity_match_assessment": "Low for this row because the index preserves Kay K and Kelichi K as separate entries and no personnel-file or protected-identifier linkage establishes duplication.",
+      "temporal_assessment": "The candidate biography covers prewar employment and 1942 OSS service, but neither may be assigned to this row without direct linkage.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private candidate only. The entities remain separate; the Universal Foreign Service Company affiliation is published only for Kay K Sugahara.",
+      "sources": [
+        {
+          "source_key": "nara-index-b928",
+          "locator_override": "PDF page 454 rows 43-44; Box 756; rows preserved separately"
+        },
+        {
+          "source_key": "ucla-kay-sugahara-b928",
+          "locator_override": "Kay Keiichi Sugahara biographical note"
+        },
+        {
+          "source_key": "arlington-kay-sugahara-b928",
+          "support_type": "context_only",
+          "locator_override": "Columbarium table, I-15-3: Kay K. Sugahara"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "05f86065-b7d2-59da-a5df-e5585608b028",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Donald B Sturtevant, Box 755 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and middle-initial searches found no person-specific OSS identity bridge or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "87a79df2-11c7-5a7a-b694-c3ce1e6b6f49",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Warren B Sturtevant, Box 755 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name searches returned unrelated historical namesakes and no Box 755 or OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 755 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "90d1c4fb-99b4-54b6-b0a6-1f348a055535",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Warren Stutler, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. A 1950 CIA daily-log result and a Warren H. Stutler military lead are postwar or insufficiently identified and were not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bd4e5dd6-6147-54e2-a7f3-a10f9bc086fd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sherwood S Stutz, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and middle-initial searches found no corroborating identifier or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e2e0804f-ed19-57d7-a501-39422a01e10a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Duane H Stutzman, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. A 1940 census lead lacks a protected identifier, Box 756 reference or OSS link and was not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b45dfb7f-0ee5-5197-9577-89ade3f34693",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alan R Stuyvesant, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. A namesake in a memorial-dog record supplies no OSS or prewar-employment bridge and was rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b1065589-d21a-50cb-ade6-ff326413ff71",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John H Styer, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Banking and obituary namesakes lack the protected identifier and OSS linkage needed for this common-name case.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8d36048e-55b5-54fb-8a1f-9f04f64a1583",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lauritz E Styve, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name searches found only unverified genealogy leads and no defensible OSS or employment bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8bb20ea2-0b9f-5b23-9bf3-2823930fcb1e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ju Sung Su, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Transliteration-sensitive searches found no source with corroborating identifiers or a reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c9aa82ba-73de-5616-8645-4df4c4f39a2e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alfred M Suarez, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Common-name searches produced multiple namesakes and no two-identifier bridge to the Box 756 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b3b31bb1-f477-5a28-96eb-1d69a1df1201",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert Suarez, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Common-name searches produced multiple namesakes and no two-identifier bridge to the Box 756 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ade8798b-d25b-57f6-b47c-49c026f0ed97",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Nicholas M Suban, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name searches found no person-specific source tied to OSS, Box 756 or a pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "936f8c8c-5b71-5892-b0e3-964fe595412b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sukontha B Subhats, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Name and transliteration variants produced no reliable OSS identity bridge or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "395cf2ec-41c3-516e-989b-6a49e983543c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Vivian B. Suchards, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and punctuation-variant searches found no corroborating identifier or reliable affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5a43db91-5b7d-513e-b8a2-5df17c517288",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Piscot Sudasna, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. A much later international-industry record is postwar and does not identify the Box 756 person or a pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c4cad75d-0f5e-5d9a-9898-879ded80aad3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Tomio Sugano, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Wartime relocation records name a Tomio Sugano, but no reviewed source links that person to the Box 756 file or OSS service.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a4e3c57-6db8-504c-aad9-e93363f1925b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Pearl E Sugerman, Box 756 and archive location, but staged official, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, directory and archival searches found no defensible identity bridge. Exact-name and middle-initial searches found no reliable identity bridge or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04f65c85-7d87-513c-ae7d-91942da15d9c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 756 for the immediate pre-OSS affiliation and named employer or institution. Historical occupation code 047 remains uninterpreted.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name, nonshared protected identifier and a NARA OSS citation carrying the same protected value establish the indexed entity; an ADST oral history adds a documented prewar courier role.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 756 to identify the employer or sponsoring organization for the prewar courier runs and to establish the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Mitch Styma"
+      ]
+    },
+    {
+      "person_id": "39a5e6cf-0a32-5641-b2df-4c895e8ef402",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record. A January 1945 OSS Athens roster independently names Peter A. Stymfal as a Pfc. operative in Greece.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 756 to identify the school represented by the 1943 student code and establish the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "670c1d13-5f3f-5cf5-a261-9de3acb32552",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the indexed Carlos V Sucre row to an official Army record spelling the middle initial U. The disagreement remains visible.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 756 for the immediate pre-OSS affiliation and named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Carlos U Sucre"
+      ]
+    },
+    {
+      "person_id": "0b2bf8f8-0fd8-51f8-8723-aa2c6b37111a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed form Kay K Sugahara aligns with UCLA's Kay Keiichi Sugahara biography and Arlington's official Kay K. Sugahara OSS listing.",
+      "name_variants": [
+        "Kay Keiichi Sugahara"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "6ab44e9b-741f-59fd-b457-345cda2f9311",
+      "research_status": "verified_employer_found",
+      "next_action": "Review both Box 756 Sugahara files to determine whether the adjacent Kelichi row is a duplicate or a different person, and to document the exact Universal Foreign Service Company separation date.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "630c03c4-c927-5520-986c-07339921cf4d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Kay K Sugahara and Kelichi K Sugahara are adjacent Box 756 rows and UCLA gives Kay's full name as Kay Keiichi Sugahara. The source rows remain separate because no personnel-file or protected-identifier evidence proves duplication.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 756 files together for identifiers, cross-references and duplicate-file evidence before assigning Kay Keiichi Sugahara's biography or employer to this row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "6ab44e9b-741f-59fd-b457-345cda2f9311"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page454-row24-donald-b-sturtevant-b928",
+      "person_id": "05f86065-b7d2-59da-a5df-e5585608b028",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald B Sturtevant; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name and middle-initial searches found no person-specific OSS identity bridge or reliable pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row25-warren-b-sturtevant-b928",
+      "person_id": "87a79df2-11c7-5a7a-b694-c3ce1e6b6f49",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Warren B Sturtevant; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 755; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name searches returned unrelated historical namesakes and no Box 755 or OSS bridge. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 755 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row26-warren-stutler-b928",
+      "person_id": "90d1c4fb-99b4-54b6-b0a6-1f348a055535",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Warren Stutler; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "A 1950 CIA daily-log result and a Warren H. Stutler military lead are postwar or insufficiently identified and were not assigned. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row27-carl-a-stutz-b928",
+      "person_id": "04f65c85-7d87-513c-ae7d-91942da15d9c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl A Stutz; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "A protected-identifier Army bridge establishes high-confidence identity, but occupation code 047 remains uninterpreted and no named employer was found. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row28-sherwood-s-stutz-b928",
+      "person_id": "bd4e5dd6-6147-54e2-a7f3-a10f9bc086fd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sherwood S Stutz; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name and middle-initial searches found no corroborating identifier or reliable pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row29-duane-h-stutzman-b928",
+      "person_id": "e2e0804f-ed19-57d7-a501-39422a01e10a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Duane H Stutzman; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "A 1940 census lead lacks a protected identifier, Box 756 reference or OSS link and was not assigned. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row30-alan-r-stuyvesant-b928",
+      "person_id": "b45dfb7f-0ee5-5197-9577-89ade3f34693",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alan R Stuyvesant; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "A namesake in a memorial-dog record supplies no OSS or prewar-employment bridge and was rejected. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row31-john-h-styer-b928",
+      "person_id": "b1065589-d21a-50cb-ade6-ff326413ff71",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John H Styer; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Banking and obituary namesakes lack the protected identifier and OSS linkage needed for this common-name case. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row32-mitchell-styma-b928",
+      "person_id": "26f6008b-fb70-500b-89b3-0a51aa7e9cf6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mitchell Styma; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "The protected-identifier Army bridge, NARA OSS citation and ADST oral history establish identity, a dated occupation category and a qualified prewar courier role without naming an employer. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row33-peter-a-stymfal-b928",
+      "person_id": "39a5e6cf-0a32-5641-b2df-4c895e8ef402",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Peter A Stymfal; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "The protected-identifier Army bridge and OSS Athens roster establish identity; the Army code records student status but names no school or employer. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row34-lauritz-e-styve-b928",
+      "person_id": "8d36048e-55b5-54fb-8a1f-9f04f64a1583",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lauritz E Styve; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name searches found only unverified genealogy leads and no defensible OSS or employment bridge. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row35-ju-sung-su-b928",
+      "person_id": "8bb20ea2-0b9f-5b23-9bf3-2823930fcb1e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ju Sung Su; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Transliteration-sensitive searches found no source with corroborating identifiers or a reliable pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row36-alfred-m-suarez-b928",
+      "person_id": "c9aa82ba-73de-5616-8645-4df4c4f39a2e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred M Suarez; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Common-name searches produced multiple namesakes and no two-identifier bridge to the Box 756 person. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row37-robert-suarez-b928",
+      "person_id": "b3b31bb1-f477-5a28-96eb-1d69a1df1201",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Suarez; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Common-name searches produced multiple namesakes and no two-identifier bridge to the Box 756 person. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row38-nicholas-m-suban-b928",
+      "person_id": "ade8798b-d25b-57f6-b47c-49c026f0ed97",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas M Suban; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name searches found no person-specific source tied to OSS, Box 756 or a pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row39-sukontha-b-subhats-b928",
+      "person_id": "936f8c8c-5b71-5892-b0e3-964fe595412b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sukontha B Subhats; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Name and transliteration variants produced no reliable OSS identity bridge or pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row40-vivian-b-suchards-b928",
+      "person_id": "395cf2ec-41c3-516e-989b-6a49e983543c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vivian B. Suchards; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name and punctuation-variant searches found no corroborating identifier or reliable affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row41-carlos-v-sucre-b928",
+      "person_id": "670c1d13-5f3f-5cf5-a261-9de3acb32552",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carlos V Sucre; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "A nonshared protected identifier establishes a high-confidence Army bridge despite the V/U middle-initial disagreement; the wholesale-manager category names no enterprise. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row42-piscot-sudasna-b928",
+      "person_id": "5a43db91-5b7d-513e-b8a2-5df17c517288",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Piscot Sudasna; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "A much later international-industry record is postwar and does not identify the Box 756 person or a pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row43-kay-k-sugahara-b928",
+      "person_id": "0b2bf8f8-0fd8-51f8-8723-aa2c6b37111a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kay K Sugahara; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "UCLA and Arlington independently establish the Kay Keiichi/Kay K identity and OSS service; UCLA names Universal Foreign Service Company and the customs-broker role before wartime displacement. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row44-kelichi-k-sugahara-b928",
+      "person_id": "630c03c4-c927-5520-986c-07339921cf4d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kelichi K Sugahara; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Kay Keiichi Sugahara is a strong spelling/duplication candidate, but the two printed index rows remain separate and only the personnel files can resolve them. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row45-tomio-sugano-b928",
+      "person_id": "c4cad75d-0f5e-5d9a-9898-879ded80aad3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Tomio Sugano; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Wartime relocation records name a Tomio Sugano, but no reviewed source links that person to the Box 756 file or OSS service. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    },
+    {
+      "key": "page454-row46-pearl-e-sugerman-b928",
+      "person_id": "1a4e3c57-6db8-504c-aad9-e93363f1925b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Pearl E Sugerman; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling/transliteration variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 756; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_928",
+      "started_at": "2026-10-27T01:30:00Z",
+      "completed_at": "2026-10-27T04:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name discovery checks returned no person-specific pre-OSS result.",
+      "research_notes": "Exact-name and middle-initial searches found no reliable identity bridge or pre-OSS affiliation. The index page and relevant Army code pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 756 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b928-v1"
+    }
+  ]
+}

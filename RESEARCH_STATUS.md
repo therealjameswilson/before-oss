@@ -1,5 +1,48 @@
 # Research status
 
+Batch 928 completed PDF page 454, rows 24-46, from **Donald B Sturtevant**
+through **Pearl E Sugerman**, preserving all 23 printed rows and linking them
+to 23 separate active people. All 23 now have saved terminal research outcomes.
+Four reviewed protected-identifier Army bridges were accepted, and no protected
+identifier is present in the public projection.
+
+Kay K. Sugahara is a high-confidence match to Kay Keiichi Sugahara. UCLA's
+institutional biography identifies Universal Foreign Service Company, which he
+opened after graduating in 1932, and his customs-broker work before wartime
+forced removal and 1942 OSS entry. The firm is published as his last civilian
+enterprise before service, not as an immediate affiliation. The separate
+Kelichi K. Sugahara row remains linked but unmerged and receives no biography
+or employer. Mitchell Styma's official identity is confirmed; his prewar
+courier runs to Lisbon and Army-entry machine-shop occupation remain qualified
+because neither source names an employer. Peter A. Stymfal's student category
+names no school, and Carlos V./U. Sucre's wholesale-manager category names no
+enterprise. Carl A. Stutz's occupation code 047 remains uninterpreted.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,291/23,936 (59.7050%)**;
+verified-employer coverage is **458/23,936 (1.9134%)**;
+verified-affiliation coverage is **1,014/23,936 (4.2363%)**; archival-review
+coverage is **12,764/23,936 (53.3255%)**. There are **9,640** not-started
+people, **628** possible-duplicate groups and **491** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,653 high**, **2,056 medium**,
+**252 low**, **413 conflicting** and **2 unresolved**. The public projection
+contains **3,294** affiliations, **1,163** organizations, **5,806** sources and
+**8,768** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 455, row 1,
+**Mitsue M Sugimachi**, in Box 756. See `research/batch-928-progress.md` for the
+source-by-source audit.
+
+Batch 928 has passed evidence-schema validation, duplicate-safe isolated
+replay, canonical import, SQLite integrity and foreign-key checks, derived
+export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 559 files
+with zero errors, warnings or hints and builds 25,146 static pages. The 27/27
+Batch 928 browser matrix and the full 96/96 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Live-deployment
+results are recorded in `reports/release_batch_928.md` as the release proceeds.
+
 Batch 927 completed PDF page 454, rows 1-23, from **Richard W Stubbs**
 through **Anton M Sturrett**, preserving all 23 printed rows and linking them
 to 23 separate active people. All 23 now have saved terminal research outcomes.
