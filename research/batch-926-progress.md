@@ -110,9 +110,13 @@ Archive location: 230/86/41/05
   suite and 96/96 bounded desktop, phone, tablet and accessibility release
   matrix pass, as do the internal-link check, identifier-redaction audit,
   deterministic consecutive builds and production dependency audit.
-- Publication and unauthenticated deployment verification are pending. Final
-  commit and run identifiers will be recorded in
-  `reports/release_batch_926.md`.
+- Batch 926 is public from immutable content commit
+  `3f3edad4c7613d4855901f29072dabddee14092f`. GitHub Actions Test run
+  `40439709594` and Pages run `40439709563` passed. The unauthenticated
+  deployment verifier matched all 67 assets, eight core routes, 39 source
+  pages and the 22 profiles changed by the evidence bundle to the committed
+  manifest. James M. Strueber's preserved existing profile separately returned
+  HTTP 200. Full details are in `reports/release_batch_926.md`.
 
 ## Resume point
 

@@ -66,6 +66,17 @@ Date: 2026-10-26 America/New_York
 
 ## Publication verification
 
-Publication is pending the immutable content commit, GitHub Actions checks and
-unauthenticated deployment verification. The existing public URL will remain
-<https://therealjameswilson.github.io/before-oss/>.
+- Batch 926 is public from immutable content commit
+  `3f3edad4c7613d4855901f29072dabddee14092f`.
+- GitHub Actions Test run `40439709594` completed successfully, including the
+  147-test Python suite, manifest verification, browser release suite and
+  public-identifier audit.
+- GitHub Pages run `40439709563` completed successfully.
+- The unauthenticated deployment verifier matched all 67 assets and
+  123,371,574 bytes to the committed manifest SHA-256
+  `298bc5879b30beb0ea5e10609eda9e985160f2b3ca09955557d1f810705f8386`.
+  It also verified eight core routes, 39 source-register pages and all 22
+  profiles changed by the evidence bundle. James M. Strueber's preserved
+  existing profile separately returned HTTP 200.
+- The live statistics asset reports the exact release-candidate counts above.
+  Public site: <https://therealjameswilson.github.io/before-oss/>.

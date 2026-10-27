@@ -42,8 +42,12 @@ errors, warnings or hints across 557 checked files and builds 25,144 static
 pages. The 27/27 Batch 926 browser suite and 96/96 bounded desktop, phone,
 tablet and accessibility release matrix pass, as do the internal-link check,
 protected-identifier audit, deterministic consecutive builds and zero-
-vulnerability production dependency audit. Public deployment verification is
-pending; results will be recorded in `reports/release_batch_926.md`.
+vulnerability production dependency audit. Batch 926 is public from immutable
+content commit `3f3edad4c7613d4855901f29072dabddee14092f`. GitHub Actions
+Test run `40439709594` and Pages run `40439709563` passed. The unauthenticated
+verifier matched all 67 assets, eight core routes, 39 source-register pages and
+all 22 profiles changed by the evidence bundle to the committed manifest. See
+`reports/release_batch_926.md`.
 
 Batch 925 completed PDF page 453, rows 1-23, from **Charlie E Stringer**
 through **Bernard E Strozenski**, preserving all 23 printed rows and linking
