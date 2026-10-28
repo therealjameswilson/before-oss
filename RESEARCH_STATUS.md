@@ -1,5 +1,54 @@
 # Research status
 
+Batch 937 completed PDF page 459, rows 1-23, from **Dezso Szenes**
+through **Kengo Tajima**, preserving all 23 printed rows as separate people
+with saved terminal research attempts. Three official Army identity bridges
+were accepted, and no protected identifier is present in tracked evidence or
+public data.
+
+Tadeuss Szumowski is a high-confidence spelling variant of Polish Major
+Tadeusz Szumowski, with a qualified Polish Armed Forces Project Eagle liaison
+pathway into OSS. Anna G. Szynal is a high-confidence identity whose explicit
+Becker College-to-OSS sequence is modeled as student status, not employment.
+Tadami Tachino retains a qualified probable identity and a documented 1942
+Poston Camp 3 translator role presented with wartime-incarceration context.
+Spiros T. Taflambas has waiter work preserved as the last stated civilian
+occupation before his 1942 draft and earlier grocery-delivery work, with no
+employer invented. Spencer L. Taggart has a high-confidence, explicit Justice
+Department Special War Policies Unit and Foreign Agents Registration Section
+pathway to OSS's Foreign Nationalities Branch. Masami Taiji is confirmed in a
+December 1944 Military Intelligence Service Language School class and
+Headquarters Company; his undefined Army occupation code remains
+uninterpreted. Daniel T. Taglia and John S. Tainter retain dated occupation-
+only evidence. The remaining fifteen rows carry explicit Box 762 or 763
+archival-review outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,495/23,936 (60.5573%)**;
+verified-employer coverage is **463/23,936 (1.9343%)**;
+verified-affiliation coverage is **1,025/23,936 (4.2823%)**; archival-review
+coverage is **12,968/23,936 (54.1778%)**. There are **9,436** not-started
+people, **634** possible-duplicate groups and **498** conflicts. Claim
+confidence counts are **1,652 confirmed**, **4,740 high**, **2,127 medium**,
+**252 low**, **419 conflicting** and **2 unresolved**. The public projection
+contains **3,383** affiliations, **1,188** organizations, **5,896** sources and
+**8,934** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 459, row
+24, **John T. Takach**, in Box 763. See `research/batch-937-progress.md` for
+the source-by-source audit.
+
+Batch 937 has passed evidence-schema validation, isolated import replay,
+canonical decision and evidence import, SQLite integrity and foreign-key
+checks, full ingest validation, derived export regeneration, coverage
+reporting, public-data redaction and the 200-profile structural audit. All 147
+Python tests pass. Astro checks 568 files with zero errors, warnings or hints
+and builds 25,172 static pages. The 36/36 Batch 937 browser matrix and full
+105/105 bounded browser and accessibility release suite pass, as do the
+complete internal-link check, protected-identifier audit, checked-in public
+manifest, zero-vulnerability production dependency audit and two
+deterministic consecutive builds. Publication and live verification remain
+the final gates; see `reports/release_batch_937.md`.
+
 Batch 935 completed PDF page 458, rows 1-23, from **Paul M. Sweezy**
 through **Ardeth G. Swoyer**, preserving all 23 printed rows as separate people
 with saved terminal research attempts. Six official Army identity bridges were
