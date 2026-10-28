@@ -37,7 +37,11 @@ pages. The 21/21 Batch 952 browser matrix and full 90/90 bounded browser and
 accessibility release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds.
-Publication verification is pending and will be recorded in
+The release is public from immutable content commit
+`cc70d2fabe3bf7ee7646d030c61dbc055f957d3e`; GitHub Actions Test run
+`40691429472` and Pages run `40691429586` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 952
+profile routes match that commit. Full verification is recorded in
 `reports/release_batch_952.md`.
 
 Batch 951 completed PDF page 466, rows 1-23, from **Austin H Thompson**
