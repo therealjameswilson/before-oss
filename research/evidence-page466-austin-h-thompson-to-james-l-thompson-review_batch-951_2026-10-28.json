@@ -1,0 +1,1233 @@
+{
+  "bundle_version": "batch-951-v1",
+  "reviewer": "Before OSS Batch 951 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b951",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 774",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 466, rows 1-23; checked against layout-preserving text and a 220 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Austin H Thompson and James L Thompson were visually checked as the cohort boundaries; Janet F Thompson is the next row. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b951",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven reviewed Batch 951 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Six identities were accepted; the Frances K./Frank K. Thompson first-name conflict transfers no Army fields."
+    },
+    {
+      "key": "army-tech-b951",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b951",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-174 and 304; reviewed historical categories 0-01, 1-05, 6-98, 7-21, 9-63 and amended 9-92",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels are qualified and never converted into named employers. Students is modeled as status, not employment."
+    },
+    {
+      "key": "new-yorker-benjamin-thompson-b951",
+      "stable_url": "https://www.newyorker.com/magazine/1963/12/28/new-store-2",
+      "archival_identifier": "The New Yorker, Talk of the Town, December 28, 1963",
+      "title": "New Store",
+      "author_creator": "Geoffrey T. Hellman",
+      "repository_publisher": "The New Yorker",
+      "publication_record_date": "1963-12-21",
+      "locator": "Profile of architect Benjamin Thompson; wartime chronology and postwar Architects Collaborative discussion",
+      "access_date": "2026-10-28",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Talk of the Town",
+      "rights_notes": "Retained as a withheld identity lead only. The article describes architect Benjamin Thompson's wartime work but does not connect him to this Box 774 index row."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "austin-h-thompson-occupation-b951",
+      "person_id": "f55c9fe2-2777-5fc4-be9e-66b2879bb6fb",
+      "occupation": "radio or phonograph manufacturing occupation",
+      "relationship_type": "employment",
+      "end_date": "1942-09-01",
+      "date_precision": "Historical category 698 was recorded at Army entry on 1942-09-01; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "edwin-e-thompson-occupation-b951",
+      "person_id": "0cdac249-9664-588b-813d-68ea1649b099",
+      "occupation": "nonprocess manufacturing occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-01-05",
+      "date_precision": "Historical category 963 was recorded at Army entry on 1943-01-05; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "granville-k-thompson-occupation-b951",
+      "person_id": "e6a733b8-2d8b-5c24-8633-ec3eb1f0e966",
+      "occupation": "accountant or auditor",
+      "relationship_type": "employment",
+      "end_date": "1942-10-03",
+      "date_precision": "Historical category 001 was recorded at Army entry on 1942-10-03; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "harry-n-thompson-occupation-b951",
+      "person_id": "d5a4614e-85b1-5e40-8585-00ab8fefbb92",
+      "occupation": "general office clerk",
+      "relationship_type": "employment",
+      "end_date": "1943-05-12",
+      "date_precision": "Historical category 105 was recorded at Army entry on 1943-05-12; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "james-c-thompson-occupation-b951",
+      "person_id": "f0db9336-3497-5723-94f6-92133e1dc79d",
+      "occupation": "miner or mining-machine operator",
+      "relationship_type": "employment",
+      "end_date": "1942-07-20",
+      "date_precision": "Historical category 721 was recorded at Army entry on 1942-07-20; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "james-l-thompson-occupation-b951",
+      "person_id": "f0cccd89-8310-5e42-82ba-e2427ca4433a",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1944-10-20",
+      "date_precision": "Historical category 992 was recorded at Army entry on 1944-10-20; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-austin-h-thompson-b951",
+      "person_id": "f55c9fe2-2777-5fc4-be9e-66b2879bb6fb",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Austin H Thompson is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the name is exact or suffix-compatible.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus name agreement.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 1; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b951",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-austin-h-thompson-b951",
+      "person_id": "f55c9fe2-2777-5fc4-be9e-66b2879bb6fb",
+      "affiliation_key": "austin-h-thompson-occupation-b951",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-01, Austin H Thompson's record carried the historical civilian-occupation category Occupations in manufacture of radios and phonographs; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 698; the visually reviewed NARA code list expands it as Occupations in manufacture of radios and phonographs.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No workplace, employer or school is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Army entry 1942-09-01; code 698; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b951",
+          "locator_override": "PDF physical page 174; historical category 6-98"
+        }
+      ]
+    },
+    {
+      "key": "identity-edwin-e-thompson-b951",
+      "person_id": "0cdac249-9664-588b-813d-68ea1649b099",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Edwin E Thompson is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the name is exact or suffix-compatible.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus name agreement.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 11; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b951",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-edwin-e-thompson-b951",
+      "person_id": "0cdac249-9664-588b-813d-68ea1649b099",
+      "affiliation_key": "edwin-e-thompson-occupation-b951",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-05, Edwin E Thompson's record carried the historical civilian-occupation category Nonprocess occupations in manufacturing, n.e.c.; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 963; the visually reviewed NARA code list expands it as Nonprocess occupations in manufacturing, n.e.c..",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No workplace, employer or school is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Army entry 1943-01-05; code 963; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b951",
+          "locator_override": "PDF physical page 174; historical category 9-63"
+        }
+      ]
+    },
+    {
+      "key": "identity-granville-k-thompson-b951",
+      "person_id": "e6a733b8-2d8b-5c24-8633-ec3eb1f0e966",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Granville K Thompson is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the name is exact or suffix-compatible.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus name agreement.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 18; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b951",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-granville-k-thompson-b951",
+      "person_id": "e6a733b8-2d8b-5c24-8633-ec3eb1f0e966",
+      "affiliation_key": "granville-k-thompson-occupation-b951",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-03, Granville K Thompson's record carried the historical civilian-occupation category Accountants and auditors; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 001; the visually reviewed NARA code list expands it as Accountants and auditors.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No workplace, employer or school is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Army entry 1942-10-03; code 001; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b951",
+          "locator_override": "PDF physical page 170; historical category 0-01"
+        }
+      ]
+    },
+    {
+      "key": "identity-harry-n-thompson-b951",
+      "person_id": "d5a4614e-85b1-5e40-8585-00ab8fefbb92",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry N Thompson is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the name is exact or suffix-compatible.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus name agreement.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 19; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b951",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-harry-n-thompson-b951",
+      "person_id": "d5a4614e-85b1-5e40-8585-00ab8fefbb92",
+      "affiliation_key": "harry-n-thompson-occupation-b951",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-12, Harry N Thompson's record carried the historical civilian-occupation category Clerks, general office; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 105; the visually reviewed NARA code list expands it as Clerks, general office.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No workplace, employer or school is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Army entry 1943-05-12; code 105; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b951",
+          "locator_override": "PDF physical page 171; historical category 1-05"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-c-thompson-b951",
+      "person_id": "f0db9336-3497-5723-94f6-92133e1dc79d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James C Thompson is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the name is exact or suffix-compatible.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus name agreement.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 21; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b951",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-c-thompson-b951",
+      "person_id": "f0db9336-3497-5723-94f6-92133e1dc79d",
+      "affiliation_key": "james-c-thompson-occupation-b951",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-20, James C Thompson's record carried the historical civilian-occupation category Miners and mining-machine operators; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 721; the visually reviewed NARA code list expands it as Miners and mining-machine operators.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No workplace, employer or school is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Army entry 1942-07-20; code 721; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b951",
+          "locator_override": "PDF physical page 174; historical category 7-21"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-l-thompson-b951",
+      "person_id": "f0cccd89-8310-5e42-82ba-e2427ca4433a",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James L Thompson is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the name is exact or suffix-compatible.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus name agreement.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 23; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b951",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-l-thompson-b951",
+      "person_id": "f0cccd89-8310-5e42-82ba-e2427ca4433a",
+      "affiliation_key": "james-l-thompson-occupation-b951",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1944-10-20, James L Thompson was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official bulk record supplies code 992; the visually reviewed NARA code list expands it as Students.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No workplace, employer or school is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b951",
+          "locator_override": "Army entry 1944-10-20; code 992; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b951",
+          "locator_override": "PDF physical page 304; amended historical category 9-92"
+        }
+      ]
+    },
+    {
+      "key": "conflict-frances-k-thompson-army-b951",
+      "person_id": "fce5601f-6e15-5c10-b409-54e8cc056310",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Frances K. Thompson row is not assigned to the reviewed Frank K. Thompson Army record despite the private identifier collision.",
+      "evidence_paraphrase": "The protected identifier points to an Army record whose first name materially differs, so no Army field is transferred.",
+      "identity_match_assessment": "Conflicting: the private identifier agrees but Frances and Frank materially disagree.",
+      "temporal_assessment": "No Army occupation, grade or affiliation is transferred until the Box 774 file resolves the collision.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflict remains visible and is not silently corrected or used as biographical evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b951",
+          "locator_override": "PDF page 466 row 15; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b951",
+          "support_type": "contradicts",
+          "locator_override": "Reviewed candidate prints Frank K Thompson; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "candidate-benjamin-c-thompson-architect-b951",
+      "person_id": "6afbec90-7296-5481-87e1-da8b070b1b0a",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Architect Benjamin C. Thompson is a plausible but unconfirmed candidate for the indexed Benjamin C. Thompson.",
+      "evidence_paraphrase": "A contemporary profile describes the architect's Navy and OSS service, construction work and Corps of Engineers camouflage work, but supplies no Box 774 or protected-identifier bridge.",
+      "identity_match_assessment": "Ambiguous: exact name and OSS context agree, but the common name and index row lack two corroborating identifiers.",
+      "temporal_assessment": "The candidate biography has a wartime chronology, but none may be transferred to the indexed person until identity is resolved.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Withheld from public facts and analytics; review Box 774 for birth, education, branch or assignment evidence.",
+      "sources": [
+        {
+          "source_key": "new-yorker-benjamin-thompson-b951",
+          "locator_override": "1963 profile of architect Benjamin Thompson"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a0e9c855-9fee-5c71-a947-e1d0695fb408",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles D Thompson, Box 774 and archive location 230/86/42/01. The common name produced no OSS, Box 774 or corroborating identity bridge and no reliable pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e03b71e1-6c88-59a1-9c07-b256281029e4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles F Thompson, Box 774 and archive location 230/86/42/01. Exact-name, military, obituary and institutional searches produced multiple namesakes but no defensible OSS identity or pre-OSS chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81c0c7d6-e51d-562c-8c38-9972623903d4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles L Thompson, Box 774 and archive location 230/86/42/01. Common-name results lacked a protected-identifier, Box-file or dated OSS bridge and were not assigned.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "db6bea42-64d8-585e-8a86-f8903b4e82b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles W Thompson, Box 774 and archive location 230/86/42/01. Exact-name and meaningful-variant searches produced unbridged namesakes but no reliable pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ccf7ae6b-eb61-513b-9de4-ca9277c7d0de",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Cynthia N Thompson, Box 774 and archive location 230/86/42/01. Exact-name, official-domain, obituary and institutional searches did not identify the indexed person or a dated pre-OSS role.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7a4b4ec6-23bc-5b2a-8e51-5d65b4d1acc6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Cyril S Thompson, Box 774 and archive location 230/86/42/01. The distinctive initialed name produced no defensible OSS identity or employment result in the accessible sources reviewed.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fded3f72-83b3-5b17-ab28-8a73540cf94b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Delwyn D Thompson, Box 774 and archive location 230/86/42/01. Exact-name and variant searches produced no reliable identity, occupation or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "14bfb168-2e53-533d-8a22-a8175b17242a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward A Thompson, Box 774 and archive location 230/86/42/01. Common-name military, obituary and directory candidates lacked two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9608cf06-262b-5edf-aea2-89da1577571c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elise E Thompson, Box 774 and archive location 230/86/42/01. Exact-name, official-domain and institutional searches produced no reliable OSS identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d8a352b-6619-5971-98c1-f6b1c07e01e7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Esther V Thompson, Box 774 and archive location 230/86/42/01. Exact-name, obituary, directory and archival searches did not distinguish the indexed person from namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4a3cde62-0215-518b-80e2-9420cf1389c4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Eugene K Thompson, Box 774 and archive location 230/86/42/01. Exact-name and employment-focused searches produced no defensible OSS identity or dated pre-OSS employer evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c5512256-75fe-57f8-9813-8ef2c96962f2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frances M Thompson, Box 774 and archive location 230/86/42/01. Exact-name and meaningful-variant searches produced namesakes without an OSS, Box-file or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da533eb3-42a9-5d6a-b1ba-d3d357b795f0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Genevieve Thompson, Box 774 and archive location 230/86/42/01. The initial-free common name produced historical namesakes but no corroborating OSS identity or pre-OSS chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "901fbd46-4d5b-5a72-92c8-3a10d537d05e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James W Thompson, Box 774 and archive location 230/86/42/01. Common-name exact and variant searches did not establish a unique indexed person or reliable pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "90ee0049-4953-5278-b942-fc960e8cf0c0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James H Thompson, Box 774 and archive location 230/86/42/01. Common-name military, obituary and institutional candidates lacked an OSS, Box-file or corroborating identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 774 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f55c9fe2-2777-5fc4-be9e-66b2879bb6fb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Austin H Thompson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 774 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace or school.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0cdac249-9664-588b-813d-68ea1649b099",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Edwin E Thompson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 774 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace or school.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e6a733b8-2d8b-5c24-8633-ec3eb1f0e966",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Granville K Thompson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 774 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace or school.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d5a4614e-85b1-5e40-8585-00ab8fefbb92",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Harry N Thompson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 774 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace or school.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Harry N Thompson Jr"
+      ]
+    },
+    {
+      "person_id": "f0db9336-3497-5723-94f6-92133e1dc79d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified James C Thompson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 774 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace or school.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f0cccd89-8310-5e42-82ba-e2427ca4433a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified James L Thompson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 774 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace or school.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6afbec90-7296-5481-87e1-da8b070b1b0a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Architect Benjamin C. Thompson is a plausible exact-name OSS candidate, but the index supplies no rank or public identifier and the contemporary profile supplies no Box 774 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 774 for birth date, education, naval assignment or OSS Presentation Branch evidence before transferring the architect's construction or Corps of Engineers chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fce5601f-6e15-5c10-b409-54e8cc056310",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index prints Frances K. Thompson, while the reviewed Army row linked by the private identifier prints Frank K. Thompson. The first-name collision is preserved and no Army fields are transferred.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 774 personnel file and original Army source together to resolve the identifier/name collision before assigning any occupation or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page466-row1-austin-h-thompson-b951",
+      "person_id": "f55c9fe2-2777-5fc4-be9e-66b2879bb6fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Austin H Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category without naming an employer or school. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row2-benjamin-c-thompson-b951",
+      "person_id": "6afbec90-7296-5481-87e1-da8b070b1b0a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benjamin C Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Architect Benjamin C. Thompson is an exact-name OSS candidate whose contemporary profile supplies a detailed wartime chronology, but no second indexed identifier or Box 774 bridge supports assignment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row3-charles-d-thompson-b951",
+      "person_id": "a0e9c855-9fee-5c71-a947-e1d0695fb408",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles D Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "The common name produced no OSS, Box 774 or corroborating identity bridge and no reliable pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row4-charles-f-thompson-b951",
+      "person_id": "e03b71e1-6c88-59a1-9c07-b256281029e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles F Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name, military, obituary and institutional searches produced multiple namesakes but no defensible OSS identity or pre-OSS chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row5-charles-l-thompson-b951",
+      "person_id": "81c0c7d6-e51d-562c-8c38-9972623903d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles L Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Common-name results lacked a protected-identifier, Box-file or dated OSS bridge and were not assigned. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row6-charles-w-thompson-b951",
+      "person_id": "db6bea42-64d8-585e-8a86-f8903b4e82b4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles W Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name and meaningful-variant searches produced unbridged namesakes but no reliable pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row7-cynthia-n-thompson-b951",
+      "person_id": "ccf7ae6b-eb61-513b-9de4-ca9277c7d0de",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Cynthia N Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name, official-domain, obituary and institutional searches did not identify the indexed person or a dated pre-OSS role. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row8-cyril-s-thompson-b951",
+      "person_id": "7a4b4ec6-23bc-5b2a-8e51-5d65b4d1acc6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Cyril S Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "The distinctive initialed name produced no defensible OSS identity or employment result in the accessible sources reviewed. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row9-delwyn-d-thompson-b951",
+      "person_id": "fded3f72-83b3-5b17-ab28-8a73540cf94b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Delwyn D Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name and variant searches produced no reliable identity, occupation or employer bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row10-edward-a-thompson-b951",
+      "person_id": "14bfb168-2e53-533d-8a22-a8175b17242a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward A Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Common-name military, obituary and directory candidates lacked two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row11-edwin-e-thompson-b951",
+      "person_id": "0cdac249-9664-588b-813d-68ea1649b099",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edwin E Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category without naming an employer or school. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row12-elise-e-thompson-b951",
+      "person_id": "9608cf06-262b-5edf-aea2-89da1577571c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elise E Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name, official-domain and institutional searches produced no reliable OSS identity or pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row13-esther-v-thompson-b951",
+      "person_id": "4d8a352b-6619-5971-98c1-f6b1c07e01e7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Esther V Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name, obituary, directory and archival searches did not distinguish the indexed person from namesakes. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row14-eugene-k-thompson-b951",
+      "person_id": "4a3cde62-0215-518b-80e2-9420cf1389c4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eugene K Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name and employment-focused searches produced no defensible OSS identity or dated pre-OSS employer evidence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row15-frances-k-thompson-b951",
+      "person_id": "fce5601f-6e15-5c10-b409-54e8cc056310",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frances K Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "The protected identifier points to Frank K. Thompson while the index prints Frances K. Thompson; the first-name conflict is preserved and no Army field is transferred. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row16-frances-m-thompson-b951",
+      "person_id": "c5512256-75fe-57f8-9813-8ef2c96962f2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frances M Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Exact-name and meaningful-variant searches produced namesakes without an OSS, Box-file or protected-identifier bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row17-genevieve-thompson-b951",
+      "person_id": "da533eb3-42a9-5d6a-b1ba-d3d357b795f0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Genevieve Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "The initial-free common name produced historical namesakes but no corroborating OSS identity or pre-OSS chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row18-granville-k-thompson-b951",
+      "person_id": "e6a733b8-2d8b-5c24-8633-ec3eb1f0e966",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Granville K Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category without naming an employer or school. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row19-harry-n-thompson-b951",
+      "person_id": "d5a4614e-85b1-5e40-8585-00ab8fefbb92",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry N Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category without naming an employer or school. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row20-james-w-thompson-b951",
+      "person_id": "901fbd46-4d5b-5a72-92c8-3a10d537d05e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James W Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Common-name exact and variant searches did not establish a unique indexed person or reliable pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row21-james-c-thompson-b951",
+      "person_id": "f0db9336-3497-5723-94f6-92133e1dc79d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James C Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category without naming an employer or school. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row22-james-h-thompson-b951",
+      "person_id": "90ee0049-4953-5278-b942-fc960e8cf0c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James H Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "Common-name military, obituary and institutional candidates lacked an OSS, Box-file or corroborating identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    },
+    {
+      "key": "page466-row23-james-l-thompson-b951",
+      "person_id": "f0cccd89-8310-5e42-82ba-e2427ca4433a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James L Thompson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 774; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_951",
+      "started_at": "2026-10-28T12:00:00Z",
+      "completed_at": "2026-10-28T15:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. A Granville Kirby Thompson who died in 1935 was rejected as chronologically impossible. The Benjamin Thompson architect biography remains a withheld lead only.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category without naming an employer or school. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index and admitted Army and code-list sources were visually reviewed. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 774 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b951-v1"
+    }
+  ]
+}

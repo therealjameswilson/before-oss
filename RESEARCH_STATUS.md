@@ -1,5 +1,48 @@
 # Research status
 
+Batch 951 completed PDF page 466, rows 1-23, from **Austin H Thompson**
+through **James L Thompson**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes. Six Army identities have accepted,
+private identifier bridges. Austin H, Edwin E, Granville K, Harry N and James
+C Thompson receive qualified dated occupation categories without named
+employers or workplaces; James L Thompson receives qualified student status
+without a named school. None is promoted to an immediate OSS predecessor.
+
+Frances K Thompson remains conflicting because the protected identifier points
+to an Army record for Frank K Thompson; no Army field was transferred across
+the name disagreement. Architect Benjamin C Thompson remains a low-confidence,
+withheld namesake candidate because the contemporary source does not bridge
+the common name to the Box 774 file. Fifteen other people retain explicit Box
+774 archival-review outcomes. No authenticated NARA Catalog API request was
+used, and no protected identifier appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,813/23,936 (61.8859%)**;
+verified-employer coverage is **471/23,936 (1.9677%)**;
+verified-affiliation coverage is **1,050/23,936 (4.3867%)**; archival-review
+coverage is **13,288/23,936 (55.5147%)**. There are **9,118** not-started
+people, **648** possible-duplicate groups and **513** conflicts. Claim
+confidence counts are **1,662 confirmed**, **4,881 high**, **2,235 medium**,
+**253 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,520** affiliations, **1,209** organizations, **6,032** sources and
+**9,203** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 466, row
+24, **Janet F Thompson**, in Box 774. See `research/batch-951-progress.md` for
+the source-by-source audit.
+
+Batch 951 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 582 files
+with zero errors, warnings or hints and builds 25,194 static pages. The 21/21
+Batch 951 browser matrix and full 90/90 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication
+verification will be recorded in `reports/release_batch_951.md` after the
+immutable release is live.
+
 Batch 950 completed PDF page 465, rows 24-46, from **Lewis V Thomas**
 through **Allen J Thompson**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes. Lorres C Thomas is confirmed as Lorres
