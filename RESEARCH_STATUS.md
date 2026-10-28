@@ -1,5 +1,45 @@
 # Research status
 
+Batch 952 completed PDF page 466, rows 24-46, from **Janet F Thompson**
+through **Theodore J Thompson**, preserving all 23 printed rows as separate
+people with saved terminal research outcomes. Paul A Thompson has an accepted
+private identifier bridge and a qualified dated Machinists occupation category
+without a named employer, workplace or immediate OSS predecessor.
+
+Folklorist Nancy Sweezy, born Nancy Thompson, remains a low-confidence,
+withheld candidate because the common-name Box 775 row lacks a second
+corroborating selector. Candidate aliases and art-school history are not
+assigned to the indexed person. Twenty-one other people retain explicit Box
+774 or 775 archival-review outcomes. No authenticated NARA Catalog API request
+was used, and no protected identifier appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,835/23,936 (61.9778%)**;
+verified-employer coverage is **471/23,936 (1.9677%)**;
+verified-affiliation coverage is **1,050/23,936 (4.3867%)**; archival-review
+coverage is **13,311/23,936 (55.6108%)**. There are **9,096** not-started
+people, **648** possible-duplicate groups and **513** conflicts. Claim
+confidence counts are **1,662 confirmed**, **4,882 high**, **2,236 medium**,
+**254 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,521** affiliations, **1,209** organizations, **6,036** sources and
+**9,205** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 467, row
+1, **William J Thompson**, in Box 775. See `research/batch-952-progress.md` for
+the source-by-source audit.
+
+Batch 952 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests and 84 subtests pass. Astro
+checks 583 files with zero errors, warnings or hints and builds 25,194 static
+pages. The 21/21 Batch 952 browser matrix and full 90/90 bounded browser and
+accessibility release suite pass, as do the complete internal-link check,
+protected-identifier audit, checked-in public manifest, zero-vulnerability
+production dependency audit and two deterministic consecutive builds.
+Publication verification is pending and will be recorded in
+`reports/release_batch_952.md`.
+
 Batch 951 completed PDF page 466, rows 1-23, from **Austin H Thompson**
 through **James L Thompson**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes. Six Army identities have accepted,
