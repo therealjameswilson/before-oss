@@ -1,0 +1,1569 @@
+{
+  "bundle_version": "batch-941-v1",
+  "reviewer": "Before OSS Batch 941 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b941",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 765-766",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 461, rows 1-23; checked against layout-preserving text and a 300 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full protected identifiers remain private. Bernard Tatz on page 461 row 24 was checked as the next boundary."
+    },
+    {
+      "key": "army-bulk-b941",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight reviewed Batch 941 identity bridges; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Coded occupations identify no employer or workplace."
+    },
+    {
+      "key": "army-tech-b941",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b941",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-175; historical categories 0-04, 0-50, 1-75, 2-27, 4-97, 7-21, 7-36 and 7-88",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels identify neither employers nor workplaces."
+    },
+    {
+      "key": "oss-greek-desk-targakis-b941",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%206-144%20Corfu%2C%20OSS%20Missions%2C%20Gorgon%2C%20Molossos%2C%20EAM-ELAS%2C%20EDES%2C%20Food%20Shortages%2C%20%5B17%20pgs%5D%20226-210-WN9123%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226, Entry 210, WN9123 (Admin)",
+      "title": "Progress Report of Greek Desk, 1-15 October 1944",
+      "author_creator": "James H. Oliver, Head of Greek Desk, Company B, 2677th Regiment OSS (Provisional)",
+      "repository_publisher": "Hellenic Literary and Historical Archive (ELIA-MIET)",
+      "publication_record_date": "1944-10-15",
+      "locator": "PDF physical page 16; Gorgon Mission report names T/4 Sgt. John Targakis",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Office of Strategic Services records concerning Greece",
+      "rights_notes": "The original wartime report page was rendered and visually inspected. It cannot determine which of two identical index rows represents the named person."
+    },
+    {
+      "key": "cia-oss-me-solon-tate-b941",
+      "stable_url": "https://www.cia.gov/readingroom/docs/BISHOP%2C%20ROBERT_0060.pdf",
+      "archival_identifier": "CIA FOIA OSS Collection, BISHOP, ROBERT_0060",
+      "title": "Assignment of Qualified Personnel to OSS-ME Parachute Unit",
+      "author_creator": "Office of Strategic Services, U.S. Army Forces in the Middle East",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1944-07-01",
+      "locator": "PDF page 1; M Sgt. Solon H. Tate, SI branch, parachute training completed 5 April 1944; protected identifier withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "rights_notes": "The Reading Room's indexed document text was inspected in context. The exact protected identifier is used privately to distinguish the second index row and is excluded from public project data."
+    },
+    {
+      "key": "anpi-ennio-tassinari-b941",
+      "stable_url": "https://www.anpimodena.it/wp-content/uploads/2015/02/2012-dicembre.pdf",
+      "title": "La guerra sulla pelle: Libro intervista a Ennio Tassinari, agente dell'ORI",
+      "repository_publisher": "ANPI Provinciale di Modena, Resistenza & Antifascismo Oggi",
+      "publication_record_date": "2012-12",
+      "locator": "PDF physical page 14; printed page 14",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Resistenza & Antifascismo Oggi, anno XXIII, n. 5",
+      "rights_notes": "The full page was rendered and visually inspected; only project-authored paraphrases and a minimal excerpt are retained."
+    },
+    {
+      "key": "siusa-ori-tassinari-b941",
+      "stable_url": "https://siusa-archivi.cultura.gov.it/cgi-bin/siusa/pagina.pl?Chiave=600526&TipoPag=comparc",
+      "archival_identifier": "SIUSA complex fonds key 600526",
+      "title": "Organizzazione della Resistenza italiana - ORI. Radio Zella",
+      "author_creator": "Sistema Informativo Unificato per le Soprintendenze Archivistiche",
+      "repository_publisher": "Ministero della Cultura, Direzione generale Archivi",
+      "locator": "Fonds history; Ennio Tassinari's 1989 donation and ORI relations with the American OSS",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Archivi storici in Emilia-Romagna",
+      "rights_notes": "Official archival finding-aid context corroborates the person and organization; the ANPI chronology supports the transition claim."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-existing-b941",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused."
+    },
+    {
+      "key": "ori-b941",
+      "canonical_name": "Organizzazione della Resistenza Italiana",
+      "historical_name": "Organizzazione Resistenza Italiana (ORI)",
+      "aliases": [
+        "ORI",
+        "Organizzazione per la Resistenza Italiana"
+      ],
+      "organization_type": "Italian resistance and Allied liaison organization",
+      "sector": "unknown",
+      "country": "Italy",
+      "active_dates": "1943-1945",
+      "normalization_notes": "The historical organization remains separate from OSS; sources describe ORI as later incorporated into or placed within OSS."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "louis-tarmina-occupation-b941",
+      "person_id": "b2496d1b-8659-59c1-aec5-e161411e8658",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "employment",
+      "end_date": "1943-07-13",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1943-07-13; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "louis-j-taschler-occupation-b941",
+      "person_id": "7f2e7c76-8491-5d90-8a2b-51142cb65c5a",
+      "occupation": "Electricians",
+      "relationship_type": "employment",
+      "end_date": "1942-09-03",
+      "date_precision": "Historical civilian-occupation code 497 was recorded at Army entry on 1942-09-03; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "yukio-tashiro-occupation-b941",
+      "person_id": "dfbbbfd1-a918-5fcc-87d8-82738ce676cf",
+      "occupation": "Artists, sculptors, and teachers of art",
+      "relationship_type": "employment",
+      "end_date": "1942-01-27",
+      "date_precision": "Historical civilian-occupation code 004 was recorded at Army entry on 1942-01-27; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "milton-v-tassi-occupation-b941",
+      "person_id": "4b1ae1aa-6a3e-5488-92d2-413e9ee234c3",
+      "occupation": "Warehousing, storekeeping, handling, loading, unloading, and related occupations",
+      "relationship_type": "employment",
+      "end_date": "1943-05-11",
+      "date_precision": "Historical civilian-occupation code 788 was recorded at Army entry on 1943-05-11; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "oliver-tassotti-occupation-b941",
+      "person_id": "73fd75bd-2d47-50a6-938b-485e9f221a78",
+      "occupation": "Miners and mining-machine operators",
+      "relationship_type": "employment",
+      "end_date": "1942-04-01",
+      "date_precision": "Historical civilian-occupation code 721 was recorded at Army entry on 1942-04-01; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "rudolf-tate-occupation-b941",
+      "person_id": "fca8f7fa-627c-519c-ac48-9cefd40458b8",
+      "occupation": "Waiters and waitresses, except private family",
+      "relationship_type": "employment",
+      "end_date": "1941-09-24",
+      "date_precision": "Historical civilian-occupation code 227 was recorded at Army entry on 1941-09-24; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "solon-h-tate-occupation-b941",
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "occupation": "Salespersons",
+      "relationship_type": "employment",
+      "end_date": "1940-10-01",
+      "date_precision": "Historical civilian-occupation code 175 was recorded at Army entry on 1940-10-01; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "jack-h-tattersall-occupation-b941",
+      "person_id": "18db0105-4a8b-59d3-9b1e-a1425b21307e",
+      "occupation": "Laboratory technicians and assistants",
+      "relationship_type": "employment",
+      "end_date": "1942-11-27",
+      "date_precision": "Historical civilian-occupation code 050 was recorded at Army entry on 1942-11-27; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "ennio-tassinari-ori-b941",
+      "person_id": "a52e7b76-189c-5a38-a441-de5a0e856b8a",
+      "organization_key": "ori-b941",
+      "organization_name_as_found": "ORI, Organizzazione Resistenza Italiana",
+      "role_title": "ORI agent and participant in the organization's formation",
+      "occupation": "resistance liaison and field agent",
+      "relationship_type": "volunteer",
+      "start_date": "1943-09",
+      "end_date": "1944-03",
+      "date_precision": "The institutional account dates Tassinari's arrival among the Allies and participation in ORI's formation after 8 September 1943, followed by OSS training and a March 1944 mission.",
+      "city": "Naples and Pozzuoli",
+      "country": "Italy",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "ORI is an institutional and resistance affiliation, not a civilian employer. The source explicitly states that ORI was later incorporated into OSS."
+    },
+    {
+      "key": "solon-h-tate-us-army-b941",
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "organization_key": "us-army-existing-b941",
+      "organization_name_as_found": "U.S. Army Forces in the Middle East",
+      "role_title": "Master sergeant, SI branch; OSS-ME Parachute Unit",
+      "occupation": "Army enlisted service",
+      "relationship_type": "military_assignment",
+      "start_date": "1940-10-01",
+      "end_date": "1944-07-01",
+      "date_precision": "The Army record dates entry; the direct OSS-ME order of 1 July 1944 places the same identified soldier on parachute duty with the OSS-ME unit.",
+      "city": "Cairo",
+      "country": "Egypt",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Modeled as the best-supported Army-to-OSS military pathway, not as civilian employment. The separately indexed Solon H. Tate row has a different protected identifier and receives no copied claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-louis-tarmina-b941",
+      "person_id": "b2496d1b-8659-59c1-aec5-e161411e8658",
+      "claim_type": "identity",
+      "claim_text": "The indexed Louis Tarmina row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 5; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-louis-j-taschler-b941",
+      "person_id": "7f2e7c76-8491-5d90-8a2b-51142cb65c5a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Louis J Taschler row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 10; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-yukio-tashiro-b941",
+      "person_id": "dfbbbfd1-a918-5fcc-87d8-82738ce676cf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Yukio Tashiro row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and a close documented name variant.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-milton-v-tassi-b941",
+      "person_id": "4b1ae1aa-6a3e-5488-92d2-413e9ee234c3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Milton V Tassi row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 13; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-oliver-tassotti-b941",
+      "person_id": "73fd75bd-2d47-50a6-938b-485e9f221a78",
+      "claim_type": "identity",
+      "claim_text": "The indexed Oliver Tassotti row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 17; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-rudolf-tate-b941",
+      "person_id": "fca8f7fa-627c-519c-ac48-9cefd40458b8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rudolf Tate row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and a close documented name variant.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 18; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-solon-h-tate-b941",
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "claim_type": "identity",
+      "claim_text": "The indexed Solon H Tate row is a confirmed match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record and a direct OSS-ME order.",
+      "identity_match_assessment": "Confirmed by exact name and protected identifier in two independent official records.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 20; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "cia-oss-me-solon-tate-b941",
+          "locator_override": "PDF page 1; exact name and protected identifier; identifier withheld",
+          "excerpt_override": "M Sgt Solon H Tate"
+        }
+      ]
+    },
+    {
+      "key": "identity-jack-h-tattersall-b941",
+      "person_id": "18db0105-4a8b-59d3-9b1e-a1425b21307e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jack H Tattersall row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; the OSS transfer sequence is established only for the second Solon H. Tate row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 23; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-louis-tarmina-b941",
+      "person_id": "b2496d1b-8659-59c1-aec5-e161411e8658",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-13, Louis Tarmina was recorded in the historical chauffeurs and drivers, bus, taxi, truck, and tractor category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 174; historical category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ],
+      "affiliation_key": "louis-tarmina-occupation-b941"
+    },
+    {
+      "key": "occupation-louis-j-taschler-b941",
+      "person_id": "7f2e7c76-8491-5d90-8a2b-51142cb65c5a",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-03, Louis J Taschler was recorded in the historical electricians category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 497, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 497; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 174; historical category 4-97",
+          "excerpt_override": "Electricians"
+        }
+      ],
+      "affiliation_key": "louis-j-taschler-occupation-b941"
+    },
+    {
+      "key": "occupation-yukio-tashiro-b941",
+      "person_id": "dfbbbfd1-a918-5fcc-87d8-82738ce676cf",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-27, Yukio Tashiro was recorded in the historical artists, sculptors, and teachers of art category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 004, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 004; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 170; historical category 0-04",
+          "excerpt_override": "Artists, sculptors, and teachers of art"
+        }
+      ],
+      "affiliation_key": "yukio-tashiro-occupation-b941"
+    },
+    {
+      "key": "occupation-milton-v-tassi-b941",
+      "person_id": "4b1ae1aa-6a3e-5488-92d2-413e9ee234c3",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-11, Milton V Tassi was recorded in the historical warehousing, storekeeping, handling, loading, unloading, and related occupations category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 788, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 788; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 175; historical category 7-88",
+          "excerpt_override": "Warehousing, storekeeping, handling, loading, unloading, and related occupations"
+        }
+      ],
+      "affiliation_key": "milton-v-tassi-occupation-b941"
+    },
+    {
+      "key": "occupation-oliver-tassotti-b941",
+      "person_id": "73fd75bd-2d47-50a6-938b-485e9f221a78",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-01, Oliver Tassotti was recorded in the historical miners and mining-machine operators category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 721, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 721; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 174; historical category 7-21",
+          "excerpt_override": "Miners and mining-machine operators"
+        }
+      ],
+      "affiliation_key": "oliver-tassotti-occupation-b941"
+    },
+    {
+      "key": "occupation-rudolf-tate-b941",
+      "person_id": "fca8f7fa-627c-519c-ac48-9cefd40458b8",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-09-24, Rudolf Tate was recorded in the historical waiters and waitresses, except private family category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 227, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 227; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 172; historical category 2-27",
+          "excerpt_override": "Waiters and waitresses, except private family"
+        }
+      ],
+      "affiliation_key": "rudolf-tate-occupation-b941"
+    },
+    {
+      "key": "occupation-solon-h-tate-b941",
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1940-10-01, Solon H Tate was recorded in the historical salespersons category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 175, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 175; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 171; historical category 1-75",
+          "excerpt_override": "Salespersons"
+        }
+      ],
+      "affiliation_key": "solon-h-tate-occupation-b941"
+    },
+    {
+      "key": "occupation-jack-h-tattersall-b941",
+      "person_id": "18db0105-4a8b-59d3-9b1e-a1425b21307e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-27, Jack H Tattersall was recorded in the historical laboratory technicians and assistants category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 050, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 050; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b941",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b941",
+          "locator_override": "PDF physical page 171; historical category 0-50",
+          "excerpt_override": "Laboratory technicians and assistants"
+        }
+      ],
+      "affiliation_key": "jack-h-tattersall-occupation-b941"
+    },
+    {
+      "key": "conflict-john-targakis-row3-b941",
+      "person_id": "72293415-151b-59ef-a265-187a0142a5d2",
+      "claim_type": "identity",
+      "claim_text": "A direct OSS Greek Desk report names T/4 Sgt. John Targakis, but the index contains two identical John Targakis rows and the report cannot select between them.",
+      "evidence_paraphrase": "The October 1944 report places John Targakis with the Gorgon Mission and describes his Corfu liaison work.",
+      "identity_match_assessment": "Ambiguous because both Box 766 index rows carry the same printed name and no distinguishing identifier.",
+      "temporal_assessment": "The report is contemporaneous OSS evidence but does not establish a pre-OSS affiliation or resolve the duplicate rows.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows remain separate in one possible-duplicate group pending joint Box 766 review. No mission evidence is copied as a settled identity or pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 3; one of two identical printed rows"
+        },
+        {
+          "source_key": "oss-greek-desk-targakis-b941",
+          "locator_override": "PDF physical page 16",
+          "excerpt_override": "T/4 Sgt. John Targakis"
+        }
+      ]
+    },
+    {
+      "key": "conflict-john-targakis-row4-b941",
+      "person_id": "486a3afa-aa1c-57ff-9741-24860b997a7c",
+      "claim_type": "identity",
+      "claim_text": "A direct OSS Greek Desk report names T/4 Sgt. John Targakis, but the index contains two identical John Targakis rows and the report cannot select between them.",
+      "evidence_paraphrase": "The October 1944 report places John Targakis with the Gorgon Mission and describes his Corfu liaison work.",
+      "identity_match_assessment": "Ambiguous because both Box 766 index rows carry the same printed name and no distinguishing identifier.",
+      "temporal_assessment": "The report is contemporaneous OSS evidence but does not establish a pre-OSS affiliation or resolve the duplicate rows.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows remain separate in one possible-duplicate group pending joint Box 766 review. No mission evidence is copied as a settled identity or pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 4; one of two identical printed rows"
+        },
+        {
+          "source_key": "oss-greek-desk-targakis-b941",
+          "locator_override": "PDF physical page 16",
+          "excerpt_override": "T/4 Sgt. John Targakis"
+        }
+      ]
+    },
+    {
+      "key": "identity-ennio-tassinari-b941",
+      "person_id": "a52e7b76-189c-5a38-a441-de5a0e856b8a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Ennio Tassinari is a high-confidence match to the Italian ORI/OSS resistance agent documented by ANPI and Italy's official archival information system.",
+      "evidence_paraphrase": "The distinctive exact name, Italian-citizen index note, wartime chronology and official ORI fonds description align.",
+      "identity_match_assessment": "High confidence from a distinctive exact name and mutually reinforcing institutional and official archival evidence.",
+      "temporal_assessment": "The sources date his antifascist activity, ORI formation, OSS training and first mission from 1940 through March 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index wording remains unchanged; foreign-national status and ORI affiliation do not imply commissioned-officer status.",
+      "sources": [
+        {
+          "source_key": "nara-index-b941",
+          "locator_override": "PDF page 461 row 15; note preserved as printed: Italian Ci"
+        },
+        {
+          "source_key": "anpi-ennio-tassinari-b941",
+          "locator_override": "PDF physical page 14"
+        },
+        {
+          "source_key": "siusa-ori-tassinari-b941",
+          "locator_override": "Fonds history and 1989 Tassinari donation"
+        }
+      ]
+    },
+    {
+      "key": "immediate-ennio-tassinari-ori-b941",
+      "person_id": "a52e7b76-189c-5a38-a441-de5a0e856b8a",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The Organizzazione della Resistenza Italiana (ORI) is Ennio Tassinari's documented immediate institutional pathway into OSS training and service.",
+      "evidence_paraphrase": "ANPI states that he helped form ORI after reaching the Allies in Naples and that ORI was later placed within OSS.",
+      "identity_match_assessment": "High-confidence identity from the distinctive exact name and official archival corroboration.",
+      "temporal_assessment": "Explicit immediate sequence from ORI formation to OSS incorporation, training at Pozzuoli and a March 1944 mission.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a resistance/institutional affiliation, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "anpi-ennio-tassinari-b941",
+          "locator_override": "PDF physical page 14",
+          "excerpt_override": "partecipa alla costituzione dell’ORI ... che verrà poi inquadrata nell’Oss"
+        },
+        {
+          "source_key": "siusa-ori-tassinari-b941",
+          "support_type": "context_only",
+          "locator_override": "ORI Radio Zella fonds history"
+        }
+      ],
+      "affiliation_key": "ennio-tassinari-ori-b941"
+    },
+    {
+      "key": "immediate-solon-h-tate-army-b941",
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army is the second Solon H. Tate row's best-supported immediate military pathway into an OSS-ME parachute assignment.",
+      "evidence_paraphrase": "The Army record dates entry, and a direct OSS-ME order places the same identified master sergeant on parachute duty with the unit.",
+      "identity_match_assessment": "Confirmed by exact name and the same nonshared protected identifier in the index, Army record and direct OSS order.",
+      "temporal_assessment": "Strongly date-bounded Army-to-OSS-ME pathway; the sources do not identify a separate civilian affiliation immediately before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The affiliation is military, not civilian employment. The separately printed Solon H. Tate row has a different protected identifier and receives no copied claim.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b941",
+          "locator_override": "Accepted reviewed identity and Army-entry record; protected identifier withheld"
+        },
+        {
+          "source_key": "cia-oss-me-solon-tate-b941",
+          "locator_override": "PDF page 1; 1 July 1944 order; protected identifier withheld",
+          "excerpt_override": "M Sgt Solon H Tate"
+        }
+      ],
+      "affiliation_key": "solon-h-tate-us-army-b941"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a32c26eb-45b9-5881-98c3-251ce3e8ef9d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ray L Tarbox, Box 765 and archive location 230/86/41/07. The protected identifier did not produce a defensible reviewed Army bridge, and exact-name OSS, employer, occupation and archival searches did not establish a dated pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 765 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5fbf8900-7004-5c7e-a45b-e3836c407c1c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Laurier R Tardiff, Box 765 and archive location 230/86/41/07. A distinctive-name enlistment lead lacks a protected identifier or direct Box 765 bridge and was not assigned to the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 765 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "546541b8-c26f-5c09-ac26-0944ef1e2bf6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis Tarnrinn, Box 766 and archive location 230/86/41/07. The visually verified source prints Louis Tarnrinn; exact-name and likely spelling-variant searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bc607451-320d-5b9d-be1d-6f83a66b5c00",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Warren J Tarrant, Box 766 and archive location 230/86/41/07. A school-yearbook namesake and other search leads lack an OSS, protected-identifier or Box-file bridge and were not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a938ab2-b735-56c3-a1fb-6978403a6f9e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frank Tartaro, Box 766 and archive location 230/86/41/07. Multiple Frank Tartaro namesakes could not be distinguished by OSS, military, obituary, occupation or institutional evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2fc76078-f789-57e7-94a2-48874feb2e51",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lewis S Taschler, Box 766 and archive location 230/86/41/07. Exact-name and middle-initial OSS, employer, occupation, obituary and institutional searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f61bcdd1-53e6-5a24-9513-90f54c99587c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Esther Tash, Box 766 and archive location 230/86/41/07. Exact-name OSS, employer, occupation, obituary, directory and archival searches produced no dated person-specific bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1db40257-5dad-5045-a40a-a82ed477a3bf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gloria P Tassin, Box 766 and archive location 230/86/41/07. Exact-name and likely spelling-variant searches produced no reliable identity, occupation or employer source.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d072f639-f9d3-5fb9-bb0b-fe38d39c295d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard M Tasso, Box 766 and archive location 230/86/41/07. A naval-officer cemetery lead lacks the identifiers needed to connect it to the indexed Richard M. Tasso and was not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3853b443-67c5-570c-bcf0-f2f086aedb71",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alice Tatham, Box 766 and archive location 230/86/41/07. Vital-record and genealogy leads lacked documentary OSS or Box-file evidence and were not used as identity or employment sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c199732a-da53-5b1e-a740-895d6de73ba1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Eddison C Tatham, Box 766 and archive location 230/86/41/07. Vital-record and genealogy leads lacked documentary OSS or Box-file evidence and were not used as identity or employment sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 766 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "72293415-151b-59ef-a265-187a0142a5d2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A direct October 1944 OSS Greek Desk report names T/4 Sgt. John Targakis, but the index prints two identical John Targakis rows in Box 766 and provides no distinguishing identifier.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-duplicate:john-targakis-page461-rows3-4",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both John Targakis files in Box 766 together. Keep the rows separate unless direct evidence establishes duplication or identifies which file belongs to the Gorgon Mission sergeant.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "486a3afa-aa1c-57ff-9741-24860b997a7c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A direct October 1944 OSS Greek Desk report names T/4 Sgt. John Targakis, but the index prints two identical John Targakis rows in Box 766 and provides no distinguishing identifier.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-duplicate:john-targakis-page461-rows3-4",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both John Targakis files in Box 766 together. Keep the rows separate unless direct evidence establishes duplication or identifies which file belongs to the Gorgon Mission sergeant.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b2496d1b-8659-59c1-aec5-e161411e8658",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f2e7c76-8491-5d90-8a2b-51142cb65c5a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dfbbbfd1-a918-5fcc-87d8-82738ce676cf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The Army spelling Yudio Tashiro is retained as a documented variant.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Yudio Tashiro"
+      ]
+    },
+    {
+      "person_id": "4b1ae1aa-6a3e-5488-92d2-413e9ee234c3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "73fd75bd-2d47-50a6-938b-485e9f221a78",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fca8f7fa-627c-519c-ac48-9cefd40458b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The Army spelling Rudolph Tate is retained as a documented variant.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Rudolph Tate"
+      ]
+    },
+    {
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name and same nonshared protected identifier align across the index, official Army bulk file and a direct OSS-ME order.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review both Solon H. Tate files in Box 766 together and inspect the confirmed row for the last civilian employer and exact Army-to-OSS administrative sequence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "different-identifiers:solon-h-tate-page461-rows19-20"
+    },
+    {
+      "person_id": "18db0105-4a8b-59d3-9b1e-a1425b21307e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 766 to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army category into a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a52e7b76-189c-5a38-a441-de5a0e856b8a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name, the index's Italian-citizen note, an institutional wartime chronology and the official ORI archival finding aid align.",
+      "personnel_category": "temporary_contract_or_special_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 766 for the administrative terms of Tassinari's OSS service and any civilian employment immediately before his 1940 underground activity; preserve ORI as an affiliation, not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "7abf6438-df33-506d-a62d-c8182ab24aff",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints a second Solon H. Tate with a different protected identifier. Official Army and OSS-ME evidence matches row 20's identifier, so no claim is transferred to this row.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "different-identifiers:solon-h-tate-page461-rows19-20",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both Solon H. Tate files in Box 766 together. Preserve the separate identifiers and people unless direct file evidence proves duplication.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page461-row1-ray-l-tarbox-b941",
+      "person_id": "a32c26eb-45b9-5881-98c3-251ce3e8ef9d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ray L Tarbox; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The protected identifier did not produce a defensible reviewed Army bridge, and exact-name OSS, employer, occupation and archival searches did not establish a dated pre-OSS affiliation. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row2-laurier-r-tardiff-b941",
+      "person_id": "5fbf8900-7004-5c7e-a45b-e3836c407c1c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Laurier R Tardiff; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A distinctive-name enlistment lead lacks a protected identifier or direct Box 765 bridge and was not assigned to the indexed person. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row3-john-targakis-b941",
+      "person_id": "72293415-151b-59ef-a265-187a0142a5d2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Targakis; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A direct OSS Greek Desk report names John Targakis but cannot distinguish the two identical Box 766 rows; both remain separate and conflicting. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row4-john-targakis-b941",
+      "person_id": "486a3afa-aa1c-57ff-9741-24860b997a7c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Targakis; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A direct OSS Greek Desk report names John Targakis but cannot distinguish the two identical Box 766 rows; both remain separate and conflicting. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row5-louis-tarmina-b941",
+      "person_id": "b2496d1b-8659-59c1-aec5-e161411e8658",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis Tarmina; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row6-louis-tarnrinn-b941",
+      "person_id": "546541b8-c26f-5c09-ac26-0944ef1e2bf6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis Tarnrinn; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The visually verified source prints Louis Tarnrinn; exact-name and likely spelling-variant searches produced no defensible identity bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row7-warren-j-tarrant-b941",
+      "person_id": "bc607451-320d-5b9d-be1d-6f83a66b5c00",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Warren J Tarrant; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A school-yearbook namesake and other search leads lack an OSS, protected-identifier or Box-file bridge and were not assigned. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row8-frank-tartaro-b941",
+      "person_id": "1a938ab2-b735-56c3-a1fb-6978403a6f9e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank Tartaro; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Multiple Frank Tartaro namesakes could not be distinguished by OSS, military, obituary, occupation or institutional evidence. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row9-lewis-s-taschler-b941",
+      "person_id": "2fc76078-f789-57e7-94a2-48874feb2e51",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lewis S Taschler; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial OSS, employer, occupation, obituary and institutional searches produced no defensible identity bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row10-louis-j-taschler-b941",
+      "person_id": "7f2e7c76-8491-5d90-8a2b-51142cb65c5a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis J Taschler; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row11-esther-tash-b941",
+      "person_id": "f61bcdd1-53e6-5a24-9513-90f54c99587c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Esther Tash; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name OSS, employer, occupation, obituary, directory and archival searches produced no dated person-specific bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row12-yukio-tashiro-b941",
+      "person_id": "dfbbbfd1-a918-5fcc-87d8-82738ce676cf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Yukio Tashiro; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row13-milton-v-tassi-b941",
+      "person_id": "4b1ae1aa-6a3e-5488-92d2-413e9ee234c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Milton V Tassi; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row14-gloria-p-tassin-b941",
+      "person_id": "1db40257-5dad-5045-a40a-a82ed477a3bf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gloria P Tassin; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and likely spelling-variant searches produced no reliable identity, occupation or employer source. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row15-ennio-tassinari-b941",
+      "person_id": "a52e7b76-189c-5a38-a441-de5a0e856b8a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ennio Tassinari; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Institutional and official archival evidence supports a high-confidence ORI-to-OSS pathway without recasting ORI as civilian employment. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row16-richard-m-tasso-b941",
+      "person_id": "d072f639-f9d3-5fb9-bb0b-fe38d39c295d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard M Tasso; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A naval-officer cemetery lead lacks the identifiers needed to connect it to the indexed Richard M. Tasso and was not assigned. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row17-oliver-tassotti-b941",
+      "person_id": "73fd75bd-2d47-50a6-938b-485e9f221a78",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Oliver Tassotti; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row18-rudolf-tate-b941",
+      "person_id": "fca8f7fa-627c-519c-ac48-9cefd40458b8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rudolf Tate; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row19-solon-h-tate-b941",
+      "person_id": "7abf6438-df33-506d-a62d-c8182ab24aff",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Solon H Tate; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The official Army and OSS-ME bridge belongs to the separately indexed Solon H. Tate row with a different protected identifier; no claim was transferred. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row20-solon-h-tate-b941",
+      "person_id": "363d610c-6a82-5a1f-93a5-52070598fdad",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Solon H Tate; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Official Army and OSS-ME evidence confirms this specific row and supports a military Army-to-OSS pathway plus a dated occupation category. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row21-alice-tatham-b941",
+      "person_id": "3853b443-67c5-570c-bcf0-f2f086aedb71",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alice Tatham; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Vital-record and genealogy leads lacked documentary OSS or Box-file evidence and were not used as identity or employment sources. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row22-eddison-c-tatham-b941",
+      "person_id": "c199732a-da53-5b1e-a740-895d6de73ba1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eddison C Tatham; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Vital-record and genealogy leads lacked documentary OSS or Box-file evidence and were not used as identity or employment sources. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    },
+    {
+      "key": "page461-row23-jack-h-tattersall-b941",
+      "person_id": "18db0105-4a8b-59d3-9b1e-a1425b21307e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack H Tattersall; NARA index and public Archives context; CIA Reading Room and exact-name discovery; OSS, rank and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 765-766; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_941",
+      "started_at": "2026-10-28T08:30:00Z",
+      "completed_at": "2026-10-28T11:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category, not an employer. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b941-v1"
+    }
+  ]
+}

@@ -1,5 +1,48 @@
 # Research status
 
+Batch 941 completed PDF page 461, rows 1-23, from **Ray L. Tarbox** through
+**Jack H. Tattersall**, preserving all 23 printed rows as separate people with
+saved terminal research attempts. The two identical John Targakis rows remain
+separate identity conflicts because the reviewed OSS Gorgon Mission report
+cannot identify which index row it represents. The two Solon H. Tate rows also
+remain separate; their protected identifiers differ, and only the second row
+matches the reviewed Army record and direct OSS-ME document.
+
+Ennio Tassinari has a high-confidence explicit-immediate volunteer affiliation
+with the Organizzazione della Resistenza Italiana, which is not labeled as
+employment. The second Solon H. Tate row has a confirmed U.S. Army-to-OSS-ME
+pathway. Seven other reviewed Army identities and that Solon Tate row have
+dated occupational classifications without named employers. Army spellings
+`Yudio Tashiro` and `Rudolph Tate` remain visible variants, and the printed
+`Tarnrinn, Louis` spelling remains recoverable. Eleven other rows retain
+explicit Box 765 or 766 archival-review outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,586/23,936 (60.9375%)**;
+verified-employer coverage is **463/23,936 (1.9343%)**;
+verified-affiliation coverage is **1,035/23,936 (4.3240%)**; archival-review
+coverage is **13,060/23,936 (54.5622%)**. There are **9,345** not-started
+people, **639** possible-duplicate groups and **504** conflicts. Claim
+confidence counts are **1,653 confirmed**, **4,780 high**, **2,167 medium**,
+**252 low**, **424 conflicting** and **2 unresolved**. The public projection
+contains **3,428** affiliations, **1,202** organizations, **5,950** sources and
+**9,020** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 461, row
+24, **Bernard Tatz**, in Box 766. See `research/batch-941-progress.md` for the
+source-by-source audit.
+
+Batch 941 passed evidence-schema validation, isolated import replay, canonical
+review-decision and evidence import, SQLite integrity and foreign-key checks,
+full ingest validation, derived export regeneration, coverage reporting,
+public-data redaction and the 200-profile structural audit. All 147 Python
+tests pass. Astro checks 572 files with zero errors, warnings or hints and
+builds 25,186 static pages. The 30/30 Batch 941 browser matrix and full 99/99
+bounded browser and accessibility release suite pass, as do the complete
+internal-link check, protected-identifier audit, checked-in public manifest,
+zero-vulnerability production dependency audit and two deterministic
+consecutive builds. Publication verification is pending; see
+`reports/release_batch_941.md`.
+
 Batch 940 completed PDF page 460, rows 24-46, from **Jefferson M. Tancil**
 through **Mary B. Tarbet**, preserving all 23 printed rows as separate people
 with saved terminal research attempts. Noboru M. Tanimoto remains separate
