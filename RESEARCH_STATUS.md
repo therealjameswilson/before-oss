@@ -1,5 +1,50 @@
 # Research status
 
+Batch 932 completed PDF page 456, rows 24-46, from **Donald E. Sutcliffe**
+through **Betty H. Swadley**, preserving all 23 printed rows. Twenty-two newly
+attempted profiles and one previously reviewed alias entity received 23 saved
+research attempts. Seven official Army candidates were accepted without
+exposing any protected identifier.
+
+Morris H. Swadesh is a high-confidence identity with documented teaching at
+CCNY, Yale, the University of Wisconsin and two Mexican institutions, along
+with separately modeled Mexican government assignments and Signal Corps
+service. No source was stretched into an exact immediate pre-OSS claim. Robert
+F. Suyeoka's dated electrician occupation and Military Intelligence Service
+Language School assignment remain distinct. Koshi Suzuki and M. C. Svasti
+have qualified, medium-confidence affiliations under probable identities and
+therefore remain outside default analytics. Two Henry C. Sutton rows with
+different protected identifiers remain separate; the second retains its prior
+confirmed Heinrich C. Soffner alias linkage. John H. Sutton's two official Army
+rows preserve their grade disagreement, and undefined code 999 remains
+uninterpreted.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,382/23,936 (60.0852%)**;
+verified-employer coverage is **460/23,936 (1.9218%)**;
+verified-affiliation coverage is **1,019/23,936 (4.2572%)**; archival-review
+coverage is **12,855/23,936 (53.7057%)**. There are **9,549** not-started
+people, **631** possible-duplicate groups and **495** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,701 high**, **2,092 medium**,
+**252 low**, **417 conflicting** and **2 unresolved**. The public projection
+contains **3,342** affiliations, **1,183** organizations, **5,844** sources and
+**8,856** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 457, row 1,
+**Fred G. Swafford**, in Box 760. See `research/batch-932-progress.md` for the
+source-by-source audit.
+
+Batch 932 has passed evidence-schema validation, duplicate-safe isolated
+replay, canonical import, SQLite integrity and foreign-key checks, full ingest
+validation, derived export regeneration, coverage reporting, public-data
+redaction and the 200-profile structural audit. All 147 Python tests pass.
+Astro checks 563 files with zero errors, warnings or hints and builds 25,166
+static pages. The 30/30 Batch 932 browser matrix and full 99/99 bounded browser
+and accessibility release suite pass, as do the complete internal-link check,
+protected-identifier audit, checked-in public manifest, zero-vulnerability
+production dependency audit and two deterministic consecutive builds. The
+release candidate is ready for publication; GitHub Actions and the live
+unauthenticated deployment still require post-push verification.
+
 Batch 931 completed PDF page 456, rows 1-23, from **Erwin Summers** through
 **Stanley Sussman**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have saved terminal research outcomes.

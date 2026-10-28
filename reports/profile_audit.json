@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:03:54+00:00",
+  "generated_at": "2026-10-28T01:38:06+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -20,9 +20,9 @@
     "enlisted_army_personnel": 25,
     "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
-    "foreign_or_allied_military_personnel": 15,
+    "foreign_or_allied_military_personnel": 16,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 98,
+    "unknown_or_indeterminate": 97,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -36,8 +36,8 @@
     "confirmed": 11,
     "conflicting": 11,
     "high_confidence": 34,
-    "probable": 6,
-    "unresolved": 114
+    "probable": 7,
+    "unresolved": 113
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -48,22 +48,22 @@
     "needs_identity_review": 10,
     "needs_temporal_review": 1,
     "no_reliable_result_after_protocol": 12,
-    "not_started": 59,
+    "not_started": 58,
     "occupation_only_found": 8,
-    "requires_archival_review": 64,
+    "requires_archival_review": 65,
     "verified_employer_found": 10
   },
   "special_strata_counts": {
-    "commissioned": 29,
+    "commissioned": 30,
     "civilian": 20,
     "enlisted": 33,
-    "allied_or_foreign": 20,
+    "allied_or_foreign": 21,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 48,
-    "medium_published_claim": 20,
+    "medium_published_claim": 21,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 114
+    "unresolved_identity": 113
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."

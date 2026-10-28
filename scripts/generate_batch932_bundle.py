@@ -1,0 +1,1354 @@
+#!/usr/bin/env python3
+"""Generate the reviewed Batch 932 evidence bundle from audited constants."""
+
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / (
+    "research/evidence-page456-donald-e-sutcliffe-to-betty-h-swadley-"
+    "review_batch-932_2026-10-27.json"
+)
+
+INDEX = "nara-index-b932"
+ARMY_SOURCE = "army-bulk-b932"
+TECH = "army-tech-b932"
+CODES = "army-codes-b932"
+SWADESH_OBITUARY = "swadesh-language-obituary-b932"
+MIS_REGISTRY = "java-mis-registry-b932"
+TOPAZ_REPORT = "topaz-project-report-b932"
+KINMON_REPORT = "kinmon-landmark-report-b932"
+SIAM_MEMBERSHIP = "siam-society-membership-b932"
+THAI_POLICY = "thai-foreign-policy-b932"
+PRIDI_PROFILE = "pridi-institute-svasti-b932"
+
+PEOPLE = {
+    24: ("c48691a9-43d2-5246-ba69-9702e8a4eb4a", "Donald E Sutcliffe", "759"),
+    25: ("bd135d1d-e4e2-5566-aed2-8c94c3d7a836", "Philip H Suter", "759"),
+    26: ("31bc2825-2c85-5e81-8702-318864b1c26e", "Arthur F Sutherland", "759"),
+    27: ("91c208f5-0d6e-5907-8dda-822c81418fe6", "Arthur E Sutherland", "759"),
+    28: ("cc19aec8-7e7b-5960-a126-b43f5ba4167c", "Charles B Sutherland", "759"),
+    29: ("f0673e96-19cf-533a-ba7c-7aaf377a6ac4", "Joel Sutherland", "759"),
+    30: ("bf559bc5-6ac5-5915-b07a-68a8ca2b3058", "Martha T Sutphin", "759"),
+    31: ("dae6c4b2-1b06-5e73-88ff-07faad620041", "Lawson R Suttles", "759"),
+    32: ("0b31ec21-8a8b-5e7f-bd54-03b19c909ae2", "Henry C Sutton", "759"),
+    33: ("09426597-aa08-5f50-8bae-68a0a068d0fb", "Heinrich C Soffner", "759"),
+    34: ("cc776681-e03c-50b2-bfc4-7c8de7c9a17f", "John H Sutton", "759"),
+    35: ("81694444-7f10-5e36-9004-e4822f2d5921", "Ray C Sutton", "759"),
+    36: ("bb34db8a-a210-593c-b88e-3cb9ae7447e6", "Robert H Sutton", "759"),
+    37: ("1d18d704-45f8-5ffd-b3e7-c532d06bc6ca", "Robert W Sutton", "759"),
+    38: ("ac571642-c904-5648-a9e6-c907c39ada95", "Walter D Sutton", "759"),
+    39: ("4dd22b11-1980-525b-bc63-41267b69e8f5", "Walter L Sutton", "759"),
+    40: ("c0b90cc3-9062-5de2-849f-6910c029d68d", "Kenneth F Suydam", "759"),
+    41: ("a7a4d94f-eb50-5ade-924e-2e3f5bbe0fbb", "Robert F Suyeoka", "759"),
+    42: ("d22d6aa0-0003-537e-8c95-b2c4901533a3", "Ken I Suzuki", "759"),
+    43: ("f9922ab4-f9d2-58b9-bf58-81bf4e80418e", "Koshi Suzuki", "759"),
+    44: ("e023423d-078d-51a3-958e-e7e83c832fba", "M C Svasti", "759"),
+    45: ("54bc4ff1-8995-57fe-ae9a-b2ea515aee5e", "Morris H Swadesh", "759"),
+    46: ("26454c44-5f8a-53d3-bddb-dc279a093075", "Betty H Swadley", "759"),
+}
+
+ARMY = {
+    24: {
+        "entry": "1942-04-15",
+        "code": "619",
+        "occupation": "Occupations in manufacture of textiles, n. e. c.",
+        "locator": "PDF physical page 173; historical category 6-19",
+    },
+    36: {
+        "entry": "1944-11-11",
+        "code": "137",
+        "occupation": "Stenographers and typists",
+        "locator": "PDF physical page 171; historical category 1-37",
+    },
+    37: {
+        "entry": "1942-02-25",
+        "code": "105",
+        "occupation": "Clerks, general office",
+        "locator": "PDF physical page 171; historical category 1-05",
+    },
+    40: {
+        "entry": "1941-10-17",
+        "code": "226",
+        "occupation": "Cooks, except private family",
+        "locator": "PDF physical page 172; historical category 2-26",
+    },
+    41: {
+        "entry": "1944-01-03",
+        "code": "497",
+        "occupation": "Electricians",
+        "locator": "PDF physical page 174; historical category 4-97",
+    },
+}
+
+UNRESOLVED = {
+    25: "Exact-name and variant searches found no source tying a Philip H Suter namesake to OSS or Box 759.",
+    26: "Exact-name and institutional searches found no defensible identity bridge for Arthur F Sutherland.",
+    27: "A well-documented lawyer and Army-colonel namesake was rejected because no protected identifier, OSS assignment or Box 759 evidence connects him to this row.",
+    28: "Exact-name searches returned common-name and unrelated results without two corroborating identifiers.",
+    29: "Exact-name, obituary and archival searches did not distinguish the indexed Joel Sutherland from namesakes.",
+    30: "Exact-name and occupation searches produced no corroborated identity bridge for Martha T Sutphin.",
+    31: "Exact-name and spelling-variant searches found no OSS or Box 759 bridge for Lawson R Suttles.",
+    35: "Common-name and institutional results did not provide two corroborating identifiers for Ray C Sutton.",
+    38: "Exact-name, military and archival searches did not establish which Walter D Sutton is indexed.",
+    39: "Exact-name, military and archival searches did not establish which Walter L Sutton is indexed.",
+    42: "Exact-name searches produced modern and death-index leads but no OSS, archival-box or protected-identifier bridge for Ken I Suzuki.",
+    46: "A postwar city-directory namesake was rejected because it supplied no OSS, wartime or Box 759 identity bridge.",
+}
+
+SOFFNER_GROUP = "p437-heinrich-heirich-soffner-b895"
+
+
+def slug(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def sources() -> list[dict[str, object]]:
+    return [
+        {
+            "key": INDEX,
+            "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+            "archival_identifier": "RG 226, Entry A1-224, Box 759",
+            "title": "OSS Personnel Files from Excel",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "2010-12-23",
+            "locator": "PDF page 456, rows 24-46; checked against layout-preserving text and the rendered page image",
+            "access_date": "2026-10-27",
+            "source_quality": "A_direct_official",
+            "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+            "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. The second Henry C Sutton row is already linked to the confirmed Heinrich C Soffner alias entity and is not re-merged in this batch.",
+        },
+        {
+            "key": ARMY_SOURCE,
+            "stable_url": "https://catalog.archives.gov/id/1263923",
+            "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+            "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+            "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "1938-1946; merged file created 2002",
+            "locator": "Official unrestricted ASNEF.FIN.DAT; seven reviewed Batch 932 identity candidates for six people",
+            "access_date": "2026-10-27",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records",
+            "document_number": "ASNEF.FIN.DAT",
+            "rights_notes": "Six nonshared, name-compatible identity bridges are accepted. John H Sutton has two bulk rows with the same date and protected identifier but different grade values. No raw bulk row or full identifier is public.",
+        },
+        {
+            "key": TECH,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+            "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+            "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "1994-2005; reference copy modified 2011",
+            "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+            "access_date": "2026-10-27",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Used to interpret selected fields only; source damage, coding limits, duplicate rows and incomplete coverage remain applicable.",
+        },
+        {
+            "key": CODES,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+            "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+            "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "2011-01-12; modified 2011-03-17",
+            "locator": "PDF physical pages 171-174; categories 105, 137, 226, 497 and 619 visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Historical categories identify neither employer nor workplace. Undefined code 999 is not interpreted.",
+        },
+        {
+            "key": SWADESH_OBITUARY,
+            "stable_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0C8D4ADBC22B6C07594C302C68BE804F/S0097850767021356a.pdf/morris_swadesh.pdf",
+            "archival_identifier": "Language, volume 43, number 4, pages 948-957",
+            "title": "Morris Swadesh",
+            "author_creator": "Stanley Newman",
+            "repository_publisher": "Linguistic Society of America; Cambridge University Press",
+            "publication_record_date": "1967",
+            "locator": "PDF physical and printed page 948; visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "collection_name": "Language",
+            "rights_notes": "The scholarly obituary supplies dated teaching, Mexican institutional, Signal Corps and OSS-pamphlet evidence. Public excerpts are limited to short supporting phrases.",
+        },
+        {
+            "key": MIS_REGISTRY,
+            "stable_url": "https://java-us.org/wp-content/uploads/2023/09/8.pdf",
+            "archival_identifier": "Military Intelligence Service Registry Merged, item 8329",
+            "title": "Military Intelligence Service (MIS) Registry Merged (alphabetical)",
+            "author_creator": "Seiki Oshiro, Paul Tani, Mitzi Matsui and Grant Ichikawa",
+            "repository_publisher": "Japanese American Veterans Association",
+            "publication_record_date": "2016-02-15; public file posted 2023",
+            "locator": "PDF physical page 164, item 8329; visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "Japanese American Veterans Association MIS Registry",
+            "rights_notes": "The item lists Robert F Suyeoka as a Camp Savage February 1944 student and supplies a protected identifier. The full value is neither reproduced nor persisted in public evidence.",
+        },
+        {
+            "key": TOPAZ_REPORT,
+            "stable_url": "https://digicoll.lib.berkeley.edu/record/172942/files/cubanc_35_1_01244417ta.pdf",
+            "archival_identifier": "UC Berkeley Digital Collections record 172942; file cubanc_35_1_01244417ta.pdf",
+            "title": "Topaz Project Reports Division daily chronology, December 1942",
+            "author_creator": "United States War Relocation Authority, Central Utah Relocation Center Project Reports Division",
+            "repository_publisher": "The Bancroft Library, University of California, Berkeley",
+            "publication_record_date": "1942-12-14",
+            "locator": "PDF physical page 21, December 14 entry; visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "A_direct_official",
+            "collection_name": "Japanese American Evacuation and Resettlement Records, 1930-1974",
+            "rights_notes": "The contemporary federal report says Koshi Suzuki left Topaz to teach at the Naval Intelligence Language School in Boulder. It does not establish an OSS entry date.",
+        },
+        {
+            "key": KINMON_REPORT,
+            "stable_url": "https://sfplanninggis.org/docs/landmarks_and_districts/LM288.pdf",
+            "archival_identifier": "San Francisco Landmark No. 288; Case 2017-012291DES",
+            "title": "The Kinmon Gakuen Building: Landmark Designation Report",
+            "author_creator": "San Francisco Planning Department preservation staff",
+            "repository_publisher": "City and County of San Francisco",
+            "publication_record_date": "2019-02-06",
+            "locator": "PDF physical page 55, report page 29; visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "San Francisco Article 10 Landmark Designation Program",
+            "rights_notes": "The municipal report identifies Koshi Suzuki as Kinmon Gakuen principal since 1918 and documents his 1949 resumption. It is paired with contemporary evidence of the 1942 intelligence-school assignment.",
+        },
+        {
+            "key": SIAM_MEMBERSHIP,
+            "stable_url": "https://cdn.angkordatabase.asia/libs/docs/JSS_054_2g_MembershipRoll.pdf",
+            "archival_identifier": "Journal of the Siam Society, volume 54, part 2",
+            "title": "Membership Roll of the Siam Society",
+            "author_creator": "Council of the Siam Society",
+            "repository_publisher": "The Siam Society Under Royal Patronage",
+            "publication_record_date": "1966",
+            "locator": "PDF physical page 4, printed page 262; visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "Journal of the Siam Society",
+            "rights_notes": "The institutional membership roll supplies the exact expanded form M.C. Subhasvasti Svasti. Membership alone is not treated as employment.",
+        },
+        {
+            "key": THAI_POLICY,
+            "stable_url": "https://image.mfa.go.th/mfa/0/4OJCTby7gE/Books/Thai_Foreign_Policy_1932-1946_Charivat.pdf",
+            "archival_identifier": "International Studies Center diplomatic-history series",
+            "title": "Thai Foreign Policy 1932-1946",
+            "author_creator": "Charivat Santaputra",
+            "repository_publisher": "International Studies Center, Ministry of Foreign Affairs of Thailand",
+            "publication_record_date": "1985; official reprint 2020",
+            "locator": "PDF physical page 28 and physical pages 323-324; visually checked",
+            "access_date": "2026-10-27",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "International Studies Center diplomatic-history series",
+            "rights_notes": "The official scholarly reprint identifies Prince Subhasvasti Wongsnit Savasdivatana as Lt Col Arun or Prince Svasti and documents British Army and Force 136 work. It does not prove an OSS employment relationship.",
+        },
+        {
+            "key": PRIDI_PROFILE,
+            "stable_url": "https://pridi.or.th/th/content/2026/08/2945",
+            "archival_identifier": "Pridi Banomyong Institute article 2945",
+            "title": "Commemorating Prince Subhasvasti Wongsanit Savastivatana, Royal Guard 'Lieutenant Colonel Arun' of the Free Thai Movement",
+            "author_creator": "Pridi Banomyong Institute",
+            "repository_publisher": "Pridi Banomyong Institute",
+            "publication_record_date": "2026-08-23",
+            "locator": "Thai-language institutional profile, lines 25-59; reviewed with cited notes",
+            "access_date": "2026-10-27",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "Pridi Banomyong Institute historical profiles",
+            "rights_notes": "Used for the documented education, Royal Thai Army, Royal Guard and Force 136 chronology. The evidence is paraphrased accurately and does not turn the allied assignment into an OSS-employment claim.",
+        },
+    ]
+
+
+def organizations() -> list[dict[str, object]]:
+    return [
+        {
+            "key": "ccny-existing-b932",
+            "organization_id": "712fb18c-4920-5bec-ba7f-c4736c829bb7",
+            "canonical_name": "City College of New York",
+            "historical_name": "City College of New York",
+            "aliases": ["CCNY", "City College"],
+            "organization_type": "university",
+            "sector": "academia_and_research",
+            "city": "New York",
+            "state_or_region": "New York",
+            "country": "United States",
+            "normalization_notes": "Existing canonical organization reused; Swadesh's relationship is employment, not student attendance.",
+        },
+        {
+            "key": "yale-existing-b932",
+            "organization_id": "918dedde-f9d1-5db1-8304-5c218a06b9b5",
+            "canonical_name": "Yale University",
+            "historical_name": "Yale University",
+            "aliases": ["Yale"],
+            "organization_type": "university",
+            "sector": "academia_and_research",
+            "city": "New Haven",
+            "state_or_region": "Connecticut",
+            "country": "United States",
+            "normalization_notes": "Existing canonical employer organization reused; distinct from the separate historical Yale College row in the database.",
+        },
+        {
+            "key": "wisconsin-existing-b932",
+            "organization_id": "887835f0-4cc0-571a-80db-c01301e96130",
+            "canonical_name": "University of Wisconsin",
+            "historical_name": "University of Wisconsin",
+            "aliases": [],
+            "organization_type": "university",
+            "sector": "academia_and_research",
+            "city": "Madison",
+            "state_or_region": "Wisconsin",
+            "country": "United States",
+            "normalization_notes": "The historical name in the 1967 source is retained; no modern campus name is substituted.",
+        },
+        {
+            "key": "ipn-b932",
+            "canonical_name": "Instituto Politécnico Nacional",
+            "historical_name": "Instituto Politécnico Nacional",
+            "aliases": ["National Polytechnic Institute"],
+            "organization_type": "university",
+            "sector": "academia_and_research",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "normalization_notes": "The Spanish historical name is preserved. The English rendering is an alias only.",
+        },
+        {
+            "key": "enah-b932",
+            "canonical_name": "Escuela Nacional de Antropología e Historia",
+            "historical_name": "Escuela de Antropología e Historia",
+            "aliases": ["National School of Anthropology and History"],
+            "organization_type": "university and research school",
+            "sector": "academia_and_research",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "normalization_notes": "The source's shorter 1939-1941 name is preserved as the historical name; the canonical field supports later references without erasing the wording found.",
+        },
+        {
+            "key": "consejo-lenguas-b932",
+            "canonical_name": "Consejo de Lenguas Indígenas",
+            "historical_name": "Consejo de Lenguas Indígenas",
+            "aliases": ["Council of Indigenous Languages"],
+            "organization_type": "language-policy council",
+            "sector": "state_or_local_government",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "normalization_notes": "The Spanish historical name is preserved; the source does not specify a modern successor.",
+        },
+        {
+            "key": "asuntos-indigenas-b932",
+            "canonical_name": "Departamento de Asuntos Indígenas",
+            "historical_name": "Departamento de Asuntos Indígenas",
+            "aliases": ["Department of Indigenous Affairs"],
+            "organization_type": "national government department",
+            "sector": "federal_government",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "active_dates": "Named department during Swadesh's 1939-1941 work",
+            "normalization_notes": "The historical department is not silently mapped to a present-day Mexican agency.",
+        },
+        {
+            "key": "americanists-congress-b932",
+            "canonical_name": "29th International Congress of Americanists",
+            "historical_name": "29th International Congress of Americanists",
+            "aliases": [],
+            "organization_type": "scholarly congress",
+            "sector": "academia_and_research",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "active_dates": "1939 congress",
+            "normalization_notes": "A professional role, not an employer.",
+        },
+        {
+            "key": "signal-corps-existing-b932",
+            "organization_id": "37fe0e48-9745-5a0a-8e04-6be9bc7c5c91",
+            "canonical_name": "United States Army Signal Corps",
+            "historical_name": "Signal Corps",
+            "aliases": ["U.S. Army Signal Corps"],
+            "organization_type": "military branch",
+            "sector": "military",
+            "country": "United States",
+            "normalization_notes": "Existing canonical military organization reused. It is modeled as a military assignment, not a civilian employer.",
+        },
+        {
+            "key": "misls-existing-b932",
+            "organization_id": "505260bf-425e-56b6-add8-af85df816a81",
+            "canonical_name": "Military Intelligence Service Language School",
+            "historical_name": "Military Intelligence Service Language School",
+            "aliases": ["MIS Language School", "MISLS", "Camp Savage language school"],
+            "organization_type": "United States Army language school",
+            "sector": "military",
+            "city": "Savage",
+            "state_or_region": "Minnesota",
+            "country": "United States",
+            "normalization_notes": "Existing canonical organization reused. The February 1944 class is a military training assignment, not a civilian employer.",
+        },
+        {
+            "key": "kinmon-gakuen-b932",
+            "canonical_name": "Kinmon Gakuen",
+            "historical_name": "Kinmon Gakuen",
+            "aliases": ["Golden Gate Institute", "Kinmon Gakuen Japanese Language and Cultural School"],
+            "organization_type": "Japanese language and cultural school",
+            "sector": "academia_and_research",
+            "city": "San Francisco",
+            "state_or_region": "California",
+            "country": "United States",
+            "active_dates": "Founded 1911; current facility completed 1926",
+            "normalization_notes": "The historical Japanese-school name is retained; it is not merged with the wartime federal use of the building.",
+        },
+        {
+            "key": "naval-intelligence-language-school-b932",
+            "canonical_name": "United States Navy Japanese Language School",
+            "historical_name": "Naval Intelligence Language School",
+            "aliases": ["Navy Japanese Language School", "Boulder Navy Language School"],
+            "organization_type": "United States Navy language school",
+            "sector": "military",
+            "city": "Boulder",
+            "state_or_region": "Colorado",
+            "country": "United States",
+            "active_dates": "Wartime school in Boulder, Colorado",
+            "normalization_notes": "The contemporary report's Naval Intelligence Language School wording is preserved as found. The relationship is a government assignment, not automatically an OSS role.",
+        },
+        {
+            "key": "rma-woolwich-b932",
+            "canonical_name": "Royal Military Academy, Woolwich",
+            "historical_name": "Royal Military Academy, Woolwich",
+            "aliases": ["Royal Military Academy Woolwich"],
+            "organization_type": "military academy",
+            "sector": "military",
+            "city": "London",
+            "country": "United Kingdom",
+            "active_dates": "1741-1939",
+            "normalization_notes": "Student attendance is kept separate from employment or military assignment.",
+        },
+        {
+            "key": "royal-thai-army-b932",
+            "canonical_name": "Royal Thai Army",
+            "historical_name": "Royal Siamese Army",
+            "aliases": ["Siamese Army", "Thai Army"],
+            "organization_type": "national army",
+            "sector": "military",
+            "country": "Siam (Thailand)",
+            "normalization_notes": "The wartime and pre-1939 historical country name is retained in the affiliation. The modern name is canonical for navigation only.",
+        },
+        {
+            "key": "royal-guard-siam-b932",
+            "canonical_name": "Royal Guard of King Prajadhipok",
+            "historical_name": "Royal Guard",
+            "aliases": ["Royal Guard Regiment"],
+            "organization_type": "royal military guard",
+            "sector": "military",
+            "country": "Siam (Thailand)",
+            "active_dates": "Prince Svasti served after the 1932 constitutional change until remaining in England after 1935",
+            "normalization_notes": "Kept separate from the broader Royal Siamese Army assignment because the institutional biography describes a specific royal-protection duty.",
+        },
+        {
+            "key": "force-136-b932",
+            "canonical_name": "Force 136",
+            "historical_name": "Force 136",
+            "aliases": ["Special Operations Executive Force 136", "SOE Force 136"],
+            "organization_type": "British special operations organization",
+            "sector": "military",
+            "country": "United Kingdom",
+            "active_dates": "1941-1946",
+            "normalization_notes": "Force 136 is not merged with OSS. The reviewed sources describe Prince Svasti's British assignment and separate subsequent OSS activity.",
+        },
+    ]
+
+
+def army_affiliations() -> list[dict[str, object]]:
+    result: list[dict[str, object]] = []
+    for row, data in ARMY.items():
+        result.append(
+            {
+                "key": f"{slug(PEOPLE[row][1])}-occupation-b932",
+                "person_id": PEOPLE[row][0],
+                "occupation": data["occupation"],
+                "relationship_type": "employment",
+                "end_date": data["entry"],
+                "date_precision": f"Historical civilian-occupation code {data['code']} was recorded at Army entry on {data['entry']}; no employer or workplace is named.",
+                "country": "United States",
+                "immediate_pre_oss": False,
+                "last_civilian_pre_service": False,
+                "pre_oss_temporal_basis": "strongly_date_bounded",
+                "identity_confidence": "high_confidence",
+                "claim_confidence": "medium",
+                "source_quality": "A_direct_official",
+                "publication_status": "publish_qualified",
+                "research_notes": "The historical category is not converted into a named employer, workplace or exact job title.",
+            }
+        )
+    return result
+
+
+def swadesh_affiliations() -> list[dict[str, object]]:
+    person_id = PEOPLE[45][0]
+    common = {
+        "person_id": person_id,
+        "identity_confidence": "high_confidence",
+        "claim_confidence": "high",
+        "source_quality": "C_reputable_contemporary_or_scholarly",
+        "publication_status": "published",
+    }
+    return [
+        {
+            **common,
+            "key": "swadesh-ccny-b932",
+            "organization_key": "ccny-existing-b932",
+            "organization_name_as_found": "CCNY",
+            "role_title": "Part-time teacher",
+            "occupation": "linguistics teacher",
+            "relationship_type": "employment",
+            "start_date": "1935",
+            "end_date": "1935",
+            "date_precision": "Summer 1935; exact dates not stated",
+            "city": "New York",
+            "state_or_region": "New York",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "research_notes": "Earlier documented teaching employment, not the final civilian role before military service.",
+        },
+        {
+            **common,
+            "key": "swadesh-yale-b932",
+            "organization_key": "yale-existing-b932",
+            "organization_name_as_found": "Yale",
+            "role_title": "Part-time teacher",
+            "occupation": "linguistics teacher",
+            "relationship_type": "employment",
+            "start_date": "1936",
+            "end_date": "1937",
+            "date_precision": "Academic-year range in the scholarly obituary; exact appointment dates not stated",
+            "city": "New Haven",
+            "state_or_region": "Connecticut",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "research_notes": "Earlier documented teaching employment, not student attendance and not the final civilian role before military service.",
+        },
+        {
+            **common,
+            "key": "swadesh-wisconsin-b932",
+            "organization_key": "wisconsin-existing-b932",
+            "organization_name_as_found": "University of Wisconsin",
+            "role_title": "Associate Professor of Anthropology",
+            "occupation": "anthropologist and linguist",
+            "relationship_type": "employment",
+            "start_date": "1937",
+            "end_date": "1939",
+            "date_precision": "Calendar-year range in the scholarly obituary",
+            "city": "Madison",
+            "state_or_region": "Wisconsin",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "research_notes": "Earlier documented academic employment before the later Mexico roles.",
+        },
+        {
+            **common,
+            "key": "swadesh-ipn-b932",
+            "organization_key": "ipn-b932",
+            "organization_name_as_found": "Instituto Politécnico Nacional",
+            "role_title": "Teacher",
+            "occupation": "linguist and teacher",
+            "relationship_type": "employment",
+            "start_date": "1939",
+            "end_date": "1941",
+            "date_precision": "The obituary places the Mexico work in 1939-1941; exact institutional appointment dates are not stated",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "research_notes": "One of several concurrent named Mexico roles directly before Swadesh returned to the United States and entered officer training.",
+        },
+        {
+            **common,
+            "key": "swadesh-enah-b932",
+            "organization_key": "enah-b932",
+            "organization_name_as_found": "Escuela de Antropología e Historia",
+            "role_title": "Teacher",
+            "occupation": "linguist and teacher",
+            "relationship_type": "employment",
+            "start_date": "1939",
+            "end_date": "1941",
+            "date_precision": "The obituary places the Mexico work in 1939-1941; exact institutional appointment dates are not stated",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "research_notes": "One of several concurrent named Mexico roles directly before officer training.",
+        },
+        {
+            **common,
+            "key": "swadesh-consejo-b932",
+            "organization_key": "consejo-lenguas-b932",
+            "organization_name_as_found": "Consejo de Lenguas Indígenas",
+            "role_title": "Director",
+            "occupation": "linguist and administrator",
+            "relationship_type": "government_assignment",
+            "start_date": "1939",
+            "end_date": "1941",
+            "date_precision": "The obituary places these Mexico duties in 1939-1941; exact appointment dates are not stated",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "research_notes": "A named civilian institutional duty concurrent with the two teaching roles; not collapsed into either school employer.",
+        },
+        {
+            **common,
+            "key": "swadesh-asuntos-b932",
+            "organization_key": "asuntos-indigenas-b932",
+            "organization_name_as_found": "Departamento de Asuntos Indígenas",
+            "role_title": "Director of linguistics",
+            "occupation": "linguist and administrator",
+            "relationship_type": "government_assignment",
+            "start_date": "1939",
+            "end_date": "1941",
+            "date_precision": "The obituary places these Mexico duties in 1939-1941; exact appointment dates are not stated",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "research_notes": "A named civilian government duty concurrent with the teaching roles; it is not relabeled as a school employer.",
+        },
+        {
+            **common,
+            "key": "swadesh-americanists-b932",
+            "organization_key": "americanists-congress-b932",
+            "organization_name_as_found": "Linguistic Section of the 29th International Congress of Americanists",
+            "role_title": "President, Linguistic Section",
+            "occupation": "linguist",
+            "relationship_type": "professional_affiliation",
+            "start_date": "1939",
+            "end_date": "1939",
+            "date_precision": "Congress year",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "research_notes": "Professional leadership, not employment.",
+        },
+        {
+            **common,
+            "key": "swadesh-signal-corps-b932",
+            "organization_key": "signal-corps-existing-b932",
+            "organization_name_as_found": "Signal Corps",
+            "role_title": "First lieutenant",
+            "occupation": "military linguist",
+            "relationship_type": "military_assignment",
+            "start_date": "1942",
+            "end_date": "1946",
+            "date_precision": "Service year range in the scholarly obituary; exact commission and assignment dates not stated",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "temporal_relation_uncertain",
+            "research_notes": "The source says Swadesh wrote OSS pamphlets during Signal Corps service but does not establish an OSS entry date or a clean before/after sequence.",
+        },
+    ]
+
+
+def other_affiliations() -> list[dict[str, object]]:
+    suyeoka = PEOPLE[41][0]
+    koshi = PEOPLE[43][0]
+    svasti = PEOPLE[44][0]
+    return [
+        {
+            "key": "suyeoka-misls-b932",
+            "person_id": suyeoka,
+            "organization_key": "misls-existing-b932",
+            "organization_name_as_found": "Sav44-02",
+            "role_title": "Student and graduate, February 1944 class",
+            "occupation": "military linguist trainee",
+            "relationship_type": "military_assignment",
+            "start_date": "1944-02",
+            "end_date": "1944-02",
+            "date_precision": "Registry class code Sav44-02; exact class dates are not stated in the reviewed entry",
+            "city": "Savage",
+            "state_or_region": "Minnesota",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "temporal_relation_uncertain",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "published",
+            "research_notes": "The language-school assignment is documented, but the reviewed sources do not establish the OSS transfer date or immediate predecessor relationship.",
+        },
+        {
+            "key": "koshi-kinmon-b932",
+            "person_id": koshi,
+            "organization_key": "kinmon-gakuen-b932",
+            "organization_name_as_found": "Kinmon Gakuen",
+            "role_title": "Principal",
+            "occupation": "school principal and teacher",
+            "relationship_type": "employment",
+            "start_date": "1918",
+            "end_date": "1942",
+            "date_precision": "The municipal report says principal since 1918; school operations ceased after Executive Order 9066 in 1942",
+            "city": "San Francisco",
+            "state_or_region": "California",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "identity_confidence": "probable",
+            "claim_confidence": "medium",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "publish_qualified",
+            "research_notes": "The exact distinctive name and 1942 intelligence-language-school chronology make this a probable identity, but the Box 759 file is still needed for confirmation.",
+        },
+        {
+            "key": "koshi-nils-b932",
+            "person_id": koshi,
+            "organization_key": "naval-intelligence-language-school-b932",
+            "organization_name_as_found": "Naval Intelligence Language School at Boulder, Colo.",
+            "role_title": "Teacher",
+            "occupation": "Japanese language teacher",
+            "relationship_type": "government_assignment",
+            "start_date": "1942-12-14",
+            "date_precision": "Contemporary Topaz chronology entry date; assignment end date not stated",
+            "city": "Boulder",
+            "state_or_region": "Colorado",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "temporal_relation_uncertain",
+            "identity_confidence": "probable",
+            "claim_confidence": "medium",
+            "source_quality": "A_direct_official",
+            "publication_status": "publish_qualified",
+            "research_notes": "A documented Navy intelligence-school assignment. It is not labeled an OSS role, employer or immediate predecessor without the personnel file.",
+        },
+        {
+            "key": "svasti-woolwich-b932",
+            "person_id": svasti,
+            "organization_key": "rma-woolwich-b932",
+            "organization_name_as_found": "Royal Military Academy, Woolwich",
+            "role_title": "Cadet",
+            "occupation": "student",
+            "relationship_type": "student",
+            "start_date": "1918",
+            "end_date": "1922",
+            "date_precision": "Calendar-year range in the institutional biography",
+            "city": "London",
+            "country": "United Kingdom",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "probable",
+            "claim_confidence": "medium",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "publish_qualified",
+            "research_notes": "Student affiliation, not employment.",
+        },
+        {
+            "key": "svasti-royal-army-b932",
+            "person_id": svasti,
+            "organization_key": "royal-thai-army-b932",
+            "organization_name_as_found": "artillery at Lopburi",
+            "role_title": "Artillery officer",
+            "occupation": "army officer",
+            "relationship_type": "military_assignment",
+            "start_date": "1922",
+            "end_date": "1932",
+            "date_precision": "The profile says he returned in 1922 and entered artillery service; transfer to the Royal Guard followed the 1932 change",
+            "state_or_region": "Lopburi",
+            "country": "Siam (Thailand)",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "probable",
+            "claim_confidence": "medium",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "publish_qualified",
+            "research_notes": "Documented prewar military assignment. The exact transfer date is not stated.",
+        },
+        {
+            "key": "svasti-royal-guard-b932",
+            "person_id": svasti,
+            "organization_key": "royal-guard-siam-b932",
+            "organization_name_as_found": "Royal Guard",
+            "role_title": "Royal Guard officer to King Prajadhipok",
+            "occupation": "army officer",
+            "relationship_type": "military_assignment",
+            "start_date": "1932",
+            "end_date": "1935",
+            "date_precision": "The institutional profile describes service after the 1932 change and continued residence in England after the king's 1935 abdication",
+            "country": "Siam (Thailand)",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "probable",
+            "claim_confidence": "medium",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "publish_qualified",
+            "research_notes": "Documented prewar royal military assignment; not a civilian employer.",
+        },
+        {
+            "key": "svasti-force136-b932",
+            "person_id": svasti,
+            "organization_key": "force-136-b932",
+            "organization_name_as_found": "British Army; attached to Force 136",
+            "role_title": "Major 'Arun'; Force 136 leader and planner",
+            "occupation": "allied special-operations officer",
+            "relationship_type": "military_assignment",
+            "start_date": "1943-04",
+            "end_date": "1945",
+            "date_precision": "The institutional profile dates the Force 136 assignment from April 1943; the reviewed sources do not supply a precise end date",
+            "country": "United Kingdom and Siam (Thailand)",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "temporal_relation_uncertain",
+            "identity_confidence": "probable",
+            "claim_confidence": "medium",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "publish_qualified",
+            "research_notes": "The British/SOE relationship is preserved separately from OSS. The sources do not establish why or when the indexed person entered the OSS personnel series.",
+        },
+    ]
+
+
+def affiliations() -> list[dict[str, object]]:
+    return [*army_affiliations(), *swadesh_affiliations(), *other_affiliations()]
+
+
+def army_identity_claim(row: int) -> dict[str, object]:
+    data = ARMY[row]
+    name = PEOPLE[row][1]
+    extra_sources = []
+    extra_note = ""
+    if row == 41:
+        extra_sources = [
+            {
+                "source_key": MIS_REGISTRY,
+                "locator_override": "PDF physical page 164, item 8329; protected identifier omitted",
+            }
+        ]
+        extra_note = " The independent MIS registry also aligns the exact name and protected identifier."
+    return {
+        "key": f"identity-{slug(name)}-row{row}-b932",
+        "person_id": PEOPLE[row][0],
+        "claim_type": "identity",
+        "claim_text": f"The indexed {name} row is a high-confidence match to an official Army record dated {data['entry']}.{extra_note}",
+        "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and exact full name.",
+        "identity_match_assessment": "High confidence from an exact name and a nonshared protected identifier.",
+        "temporal_assessment": f"The Army record documents entry on {data['entry']}; it does not establish the OSS transfer date.",
+        "source_quality": "A_direct_official",
+        "claim_confidence": "high",
+        "publication_status": "published",
+        "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+        "sources": [
+            {
+                "source_key": INDEX,
+                "locator_override": f"PDF page 456 row {row}; Box 759",
+            },
+            {
+                "source_key": ARMY_SOURCE,
+                "locator_override": f"Accepted reviewed identity record; Army entry {data['entry']}; protected identifier withheld",
+            },
+            {
+                "source_key": TECH,
+                "support_type": "context_only",
+                "locator_override": "PDF physical pages 44-46; field definitions",
+            },
+            *extra_sources,
+        ],
+    }
+
+
+def army_occupation_claim(row: int) -> dict[str, object]:
+    data = ARMY[row]
+    name = PEOPLE[row][1]
+    return {
+        "key": f"occupation-{slug(name)}-row{row}-b932",
+        "person_id": PEOPLE[row][0],
+        "affiliation_key": f"{slug(name)}-occupation-b932",
+        "claim_type": "occupation",
+        "claim_text": f"At Army entry on {data['entry']}, {name} was recorded in the historical occupation category {data['occupation']}; no employer or workplace is identified.",
+        "evidence_excerpt": data["occupation"],
+        "evidence_paraphrase": f"The accepted Army record carries civilian-occupation code {data['code']}, decoded from NARA's official code list.",
+        "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+        "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+        "source_quality": "A_direct_official",
+        "claim_confidence": "medium",
+        "publication_status": "publish_qualified",
+        "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+        "sources": [
+            {
+                "source_key": ARMY_SOURCE,
+                "locator_override": f"Army entry {data['entry']}; civilian-occupation code {data['code']}; protected identifier withheld",
+            },
+            {"source_key": CODES, "locator_override": data["locator"]},
+        ],
+    }
+
+
+def swadesh_claims() -> list[dict[str, object]]:
+    person_id = PEOPLE[45][0]
+    claims: list[dict[str, object]] = [
+        {
+            "key": "identity-morris-h-swadesh-b932",
+            "person_id": person_id,
+            "claim_type": "identity",
+            "claim_text": "The indexed Morris H Swadesh is a high-confidence match to linguist Morris Swadesh, whose scholarly obituary explicitly documents OSS pamphlet work during wartime service.",
+            "evidence_excerpt": "He wrote pamphlets for the Office of Strategic Services",
+            "evidence_paraphrase": "A distinctive exact name, linguistics career, Signal Corps chronology and explicit OSS work align the biography with the index row.",
+            "identity_match_assessment": "High confidence from the distinctive exact name and explicit OSS context in a scholarly biographical source.",
+            "temporal_assessment": "The source dates civilian Mexico roles to 1939-1941 and military service to 1942-1946, but does not give an OSS entry date.",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "The middle initial is preserved from the index. The source does not establish that OSS was Swadesh's military employer or define the personnel relationship.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 456 row 45; Box 759"},
+                {"source_key": SWADESH_OBITUARY, "locator_override": "PDF physical and printed page 948"},
+            ],
+        }
+    ]
+    details = [
+        ("ccny", "swadesh-ccny-b932", "other_pre_oss_affiliation", "Morris Swadesh held short-term and part-time teaching work at City College of New York in summer 1935.", "short-term and part-time teaching at CCNY", "Documented earlier prewar employment; not the immediate predecessor to wartime service."),
+        ("yale", "swadesh-yale-b932", "other_pre_oss_affiliation", "Morris Swadesh held part-time teaching work at Yale University in 1936-1937.", "at Yale (1936-37)", "Documented earlier prewar employment; not student attendance or the immediate predecessor to wartime service."),
+        ("wisconsin", "swadesh-wisconsin-b932", "other_pre_oss_affiliation", "Morris Swadesh was Associate Professor of Anthropology at the University of Wisconsin from 1937 to 1939.", "Associate Professor of Anthropology", "Documented earlier prewar employment before the later Mexico roles."),
+        ("ipn", "swadesh-ipn-b932", "last_civilian_pre_service", "Morris Swadesh taught at Instituto Politécnico Nacional during his 1939-1941 Mexico work.", "Instituto Politécnico Nacional", "Strongly date-bounded as one of several concurrent named civilian roles immediately before his return and officer training."),
+        ("enah", "swadesh-enah-b932", "last_civilian_pre_service", "Morris Swadesh taught at the Escuela de Antropología e Historia during his 1939-1941 Mexico work.", "Escuela de Antropología e Historia", "Strongly date-bounded as one of several concurrent named civilian roles immediately before his return and officer training."),
+        ("consejo", "swadesh-consejo-b932", "last_civilian_pre_service", "Morris Swadesh served as director of the Consejo de Lenguas Indígenas during his 1939-1941 Mexico work.", "director of the Consejo de Lenguas Indigenas", "Strongly date-bounded as a concurrent civilian institutional duty before officer training."),
+        ("asuntos", "swadesh-asuntos-b932", "last_civilian_pre_service", "Morris Swadesh served as director of linguistics in the Departamento de Asuntos Indígenas during his 1939-1941 Mexico work.", "director of linguistics", "Strongly date-bounded as a concurrent civilian government duty before officer training."),
+        ("americanists", "swadesh-americanists-b932", "other_pre_oss_affiliation", "Morris Swadesh was president of the Linguistic Section of the 29th International Congress of Americanists in 1939.", "president of the Linguistic Section", "Documented professional affiliation, not employment."),
+        ("signal-corps", "swadesh-signal-corps-b932", "other_pre_oss_affiliation", "Morris Swadesh served as a first lieutenant in the United States Army Signal Corps during 1942-1946.", "first lieutenant in the Signal Corps", "Documented wartime military assignment. The source does not establish a before/after boundary with the OSS pamphlet work."),
+    ]
+    for key, affiliation_key, claim_type, text, excerpt, temporal in details:
+        claims.append(
+            {
+                "key": f"swadesh-{key}-claim-b932",
+                "person_id": person_id,
+                "affiliation_key": affiliation_key,
+                "claim_type": claim_type,
+                "claim_text": text,
+                "evidence_excerpt": excerpt,
+                "evidence_paraphrase": "The scholarly obituary names the institution or assignment and supplies the stated year or year range.",
+                "identity_match_assessment": "High confidence from the distinctive exact-name and explicit OSS-context identity bridge.",
+                "temporal_assessment": temporal,
+                "source_quality": "C_reputable_contemporary_or_scholarly",
+                "claim_confidence": "high",
+                "publication_status": "published",
+                "match_notes": "Concurrent Mexico roles remain separate. None is silently promoted to an immediate pre-OSS affiliation because the source gives no OSS entry date.",
+                "sources": [
+                    {
+                        "source_key": SWADESH_OBITUARY,
+                        "locator_override": "PDF physical and printed page 948; visually checked",
+                    }
+                ],
+            }
+        )
+    return claims
+
+
+def other_claims() -> list[dict[str, object]]:
+    koshi = PEOPLE[43][0]
+    svasti = PEOPLE[44][0]
+    suyeoka = PEOPLE[41][0]
+    return [
+        {
+            "key": "identity-john-h-sutton-b932",
+            "person_id": PEOPLE[34][0],
+            "claim_type": "identity",
+            "claim_text": "The indexed John H Sutton is a high-confidence match to two official Army bulk rows dated 1942-12-10; the duplicate rows disagree about grade and code 999 is not interpreted.",
+            "evidence_paraphrase": "Both bulk rows agree through the exact name, the same nonshared protected identifier and entry date. One records PVT and one records grade value 0.",
+            "identity_match_assessment": "High confidence for identity; the two official rows appear to duplicate one person but their grade disagreement remains visible.",
+            "temporal_assessment": "The Army rows document entry on 1942-12-10 but do not establish the OSS transfer date or a civilian occupation.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "Both reviewed candidate rows are accepted for identity only. The protected identifier is withheld, and neither grade disagreement nor undefined code 999 is resolved by convenience.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 456 row 34; Box 759"},
+                {"source_key": ARMY_SOURCE, "locator_override": "Two accepted duplicate records dated 1942-12-10; protected identifier withheld"},
+                {"source_key": TECH, "support_type": "context_only", "locator_override": "PDF physical pages 44-46; field definitions"},
+                {"source_key": CODES, "support_type": "context_only", "locator_override": "Undefined occupation code 999 is not interpreted"},
+            ],
+        },
+        {
+            "key": "conflict-henry-c-sutton-row32-b932",
+            "person_id": PEOPLE[32][0],
+            "claim_type": "identity",
+            "claim_text": "This Henry C Sutton row remains separate from the adjacent Henry C Sutton row because their protected identifiers differ; the adjacent row is already linked to confirmed Heinrich C Soffner alias evidence.",
+            "evidence_paraphrase": "The two separately printed rows have identical visible names but distinct protected identifiers, while the second identifier connects to an earlier Heinrich C Soffner row.",
+            "identity_match_assessment": "Conflicting/ambiguous. Identical names and adjacency do not overcome distinct identifiers or prove duplication.",
+            "temporal_assessment": "No employment or assignment is transferred between the two entities.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "conflicting",
+            "publication_status": "conflicting",
+            "match_notes": "Full identifiers remain private. Both entities are retained and routed to joint Box 759 review.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 456 rows 32-33; protected identifiers withheld"}
+            ],
+        },
+        {
+            "key": "other-suyeoka-misls-b932",
+            "person_id": suyeoka,
+            "affiliation_key": "suyeoka-misls-b932",
+            "claim_type": "other_pre_oss_affiliation",
+            "claim_text": "Robert F Suyeoka attended the Military Intelligence Service Language School's February 1944 Camp Savage class.",
+            "evidence_excerpt": "Sav44-02",
+            "evidence_paraphrase": "The institutional registry lists the exact name, February 1944 Camp Savage class and a protected identifier agreeing with the accepted identity bridge.",
+            "identity_match_assessment": "High confidence from the exact name and agreeing protected identifier across the index, official Army bulk record and institutional MIS registry.",
+            "temporal_assessment": "Documented for February 1944; its sequence relative to OSS assignment is not established.",
+            "source_quality": "B_authoritative_institutional",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "The full protected identifier is neither quoted nor exposed. MISLS is a military assignment, not a civilian employer.",
+            "sources": [
+                {"source_key": MIS_REGISTRY, "locator_override": "PDF physical page 164, item 8329; visually checked"}
+            ],
+        },
+        {
+            "key": "identity-koshi-suzuki-b932",
+            "person_id": koshi,
+            "claim_type": "identity",
+            "claim_text": "The indexed Koshi Suzuki is probably the longtime Kinmon Gakuen principal who left Topaz in December 1942 to teach at the Naval Intelligence Language School.",
+            "evidence_excerpt": "Koshi Suzuki, prominent Issei resident of Topaz",
+            "evidence_paraphrase": "A contemporary federal report gives the exact name and intelligence-school assignment; a municipal history independently documents a principal of that exact name and matching prewar chronology.",
+            "identity_match_assessment": "Probable from the distinctive exact name, San Francisco school role, Topaz chronology and wartime intelligence-language assignment; no protected identifier or personnel-file bridge has been reviewed.",
+            "temporal_assessment": "The sources date Kinmon leadership from 1918 and the Navy language-school move to 1942-12-14, but not an OSS entry date.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "medium",
+            "publication_status": "publish_qualified",
+            "match_notes": "Presented as probable, not confirmed. The contemporary assignment is not relabeled as OSS service.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 456 row 43; Box 759"},
+                {"source_key": TOPAZ_REPORT, "locator_override": "PDF physical page 21, December 14 entry"},
+                {"source_key": KINMON_REPORT, "locator_override": "PDF physical page 55, report page 29"},
+            ],
+        },
+        {
+            "key": "last-civilian-koshi-kinmon-b932",
+            "person_id": koshi,
+            "affiliation_key": "koshi-kinmon-b932",
+            "claim_type": "last_civilian_pre_service",
+            "claim_text": "Koshi Suzuki served as principal of Kinmon Gakuen from 1918 until the school's wartime closure in 1942.",
+            "evidence_excerpt": "principal of Kinmon Gakuen since 1918",
+            "evidence_paraphrase": "The municipal report states that Suzuki had been principal since 1918 and resumed the position in 1949; the school closed under wartime removal in 1942.",
+            "identity_match_assessment": "Probable identity from the exact-name and matching intelligence-school chronology; Box 759 confirmation remains necessary.",
+            "temporal_assessment": "Strongly date-bounded as the last named civilian employment before the December 1942 Navy intelligence-school assignment.",
+            "source_quality": "B_authoritative_institutional",
+            "claim_confidence": "medium",
+            "publication_status": "publish_qualified",
+            "match_notes": "Qualified as probable. Kinmon Gakuen employment remains separate from the later government teaching assignment.",
+            "sources": [
+                {"source_key": KINMON_REPORT, "locator_override": "PDF physical page 55, report page 29"},
+                {"source_key": TOPAZ_REPORT, "support_type": "context_only", "locator_override": "PDF physical page 21; December 14, 1942 Navy-school transition"},
+            ],
+        },
+        {
+            "key": "other-koshi-nils-b932",
+            "person_id": koshi,
+            "affiliation_key": "koshi-nils-b932",
+            "claim_type": "other_pre_oss_affiliation",
+            "claim_text": "On 14 December 1942, Koshi Suzuki left Topaz to teach at the Naval Intelligence Language School in Boulder, Colorado.",
+            "evidence_excerpt": "left to teach at the Naval Intelligence Language School",
+            "evidence_paraphrase": "The contemporary Topaz project report names the person, institution and destination.",
+            "identity_match_assessment": "Probable from the distinctive exact name and corroborating prewar Kinmon Gakuen chronology.",
+            "temporal_assessment": "Explicitly dated wartime government assignment; the OSS relationship and sequence remain uncertain.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "medium",
+            "publication_status": "publish_qualified",
+            "match_notes": "The government assignment is not described as an employer or an OSS posting.",
+            "sources": [
+                {"source_key": TOPAZ_REPORT, "locator_override": "PDF physical page 21, December 14 entry; visually checked"}
+            ],
+        },
+        {
+            "key": "identity-m-c-svasti-b932",
+            "person_id": svasti,
+            "claim_type": "identity",
+            "claim_text": "The indexed M C Svasti is probably Prince Subhasvasti Wongsnit Savasdivatana, also documented as M.C. Subhasvasti Svasti, Lt Col Arun and Prince Svasti.",
+            "evidence_excerpt": "M.C. Subhasvasti Svasti",
+            "evidence_paraphrase": "An institutional membership roll expands the exact initials and surname; two Thai institutional sources align the rare name, title, military rank and wartime allied role.",
+            "identity_match_assessment": "Probable from the rare M.C. title-plus-surname form and mutually consistent expanded names and wartime context; the index has no protected identifier.",
+            "temporal_assessment": "The sources document prewar Royal Siamese Army service and a 1943 Force 136 assignment but not the exact index/OSS relationship.",
+            "source_quality": "B_authoritative_institutional",
+            "claim_confidence": "medium",
+            "publication_status": "publish_qualified",
+            "match_notes": "All variants are preserved. The profile does not call the British Force 136 posting an OSS assignment.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 456 row 44; Box 759"},
+                {"source_key": SIAM_MEMBERSHIP, "locator_override": "PDF physical page 4, printed page 262"},
+                {"source_key": THAI_POLICY, "locator_override": "PDF physical page 28 and pages 323-324"},
+                {"source_key": PRIDI_PROFILE, "locator_override": "Thai-language institutional profile, lines 25-59"},
+            ],
+        },
+    ] + svasti_affiliation_claims()
+
+
+def svasti_affiliation_claims() -> list[dict[str, object]]:
+    person_id = PEOPLE[44][0]
+    details = [
+        ("woolwich", "svasti-woolwich-b932", "Prince Subhasvasti studied at the Royal Military Academy, Woolwich, from 1918 to 1922.", "Royal Military Academy, Woolwich", "Documented prewar student affiliation; not employment."),
+        ("royal-army", "svasti-royal-army-b932", "Prince Subhasvasti entered artillery service at Lopburi after returning to Siam in 1922.", "entered artillery service at Lopburi", "Documented prewar military assignment; exact end date is inferred only from the subsequent Royal Guard role."),
+        ("royal-guard", "svasti-royal-guard-b932", "After the 1932 constitutional change, Prince Subhasvasti served in the Royal Guard protecting King Prajadhipok.", "served in the Royal Guard", "Documented prewar military assignment; not a civilian employer."),
+        ("force136", "svasti-force136-b932", "Prince Subhasvasti served with British Force 136 from April 1943 as Major Arun, a leader and planner for Thai operations.", "attached to Force 136 as a leader", "Documented allied wartime assignment. Its relationship or sequence relative to the OSS index remains uncertain."),
+    ]
+    claims: list[dict[str, object]] = []
+    for key, affiliation_key, text, excerpt, temporal in details:
+        source_keys = [PRIDI_PROFILE]
+        if key == "force136":
+            source_keys.append(THAI_POLICY)
+        claims.append(
+            {
+                "key": f"svasti-{key}-claim-b932",
+                "person_id": person_id,
+                "affiliation_key": affiliation_key,
+                "claim_type": "other_pre_oss_affiliation",
+                "claim_text": text,
+                "evidence_excerpt": excerpt,
+                "evidence_paraphrase": "The institutional sources name the role and supply the stated year or year range.",
+                "identity_match_assessment": "Probable from the rare M.C. Subhasvasti Svasti name expansion and corroborating title, rank and wartime context.",
+                "temporal_assessment": temporal,
+                "source_quality": "B_authoritative_institutional",
+                "claim_confidence": "medium",
+                "publication_status": "publish_qualified",
+                "match_notes": "The affiliation is qualified for identity and chronology. Force 136 remains institutionally distinct from OSS.",
+                "sources": [
+                    {
+                        "source_key": source_key,
+                        "locator_override": (
+                            "Thai-language institutional profile, lines 31-59"
+                            if source_key == PRIDI_PROFILE
+                            else "PDF physical pages 323-324"
+                        ),
+                    }
+                    for source_key in source_keys
+                ],
+            }
+        )
+    return claims
+
+
+def claims() -> list[dict[str, object]]:
+    result: list[dict[str, object]] = []
+    for row in ARMY:
+        result.extend([army_identity_claim(row), army_occupation_claim(row)])
+    result.extend(other_claims())
+    result.extend(swadesh_claims())
+    return result
+
+
+def archival_update(row: int, reason: str, *, priority: str = "high") -> dict[str, object]:
+    person_id, name, box = PEOPLE[row]
+    return {
+        "person_id": person_id,
+        "identity_status": "unresolved",
+        "identity_evidence": f"The visually verified index row supplies {name}, Box {box} and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. {reason}",
+        "manual_review_required": True,
+        "research_status": "requires_archival_review",
+        "next_action": f"Review Box {box} for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+        "personnel_file_digitized": False,
+        "personnel_file_reviewed": False,
+        "archival_review_priority": priority,
+    }
+
+
+def person_updates() -> list[dict[str, object]]:
+    updates = [archival_update(row, reason) for row, reason in UNRESOLVED.items()]
+    for row in ARMY:
+        update: dict[str, object] = {
+            "person_id": PEOPLE[row][0],
+            "identity_status": "high_confidence",
+            "identity_evidence": "An exact full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+            "personnel_category": "enlisted_army_personnel",
+            "commissioned_officer": False,
+            "allied_or_foreign_personnel": False,
+            "manual_review_required": True,
+            "research_status": "occupation_only_found",
+            "next_action": f"Review Box {PEOPLE[row][2]} for the immediate pre-OSS affiliation and a named employer or institution.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "high",
+        }
+        if row == 41:
+            update["name_variants"] = ["Robert F (Bobby) Suyeoka", "Bobby Suyeoka"]
+            update["identity_evidence"] = "The exact full name and nonshared protected identifier align the index, official Army record and Japanese American Veterans Association MIS registry. The civilian occupation and military language-school assignment remain distinct from employer and immediate-OSS claims."
+        updates.append(update)
+    updates.extend(
+        [
+            {
+                "person_id": PEOPLE[32][0],
+                "identity_status": "ambiguous",
+                "identity_evidence": "Two adjacent rows print Henry C Sutton, but their protected identifiers differ. The second is already linked through direct evidence to the confirmed Heinrich C Soffner alias entity; this first row remains a separate unresolved person.",
+                "personnel_category": "unknown_or_indeterminate",
+                "commissioned_officer": None,
+                "allied_or_foreign_personnel": None,
+                "manual_review_required": True,
+                "possible_duplicate_group": SOFFNER_GROUP,
+                "research_status": "conflicting_sources",
+                "next_action": "Review both Box 759 Henry C Sutton rows together with the earlier Heinrich and Heirich Soffner files. Do not merge this distinct-identifier row or transfer the confirmed alias evidence without direct file support.",
+                "personnel_file_digitized": False,
+                "personnel_file_reviewed": False,
+                "archival_review_priority": "critical",
+            },
+            {
+                "person_id": PEOPLE[34][0],
+                "identity_status": "high_confidence",
+                "identity_evidence": "Two official Army bulk rows agree with the exact indexed name, the same nonshared protected identifier and the same 1942-12-10 entry date. Their grade fields disagree (PVT versus 0), and undefined occupation code 999 is withheld.",
+                "personnel_category": "enlisted_army_personnel",
+                "commissioned_officer": False,
+                "allied_or_foreign_personnel": False,
+                "manual_review_required": True,
+                "research_status": "requires_archival_review",
+                "next_action": "Review Box 759 and the original Army records to resolve the duplicate bulk rows and grade disagreement, establish the immediate pre-OSS assignment, and identify any named civilian employer.",
+                "personnel_file_digitized": False,
+                "personnel_file_reviewed": False,
+                "archival_review_priority": "high",
+            },
+            {
+                "person_id": PEOPLE[43][0],
+                "identity_status": "probable",
+                "identity_evidence": "A contemporary federal Topaz report names Koshi Suzuki and his Naval Intelligence Language School teaching assignment; a San Francisco municipal history independently names a longtime Kinmon Gakuen principal with the same distinctive name and matching prewar chronology.",
+                "name_variants": ["Suzuki, Koshi"],
+                "personnel_category": "civilian_professional_or_administrative_grade",
+                "commissioned_officer": False,
+                "allied_or_foreign_personnel": False,
+                "manual_review_required": True,
+                "research_status": "documented_prewar_employer_found",
+                "next_action": "Review Box 759 for a protected identifier and the exact OSS chronology; confirm whether the Navy language-school assignment immediately preceded or overlapped the indexed relationship.",
+                "personnel_file_digitized": False,
+                "personnel_file_reviewed": False,
+                "archival_review_priority": "high",
+            },
+            {
+                "person_id": PEOPLE[44][0],
+                "identity_status": "probable",
+                "identity_evidence": "The rare indexed M C Svasti form aligns with the Siam Society's M.C. Subhasvasti Svasti and Thai institutional sources naming Prince Subhasvasti Wongsnit Savasdivatana, Lt Col Arun and Prince Svasti. The index has no protected identifier, so the match remains probable.",
+                "name_variants": [
+                    "M.C. Subhasvasti Svasti",
+                    "Prince Subhasvasti Wongsnit Savasdivatana",
+                    "Prince Subha Svasti",
+                    "Prince Svasti",
+                    "Major Arun",
+                    "Lieutenant Colonel Arun",
+                ],
+                "personnel_category": "foreign_or_allied_military_personnel",
+                "commissioned_officer": True,
+                "allied_or_foreign_personnel": True,
+                "manual_review_required": True,
+                "research_status": "requires_archival_review",
+                "next_action": "Review Box 759 for the exact personal name and index basis, and establish whether Force 136 preceded, overlapped or was merely cross-referenced by the OSS personnel file.",
+                "personnel_file_digitized": False,
+                "personnel_file_reviewed": False,
+                "archival_review_priority": "high",
+            },
+            {
+                "person_id": PEOPLE[45][0],
+                "identity_status": "high_confidence",
+                "identity_evidence": "The distinctive exact indexed name aligns with a scholarly obituary documenting a dated linguistics career, first-lieutenant Signal Corps service and explicit production of OSS language pamphlets.",
+                "name_variants": ["Morris Swadesh"],
+                "personnel_category": "commissioned_army_officer",
+                "commissioned_officer": True,
+                "allied_or_foreign_personnel": False,
+                "manual_review_required": True,
+                "research_status": "verified_employer_found",
+                "next_action": "Review Box 759 to establish the exact OSS personnel relationship and date, and determine whether Signal Corps service immediately preceded or overlapped the OSS pamphlet work.",
+                "personnel_file_digitized": False,
+                "personnel_file_reviewed": False,
+                "archival_review_priority": "high",
+            },
+        ]
+    )
+    return updates
+
+
+def research_attempts() -> list[dict[str, object]]:
+    attempts: list[dict[str, object]] = []
+    for row in sorted(PEOPLE):
+        person_id, name, box = PEOPLE[row]
+        attempt_number = 2 if row == 33 else 1
+        if row in ARMY:
+            outcome, reviewed, rejected = "source_reviewed", 9, 3
+            detail = "A nonshared protected identifier and exact name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace."
+            if row == 41:
+                reviewed = 11
+                detail = "Official Army and institutional MIS registry evidence establish a high-confidence identity, a February 1944 language-school assignment and a dated occupation-only category; no employer or OSS transfer date is named."
+        elif row == 34:
+            outcome, reviewed, rejected = "source_reviewed", 9, 3
+            detail = "Two exact-name Army bulk rows agree on protected identifier and entry date but disagree on grade. Both are accepted for identity only; code 999 remains uninterpreted."
+        elif row == 32:
+            outcome, reviewed, rejected = "source_reviewed", 8, 5
+            detail = "The adjacent identical-name rows carry different protected identifiers. The second belongs to the previously confirmed Heinrich C Soffner alias entity; the first remains separate and ambiguous."
+        elif row == 33:
+            outcome, reviewed, rejected = "source_reviewed", 5, 0
+            detail = "This printed Henry C Sutton row is already linked to the confirmed Heinrich C Soffner alias entity from Batch 895. The present page audit preserves that linkage and does not create a second affiliation or overwrite the existing duplicate group."
+        elif row == 43:
+            outcome, reviewed, rejected = "source_reviewed", 11, 5
+            detail = "A contemporary Topaz report and municipal Kinmon Gakuen history support a probable identity, strongly date-bounded prewar school employment and a 1942 Naval Intelligence Language School assignment; the OSS transition remains unresolved."
+        elif row == 44:
+            outcome, reviewed, rejected = "source_reviewed", 13, 5
+            detail = "Siam Society and Thai institutional sources support a probable identity and qualified military chronology from Woolwich and the Royal Siamese Army through British Force 136; no OSS employment or transition is inferred."
+        elif row == 45:
+            outcome, reviewed, rejected = "source_reviewed", 12, 4
+            detail = "A scholarly obituary establishes a high-confidence identity, named prewar employers and institutions in the United States and Mexico, first-lieutenant Signal Corps service and explicit OSS pamphlet work; the exact OSS entry date remains unresolved."
+        else:
+            outcome, reviewed, rejected = "no_result", 7, 4
+            detail = UNRESOLVED[row]
+        attempts.append(
+            {
+                "key": f"page456-row{row}-{slug(name)}-b932",
+                "person_id": person_id,
+                "source_adapter": "manual_staged_protocol",
+                "query_text": f"{name}; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box {box}; protected-identifier Army crosswalk where defensible",
+                "query_variant_type": "staged_identity_employment_archival_protocol_batch_932",
+                "started_at": "2026-10-28T00:55:00Z",
+                "completed_at": "2026-10-28T01:31:00Z",
+                "outcome": outcome,
+                "sources_reviewed": reviewed,
+                "candidate_sources_rejected": rejected,
+                "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no person-specific Batch 932 result.",
+                "research_notes": f"{detail} The index page and relevant Army code-list, scholarly or institutional pages were visually checked where applicable. The complete 1943 Official Register contains no exact-name Batch 932 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+                "next_action": (
+                    "Review Boxes 728 and 759 together for the exact OSS assignment date, Austrian union records and any last civilian employer."
+                    if row == 33
+                    else f"Review Box {box} for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer."
+                ),
+                "attempt_number": attempt_number,
+                "research_agent_version": "before-oss-b932-v1",
+            }
+        )
+    return attempts
+
+
+def main() -> None:
+    bundle = {
+        "bundle_version": "batch-932-v1",
+        "reviewer": "Before OSS Batch 932 evidence review",
+        "sources": sources(),
+        "organizations": organizations(),
+        "affiliations": affiliations(),
+        "claims": claims(),
+        "person_updates": person_updates(),
+        "research_attempts": research_attempts(),
+    }
+    OUTPUT.write_text(
+        json.dumps(bundle, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+if __name__ == "__main__":
+    main()
