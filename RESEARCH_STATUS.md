@@ -1,5 +1,56 @@
 # Research status
 
+Batch 938 completed PDF page 459, rows 24-46, from **John T. Takach**
+through **Max V. Talbot**, preserving all 23 printed rows as separate people
+with saved terminal research attempts. One official Army identity bridge was
+accepted, and no protected identifier is present in tracked evidence or public
+data.
+
+Tadao T. Takayanagi is a high-confidence identity with University Hospital in
+Ann Arbor published as his best-supported immediate pre-OSS affiliation and
+last civilian employer; UC Berkeley student status and his Topaz, Hotel Utah
+and Weber's Tavern roles remain separately modeled. Tokutaro Takayanagi's Taka
+Nursery self-employment and Roy M. Takeno's three newspaper roles remain
+qualified probable matches. Gene M. Takei has a high-confidence Army-to-OSS
+pathway with no civilian employer invented. Indexed Josef Talarek is a high-
+confidence match to Project Eagle wireless operator Józef Herzyk; forced labor
+and German conscription remain coercive history, not voluntary employment.
+Sakichi Takao, Shiro Takeda and Jerree Lee S. Talbot retain qualified
+institutional leads. Seiichi Takeda is a high-confidence OSS identity with no
+documented pre-OSS affiliation. The two William A. Takala rows remain separate
+despite a visible possible-duplicate group, and only the reviewed row receives
+dated occupation evidence. Shigeharu Takahashi and Haga Takeshi remain
+ambiguous rather than inheriting namesake claims.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,518/23,936 (60.6534%)**;
+verified-employer coverage is **463/23,936 (1.9343%)**;
+verified-affiliation coverage is **1,026/23,936 (4.2864%)**; archival-review
+coverage is **12,991/23,936 (54.2739%)**. There are **9,413** not-started
+people, **635** possible-duplicate groups and **498** conflicts. Claim
+confidence counts are **1,652 confirmed**, **4,746 high**, **2,146 medium**,
+**252 low**, **419 conflicting** and **2 unresolved**. The public projection
+contains **3,398** affiliations, **1,196** organizations, **5,912** sources and
+**8,959** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 460, row
+1, **Will S. Talbot**, in Box 764. See `research/batch-938-progress.md` for the
+source-by-source audit.
+
+Batch 938 passed evidence-schema validation, isolated import replay, canonical
+decision and evidence import, SQLite integrity and foreign-key checks, full
+ingest validation, derived export regeneration, coverage reporting, public-
+data redaction and the 200-profile structural audit. All 147 Python tests pass.
+Astro checks 569 files with zero errors, warnings or hints and builds 25,180
+static pages. The 36/36 Batch 938 browser matrix and full 105/105 bounded
+browser and accessibility release suite pass, as do the complete internal-link
+check, protected-identifier audit, checked-in public manifest, zero-
+vulnerability production dependency audit and two deterministic consecutive
+builds. The release is public from immutable content commit
+`c8c519efbea1578b68baab3fadbc7f35b1f62343`. GitHub Actions Test run
+`40635516873` and Pages run `40635516892` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 40 source-register pages and all 23
+directly affected profiles; see `reports/release_batch_938.md`.
+
 Batch 937 completed PDF page 459, rows 1-23, from **Dezso Szenes**
 through **Kengo Tajima**, preserving all 23 printed rows as separate people
 with saved terminal research attempts. Three official Army identity bridges
