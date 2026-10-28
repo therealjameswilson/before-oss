@@ -68,6 +68,16 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Publication is pending the immutable content commit, GitHub Actions Test and
-Pages runs, and an unauthenticated comparison of the live release with the
-committed manifest and all 23 Batch 931 profiles.
+- Batch 931 is public from immutable content commit
+  `25a4fa13662fef47ae5d3d55340ed800194a4371`.
+- GitHub Actions Test run `40613545094` completed successfully, including the
+  147-test Python suite, committed-manifest verification, browser release suite
+  and public-identifier audit.
+- GitHub Pages run `40613545150` completed successfully.
+- The unauthenticated deployment verifier matched all 67 assets and
+  124,035,834 bytes to the committed manifest SHA-256
+  `60684652c0a1e4961982f1c5da8a58118302da9c1af5b8efc05d7eac5ee436c2`.
+  It also verified eight core routes, 39 source-register pages and all 23
+  profiles changed by the evidence bundle.
+- The live statistics asset reports the exact release-candidate counts above.
+  Public site: <https://therealjameswilson.github.io/before-oss/>.

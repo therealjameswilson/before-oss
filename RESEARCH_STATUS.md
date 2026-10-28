@@ -37,10 +37,12 @@ with zero errors, warnings or hints and builds 25,155 static pages. The 30/30
 Batch 931 browser matrix and the full 99/99 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. Publication
-verification is pending the immutable content commit, successful Test and
-Pages runs, and the live unauthenticated verifier. See
-`reports/release_batch_931.md`.
+dependency audit and two deterministic consecutive builds. Batch 931 is public
+from immutable content commit
+`25a4fa13662fef47ae5d3d55340ed800194a4371`. GitHub Actions Test run
+`40613545094` and Pages run `40613545150` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 39 source-register pages and all 23
+affected profiles to the committed manifest. See `reports/release_batch_931.md`.
 
 Batch 930 completed PDF page 455, rows 24-46, from the second separately
 printed **John L Sullivan** row through **Elinor H Summers**, preserving all 23
