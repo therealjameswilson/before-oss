@@ -84,6 +84,7 @@ Archive locations: 230/86/41/07 and 230/86/42/01
 ## Resume point
 
 Continue with PDF page 464, row 24, **Costas A. Theodorou**, Box 771, archive
-location 230/86/42/01. A 23-row batch would end at page 465, row 1,
-**Robert Thomale**, Box 771. Both boundaries were checked against the source
-index.
+location 230/86/42/01. A 23-row batch ends at page 464, row 46,
+**Corcoran Thom**, Box 772. Page 465, row 1, **Robert Thomale**, is the next
+record for the following batch. This boundary corrects the earlier handoff
+after reinspection of the rendered source page.

@@ -1,0 +1,1615 @@
+{
+  "bundle_version": "batch-948-v1",
+  "reviewer": "Before OSS Batch 948 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b948",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 771-772",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 464, rows 24-46; checked against layout-preserving text and a 220 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Costas A. Theodorou and Corcoran Thom were visually checked as the first and last boundaries; Robert Thomale on page 465 is the next record. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b948",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven reviewed Batch 948 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Seven exact-name identities were accepted. Historical code 993 remains uninterpreted and unpublished."
+    },
+    {
+      "key": "army-tech-b948",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b948",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-173; reviewed historical categories 0-01, 0-48, 1-37, 2-27, 3-16 and 4-75",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels are qualified and never converted into named employers. Code 993 is not interpreted or published."
+    },
+    {
+      "key": "hoover-oss-board-mediterranean-b948",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Hoover Digital Collections media 331573",
+      "title": "Office of Strategic Services Board proceedings examining Mediterranean-theater personnel",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04 to 1944-05-24",
+      "locator": "PDF physical page 39, A. P. Thiele; PDF physical page 58, Theodorou Sotiris",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Office of Strategic Services records",
+      "rights_notes": "Direct declassified OSS board proceedings. Protected service identifiers printed in the source are used privately for identity resolution and omitted from public text."
+    },
+    {
+      "key": "oss-operational-groups-personnel-b948",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "Office of Strategic Services Operational Groups: Personnel",
+      "author_creator": "OSS Operational Groups research project",
+      "repository_publisher": "OSS Operational Groups",
+      "locator": "Greek Group II personnel roster; Costas A. Theodorou",
+      "access_date": "2026-10-28",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups histories",
+      "rights_notes": "Used only as corroborative wartime identity context. It does not establish Costas Theodorou's pre-OSS occupation or immediate predecessor affiliation."
+    },
+    {
+      "key": "washington-post-corcoran-thom-b948",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1985/03/06/corcoran-thom-retired-riggs-executive-dies/53a9c54e-3d7f-4d39-83e6-278c41d00eab/",
+      "title": "Corcoran Thom, Retired Riggs Executive, Dies",
+      "author_creator": "The Washington Post",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1985-03-05",
+      "locator": "Career and World War II service paragraphs",
+      "access_date": "2026-10-28",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Washington Post obituary archive",
+      "rights_notes": "The obituary supplies a 1928 Riggs career start and Army Air Forces combat-intelligence service. It does not itself describe OSS service or an Army-to-OSS transfer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-existing-b948",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Army service is modeled as military assignment, not civilian employment."
+    },
+    {
+      "key": "university-athens-existing-b948",
+      "organization_id": "31f32f7f-e7dc-5c4b-a43f-38432dbcca53",
+      "canonical_name": "National and Kapodistrian University of Athens",
+      "historical_name": "University of Athens",
+      "aliases": [
+        "University of Athens"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Athens",
+      "country": "Greece",
+      "normalization_notes": "Existing university organization reused. Sotiris Theodorou's graduate status is student affiliation, not employment."
+    },
+    {
+      "key": "riggs-national-bank-b948",
+      "canonical_name": "Riggs National Bank",
+      "historical_name": "Riggs National Bank",
+      "aliases": [
+        "Riggs"
+      ],
+      "organization_type": "bank",
+      "sector": "finance_and_banking",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1836-2005",
+      "normalization_notes": "Historical bank name preserved. No modern successor is substituted for Corcoran Thom's prewar employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "costas-a-theodorou-occupation-b948",
+      "person_id": "7f3c14f8-1069-50e5-a05a-0bc958ba9316",
+      "occupation": "waiter or waitress, except private family",
+      "relationship_type": "employment",
+      "end_date": "1942-06-11",
+      "date_precision": "Historical civilian-occupation code 227 was recorded at Army entry on 1942-06-11; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "terry-theodorou-occupation-b948",
+      "person_id": "d905ceb1-67b5-561e-b232-080b02cb81fc",
+      "occupation": "accountant or auditor",
+      "relationship_type": "employment",
+      "end_date": "1942-08-10",
+      "date_precision": "Historical civilian-occupation code 001 was recorded at Army entry on 1942-08-10; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "adrien-w-theriault-occupation-b948",
+      "person_id": "698e35ea-2c1b-5ef5-bbc1-0538dbae0ba2",
+      "occupation": "machinist",
+      "relationship_type": "employment",
+      "end_date": "1944-03-20",
+      "date_precision": "Historical civilian-occupation code 475 was recorded at Army entry on 1944-03-20; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "robert-j-thiele-occupation-b948",
+      "person_id": "e336d001-148e-529d-89c5-8f9ac23b9545",
+      "occupation": "draftsman",
+      "relationship_type": "employment",
+      "end_date": "1942-10-24",
+      "date_precision": "Historical civilian-occupation code 048 was recorded at Army entry on 1942-10-24; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "lawrence-c-tholey-occupation-b948",
+      "person_id": "53f5f040-5e44-5067-a8b9-64902fd75d8c",
+      "occupation": "stenographer or typist",
+      "relationship_type": "employment",
+      "end_date": "1943-02-13",
+      "date_precision": "Historical civilian-occupation code 137 was recorded at Army entry on 1943-02-13; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "calvin-e-tholson-occupation-b948",
+      "person_id": "84de4a5d-043b-58d6-996a-5d23ff1f77df",
+      "occupation": "farm hand on a general farm",
+      "relationship_type": "employment",
+      "end_date": "1943-07-15",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1943-07-15; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "sotiris-theodorou-army-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "organization_key": "us-army-existing-b948",
+      "organization_name_as_found": "Army",
+      "role_title": "Sergeant",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-10",
+      "end_date": "1943-10",
+      "date_precision": "Month precision from the OSS board: Army entry in October 1942 and OSS assignment in October 1943.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Army is an explicit military predecessor to OSS assignment, not a civilian employer."
+    },
+    {
+      "key": "sotiris-theodorou-civilian-occupation-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "occupation": "lawyer and contractor",
+      "relationship_type": "employment",
+      "end_date": "1942-10",
+      "date_precision": "The May 1944 OSS board describes his civilian life before October 1942 Army entry; no employer, firm or exact dates are named.",
+      "country": "Greece or United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Occupation only. Self-employment is not inferred, and no law firm, contracting business or client is invented."
+    },
+    {
+      "key": "sotiris-theodorou-athens-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "organization_key": "university-athens-existing-b948",
+      "organization_name_as_found": "University of Athens",
+      "relationship_type": "student",
+      "date_precision": "The OSS board calls him a graduate; no attendance or degree dates are supplied.",
+      "city": "Athens",
+      "country": "Greece",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Student affiliation only; the university is not classified as his employer."
+    },
+    {
+      "key": "alphonse-thiele-army-b948",
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "organization_key": "us-army-existing-b948",
+      "organization_name_as_found": "Army; Camp Mackall, North Carolina",
+      "role_title": "Enlisted man; later second lieutenant",
+      "relationship_type": "military_assignment",
+      "start_date": "1940-10",
+      "date_precision": "The OSS board states Army entry in October 1940 and explicit OSS recruitment for Special Operations from Camp Mackall; the recruitment date is not printed.",
+      "city": "Camp Mackall",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Army assignment is explicit and separate from his earlier civilian machinist occupation."
+    },
+    {
+      "key": "alphonse-thiele-machinist-b948",
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "occupation": "machinist",
+      "relationship_type": "employment",
+      "end_date": "1940-10",
+      "date_precision": "The OSS board describes civilian life before October 1940 Army entry; no employer or exact dates are named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Occupation only. His light-aircraft pilot license is a qualification, not an employer or occupation claim."
+    },
+    {
+      "key": "corcoran-thom-riggs-b948",
+      "person_id": "4e994f47-5541-52d0-aba8-3fe93334198e",
+      "organization_key": "riggs-national-bank-b948",
+      "organization_name_as_found": "Riggs National Bank",
+      "role_title": "bank employee; later assistant branch manager and executive",
+      "relationship_type": "employment",
+      "start_date": "1928",
+      "date_precision": "The obituary dates the career start to 1928 and places Army Air Forces service in World War II; it does not supply an exact mobilization or prewar employment end date.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Published as the last documented civilian employer before wartime service, not as an explicit immediate OSS predecessor."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-costas-a-theodorou-b948",
+      "person_id": "7f3c14f8-1069-50e5-a05a-0bc958ba9316",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Costas A Theodorou is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 24; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        },
+        {
+          "source_key": "oss-operational-groups-personnel-b948",
+          "support_type": "context_only",
+          "locator_override": "Greek Group II personnel roster"
+        }
+      ]
+    },
+    {
+      "key": "occupation-costas-a-theodorou-b948",
+      "person_id": "7f3c14f8-1069-50e5-a05a-0bc958ba9316",
+      "affiliation_key": "costas-a-theodorou-occupation-b948",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-11, Costas A Theodorou's record carried the historical civilian-occupation category Waiters and waitresses, except private family; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 227; the visually reviewed NARA code list expands it as Waiters and waitresses, except private family.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and exact name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Army entry 1942-06-11; code 227; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b948",
+          "locator_override": "PDF physical page 172; historical category 2-27"
+        }
+      ]
+    },
+    {
+      "key": "identity-terry-theodorou-b948",
+      "person_id": "d905ceb1-67b5-561e-b232-080b02cb81fc",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Terry Theodorou is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-terry-theodorou-b948",
+      "person_id": "d905ceb1-67b5-561e-b232-080b02cb81fc",
+      "affiliation_key": "terry-theodorou-occupation-b948",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-10, Terry Theodorou's record carried the historical civilian-occupation category Accountants and auditors; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 001; the visually reviewed NARA code list expands it as Accountants and auditors.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and exact name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Army entry 1942-08-10; code 001; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b948",
+          "locator_override": "PDF physical page 170; historical category 0-01"
+        }
+      ]
+    },
+    {
+      "key": "identity-adrien-w-theriault-b948",
+      "person_id": "698e35ea-2c1b-5ef5-bbc1-0538dbae0ba2",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Adrien W Theriault is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 27; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-adrien-w-theriault-b948",
+      "person_id": "698e35ea-2c1b-5ef5-bbc1-0538dbae0ba2",
+      "affiliation_key": "adrien-w-theriault-occupation-b948",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-03-20, Adrien W Theriault's record carried the historical civilian-occupation category Machinists; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 475; the visually reviewed NARA code list expands it as Machinists.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and exact name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Army entry 1944-03-20; code 475; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b948",
+          "locator_override": "PDF physical page 173; historical category 4-75"
+        }
+      ]
+    },
+    {
+      "key": "identity-edison-p-thibodeaux-b948",
+      "person_id": "52c9f309-7c41-5afa-a0c1-09dd7f99ab69",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Edison P Thibodeaux is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 33; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-j-thiele-b948",
+      "person_id": "e336d001-148e-529d-89c5-8f9ac23b9545",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert J Thiele is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 35; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-j-thiele-b948",
+      "person_id": "e336d001-148e-529d-89c5-8f9ac23b9545",
+      "affiliation_key": "robert-j-thiele-occupation-b948",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-24, Robert J Thiele's record carried the historical civilian-occupation category Draftsmen; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 048; the visually reviewed NARA code list expands it as Draftsmen.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and exact name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Army entry 1942-10-24; code 048; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b948",
+          "locator_override": "PDF physical page 171; historical category 0-48"
+        }
+      ]
+    },
+    {
+      "key": "identity-lawrence-c-tholey-b948",
+      "person_id": "53f5f040-5e44-5067-a8b9-64902fd75d8c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Lawrence C Tholey is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 44; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-lawrence-c-tholey-b948",
+      "person_id": "53f5f040-5e44-5067-a8b9-64902fd75d8c",
+      "affiliation_key": "lawrence-c-tholey-occupation-b948",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-13, Lawrence C Tholey's record carried the historical civilian-occupation category Stenographers and typists; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 137; the visually reviewed NARA code list expands it as Stenographers and typists.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and exact name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Army entry 1943-02-13; code 137; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b948",
+          "locator_override": "PDF physical page 171; historical category 1-37"
+        }
+      ]
+    },
+    {
+      "key": "identity-calvin-e-tholson-b948",
+      "person_id": "84de4a5d-043b-58d6-996a-5d23ff1f77df",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Calvin E Tholson is a high-confidence match to the exact-name official Army enlistment record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the person's exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Reviewed exact-name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b948",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-calvin-e-tholson-b948",
+      "person_id": "84de4a5d-043b-58d6-996a-5d23ff1f77df",
+      "affiliation_key": "calvin-e-tholson-occupation-b948",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-15, Calvin E Tholson's record carried the historical civilian-occupation category Farm hands, general farms; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 316; the visually reviewed NARA code list expands it as Farm hands, general farms.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and exact name.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b948",
+          "locator_override": "Army entry 1943-07-15; code 316; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b948",
+          "locator_override": "PDF physical page 172; historical category 3-16"
+        }
+      ]
+    },
+    {
+      "key": "identity-sotiris-theodorou-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Sotiris Theodorou is a high-confidence match to the OSS board's Sergeant Theodorou Sotiris.",
+      "evidence_paraphrase": "The rare exact name, Army and OSS chronology, Greek-language context and Box 771 index placement align.",
+      "identity_match_assessment": "High confidence from a rare exact name and direct original OSS personnel examination; the index row itself prints no protected identifier.",
+      "temporal_assessment": "The May 1944 board records October 1942 Army entry and October 1943 OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The public claim omits the service number printed in the board record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 25"
+        },
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 58; Theodorou Sotiris entry",
+          "excerpt_override": "In civilian life, was a lawyer and contractor."
+        }
+      ]
+    },
+    {
+      "key": "immediate-sotiris-theodorou-army-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "affiliation_key": "sotiris-theodorou-army-b948",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Sotiris Theodorou's documented immediate pre-OSS affiliation was the United States Army.",
+      "evidence_paraphrase": "The OSS board dates his Army entry to October 1942 and assignment to OSS to October 1943.",
+      "identity_match_assessment": "High-confidence rare-name identity from a direct OSS personnel examination.",
+      "temporal_assessment": "Explicit immediate Army-to-OSS sequence with month precision.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 58; Army and OSS assignment chronology"
+        }
+      ]
+    },
+    {
+      "key": "civilian-sotiris-theodorou-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "affiliation_key": "sotiris-theodorou-civilian-occupation-b948",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Before Army service, Sotiris Theodorou was a lawyer and contractor; no employer or firm is named.",
+      "evidence_paraphrase": "The direct OSS board describes his civilian work and places it before October 1942 Army entry.",
+      "identity_match_assessment": "High-confidence rare-name identity from the original OSS record.",
+      "temporal_assessment": "Strongly date-bounded as civilian work before Army entry; exact dates are absent.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Self-employment and a named firm are not inferred.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 58; civilian-life sentence",
+          "excerpt_override": "In civilian life, was a lawyer and contractor."
+        }
+      ]
+    },
+    {
+      "key": "student-sotiris-theodorou-athens-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "affiliation_key": "sotiris-theodorou-athens-b948",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Sotiris Theodorou was a graduate of the University of Athens.",
+      "evidence_paraphrase": "The OSS board explicitly describes him as a graduate of the University of Athens.",
+      "identity_match_assessment": "High-confidence rare-name identity from the original OSS record.",
+      "temporal_assessment": "Documented prewar education; no dates are provided and it is not employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student affiliation is kept distinct from employer fields.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 58; education sentence"
+        }
+      ]
+    },
+    {
+      "key": "identity-alphonse-thiele-b948",
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Alphonse P. Thiele is confirmed as OSS second lieutenant A. P. Thiele.",
+      "evidence_paraphrase": "The index and OSS board agree in initials and the same protected officer identifier; the board supplies Army and OSS chronology.",
+      "identity_match_assessment": "Confirmed by a direct original OSS personnel examination and exact protected-identifier linkage.",
+      "temporal_assessment": "The board records Army entry, recruitment from Camp Mackall and May 1944 duties.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The public claim masks the officer identifier and separates occupation from the pilot qualification.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 34; officer identifier withheld"
+        },
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 39; A. P. Thiele entry; identifier withheld",
+          "excerpt_override": "Was machinist in civilian life and held pilot's licence for light aircraft."
+        }
+      ]
+    },
+    {
+      "key": "immediate-alphonse-thiele-army-b948",
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "affiliation_key": "alphonse-thiele-army-b948",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Alphonse P. Thiele's documented immediate pre-OSS affiliation was the United States Army at Camp Mackall, North Carolina.",
+      "evidence_paraphrase": "The OSS board says he entered the Army in October 1940 and was recruited by OSS for Special Operations from Camp Mackall.",
+      "identity_match_assessment": "Confirmed exact person from the matching protected officer identifier.",
+      "temporal_assessment": "Explicit recruitment-from statement; the exact recruitment date is not printed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Camp Mackall is preserved as the historical assignment location; the Army is not labeled a civilian employer.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 39; Army entry and recruitment-from sentence"
+        }
+      ]
+    },
+    {
+      "key": "civilian-alphonse-thiele-machinist-b948",
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "affiliation_key": "alphonse-thiele-machinist-b948",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Before entering the Army, Alphonse P. Thiele was a machinist; no employer is named.",
+      "evidence_paraphrase": "The OSS board describes civilian machinist work and dates Army entry to October 1940.",
+      "identity_match_assessment": "Confirmed exact person from the matching protected officer identifier.",
+      "temporal_assessment": "Strongly date-bounded before October 1940 Army entry; exact employment dates are absent.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "His pilot license is not converted into employment or institutional affiliation.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-board-mediterranean-b948",
+          "locator_override": "PDF physical page 39; civilian-life sentence",
+          "excerpt_override": "Was machinist in civilian life."
+        }
+      ]
+    },
+    {
+      "key": "identity-corcoran-thom-b948",
+      "person_id": "4e994f47-5541-52d0-aba8-3fe93334198e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Corcoran Thom is a high-confidence match to banker and wartime Army Air Forces intelligence officer Corcoran Thom Jr.",
+      "evidence_paraphrase": "The distinctive exact name, compatible officer-style index record, Washington career and World War II intelligence service align.",
+      "identity_match_assessment": "High confidence from the rare exact name, compatible wartime officer context and detailed institutional chronology; the obituary does not mention OSS.",
+      "temporal_assessment": "The obituary establishes prewar banking and wartime Army Air Forces service but not the OSS transfer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published with an explicit qualification that the accessible obituary does not document the OSS link.",
+      "sources": [
+        {
+          "source_key": "nara-index-b948",
+          "locator_override": "PDF page 464 row 46; protected identifier withheld"
+        },
+        {
+          "source_key": "washington-post-corcoran-thom-b948",
+          "locator_override": "Career and World War II service paragraphs"
+        }
+      ]
+    },
+    {
+      "key": "employer-corcoran-thom-riggs-b948",
+      "person_id": "4e994f47-5541-52d0-aba8-3fe93334198e",
+      "affiliation_key": "corcoran-thom-riggs-b948",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Riggs National Bank is Corcoran Thom Jr.'s best-supported last civilian employer before World War II military service.",
+      "evidence_paraphrase": "The obituary states that he began at Riggs in 1928, then separately describes Army Air Forces combat-intelligence service during World War II.",
+      "identity_match_assessment": "High-confidence rare-name identity with compatible wartime officer context.",
+      "temporal_assessment": "Strongly date-bounded prewar career, but not an explicit immediate OSS predecessor and without an exact mobilization date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is limited to last civilian employer before wartime service; it does not assert recruitment directly from Riggs into OSS.",
+      "sources": [
+        {
+          "source_key": "washington-post-corcoran-thom-b948",
+          "locator_override": "Career and World War II service paragraphs",
+          "excerpt_override": "Mr. Thom began his career with Riggs in 1928."
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "962f7b23-23aa-5b3b-9257-dbb20201d3e8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William A Theurer, Box 771 and archive location 230/86/42/01. Exact-name and variant searches produced unbridged namesakes but no defensible OSS identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99f5be17-f251-59c3-9fc4-4272a1d96cea",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ann Thibault, Box 771 and archive location 230/86/42/01. Exact-name, institutional, obituary, newspaper and archival searches produced no reliable identity or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c9c58a7a-a4e3-50e5-a0e2-c04202a59622",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John H Thibault, Box 771 and archive location 230/86/42/01. Common-name results lacked the indexed middle initial, OSS context and a second corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6925ac26-afb4-5be7-8617-50269fb4dad6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph R Thibault, Box 771 and archive location 230/86/42/01. Military and directory namesakes could not be connected to the indexed protected row or Box 771.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d7423224-e9c0-5d09-8b06-43a512defa1c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Raymond G Thibault, Box 771 and archive location 230/86/42/01. Exact-name and military searches produced multiple namesakes without an OSS or Box-file bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6a895d08-e55a-5784-8715-52468002443f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles G Thielicke, Box 772 and archive location 230/86/42/01. Exact-name, military, institutional and obituary searches produced no reliable OSS identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d870f173-8868-5a38-8215-7fc2d30f3d5d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frank W Thielker, Box 772 and archive location 230/86/42/01. Exact-name and spelling-variant searches produced no defensible identity or employment result.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2ed459bb-34ce-5960-91cb-d26cd4270e1d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert J Thill, Box 772 and archive location 230/86/42/01. Common-name military and obituary candidates lacked a protected-identifier or OSS bridge and were rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dfb0fd93-2e00-5236-a792-87275fcb7c5e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Annie Thinesse, Box 772 and archive location 230/86/42/01. A secondary account describes an OSS-connected French woman with this rare name, but the underlying official record and pre-OSS chronology remain unverified.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0b509df6-b304-5e0a-92b5-fc5086fd1073",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Bernice J Thiry, Box 772 and archive location 230/86/42/01. Exact-name, obituary, institutional and archival searches produced no reliable identity or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f3dfaeb-dabc-561c-b889-116698346e31",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elinor H Thiry, Box 772 and archive location 230/86/42/01. Exact-name and meaningful-variant searches produced no reliable OSS identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "25c682d2-ac73-579c-9649-94922301241b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard E Thistle, Box 772 and archive location 230/86/42/01. Common-name military and directory candidates lacked an OSS, Box 772 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b2a79e77-4935-54dd-9c61-df4ea777464d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul Thole, Box 772 and archive location 230/86/42/01. A CIA Reading Room OCR hit was a false positive, and other exact-name results did not establish this indexed person.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f3c14f8-1069-50e5-a05a-0bc958ba9316",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Costas A Theodorou index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d905ceb1-67b5-561e-b232-080b02cb81fc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Terry Theodorou index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "698e35ea-2c1b-5ef5-bbc1-0538dbae0ba2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Adrien W Theriault index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "52c9f309-7c41-5afa-a0c1-09dd7f99ab69",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Edison P Thibodeaux index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 to identify the immediate pre-OSS affiliation and last civilian employer. Historical code 993 remains uninterpreted and is not published.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e336d001-148e-529d-89c5-8f9ac23b9545",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Robert J Thiele index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53f5f040-5e44-5067-a8b9-64902fd75d8c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Lawrence C Tholey index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "84de4a5d-043b-58d6-996a-5d23ff1f77df",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the visually verified Calvin E Tholson index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A direct original OSS board examination aligns the rare exact name, Greek background, Army-to-OSS chronology and wartime assignment.",
+      "name_variants": [
+        "Theodorou Sotiris"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 771 for the named law or contracting employer, exact pre-Army dates and citizenship or nationality details only when relevant to identity; do not publish sensitive data.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "identity_status": "confirmed",
+      "identity_evidence": "The original OSS board and index share A. P. Thiele's protected officer identifier and initials; the board supplies full Army, OSS and civilian chronology.",
+      "name_variants": [
+        "A P Thiele"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Optional Box 772 review may identify his civilian machinist employer and exact OSS recruitment date; no employer is inferred from occupation alone.",
+      "personnel_file_digitized": true,
+      "personnel_file_reviewed": true,
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "4e994f47-5541-52d0-aba8-3fe93334198e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name, officer-style index entry, long Washington banking career and World War II Army Air Forces combat-intelligence service support Corcoran Thom Jr.; the obituary does not itself mention OSS.",
+      "name_variants": [
+        "Corcoran Thom Jr"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 772 to confirm the exact Army Air Forces-to-OSS relationship and mobilization date. Riggs is established only as the last civilian employer before wartime service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page464-row24-costas-a-theodorou-b948",
+      "person_id": "7f3c14f8-1069-50e5-a05a-0bc958ba9316",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Costas A Theodorou; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row25-sotiris-theodorou-b948",
+      "person_id": "abafc141-5add-5adc-83dd-98e30147d32c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sotiris Theodorou; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A direct OSS board examination establishes the Army-to-OSS sequence, civilian lawyer-and-contractor occupation and University of Athens graduate status. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row26-terry-theodorou-b948",
+      "person_id": "d905ceb1-67b5-561e-b232-080b02cb81fc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Terry Theodorou; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row27-adrien-w-theriault-b948",
+      "person_id": "698e35ea-2c1b-5ef5-bbc1-0538dbae0ba2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Adrien W Theriault; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row28-william-a-theurer-b948",
+      "person_id": "962f7b23-23aa-5b3b-9257-dbb20201d3e8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William A Theurer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and variant searches produced unbridged namesakes but no defensible OSS identity or pre-OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row29-ann-thibault-b948",
+      "person_id": "99f5be17-f251-59c3-9fc4-4272a1d96cea",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ann Thibault; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name, institutional, obituary, newspaper and archival searches produced no reliable identity or employer bridge. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row30-john-h-thibault-b948",
+      "person_id": "c9c58a7a-a4e3-50e5-a0e2-c04202a59622",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John H Thibault; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Common-name results lacked the indexed middle initial, OSS context and a second corroborating identifier. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row31-joseph-r-thibault-b948",
+      "person_id": "6925ac26-afb4-5be7-8617-50269fb4dad6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph R Thibault; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Military and directory namesakes could not be connected to the indexed protected row or Box 771. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row32-raymond-g-thibault-b948",
+      "person_id": "d7423224-e9c0-5d09-8b06-43a512defa1c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond G Thibault; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and military searches produced multiple namesakes without an OSS or Box-file bridge. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row33-edison-p-thibodeaux-b948",
+      "person_id": "52c9f309-7c41-5afa-a0c1-09dd7f99ab69",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edison P Thibodeaux; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row34-alphonse-p-thiele-b948",
+      "person_id": "7e18000b-32d7-5c97-a54f-8bb955fc1eae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alphonse P Thiele; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A direct OSS board examination and matching protected officer identifier confirm identity, recruitment from the Army at Camp Mackall and civilian machinist occupation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row35-robert-j-thiele-b948",
+      "person_id": "e336d001-148e-529d-89c5-8f9ac23b9545",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert J Thiele; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row36-charles-g-thielicke-b948",
+      "person_id": "6a895d08-e55a-5784-8715-52468002443f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles G Thielicke; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name, military, institutional and obituary searches produced no reliable OSS identity or pre-OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row37-frank-w-thielker-b948",
+      "person_id": "d870f173-8868-5a38-8215-7fc2d30f3d5d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank W Thielker; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and spelling-variant searches produced no defensible identity or employment result. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row38-robert-j-thill-b948",
+      "person_id": "2ed459bb-34ce-5960-91cb-d26cd4270e1d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert J Thill; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Common-name military and obituary candidates lacked a protected-identifier or OSS bridge and were rejected. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row39-annie-thinesse-b948",
+      "person_id": "dfb0fd93-2e00-5236-a792-87275fcb7c5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Annie Thinesse; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A secondary account describes an OSS-connected French woman with this rare name, but the underlying official record and pre-OSS chronology remain unverified. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row40-bernice-j-thiry-b948",
+      "person_id": "0b509df6-b304-5e0a-92b5-fc5086fd1073",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernice J Thiry; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name, obituary, institutional and archival searches produced no reliable identity or employer bridge. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row41-elinor-h-thiry-b948",
+      "person_id": "5f3dfaeb-dabc-561c-b889-116698346e31",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elinor H Thiry; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and meaningful-variant searches produced no reliable OSS identity or pre-OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row42-richard-e-thistle-b948",
+      "person_id": "25c682d2-ac73-579c-9649-94922301241b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard E Thistle; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Common-name military and directory candidates lacked an OSS, Box 772 or protected-identifier bridge. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row43-paul-thole-b948",
+      "person_id": "b2a79e77-4935-54dd-9c61-df4ea777464d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Thole; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A CIA Reading Room OCR hit was a false positive, and other exact-name results did not establish this indexed person. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row44-lawrence-c-tholey-b948",
+      "person_id": "53f5f040-5e44-5067-a8b9-64902fd75d8c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lawrence C Tholey; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row45-calvin-e-tholson-b948",
+      "person_id": "84de4a5d-043b-58d6-996a-5d23ff1f77df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Calvin E Tholson; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted exact-name protected-identifier Army bridge supports identity and, when interpretable, a dated historical occupation category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    },
+    {
+      "key": "page464-row46-corcoran-thom-b948",
+      "person_id": "4e994f47-5541-52d0-aba8-3fe93334198e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Corcoran Thom; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 771-772; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_948",
+      "started_at": "2026-10-28T14:00:00Z",
+      "completed_at": "2026-10-28T16:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only secondary claims, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A reputable obituary establishes the rare-name banker's 1928 Riggs career start and wartime Army Air Forces combat-intelligence service; the OSS link remains for Box-file verification. The index page and admitted Army, code-list, official, institutional or newspaper pages were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b948-v1"
+    }
+  ]
+}

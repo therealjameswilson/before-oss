@@ -1,6 +1,6 @@
 # Parser QA
 
-Generated: 2026-10-28T09:58:10+00:00
+Generated: 2026-10-28T10:35:43+00:00
 
 ## Gate summary
 
