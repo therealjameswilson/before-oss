@@ -41,8 +41,12 @@ files with zero errors, warnings or hints and builds 25,191 static pages. The
 27/27 Batch 946 browser matrix and full 96/96 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. Publication
-verification is pending in `reports/release_batch_946.md`.
+dependency audit and two deterministic consecutive builds. The release is
+public from immutable content commit
+`db35414659455d9c9ad733074b766e101fbd4031`; GitHub Actions Test run
+`40665119519` and Pages run `40665119612` succeeded, and the unauthenticated
+manifest and Batch 946 routes match that commit. Full verification is recorded
+in `reports/release_batch_946.md`.
 
 Batch 945 completed PDF page 463, rows 1-23, from **Kenneth S. Templeton**
 through **William B. Terrell**, preserving all 23 printed rows as separate

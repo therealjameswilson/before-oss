@@ -72,5 +72,14 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Pending the immutable Git commit, GitHub Actions Test and Pages runs, and
-unauthenticated public-manifest verification.
+Batch 946 is public from immutable research-content commit
+`db35414659455d9c9ad733074b766e101fbd4031`. GitHub Actions Test run
+`40665119519` and Pages run `40665119612` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**126,320,435** bytes at manifest SHA-256
+`99847538ed10e1ea8ad3fdd8ad58d2bb282d010abc669b18cee3aeaf9f3ae9cf`,
+plus eight core routes, 40 source-register pages and 24 evidence-bundle profile
+routes: the 23-person Batch 946 cohort plus Walter L. Terrell, whose earlier
+row is retained separately in the new duplicate group. The live statistics
+and oil-company category therefore come from the same verified public
+projection as the reviewed profiles.
