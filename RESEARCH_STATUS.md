@@ -1,5 +1,49 @@
 # Research status
 
+Batch 943 completed PDF page 462, rows 1-23, from **John F. Taylor** through
+**Francis M. Tchitcherine**, preserving all 23 printed rows as separate people
+with saved terminal research attempts. Adjacent John G. Taylor rows remain
+separate in a visible possible-duplicate group because one has a protected
+identifier and the other does not. Thomas R. Taylor remains an identity
+conflict because the reviewed Army record prints Thomas W. Taylor; no Army
+fields were transferred across the middle-initial disagreement.
+
+Rawleigh W. Taylor has a high-confidence Mission Roanoke identity and a
+separately modeled Woodberry Forest School student affiliation, not an
+employer. Francis M. Tchitcherine has a high-confidence official OSS CD Branch
+identity, while his pre-OSS employer remains unresolved. Eight accepted Army
+matches have dated occupational categories without named employers. Leonard
+P. Taylor's `Lenord` spelling variant is documented but undefined occupation
+code 999 is not interpreted. Prentiss T. Taylor's artist biography remains an
+unassigned lead. Eleven other rows retain explicit Box 767 archival-review
+outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,631/23,936 (61.1255%)**;
+verified-employer coverage is **466/23,936 (1.9469%)**;
+verified-affiliation coverage is **1,039/23,936 (4.3407%)**; archival-review
+coverage is **13,105/23,936 (54.7502%)**. There are **9,300** not-started
+people, **641** possible-duplicate groups and **510** conflicts. Claim
+confidence counts are **1,654 confirmed**, **4,804 high**, **2,180 medium**,
+**252 low**, **426 conflicting** and **2 unresolved**. The public projection
+contains **3,448** affiliations, **1,205** organizations, **5,968** sources and
+**9,060** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 462, row
+24, **Ivan M. Tchok**, in Box 767. See `research/batch-943-progress.md` for the
+source-by-source audit.
+
+Batch 943 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 574
+files with zero errors, warnings or hints and builds 25,189 static pages. The
+33/33 Batch 943 browser matrix and full 102/102 bounded browser and
+accessibility release suite pass, as do the complete internal-link check,
+protected-identifier audit, checked-in public manifest, zero-vulnerability
+production dependency audit and two deterministic consecutive builds.
+Publication verification remains pending; see `reports/release_batch_943.md`.
+
 Batch 942 completed PDF page 461, rows 24-46, from **Bernard Tatz** through
 **Jeanne H. Taylor**, preserving all 23 printed rows as separate people with
 saved research attempts. Adjacent J. G. and John G. Tausig remain separate in

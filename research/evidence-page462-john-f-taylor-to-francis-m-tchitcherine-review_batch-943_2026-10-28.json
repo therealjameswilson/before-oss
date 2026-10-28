@@ -1,0 +1,1545 @@
+{
+  "bundle_version": "batch-943-v1",
+  "reviewer": "Before OSS Batch 943 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b943",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 767",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 462, rows 1-23; checked against layout-preserving text and a 300 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full protected identifiers remain private. Ivan M. Tchok on page 462 row 24 was checked as the next boundary."
+    },
+    {
+      "key": "army-bulk-b943",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; ten reviewed Batch 943 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Nine identities were accepted; one middle-initial conflict remains explicit. Code 999 was not interpreted."
+    },
+    {
+      "key": "army-tech-b943",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b943",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171, 173-174 and 304; reviewed historical categories 0-48, 1-05, 1-23, 1-34, 6-99, 7-60, 8-49 and 9-92",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels identify neither employers nor workplaces. Undefined code 999 was not interpreted."
+    },
+    {
+      "key": "ossog-rawleigh-taylor-b943",
+      "stable_url": "https://ossog.info/italy/roanoke.html",
+      "title": "Italy: Mission Roanoke",
+      "author_creator": "OSS Operational Groups research project",
+      "repository_publisher": "OSS Operational Groups",
+      "locator": "Mission summary, personnel list, and source note identifying Capt. Rawleigh W. D. Taylor, Jr.",
+      "access_date": "2026-10-28",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups mission histories",
+      "rights_notes": "The page states that its summary was compiled from end-of-mission reports of Capt. Taylor and 1st Lt. Gallaher retrieved from NARA. It supports identity, not a pre-OSS employer."
+    },
+    {
+      "key": "isral-rawleigh-taylor-b943",
+      "stable_url": "https://www.isral.it/wp-content/uploads/2018/12/QSC20_lunati.pdf",
+      "title": "L'Archivio del Fondo Materazzi",
+      "author_creator": "Gabriele Lunati",
+      "repository_publisher": "Istituto per la storia della resistenza e della società contemporanea in provincia di Alessandria (ISRAL)",
+      "publication_record_date": "1996",
+      "locator": "Quaderno di storia contemporanea, number 20, PDF physical page 1",
+      "access_date": "2026-10-28",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Quaderno di storia contemporanea",
+      "rights_notes": "The page was rendered at 200 dpi and visually inspected. It identifies Lt. Rawleigh W. D. Taylor as Roanoke commander, 7 March-17 May 1945, using an archive derived from NARA-held originals."
+    },
+    {
+      "key": "woodberry-rawleigh-taylor-b943",
+      "stable_url": "https://www.woodberry.org/news-detail?pk=507520",
+      "title": "Woodberry Dedicates Taylor Enclosure",
+      "author_creator": "Woodberry Forest School",
+      "repository_publisher": "Woodberry Forest School",
+      "publication_record_date": "2009-10-13",
+      "locator": "Opening paragraph identifying Rawleigh W. D. Taylor, Jr., class of 1938",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Woodberry Forest School news",
+      "rights_notes": "The rare full-name form and suffix align with the Roanoke personnel list. The page documents student/alumni status only, not employment."
+    },
+    {
+      "key": "cia-francis-tchitcherine-b943",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100140007-2.pdf",
+      "archival_identifier": "CIA-RDP13X00001R000100140007-2",
+      "title": "Personnel Changes and Appointments for the Month of April 1944",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1944",
+      "locator": "Single-page personnel-changes document; CD Branch entry for Francis M. Tchitcherine",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA FOIA OSS Collection",
+      "document_number": "CIA-RDP13X00001R000100140007-2",
+      "rights_notes": "The official document identifier and indexed full text were reviewed. A follow-up direct retrieval redirected to CIA system maintenance, so the profile requests a fresh direct check when service returns."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "woodberry-forest-school-b943",
+      "canonical_name": "Woodberry Forest School",
+      "historical_name": "Woodberry Forest School",
+      "aliases": [
+        "Woodberry"
+      ],
+      "organization_type": "secondary boarding school",
+      "sector": "academia_and_research",
+      "city": "Woodberry Forest",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "normalization_notes": "Institutional name retained. Student attendance is modeled separately from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-f-taylor-occupation-b943",
+      "person_id": "f45e1881-7443-544c-a6d2-61ae21a9fcb5",
+      "occupation": "shipping and receiving clerk",
+      "relationship_type": "employment",
+      "end_date": "1942-05-19",
+      "date_precision": "Historical civilian-occupation code 134 was recorded at Army entry on 1942-05-19; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "john-h-taylor-occupation-b943",
+      "person_id": "a9f8d91f-2069-5e3c-82ed-b266ab54eaf8",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-02-15",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-02-15; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "john-c-taylor-occupation-b943",
+      "person_id": "4b6e0700-4a21-5dc0-90b4-97967938e904",
+      "occupation": "draftsman",
+      "relationship_type": "employment",
+      "end_date": "1942-10-13",
+      "date_precision": "Historical civilian-occupation code 048 was recorded at Army entry on 1942-10-13; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "joseph-o-taylor-occupation-b943",
+      "person_id": "659e745e-754d-59db-a8cb-1d3e1d5a8d0b",
+      "occupation": "printing and publishing occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1941-10-14",
+      "date_precision": "Historical civilian-occupation code 849 was recorded at Army entry on 1941-10-14; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "parks-t-taylor-occupation-b943",
+      "person_id": "8f23d067-f742-541c-a4f0-a647430198c6",
+      "occupation": "messenger, errand, and office-worker category",
+      "relationship_type": "employment",
+      "end_date": "1942-05-15",
+      "date_precision": "Historical civilian-occupation code 123 was recorded at Army entry on 1942-05-15; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "robert-l-taylor-occupation-b943",
+      "person_id": "3778e767-0ebf-528d-ac11-03fb71134621",
+      "occupation": "filling-station and parking-lot attendant",
+      "relationship_type": "employment",
+      "end_date": "1942-10-31",
+      "date_precision": "Historical civilian-occupation code 760 was recorded at Army entry on 1942-10-31; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "robert-w-taylor-occupation-b943",
+      "person_id": "3910749d-7a9e-53a9-b624-64b46bcf4bac",
+      "occupation": "radio and phonograph manufacturing occupation",
+      "relationship_type": "employment",
+      "end_date": "1942-11-07",
+      "date_precision": "Historical civilian-occupation code 699 was recorded at Army entry on 1942-11-07; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "vernon-e-taylor-occupation-b943",
+      "person_id": "6390416d-1aa7-5a26-88a4-bc41ebf62699",
+      "occupation": "general office clerk",
+      "relationship_type": "employment",
+      "end_date": "1942-07-18",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1942-07-18; no employer, school, or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation, or exact modern job title."
+    },
+    {
+      "key": "rawleigh-taylor-woodberry-b943",
+      "person_id": "e21e7798-ab38-54ca-a7b2-e07133fdf4cc",
+      "organization_key": "woodberry-forest-school-b943",
+      "organization_name_as_found": "Woodberry Forest School",
+      "role_title": "student; class of 1938",
+      "relationship_type": "student",
+      "end_date": "1938",
+      "date_precision": "Woodberry Forest School identifies Rawleigh W. D. Taylor, Jr. as a member of the class of 1938; the page does not establish his later transition into military or OSS service.",
+      "city": "Woodberry Forest",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Published as a documented prewar student affiliation, never as an employer or immediate predecessor to OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-f-taylor-b943",
+      "person_id": "f45e1881-7443-544c-a6d2-61ae21a9fcb5",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 1; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-f-taylor-b943",
+      "person_id": "f45e1881-7443-544c-a6d2-61ae21a9fcb5",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-19, John F Taylor was recorded in the historical shipping and receiving clerk category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 134, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 134; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 171; historical category 1-34",
+          "excerpt_override": "Shipping and receiving clerks"
+        }
+      ],
+      "affiliation_key": "john-f-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-john-h-taylor-b943",
+      "person_id": "a9f8d91f-2069-5e3c-82ed-b266ab54eaf8",
+      "claim_type": "identity",
+      "claim_text": "The indexed John H Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 4; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-h-taylor-b943",
+      "person_id": "a9f8d91f-2069-5e3c-82ed-b266ab54eaf8",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-15, John H Taylor was recorded in the historical student category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "john-h-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-john-c-taylor-b943",
+      "person_id": "4b6e0700-4a21-5dc0-90b4-97967938e904",
+      "claim_type": "identity",
+      "claim_text": "The indexed John C Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 5; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-c-taylor-b943",
+      "person_id": "4b6e0700-4a21-5dc0-90b4-97967938e904",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-13, John C Taylor was recorded in the historical draftsman category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 048, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 048; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 171; historical category 0-48",
+          "excerpt_override": "Draftsmen"
+        }
+      ],
+      "affiliation_key": "john-c-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-joseph-o-taylor-b943",
+      "person_id": "659e745e-754d-59db-a8cb-1d3e1d5a8d0b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph O Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 6; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-o-taylor-b943",
+      "person_id": "659e745e-754d-59db-a8cb-1d3e1d5a8d0b",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-10-14, Joseph O Taylor was recorded in the historical printing and publishing occupation, not elsewhere classified category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 849, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 849; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 173; historical category 8-49",
+          "excerpt_override": "Occupations in printing and publishing, n.e.c."
+        }
+      ],
+      "affiliation_key": "joseph-o-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-parks-t-taylor-b943",
+      "person_id": "8f23d067-f742-541c-a4f0-a647430198c6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Parks T Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-parks-t-taylor-b943",
+      "person_id": "8f23d067-f742-541c-a4f0-a647430198c6",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-15, Parks T Taylor was recorded in the historical messenger, errand, and office-worker category category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 123, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 123; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 171; historical category 1-23",
+          "excerpt_override": "Messengers, errand boys, and office boys and girls"
+        }
+      ],
+      "affiliation_key": "parks-t-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-robert-l-taylor-b943",
+      "person_id": "3778e767-0ebf-528d-ac11-03fb71134621",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert L Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 16; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-l-taylor-b943",
+      "person_id": "3778e767-0ebf-528d-ac11-03fb71134621",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-31, Robert L Taylor was recorded in the historical filling-station and parking-lot attendant category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 760, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 760; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 174; historical category 7-60",
+          "excerpt_override": "Attendants, filling stations and parking lots"
+        }
+      ],
+      "affiliation_key": "robert-l-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-robert-w-taylor-b943",
+      "person_id": "3910749d-7a9e-53a9-b624-64b46bcf4bac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert W Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 17; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-w-taylor-b943",
+      "person_id": "3910749d-7a9e-53a9-b624-64b46bcf4bac",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-07, Robert W Taylor was recorded in the historical radio and phonograph manufacturing occupation category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 699, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 699; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 174; historical category 6-99",
+          "excerpt_override": "Occupations in manufacture of radios and phonographs"
+        }
+      ],
+      "affiliation_key": "robert-w-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-vernon-e-taylor-b943",
+      "person_id": "6390416d-1aa7-5a26-88a4-bc41ebf62699",
+      "claim_type": "identity",
+      "claim_text": "The indexed Vernon E Taylor row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 20; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-vernon-e-taylor-b943",
+      "person_id": "6390416d-1aa7-5a26-88a4-bc41ebf62699",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-18, Vernon E Taylor was recorded in the historical general office clerk category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "locator_override": "PDF physical page 171; historical category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ],
+      "affiliation_key": "vernon-e-taylor-occupation-b943"
+    },
+    {
+      "key": "identity-leonard-p-taylor-b943",
+      "person_id": "b4d879fd-dfdb-5f98-b62c-9957787b631f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Leonard P. Taylor row is a high-confidence match to the official Army record that prints the first name Lenord.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the two records; the close first-name spelling disagreement is preserved as a documented variant.",
+      "identity_match_assessment": "High confidence from the nonshared private identifier, matching surname and middle initial, and a close first-name spelling variant.",
+      "temporal_assessment": "The Army record supports identity and an entry date only; occupation code 999 is undefined and is not interpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The spelling variant is visible in the profile. No occupation or employer is transferred from undefined code 999.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 8; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "locator_override": "Accepted reviewed identity record printing Lenord P Taylor; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b943",
+          "support_type": "context_only",
+          "locator_override": "Code 999 is not defined in the reviewed code list"
+        }
+      ]
+    },
+    {
+      "key": "conflict-thomas-r-taylor-army-b943",
+      "person_id": "0f550df6-3515-5c5e-834c-93fcaea5ddd3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas R. Taylor row is not assigned to the reviewed Thomas W. Taylor Army record because the middle initials conflict.",
+      "evidence_paraphrase": "The protected identifier points to a closely matching Army record, but R and W are not silently reconciled.",
+      "identity_match_assessment": "Conflicting despite the private identifier link because the middle initial is a material disagreement.",
+      "temporal_assessment": "No Army occupation, grade or affiliation is transferred until the personnel file resolves the discrepancy.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The candidate is preserved for review, not rejected or published as this person.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 19; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b943",
+          "support_type": "contradicts",
+          "locator_override": "Reviewed candidate prints Thomas W Taylor; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-rawleigh-w-taylor-b943",
+      "person_id": "e21e7798-ab38-54ca-a7b2-e07133fdf4cc",
+      "claim_type": "identity",
+      "claim_text": "Indexed Rawleigh W. Taylor is a high-confidence match to Capt. Rawleigh W. D. Taylor, Jr., commander of OSS Mission Roanoke.",
+      "evidence_paraphrase": "The rare name, middle initial, full-name expansion, suffix, officer status and direct OSS mission evidence converge across institutional and scholarly sources.",
+      "identity_match_assessment": "High confidence from the distinctive rare name and mutually reinforcing full-name, school, military-rank and OSS-mission evidence.",
+      "temporal_assessment": "The sources document class-of-1938 status and an OSS Operational Group command in 1945, but not the immediate pre-OSS transition.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full-name expansion is published as a documented variant. No civilian employer or unproven Army-to-OSS transfer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 15; protected identifier withheld"
+        },
+        {
+          "source_key": "ossog-rawleigh-taylor-b943",
+          "locator_override": "Mission personnel list and NARA-based end-of-mission summary"
+        },
+        {
+          "source_key": "isral-rawleigh-taylor-b943",
+          "locator_override": "Quaderno di storia contemporanea 20, PDF physical page 1"
+        },
+        {
+          "source_key": "woodberry-rawleigh-taylor-b943",
+          "locator_override": "Opening paragraph identifying Rawleigh W. D. Taylor, Jr. '38"
+        }
+      ]
+    },
+    {
+      "key": "prewar-rawleigh-taylor-woodberry-b943",
+      "person_id": "e21e7798-ab38-54ca-a7b2-e07133fdf4cc",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Rawleigh W. D. Taylor, Jr. was a student at Woodberry Forest School and belonged to the class of 1938.",
+      "evidence_paraphrase": "Woodberry Forest School identifies him as an alumnus in the class of 1938; the same rare full name identifies the Roanoke commander.",
+      "identity_match_assessment": "High-confidence identity from the rare exact full name and suffix across the institutional school page and two OSS mission sources.",
+      "temporal_assessment": "Documented prewar student affiliation; not shown to be his immediate pre-OSS status and never classified as employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status remains distinct from both employment and the unresolved immediate pathway into OSS.",
+      "sources": [
+        {
+          "source_key": "woodberry-rawleigh-taylor-b943",
+          "locator_override": "Opening paragraph",
+          "excerpt_override": "Rawleigh W. D. Taylor, Jr. '38"
+        },
+        {
+          "source_key": "ossog-rawleigh-taylor-b943",
+          "support_type": "context_only",
+          "locator_override": "Mission personnel list naming Capt Rawleigh W.D. Taylor, Jr."
+        },
+        {
+          "source_key": "isral-rawleigh-taylor-b943",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 1; Roanoke commander"
+        }
+      ],
+      "affiliation_key": "rawleigh-taylor-woodberry-b943"
+    },
+    {
+      "key": "identity-francis-m-tchitcherine-b943",
+      "person_id": "a93e6139-511f-5b46-bf56-77cd1bb3c73b",
+      "claim_type": "identity",
+      "claim_text": "Indexed Francis M. Tchitcherine is a high-confidence match to the OSS CD Branch administrator named in an official personnel-changes document.",
+      "evidence_paraphrase": "The distinctive exact full name appears in an official OSS personnel document appointing him chief of the Censorship Division and administrative officer in CD Branch.",
+      "identity_match_assessment": "High confidence from the distinctive exact indexed name and a direct official OSS role document.",
+      "temporal_assessment": "The 1944 document establishes OSS identity and role, not a pre-OSS employer or earlier affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The CIA document's stable identifier is retained. Because the live CIA service redirected to maintenance on recheck, the next action requests direct retrieval when service returns.",
+      "sources": [
+        {
+          "source_key": "nara-index-b943",
+          "locator_override": "PDF page 462 row 23"
+        },
+        {
+          "source_key": "cia-francis-tchitcherine-b943",
+          "locator_override": "CD Branch personnel-change entry",
+          "excerpt_override": "Mr. Francis M. Tchitcherine, presently on duty as Asst. Chief, Censorship Division"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "249a43c1-086c-5c0f-995f-aa29391cb4e0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kathleen Taylor, Box 767 and archive location 230/86/41/07. Exact-name and institutional searches produced no defensible OSS, employer, occupation or archival identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "89e6570c-e0e9-537e-b537-ec1551970c79",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lily R Taylor, Box 767 and archive location 230/86/41/07. Exact-name and middle-initial searches produced no defensible OSS, employer, occupation or archival identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c61380d6-bfbb-5863-ad3e-69cc4486db70",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis L Taylor, Box 767 and archive location 230/86/41/07. No matching standard Army merged-file record or reliable OSS, employer, occupation or institutional bridge was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "333ae34d-97a1-592e-bddd-36de0c6602b5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Norma J Taylor, Box 767 and archive location 230/86/41/07. Exact-name and middle-initial searches produced no defensible OSS, employer, occupation or archival identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4ca0144a-5859-5df2-ac19-df87c9d76a55",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Phillip W Taylor, Box 767 and archive location 230/86/41/07. Exact-name searches returned modern namesakes and postwar records without an OSS, protected-identifier or Box 767 bridge; they were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dda141ab-cf75-57bb-9452-c63e5895db8e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Roy L Taylor, Box 767 and archive location 230/86/41/07. The common name and absence of distinguishing public index data prevented a defensible identity or employment match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8157c091-5fcf-571b-aa0c-da0e00d3c274",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Walter Taylor, Box 767 and archive location 230/86/41/07. The common name and absence of distinguishing public index data prevented a defensible identity or employment match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b3a97353-9e07-5c12-a7dd-dfec882ae56a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William W Taylor, Box 767 and archive location 230/86/41/07. Exact-name and middle-initial searches produced no defensible OSS, employer, occupation or archival identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "533a164e-8c23-5183-af61-1b542b8be527",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The adjacent Box 767 rows both print John G. Taylor; one has a protected identifier and one does not. No public source or file evidence proves that they are the same person or identifies either row.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-duplicate:john-g-taylor-page462-rows2-3",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both Box 767 files together and preserve the two source rows unless direct evidence establishes duplication or separates the identities.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d750f344-9f0b-50a4-9260-8eeb12ffc64b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The adjacent Box 767 rows both print John G. Taylor; one has a protected identifier and one does not. No public source or file evidence proves that they are the same person or identifies either row.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-duplicate:john-g-taylor-page462-rows2-3",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both Box 767 files together and preserve the two source rows unless direct evidence establishes duplication or separates the identities.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f45e1881-7443-544c-a6d2-61ae21a9fcb5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a9f8d91f-2069-5e3c-82ed-b266ab54eaf8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4b6e0700-4a21-5dc0-90b4-97967938e904",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "659e745e-754d-59db-a8cb-1d3e1d5a8d0b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8f23d067-f742-541c-a4f0-a647430198c6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3778e767-0ebf-528d-ac11-03fb71134621",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3910749d-7a9e-53a9-b624-64b46bcf4bac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6390416d-1aa7-5a26-88a4-bc41ebf62699",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b4d879fd-dfdb-5f98-b62c-9957787b631f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects indexed Leonard P. Taylor to the Army record printing Lenord P. Taylor. The close spelling variant is preserved; undefined occupation code 999 is not interpreted.",
+      "name_variants": [
+        "Lenord P Taylor"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 to confirm the Leonard/Lenord spelling and establish the immediate pre-OSS affiliation and named civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9dd1d344-9994-5ea4-b22e-af95a2a41ef4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The artist Prentiss Taylor is a plausible distinctive-name lead with documented prewar activity, but no official OSS, protected-identifier or Box 767 bridge connects that biography to indexed Prentiss T. Taylor.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 767 for a middle name, birth information, occupation or direct link before assigning the artist biography or any of its prewar affiliations.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e21e7798-ab38-54ca-a7b2-e07133fdf4cc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare indexed name aligns with Capt. Rawleigh W. D. Taylor, Jr. across a NARA-report-based mission history, an institutional historical article and Woodberry Forest School's class-of-1938 identification.",
+      "name_variants": [
+        "Rawleigh W. D. Taylor, Jr.",
+        "Rawleigh William Downman Taylor Jr."
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 767 and Virginia Military Institute records to establish the immediate pre-OSS military pathway and any civilian employer; Woodberry student status is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f550df6-3515-5c5e-834c-93fcaea5ddd3",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier points to a reviewed Thomas W. Taylor Army record, but the index prints Thomas R. Taylor. The material middle-initial conflict is preserved and no Army data are transferred.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 767 personnel file and the Army source together to resolve the R/W middle-initial conflict before assigning any occupation or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a93e6139-511f-5b46-bf56-77cd1bb3c73b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact indexed name appears in an official OSS personnel-changes document naming Francis M. Tchitcherine as a CD Branch censorship and administrative officer.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Retrieve the official CIA document again after maintenance and review Box 767 for pre-OSS employment, citizenship or government-service chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page462-row1-john-f-taylor-b943",
+      "person_id": "f45e1881-7443-544c-a6d2-61ae21a9fcb5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John F Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row2-john-g-taylor-b943",
+      "person_id": "533a164e-8c23-5183-af61-1b542b8be527",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John G Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The two adjacent John G. Taylor rows remain a possible duplicate group, but neither a name match nor the presence of a protected identifier in only one row proves identity or duplication. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row3-john-g-taylor-b943",
+      "person_id": "d750f344-9f0b-50a4-9260-8eeb12ffc64b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John G Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The two adjacent John G. Taylor rows remain a possible duplicate group, but neither a name match nor the presence of a protected identifier in only one row proves identity or duplication. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row4-john-h-taylor-b943",
+      "person_id": "a9f8d91f-2069-5e3c-82ed-b266ab54eaf8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John H Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row5-john-c-taylor-b943",
+      "person_id": "4b6e0700-4a21-5dc0-90b4-97967938e904",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John C Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row6-joseph-o-taylor-b943",
+      "person_id": "659e745e-754d-59db-a8cb-1d3e1d5a8d0b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph O Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row7-kathleen-taylor-b943",
+      "person_id": "249a43c1-086c-5c0f-995f-aa29391cb4e0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kathleen Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and institutional searches produced no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row8-leonard-p-taylor-b943",
+      "person_id": "b4d879fd-dfdb-5f98-b62c-9957787b631f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leonard P Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A nonshared protected identifier supports the Leonard/Lenord spelling variant. Undefined code 999 was not interpreted, and no employer was found. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row9-lily-r-taylor-b943",
+      "person_id": "89e6570c-e0e9-537e-b537-ec1551970c79",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lily R Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches produced no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row10-louis-l-taylor-b943",
+      "person_id": "c61380d6-bfbb-5863-ad3e-69cc4486db70",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis L Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "No matching standard Army merged-file record or reliable OSS, employer, occupation or institutional bridge was found. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row11-norma-j-taylor-b943",
+      "person_id": "333ae34d-97a1-592e-bddd-36de0c6602b5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norma J Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches produced no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row12-parks-t-taylor-b943",
+      "person_id": "8f23d067-f742-541c-a4f0-a647430198c6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Parks T Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row13-phillip-w-taylor-b943",
+      "person_id": "4ca0144a-5859-5df2-ac19-df87c9d76a55",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Phillip W Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name searches returned modern namesakes and postwar records without an OSS, protected-identifier or Box 767 bridge; they were rejected. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row14-prentiss-t-taylor-b943",
+      "person_id": "9dd1d344-9994-5ea4-b22e-af95a2a41ef4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Prentiss T Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Smithsonian and Library of Congress sources document the artist Prentiss Taylor, but no OSS, protected-identifier or Box 767 bridge assigns that biography to this indexed row. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row15-rawleigh-w-taylor-b943",
+      "person_id": "e21e7798-ab38-54ca-a7b2-e07133fdf4cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rawleigh W Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "OSS Operational Groups, ISRAL and Woodberry evidence supports a high-confidence Rawleigh W. D. Taylor, Jr. identity and a prewar class-of-1938 student affiliation; the immediate pathway and last civilian employer remain unresolved. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row16-robert-l-taylor-b943",
+      "person_id": "3778e767-0ebf-528d-ac11-03fb71134621",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row17-robert-w-taylor-b943",
+      "person_id": "3910749d-7a9e-53a9-b624-64b46bcf4bac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row18-roy-l-taylor-b943",
+      "person_id": "dda141ab-cf75-57bb-9452-c63e5895db8e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy L Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The common name and absence of distinguishing public index data prevented a defensible identity or employment match. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row19-thomas-r-taylor-b943",
+      "person_id": "0f550df6-3515-5c5e-834c-93fcaea5ddd3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas R Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The protected identifier points to Thomas W. Taylor, while the index prints Thomas R. Taylor; the conflict is preserved and no Army fields are transferred. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row20-vernon-e-taylor-b943",
+      "person_id": "6390416d-1aa7-5a26-88a4-bc41ebf62699",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vernon E Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row21-walter-taylor-b943",
+      "person_id": "8157c091-5fcf-571b-aa0c-da0e00d3c274",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The common name and absence of distinguishing public index data prevented a defensible identity or employment match. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row22-william-w-taylor-b943",
+      "person_id": "b3a97353-9e07-5c12-a7dd-dfec882ae56a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William W Taylor; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches produced no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    },
+    {
+      "key": "page462-row23-francis-m-tchitcherine-b943",
+      "person_id": "a93e6139-511f-5b46-bf56-77cd1bb3c73b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis M Tchitcherine; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 767; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_943",
+      "started_at": "2026-10-28T16:30:00Z",
+      "completed_at": "2026-10-28T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An official OSS personnel-changes document supports the distinctive exact-name identity and CD Branch role. It does not identify a pre-OSS employer, and direct CIA retrieval was temporarily blocked by system maintenance on recheck. The index page and admitted PDF pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b943-v1"
+    }
+  ]
+}
