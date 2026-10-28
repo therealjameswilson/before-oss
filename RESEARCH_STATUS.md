@@ -39,9 +39,13 @@ with zero errors, warnings or hints and builds 25,194 static pages. The 21/21
 Batch 951 browser matrix and full 90/90 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. Publication
-verification will be recorded in `reports/release_batch_951.md` after the
-immutable release is live.
+dependency audit and two deterministic consecutive builds. The release is
+public from immutable content commit
+`edb489e8d94adffbefb627b2fadf6c56c5ec984c`; GitHub Actions Test run
+`40686642320` and Pages run `40686642571` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 951
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_951.md`.
 
 Batch 950 completed PDF page 465, rows 24-46, from **Lewis V Thomas**
 through **Allen J Thompson**, preserving all 23 printed rows as separate people
