@@ -75,5 +75,12 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Pending the immutable Git commit, GitHub Actions Test and Pages runs, and
-unauthenticated public-manifest verification.
+Batch 945 is public from immutable research-content commit
+`a7c7e0c2a2adba3ae27ed87bc130ddd184fcf675`. GitHub Actions Test run
+`40660073804` and Pages run `40660073833` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**126,152,987** bytes at manifest SHA-256
+`b09f2cf10288560d672c2694fba15f3a6c1958f7a9c3d5d3186359ce0eca03eb`,
+plus eight core routes, 40 source-register pages and all 23 Batch 945 profile
+routes. The live statistics and oil-company category therefore come from the
+same verified public projection as the reviewed profiles.
