@@ -40,9 +40,12 @@ Astro checks 569 files with zero errors, warnings or hints and builds 25,182
 static pages. The 39/39 Batch 939 browser matrix and full 108/108 bounded
 browser and accessibility release suite pass, as do the complete internal-link
 check, protected-identifier audit, checked-in public manifest and zero-
-vulnerability production dependency audit. Publication verification will be
-recorded in `reports/release_batch_939.md` after GitHub Actions and the live
-unauthenticated verifier complete.
+vulnerability production dependency audit. The release is public from
+immutable content commit `85927629d4719bbb96c7d1f95317f5b35f2d18d7`.
+GitHub Actions Test run `40638224469` and Pages run `40638224468` passed. The
+unauthenticated verifier matched all 67 assets, eight core routes, 40 source-
+register pages and all 23 directly affected profiles; see
+`reports/release_batch_939.md`.
 
 Batch 938 completed PDF page 459, rows 24-46, from **John T. Takach**
 through **Max V. Talbot**, preserving all 23 printed rows as separate people

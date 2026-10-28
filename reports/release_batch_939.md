@@ -69,5 +69,11 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Pending commit, GitHub Actions and unauthenticated live verification. A local
-build or push alone is not recorded as publication.
+Batch 939 is public from immutable content commit
+`85927629d4719bbb96c7d1f95317f5b35f2d18d7`. GitHub Actions Test run
+`40638224469` and Pages run `40638224468` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**125,244,418** bytes at manifest SHA-256
+`7f012ac56c783be9db96d6f88abcb989538ef51463e41b92c59936a732c00602`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.
