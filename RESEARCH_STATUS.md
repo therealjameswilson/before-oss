@@ -42,8 +42,11 @@ static pages. The 30/30 Batch 932 browser matrix and full 99/99 bounded browser
 and accessibility release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds. The
-release candidate is ready for publication; GitHub Actions and the live
-unauthenticated deployment still require post-push verification.
+release is public from immutable content commit
+`54f7d50357bc4d635f475a6606300295bbd4c77b`. GitHub Actions Test run
+`40616946834` and Pages run `40616946847` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 39 source-register pages and all 22
+affected profiles to the committed manifest. See `reports/release_batch_932.md`.
 
 Batch 931 completed PDF page 456, rows 1-23, from **Erwin Summers** through
 **Stanley Sussman**, preserving all 23 printed rows and linking them to 23

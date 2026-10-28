@@ -55,7 +55,7 @@ Date: 2026-10-27 America/New_York
 - Production dependency audit: zero vulnerabilities. Development tooling is
   not shipped with the static site.
 
-## Coverage at release candidate
+## Coverage at publication
 
 - Index: 23,978/23,978 source rows linked (100.0000%).
 - Research attempted: 14,382/23,936 people (60.0852%).
@@ -73,7 +73,11 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Publication is pending. This section will be updated only after the content
-commit is pushed, both GitHub Actions workflows succeed and the unauthenticated
-deployment verifier matches the live GitHub Pages site to the committed public
-manifest and affected profile routes.
+Batch 932 is public from immutable content commit
+`54f7d50357bc4d635f475a6606300295bbd4c77b`. GitHub Actions Test run
+`40616946834` and Pages run `40616946847` completed successfully. The
+unauthenticated deployment verifier matched all 67 public assets across
+124,288,313 bytes, eight core routes, 39 source-register pages and all 22
+affected direct-profile routes to the committed manifest. The live manifest
+SHA-256 is
+`ef4e6be8682d16685e193c1c29f7082a17cc94b2a83d880944806d0a7be4530c`.
