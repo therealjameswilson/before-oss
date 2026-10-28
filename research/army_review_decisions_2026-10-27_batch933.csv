@@ -1,0 +1,6 @@
+target_type,target_id,decision,rationale,reviewer,decision_version
+candidate_match,33bfcc18-fef9-5480-b5bb-498db5592974,accepted,"Exact indexed name and nonshared protected identifier support the identity bridge; retain only the dated student category, not an employer.",Before OSS Batch 933 review,b933-v1
+candidate_match,d3fbeee2-606a-5204-ae83-549a0e8871ed,accepted,"Exact indexed name and nonshared protected identifier support the identity bridge; preserve the damaged grade value as uninterpreted and retain only the dated historical occupation category.",Before OSS Batch 933 review,b933-v1
+candidate_match,ee06707a-4b87-57ea-b9a2-c248c764ca33,accepted,"Exact indexed name and nonshared protected identifier support the identity bridge; retain only the dated student category, not an employer.",Before OSS Batch 933 review,b933-v1
+candidate_match,b98b6e41-df5b-5f31-ba03-11f23a727049,accepted,"Exact indexed name and nonshared protected identifier support the identity bridge; retain only the dated driver category, not an employer or workplace.",Before OSS Batch 933 review,b933-v1
+candidate_match,c29a4e42-7a51-5298-aabd-3b1cbe261372,rejected,"The protected identifier maps to a materially different full name in the official Army source. Do not transfer identity, occupation or assignment without personnel-file resolution.",Before OSS Batch 933 review,b933-v1

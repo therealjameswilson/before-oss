@@ -1,5 +1,47 @@
 # Research status
 
+Batch 933 completed PDF page 457, rows 1-23, from **Fred G. Swafford**
+through **Victor H. Swearingen**, preserving all 23 printed rows as 23 separate
+people with saved terminal research attempts. Four official Army identity
+bridges were accepted, one materially conflicting candidate was rejected, and
+no protected identifier is present in tracked evidence or public data.
+
+Lawrence E. Swank is a high-confidence identity whose West Point student
+affiliation and Army Corps of Engineers pathway into OSS are documented
+separately. Paul A. Swank is a separate high-confidence identity whose Army and
+Camp Claiborne service explicitly preceded OSS volunteering. Four official
+Army categories name occupation or student status but no employer. Anthony I.
+Swarowsky retains a rejected conflicting candidate. Harvey R. Swarts and Fred
+S. Watson Jr. remain separate despite a shared protected identifier, represented
+only by an opaque duplicate-group label. The remaining fifteen rows retain Box
+760 archival-review instructions.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,405/23,936 (60.1813%)**;
+verified-employer coverage is **460/23,936 (1.9218%)**;
+verified-affiliation coverage is **1,021/23,936 (4.2655%)**; archival-review
+coverage is **12,878/23,936 (53.8018%)**. There are **9,526** not-started
+people, **631** possible-duplicate groups and **497** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,710 high**, **2,096 medium**,
+**252 low**, **419 conflicting** and **2 unresolved**. The public projection
+contains **3,349** affiliations, **1,183** organizations, **5,851** sources and
+**8,871** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 457, row
+24, **James A. Sweatte**, in Box 760. See `research/batch-933-progress.md` for
+the source-by-source audit.
+
+Batch 933 has passed evidence-schema validation, duplicate-safe isolated
+replay, canonical import, SQLite integrity and foreign-key checks, full ingest
+validation, derived export regeneration, coverage reporting, public-data
+redaction and the 200-profile structural audit. All 147 Python tests pass.
+Astro checks 564 files with zero errors, warnings or hints and builds 25,167
+static pages. The 27/27 Batch 933 browser matrix and full 96/96 bounded browser
+and accessibility release suite pass, as do the complete internal-link check,
+protected-identifier audit, checked-in public manifest, zero-vulnerability
+production dependency audit and two deterministic consecutive builds. The
+release is locally prepared but **not yet verified public**; see
+`reports/release_batch_933.md`.
+
 Batch 932 completed PDF page 456, rows 24-46, from **Donald E. Sutcliffe**
 through **Betty H. Swadley**, preserving all 23 printed rows. Twenty-two newly
 attempted profiles and one previously reviewed alias entity received 23 saved
