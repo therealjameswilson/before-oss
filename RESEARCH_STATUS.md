@@ -1,5 +1,51 @@
 # Research status
 
+Batch 942 completed PDF page 461, rows 24-46, from **Bernard Tatz** through
+**Jeanne H. Taylor**, preserving all 23 printed rows as separate people with
+saved research attempts. Adjacent J. G. and John G. Tausig remain separate in
+a visible possible-duplicate group because the John Geyer Tausig biography has
+no OSS, identifier or Box 766 bridge. James C. Taylor remains an identity
+conflict because a protected identifier points to James H. Taylor; no Army
+fields were transferred across the middle-initial disagreement.
+
+Kurt L. Taub has a high-confidence Army/CIC-to-OSS Czech-section pathway, an
+unnamed Boston upholstery shop as his qualified last identified civilian work
+before Army service and earlier Schenker & Co. employment. Edmond L. Taylor has
+a high-confidence COI-to-OSS pathway and separately modeled earlier Chicago
+Tribune employment; his final civilian employer remains unresolved. Jack H.
+Taylor is a confirmed identity with an unnamed Los Angeles dental practice,
+U.S. Naval Reserve service and OSS entry modeled separately. Bernard Tatz,
+George S. Taylor, Gordon L. Taylor and Harry E. Taylor have dated occupational
+classifications without named employers. Jeanne H. Taylor's existing probable
+WPA Index of American Design lead remains visibly qualified. Twelve other rows
+retain explicit Box 766 or 767 archival-review outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,608/23,936 (61.0294%)**;
+verified-employer coverage is **466/23,936 (1.9469%)**;
+verified-affiliation coverage is **1,038/23,936 (4.3366%)**; archival-review
+coverage is **13,082/23,936 (54.6541%)**. There are **9,323** not-started
+people, **640** possible-duplicate groups and **507** conflicts. Claim
+confidence counts are **1,654 confirmed**, **4,792 high**, **2,172 medium**,
+**252 low**, **425 conflicting** and **2 unresolved**. The public projection
+contains **3,439** affiliations, **1,204** organizations, **5,960** sources and
+**9,039** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 462, row 1,
+**John F. Taylor**, in Box 767. See `research/batch-942-progress.md` for the
+source-by-source audit.
+
+Batch 942 passed evidence-schema validation, isolated import replay, canonical
+review-decision and evidence import, SQLite integrity and foreign-key checks,
+full ingest validation, derived export regeneration, coverage reporting,
+public-data redaction and the 200-profile structural audit. All 147 Python
+tests pass. Astro checks 573 files with zero errors, warnings or hints and
+builds 25,188 static pages. The 33/33 Batch 942 browser matrix and full 102/102
+bounded browser and accessibility release suite pass, as do the complete
+internal-link check, protected-identifier audit, checked-in public manifest,
+zero-vulnerability production dependency audit and two deterministic
+consecutive builds. Publication and unauthenticated production verification
+are pending; see `reports/release_batch_942.md`.
+
 Batch 941 completed PDF page 461, rows 1-23, from **Ray L. Tarbox** through
 **Jack H. Tattersall**, preserving all 23 printed rows as separate people with
 saved terminal research attempts. The two identical John Targakis rows remain
