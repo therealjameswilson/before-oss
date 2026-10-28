@@ -1,0 +1,1321 @@
+{
+  "bundle_version": "batch-949-v1",
+  "reviewer": "Before OSS Batch 949 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b949",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 772-773",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 465, rows 1-23; checked against layout-preserving text and a 220 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Robert Thomale and Josephine Thomas were visually checked as the cohort boundaries. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b949",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven reviewed Batch 949 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Five interpretable categories identify occupations, not employers. Codes 345 and 070 are not assigned in the reviewed official list and are not published as occupations."
+    },
+    {
+      "key": "army-tech-b949",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b949",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175; reviewed historical categories 0-72, 1-01, 2-26, 5-25 and 7-81",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels are qualified and never converted into named employers. Codes 345 and 070 are unassigned in the reviewed official three-digit list and remain uninterpreted."
+    },
+    {
+      "key": "nps-allison-thomas-b949",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm",
+      "title": "OSS in Action: The Pacific and the Far East",
+      "author_creator": "National Park Service",
+      "repository_publisher": "National Park Service, U.S. Department of the Interior",
+      "publication_record_date": "Last updated 2017-08-08",
+      "locator": "Section on the Deer Team; paragraph beginning 'The commander was Major Allison K. Thomas'",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS training and operations history",
+      "rights_notes": "The institutional history explicitly describes Michigan legal work, Army service and recruitment from the Army by OSS. It names no law firm or employer."
+    },
+    {
+      "key": "msu-allison-thomas-b949",
+      "stable_url": "https://archive.lib.msu.edu/uahc/FindingAids/222.html",
+      "archival_identifier": "Collection 00222",
+      "title": "Major Allison K. Thomas Collection",
+      "author_creator": "Michigan State University Archives and Historical Collections",
+      "repository_publisher": "Michigan State University Archives and Historical Collections",
+      "publication_record_date": "2012-08",
+      "locator": "Summary information, biographical note and Box 1 inventory",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Major Allison K. Thomas collection",
+      "rights_notes": "Used to corroborate the exact identity, full name, dates and Deer Team role. Its brief biographical note describes the postwar return to law and is not used as proof of a named prewar employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-existing-b949",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Army service is modeled as military assignment, not civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "anthony-thomann-occupation-b949",
+      "person_id": "eb722592-1737-570a-8c5d-d53d223cc31d",
+      "occupation": "bookkeepers and cashiers, except bank cashiers",
+      "relationship_type": "employment",
+      "end_date": "1942-07-17",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1942-07-17; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "anton-c-thomann-occupation-b949",
+      "person_id": "9ec3b452-168a-58d2-bf07-717405f8432f",
+      "occupation": "motor-vehicle mechanic or repairman",
+      "relationship_type": "employment",
+      "end_date": "1941-12-19",
+      "date_precision": "Historical civilian-occupation code 781 was recorded at Army entry on 1941-12-19; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "christopher-g-thomas-occupation-b949",
+      "person_id": "1f065e09-e3b8-5832-8b92-150d3fa2ecb6",
+      "occupation": "retail manager",
+      "relationship_type": "employment",
+      "end_date": "1942-06-01",
+      "date_precision": "Historical civilian-occupation code 072 was recorded at Army entry on 1942-06-01; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "edward-g-thomas-occupation-b949",
+      "person_id": "21853702-bc6d-500c-a4ae-739c01fc2c85",
+      "occupation": "carpenter",
+      "relationship_type": "employment",
+      "end_date": "1945-03-16",
+      "date_precision": "Historical civilian-occupation code 525 was recorded at Army entry on 1945-03-16; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "james-a-thomas-occupation-b949",
+      "person_id": "6351a088-3a21-5bd4-9386-c23593aef8fb",
+      "occupation": "cook, except private family",
+      "relationship_type": "employment",
+      "end_date": "1942-11-18",
+      "date_precision": "Historical civilian-occupation code 226 was recorded at Army entry on 1942-11-18; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "allison-thomas-army-b949",
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "organization_key": "us-army-existing-b949",
+      "organization_name_as_found": "Army",
+      "role_title": "officer; later major",
+      "relationship_type": "military_assignment",
+      "date_precision": "The National Park Service history states that Thomas joined the Army, became an officer and was recruited from the Army by OSS; exact dates are not supplied.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army is an explicit predecessor affiliation and is not labeled a civilian employer."
+    },
+    {
+      "key": "allison-thomas-lawyer-b949",
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "occupation": "lawyer",
+      "relationship_type": "employment",
+      "date_precision": "The National Park Service history places Michigan legal work before Army entry; no firm, employer or exact dates are named.",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as the best-supported last civilian occupation before Army service. No law firm, employer or self-employment status is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-anthony-thomann-b949",
+      "person_id": "eb722592-1737-570a-8c5d-d53d223cc31d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Anthony Thomann is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 2; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-anthony-thomann-b949",
+      "person_id": "eb722592-1737-570a-8c5d-d53d223cc31d",
+      "affiliation_key": "anthony-thomann-occupation-b949",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-17, Anthony Thomann's record carried the historical civilian-occupation category Bookkeepers and cashiers, except bank cashiers; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 101; the visually reviewed NARA code list expands it as Bookkeepers and cashiers, except bank cashiers.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Army entry 1942-07-17; code 101; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b949",
+          "locator_override": "PDF physical page 171; historical category 1-01"
+        }
+      ]
+    },
+    {
+      "key": "identity-anton-c-thomann-b949",
+      "person_id": "9ec3b452-168a-58d2-bf07-717405f8432f",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Anton C Thomann is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 3; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-anton-c-thomann-b949",
+      "person_id": "9ec3b452-168a-58d2-bf07-717405f8432f",
+      "affiliation_key": "anton-c-thomann-occupation-b949",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-12-19, Anton C Thomann's record carried the historical civilian-occupation category Mechanics and repairmen, motor vehicle; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 781; the visually reviewed NARA code list expands it as Mechanics and repairmen, motor vehicle.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Army entry 1941-12-19; code 781; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b949",
+          "locator_override": "PDF physical page 175; historical category 7-81"
+        }
+      ]
+    },
+    {
+      "key": "identity-albert-thomas-b949",
+      "person_id": "848cbc0c-de59-53c2-971f-59d1550b4bf0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert Thomas is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service after OSS dissolution and therefore supports identity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 4; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-christopher-g-thomas-b949",
+      "person_id": "1f065e09-e3b8-5832-8b92-150d3fa2ecb6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Christopher G Thomas is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 8; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-christopher-g-thomas-b949",
+      "person_id": "1f065e09-e3b8-5832-8b92-150d3fa2ecb6",
+      "affiliation_key": "christopher-g-thomas-occupation-b949",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-01, Christopher G Thomas's record carried the historical civilian-occupation category Retail managers; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 072; the visually reviewed NARA code list expands it as Retail managers.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Army entry 1942-06-01; code 072; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b949",
+          "locator_override": "PDF physical page 171; historical category 0-72"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-g-thomas-b949",
+      "person_id": "21853702-bc6d-500c-a4ae-739c01fc2c85",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward G Thomas is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 11; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-edward-g-thomas-b949",
+      "person_id": "21853702-bc6d-500c-a4ae-739c01fc2c85",
+      "affiliation_key": "edward-g-thomas-occupation-b949",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-03-16, Edward G Thomas's record carried the historical civilian-occupation category Carpenters; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 525; the visually reviewed NARA code list expands it as Carpenters.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Army entry 1945-03-16; code 525; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b949",
+          "locator_override": "PDF physical page 174; historical category 5-25"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-l-thomas-b949",
+      "person_id": "e398bf65-febf-5a08-95a2-03748594a270",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Francis L Thomas is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service after OSS dissolution and therefore supports identity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-a-thomas-b949",
+      "person_id": "6351a088-3a21-5bd4-9386-c23593aef8fb",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James A Thomas is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the indexed name agrees with the Army form.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus full-name agreement.",
+      "temporal_assessment": "The Army record dates entry into service; it does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not by itself establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 19; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b949",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-a-thomas-b949",
+      "person_id": "6351a088-3a21-5bd4-9386-c23593aef8fb",
+      "affiliation_key": "james-a-thomas-occupation-b949",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-18, James A Thomas's record carried the historical civilian-occupation category Cooks, except private family; no employer is named.",
+      "evidence_paraphrase": "The official bulk record supplies code 226; the visually reviewed NARA code list expands it as Cooks, except private family.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical occupation category. No workplace or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b949",
+          "locator_override": "Army entry 1942-11-18; code 226; identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b949",
+          "locator_override": "PDF physical page 172; historical category 2-26"
+        }
+      ]
+    },
+    {
+      "key": "identity-allison-thomas-b949",
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Allison K. Thomas is a high-confidence match to Major Allison Kent Thomas, commander of the OSS Deer Team.",
+      "evidence_paraphrase": "The exact full name, compatible officer identifier and two institutional histories align with the Deer Team commander.",
+      "identity_match_assessment": "High confidence from the distinctive full name, compatible officer context and independent NPS and MSU institutional histories.",
+      "temporal_assessment": "Both institutional histories place him in OSS wartime service; neither source exposes the index identifier.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The public identity claim masks the indexed officer identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b949",
+          "locator_override": "PDF page 465 row 6; protected identifier withheld"
+        },
+        {
+          "source_key": "nps-allison-thomas-b949",
+          "locator_override": "Deer Team commander paragraph"
+        },
+        {
+          "source_key": "msu-allison-thomas-b949",
+          "locator_override": "Biographical note and Collection 00222 inventory"
+        }
+      ]
+    },
+    {
+      "key": "immediate-allison-thomas-army-b949",
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "affiliation_key": "allison-thomas-army-b949",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Allison K. Thomas's documented immediate pre-OSS affiliation was the United States Army.",
+      "evidence_paraphrase": "The National Park Service history says that Thomas joined the Army, became an officer and was recruited from the Army by OSS.",
+      "identity_match_assessment": "High-confidence distinctive-name identity corroborated by NPS and MSU institutional histories.",
+      "temporal_assessment": "Explicit recruitment-from-Army statement; exact dates are absent.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nps-allison-thomas-b949",
+          "locator_override": "Deer Team commander paragraph",
+          "excerpt_override": "He joined the Army, became an officer, and ... had been recruited from the Army by OSS."
+        }
+      ]
+    },
+    {
+      "key": "occupation-allison-thomas-lawyer-b949",
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "affiliation_key": "allison-thomas-lawyer-b949",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Before Army service, Allison K. Thomas worked as a lawyer in Michigan; no employer or firm is named.",
+      "evidence_paraphrase": "The National Park Service history places his Michigan legal work before Army entry and Army-to-OSS recruitment.",
+      "identity_match_assessment": "High-confidence distinctive-name identity corroborated by institutional archives.",
+      "temporal_assessment": "Strongly date-bounded before Army service, but no firm, exact dates or self-employment status are supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified last civilian occupation, not as a named employer. The MSU summary confirms identity but does not independently settle the prewar legal chronology.",
+      "sources": [
+        {
+          "source_key": "nps-allison-thomas-b949",
+          "locator_override": "Deer Team commander paragraph",
+          "excerpt_override": "had become a lawyer in Michigan"
+        },
+        {
+          "source_key": "msu-allison-thomas-b949",
+          "support_type": "context_only",
+          "locator_override": "Biographical note; postwar return to Lansing and law"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a2237c45-cf09-5527-93f5-e8a28fa480b1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert Thomale, Box 772 and archive location 230/86/42/01. The indexed protected identifier produced no Army bulk match, and exact-name searches did not establish a defensible OSS identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 772 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b7f0c3a4-816e-5d51-9ae4-ca5de1cea3a7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alfred B Thomas, Box 773 and archive location 230/86/42/01. Common-name results lacked an OSS, Box 773 or protected-identifier bridge and did not establish a pre-OSS employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "327b7145-da3a-5e1c-8f03-97cfb7d52c43",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Annie B Thomas, Box 773 and archive location 230/86/42/01. Exact-name, institutional, obituary, newspaper and archival searches produced no reliable identity or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fea54bf1-c0f0-5a5c-8efb-d804746fedbd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Clinton F Thomas, Box 773 and archive location 230/86/42/01. Exact-name and military searches produced namesakes without a second corroborating identifier or pre-OSS chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8012bd97-b9ab-5104-b534-426bc75adab4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Cynthia M Thomas, Box 773 and archive location 230/86/42/01. Exact-name and meaningful-variant searches produced no reliable OSS identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3da7dfb8-29bf-5862-8f30-8a94ebf2a33a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies G W Thomas, Box 773 and archive location 230/86/42/01. The initial-only indexed name is insufficient to assign any G. W. Thomas biography or employer without the personnel file.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53563a1b-63ec-514a-812d-8772c3303a50",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George W Thomas, Box 773 and archive location 230/86/42/01. The indexed protected identifier produced no Army bulk match, and common-name results could not be bridged to Box 773.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "19247a68-3dd0-5808-b4de-18a98415f82a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gertrude M Thomas, Box 773 and archive location 230/86/42/01. Exact-name, institutional, obituary and archival searches produced no defensible identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "71805a05-515c-50ed-88e8-96d6c8bc7b2b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gregory Thomas, Box 773 and archive location 230/86/42/01. H. Gregory Thomas OSS records were retained as a rejected namesake lead because the index omits H and supplies no corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "abd10a7f-9aa1-5912-8227-287c708d7e6a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Helen E Thomas, Box 773 and archive location 230/86/42/01. The short protected number and common name did not support a unique online identity or employer match.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "82a29dd8-abaf-597a-95ca-a3ebcf4bd01e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Hugh R Thomas, Box 773 and archive location 230/86/42/01. Exact-name and rank-free searches produced multiple namesakes without an OSS or Box-file bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f1d18087-0244-5533-af39-2747203f7117",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jean Thomas, Box 773 and archive location 230/86/42/01. The common name produced several unrelated candidates and no corroborating OSS identifier or prewar employer chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "77cd18a4-d48a-5460-bc8b-ee359f58b1fc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John L Thomas, Box 773 and archive location 230/86/42/01. Common-name military, obituary and directory candidates lacked a protected-identifier or Box 773 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "80feec29-4005-5aea-af35-fef831dbc9cc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph E Thomas, Box 773 and archive location 230/86/42/01. Common-name results did not supply two corroborating identifiers beyond the name or a defensible pre-OSS chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2111bd68-1f04-59f8-9753-708774f5be42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Josephine Thomas, Box 773 and archive location 230/86/42/01. Exact-name, obituary, institutional and archival searches produced no reliable identity or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eb722592-1737-570a-8c5d-d53d223cc31d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Anthony Thomann index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 773 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Anthony W Thomann Jr"
+      ]
+    },
+    {
+      "person_id": "9ec3b452-168a-58d2-bf07-717405f8432f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Anton C Thomann index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 773 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "848cbc0c-de59-53c2-971f-59d1550b4bf0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Albert Thomas index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for the pre-OSS affiliation and last civilian employer. The 1945-10-31 Army record supports identity only, and code 345 remains uninterpreted.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1f065e09-e3b8-5832-8b92-150d3fa2ecb6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Christopher G Thomas index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 773 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21853702-bc6d-500c-a4ae-739c01fc2c85",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Edward G Thomas index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 773 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e398bf65-febf-5a08-95a2-03748594a270",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified Francis L Thomas index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 773 for the pre-OSS affiliation and last civilian employer. The 1945-11-07 Army record supports identity only, and code 070 remains uninterpreted.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6351a088-3a21-5bd4-9386-c23593aef8fb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and name agreement connect the visually verified James A Thomas index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 773 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name, compatible officer context and independent National Park Service and Michigan State University archival histories identify Major Allison Kent Thomas of the OSS Deer Team.",
+      "name_variants": [
+        "Allison Kent Thomas",
+        "Major Allison K Thomas"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 773 and contemporary Michigan legal records for a named pre-Army law employer or practice and exact dates. Do not infer self-employment from the occupation alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page465-row1-robert-thomale-b949",
+      "person_id": "a2237c45-cf09-5527-93f5-e8a28fa480b1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Thomale; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "The indexed protected identifier produced no Army bulk match, and exact-name searches did not establish a defensible OSS identity or pre-OSS affiliation. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row2-anthony-thomann-b949",
+      "person_id": "eb722592-1737-570a-8c5d-d53d223cc31d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony Thomann; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row3-anton-c-thomann-b949",
+      "person_id": "9ec3b452-168a-58d2-bf07-717405f8432f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anton C Thomann; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row4-albert-thomas-b949",
+      "person_id": "848cbc0c-de59-53c2-971f-59d1550b4bf0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Albert Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity; the post-OSS Army-entry date and unassigned code support no pre-OSS occupation. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row5-alfred-b-thomas-b949",
+      "person_id": "b7f0c3a4-816e-5d51-9ae4-ca5de1cea3a7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred B Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Common-name results lacked an OSS, Box 773 or protected-identifier bridge and did not establish a pre-OSS employer. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row6-allison-k-thomas-b949",
+      "person_id": "4b6ce778-ca66-5bab-bead-6092f597e135",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Allison K Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "NPS and MSU institutional histories establish the Deer Team identity; NPS explicitly documents recruitment from the Army and qualified pre-Army Michigan legal work without naming an employer. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row7-annie-b-thomas-b949",
+      "person_id": "327b7145-da3a-5e1c-8f03-97cfb7d52c43",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Annie B Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Exact-name, institutional, obituary, newspaper and archival searches produced no reliable identity or employer bridge. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row8-christopher-g-thomas-b949",
+      "person_id": "1f065e09-e3b8-5832-8b92-150d3fa2ecb6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Christopher G Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row9-clinton-f-thomas-b949",
+      "person_id": "fea54bf1-c0f0-5a5c-8efb-d804746fedbd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clinton F Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Exact-name and military searches produced namesakes without a second corroborating identifier or pre-OSS chronology. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row10-cynthia-m-thomas-b949",
+      "person_id": "8012bd97-b9ab-5104-b534-426bc75adab4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Cynthia M Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Exact-name and meaningful-variant searches produced no reliable OSS identity or pre-OSS affiliation. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row11-edward-g-thomas-b949",
+      "person_id": "21853702-bc6d-500c-a4ae-739c01fc2c85",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward G Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row12-francis-l-thomas-b949",
+      "person_id": "e398bf65-febf-5a08-95a2-03748594a270",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis L Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity; the post-OSS Army-entry date and unassigned code support no pre-OSS occupation. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row13-g-w-thomas-b949",
+      "person_id": "3da7dfb8-29bf-5862-8f30-8a94ebf2a33a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "G W Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "The initial-only indexed name is insufficient to assign any G. W. Thomas biography or employer without the personnel file. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row14-george-w-thomas-b949",
+      "person_id": "53563a1b-63ec-514a-812d-8772c3303a50",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George W Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "The indexed protected identifier produced no Army bulk match, and common-name results could not be bridged to Box 773. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row15-gertrude-m-thomas-b949",
+      "person_id": "19247a68-3dd0-5808-b4de-18a98415f82a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gertrude M Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Exact-name, institutional, obituary and archival searches produced no defensible identity or pre-OSS affiliation. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row16-gregory-thomas-b949",
+      "person_id": "71805a05-515c-50ed-88e8-96d6c8bc7b2b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gregory Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "H. Gregory Thomas OSS records were retained as a rejected namesake lead because the index omits H and supplies no corroborating identifier. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row17-helen-e-thomas-b949",
+      "person_id": "abd10a7f-9aa1-5912-8227-287c708d7e6a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Helen E Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "The short protected number and common name did not support a unique online identity or employer match. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row18-hugh-r-thomas-b949",
+      "person_id": "82a29dd8-abaf-597a-95ca-a3ebcf4bd01e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hugh R Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Exact-name and rank-free searches produced multiple namesakes without an OSS or Box-file bridge. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row19-james-a-thomas-b949",
+      "person_id": "6351a088-3a21-5bd4-9386-c23593aef8fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James A Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation category. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row20-jean-thomas-b949",
+      "person_id": "f1d18087-0244-5533-af39-2747203f7117",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jean Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "The common name produced several unrelated candidates and no corroborating OSS identifier or prewar employer chronology. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row21-john-l-thomas-b949",
+      "person_id": "77cd18a4-d48a-5460-bc8b-ee359f58b1fc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Common-name military, obituary and directory candidates lacked a protected-identifier or Box 773 bridge. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row22-joseph-e-thomas-b949",
+      "person_id": "80feec29-4005-5aea-af35-fef831dbc9cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph E Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Common-name results did not supply two corroborating identifiers beyond the name or a defensible pre-OSS chronology. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    },
+    {
+      "key": "page465-row23-josephine-thomas-b949",
+      "person_id": "2111bd68-1f04-59f8-9753-708774f5be42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Josephine Thomas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 772-773; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_949",
+      "started_at": "2026-10-28T15:00:00Z",
+      "completed_at": "2026-10-28T17:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, discovery-only pages, modern people-finder results, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. H. Gregory Thomas was not assigned to the initial-free Gregory Thomas row.",
+      "research_notes": "Exact-name, obituary, institutional and archival searches produced no reliable identity or employer bridge. The index page and admitted Army, code-list, official or institutional sources were checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b949-v1"
+    }
+  ]
+}

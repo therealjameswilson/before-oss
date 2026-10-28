@@ -73,5 +73,5 @@ Archive location: 230/86/42/01
 
 ## Resume point
 
-Continue with PDF page 465, row 1, **Robert Thomale**, Box 771, archive
+Continue with PDF page 465, row 1, **Robert Thomale**, Box 772, archive
 location 230/86/42/01.
