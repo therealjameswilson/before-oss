@@ -72,7 +72,15 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Publication is pending the immutable content commit, GitHub Actions Test and
-Pages runs, and the unauthenticated manifest-and-route verifier. This section
-must be replaced with exact commit and run identifiers before Batch 947 is
-reported as public.
+- Immutable content commit: `540689a05ba236f693ec23dbb506e011ec2891d1`.
+- GitHub Actions Test run
+  [40669356235](https://github.com/therealjameswilson/before-oss/actions/runs/40669356235)
+  completed successfully in 5m42s for that exact commit.
+- GitHub Pages run
+  [40669356134](https://github.com/therealjameswilson/before-oss/actions/runs/40669356134)
+  completed successfully for that exact commit.
+- The unauthenticated deployed-release verifier matched all 67 manifest assets
+  (126,481,197 bytes; manifest SHA-256
+  `b179d0acfd4d0524f189e12358cf752c65a52a6d03106b3f3e1046c41a008aaf`),
+  eight core routes, 41 source-register pages and all 23 Batch 947 direct
+  profiles at <https://therealjameswilson.github.io/before-oss/>.
