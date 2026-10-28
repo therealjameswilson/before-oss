@@ -1,5 +1,49 @@
 # Research status
 
+Batch 946 completed PDF page 463, rows 24-46, from **Henry W. Terrett**
+through **Erika Teutsch**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes. The Walter L. Terrell/Terrill, two John
+R. Teske and Leo P. Tetrault/Tetrealt rows remain separate in three visible
+possible-duplicate groups. Evidence tied to a protected row was never copied
+to an unprotected namesake row.
+
+Erika Teutsch has a high-confidence identity supported by two Swarthmore
+institutional sources. Her 1944 Swarthmore student status is published as a
+qualified probable-immediate pathway to her documented OSS stint, not as an
+employer. Adrian Terzian and Leo P. Tetrealt have high-confidence Army identity
+bridges with preserved name variants. Eleven Army identities have qualified
+dated occupation or student-status categories without named employers or
+schools. Henry W. Terrett remains conflicting because the reviewed Army row
+prints Henry M. Terrett; no occupation was transferred across that initial
+disagreement. Five people retain explicit Box 769 or 770 archival-review
+outcomes, and the incomplete Testi row remains an identity-review case.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,699/23,936 (61.4096%)**;
+verified-employer coverage is **470/23,936 (1.9636%)**;
+verified-affiliation coverage is **1,044/23,936 (4.3616%)**; archival-review
+coverage is **13,173/23,936 (55.0343%)**. There are **9,232** not-started
+people, **645** possible-duplicate groups and **512** conflicts. Claim
+confidence counts are **1,654 confirmed**, **4,837 high**, **2,206 medium**,
+**252 low**, **428 conflicting** and **2 unresolved**. The public projection
+contains **3,479** affiliations, **1,207** organizations, **5,998** sources and
+**9,121** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 464, row
+1, **Marcelen J. Tezak**, in Box 770. See `research/batch-946-progress.md` for
+the source-by-source audit.
+
+Batch 946 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 577
+files with zero errors, warnings or hints and builds 25,191 static pages. The
+27/27 Batch 946 browser matrix and full 96/96 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication
+verification is pending in `reports/release_batch_946.md`.
+
 Batch 945 completed PDF page 463, rows 1-23, from **Kenneth S. Templeton**
 through **William B. Terrell**, preserving all 23 printed rows as separate
 people with saved terminal research outcomes. The two Lazare Teper rows remain

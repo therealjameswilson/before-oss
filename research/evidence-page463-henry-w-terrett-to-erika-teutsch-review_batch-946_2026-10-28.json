@@ -1,0 +1,1757 @@
+{
+  "bundle_version": "batch-946-v1",
+  "reviewer": "Before OSS Batch 946 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b946",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 769-770",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 463, rows 24-46; checked against layout-preserving text and a 300 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. The two John R. Teske rows, the Tetrault/Tetrealt rows and the adjacent Terrell/Terrill spellings remain unmerged. Full protected identifiers remain private. Marcelen J. Tezak at page 464 row 1 was visually checked as the next boundary."
+    },
+    {
+      "key": "army-bulk-b946",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; twelve reviewed Batch 946 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Eleven identities were accepted; Henry W./M. Terrett remains an explicit middle-initial conflict. Historical occupation codes identify neither employers nor workplaces."
+    },
+    {
+      "key": "army-tech-b946",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b946",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171, 173-174 and 304; reviewed historical categories 0-24, 1-05, 1-08, 1-38, 6-19, 6-85, 7-17, 7-32 and 9-92",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "All relevant pages were rendered and visually inspected. Students is status, not employment. Other historical labels are qualified and never converted into named employers."
+    },
+    {
+      "key": "swarthmore-profile-teutsch-b946",
+      "stable_url": "https://archive.swarthmore.edu/bulletin_2008-2014/wp-content/archived_issues_pdf/Bulletin_2002_03.pdf?__raw=1",
+      "archival_identifier": "Swarthmore College Bulletin, March 2002",
+      "title": "Living in the Present: At 78, Erika Teutsch '44 Still Works Full Time to Make a Difference for People",
+      "author_creator": "Jeffrey Lott",
+      "repository_publisher": "Swarthmore College",
+      "publication_record_date": "2002-03",
+      "locator": "Printed page 52; PDF physical page 46",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Swarthmore College Bulletin",
+      "rights_notes": "The official college PDF page was rendered at 220 dpi and visually inspected. It explicitly identifies Erika Teutsch '44 and an OSS stint. Postwar career details are outside the present claim."
+    },
+    {
+      "key": "swarthmore-memorial-teutsch-b946",
+      "stable_url": "https://magazine.swarthmore.edu/issue/spring-2021/their-light-lives-on/",
+      "archival_identifier": "Swarthmore Bulletin, Spring 2021 in memoriam",
+      "title": "Their Light Lives On",
+      "author_creator": "Swarthmore College Bulletin",
+      "repository_publisher": "Swarthmore College",
+      "publication_record_date": "2021",
+      "locator": "Erika Teutsch '44 entry",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Swarthmore College Bulletin",
+      "rights_notes": "The institutional memorial states that Teutsch worked overseas for the U.S. government after graduating. It does not name the exact first overseas post or state a day-level chronology."
+    },
+    {
+      "key": "ossog-personnel-b946",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "Office of Strategic Services Operational Groups: Personnel",
+      "author_creator": "OSS Operational Groups research project",
+      "repository_publisher": "OSS Operational Groups",
+      "locator": "Personnel lists for John Tessitore and T/4 L. P. Tetreault; project notes cite NARA RG 226 operational records",
+      "access_date": "2026-10-28",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups mission histories",
+      "rights_notes": "Used only as corroborative assignment and spelling context. It does not establish a pre-OSS employer and is not the principal identity bridge."
+    },
+    {
+      "key": "va-cemetery-terzen-b946",
+      "stable_url": "https://gravelocator.cem.va.gov/",
+      "archival_identifier": "Riverside National Cemetery, Section A, Site 533",
+      "title": "Nationwide Gravesite Locator",
+      "author_creator": "National Cemetery Administration",
+      "repository_publisher": "U.S. Department of Veterans Affairs",
+      "publication_record_date": "record current at access",
+      "locator": "Adrian Terzen, 1923-1990; U.S. Army, TEC5, World War II; Riverside National Cemetery",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Cemetery Administration burial records",
+      "rights_notes": "Used as corroborative name and service context for the protected-identifier Army match. It supplies no employer or OSS transfer chronology."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "swarthmore-college-b946",
+      "organization_id": "fb0648df-23c8-5fd9-bd9e-4491ce8ecf13",
+      "canonical_name": "Swarthmore College",
+      "historical_name": "Swarthmore College",
+      "aliases": [
+        "Swarthmore"
+      ],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Swarthmore",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "Existing student-institution organization reused. Erika Teutsch's attendance is modeled as student status, never employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "rocco-e-terrone-occupation-b946",
+      "person_id": "6db6bbce-c97a-5977-8231-5829a9fbef86",
+      "occupation": "musician or music teacher",
+      "relationship_type": "employment",
+      "end_date": "1943-12-08",
+      "date_precision": "Historical civilian-occupation code 024 was recorded at Army entry on 1943-12-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "james-r-terry-occupation-b946",
+      "person_id": "1c07bfe7-a8a8-5284-b4b4-d215442105c0",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1944-01-18",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1944-01-18; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "rollin-e-terry-occupation-b946",
+      "person_id": "c573aa1d-646b-57bb-ad7c-53ec81567d04",
+      "occupation": "insurance clerk, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-07-28",
+      "date_precision": "Historical civilian-occupation code 108 was recorded at Army entry on 1942-07-28; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "alexander-j-terzaghi-occupation-b946",
+      "person_id": "398cf0e8-557c-5b10-b853-a764d32cc4be",
+      "occupation": "general office clerk",
+      "relationship_type": "employment",
+      "end_date": "1941-04-19",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1941-04-19; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "adrian-terzian-occupation-b946",
+      "person_id": "20c04d14-0e5d-589d-ad9d-98992fae8d8e",
+      "occupation": "welder or flame cutter",
+      "relationship_type": "employment",
+      "end_date": "1943-07-29",
+      "date_precision": "Historical civilian-occupation code 685 was recorded at Army entry on 1943-07-29; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "william-g-tesi-occupation-b946",
+      "person_id": "845073eb-17ca-51a2-89fd-3cd4d606e5f9",
+      "occupation": "semiskilled construction occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-11-21",
+      "date_precision": "Historical civilian-occupation code 732 was recorded at Army entry on 1942-11-21; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "joseph-j-tesoriere-occupation-b946",
+      "person_id": "cc4b077b-540a-55a1-9008-a89c84d07356",
+      "occupation": "pattern or model maker, except paper",
+      "relationship_type": "employment",
+      "end_date": "1942-12-05",
+      "date_precision": "Historical civilian-occupation code 717 was recorded at Army entry on 1942-12-05; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "john-tessitore-occupation-b946",
+      "person_id": "e3e63998-895a-5043-8aff-584c6b2ee42e",
+      "occupation": "semiskilled textile-manufacturing occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1941-09-05",
+      "date_precision": "Historical civilian-occupation code 619 was recorded at Army entry on 1941-09-05; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "frank-c-test-occupation-b946",
+      "person_id": "bf398b17-a0bb-593a-b1b2-39602a310499",
+      "occupation": "welder or flame cutter",
+      "relationship_type": "employment",
+      "end_date": "1942-12-15",
+      "date_precision": "Historical civilian-occupation code 685 was recorded at Army entry on 1942-12-15; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "joseph-testo-occupation-b946",
+      "person_id": "dc16580f-e943-5e38-a78c-e1b02a7985c0",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-10-02",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-10-02; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "leo-p-tetrealt-occupation-b946",
+      "person_id": "c27c77fc-f69a-562d-912b-e3df7f1547df",
+      "occupation": "stock clerk",
+      "relationship_type": "employment",
+      "end_date": "1943-01-19",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1943-01-19; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "erika-teutsch-swarthmore-b946",
+      "person_id": "436a8686-43bb-5463-a073-1bd851b02d04",
+      "organization_key": "swarthmore-college-b946",
+      "organization_name_as_found": "Swarthmore",
+      "role_title": "economics student; class of 1944",
+      "relationship_type": "student",
+      "end_date": "1944",
+      "date_precision": "The college identifies Teutsch as class of 1944 and says she worked overseas for the U.S. government after graduating; its 2002 profile explicitly includes OSS service, but no source states the exact start day or excludes a short intervening federal assignment.",
+      "city": "Swarthmore",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Swarthmore is a documented student institution, not an employer. The Box 770 personnel file is still needed to prove the exact graduation-to-OSS sequence and identify any earlier civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-rocco-e-terrone-army-b946",
+      "person_id": "6db6bbce-c97a-5977-8231-5829a9fbef86",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Rocco E Terrone is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rocco-e-terrone-army-b946",
+      "person_id": "6db6bbce-c97a-5977-8231-5829a9fbef86",
+      "affiliation_key": "rocco-e-terrone-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-12-08, the record coded Rocco E Terrone's civilian occupation as Musicians and teachers of music.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 024; NARA's historical code list expands it to Musicians and teachers of music.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 024; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 171; historical category 0-24",
+          "excerpt_override": "Musicians and teachers of music"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-r-terry-army-b946",
+      "person_id": "1c07bfe7-a8a8-5284-b4b4-d215442105c0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed James R Terry is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 27; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-r-terry-army-b946",
+      "person_id": "1c07bfe7-a8a8-5284-b4b4-d215442105c0",
+      "affiliation_key": "james-r-terry-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-01-18, James R Terry was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 992; NARA's historical code list expands it to Students.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-rollin-e-terry-army-b946",
+      "person_id": "c573aa1d-646b-57bb-ad7c-53ec81567d04",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Rollin E Terry is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 28; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rollin-e-terry-army-b946",
+      "person_id": "c573aa1d-646b-57bb-ad7c-53ec81567d04",
+      "affiliation_key": "rollin-e-terry-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-28, the record coded Rollin E Terry's civilian occupation as Insurance clerks, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 108; NARA's historical code list expands it to Insurance clerks, n.e.c..",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 108; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 171; historical category 1-08",
+          "excerpt_override": "Insurance clerks, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-alexander-j-terzaghi-army-b946",
+      "person_id": "398cf0e8-557c-5b10-b853-a764d32cc4be",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Alexander J Terzaghi is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 30; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-alexander-j-terzaghi-army-b946",
+      "person_id": "398cf0e8-557c-5b10-b853-a764d32cc4be",
+      "affiliation_key": "alexander-j-terzaghi-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-04-19, the record coded Alexander J Terzaghi's civilian occupation as Clerks, general office.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 105; NARA's historical code list expands it to Clerks, general office.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 171; historical category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-adrian-terzian-army-b946",
+      "person_id": "20c04d14-0e5d-589d-ad9d-98992fae8d8e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Adrian Terzian is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record; the close surname spelling variant is retained.",
+      "identity_match_assessment": "High confidence from a private unique identifier, aligned given name and a documented close surname variant.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 31; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "va-cemetery-terzen-b946",
+          "support_type": "context_only",
+          "locator_override": "Adrian Terzen; U.S. Army TEC5; World War II"
+        }
+      ]
+    },
+    {
+      "key": "occupation-adrian-terzian-army-b946",
+      "person_id": "20c04d14-0e5d-589d-ad9d-98992fae8d8e",
+      "affiliation_key": "adrian-terzian-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-29, the record coded Adrian Terzian's civilian occupation as Welders and flame cutters.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 685; NARA's historical code list expands it to Welders and flame cutters.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 685; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 174; historical category 6-85",
+          "excerpt_override": "Welders and flame cutters"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-g-tesi-army-b946",
+      "person_id": "845073eb-17ca-51a2-89fd-3cd4d606e5f9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed William G Tesi is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 34; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-g-tesi-army-b946",
+      "person_id": "845073eb-17ca-51a2-89fd-3cd4d606e5f9",
+      "affiliation_key": "william-g-tesi-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-21, the record coded William G Tesi's civilian occupation as Construction occupations, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 732; NARA's historical code list expands it to Construction occupations, n.e.c..",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 732; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 174; historical category 7-32",
+          "excerpt_override": "Construction occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-j-tesoriere-army-b946",
+      "person_id": "cc4b077b-540a-55a1-9008-a89c84d07356",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph J Tesoriere is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 37; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-j-tesoriere-army-b946",
+      "person_id": "cc4b077b-540a-55a1-9008-a89c84d07356",
+      "affiliation_key": "joseph-j-tesoriere-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-05, the record coded Joseph J Tesoriere's civilian occupation as Pattern and model makers, except paper.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 717; NARA's historical code list expands it to Pattern and model makers, except paper.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 717; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 174; historical category 7-17",
+          "excerpt_override": "Pattern and model makers, except paper"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-tessitore-army-b946",
+      "person_id": "e3e63998-895a-5043-8aff-584c6b2ee42e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed John Tessitore is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 39; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "ossog-personnel-b946",
+          "support_type": "context_only",
+          "locator_override": "Operational Group personnel spelling and assignment context"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-tessitore-army-b946",
+      "person_id": "e3e63998-895a-5043-8aff-584c6b2ee42e",
+      "affiliation_key": "john-tessitore-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-09-05, the record coded John Tessitore's civilian occupation as Occupations in manufacture of textiles, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 619; NARA's historical code list expands it to Occupations in manufacture of textiles, n.e.c..",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 619; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 173; historical category 6-19",
+          "excerpt_override": "Occupations in manufacture of textiles, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-frank-c-test-army-b946",
+      "person_id": "bf398b17-a0bb-593a-b1b2-39602a310499",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Frank C Test is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 40; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frank-c-test-army-b946",
+      "person_id": "bf398b17-a0bb-593a-b1b2-39602a310499",
+      "affiliation_key": "frank-c-test-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-15, the record coded Frank C Test's civilian occupation as Welders and flame cutters.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 685; NARA's historical code list expands it to Welders and flame cutters.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 685; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 174; historical category 6-85",
+          "excerpt_override": "Welders and flame cutters"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-testo-army-b946",
+      "person_id": "dc16580f-e943-5e38-a78c-e1b02a7985c0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph Testo is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private unique identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 43; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-testo-army-b946",
+      "person_id": "dc16580f-e943-5e38-a78c-e1b02a7985c0",
+      "affiliation_key": "joseph-testo-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-02, Joseph Testo was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 992; NARA's historical code list expands it to Students.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-leo-p-tetrealt-army-b946",
+      "person_id": "c27c77fc-f69a-562d-912b-e3df7f1547df",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Leo P Tetrealt is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record; the close surname spelling variant is retained.",
+      "identity_match_assessment": "High confidence from a private unique identifier, aligned given name and a documented close surname variant.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "ossog-personnel-b946",
+          "support_type": "context_only",
+          "locator_override": "Operational Group personnel spelling and assignment context"
+        }
+      ]
+    },
+    {
+      "key": "occupation-leo-p-tetrealt-army-b946",
+      "person_id": "c27c77fc-f69a-562d-912b-e3df7f1547df",
+      "affiliation_key": "leo-p-tetrealt-occupation-b946",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-19, the record coded Leo P Tetrealt's civilian occupation as Stock clerks.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 138; NARA's historical code list expands it to Stock clerks.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and exact or preserved close-variant name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b946",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b946",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b946",
+          "locator_override": "PDF physical page 171; historical category 1-38",
+          "excerpt_override": "Stock clerks"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-terrett-conflict-b946",
+      "person_id": "aebe55ca-6471-5529-b9b9-ce7502b1716d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry W. Terrett row conflicts with an official Army record printing Henry M. Terrett despite a matching protected identifier.",
+      "evidence_paraphrase": "The private identifier agrees, but the middle initial does not; no occupation, grade or biography is transferred until the indexed file resolves the collision.",
+      "identity_match_assessment": "Conflicting identity evidence: unique identifier agreement is strong, but the printed middle initials W and M directly disagree.",
+      "temporal_assessment": "Identity conflict only; the candidate Army chronology and occupation are withheld.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflict is visible on the public profile and excluded from default analytics. Box 769 must resolve it.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 24; prints Henry W. Terrett; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b946",
+          "support_type": "contradicts",
+          "locator_override": "Reviewed bulk candidate prints Henry M. Terrett; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-erika-teutsch-b946",
+      "person_id": "436a8686-43bb-5463-a073-1bd851b02d04",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Erika Teutsch is a high-confidence match to Swarthmore College alumna and documented OSS staff member Erika Teutsch '44.",
+      "evidence_paraphrase": "The rare exact name appears in the index and two Swarthmore institutional accounts; the 2002 profile explicitly includes an OSS stint.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, class year, explicit institutional OSS statement and compatible wartime chronology.",
+      "temporal_assessment": "Identity is strong; the precise entry date and assignment require the Box 770 personnel file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No postwar employer is substituted for the pre-OSS question, and unrelated personal details are excluded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b946",
+          "locator_override": "PDF page 463 row 46"
+        },
+        {
+          "source_key": "swarthmore-profile-teutsch-b946",
+          "locator_override": "Printed page 52; PDF physical page 46",
+          "excerpt_override": "Her resume includes a stint at the Office of Strategic Services"
+        },
+        {
+          "source_key": "swarthmore-memorial-teutsch-b946",
+          "support_type": "context_only",
+          "locator_override": "Erika Teutsch '44 entry"
+        }
+      ]
+    },
+    {
+      "key": "immediate-erika-teutsch-swarthmore-b946",
+      "person_id": "436a8686-43bb-5463-a073-1bd851b02d04",
+      "affiliation_key": "erika-teutsch-swarthmore-b946",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Erika Teutsch was probably a Swarthmore College student immediately before her wartime OSS service; Swarthmore was an educational institution, not her employer.",
+      "evidence_paraphrase": "Swarthmore identifies her as class of 1944, says she worked overseas for the U.S. government after graduating and separately documents an OSS stint.",
+      "identity_match_assessment": "High-confidence identity from the rare exact name and the institution's explicit OSS account.",
+      "temporal_assessment": "Probable immediate chronology: the sources place graduation before overseas federal work and OSS within the remaining wartime window, but do not give a start day or exclude a brief intervening assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified student-affiliation finding. The personnel file is needed to confirm immediacy and identify any earlier civilian employer.",
+      "sources": [
+        {
+          "source_key": "swarthmore-memorial-teutsch-b946",
+          "locator_override": "Erika Teutsch '44 entry",
+          "excerpt_override": "After graduating from Swarthmore, Erika worked overseas for the U.S. government"
+        },
+        {
+          "source_key": "swarthmore-profile-teutsch-b946",
+          "locator_override": "Printed page 52; PDF physical page 46",
+          "excerpt_override": "Her resume includes a stint at the Office of Strategic Services"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "57e4222f-297e-5302-91fc-d1d74bb686cf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harry J Terwilliger, Box 770 and archive location 230/86/41/07. A same-name electrical-business lead lacked the protected identifier, a middle-initial bridge and any OSS or Box 770 connection, so it was rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b7be437e-2360-530e-bdaa-151f5216328f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Fred Teschner, Box 770 and archive location 230/86/41/07. Exact-name searches produced modern people-finder records and genealogy leads only; none established this protected-identifier person, OSS service or a pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "deba6c6c-275b-5696-8b18-72647305e4df",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward Tesdorff, Box 770 and archive location 230/86/41/07. A Danish estate-owner namesake was not connected to OSS, Box 770 or any corroborating identifier; no defensible identity or employment match was made.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f49a8bb6-17bd-57cc-a6b5-8ca0bead42f3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Emil Tessari, Box 770 and archive location 230/86/41/07. A genealogy lead supplied a possible birth and death span but no OSS, Box 770 or employment bridge, so it was not assigned.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58ced547-179f-5c8d-b880-480fa680ddfc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Janet Testerman, Box 770 and archive location 230/86/41/07. Exact-name, obituary, institutional and OSS searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6db6bbce-c97a-5977-8231-5829a9fbef86",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Rocco E Terrone index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c07bfe7-a8a8-5284-b4b4-d215442105c0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified James R Terry index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c573aa1d-646b-57bb-ad7c-53ec81567d04",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Rollin E Terry index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "398cf0e8-557c-5b10-b853-a764d32cc4be",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Alexander J Terzaghi index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "20c04d14-0e5d-589d-ad9d-98992fae8d8e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Adrian Terzian index row to the reviewed official Army record. The Army and VA records print the close surname variant Adrian Terzen.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Adrian Terzen"
+      ]
+    },
+    {
+      "person_id": "845073eb-17ca-51a2-89fd-3cd4d606e5f9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified William G Tesi index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cc4b077b-540a-55a1-9008-a89c84d07356",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Joseph J Tesoriere index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3e63998-895a-5043-8aff-584c6b2ee42e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified John Tessitore index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bf398b17-a0bb-593a-b1b2-39602a310499",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Frank C Test index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dc16580f-e943-5e38-a78c-e1b02a7985c0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Joseph Testo index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 770 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aebe55ca-6471-5529-b9b9-ce7502b1716d",
+      "identity_status": "conflicting",
+      "identity_evidence": "The nonshared protected identifier agrees with an official Army record, but the index prints Henry W. Terrett and the Army record prints Henry M. Terrett. No grade, occupation or biography is transferred.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 769 to resolve the Henry W./M. Terrett middle-initial conflict before assigning the Army record or any occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a8575c75-1395-56ae-aa75-e3682156d30e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Walter L. Terrill without a protected identifier immediately after a separate Walter L. Terrell row with one. Name similarity and adjacency are insufficient to merge them.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "walter-l-terrell-terrill-page463-rows22-25-b946",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 769 files together and compare identifiers, birth details and OSS assignments. Do not transfer row 22 evidence to row 25.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f238d457-78c8-5960-985c-b84c7b7586e0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Walter L. Terrell with a protected identifier. A separate Walter L. Terrill row appears three rows later without one; name similarity and adjacency are insufficient to merge them.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "walter-l-terrell-terrill-page463-rows22-25-b946",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 769 files together and compare identifiers, birth details and OSS assignments. Preserve the rows separately unless direct evidence proves duplication.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b14d12d5-bc9c-5762-bfce-36ec79eccf78",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 463 contains two separate John R. Teske rows; row 35 has no protected identifier and row 36 has one. A common normalized name alone cannot establish duplication.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "john-r-teske-page463-rows35-36-b946",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 770 files together and compare identifiers, birth details, ranks and OSS assignments. Do not merge or transfer evidence by name.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "59c899f0-ea9b-5d4f-9947-415764b54940",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 463 contains two separate John R. Teske rows; row 36 has a protected identifier but no accepted Army or public-source bridge, while row 35 has no identifier. A name match alone cannot establish duplication.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "john-r-teske-page463-rows35-36-b946",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 770 files together and compare identifiers, birth details, ranks and OSS assignments. Do not merge or transfer evidence by name.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ba92e4c7-4f0f-57c4-a9a5-1b8a7df2b1c8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 463 row contains only the surname Testi and an asterisk, with a printed review note and no given name or protected identifier. Public searches cannot resolve it safely.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review the Box 770 file and original finding aids to recover the given name, identifiers and any pre-OSS affiliation. Do not assign a namesake from surname-only searches.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "26b0c21c-c39d-5c2d-b1ac-1cc2ca6c5a7f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Leo P. Tetrault without a protected identifier immediately before a separate Leo P. Tetrealt row with one. The accepted Army evidence applies only to row 45.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "leo-p-tetrault-tetrealt-page463-rows44-45-b946",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 770 files together and compare identifiers, birth details and OSS assignments. Do not transfer row 45 evidence to row 44.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c27c77fc-f69a-562d-912b-e3df7f1547df",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Leo P Tetrealt index row to the reviewed official Army record. The Army record prints Leo P. Tetrault, while a corroborative OSS personnel list prints L. P. Tetreault.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review both Box 770 files together to determine whether rows 44 and 45 are duplicate references or different people, and to establish the immediate pre-OSS affiliation without transferring the protected identifier.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "name_variants": [
+        "Leo P Tetrault",
+        "Leo P Tetreault"
+      ],
+      "possible_duplicate_group": "leo-p-tetrault-tetrealt-page463-rows44-45-b946"
+    },
+    {
+      "person_id": "436a8686-43bb-5463-a073-1bd851b02d04",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name aligns across the index and two Swarthmore institutional accounts; the 2002 profile explicitly documents Erika Teutsch '44 as having served in the OSS.",
+      "name_variants": [
+        "Erika Teutsch '44"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 770 to confirm the exact 1944 sequence between Swarthmore graduation and OSS entry and to identify any earlier civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page463-row24-henry-w-terrett-b946",
+      "person_id": "aebe55ca-6471-5529-b9b9-ce7502b1716d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry W Terrett; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A protected-identifier Army candidate conflicts on the middle initial, so the conflict is preserved and all occupation evidence is withheld. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row25-walter-l-terrill-b946",
+      "person_id": "a8575c75-1395-56ae-aa75-e3682156d30e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter L Terrill; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name or close-spelling index row creates a possible duplicate relationship, but missing or different protected identifiers prevent a merge or evidence transfer. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row26-rocco-e-terrone-b946",
+      "person_id": "6db6bbce-c97a-5977-8231-5829a9fbef86",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rocco E Terrone; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row27-james-r-terry-b946",
+      "person_id": "1c07bfe7-a8a8-5284-b4b4-d215442105c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James R Terry; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row28-rollin-e-terry-b946",
+      "person_id": "c573aa1d-646b-57bb-ad7c-53ec81567d04",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rollin E Terry; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row29-harry-j-terwilliger-b946",
+      "person_id": "57e4222f-297e-5302-91fc-d1d74bb686cf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry J Terwilliger; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A same-name electrical-business lead lacked the protected identifier, a middle-initial bridge and any OSS or Box 770 connection, so it was rejected. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row30-alexander-j-terzaghi-b946",
+      "person_id": "398cf0e8-557c-5b10-b853-a764d32cc4be",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alexander J Terzaghi; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row31-adrian-terzian-b946",
+      "person_id": "20c04d14-0e5d-589d-ad9d-98992fae8d8e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Adrian Terzian; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row32-fred-teschner-b946",
+      "person_id": "b7be437e-2360-530e-bdaa-151f5216328f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fred Teschner; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name searches produced modern people-finder records and genealogy leads only; none established this protected-identifier person, OSS service or a pre-OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row33-edward-tesdorff-b946",
+      "person_id": "deba6c6c-275b-5696-8b18-72647305e4df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward Tesdorff; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A Danish estate-owner namesake was not connected to OSS, Box 770 or any corroborating identifier; no defensible identity or employment match was made. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row34-william-g-tesi-b946",
+      "person_id": "845073eb-17ca-51a2-89fd-3cd4d606e5f9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William G Tesi; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row35-john-r-teske-b946",
+      "person_id": "b14d12d5-bc9c-5762-bfce-36ec79eccf78",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John R Teske; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name or close-spelling index row creates a possible duplicate relationship, but missing or different protected identifiers prevent a merge or evidence transfer. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row36-john-r-teske-b946",
+      "person_id": "59c899f0-ea9b-5d4f-9947-415764b54940",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John R Teske; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name or close-spelling index row creates a possible duplicate relationship, but missing or different protected identifiers prevent a merge or evidence transfer. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row37-joseph-j-tesoriere-b946",
+      "person_id": "cc4b077b-540a-55a1-9008-a89c84d07356",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph J Tesoriere; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row38-emil-tessari-b946",
+      "person_id": "f49a8bb6-17bd-57cc-a6b5-8ca0bead42f3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Emil Tessari; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A genealogy lead supplied a possible birth and death span but no OSS, Box 770 or employment bridge, so it was not assigned. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row39-john-tessitore-b946",
+      "person_id": "e3e63998-895a-5043-8aff-584c6b2ee42e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Tessitore; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row40-frank-c-test-b946",
+      "person_id": "bf398b17-a0bb-593a-b1b2-39602a310499",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank C Test; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row41-janet-testerman-b946",
+      "person_id": "58ced547-179f-5c8d-b880-480fa680ddfc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Janet Testerman; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name, obituary, institutional and OSS searches produced no reliable identity or pre-OSS affiliation bridge. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row42-testi-b946",
+      "person_id": "ba92e4c7-4f0f-57c4-a9a5-1b8a7df2b1c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "* Testi; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The surname-only asterisk row cannot be resolved safely through public searches and requires the physical file. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row43-joseph-testo-b946",
+      "person_id": "dc16580f-e943-5e38-a78c-e1b02a7985c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Testo; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row44-leo-p-tetrault-b946",
+      "person_id": "26b0c21c-c39d-5c2d-b1ac-1cc2ca6c5a7f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leo P Tetrault; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name or close-spelling index row creates a possible duplicate relationship, but missing or different protected identifiers prevent a merge or evidence transfer. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row45-leo-p-tetrealt-b946",
+      "person_id": "c27c77fc-f69a-562d-912b-e3df7f1547df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leo P Tetrealt; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not a named employer or immediate OSS affiliation. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    },
+    {
+      "key": "page463-row46-erika-teutsch-b946",
+      "person_id": "436a8686-43bb-5463-a073-1bd851b02d04",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Erika Teutsch; NARA OSS index and public Archives context; CIA Reading Room or equivalent official source; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 769-770; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_946",
+      "started_at": "2026-10-28T08:15:00Z",
+      "completed_at": "2026-10-28T09:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Two Swarthmore institutional sources establish the rare-name identity, class of 1944, graduation-before-overseas-government-work chronology and explicit OSS service; exact immediacy remains qualified. The index page and admitted Army, code-list or institutional PDF pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b946-v1"
+    }
+  ]
+}
