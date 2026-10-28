@@ -77,5 +77,11 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Pending the immutable content commit, GitHub Actions Test and Pages runs, and
-the unauthenticated public verifier.
+Batch 937 is public from immutable content commit
+`3e4c49dc8437638d27249ac360093e6d7d6695c4`. GitHub Actions Test run
+`40632218774` and Pages run `40632218494` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**124,909,741** bytes at manifest SHA-256
+`0798acdee71941ae133dd7e255ce1aff3bf5d076c41ce972daa25e237228b810`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.
