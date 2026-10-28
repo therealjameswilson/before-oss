@@ -40,9 +40,11 @@ hints and builds 25,151 static pages. The 30/30 Batch 930 browser matrix and
 the full 99/99 bounded browser and accessibility release suite pass, as do the
 complete internal-link check, protected-identifier audit, checked-in public
 manifest, zero-vulnerability production dependency audit and two deterministic
-consecutive builds. Publication verification will be added after GitHub Actions
-and the unauthenticated deployment verifier pass. See
-`reports/release_batch_930.md`.
+consecutive builds. Batch 930 is public from immutable content commit
+`1f2fd6c787a26e1c41f57a434caebde25957af9a`. GitHub Actions Test run
+`40611064600` and Pages run `40611064762` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 39 source-register pages and all 23
+affected profiles to the committed manifest. See `reports/release_batch_930.md`.
 
 Batch 928 completed PDF page 454, rows 24-46, from **Donald B Sturtevant**
 through **Pearl E Sugerman**, preserving all 23 printed rows and linking them
