@@ -1,0 +1,1390 @@
+{
+  "bundle_version": "batch-934-v1",
+  "reviewer": "Before OSS Batch 934 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b934",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 760-761",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 457, rows 24-46; checked against layout-preserving text and the rendered page image",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. The two printed Paul R Sweet rows use an opaque possible-duplicate group without being merged."
+    },
+    {
+      "key": "army-bulk-b934",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; three reviewed Batch 934 identity candidates",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Three exact-name, nonshared protected-identifier matches are accepted. No raw row or full identifier is public."
+    },
+    {
+      "key": "army-tech-b934",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only."
+    },
+    {
+      "key": "army-codes-b934",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171 and 174; categories 072, 133 and 963 visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither a named employer nor workplace."
+    },
+    {
+      "key": "rauch-paul-sweet-b934",
+      "stable_url": "https://discovery.ucl.ac.uk/id/eprint/10099481/3/Rauch_Allied%20Intelligence%20Officers%E2%80%99%20Encounters%20with%20German%20Civilians.pdf",
+      "archival_identifier": "DOI 10.1017/S0008938919001006",
+      "title": "Good Bets, Bad Bets and Dark Horses: Allied Intelligence Officers' Encounters with German Civilians, 1944-45",
+      "author_creator": "Stefanie Rauch",
+      "repository_publisher": "Central European History; Cambridge University Press; UCL Discovery",
+      "publication_record_date": "2020-03",
+      "locator": "PDF pages 4 and 29; exact Box 761 Dr. Paul R. Sweet personnel-file citation and OSS Research & Analysis chronology",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Central European History 53, no. 1",
+      "rights_notes": "The article cites the exact RG 226 Entry 224 Box 761 personnel file and distinguishes OSS service from prewar academic employment."
+    },
+    {
+      "key": "historian-paul-sweet-b934",
+      "stable_url": "https://www.tandfonline.com/doi/abs/10.1111/j.1540-6563.1997.tb00992.x",
+      "archival_identifier": "DOI 10.1111/j.1540-6563.1997.tb00992.x",
+      "title": "Interview with Paul Sweet",
+      "author_creator": "Paul R. Sweet; Linda Cooke Johnson",
+      "repository_publisher": "The Historian; Taylor & Francis",
+      "publication_record_date": "1997",
+      "locator": "Abstract and biographical note; Bates College teaching listed",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Historian 59, no. 2",
+      "rights_notes": "Only the public abstract and biographical note were used."
+    },
+    {
+      "key": "militant-paul-sweet-b934",
+      "stable_url": "https://www.marxists.org/history/etol/newspape/themilitant/1945/v9n10-mar-10-1945.pdf",
+      "archival_identifier": "The Militant, vol. 9, no. 10",
+      "title": "Report Gives Real Story of German People's Views",
+      "repository_publisher": "The Militant",
+      "publication_record_date": "1945-03-10",
+      "locator": "Page 2; Paul Sweet identified contemporaneously as professor of German history at Bates College",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Militant newspaper archive",
+      "rights_notes": "Used only as a contemporaneous corroboration of the named Bates College role, not for political interpretation."
+    },
+    {
+      "key": "densho-frank-sweetser-b934",
+      "stable_url": "https://encyclopedia.densho.org/Frank_L._Sweetser/",
+      "archival_identifier": "Densho Encyclopedia person article",
+      "title": "Frank L. Sweetser",
+      "repository_publisher": "Densho Encyclopedia",
+      "publication_record_date": "2015-05-12",
+      "locator": "Biographical paragraph; Columbia, War Relocation Authority and Navy chronology",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Densho Encyclopedia",
+      "rights_notes": "The text is CC BY-NC-SA 3.0. Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "dartmouth-war-directory-b934",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1943/12/1/dartmouth-war-directory",
+      "archival_identifier": "Dartmouth Alumni Magazine, December 1943",
+      "title": "Dartmouth War Directory",
+      "author_creator": "Dartmouth Alumni Records Office",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1943-12",
+      "locator": "Class of 1934 listing; Frank L. Sweetser, Lieutenant (junior grade), Naval Reserve",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "Contemporary institutional roster used to corroborate the exact full name, class year, Navy status and rank."
+    },
+    {
+      "key": "mass-national-cemetery-b934",
+      "stable_url": "https://www.interment.net/data/us/ma/barnstable/massnat/mass_swte.htm",
+      "archival_identifier": "Massachusetts National Cemetery transcription, Sweetser entry",
+      "title": "Massachusetts National Cemetery - Surnames Sw-Te",
+      "repository_publisher": "Interment.net",
+      "locator": "Frank L Sweetser entry; birth and death dates, U.S. Navy, Lieutenant",
+      "access_date": "2026-10-27",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Massachusetts National Cemetery transcriptions",
+      "rights_notes": "Used only as corroboration of the same birth and death dates and Navy rank reported by institutional sources."
+    },
+    {
+      "key": "joyeuse-sweet-obituary-b934",
+      "stable_url": "https://www.tributearchive.com/obituaries/1650013/joyeuse-sweet-buell",
+      "archival_identifier": "Macy & Son Funeral Directors obituary",
+      "title": "Joyeuse Sweet Buell Obituary",
+      "author_creator": "Macy & Son Funeral Directors",
+      "repository_publisher": "Tribute Archive",
+      "publication_record_date": "2007",
+      "locator": "Biographical paragraph; parents, Sidwell 1940 and Mount Holyoke 1944",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Tribute Archive obituaries",
+      "rights_notes": "The obituary reports a 1923 birth year; the Yale finding aid reports 1922. The disagreement is preserved."
+    },
+    {
+      "key": "yale-lennig-sweet-papers-b934",
+      "stable_url": "https://ead-pdfs.library.yale.edu/103.pdf",
+      "archival_identifier": "RG 150, Lennig Sweet Papers",
+      "title": "Guide to the Lennig Sweet Papers",
+      "author_creator": "Yale Divinity Library Special Collections",
+      "repository_publisher": "Yale University Library",
+      "locator": "PDF page 4; Lennig and Helen Firman Sweet family chronology naming daughter Joyeuse",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Lennig Sweet Papers, Record Group 150",
+      "rights_notes": "The finding aid reports Joyeuse as born in 1922, one year earlier than the obituary. The discrepancy prevents an unqualified identity claim."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "bates-college-b934",
+      "canonical_name": "Bates College",
+      "historical_name": "Bates College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Lewiston",
+      "state_or_region": "Maine",
+      "country": "United States",
+      "active_dates": "1855-present",
+      "normalization_notes": "Historical college name preserved; no modern successor substitution is required."
+    },
+    {
+      "key": "wra-b934",
+      "canonical_name": "War Relocation Authority",
+      "historical_name": "War Relocation Authority",
+      "aliases": [
+        "WRA"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1942-1946",
+      "normalization_notes": "The historical federal agency is kept distinct from later organizations and is not described with a modern successor name."
+    },
+    {
+      "key": "mount-holyoke-existing-b934",
+      "organization_id": "5ccae842-432b-5af6-9ac6-50b6f58c7515",
+      "canonical_name": "Mount Holyoke College",
+      "historical_name": "Mt. Holyoke College",
+      "aliases": [
+        "Mount Holyoke",
+        "Mt. Holyoke"
+      ],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "South Hadley",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Student status is not employment."
+    },
+    {
+      "key": "columbia-existing-b934",
+      "organization_id": "87e3d52a-9ace-512a-9677-e966b7fbd5e5",
+      "canonical_name": "Columbia University",
+      "historical_name": "Columbia University",
+      "aliases": [
+        "Columbia"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Graduate student status is not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-m-sweeney-row30-occupation-b934",
+      "person_id": "f62adfa3-3bee-578d-a1d2-3b0aa552e622",
+      "occupation": "Secretaries",
+      "relationship_type": "employment",
+      "end_date": "1942-07-11",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "arthur-p-sweet-row37-occupation-b934",
+      "person_id": "0dcbdae1-4a16-5fca-bbd9-8ac24e9403b7",
+      "occupation": "Retail managers",
+      "relationship_type": "employment",
+      "end_date": "1943-08-04",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "earl-p-sweet-row38-occupation-b934",
+      "person_id": "38f49725-f884-5673-af3c-d0177b454316",
+      "occupation": "Nonprocess occupations in manufacturing, n.e.c.",
+      "relationship_type": "employment",
+      "end_date": "1943-03-05",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "joyeuse-sweet-mount-holyoke-b934",
+      "person_id": "cb620f27-eab1-5efc-901c-2bd26fc0142f",
+      "organization_key": "mount-holyoke-existing-b934",
+      "organization_name_as_found": "Mount Holyoke College",
+      "role_title": "Student; B.A. in Economics",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1944",
+      "date_precision": "Graduation year stated in the obituary",
+      "city": "South Hadley",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status, not employment. The rare exact name and matching parents support a probable identity, but the obituary and Yale finding aid disagree by one year on birth year."
+    },
+    {
+      "key": "paul-r-sweet-bates-b934",
+      "person_id": "52839b7b-b20f-5e43-9d08-a869e5f6047f",
+      "organization_key": "bates-college-b934",
+      "organization_name_as_found": "Bates College",
+      "role_title": "Professor of German history",
+      "occupation": "historian and professor",
+      "relationship_type": "employment",
+      "date_precision": "Last pre-OSS teaching institution supported; exact leave, separation and transition dates not stated",
+      "city": "Lewiston",
+      "state_or_region": "Maine",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The interview lists Bates among Sweet's teaching posts, and a contemporaneous 1945 newspaper identifies him as its professor of German history. The exact termination or leave date remains unresolved."
+    },
+    {
+      "key": "frank-l-sweetser-columbia-b934",
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "organization_key": "columbia-existing-b934",
+      "organization_name_as_found": "Columbia University",
+      "role_title": "Doctoral student; Ph.D. dissertation completed",
+      "occupation": "sociology doctoral student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "Completion year stated by Densho",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Graduate student status, not employment; Densho dates completion before the War Relocation Authority position."
+    },
+    {
+      "key": "frank-l-sweetser-wra-b934",
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "organization_key": "wra-b934",
+      "organization_name_as_found": "War Relocation Authority's Community Analysis Section",
+      "role_title": "Initial assistant director; deputy to John Fee Embree",
+      "occupation": "sociologist",
+      "relationship_type": "employment",
+      "start_date": "1942",
+      "end_date": "1943",
+      "date_precision": "Eight-month tenure ending in summer 1943; exact start and end days not stated",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Densho explicitly says Sweetser left this civilian federal role in summer 1943 to join the Navy. The intervening Navy service means WRA is not labeled the immediate pre-OSS assignment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-m-sweeney-row30-b934",
+      "person_id": "f62adfa3-3bee-578d-a1d2-3b0aa552e622",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph M Sweeney row 30 is a high-confidence match to an official Army record dated 1942-07-11.",
+      "evidence_paraphrase": "The reviewed Army row agrees through the exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from an exact full name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record documents entry on 1942-07-11; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld. No employer or workplace is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b934",
+          "locator_override": "PDF page 457 row 30; Box 760"
+        },
+        {
+          "source_key": "army-bulk-b934",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-07-11; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b934",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-m-sweeney-row30-b934",
+      "person_id": "f62adfa3-3bee-578d-a1d2-3b0aa552e622",
+      "affiliation_key": "joseph-m-sweeney-row30-occupation-b934",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-11, Joseph M Sweeney was recorded in the historical category Secretaries; no employer or workplace is identified.",
+      "evidence_excerpt": "Secretaries",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 133, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, workplace or more specific modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b934",
+          "locator_override": "Army entry 1942-07-11; civilian-occupation code 133; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b934",
+          "locator_override": "PDF physical page 171; historical category 1-33"
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-p-sweet-row37-b934",
+      "person_id": "0dcbdae1-4a16-5fca-bbd9-8ac24e9403b7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur P Sweet row 37 is a high-confidence match to an official Army record dated 1943-08-04.",
+      "evidence_paraphrase": "The reviewed Army row agrees through the exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from an exact full name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record documents entry on 1943-08-04; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld. No employer or workplace is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b934",
+          "locator_override": "PDF page 457 row 37; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b934",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-08-04; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b934",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-arthur-p-sweet-row37-b934",
+      "person_id": "0dcbdae1-4a16-5fca-bbd9-8ac24e9403b7",
+      "affiliation_key": "arthur-p-sweet-row37-occupation-b934",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-08-04, Arthur P Sweet was recorded in the historical category Retail managers; no employer or workplace is identified.",
+      "evidence_excerpt": "Retail managers",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 072, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, workplace or more specific modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b934",
+          "locator_override": "Army entry 1943-08-04; civilian-occupation code 072; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b934",
+          "locator_override": "PDF physical page 171; historical category 0-72"
+        }
+      ]
+    },
+    {
+      "key": "identity-earl-p-sweet-row38-b934",
+      "person_id": "38f49725-f884-5673-af3c-d0177b454316",
+      "claim_type": "identity",
+      "claim_text": "The indexed Earl P Sweet row 38 is a high-confidence match to an official Army record dated 1943-03-05.",
+      "evidence_paraphrase": "The reviewed Army row agrees through the exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from an exact full name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record documents entry on 1943-03-05; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld. No employer or workplace is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b934",
+          "locator_override": "PDF page 457 row 38; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b934",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-03-05; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b934",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-earl-p-sweet-row38-b934",
+      "person_id": "38f49725-f884-5673-af3c-d0177b454316",
+      "affiliation_key": "earl-p-sweet-row38-occupation-b934",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-05, Earl P Sweet was recorded in the historical category Nonprocess occupations in manufacturing, n.e.c.; no employer or workplace is identified.",
+      "evidence_excerpt": "Nonprocess occupations in manufacturing, n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 963, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, workplace or more specific modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b934",
+          "locator_override": "Army entry 1943-03-05; civilian-occupation code 963; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b934",
+          "locator_override": "PDF physical page 174; historical category 9-63"
+        }
+      ]
+    },
+    {
+      "key": "identity-joyeuse-sweet-b934",
+      "person_id": "cb620f27-eab1-5efc-901c-2bd26fc0142f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joyeuse Sweet is a probable match to Joyeuse Sweet Buell, daughter of Lennig and Helen Firman Sweet and a 1944 Mount Holyoke graduate.",
+      "evidence_paraphrase": "The obituary and Yale finding aid independently align the rare exact name and both parents, but differ by one year on Joyeuse's birth year.",
+      "identity_match_assessment": "Probable rather than high confidence because neither source explicitly mentions OSS or Box 761, and the birth-year disagreement remains unresolved.",
+      "temporal_assessment": "The 1944 graduation is documented before the end of OSS operations but is not proven to be immediately before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The one-year birth discrepancy is retained. Box 761 remains necessary before upgrading the identity.",
+      "sources": [
+        {
+          "source_key": "nara-index-b934",
+          "locator_override": "PDF page 457 row 40; Box 761"
+        },
+        {
+          "source_key": "joyeuse-sweet-obituary-b934",
+          "locator_override": "Biographical paragraph; parents and education"
+        },
+        {
+          "source_key": "yale-lennig-sweet-papers-b934",
+          "locator_override": "PDF page 4; family chronology",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "other-joyeuse-sweet-mount-holyoke-b934",
+      "person_id": "cb620f27-eab1-5efc-901c-2bd26fc0142f",
+      "affiliation_key": "joyeuse-sweet-mount-holyoke-b934",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Joyeuse Sweet graduated from Mount Holyoke College in 1944 with a B.A. in Economics.",
+      "evidence_excerpt": "Mount Holyoke College ... in 1944 with a B.A. in Economics",
+      "evidence_paraphrase": "The obituary names the college, year and degree; Yale corroborates the rare-name family identity but not the education detail.",
+      "identity_match_assessment": "Probable identity with an unresolved one-year birth-date discrepancy.",
+      "temporal_assessment": "Documented pre-OSS student affiliation; not employment and not established as immediate.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The college is not labeled an employer.",
+      "sources": [
+        {
+          "source_key": "joyeuse-sweet-obituary-b934",
+          "locator_override": "Biographical paragraph; education chronology"
+        }
+      ]
+    },
+    {
+      "key": "identity-paul-r-sweet-row42-b934",
+      "person_id": "52839b7b-b20f-5e43-9d08-a869e5f6047f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dr Paul R Sweet row is a high-confidence match to historian Paul R. Sweet of OSS Research & Analysis and the Psychological Warfare Division.",
+      "evidence_paraphrase": "Rauch cites the exact RG 226 Entry 224 Box 761 file for Dr. Paul R. Sweet and aligns the name, title, German-history specialty and wartime OSS chronology.",
+      "identity_match_assessment": "High confidence from the exact name, Dr title, exact index box and direct archival file citation in a peer-reviewed scholarly source.",
+      "temporal_assessment": "Rauch documents OSS Research & Analysis service in London before the autumn 1944 field assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The separately printed no-rank Paul R Sweet row remains a separate possible duplicate and receives no transferred claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b934",
+          "locator_override": "PDF page 457 row 42; Dr; Box 761"
+        },
+        {
+          "source_key": "rauch-paul-sweet-b934",
+          "locator_override": "PDF pages 4 and 29; exact Box 761 personnel-file citation"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-paul-r-sweet-bates-b934",
+      "person_id": "52839b7b-b20f-5e43-9d08-a869e5f6047f",
+      "affiliation_key": "paul-r-sweet-bates-b934",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Paul R. Sweet's best-supported last civilian employer before OSS service is Bates College, where he taught history.",
+      "evidence_excerpt": "professor of German history at Bates College",
+      "evidence_paraphrase": "Sweet's published interview lists Bates among his teaching posts, and a contemporaneous March 1945 newspaper identifies his Bates role while reporting his Army intelligence work.",
+      "identity_match_assessment": "High confidence through the exact Box 761 Dr. Paul R. Sweet file citation and matching historian chronology.",
+      "temporal_assessment": "Strongly date-bounded as the last identified pre-OSS civilian teaching post; the exact leave or separation date is not stated, so it is not labeled explicit immediate.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No intervening civilian employer is documented in the reviewed sources. The personnel file should confirm the exact transition date.",
+      "sources": [
+        {
+          "source_key": "historian-paul-sweet-b934",
+          "locator_override": "Public abstract and biographical note; Bates College teaching"
+        },
+        {
+          "source_key": "militant-paul-sweet-b934",
+          "locator_override": "Page 2; contemporaneous Bates College role"
+        },
+        {
+          "source_key": "rauch-paul-sweet-b934",
+          "support_type": "supports",
+          "locator_override": "PDF pages 4 and 29; identity and OSS chronology"
+        }
+      ]
+    },
+    {
+      "key": "identity-frank-l-sweetser-b934",
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank L Sweetser is a high-confidence match to sociologist and Navy Lieutenant Frank L. Sweetser, born in 1913.",
+      "evidence_paraphrase": "Densho, the contemporary Dartmouth roster and cemetery transcription align the exact full name, 1934 Dartmouth class, Navy service and rank, and the same birth and death dates.",
+      "identity_match_assessment": "High confidence from a distinctive exact full name and multiple mutually consistent educational, chronological and military identifiers across independent sources.",
+      "temporal_assessment": "Densho explicitly dates the WRA-to-Navy transition to summer 1943; the exact Navy-to-OSS sequence remains unestablished.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index establishes the Box 761 OSS-file context. The sources do not establish an exact OSS assignment date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b934",
+          "locator_override": "PDF page 457 row 46; Box 761"
+        },
+        {
+          "source_key": "densho-frank-sweetser-b934",
+          "locator_override": "Biographical paragraph"
+        },
+        {
+          "source_key": "dartmouth-war-directory-b934",
+          "locator_override": "Class of 1934 listing; Lieutenant (junior grade), Naval Reserve"
+        },
+        {
+          "source_key": "mass-national-cemetery-b934",
+          "support_type": "supports",
+          "locator_override": "Frank L Sweetser entry; birth and death dates, Navy Lieutenant"
+        }
+      ]
+    },
+    {
+      "key": "other-frank-l-sweetser-columbia-b934",
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "affiliation_key": "frank-l-sweetser-columbia-b934",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Frank L. Sweetser completed his Columbia University Ph.D. dissertation in 1942 before joining the War Relocation Authority.",
+      "evidence_excerpt": "finished his Ph.D. dissertation ... in 1942",
+      "evidence_paraphrase": "Densho places the Columbia doctoral work immediately before the WRA position.",
+      "identity_match_assessment": "High confidence from the distinctive exact-name and Navy chronology across independent sources.",
+      "temporal_assessment": "Explicitly pre-WRA and pre-Navy student affiliation; not employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Columbia University is not labeled an employer.",
+      "sources": [
+        {
+          "source_key": "densho-frank-sweetser-b934",
+          "locator_override": "Biographical paragraph; Columbia-to-WRA chronology"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-frank-l-sweetser-wra-b934",
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "affiliation_key": "frank-l-sweetser-wra-b934",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Frank L. Sweetser's last documented civilian employer before Navy service was the War Relocation Authority, where he was assistant director of the Community Analysis Section.",
+      "evidence_excerpt": "leaving in the summer of 1943 to join the navy",
+      "evidence_paraphrase": "Densho identifies Sweetser as the section's initial assistant director and John Fee Embree's deputy for eight months, ending when he joined the Navy.",
+      "identity_match_assessment": "High confidence from the distinctive exact-name, Dartmouth, Navy rank, birth-date and chronology alignment.",
+      "temporal_assessment": "Explicit civilian-to-military transition in 1943. WRA is not labeled the immediate pre-OSS affiliation because Navy service intervened and the later Navy-to-OSS sequence is not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical personnel file is still needed to establish the Navy-to-OSS sequence and exact OSS assignment.",
+      "sources": [
+        {
+          "source_key": "densho-frank-sweetser-b934",
+          "locator_override": "Biographical paragraph; WRA role and summer 1943 Navy transition"
+        },
+        {
+          "source_key": "dartmouth-war-directory-b934",
+          "support_type": "supports",
+          "locator_override": "December 1943 Navy roster"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "0d7a18fb-d090-53ee-bc1a-fabc925f35c1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James A Sweatte, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, military, employment and obituary searches supplied no Box 760 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c136aa83-99a4-5012-8d3b-a7fe6f4b6205",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Bernard Swedloff, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A rare-name Signal Corps officer-candidate and Pennsylvania radio records remain unassigned because the index row supplies no second corroborating identifier.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "59adfad9-f19b-54ad-936e-aacdc831ad1e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elizabeth Sweeka, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no defensible OSS or Box 760 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d6b51654-69c3-533c-93b4-ae95ba12d407",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lois E Sweeley, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, institutional and newspaper searches supplied no defensible OSS or Box 760 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "db758e9a-5aeb-5fda-8823-ffb3942ff064",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Barbara P Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and employment searches did not distinguish the indexed Barbara P Sweeney from namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ae367bc5-46ff-5f52-8cb8-05f48c242ba3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James S Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and military searches did not distinguish the indexed James S Sweeney from namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "19544301-a933-5438-a865-c53b61a00169",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph M Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. This separately printed Joseph M Sweeney row carries a different protected identifier from row 30 and remains a separate unresolved person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b7319af-74d7-59fe-900a-2b3ab69c1c99",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Patrick J Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and military searches supplied no two-identifier match for Patrick J Sweeney.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3585ad1f-cdbd-5643-84f0-365e1dc43671",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rae Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, obituary and institutional searches supplied no defensible identity bridge for Rae Sweeney.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "07716dc8-d660-5f9b-a104-fb5f793c2787",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert G Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The protected identifier and common name did not yield a defensible official-record match for Robert G Sweeney.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2cabc942-d942-54ef-9a8c-1e1da1d4deeb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ruth E Sweeney, Box 760 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and employment searches supplied no defensible OSS or Box 760 identity bridge for Ruth E Sweeney.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 760 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "10239687-5a89-5853-b0a5-3432b8094e3e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Arabella Sweet, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no corroborated identity bridge for Arabella Sweet.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e424a19b-9ebd-56b8-8940-ebc8f9cde496",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Florence H Sweet, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and institutional searches supplied no corroborated identity bridge for Florence H Sweet.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "12efa622-83d0-5c8d-85f0-f86c4387b424",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul Sweet, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The middle-initial-free Paul Sweet row remains separate from both printed Paul R Sweet rows and has no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d302baf2-5f79-5d8c-bb24-c6e952a74aeb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul R Sweet, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. This no-rank Paul R Sweet row may relate to the separately printed Dr Paul R Sweet row, but the shared name and box do not justify a merge or claim transfer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 761 Paul R Sweet files together. Do not merge the printed rows or transfer Dr Paul R Sweet's Bates claim unless the files establish duplication.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p457-paul-r-sweet-r42-r43-b934"
+    },
+    {
+      "person_id": "e282916a-cbf7-5f18-9e7f-b72c9c45ab7b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Walden E Sweet, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, military and obituary searches supplied no two-identifier match for Walden E Sweet.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0bc1344f-24f1-5892-8848-22294c9acdd7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Adelaide V Sweetser, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no defensible identity bridge for Adelaide V Sweetser.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f62adfa3-3bee-578d-a1d2-3b0aa552e622",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 760 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0dcbdae1-4a16-5fca-bbd9-8ac24e9403b7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38f49725-f884-5673-af3c-d0177b454316",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cb620f27-eab1-5efc-901c-2bd26fc0142f",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact name and both parents align between an obituary and Yale finding aid, supporting a probable match. Their 1923 versus 1922 birth-year disagreement and absence of an OSS-specific bridge prevent a high-confidence identity.",
+      "name_variants": [
+        "Joyeuse Sweet Buell",
+        "Joy Sweet Buell"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 to resolve the birth-year discrepancy, confirm the identity and determine the immediate pre-OSS affiliation. Mount Holyoke is documented only as student status.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "52839b7b-b20f-5e43-9d08-a869e5f6047f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A peer-reviewed scholarly article cites the exact RG 226 Entry 224 Box 761 file for Dr. Paul R. Sweet and aligns the name, title, German-history specialty and OSS Research & Analysis chronology.",
+      "name_variants": [
+        "Paul R. Sweet",
+        "Dr. Paul R. Sweet"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "p457-paul-r-sweet-r42-r43-b934",
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 761 to confirm the exact Bates College leave or separation date and resolve the separately printed no-rank Paul R Sweet row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Densho, a contemporary Dartmouth roster and cemetery transcription align the distinctive exact full name, 1934 class, 1913 birth, Navy service and lieutenant rank.",
+      "name_variants": [
+        "Frank L. Sweetser"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 761 to establish the Navy-to-OSS sequence and exact OSS assignment; the WRA-to-Navy transition is already documented.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page457-row24-james-a-sweatte-b934",
+      "person_id": "0d7a18fb-d090-53ee-bc1a-fabc925f35c1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James A Sweatte; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name OSS, military, employment and obituary searches supplied no Box 760 identity bridge. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row25-bernard-swedloff-b934",
+      "person_id": "c136aa83-99a4-5012-8d3b-a7fe6f4b6205",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernard Swedloff; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A rare-name Signal Corps officer-candidate and Pennsylvania radio records remain unassigned because the index row supplies no second corroborating identifier. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row26-elizabeth-sweeka-b934",
+      "person_id": "59adfad9-f19b-54ad-936e-aacdc831ad1e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elizabeth Sweeka; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no defensible OSS or Box 760 identity bridge. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row27-lois-e-sweeley-b934",
+      "person_id": "d6b51654-69c3-533c-93b4-ae95ba12d407",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lois E Sweeley; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, institutional and newspaper searches supplied no defensible OSS or Box 760 identity bridge. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row28-barbara-p-sweeney-b934",
+      "person_id": "db758e9a-5aeb-5fda-8823-ffb3942ff064",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Barbara P Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and employment searches did not distinguish the indexed Barbara P Sweeney from namesakes. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row29-james-s-sweeney-b934",
+      "person_id": "ae367bc5-46ff-5f52-8cb8-05f48c242ba3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James S Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and military searches did not distinguish the indexed James S Sweeney from namesakes. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row30-joseph-m-sweeney-b934",
+      "person_id": "f62adfa3-3bee-578d-a1d2-3b0aa552e622",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph M Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "An exact name and nonshared protected identifier support a high-confidence official Army identity bridge and dated occupation-only evidence. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row31-joseph-m-sweeney-b934",
+      "person_id": "19544301-a933-5438-a865-c53b61a00169",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph M Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "This separately printed Joseph M Sweeney row carries a different protected identifier from row 30 and remains a separate unresolved person. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row32-patrick-j-sweeney-b934",
+      "person_id": "3b7319af-74d7-59fe-900a-2b3ab69c1c99",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Patrick J Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and military searches supplied no two-identifier match for Patrick J Sweeney. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row33-rae-sweeney-b934",
+      "person_id": "3585ad1f-cdbd-5643-84f0-365e1dc43671",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rae Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, obituary and institutional searches supplied no defensible identity bridge for Rae Sweeney. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row34-robert-g-sweeney-b934",
+      "person_id": "07716dc8-d660-5f9b-a104-fb5f793c2787",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert G Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The protected identifier and common name did not yield a defensible official-record match for Robert G Sweeney. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row35-ruth-e-sweeney-b934",
+      "person_id": "2cabc942-d942-54ef-9a8c-1e1da1d4deeb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruth E Sweeney; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 760; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and employment searches supplied no defensible OSS or Box 760 identity bridge for Ruth E Sweeney. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 760 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row36-arabella-sweet-b934",
+      "person_id": "10239687-5a89-5853-b0a5-3432b8094e3e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arabella Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no corroborated identity bridge for Arabella Sweet. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row37-arthur-p-sweet-b934",
+      "person_id": "0dcbdae1-4a16-5fca-bbd9-8ac24e9403b7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur P Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "An exact name and nonshared protected identifier support a high-confidence official Army identity bridge and dated occupation-only evidence. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row38-earl-p-sweet-b934",
+      "person_id": "38f49725-f884-5673-af3c-d0177b454316",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Earl P Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "An exact name and nonshared protected identifier support a high-confidence official Army identity bridge and dated occupation-only evidence. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row39-florence-h-sweet-b934",
+      "person_id": "e424a19b-9ebd-56b8-8940-ebc8f9cde496",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Florence H Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and institutional searches supplied no corroborated identity bridge for Florence H Sweet. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row40-joyeuse-sweet-b934",
+      "person_id": "cb620f27-eab1-5efc-901c-2bd26fc0142f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joyeuse Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Two sources support a probable rare-name identity and 1944 Mount Holyoke student affiliation, while a one-year birth discrepancy remains explicit. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row41-paul-sweet-b934",
+      "person_id": "12efa622-83d0-5c8d-85f0-f86c4387b424",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The middle-initial-free Paul Sweet row remains separate from both printed Paul R Sweet rows and has no defensible identity bridge. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row42-paul-r-sweet-b934",
+      "person_id": "52839b7b-b20f-5e43-9d08-a869e5f6047f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul R Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "An exact Box 761 personnel-file citation supports a high-confidence identity, and two sources support Bates College as the best-documented last civilian employer. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row43-paul-r-sweet-b934",
+      "person_id": "d302baf2-5f79-5d8c-bb24-c6e952a74aeb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul R Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "This no-rank Paul R Sweet row may relate to the separately printed Dr Paul R Sweet row, but the shared name and box do not justify a merge or claim transfer. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row44-walden-e-sweet-b934",
+      "person_id": "e282916a-cbf7-5f18-9e7f-b72c9c45ab7b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walden E Sweet; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, military and obituary searches supplied no two-identifier match for Walden E Sweet. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row45-adelaide-v-sweetser-b934",
+      "person_id": "0bc1344f-24f1-5892-8848-22294c9acdd7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Adelaide V Sweetser; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no defensible identity bridge for Adelaide V Sweetser. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    },
+    {
+      "key": "page457-row46-frank-l-sweetser-b934",
+      "person_id": "046a86b6-7fbe-5a18-82dd-e52adb1b6957",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank L Sweetser; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_934",
+      "started_at": "2026-10-27T23:00:00Z",
+      "completed_at": "2026-10-28T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Independent institutional and biographical sources support a high-confidence identity, Columbia student status and an explicit War Relocation Authority-to-Navy chronology. The index page and relevant Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b934-v1"
+    }
+  ]
+}

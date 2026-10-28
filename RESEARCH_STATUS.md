@@ -1,5 +1,48 @@
 # Research status
 
+Batch 934 completed PDF page 457, rows 24-46, from **James A. Sweatte**
+through **Frank L. Sweetser**, preserving all 23 printed rows as 23 separate
+people with saved terminal research attempts. Three official Army identity
+bridges were accepted, and no protected identifier is present in tracked
+evidence or public data.
+
+Dr. Paul R. Sweet is a high-confidence identity with Bates College published
+as his best-supported last civilian employer before OSS; the separately
+printed no-rank Paul R. Sweet row remains separate in an opaque possible-
+duplicate group. Frank L. Sweetser is a high-confidence identity with Columbia
+doctoral study modeled as student status and the War Relocation Authority as
+his last civilian employer before Navy service. Joyeuse Sweet retains a
+qualified probable identity, a visible one-year birth-date disagreement, and a
+Mount Holyoke student affiliation that is not treated as employment. Three
+Army findings name dated occupations but no employer. The two Joseph M.
+Sweeney rows remain separate because their protected identifiers differ.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,428/23,936 (60.2774%)**;
+verified-employer coverage is **462/23,936 (1.9301%)**;
+verified-affiliation coverage is **1,023/23,936 (4.2739%)**; archival-review
+coverage is **12,901/23,936 (53.8979%)**. There are **9,503** not-started
+people, **632** possible-duplicate groups and **497** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,718 high**, **2,101 medium**,
+**252 low**, **419 conflicting** and **2 unresolved**. The public projection
+contains **3,356** affiliations, **1,185** organizations, **5,863** sources and
+**8,884** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 458, row 1,
+**Paul M. Sweezy**, in Box 761. See `research/batch-934-progress.md` for the
+source-by-source audit.
+
+Batch 934 has passed evidence-schema validation, canonical import, SQLite
+integrity and foreign-key checks, full ingest validation, derived export
+regeneration, coverage reporting, public-data redaction and the 200-profile
+structural audit. All 147 Python tests pass. Astro checks 565 files with zero
+errors, warnings or hints and builds 25,169 static pages. The 27/27 Batch 934
+browser matrix and full 96/96 bounded browser and accessibility release suite
+pass, as do the complete internal-link check, protected-identifier audit,
+checked-in public manifest, zero-vulnerability production dependency audit and
+two deterministic consecutive builds. Publication will be recorded only after
+both GitHub Actions workflows and the unauthenticated live verifier pass; see
+`reports/release_batch_934.md`.
+
 Batch 933 completed PDF page 457, rows 1-23, from **Fred G. Swafford**
 through **Victor H. Swearingen**, preserving all 23 printed rows as 23 separate
 people with saved terminal research attempts. Four official Army identity
