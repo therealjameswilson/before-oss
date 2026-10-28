@@ -1,5 +1,48 @@
 # Research status
 
+Batch 940 completed PDF page 460, rows 24-46, from **Jefferson M. Tancil**
+through **Mary B. Tarbet**, preserving all 23 printed rows as separate people
+with saved terminal research attempts. Noboru M. Tanimoto remains separate
+from the earlier Noboru Tamimoto row in a visible possible-duplicate group;
+the reviewed OSS order names Noboru Mori Tanimoto but cannot determine which
+printed index row it represents.
+
+Alfred L. Tanz has a high-confidence U.S. Army-to-OSS pathway, qualified
+self-employed legal practice and earlier Abraham Lincoln Battalion service.
+Charles H. Taquey has a high-confidence French diplomatic affiliation followed
+by French Army service and a qualified U.S. Army-to-OSS pathway. Bob F.
+Tanisaki has a contemporaneously documented *Manzanar Free Press* professional
+affiliation. William L. Tarbert and Carmine Tarallo have student pathways that
+are not presented as employment. Saburo Tani and Helen Tarasov retain visibly
+qualified institutional claims. Ruby K. Tape remains an identity conflict.
+Twelve other rows retain explicit Box 765 archival-review outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,564/23,936 (60.8456%)**;
+verified-employer coverage is **463/23,936 (1.9343%)**;
+verified-affiliation coverage is **1,033/23,936 (4.3157%)**; archival-review
+coverage is **13,037/23,936 (54.4661%)**. There are **9,367** not-started
+people, **637** possible-duplicate groups and **501** conflicts. Claim
+confidence counts are **1,652 confirmed**, **4,770 high**, **2,159 medium**,
+**252 low**, **422 conflicting** and **2 unresolved**. The public projection
+contains **3,418** affiliations, **1,201** organizations, **5,942** sources and
+**8,999** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 461, row
+1, **Ray L. Tarbox**, in Box 765. See `research/batch-940-progress.md` for the
+source-by-source audit.
+
+Batch 940 passed evidence-schema validation, isolated import replay, canonical
+review-decision and evidence import, SQLite integrity and foreign-key checks,
+full ingest validation, derived export regeneration, coverage reporting,
+public-data redaction and the 200-profile structural audit. All 147 Python
+tests pass. Astro checks 571 files with zero errors, warnings or hints and
+builds 25,185 static pages. The 30/30 Batch 940 browser matrix and full 99/99
+bounded browser and accessibility release suite pass, as do the complete
+internal-link check, protected-identifier audit, checked-in public manifest,
+zero-vulnerability production dependency audit and two deterministic
+consecutive builds. Publication is not claimed until the immutable public
+release is verified; see `reports/release_batch_940.md`.
+
 Batch 939 completed PDF page 460, rows 1-23, from **Will S. Talbot** through
 **Yasuo Tanaka**, preserving all 23 printed rows as separate people with saved
 terminal research attempts. The Noboru Tamimoto and Noboru M. Tanimoto rows
