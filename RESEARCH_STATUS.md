@@ -40,8 +40,11 @@ builds 25,186 static pages. The 30/30 Batch 941 browser matrix and full 99/99
 bounded browser and accessibility release suite pass, as do the complete
 internal-link check, protected-identifier audit, checked-in public manifest,
 zero-vulnerability production dependency audit and two deterministic
-consecutive builds. Publication verification is pending; see
-`reports/release_batch_941.md`.
+consecutive builds. The release is public from immutable content commit
+`0464d6d09221007f86f98f7b498144c06df48cfd`. GitHub Actions Test run
+`40643736541` and Pages run `40643736648` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 40 source-register pages and all 23
+directly affected profiles; see `reports/release_batch_941.md`.
 
 Batch 940 completed PDF page 460, rows 24-46, from **Jefferson M. Tancil**
 through **Mary B. Tarbet**, preserving all 23 printed rows as separate people
