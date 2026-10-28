@@ -67,5 +67,11 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Pending content commit, GitHub Actions and unauthenticated production
-verification.
+Batch 942 is public from immutable content commit
+`1e82c2e0730b44f53779d110b30d2fae719fba84`. GitHub Actions Test run
+`40647882076` and Pages run `40647882104` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**125,712,409** bytes at manifest SHA-256
+`6863511e49a85da2c018c555337b40f76ad316adb09a7af8af684c916c43198e`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.
