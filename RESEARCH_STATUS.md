@@ -1,5 +1,47 @@
 # Research status
 
+Batch 931 completed PDF page 456, rows 1-23, from **Erwin Summers** through
+**Stanley Sussman**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have saved terminal research outcomes.
+Seven official Army identity bridges were accepted, and no protected
+identifier is present in the public projection.
+
+Konthi Suphamonkol is a high-confidence identity supported by an official UN
+biographical statement and an independent Siam Society review. His law studies,
+1940-1942 Foreign Ministry role, 1942-1944 Tokyo embassy assignment and 1944
+part-time lectureship are separately modeled without inventing an immediate
+pre-OSS affiliation or last civilian employer. Seven Army findings name dated
+occupations but no employer. Two John W. Summers rows remain separate, while
+Sang P. Surh and Stanley Sussman retain explicit identity conflicts and no
+contested occupation. Julian C. Suso's printed `SI` note remains uninterpreted.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,360/23,936 (59.9933%)**;
+verified-employer coverage is **459/23,936 (1.9176%)**;
+verified-affiliation coverage is **1,018/23,936 (4.2530%)**; archival-review
+coverage is **12,833/23,936 (53.6138%)**. There are **9,571** not-started
+people, **631** possible-duplicate groups and **494** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,684 high**, **2,079 medium**,
+**252 low**, **416 conflicting** and **2 unresolved**. The public projection
+contains **3,321** affiliations, **1,172** organizations, **5,833** sources and
+**8,825** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 456, row 24,
+**Donald E. Sutcliffe**, in Box 759. See `research/batch-931-progress.md` for
+the source-by-source audit.
+
+Batch 931 has passed evidence-schema validation, duplicate-safe isolated
+replay, canonical import, SQLite integrity and foreign-key checks, derived
+export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 562 files
+with zero errors, warnings or hints and builds 25,155 static pages. The 30/30
+Batch 931 browser matrix and the full 99/99 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication
+verification is pending the immutable content commit, successful Test and
+Pages runs, and the live unauthenticated verifier. See
+`reports/release_batch_931.md`.
+
 Batch 930 completed PDF page 455, rows 24-46, from the second separately
 printed **John L Sullivan** row through **Elinor H Summers**, preserving all 23
 printed rows and linking them to 23 separate active people. All 23 now have

@@ -1,0 +1,1613 @@
+{
+  "bundle_version": "batch-931-v1",
+  "reviewer": "Before OSS Batch 931 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b931",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 758-759",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 456, rows 1-23; checked against layout-preserving text and the rendered page image",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. The box changes from 758 to 759 at row 19, and Julian C Suso's SI note is preserved without expansion."
+    },
+    {
+      "key": "army-bulk-b931",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; nine reviewed Batch 931 identity candidates",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Seven nonshared, name-compatible identity bridges are accepted. Sang P Surh's identifier is shared with a different indexed name, and Stanley Sussman's Army name is damaged; both remain conflicts. No raw record or full identifier is public."
+    },
+    {
+      "key": "army-tech-b931",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b931",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-171 and 174; Batch 931 categories visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer nor workplace. Conflicting candidates are not assigned an occupation."
+    },
+    {
+      "key": "un-ilc-biographical-statement-b931",
+      "stable_url": "https://digitallibrary.un.org/record/841304/files/A_4780-EN.pdf?version=1",
+      "archival_identifier": "United Nations General Assembly document A/4780",
+      "title": "Election of Members of the International Law Commission: Statements of Qualifications of Candidates",
+      "author_creator": "United Nations Secretary-General",
+      "repository_publisher": "United Nations Digital Library",
+      "publication_record_date": "1961-06-28",
+      "locator": "PDF physical page 61, printed page 61; Konthi Suphamongkhon statement visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "United Nations General Assembly, sixteenth session",
+      "document_number": "A/4780",
+      "rights_notes": "The official qualification statement supplies dated education, Foreign Ministry, embassy and university roles. It does not state an OSS entry date, so no immediate-predecessor claim is made."
+    },
+    {
+      "key": "siam-society-review-b931",
+      "stable_url": "https://thesiamsociety.org/wp-content/uploads/1985/03/JSS_073_0s_Reviews.pdf",
+      "archival_identifier": "Journal of the Siam Society, volume 73",
+      "title": "Reviews: Thai Foreign Policy and Thai Foreign Policy 1932-1946",
+      "author_creator": "S. Sivaraksa",
+      "repository_publisher": "The Siam Society Under Royal Patronage",
+      "publication_record_date": "1985",
+      "locator": "PDF physical page 10, printed page 262; visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Journal of the Siam Society",
+      "rights_notes": "The review preserves the indexed Suphamonkol spelling and connects the author to Foreign Ministry work and the Free Thai Movement. It is used as corroboration, not to infer an OSS entry date."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "siam-foreign-ministry-b931",
+      "canonical_name": "Ministry of Foreign Affairs, Siam",
+      "historical_name": "Ministry of Foreign Affairs",
+      "aliases": [
+        "Foreign Ministry",
+        "Ministry of Foreign Affairs, Thailand"
+      ],
+      "organization_type": "national foreign ministry",
+      "sector": "federal_government",
+      "city": "Bangkok",
+      "country": "Siam (Thailand)",
+      "active_dates": "Historical ministry; wartime name preserved",
+      "normalization_notes": "The wartime country name and ministry wording are preserved. The modern successor name is listed only as an alias, not substituted for the historical affiliation."
+    },
+    {
+      "key": "thai-embassy-tokyo-b931",
+      "canonical_name": "Embassy of Thailand, Tokyo",
+      "historical_name": "Embassy of Thailand, Tokyo",
+      "aliases": [
+        "Thai Embassy in Tokyo"
+      ],
+      "organization_type": "embassy",
+      "sector": "federal_government",
+      "city": "Tokyo",
+      "country": "Japan",
+      "active_dates": "Active during 1942-1944",
+      "normalization_notes": "Kept separate from the Foreign Ministry headquarters role because the official biography names an embassy assignment. Its parent organization was the Ministry of Foreign Affairs, Siam."
+    },
+    {
+      "key": "moral-political-sciences-university-b931",
+      "canonical_name": "University of Moral and Political Sciences",
+      "historical_name": "University of Moral and Political Sciences",
+      "aliases": [
+        "University of Moral and Political Sciences, Bangkok"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Bangkok",
+      "country": "Siam (Thailand)",
+      "normalization_notes": "The historical institutional name in the UN statement is retained; its successor is Thammasat University. Student and lecturer relationships remain distinct, and neither is converted into an employer claim without separate evidence."
+    },
+    {
+      "key": "university-of-paris-b931",
+      "canonical_name": "University of Paris",
+      "historical_name": "University of Paris",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Paris",
+      "country": "France",
+      "active_dates": "Historical university before its 1970 reorganization",
+      "normalization_notes": "The historical university is not silently merged with any modern successor campus. The relationship is student, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "homer-b-summers-occupation-b931",
+      "person_id": "ea50bf7f-1db6-5a7c-a3d4-d995fa57cb38",
+      "occupation": "Linemen and servicemen, telegraph, telephone, and power",
+      "relationship_type": "employment",
+      "end_date": "1942-07-21",
+      "date_precision": "Historical civilian-occupation code 553 was recorded at Army entry on 1942-07-21; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "james-summers-occupation-b931",
+      "person_id": "2df6b26f-bc5c-5425-b7eb-6eea2867abbd",
+      "occupation": "Firemen, other than process firemen",
+      "relationship_type": "employment",
+      "end_date": "1943-09-18",
+      "date_precision": "Historical civilian-occupation code 770 was recorded at Army entry on 1943-09-18; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "john-b-summers-occupation-b931",
+      "person_id": "35f0de37-8be4-52a9-897a-31b605d67dcc",
+      "occupation": "Accountants and auditors",
+      "relationship_type": "employment",
+      "end_date": "1943-07-06",
+      "date_precision": "Historical civilian-occupation code 001 was recorded at Army entry on 1943-07-06; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "robert-g-sunday-occupation-b931",
+      "person_id": "30736fc0-734c-5937-9365-8f8e5bd4d109",
+      "occupation": "Machine-shop and related occupations, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-05-21",
+      "date_precision": "Historical civilian-occupation code 878 was recorded at Army entry on 1943-05-21; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "john-sunde-occupation-b931",
+      "person_id": "2ccc5346-c6be-5483-902c-76e746d56d9a",
+      "occupation": "Occupations in fabrication of metal products, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-09-07",
+      "date_precision": "Historical civilian-occupation code 893 was recorded at Army entry on 1942-09-07; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "carl-l-sussman-occupation-b931",
+      "person_id": "997be5df-41cb-5785-9204-6f44face8b6e",
+      "occupation": "Photographers",
+      "relationship_type": "employment",
+      "end_date": "1942-12-08",
+      "date_precision": "Historical civilian-occupation code 056 was recorded at Army entry on 1942-12-08; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "harvey-s-sussman-occupation-b931",
+      "person_id": "e1c0bc96-2d4b-5e13-a131-d4bec64fa6d3",
+      "occupation": "Managers and officials, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-02-09",
+      "date_precision": "Historical civilian-occupation code 097 was recorded at Army entry on 1943-02-09; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "konthi-umps-student-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "organization_key": "moral-political-sciences-university-b931",
+      "organization_name_as_found": "University of Moral and Political Sciences, Bangkok, Thailand",
+      "role_title": "LL.B. student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1935",
+      "date_precision": "Degree year; attendance start date not stated",
+      "city": "Bangkok",
+      "country": "Siam (Thailand)",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "A student affiliation, not employment and not shown to be immediate before OSS-related service."
+    },
+    {
+      "key": "konthi-paris-student-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "organization_key": "university-of-paris-b931",
+      "organization_name_as_found": "University of Paris",
+      "role_title": "Docteur en droit student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1940",
+      "date_precision": "Degree year; attendance start date not stated",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "A student affiliation, not employment and not shown to be immediate before OSS-related service."
+    },
+    {
+      "key": "konthi-foreign-ministry-1940-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "organization_key": "siam-foreign-ministry-b931",
+      "organization_name_as_found": "Political Division, Ministry of Foreign Affairs",
+      "role_title": "Chief of Section, Political Division",
+      "occupation": "diplomat",
+      "relationship_type": "government_assignment",
+      "start_date": "1940",
+      "end_date": "1942",
+      "date_precision": "Calendar-year range in the UN qualification statement; exact appointment dates are not stated",
+      "city": "Bangkok",
+      "country": "Siam (Thailand)",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "A documented government assignment. The source does not establish an OSS entry date or prove that this was the immediate predecessor."
+    },
+    {
+      "key": "konthi-tokyo-embassy-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "organization_key": "thai-embassy-tokyo-b931",
+      "organization_name_as_found": "Embassy of Thailand, Tokyo",
+      "role_title": "Second Secretary",
+      "occupation": "diplomat",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "Calendar-year range in the UN qualification statement; exact appointment dates are not stated",
+      "city": "Tokyo",
+      "country": "Japan",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The assignment is documented, but its sequence or overlap with Free Thai and OSS-related activity is not fixed by the reviewed sources."
+    },
+    {
+      "key": "konthi-umps-lecturer-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "organization_key": "moral-political-sciences-university-b931",
+      "organization_name_as_found": "University of Moral and Political Sciences, Bangkok, Thailand",
+      "role_title": "Lecturer on public finance",
+      "occupation": "lecturer",
+      "relationship_type": "employment",
+      "start_date": "1944",
+      "end_date": "1944",
+      "date_precision": "Year only; the UN statement describes the lectureship as part-time",
+      "city": "Bangkok",
+      "country": "Siam (Thailand)",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The part-time employment is documented for 1944, but the reviewed sources do not establish whether it preceded, overlapped or followed the relevant OSS relationship."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-homer-b-summers-row2-b931",
+      "person_id": "ea50bf7f-1db6-5a7c-a3d4-d995fa57cb38",
+      "claim_type": "identity",
+      "claim_text": "The indexed Homer B Summers row is a high-confidence match to an official Army record dated 1942-07-21. The Army spelling expands the name as Homer B Summers Jr.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1942-07-21; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 2; Box 758"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-07-21; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-homer-b-summers-row2-b931",
+      "person_id": "ea50bf7f-1db6-5a7c-a3d4-d995fa57cb38",
+      "affiliation_key": "homer-b-summers-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-21, Homer B Summers was recorded in the historical occupation category Linemen and servicemen, telegraph, telephone, and power; no employer or workplace is identified.",
+      "evidence_excerpt": "Linemen and servicemen, telegraph, telephone, and power",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 553, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1942-07-21; civilian-occupation code 553; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 174; historical category 5-53"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-summers-row3-b931",
+      "person_id": "2df6b26f-bc5c-5425-b7eb-6eea2867abbd",
+      "claim_type": "identity",
+      "claim_text": "The indexed James Summers row is a high-confidence match to an official Army record dated 1943-09-18. The Army spelling expands the name as James W Summers.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1943-09-18; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 3; Box 758"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-09-18; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-summers-row3-b931",
+      "person_id": "2df6b26f-bc5c-5425-b7eb-6eea2867abbd",
+      "affiliation_key": "james-summers-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-09-18, James Summers was recorded in the historical occupation category Firemen, other than process firemen; no employer or workplace is identified.",
+      "evidence_excerpt": "Firemen, other than process firemen",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 770, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1943-09-18; civilian-occupation code 770; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 174; historical category 7-70"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-b-summers-row6-b931",
+      "person_id": "35f0de37-8be4-52a9-897a-31b605d67dcc",
+      "claim_type": "identity",
+      "claim_text": "The indexed John B Summers row is a high-confidence match to an official Army record dated 1943-07-06.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1943-07-06; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 6; Box 758"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-07-06; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-b-summers-row6-b931",
+      "person_id": "35f0de37-8be4-52a9-897a-31b605d67dcc",
+      "affiliation_key": "john-b-summers-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-06, John B Summers was recorded in the historical occupation category Accountants and auditors; no employer or workplace is identified.",
+      "evidence_excerpt": "Accountants and auditors",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 001, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1943-07-06; civilian-occupation code 001; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 170; historical category 0-01"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-g-sunday-row9-b931",
+      "person_id": "30736fc0-734c-5937-9365-8f8e5bd4d109",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert G Sunday row is a high-confidence match to an official Army record dated 1943-05-21.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1943-05-21; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 9; Box 758"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-05-21; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-g-sunday-row9-b931",
+      "person_id": "30736fc0-734c-5937-9365-8f8e5bd4d109",
+      "affiliation_key": "robert-g-sunday-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-21, Robert G Sunday was recorded in the historical occupation category Machine-shop and related occupations, not elsewhere classified; no employer or workplace is identified.",
+      "evidence_excerpt": "Machine-shop and related occupations, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 878, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1943-05-21; civilian-occupation code 878; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 174; historical category 8-78"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-sunde-row10-b931",
+      "person_id": "2ccc5346-c6be-5483-902c-76e746d56d9a",
+      "claim_type": "identity",
+      "claim_text": "The indexed John Sunde row is a high-confidence match to an official Army record dated 1942-09-07.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1942-09-07; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 10; Box 758"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-09-07; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-sunde-row10-b931",
+      "person_id": "2ccc5346-c6be-5483-902c-76e746d56d9a",
+      "affiliation_key": "john-sunde-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-07, John Sunde was recorded in the historical occupation category Occupations in fabrication of metal products, not elsewhere classified; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in fabrication of metal products, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 893, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1942-09-07; civilian-occupation code 893; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 174; historical category 8-93"
+        }
+      ]
+    },
+    {
+      "key": "identity-carl-l-sussman-row21-b931",
+      "person_id": "997be5df-41cb-5785-9204-6f44face8b6e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl L Sussman row is a high-confidence match to an official Army record dated 1942-12-08.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1942-12-08; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 21; Box 759"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-12-08; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-carl-l-sussman-row21-b931",
+      "person_id": "997be5df-41cb-5785-9204-6f44face8b6e",
+      "affiliation_key": "carl-l-sussman-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-08, Carl L Sussman was recorded in the historical occupation category Photographers; no employer or workplace is identified.",
+      "evidence_excerpt": "Photographers",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 056, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1942-12-08; civilian-occupation code 056; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 171; historical category 0-56"
+        }
+      ]
+    },
+    {
+      "key": "identity-harvey-s-sussman-row22-b931",
+      "person_id": "e1c0bc96-2d4b-5e13-a131-d4bec64fa6d3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harvey S Sussman row is a high-confidence match to an official Army record dated 1943-02-09.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and an exact or explicitly preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and compatible full name.",
+      "temporal_assessment": "The Army record documents entry on 1943-02-09; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 22; Box 759"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-02-09; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b931",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-harvey-s-sussman-row22-b931",
+      "person_id": "e1c0bc96-2d4b-5e13-a131-d4bec64fa6d3",
+      "affiliation_key": "harvey-s-sussman-occupation-b931",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-09, Harvey S Sussman was recorded in the historical occupation category Managers and officials, not elsewhere classified; no employer or workplace is identified.",
+      "evidence_excerpt": "Managers and officials, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 097, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical occupation language is preserved and is not converted into a company, workplace or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Army entry 1943-02-09; civilian-occupation code 097; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b931",
+          "locator_override": "PDF physical page 171; historical category 0-97"
+        }
+      ]
+    },
+    {
+      "key": "conflict-sang-p-surh-army-b931",
+      "person_id": "1a4c02a6-5f44-5ebd-9661-a3f511e2cbb3",
+      "claim_type": "identity",
+      "claim_text": "An Army record names Sang P Surh and agrees with the index, but its protected identifier is also printed for a different indexed person; the identity bridge remains conflicting.",
+      "evidence_paraphrase": "The Army name agrees, but the same protected identifier appears in the index for Sang P Surh and Charles M Joe.",
+      "identity_match_assessment": "Conflicting. Name agreement cannot overcome the shared-identifier collision between two differently named source rows.",
+      "temporal_assessment": "The Army record is dated 1945-02-15, but neither identity nor the occupation field is accepted while the conflict remains unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The identifier is not reproduced. Both people remain separate and require joint file and original-index review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 18 and separate Charles M Joe row; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Conflicting reviewed candidate; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "conflict-stanley-sussman-army-b931",
+      "person_id": "0661f296-5917-572d-abc3-c2673294b974",
+      "claim_type": "identity",
+      "claim_text": "Stanley Sussman's nonshared protected identifier points to an Army row whose damaged name does not agree; the identity and occupation remain unassigned.",
+      "evidence_paraphrase": "The protected value agrees, but the Army name field is damaged and cannot be reconciled safely with Stanley Sussman from the accessible record.",
+      "identity_match_assessment": "Conflicting. A protected-identifier agreement is strong, but the substantive name-field damage requires manual source review before acceptance.",
+      "temporal_assessment": "The candidate is dated 1942-09-20. No occupation or employer is published from the unresolved row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The protected identifier and damaged raw name are not exposed. Box 759 and original bulk-record review are required.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 23; Box 759; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b931",
+          "locator_override": "Conflicting name-field candidate dated 1942-09-20; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-konthi-suphamonkol-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Konthi Suphamonkol is a high-confidence match to Thai diplomat Konthi Suphamongkhon.",
+      "evidence_excerpt": "His own involvement in the Free Thai Movement",
+      "evidence_paraphrase": "The Siam Society review uses the indexed surname spelling and describes his Foreign Ministry and Free Thai experience; the UN statement supplies the corresponding alternate spelling and dated career.",
+      "identity_match_assessment": "High confidence from the exceptionally distinctive given name and near-identical surname spellings, matched profession, wartime chronology and Free Thai context across independent institutional sources.",
+      "temporal_assessment": "The sources document 1935-1944 education and assignments but do not supply an OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Suphamongkhon spelling is preserved as a documented variant rather than silently replacing the index form.",
+      "sources": [
+        {
+          "source_key": "nara-index-b931",
+          "locator_override": "PDF page 456 row 15; Box 758"
+        },
+        {
+          "source_key": "un-ilc-biographical-statement-b931",
+          "locator_override": "PDF physical and printed page 61"
+        },
+        {
+          "source_key": "siam-society-review-b931",
+          "locator_override": "PDF physical page 10, printed page 262"
+        }
+      ]
+    },
+    {
+      "key": "other-konthi-student-umps-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "affiliation_key": "konthi-umps-student-b931",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Konthi Suphamongkhon earned an LL.B. from the University of Moral and Political Sciences in 1935.",
+      "evidence_excerpt": "LL.B. University of Moral and Political Sciences",
+      "evidence_paraphrase": "The United Nations qualification statement lists the institution, role or degree and the stated year or year range.",
+      "identity_match_assessment": "High confidence from the rare-name bridge and corroborating Free Thai and diplomatic context.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment or an immediate predecessor to OSS-related activity.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as an earlier or temporally qualified affiliation only. It is not labeled immediate, and no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "un-ilc-biographical-statement-b931",
+          "locator_override": "PDF physical and printed page 61; visually checked"
+        }
+      ]
+    },
+    {
+      "key": "other-konthi-student-paris-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "affiliation_key": "konthi-paris-student-b931",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Konthi Suphamongkhon earned a doctorate in law from the University of Paris in 1940.",
+      "evidence_excerpt": "Docteur en droit, University of Paris, 1940",
+      "evidence_paraphrase": "The United Nations qualification statement lists the institution, role or degree and the stated year or year range.",
+      "identity_match_assessment": "High confidence from the rare-name bridge and corroborating Free Thai and diplomatic context.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment or an immediate predecessor to OSS-related activity.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as an earlier or temporally qualified affiliation only. It is not labeled immediate, and no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "un-ilc-biographical-statement-b931",
+          "locator_override": "PDF physical and printed page 61; visually checked"
+        }
+      ]
+    },
+    {
+      "key": "other-konthi-foreign-ministry-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "affiliation_key": "konthi-foreign-ministry-1940-b931",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Konthi Suphamongkhon served as Chief of Section in the Political Division of Siam's Ministry of Foreign Affairs from 1940 to 1942.",
+      "evidence_excerpt": "Chief of Section, Political Division",
+      "evidence_paraphrase": "The United Nations qualification statement lists the institution, role or degree and the stated year or year range.",
+      "identity_match_assessment": "High confidence from the rare-name bridge and corroborating Free Thai and diplomatic context.",
+      "temporal_assessment": "Documented prewar government assignment; the reviewed sources do not establish an exact OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as an earlier or temporally qualified affiliation only. It is not labeled immediate, and no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "un-ilc-biographical-statement-b931",
+          "locator_override": "PDF physical and printed page 61; visually checked"
+        }
+      ]
+    },
+    {
+      "key": "other-konthi-tokyo-embassy-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "affiliation_key": "konthi-tokyo-embassy-b931",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Konthi Suphamongkhon served as Second Secretary at the Embassy of Thailand in Tokyo from 1942 to 1944.",
+      "evidence_excerpt": "Second Secretary, Embassy of Thailand, Tokyo",
+      "evidence_paraphrase": "The United Nations qualification statement lists the institution, role or degree and the stated year or year range.",
+      "identity_match_assessment": "High confidence from the rare-name bridge and corroborating Free Thai and diplomatic context.",
+      "temporal_assessment": "Documented wartime assignment with uncertain sequence or overlap relative to Free Thai and OSS-related activity.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as an earlier or temporally qualified affiliation only. It is not labeled immediate, and no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "un-ilc-biographical-statement-b931",
+          "locator_override": "PDF physical and printed page 61; visually checked"
+        }
+      ]
+    },
+    {
+      "key": "other-konthi-lecturer-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "affiliation_key": "konthi-umps-lecturer-b931",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Konthi Suphamongkhon held a part-time public-finance lectureship at the University of Moral and Political Sciences in 1944.",
+      "evidence_excerpt": "Lecturer on public finance",
+      "evidence_paraphrase": "The United Nations qualification statement lists the institution, role or degree and the stated year or year range.",
+      "identity_match_assessment": "High confidence from the rare-name bridge and corroborating Free Thai and diplomatic context.",
+      "temporal_assessment": "Documented 1944 employment; its exact sequence relative to OSS-related activity remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as an earlier or temporally qualified affiliation only. It is not labeled immediate, and no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "un-ilc-biographical-statement-b931",
+          "locator_override": "PDF physical and printed page 61; visually checked"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4daa22b0-e89a-584f-9fdd-d6f0844ce444",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Erwin Summers, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name searches produced no source tying an Erwin Summers namesake to OSS or Box 758.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a15173f-ca36-5c22-b8cd-71478bb2ee3e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edna J Sumner, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and occupation searches produced no corroborated identity bridge for Edna J Sumner.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4cdd937a-61a3-5c56-9d6f-35351acc2f81",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies H Y Sun, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The abbreviated indexed name is insufficient to distinguish H Y Sun from numerous namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b1f9485b-168d-5690-adeb-05394faba3dd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jane Sunderland, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Common-name and institutional results did not provide two corroborating identifiers for Jane Sunderland.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "49316a03-2fd8-5f57-a31f-eec022045a15",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jeanne M Sunderland, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches found no OSS or Box 758 bridge for Jeanne M Sunderland.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af893820-db8e-5698-8228-4f385cce5203",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ragnor N Sundstrom, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Ragnor, Ragnar and Sundstrom variants produced no defensible person-specific OSS or employment source.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b2fb9b93-9d75-5200-93c9-a6e034e5a076",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward S Sununu, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A genealogical namesake lead lacked OSS, identifier and Box 758 evidence and was rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "96b42951-d1f0-551c-8efb-ba2d5c28c4f6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joan Supple, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and institutional searches produced only unrelated or modern namesakes for Joan Supple.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f4b84e9-9d41-564d-adc6-d1f6e015496a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dorothy E Suratt, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, obituary and archival searches found no person-specific bridge for Dorothy E Suratt.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3bad49d2-d74d-5ddf-95cd-b5d687259a50",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harold A Surle, Box 759 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The printed identifier has no accepted Army bulk match, and exact-name searches did not establish the Box 759 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 759 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "afe4fe93-57d8-55aa-af8d-9e11aeeee672",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Julian C Suso, Box 759 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The printed SI note is preserved but not expanded or treated as identity evidence; searches produced modern namesakes only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 759 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ea50bf7f-1db6-5a7c-a3d4-d995fa57cb38",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 758 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Homer B Summers Jr"
+      ]
+    },
+    {
+      "person_id": "2df6b26f-bc5c-5425-b7eb-6eea2867abbd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 758 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "James W Summers"
+      ]
+    },
+    {
+      "person_id": "35f0de37-8be4-52a9-897a-31b605d67dcc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 758 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "30736fc0-734c-5937-9365-8f8e5bd4d109",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 758 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2ccc5346-c6be-5483-902c-76e746d56d9a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 758 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "997be5df-41cb-5785-9204-6f44face8b6e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 759 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e1c0bc96-2d4b-5e13-a131-d4bec64fa6d3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact or compatible full name and nonshared protected identifier connect the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 759 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d3903566-15af-5cb0-b5ab-12173aa55d82",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Two separately printed John W Summers rows share Box 758, but only the second has a protected identifier. Name and adjacency alone cannot establish duplication.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 758 John W Summers files together for identifiers, cross-references and duplicate-file evidence before merging or assigning any common-name biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "24185e77-5429-5e4d-8907-df02b0f59e79"
+    },
+    {
+      "person_id": "865a5f77-6cd7-53cd-8dbc-13d3f250c0d7",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Two separately printed John W Summers rows share Box 758, but only this row has a protected identifier. No accepted external match establishes whether they are duplicates.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 758 John W Summers files together for identifiers, cross-references and duplicate-file evidence before merging or assigning any common-name biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "24185e77-5429-5e4d-8907-df02b0f59e79"
+    },
+    {
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exceptionally distinctive indexed Konthi Suphamonkol aligns with Konthi Suphamongkhon through near-identical spellings, a dated official diplomatic biography and an independent Siam Society review describing his Foreign Ministry and Free Thai experience.",
+      "name_variants": [
+        "Konthi Suphamongkhon",
+        "Konthi Souphamongkon",
+        "Konthī Suphamongkhon"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 and the Thai-language memoir to establish the exact Free Thai/OSS chronology and determine which documented assignment, if any, immediately preceded the indexed relationship.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a4c02a6-5f44-5ebd-9661-a3f511e2cbb3",
+      "identity_status": "conflicting",
+      "identity_evidence": "An official Army row prints the exact Sang P Surh name, but the protected identifier is shared by a separate index row named Charles M Joe. The Army identity and occupation are not accepted while the collision remains unresolved.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review both personnel files and the original index and Army source records together; do not assign the Army occupation to either person until the shared-identifier conflict is resolved.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0661f296-5917-572d-abc3-c2673294b974",
+      "identity_status": "conflicting",
+      "identity_evidence": "A nonshared protected identifier points to an official Army row, but that row's name field is substantively damaged and does not safely resolve to Stanley Sussman. The identity and occupation remain unaccepted.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 759 and the original Army bulk record before accepting the identity or interpreting occupation code 992.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page456-row1-erwin-summers-b931",
+      "person_id": "4daa22b0-e89a-584f-9fdd-d6f0844ce444",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Erwin Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Exact-name searches produced no source tying an Erwin Summers namesake to OSS or Box 758. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row2-homer-b-summers-b931",
+      "person_id": "ea50bf7f-1db6-5a7c-a3d4-d995fa57cb38",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Homer B Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row3-james-summers-b931",
+      "person_id": "2df6b26f-bc5c-5425-b7eb-6eea2867abbd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row4-john-w-summers-b931",
+      "person_id": "d3903566-15af-5cb0-b5ab-12173aa55d82",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Two separately printed John W Summers rows remain distinct because only one carries an identifier and no source proves duplication. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row5-john-w-summers-b931",
+      "person_id": "865a5f77-6cd7-53cd-8dbc-13d3f250c0d7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Two separately printed John W Summers rows remain distinct because only one carries an identifier and no source proves duplication. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row6-john-b-summers-b931",
+      "person_id": "35f0de37-8be4-52a9-897a-31b605d67dcc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John B Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row7-edna-j-sumner-b931",
+      "person_id": "2a15173f-ca36-5c22-b8cd-71478bb2ee3e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edna J Sumner; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Exact-name and occupation searches produced no corroborated identity bridge for Edna J Sumner. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row8-h-y-sun-b931",
+      "person_id": "4cdd937a-61a3-5c56-9d6f-35351acc2f81",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "H Y Sun; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "The abbreviated indexed name is insufficient to distinguish H Y Sun from numerous namesakes. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row9-robert-g-sunday-b931",
+      "person_id": "30736fc0-734c-5937-9365-8f8e5bd4d109",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert G Sunday; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row10-john-sunde-b931",
+      "person_id": "2ccc5346-c6be-5483-902c-76e746d56d9a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Sunde; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row11-jane-sunderland-b931",
+      "person_id": "b1f9485b-168d-5690-adeb-05394faba3dd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jane Sunderland; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Common-name and institutional results did not provide two corroborating identifiers for Jane Sunderland. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row12-jeanne-m-sunderland-b931",
+      "person_id": "49316a03-2fd8-5f57-a31f-eec022045a15",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jeanne M Sunderland; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Exact-name and spelling-variant searches found no OSS or Box 758 bridge for Jeanne M Sunderland. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row13-ragnor-n-sundstrom-b931",
+      "person_id": "af893820-db8e-5698-8228-4f385cce5203",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ragnor N Sundstrom; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Ragnor, Ragnar and Sundstrom variants produced no defensible person-specific OSS or employment source. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row14-edward-s-sununu-b931",
+      "person_id": "b2fb9b93-9d75-5200-93c9-a6e034e5a076",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward S Sununu; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A genealogical namesake lead lacked OSS, identifier and Box 758 evidence and was rejected. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row15-konthi-suphamonkol-b931",
+      "person_id": "4b65b46a-0828-5e7a-ba12-68b42aeb27b5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Konthi Suphamonkol; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "An official UN biographical statement and independent Siam Society review establish a high-confidence identity, two educational affiliations, Foreign Ministry and Tokyo embassy assignments, and a 1944 part-time lectureship; the immediate OSS chronology remains unresolved. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row16-joan-supple-b931",
+      "person_id": "96b42951-d1f0-551c-8efb-ba2d5c28c4f6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joan Supple; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Exact-name and institutional searches produced only unrelated or modern namesakes for Joan Supple. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row17-dorothy-e-suratt-b931",
+      "person_id": "3f4b84e9-9d41-564d-adc6-d1f6e015496a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dorothy E Suratt; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "Exact-name, obituary and archival searches found no person-specific bridge for Dorothy E Suratt. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row18-sang-p-surh-b931",
+      "person_id": "1a4c02a6-5f44-5ebd-9661-a3f511e2cbb3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sang P Surh; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "The Army name agrees, but the protected identifier is shared with Charles M Joe; the candidate and occupation remain conflicting. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row19-harold-a-surle-b931",
+      "person_id": "3bad49d2-d74d-5ddf-95cd-b5d687259a50",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold A Surle; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 759; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "The printed identifier has no accepted Army bulk match, and exact-name searches did not establish the Box 759 person. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 759 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row20-julian-c-suso-b931",
+      "person_id": "afe4fe93-57d8-55aa-af8d-9e11aeeee672",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Julian C Suso; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 759; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "The printed SI note is preserved but not expanded or treated as identity evidence; searches produced modern namesakes only. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 759 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row21-carl-l-sussman-b931",
+      "person_id": "997be5df-41cb-5785-9204-6f44face8b6e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl L Sussman; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 759; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 759 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row22-harvey-s-sussman-b931",
+      "person_id": "e1c0bc96-2d4b-5e13-a131-d4bec64fa6d3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harvey S Sussman; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 759; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "A nonshared protected identifier and compatible name support a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 759 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    },
+    {
+      "key": "page456-row23-stanley-sussman-b931",
+      "person_id": "0661f296-5917-572d-abc3-c2673294b974",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stanley Sussman; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 759; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_931",
+      "started_at": "2026-10-28T00:55:00Z",
+      "completed_at": "2026-10-28T01:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks returned no person-specific pre-OSS result; Library of Congress checks added only a postwar Konthi spelling lead and unrelated namesakes.",
+      "research_notes": "The protected identifier is nonshared, but substantive name-field damage prevents acceptance of the Army identity or occupation. The index, UN biography, Siam Society review and relevant Army code-list pages were visually checked where applicable. The 1943 Official Register contains no exact-name Batch 931 hit. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 759 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b931-v1"
+    }
+  ]
+}
