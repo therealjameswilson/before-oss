@@ -1,5 +1,50 @@
 # Research status
 
+Batch 950 completed PDF page 465, rows 24-46, from **Lewis V Thomas**
+through **Allen J Thompson**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes. Lorres C Thomas is confirmed as Lorres
+Charles Thomas by exact agreement between two official records; his West Point
+cadet status and Corps of Engineers commission are published separately as
+student and military relationships, not employers, and remain temporally
+uncertain relative to OSS service. Paul P Thomle is confirmed by the official
+Wisconsin Army casualty list, but no employer or OSS sequence is inferred.
+
+Rudolph Thomas, Wilfred Thomas and Harvey W Thomasson have high-confidence
+Army identity bridges and qualified dated occupation categories without named
+employers or workplaces. Otaway M Thomas and Stefan A Thomasson retain
+unassigned namesake leads. The remaining common-name cases carry explicit Box
+773 or 774 archival-review outcomes. No authenticated NARA Catalog API request
+was used, and no protected identifier appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,790/23,936 (61.7898%)**;
+verified-employer coverage is **471/23,936 (1.9677%)**;
+verified-affiliation coverage is **1,050/23,936 (4.3867%)**; archival-review
+coverage is **13,265/23,936 (55.4186%)**. There are **9,141** not-started
+people, **648** possible-duplicate groups and **512** conflicts. Claim
+confidence counts are **1,662 confirmed**, **4,875 high**, **2,229 medium**,
+**252 low**, **428 conflicting** and **2 unresolved**. The public projection
+contains **3,514** affiliations, **1,209** organizations, **6,028** sources and
+**9,190** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 466, row
+1, **Austin H Thompson**, in Box 774. See `research/batch-950-progress.md` for
+the source-by-source audit.
+
+Batch 950 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 581 files
+with zero errors, warnings or hints and builds 25,194 static pages. The 18/18
+Batch 950 browser matrix and full 87/87 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. The immutable
+content commit, GitHub Actions results and unauthenticated deployed-release
+verification will be added after publication. Batches 947-949 are already
+public and retain their individual progress and release ledgers under
+`research/` and `reports/`.
+
 Batch 946 completed PDF page 463, rows 24-46, from **Henry W. Terrett**
 through **Erika Teutsch**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes. The Walter L. Terrell/Terrill, two John

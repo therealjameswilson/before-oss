@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T10:52:10+00:00",
+  "generated_at": "2026-10-28T11:34:18+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -49,9 +49,9 @@
     "needs_identity_review": 11,
     "needs_temporal_review": 1,
     "no_reliable_result_after_protocol": 12,
-    "not_started": 55,
+    "not_started": 53,
     "occupation_only_found": 8,
-    "requires_archival_review": 66,
+    "requires_archival_review": 68,
     "verified_employer_found": 10
   },
   "special_strata_counts": {
