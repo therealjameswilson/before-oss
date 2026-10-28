@@ -40,8 +40,11 @@ builds 25,185 static pages. The 30/30 Batch 940 browser matrix and full 99/99
 bounded browser and accessibility release suite pass, as do the complete
 internal-link check, protected-identifier audit, checked-in public manifest,
 zero-vulnerability production dependency audit and two deterministic
-consecutive builds. Publication is not claimed until the immutable public
-release is verified; see `reports/release_batch_940.md`.
+consecutive builds. The release is public from immutable content commit
+`6544ee35a30dddd6b822ee99746f9068859cc880`. GitHub Actions Test run
+`40641226390` and Pages run `40641226634` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 40 source-register pages and all 23
+directly affected profiles; see `reports/release_batch_940.md`.
 
 Batch 939 completed PDF page 460, rows 1-23, from **Will S. Talbot** through
 **Yasuo Tanaka**, preserving all 23 printed rows as separate people with saved
