@@ -1,0 +1,1557 @@
+{
+  "bundle_version": "batch-944-v1",
+  "reviewer": "Before OSS Batch 944 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b944",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 767-768",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 462, rows 24-46; checked against layout-preserving text and a 300 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full protected identifiers remain private. Kenneth S. Templeton on page 463 row 1 was checked as the next boundary."
+    },
+    {
+      "key": "army-bulk-b944",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven reviewed Batch 944 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Six exact-name identities were accepted. The William J. Techtmann candidate conflicts with the Army name and transfers no fields."
+    },
+    {
+      "key": "army-tech-b944",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b944",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 172-174 and 304; reviewed historical categories 3-06, 4-01, 7-36, 9-57 and 9-92",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The four relevant pages were rendered at 220 dpi and visually inspected. Historical occupation labels identify neither employers nor workplaces."
+    },
+    {
+      "key": "slovenska-biografija-tchok-b944",
+      "stable_url": "https://www.slovenska-biografija.si/oseba/sbi1006590/",
+      "archival_identifier": "Slovenska biografija record sbi1006590",
+      "title": "Čok, Ivan Marija (1886-1948)",
+      "author_creator": "Jurij Perovšek; Boris Sancin; Albert Rejec",
+      "repository_publisher": "Slovenska akademija znanosti in umetnosti and ZRC SAZU",
+      "publication_record_date": "2018; last revised 2018-07-28",
+      "locator": "Names and occupations; Novi Slovenski biografski leksikon; Primorski slovenski biografski leksikon",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Slovenska biografija",
+      "rights_notes": "The institutional record explicitly gives Ivan M. Tchok as a name form, documents his legal practice and emigrant-association leadership, and cites a scholarly article about his OSS employment."
+    },
+    {
+      "key": "stanford-journalism-teilhet-b944",
+      "stable_url": "https://journalism.stanford.edu/125-years-journalism/1940s-better-defining-journalism-studies",
+      "title": "The 1940s: Better defining journalism studies",
+      "author_creator": "Stanford Journalism Program",
+      "repository_publisher": "Stanford University",
+      "locator": "Teaching section, faculty who taught in the 1940s",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "125 Years of Journalism",
+      "rights_notes": "The institutional history lists Darwin L. Teilhet for 1941-1942 and the course Procedures in Advertising. It does not establish the date or mechanism of his transition into OSS."
+    },
+    {
+      "key": "ebsco-teilhet-b944",
+      "stable_url": "https://www.ebsco.com/research-starters/history/darwin-l-teilhet",
+      "title": "Darwin L. Teilhet",
+      "repository_publisher": "EBSCO",
+      "locator": "Biography section",
+      "access_date": "2026-10-28",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "EBSCO Research Starters",
+      "rights_notes": "The biography gives the full name Darwin LeOra Teilhet, documents his Stanford teaching and states that he served as a wartime intelligence officer. Stanford supplies the direct employment evidence."
+    },
+    {
+      "key": "ohio-state-trustees-telberg-1938-b944",
+      "stable_url": "https://trustees.osu.edu/sites/default/files/documents/2018/12/1937-38.pdf",
+      "archival_identifier": "Ohio State University Board of Trustees record of proceedings, 1937-1938",
+      "title": "Record of Proceedings of the Board of Trustees of the Ohio State University, 1937-1938",
+      "author_creator": "Board of Trustees of the Ohio State University",
+      "repository_publisher": "The Ohio State University",
+      "publication_record_date": "1938-01-21",
+      "locator": "PDF page numbered 165; College of Commerce and Administration, Sociology",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Ohio State University Board of Trustees records",
+      "rights_notes": "The official record identifies Ina Telberg as a Sociology graduate assistant for the winter quarter. It is direct employment evidence but does not prove immediate pre-OSS chronology."
+    },
+    {
+      "key": "nz-listener-telberg-1949-b944",
+      "stable_url": "https://paperspast.natlib.govt.nz/periodicals/NZLIST19490909.2.13",
+      "archival_identifier": "New Zealand Listener, 9 September 1949, item NZLIST19490909.2.13",
+      "title": "They Don't Do It Our Way",
+      "author_creator": "Ina Telberg",
+      "repository_publisher": "New Zealand Listener; National Library of New Zealand Papers Past",
+      "publication_record_date": "1949-09-09",
+      "locator": "Author introduction preceding the article",
+      "access_date": "2026-10-28",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Papers Past: New Zealand Listener",
+      "rights_notes": "The contemporary introduction identifies Telberg as a former Ohio State sociology and anthropology instructor and states that she served with OSS in Washington and India."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "self-employed-legal-practice-b944",
+      "organization_id": "b38d4d4f-f70c-5ab9-b3ac-59a5e9892f1f",
+      "canonical_name": "Self-employed legal practice",
+      "historical_name": "private law practice",
+      "aliases": [
+        "private practice",
+        "self-employed attorney"
+      ],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "normalization_notes": "Existing canonical organization reused. No law firm is named in the reviewed source."
+    },
+    {
+      "key": "zveza-jugoslovanskih-emigrantov-b944",
+      "canonical_name": "Zveza jugoslovanskih emigrantov iz Julijske krajine",
+      "historical_name": "Zveza jugoslovanskih emigrantov iz Julijske krajine",
+      "aliases": [],
+      "organization_type": "emigrant association",
+      "sector": "labor_nonprofit_and_religion",
+      "country": "Yugoslavia",
+      "active_dates": "1931-1940 under Ivan M. Čok's documented presidency",
+      "normalization_notes": "Historical Slovenian name retained; no modern successor or English legal name is substituted."
+    },
+    {
+      "key": "stanford-university-b944",
+      "organization_id": "63b7b9f4-ee2a-51b3-b83a-d483901bdc38",
+      "canonical_name": "Stanford University",
+      "historical_name": "Stanford University",
+      "aliases": [],
+      "organization_type": "private university",
+      "sector": "academia_and_research",
+      "city": "Stanford",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; the Journalism Program supplies the historical teaching record."
+    },
+    {
+      "key": "ohio-state-university-b944",
+      "organization_id": "de52c90c-62bc-532e-a99e-a7d9ca019c09",
+      "canonical_name": "The Ohio State University",
+      "historical_name": "Ohio State University",
+      "aliases": [
+        "Ohio State University"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; the historical source omits the initial article in the modern name."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "clyde-v-teasdale-occupation-b944",
+      "person_id": "7322ca21-e1d6-5ca4-9142-8d1755af7ff7",
+      "occupation": "general farmer",
+      "relationship_type": "employment",
+      "end_date": "1942-04-30",
+      "date_precision": "Historical civilian-occupation code 306 was recorded at Army entry on 1942-04-30; no employer, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "william-s-teeter-occupation-b944",
+      "person_id": "8aeb5ab3-cd07-51d1-90a4-0da6cea7597d",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-03-17",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-03-17; no employer, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "rennie-l-tellia-occupation-b944",
+      "person_id": "b50fd8ff-b5d6-5ecf-bbca-e0fa69bf9bd6",
+      "occupation": "chauffeur or driver in the broad historical bus, taxi, truck and tractor category",
+      "relationship_type": "employment",
+      "end_date": "1942-07-08",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1942-07-08; no employer, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "dominic-l-telloni-occupation-b944",
+      "person_id": "685f819e-75d4-5aee-a4a2-65ca0b42b999",
+      "occupation": "laundering, cleaning, dyeing or pressing occupation in the broad historical category",
+      "relationship_type": "employment",
+      "end_date": "1943-04-19",
+      "date_precision": "Historical civilian-occupation code 957 was recorded at Army entry on 1943-04-19; no employer, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "joseph-g-temolo-occupation-b944",
+      "person_id": "f3300ed3-b2fa-5d76-a9cc-e5441bb52d92",
+      "occupation": "baker",
+      "relationship_type": "employment",
+      "end_date": "1943-05-14",
+      "date_precision": "Historical civilian-occupation code 401 was recorded at Army entry on 1943-05-14; no employer, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "george-h-temple-occupation-b944",
+      "person_id": "d391a6b2-3902-57ba-a702-a5c8a8ae87cc",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-06-09",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-06-09; no employer, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "ivan-tchok-legal-practice-b944",
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "organization_key": "self-employed-legal-practice-b944",
+      "organization_name_as_found": "advokatura v Trstu",
+      "role_title": "attorney in private practice",
+      "occupation": "attorney",
+      "relationship_type": "self_employment",
+      "start_date": "1911",
+      "end_date": "1928",
+      "date_precision": "The biography says Tchok entered legal practice after his 1911 doctorate and could no longer practice after the 1928 prosecution; it does not name a firm.",
+      "city": "Trieste",
+      "country": "Italy",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "An earlier documented occupation and self-employment relationship, not the immediate predecessor to OSS."
+    },
+    {
+      "key": "ivan-tchok-zveza-b944",
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "organization_key": "zveza-jugoslovanskih-emigrantov-b944",
+      "organization_name_as_found": "Zveza jugoslovanskih emigrantov iz Julijske krajine",
+      "role_title": "president",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1931",
+      "end_date": "1940",
+      "date_precision": "The institutional biography gives his presidency from the association's 1931 formation until its dissolution by the Yugoslav government in 1940.",
+      "country": "Yugoslavia",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Documented political and emigrant-association leadership; it is not labeled employment or the immediate OSS predecessor."
+    },
+    {
+      "key": "darwin-teilhet-stanford-b944",
+      "person_id": "bbcb261e-2496-5956-8fe8-6ec811e96fe3",
+      "organization_key": "stanford-university-b944",
+      "organization_name_as_found": "Stanford University",
+      "role_title": "journalism instructor; Procedures in Advertising",
+      "occupation": "teacher",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "Stanford's Journalism Program lists Darwin L. Teilhet among faculty who taught in 1941-1942 and associates him with Procedures in Advertising.",
+      "city": "Stanford",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Close prewar teaching employment, but no reviewed source proves it was the final civilian role or explicitly links the end date to OSS entry."
+    },
+    {
+      "key": "ina-telberg-ohio-state-b944",
+      "person_id": "94a92f6d-33ad-5793-82c6-5d3544f9d8a8",
+      "organization_key": "ohio-state-university-b944",
+      "organization_name_as_found": "Ohio State University",
+      "role_title": "graduate assistant; later described as instructor in sociology and anthropology",
+      "occupation": "sociology teaching and research",
+      "relationship_type": "employment",
+      "start_date": "1938",
+      "end_date": "1938",
+      "date_precision": "The trustees' record identifies a winter-quarter 1938 graduate assistant appointment; a 1949 contemporary introduction describes her as a former instructor.",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Direct prewar university employment. The five-year gap before her reported 1943 OSS service prevents an immediate or last-employer designation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-clyde-v-teasdale-b944",
+      "person_id": "7322ca21-e1d6-5ca4-9142-8d1755af7ff7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clyde V Teasdale row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-clyde-v-teasdale-b944",
+      "person_id": "7322ca21-e1d6-5ca4-9142-8d1755af7ff7",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-30, Clyde V Teasdale was recorded in the historical general farmer category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 306, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 306; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b944",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b944",
+          "locator_override": "PDF physical page 172; historical category 3-06",
+          "excerpt_override": "General farmers"
+        }
+      ],
+      "affiliation_key": "clyde-v-teasdale-occupation-b944"
+    },
+    {
+      "key": "identity-william-s-teeter-b944",
+      "person_id": "8aeb5ab3-cd07-51d1-90a4-0da6cea7597d",
+      "claim_type": "identity",
+      "claim_text": "The indexed William S Teeter row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 30; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-s-teeter-b944",
+      "person_id": "8aeb5ab3-cd07-51d1-90a4-0da6cea7597d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-17, William S Teeter was recorded in the historical student category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b944",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b944",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "william-s-teeter-occupation-b944"
+    },
+    {
+      "key": "identity-rennie-l-tellia-b944",
+      "person_id": "b50fd8ff-b5d6-5ecf-bbca-e0fa69bf9bd6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rennie L Tellia row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 40; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rennie-l-tellia-b944",
+      "person_id": "b50fd8ff-b5d6-5ecf-bbca-e0fa69bf9bd6",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-08, Rennie L Tellia was recorded in the historical chauffeur or driver in the broad historical bus, taxi, truck and tractor category category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b944",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b944",
+          "locator_override": "PDF physical page 174; historical category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ],
+      "affiliation_key": "rennie-l-tellia-occupation-b944"
+    },
+    {
+      "key": "identity-dominic-l-telloni-b944",
+      "person_id": "685f819e-75d4-5aee-a4a2-65ca0b42b999",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dominic L Telloni row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 41; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dominic-l-telloni-b944",
+      "person_id": "685f819e-75d4-5aee-a4a2-65ca0b42b999",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-19, Dominic L Telloni was recorded in the historical laundering, cleaning, dyeing or pressing occupation in the broad historical category category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 957, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 957; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b944",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b944",
+          "locator_override": "PDF physical page 174; historical category 9-57",
+          "excerpt_override": "Occupations in laundering, cleaning, dyeing, and pressing apparel and other articles"
+        }
+      ],
+      "affiliation_key": "dominic-l-telloni-occupation-b944"
+    },
+    {
+      "key": "identity-joseph-g-temolo-b944",
+      "person_id": "f3300ed3-b2fa-5d76-a9cc-e5441bb52d92",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph G Temolo row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 42; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-g-temolo-b944",
+      "person_id": "f3300ed3-b2fa-5d76-a9cc-e5441bb52d92",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-14, Joseph G Temolo was recorded in the historical baker category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 401, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 401; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b944",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b944",
+          "locator_override": "PDF physical page 173; historical category 4-01",
+          "excerpt_override": "Bakers"
+        }
+      ],
+      "affiliation_key": "joseph-g-temolo-occupation-b944"
+    },
+    {
+      "key": "identity-george-h-temple-b944",
+      "person_id": "d391a6b2-3902-57ba-a702-a5c8a8ae87cc",
+      "claim_type": "identity",
+      "claim_text": "The indexed George H Temple row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from the private protected-identifier bridge and exact full-name agreement.",
+      "temporal_assessment": "The record supports identity and a dated occupation or student-status category but does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer, workplace or school is inferred from the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 44; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-h-temple-b944",
+      "person_id": "d391a6b2-3902-57ba-a702-a5c8a8ae87cc",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-09, George H Temple was recorded in the historical student category; no employer or institution is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer or school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains a qualified occupation or status lead, not an employer, workplace, institution or exact modern title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b944",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b944",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b944",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "george-h-temple-occupation-b944"
+    },
+    {
+      "key": "conflict-william-j-techtmann-army-b944",
+      "person_id": "8754b271-e59d-5411-ab7d-3584f0aa445c",
+      "claim_type": "identity",
+      "claim_text": "The indexed William J. Techtmann row is not assigned to the reviewed Robert J. Mertes Army record despite the private identifier collision.",
+      "evidence_paraphrase": "The protected identifier points to an Army record with a completely different surname and first name, so no Army field is transferred.",
+      "identity_match_assessment": "Conflicting: the private identifier agrees but the full name materially disagrees.",
+      "temporal_assessment": "No Army occupation, grade or affiliation is transferred until the Box 768 file and source records resolve the collision.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflict remains visible and is not silently corrected, rejected or used as biographical evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 28; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b944",
+          "support_type": "contradicts",
+          "locator_override": "Reviewed candidate prints Robert J Mertes; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-ivan-m-tchok-b944",
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Ivan M. Tchok is a high-confidence match to Slovenian attorney and political organizer Ivan Marija Čok.",
+      "evidence_paraphrase": "The institutional biographical record explicitly gives Ivan M. Tchok as a name form and cites scholarship on his OSS employment.",
+      "identity_match_assessment": "High confidence from the rare exact indexed name form, full-name expansion, matching wartime context and explicit OSS-employment bibliography.",
+      "temporal_assessment": "The biography documents prewar work and wartime movements but does not specify the precise OSS entry date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The original indexed spelling remains primary; Ivan Marija Čok and Miček are preserved as documented variants.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 24"
+        },
+        {
+          "source_key": "slovenska-biografija-tchok-b944",
+          "locator_override": "Names; bibliography",
+          "excerpt_override": "Ivan M. Tchok"
+        }
+      ]
+    },
+    {
+      "key": "prewar-ivan-tchok-legal-b944",
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ivan Marija Čok practiced law privately in Trieste from after his 1911 doctorate until fascist repression prevented continued practice in 1928.",
+      "evidence_paraphrase": "The institutional biography states that he entered legal practice after completing his doctorate and later could no longer practice after the 1928 case.",
+      "identity_match_assessment": "High-confidence identity from the exact Tchok name form and rare biographical alignment.",
+      "temporal_assessment": "Documented earlier prewar self-employment; not shown to be the immediate or last civilian role before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No firm is named, so the relationship is normalized only as self-employed legal practice.",
+      "sources": [
+        {
+          "source_key": "slovenska-biografija-tchok-b944",
+          "locator_override": "Novi and Primorski biographical entries",
+          "excerpt_override": "Po promociji se je posvetil advokaturi v Trstu"
+        }
+      ],
+      "affiliation_key": "ivan-tchok-legal-practice-b944"
+    },
+    {
+      "key": "prewar-ivan-tchok-zveza-b944",
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ivan Marija Čok led the Zveza jugoslovanskih emigrantov iz Julijske krajine from 1931 until its dissolution in 1940.",
+      "evidence_paraphrase": "The institutional biography documents his election as president at the association's formation and his continued leadership until 1940.",
+      "identity_match_assessment": "High-confidence identity from the exact Tchok alias and detailed chronology.",
+      "temporal_assessment": "Documented prewar professional and political affiliation; not proven to be employment or the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The historical Slovenian organization name is preserved without substituting a modern successor.",
+      "sources": [
+        {
+          "source_key": "slovenska-biografija-tchok-b944",
+          "locator_override": "Summary and Primorski biographical entry",
+          "excerpt_override": "V tridesetih letih 20. stoletja je vodil Zvezo jugoslovanskih emigrantov iz Julijske krajine."
+        }
+      ],
+      "affiliation_key": "ivan-tchok-zveza-b944"
+    },
+    {
+      "key": "identity-darwin-l-teilhet-b944",
+      "person_id": "bbcb261e-2496-5956-8fe8-6ec811e96fe3",
+      "claim_type": "identity",
+      "claim_text": "Indexed Darwin L. Teilhet is a high-confidence match to writer, Stanford instructor and wartime intelligence officer Darwin LeOra Teilhet.",
+      "evidence_paraphrase": "The distinctive exact indexed name is supported by Stanford's 1941-1942 teaching record and a scholarly biography documenting his wartime intelligence service.",
+      "identity_match_assessment": "High confidence from the rare exact full name, matching prewar Stanford record and wartime intelligence chronology.",
+      "temporal_assessment": "The sources establish prewar teaching and wartime intelligence service but do not state the exact OSS entry date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Darwin LeOra Teilhet is preserved as a documented full-name variant. No unverified military rank is assigned.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 34"
+        },
+        {
+          "source_key": "stanford-journalism-teilhet-b944",
+          "locator_override": "Teaching section"
+        },
+        {
+          "source_key": "ebsco-teilhet-b944",
+          "locator_override": "Biography section"
+        }
+      ]
+    },
+    {
+      "key": "prewar-darwin-teilhet-stanford-b944",
+      "person_id": "bbcb261e-2496-5956-8fe8-6ec811e96fe3",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Darwin L. Teilhet taught Procedures in Advertising at Stanford University during 1941-1942.",
+      "evidence_paraphrase": "Stanford's Journalism Program lists him among faculty who taught in the 1940s and supplies the dates and course title.",
+      "identity_match_assessment": "High-confidence identity from the distinctive exact name and mutually reinforcing wartime biography.",
+      "temporal_assessment": "Documented close prewar employment; not proven to be the final civilian employer or immediate OSS predecessor.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Stanford is published as documented employment, while chronology beyond the stated academic years remains qualified.",
+      "sources": [
+        {
+          "source_key": "stanford-journalism-teilhet-b944",
+          "locator_override": "Teaching section",
+          "excerpt_override": "Darwin L. Teilhet, 1941-1942, Procedures in Advertising"
+        },
+        {
+          "source_key": "ebsco-teilhet-b944",
+          "support_type": "context_only",
+          "locator_override": "Biography section; wartime intelligence officer"
+        }
+      ],
+      "affiliation_key": "darwin-teilhet-stanford-b944"
+    },
+    {
+      "key": "identity-ina-telberg-b944",
+      "person_id": "94a92f6d-33ad-5793-82c6-5d3544f9d8a8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Ina Telberg is a high-confidence match to the Ohio State sociologist who served with OSS in Washington and India.",
+      "evidence_paraphrase": "A contemporary article introduction supplies the exact rare name, former Ohio State role and direct OSS service; the university trustees record corroborates the prewar appointment.",
+      "identity_match_assessment": "High confidence from the rare exact name, direct contemporary OSS statement and independent official university employment record.",
+      "temporal_assessment": "The sources establish 1938 university work and wartime OSS service, but not an uninterrupted chronology or immediate predecessor.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No postwar loyalty-investigation allegations or unrelated sensitive personal data are reproduced.",
+      "sources": [
+        {
+          "source_key": "nara-index-b944",
+          "locator_override": "PDF page 462 row 35"
+        },
+        {
+          "source_key": "nz-listener-telberg-1949-b944",
+          "locator_override": "Author introduction"
+        },
+        {
+          "source_key": "ohio-state-trustees-telberg-1938-b944",
+          "locator_override": "PDF page numbered 165"
+        }
+      ]
+    },
+    {
+      "key": "prewar-ina-telberg-ohio-state-b944",
+      "person_id": "94a92f6d-33ad-5793-82c6-5d3544f9d8a8",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ina Telberg held a 1938 sociology graduate-assistant appointment at Ohio State University and was later described as a former sociology and anthropology instructor there.",
+      "evidence_paraphrase": "The trustees' appointment record and a contemporary biographical introduction independently document her university role.",
+      "identity_match_assessment": "High-confidence identity from the rare exact name and explicit OSS service in the contemporary introduction.",
+      "temporal_assessment": "Documented prewar employment; the interval before reported 1943 OSS service prevents an immediate or last-employer designation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The historical source wording is preserved; no specific later university position or continuous tenure is inferred.",
+      "sources": [
+        {
+          "source_key": "ohio-state-trustees-telberg-1938-b944",
+          "locator_override": "PDF page numbered 165; Sociology",
+          "excerpt_override": "Ina Telberg — Graduate Assistant — Wi. Qr. only"
+        },
+        {
+          "source_key": "nz-listener-telberg-1949-b944",
+          "locator_override": "Author introduction",
+          "excerpt_override": "formerly instructor in the Department of Sociology and Anthropology in the Ohio State University"
+        }
+      ],
+      "affiliation_key": "ina-telberg-ohio-state-b944"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "ae99d4da-c423-5ce2-a09a-764c1a4d4dcd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John Teague, Box 768 and archive location 230/86/41/07. The common name and absence of a rank, identifier or public assignment prevented a defensible match to an external John Teague biography.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6ec02784-6748-5597-bbad-a9135fd3b5c3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Pete Tedeschi, Box 768 and archive location 230/86/41/07. A postwar minor-league player is a namesake lead only; no OSS, Box 768 or wartime identifier connects him to the indexed row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d8f9765d-97f8-53ec-b3cf-180fcba62cf9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary E Teichgraeber, Box 768 and archive location 230/86/41/07. Exact-name and middle-initial searches found no reliable OSS, employer, occupation, institutional or archival identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fb7f264c-9871-52d7-9c66-07428e4bd1e3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kate Teichner, Box 768 and archive location 230/86/41/07. The printed six-digit value is preserved but is ineligible for the Army merged-file matcher and was not reinterpreted as a different identifier type.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3d0678d9-f91e-5283-a68c-9ab560d7a8f4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gudrun I Teigen, Box 768 and archive location 230/86/41/07. Exact-name and middle-initial searches found no reliable wartime identity, employer, occupation, institutional or OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d7be1805-264b-5e86-9d34-d50717002b7f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ruby D Telesca, Box 768 and archive location 230/86/41/07. A same-name lifespan lead lacked the indexed middle initial, OSS context, employer evidence and a Box 768 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b8081c4-27ff-5382-b29e-5bf69bbd63e8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Clarence R Teller, Box 768 and archive location 230/86/41/07. Exact-name and middle-initial searches found no defensible OSS, employer, occupation or archival identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1edf6ee4-65f8-5e18-b87d-11d086ddaf85",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Fay W Temple, Box 768 and archive location 230/86/41/07. Exact-name and middle-initial searches found no defensible OSS, employer, occupation or archival identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "76095811-68ca-55e1-b76d-074dbd95b7b5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harry M Templeton, Box 768 and archive location 230/86/41/07. Exact-name and middle-initial searches found no defensible OSS, employer, occupation or archival identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 768 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7322ca21-e1d6-5ca4-9142-8d1755af7ff7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 768 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8aeb5ab3-cd07-51d1-90a4-0da6cea7597d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 768 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b50fd8ff-b5d6-5ecf-bbca-e0fa69bf9bd6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 768 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "685f819e-75d4-5aee-a4a2-65ca0b42b999",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 768 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f3300ed3-b2fa-5d76-a9cc-e5441bb52d92",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 768 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d391a6b2-3902-57ba-a702-a5c8a8ae87cc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record, and the full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 768 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation or student-status category into a workplace or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9a531f65-6e90-5bd1-b882-b43b45f6b9e6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Léon Téboul, an industrialist and French resistance organizer, is a plausible spelling-variant lead, but no source connects that person to the indexed Leo Teboul, OSS, Box 768 or a shared identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 768 for birth date, nationality, aliases and assignment before adopting the Léon Téboul resistance biography or its industrial occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8754b271-e59d-5411-ab7d-3584f0aa445c",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index prints William J. Techtmann, while the reviewed Army row linked by the private identifier prints Robert J. Mertes. The collision is preserved and no Army fields are transferred.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 768 personnel file and the original Army source together to resolve the identifier/name collision before assigning any occupation or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e8dfe679-56fe-5269-af7e-4e6e84481a6e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Telemachus George Anastos is a plausible transposed-name candidate who served in the U.S. Navy from 1942 to 1946, but the index prints surname Telemachus and first name Anastos and supplies no corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 768 for name order, birth date and Navy identifiers before adopting the Telemachus George Anastos biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2e4a2945-99fb-5abc-aaf5-781d85c3cf1c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A distinctive Aram H. Tellalian candidate ran for the Connecticut legislature in Bridgeport in 1936, but the election record provides no OSS, Box 768 or wartime identifier bridge to the indexed row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 768 for suffix, birth date, hometown, profession and service identifiers before assigning the Connecticut political or legal biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Slovenian Academy and ZRC SAZU biographical record explicitly gives Ivan M. Tchok as a name form for Ivan Marija Čok and cites scholarship on his OSS employment.",
+      "name_variants": [
+        "Ivan Marija Čok",
+        "Ivan M. Čok",
+        "Miček"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 767 to establish the precise OSS entry chronology and determine whether his 1931-1940 association presidency or a later government role was the immediate predecessor.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bbcb261e-2496-5956-8fe8-6ec811e96fe3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name aligns across the index, Stanford's 1941-1942 faculty record and a scholarly biography describing Darwin LeOra Teilhet's wartime intelligence service.",
+      "name_variants": [
+        "Darwin LeOra Teilhet"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 768 for service status, OSS entry date and chronology needed to determine whether Stanford was his immediate or last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "94a92f6d-33ad-5793-82c6-5d3544f9d8a8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A contemporary article identifies the rare exact-name Ina Telberg as a former Ohio State instructor who served with OSS in Washington and India; an official trustees record independently corroborates her 1938 appointment.",
+      "name_variants": [
+        "Ina Georgievna Telberg"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 768 to establish her employment from 1939 through OSS entry and whether Ohio State or an intervening role was the last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page462-row24-ivan-m-tchok-b944",
+      "person_id": "51bec465-c44d-5d74-b1d8-0b4fe2308f7e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ivan M Tchok; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An authoritative Slovenian institutional biography supports the Ivan M. Tchok/Ivan Marija Čok identity, earlier private legal practice and 1931-1940 emigrant-association leadership. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row25-john-teague-b944",
+      "person_id": "ae99d4da-c423-5ce2-a09a-764c1a4d4dcd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Teague; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The common name and absence of a rank, identifier or public assignment prevented a defensible match to an external John Teague biography. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row26-clyde-v-teasdale-b944",
+      "person_id": "7322ca21-e1d6-5ca4-9142-8d1755af7ff7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clyde V Teasdale; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row27-leo-teboul-b944",
+      "person_id": "9a531f65-6e90-5bd1-b882-b43b45f6b9e6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leo Teboul; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The Léon Téboul industrialist and resistance biography lacks an OSS, spelling, identifier or Box 768 bridge to indexed Leo Teboul. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row28-william-j-techtmann-b944",
+      "person_id": "8754b271-e59d-5411-ab7d-3584f0aa445c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Techtmann; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The protected identifier points to Robert J. Mertes while the index prints William J. Techtmann; the conflict is preserved and no Army fields are transferred. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row29-pete-tedeschi-b944",
+      "person_id": "6ec02784-6748-5597-bbad-a9135fd3b5c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Pete Tedeschi; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A postwar minor-league player is a namesake lead only; no OSS, Box 768 or wartime identifier connects him to the indexed row. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row30-william-s-teeter-b944",
+      "person_id": "8aeb5ab3-cd07-51d1-90a4-0da6cea7597d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William S Teeter; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row31-mary-e-teichgraeber-b944",
+      "person_id": "d8f9765d-97f8-53ec-b3cf-180fcba62cf9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary E Teichgraeber; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches found no reliable OSS, employer, occupation, institutional or archival identity bridge. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row32-kate-teichner-b944",
+      "person_id": "fb7f264c-9871-52d7-9c66-07428e4bd1e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kate Teichner; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The printed six-digit value is preserved but is ineligible for the Army merged-file matcher and was not reinterpreted as a different identifier type. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row33-gudrun-i-teigen-b944",
+      "person_id": "3d0678d9-f91e-5283-a68c-9ab560d7a8f4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gudrun I Teigen; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches found no reliable wartime identity, employer, occupation, institutional or OSS bridge. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row34-darwin-l-teilhet-b944",
+      "person_id": "bbcb261e-2496-5956-8fe8-6ec811e96fe3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Darwin L Teilhet; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Stanford directly documents 1941-1942 teaching employment; a scholarly biography and the rare exact name support identity, while immediate chronology remains unresolved. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row35-ina-telberg-b944",
+      "person_id": "94a92f6d-33ad-5793-82c6-5d3544f9d8a8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ina Telberg; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An official Ohio State appointment record and a contemporary article independently document Ina Telberg's prewar university work and direct OSS service. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row36-anastos-telemachus-b944",
+      "person_id": "e8dfe679-56fe-5269-af7e-4e6e84481a6e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anastos Telemachus; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Telemachus George Anastos is a plausible transposed-name Navy candidate, but the index order and absence of a second identifier prevent assignment. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row37-ruby-d-telesca-b944",
+      "person_id": "d7be1805-264b-5e86-9d34-d50717002b7f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruby D Telesca; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A same-name lifespan lead lacked the indexed middle initial, OSS context, employer evidence and a Box 768 bridge. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row38-aram-h-tellalian-b944",
+      "person_id": "2e4a2945-99fb-5abc-aaf5-781d85c3cf1c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Aram H Tellalian; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "The 1936 Connecticut candidate Aram H. Tellalian lacks a wartime or Box 768 bridge, so no political or legal affiliation is published. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row39-clarence-r-teller-b944",
+      "person_id": "3b8081c4-27ff-5382-b29e-5bf69bbd63e8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence R Teller; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches found no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row40-rennie-l-tellia-b944",
+      "person_id": "b50fd8ff-b5d6-5ecf-bbca-e0fa69bf9bd6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rennie L Tellia; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row41-dominic-l-telloni-b944",
+      "person_id": "685f819e-75d4-5aee-a4a2-65ca0b42b999",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dominic L Telloni; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row42-joseph-g-temolo-b944",
+      "person_id": "f3300ed3-b2fa-5d76-a9cc-e5441bb52d92",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph G Temolo; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row43-fay-w-temple-b944",
+      "person_id": "1edf6ee4-65f8-5e18-b87d-11d086ddaf85",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fay W Temple; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches found no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row44-george-h-temple-b944",
+      "person_id": "d391a6b2-3902-57ba-a702-a5c8a8ae87cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George H Temple; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical occupation or student-status category, not an employer or institution. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    },
+    {
+      "key": "page462-row46-harry-m-templeton-b944",
+      "person_id": "76095811-68ca-55e1-b76d-074dbd95b7b5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry M Templeton; NARA index and public Archives context; CIA Reading Room; exact-name and meaningful variants; OSS, rank and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 767-768; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_944",
+      "started_at": "2026-10-28T21:00:00Z",
+      "completed_at": "2026-10-29T00:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and middle-initial searches found no defensible OSS, employer, occupation or archival identity bridge. The index page and admitted Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b944-v1"
+    }
+  ]
+}

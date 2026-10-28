@@ -1,5 +1,49 @@
 # Research status
 
+Batch 944 completed PDF page 462, rows 24-46, from **Ivan M. Tchok** through
+**Harry M. Templeton**, preserving all 23 printed rows as separate people with
+terminal reviewed outcomes. Six Army identities have qualified dated
+occupation or student-status categories without named employers or schools.
+William J. Techtmann remains an identity conflict because the reviewed Army
+row prints Robert J. Mertes; no Army fields were transferred across the name
+disagreement. Kate Teichner's printed number was not reinterpreted.
+
+Ivan M. Tchok has a high-confidence Ivan Marija Čok identity with earlier
+documented private legal practice and emigrant-association leadership. Darwin
+L. Teilhet has high-confidence 1941-1942 Stanford teaching, and Ina Telberg has
+high-confidence Ohio State employment supported by an official appointment
+record and contemporary OSS reference. None is promoted to immediate or last
+civilian predecessor because the chronology remains incomplete. Leo Teboul,
+Anastos Telemachus and Aram H. Tellalian retain unassigned namesake leads. Ten
+rows retain explicit Box 768 archival-review outcomes, including Lucille E.
+Temple's pre-existing completed protocol disposition.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,653/23,936 (61.2174%)**;
+verified-employer coverage is **469/23,936 (1.9594%)**;
+verified-affiliation coverage is **1,042/23,936 (4.3533%)**; archival-review
+coverage is **13,127/23,936 (54.8421%)**. There are **9,278** not-started
+people, **641** possible-duplicate groups and **511** conflicts. Claim
+confidence counts are **1,654 confirmed**, **4,817 high**, **2,186 medium**,
+**252 low**, **427 conflicting** and **2 unresolved**. The public projection
+contains **3,458** affiliations, **1,206** organizations, **5,977** sources and
+**9,080** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 463, row
+1, **Kenneth S. Templeton**, in Box 768. See `research/batch-944-progress.md`
+for the source-by-source audit.
+
+Batch 944 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 575
+files with zero errors, warnings or hints and builds 25,190 static pages. The
+33/33 Batch 944 browser matrix and full 102/102 bounded browser and
+accessibility release suite pass, as do the complete internal-link check,
+protected-identifier audit, checked-in public manifest, zero-vulnerability
+production dependency audit and two deterministic consecutive builds.
+Publication verification remains pending; see `reports/release_batch_944.md`.
+
 Batch 943 completed PDF page 462, rows 1-23, from **John F. Taylor** through
 **Francis M. Tchitcherine**, preserving all 23 printed rows as separate people
 with saved terminal research attempts. Adjacent John G. Taylor rows remain
