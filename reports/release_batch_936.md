@@ -75,5 +75,11 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Publication verification is pending the immutable content commit, successful
-GitHub Actions Test and Pages runs, and an unauthenticated live-manifest check.
+Batch 936 is public from immutable content commit
+`2f75ed024d8d773a2c326d618fd5480349dd04a0`. GitHub Actions Test run
+`40628732418` and Pages run `40628732440` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**124,770,581** bytes at manifest SHA-256
+`705689f110f65852baad3cf8d44e2f450095766c78ae9d13bee7b7df8ffa627a`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.
