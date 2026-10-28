@@ -21,6 +21,7 @@ playwright-report/
 tmp/
 research/research.sqlite
 research/research.sqlite-*
+research/backups/
 research/*.backup
 research/*.csv
 !research/*_review_decisions_*.csv

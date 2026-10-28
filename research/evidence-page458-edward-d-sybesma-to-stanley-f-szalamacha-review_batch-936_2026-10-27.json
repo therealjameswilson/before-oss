@@ -1,0 +1,1451 @@
+{
+  "bundle_version": "batch-936-v1",
+  "reviewer": "Before OSS Batch 936 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b936",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 762",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 458, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full protected identifiers remain private. The printed note fragment on row 36 is preserved as printed."
+    },
+    {
+      "key": "army-bulk-b936",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted and two conflicting Batch 936 identity candidates",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Accepted matches use nonshared protected identifiers. The Stanley F Szalamacha candidate is withheld because the identifier is shared by a differently named index row. No raw bulk row or full identifier is public."
+    },
+    {
+      "key": "army-tech-b936",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only."
+    },
+    {
+      "key": "army-codes-b936",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171, 173 and 304; categories 022, 068, 138, 401 and 642 visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify neither a named employer nor a workplace. Undefined code 999 is not interpreted."
+    },
+    {
+      "key": "sypesteyn-oss-commendation-b936",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA release 104-10165-10120",
+      "title": "Recommendations for Awards and Decorations, OSS European Theater of Operations",
+      "author_creator": "Headquarters and Headquarters Detachment, Office of Strategic Services, European Theater of Operations",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945",
+      "locator": "PDF physical page 82, printed page 4; corporal entry for Willem K. Sypesteyn and OSS citation",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Office of Strategic Services records",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The scanned page was visually inspected. The full protected identifier is not repeated in public evidence text."
+    },
+    {
+      "key": "syphax-washington-post-b936",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1979/10/12/john-w-syphax-dies/717a3033-7bd9-4e35-9b4e-032f272ddb26/",
+      "archival_identifier": "Washington Post obituary, 1979-10-12",
+      "title": "John W. Syphax Dies: Retired Intelligence Officer at State",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1979-10-12",
+      "locator": "Obituary paragraphs 2-3; Howard teaching dates and 1943-45 OSS biographic-analyst service",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Washington Post archive",
+      "rights_notes": "Only a short excerpt and project-authored paraphrase are retained. Education is not treated as employment."
+    },
+    {
+      "key": "syro-boiarsky-treasury-memo-b936",
+      "stable_url": "https://fraser.stlouisfed.org/archival-collection/diaries-henry-morgenthau-jr-6880/volume-397-634976/content/fulltext/morgenthau-diaries-0533",
+      "archival_identifier": "Diaries of Henry Morgenthau, Jr., Volume 397, Part 1",
+      "title": "Diaries of Henry Morgenthau, Jr.: Volume 397, Part 1",
+      "author_creator": "United States Department of the Treasury; Henry Morgenthau Jr. papers",
+      "repository_publisher": "FRASER, Federal Reserve Bank of St. Louis",
+      "publication_record_date": "1941-05-14 memorandum",
+      "locator": "Full-text lines 13993-14000; Treasury memorandum describing the 1940 Far East trip",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Diaries of Henry Morgenthau, Jr.",
+      "rights_notes": "Only the employment-relevant statement is retained. Unrelated investigative allegations and sensitive personal details are excluded."
+    },
+    {
+      "key": "syrstad-north-dakota-register-b936",
+      "stable_url": "https://www.veterans.nd.gov/sites/www/files/documents/resource/S.pdf",
+      "archival_identifier": "Register of North Dakota Veterans, S entries",
+      "title": "Register of North Dakota Veterans: S",
+      "author_creator": "State of North Dakota",
+      "repository_publisher": "North Dakota Department of Veterans Affairs",
+      "locator": "PDF physical page 188, printed page 1463; Morris A. Syrstad entry",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Register of North Dakota Veterans",
+      "rights_notes": "The official entry independently aligns the exact name, protected identifier, Army entry, theater and T/5 grade. The identifier is not public."
+    },
+    {
+      "key": "syrstad-denver-roster-b936",
+      "stable_url": "https://history.denverlibrary.org/sites/history/files/10th_mountain_index_0.pdf",
+      "archival_identifier": "10th Mountain Division Name Index",
+      "title": "Members of the 10th Mountain Division",
+      "author_creator": "Denver Public Library Western History Department",
+      "repository_publisher": "Denver Public Library",
+      "publication_record_date": "database project begun 1998",
+      "locator": "PDF physical page 896; Morris A Syrstad, Headquarters, 99th Infantry",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "10th Mountain Division Resource Center",
+      "rights_notes": "The index documents the unit assignment, not the individual transfer date to OSS or a civilian employer."
+    },
+    {
+      "key": "syrstad-norso-ii-b936",
+      "stable_url": "https://ossog.info/norway/norso_02.html",
+      "archival_identifier": "OSS Operational Groups NORSO II personnel roster",
+      "title": "Office of Strategic Services Operational Groups: NORSO II",
+      "author_creator": "Art Frizzell",
+      "repository_publisher": "OSS Operational Groups",
+      "locator": "NORSO II summary and personnel roster; T/5 Morris Syrstad",
+      "access_date": "2026-10-27",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups histories",
+      "rights_notes": "The page states that its summary was compiled from National Archives records and Colby and Skabo reports. It corroborates OSS service but does not name a civilian employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "army-existing-b936",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused."
+    },
+    {
+      "key": "howard-existing-b936",
+      "organization_id": "58c9dd45-df41-5582-95ad-93d33663b259",
+      "canonical_name": "Howard University",
+      "historical_name": "Howard University",
+      "aliases": [
+        "Howard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused."
+    },
+    {
+      "key": "ninety-ninth-existing-b936",
+      "organization_id": "a520c0e7-81d8-5aea-90d7-ddb0b2ce5eff",
+      "canonical_name": "United States Army, 99th Infantry Battalion (Separate)",
+      "historical_name": "99th Infantry Battalion (Separate)",
+      "aliases": [
+        "99th Infantry",
+        "99TH INF"
+      ],
+      "organization_type": "U.S. Army infantry battalion",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; Denver's headquarters and 99TH INF wording remains visible in the affiliation."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "loren-h-sylvester-row26-occupation-b936",
+      "person_id": "1ba6a73b-384d-529d-b0be-98ffaa474216",
+      "occupation": "Stock clerks",
+      "relationship_type": "employment",
+      "end_date": "1941-03-27",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "willem-k-sypesteyn-row33-occupation-b936",
+      "person_id": "102b2653-669a-5c85-8d6f-b90832a06d73",
+      "occupation": "Semiprofessional occupations, n.e.c.",
+      "relationship_type": "employment",
+      "end_date": "1942-04-08",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "stevan-j-sysko-row39-occupation-b936",
+      "person_id": "fcfea34a-7168-5376-b507-a09d9df29740",
+      "occupation": "Occupations in manufacture of paper goods",
+      "relationship_type": "employment",
+      "end_date": "1943-04-20",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "kie-syzdek-row41-occupation-b936",
+      "person_id": "c38713db-05d0-5cf2-a5bd-6f1e7c5d50a8",
+      "occupation": "Bakers",
+      "relationship_type": "employment",
+      "end_date": "1942-04-25",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "george-m-szabad-row42-occupation-b936",
+      "person_id": "6e48695f-4e86-52d8-b1ae-2e754ca0bef5",
+      "occupation": "Lawyers and judges",
+      "relationship_type": "employment",
+      "end_date": "1945-04-24",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "john-syphax-howard-b936",
+      "person_id": "100e38c5-bc8e-5fca-80b6-be988adcb44a",
+      "organization_key": "howard-existing-b936",
+      "organization_name_as_found": "Howard",
+      "role_title": "Political science teacher",
+      "occupation": "political science teacher",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1938",
+      "date_precision": "Years stated in obituary; exact dates not stated",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The obituary explicitly documents 1936-38 teaching and 1943-45 OSS service, but the five-year gap prevents treating Howard as immediate or last civilian before OSS."
+    },
+    {
+      "key": "ganna-syro-boiarsky-secretary-b936",
+      "person_id": "04556319-8777-5a62-b9d7-7fe2ef158c19",
+      "role_title": "Secretary to General John F. O'Ryan during a Far East survey trip",
+      "occupation": "secretary",
+      "relationship_type": "employment",
+      "end_date": "1940",
+      "date_precision": "The government memorandum dates the trip to 1940; exact employment dates are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare exact full name and prewar timing support a probable match. The source names an individual principal, not a company or institution, and does not establish the immediate OSS predecessor."
+    },
+    {
+      "key": "morris-syrstad-99th-b936",
+      "person_id": "75c7db38-481e-593b-a784-d054ebc68582",
+      "organization_key": "ninety-ninth-existing-b936",
+      "organization_name_as_found": "HQ, 99TH INF",
+      "role_title": "Headquarters company member; later T/5 in OSS NORSO II",
+      "occupation": "military service",
+      "relationship_type": "military_assignment",
+      "date_precision": "World War II assignment; individual transfer date to OSS is not stated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official protected-identifier bridge confirms the person; Denver documents his 99th Infantry assignment and the NORSO roster documents later OSS service. The individual transfer date is unlocated, so the immediate pathway remains qualified."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-loren-h-sylvester-row26-b936",
+      "person_id": "1ba6a73b-384d-529d-b0be-98ffaa474216",
+      "claim_type": "identity",
+      "claim_text": "The indexed Loren H Sylvester row 26 is a high-confidence match to an official Army record dated 1941-03-27.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1941-03-27; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 26; Box 762"
+        },
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Accepted reviewed identity record; Army entry 1941-03-27; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b936",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-loren-h-sylvester-row26-b936",
+      "person_id": "1ba6a73b-384d-529d-b0be-98ffaa474216",
+      "affiliation_key": "loren-h-sylvester-row26-occupation-b936",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-27, Loren H Sylvester was recorded in the historical category Stock clerks; no employer or workplace is identified.",
+      "evidence_excerpt": "Stock clerks",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 138, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Army entry 1941-03-27; civilian-occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b936",
+          "locator_override": "PDF physical page 171; historical category 1-38"
+        }
+      ]
+    },
+    {
+      "key": "identity-willem-k-sypesteyn-row33-b936",
+      "person_id": "102b2653-669a-5c85-8d6f-b90832a06d73",
+      "claim_type": "identity",
+      "claim_text": "The indexed Willem K Sypesteyn row 33 is a high-confidence match to an official Army record dated 1942-04-08.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved name variant. An official OSS commendation independently supplies the full indexed name and corroborates OSS service.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1942-04-08; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 33; Box 762"
+        },
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-04-08; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b936",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        },
+        {
+          "source_key": "sypesteyn-oss-commendation-b936",
+          "locator_override": "PDF physical page 82, printed page 4; corporal entry and OSS citation; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-willem-k-sypesteyn-row33-b936",
+      "person_id": "102b2653-669a-5c85-8d6f-b90832a06d73",
+      "affiliation_key": "willem-k-sypesteyn-row33-occupation-b936",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-08, Willem K Sypesteyn was recorded in the historical category Semiprofessional occupations, n.e.c.; no employer or workplace is identified.",
+      "evidence_excerpt": "Semiprofessional occupations, n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 068, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Army entry 1942-04-08; civilian-occupation code 068; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b936",
+          "locator_override": "PDF physical page 304; amended historical category 0-68"
+        }
+      ]
+    },
+    {
+      "key": "identity-stevan-j-sysko-row39-b936",
+      "person_id": "fcfea34a-7168-5376-b507-a09d9df29740",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stevan J Sysko row 39 is a high-confidence match to an official Army record dated 1943-04-20.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved name variant. The Army record spells the given name Steven; indexed Stevan remains primary.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1943-04-20; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 39; Box 762"
+        },
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-04-20; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b936",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-stevan-j-sysko-row39-b936",
+      "person_id": "fcfea34a-7168-5376-b507-a09d9df29740",
+      "affiliation_key": "stevan-j-sysko-row39-occupation-b936",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-20, Stevan J Sysko was recorded in the historical category Occupations in manufacture of paper goods; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in manufacture of paper goods",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 642, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Army entry 1943-04-20; civilian-occupation code 642; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b936",
+          "locator_override": "PDF physical page 173; historical category 4,6,8-42"
+        }
+      ]
+    },
+    {
+      "key": "identity-kie-syzdek-row41-b936",
+      "person_id": "c38713db-05d0-5cf2-a5bd-6f1e7c5d50a8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kie Syzdek row 41 is a high-confidence match to an official Army record dated 1942-04-25.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved name variant. The Army record adds middle initials K L, retained only as a variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1942-04-25; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 41; Box 762"
+        },
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-04-25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b936",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-kie-syzdek-row41-b936",
+      "person_id": "c38713db-05d0-5cf2-a5bd-6f1e7c5d50a8",
+      "affiliation_key": "kie-syzdek-row41-occupation-b936",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-25, Kie Syzdek was recorded in the historical category Bakers; no employer or workplace is identified.",
+      "evidence_excerpt": "Bakers",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 401, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Army entry 1942-04-25; civilian-occupation code 401; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b936",
+          "locator_override": "PDF physical page 173; historical category 4-01"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-m-szabad-row42-b936",
+      "person_id": "6e48695f-4e86-52d8-b1ae-2e754ca0bef5",
+      "claim_type": "identity",
+      "claim_text": "The indexed George M Szabad row 42 is a high-confidence match to an official Army record dated 1945-04-24.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved name variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1945-04-24; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 42; Box 762"
+        },
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Accepted reviewed identity record; Army entry 1945-04-24; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b936",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-m-szabad-row42-b936",
+      "person_id": "6e48695f-4e86-52d8-b1ae-2e754ca0bef5",
+      "affiliation_key": "george-m-szabad-row42-occupation-b936",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-04-24, George M Szabad was recorded in the historical category Lawyers and judges; no employer or workplace is identified.",
+      "evidence_excerpt": "Lawyers and judges",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 022, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Army entry 1945-04-24; civilian-occupation code 022; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b936",
+          "locator_override": "PDF physical page 171; historical category 0-22"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-syphax-b936",
+      "person_id": "100e38c5-bc8e-5fca-80b6-be988adcb44a",
+      "claim_type": "identity",
+      "claim_text": "The indexed John W Syphax is a high-confidence match to the Howard political science teacher who served as an OSS biographic analyst from 1943 to 1945.",
+      "evidence_paraphrase": "The uncommon exact name and explicit OSS organization, role and dates align the index with the obituary.",
+      "identity_match_assessment": "High confidence from the uncommon exact full name and the source's explicit OSS role and dates; Box 762 remains the final direct-file check.",
+      "temporal_assessment": "The obituary dates Howard teaching to 1936-38 and OSS service to 1943-45.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The education history is retained only for identity context and is not converted into employment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 35; Box 762"
+        },
+        {
+          "source_key": "syphax-washington-post-b936",
+          "locator_override": "Obituary paragraphs 2-3; Howard teaching and OSS service"
+        }
+      ]
+    },
+    {
+      "key": "prewar-john-syphax-howard-b936",
+      "person_id": "100e38c5-bc8e-5fca-80b6-be988adcb44a",
+      "affiliation_key": "john-syphax-howard-b936",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "John W. Syphax taught political science at Howard University from 1936 to 1938.",
+      "evidence_excerpt": "He taught political science at Howard from 1936 to 1938.",
+      "evidence_paraphrase": "The obituary explicitly identifies the institution, teaching field and years.",
+      "identity_match_assessment": "High confidence from the uncommon exact name and explicit 1943-45 OSS biographic-analyst service in the same source.",
+      "temporal_assessment": "Documented prewar employment, but not immediate or last civilian because the source leaves 1938-43 unaccounted for.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Howard is not promoted to immediate pre-OSS affiliation or last civilian employer.",
+      "sources": [
+        {
+          "source_key": "syphax-washington-post-b936",
+          "locator_override": "Obituary paragraph 2; Howard teaching dates"
+        }
+      ]
+    },
+    {
+      "key": "identity-ganna-syro-boiarsky-b936",
+      "person_id": "04556319-8777-5a62-b9d7-7fe2ef158c19",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ganna M Syro-Boiarsky is a probable match to Ganna Mahrt Syro-Boiarsky named in a 1941 Treasury memorandum.",
+      "evidence_paraphrase": "The rare exact compound surname, given name and compatible middle name align the index with the contemporary federal memorandum.",
+      "identity_match_assessment": "Probable rather than high confidence because the accessible memorandum does not mention OSS or the Box 762 file.",
+      "temporal_assessment": "The memorandum discusses a trip made in 1940, before OSS existed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Unrelated investigative allegations and personal details in the memorandum are excluded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 36; Box 762; printed note fragment preserved"
+        },
+        {
+          "source_key": "syro-boiarsky-treasury-memo-b936",
+          "locator_override": "Full-text lines 13993-14000; rare exact name and 1940 secretary role"
+        }
+      ]
+    },
+    {
+      "key": "prewar-ganna-syro-boiarsky-secretary-b936",
+      "person_id": "04556319-8777-5a62-b9d7-7fe2ef158c19",
+      "affiliation_key": "ganna-syro-boiarsky-secretary-b936",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A 1941 Treasury memorandum says Ganna Mahrt Syro-Boiarsky accompanied General John F. O'Ryan as his secretary on a 1940 Far East trip.",
+      "evidence_excerpt": "went with the General on the trip as his secretary",
+      "evidence_paraphrase": "The federal memorandum explicitly identifies the individual, role and prewar trip.",
+      "identity_match_assessment": "Probable match from the rare exact compound surname, given name and compatible middle name; no direct OSS bridge is present in the source.",
+      "temporal_assessment": "Documented prewar work in 1940; not shown to be immediate before OSS or the last civilian position.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The principal is preserved as named; no employing organization is invented.",
+      "sources": [
+        {
+          "source_key": "syro-boiarsky-treasury-memo-b936",
+          "locator_override": "Full-text lines 13993-14000; 1940 trip and secretary role"
+        }
+      ]
+    },
+    {
+      "key": "identity-morris-syrstad-b936",
+      "person_id": "75c7db38-481e-593b-a784-d054ebc68582",
+      "claim_type": "identity",
+      "claim_text": "The indexed Morris A Syrstad is confirmed as the North Dakota Army entrant later listed in Headquarters, 99th Infantry and as a T/5 in OSS NORSO II.",
+      "evidence_paraphrase": "Official index, Army and North Dakota records align by exact name and protected identifier; institutional and OSS rosters align the 99th Infantry and NORSO II assignments.",
+      "identity_match_assessment": "Confirmed from an exact nonshared protected identifier in official records, with exact-name unit and OSS corroboration; the identifier is withheld.",
+      "temporal_assessment": "Army entry is dated 1940; the two wartime rosters establish the 99th Infantry and later NORSO II sequence but not the transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Undefined occupation code 999 is not interpreted, and no civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b936",
+          "locator_override": "PDF page 458 row 37; Box 762"
+        },
+        {
+          "source_key": "army-bulk-b936",
+          "locator_override": "Accepted reviewed identity record; 1940 Army entry; protected identifier withheld"
+        },
+        {
+          "source_key": "syrstad-north-dakota-register-b936",
+          "locator_override": "PDF physical page 188, printed page 1463; exact identity and service chronology; protected identifier withheld"
+        },
+        {
+          "source_key": "syrstad-denver-roster-b936",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 896; Headquarters, 99th Infantry"
+        },
+        {
+          "source_key": "syrstad-norso-ii-b936",
+          "support_type": "supports",
+          "locator_override": "NORSO II personnel roster; T/5 Morris Syrstad"
+        }
+      ]
+    },
+    {
+      "key": "immediate-morris-syrstad-99th-b936",
+      "person_id": "75c7db38-481e-593b-a784-d054ebc68582",
+      "affiliation_key": "morris-syrstad-99th-b936",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Morris A. Syrstad's best-supported immediate pre-OSS assignment is Headquarters, 99th Infantry Battalion (Separate), before his service with OSS NORSO II.",
+      "evidence_excerpt": "MORRIS A SYRSTAD HQ 99TH INF",
+      "evidence_paraphrase": "The Denver roster places Syrstad in Headquarters, 99th Infantry; the NORSO II roster then lists T/5 Morris Syrstad.",
+      "identity_match_assessment": "Confirmed identity from official protected-identifier evidence, with uncommon exact-name agreement across the unit and OSS rosters.",
+      "temporal_assessment": "Probable immediate military pathway. The sequence is supported, but no accessible source states Syrstad's individual transfer date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The 99th Infantry is modeled as a military assignment, not a civilian employer, and the qualified claim is excluded from default high-confidence analytics.",
+      "sources": [
+        {
+          "source_key": "syrstad-denver-roster-b936",
+          "locator_override": "PDF physical page 896; Headquarters, 99th Infantry"
+        },
+        {
+          "source_key": "syrstad-norso-ii-b936",
+          "locator_override": "NORSO II personnel roster; T/5 Morris Syrstad"
+        },
+        {
+          "source_key": "syrstad-north-dakota-register-b936",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 188; official identity and Army chronology; protected identifier withheld"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "418b8496-43ce-5d57-ba83-66846184d412",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward D Sybesma, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Search results concern a later Edward D. Sybesma Jr. and do not identify the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a52849b-107a-5323-8ac2-cd904d10d7d7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George M Sylvester, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name military, employment, obituary and institutional searches supplied no Box 762 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d51e9ca8-2451-55db-9884-0a4087d89e78",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard C Sylvester, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name military, employment, obituary and archival searches supplied no Box 762 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f344b7eb-15cf-5e29-be0b-560a0944bbd2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Stephen J Symanski, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A 44th Infantry Division roster lead matches the name but lacks a protected identifier, OSS transition or Box 762 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "16ec2597-787b-5430-bb98-b83c28508d64",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louise Syminyon, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no defensible identity or pre-OSS affiliation evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "edb4cff2-1aef-52ac-bb58-a19115af6e2c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Percival M Symonds, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, occupation and archival searches supplied no defensible Box 762 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0faa01df-72cc-5ec9-9ba0-73347161a55a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sidney L Symons, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, OSS, obituary and institutional searches supplied no defensible Box 762 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "125350a5-bab1-5917-81c2-7a28a22f794d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Fryderyk Synowiec, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, transliteration-variant and foreign-language searches supplied no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "74c91ced-6cbb-50e5-a9e8-a907707b21ec",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row supplies William K Sypesteyn, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The similar Willem K Sypesteyn evidence is not transferred to this separately printed William K Sypesteyn row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the Willem K and William K Sypesteyn Box 762 files together. They remain separate people, and the official Willem evidence must not be transferred without direct file proof.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "possible-same-person-willem-william-k-sypesteyn-box-762"
+    },
+    {
+      "person_id": "7a11d7e0-ee8f-5199-86e9-e5f4c99c5dc9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row supplies Stephen J Sysko, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The accepted Stevan/Steven J Sysko Army evidence is not transferred to this separately printed Stephen J Sysko row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the Stephen J and Stevan J Sysko Box 762 files together. They remain separate people, and the accepted Stevan/Steven Army evidence must not be transferred to Stephen.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "possible-same-person-stephen-stevan-j-sysko-box-762"
+    },
+    {
+      "person_id": "2273a4dd-11de-509c-9631-b3498cad2756",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Bertha B Syverud, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, military, employer, obituary and archival searches supplied no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33908893-ab7a-5d9e-b705-c78866ae3f4e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kalman L Szabo, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A same-name obituary documents wartime Army service but lacks a protected identifier, OSS transition or Box 762 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1b13a8d4-f5f2-5bf6-8cc1-d144b498659e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kazmer J Szabo, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no defensible Box 762 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2dc317c8-8b94-56e3-9778-08d8d1c2e254",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward M Szachowicz, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A 1940 amateur-radio directory lead supplies the exact name but no OSS, protected-identifier or Box 762 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1ba6a73b-384d-529d-b0be-98ffaa474216",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. Historical occupation fields remain separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 762 for the immediate pre-OSS affiliation and a named civilian employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "102b2653-669a-5c85-8d6f-b90832a06d73",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the index and Army record; a visually inspected official OSS commendation independently gives the full name and OSS service. The similar William K row remains separate.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the Willem K and William K Sypesteyn Box 762 files together to resolve the possible spelling variant without merging the printed rows.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Willem K. Sypesteyn"
+      ],
+      "possible_duplicate_group": "possible-same-person-willem-william-k-sypesteyn-box-762"
+    },
+    {
+      "person_id": "75c7db38-481e-593b-a784-d054ebc68582",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact nonshared protected-identifier agreement across official records confirms the person; the Denver roster and NORSO II roster independently align the 99th Infantry and OSS assignments.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 762 for the precise 99th Infantry-to-OSS transfer and the last civilian employer before Army service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fcfea34a-7168-5376-b507-a09d9df29740",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links indexed Stevan J Sysko to the Army record spelling Steven J Sysko. The separately printed Stephen J Sysko row remains distinct and requires joint file review.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the Stephen J and Stevan J Sysko Box 762 files together; do not transfer the accepted Army evidence to Stephen without direct proof.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Steven J Sysko"
+      ],
+      "possible_duplicate_group": "possible-same-person-stephen-stevan-j-sysko-box-762"
+    },
+    {
+      "person_id": "c38713db-05d0-5cf2-a5bd-6f1e7c5d50a8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. Historical occupation fields remain separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 762 for the immediate pre-OSS affiliation and a named civilian employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Kie K L Syzdek"
+      ]
+    },
+    {
+      "person_id": "6e48695f-4e86-52d8-b1ae-2e754ca0bef5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. Historical occupation fields remain separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 762 for the immediate pre-OSS affiliation and a named civilian employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "100e38c5-bc8e-5fca-80b6-be988adcb44a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A Washington Post obituary aligns the uncommon exact name with explicit 1943-45 OSS biographic-analyst service and documents 1936-38 Howard University teaching.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 762 and 1938-43 directories or personnel records to identify the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04556319-8777-5a62-b9d7-7fe2ef158c19",
+      "identity_status": "probable",
+      "identity_evidence": "A contemporary Treasury memorandum supplies the rare exact compound surname, given name, compatible middle name and a 1940 secretary role, but no direct OSS or Box 762 bridge.",
+      "name_variants": [
+        "Ganna Mahrt Syro-Boiarsky"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 762 to confirm the identity and determine whether the 1940 secretary assignment preceded OSS directly or whether later employment intervened.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3709a6cd-b7d5-5701-b630-8996171e1bf9",
+      "identity_status": "conflicting",
+      "identity_evidence": "The official Army candidate agrees by name but its protected identifier is also printed for a differently named source row. This is a source conflict, not proof of a duplicate person.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 672 Louis Salamacha and Box 762 Stanley F Szalamacha files together and compare the original Army source before assigning identity, occupation or employment evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page458-row24-edward-d-sybesma-b936",
+      "person_id": "418b8496-43ce-5d57-ba83-66846184d412",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward D Sybesma; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Search results concern a later Edward D. Sybesma Jr. and do not identify the indexed person. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row25-george-m-sylvester-b936",
+      "person_id": "2a52849b-107a-5323-8ac2-cd904d10d7d7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George M Sylvester; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name military, employment, obituary and institutional searches supplied no Box 762 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row26-loren-h-sylvester-b936",
+      "person_id": "1ba6a73b-384d-529d-b0be-98ffaa474216",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Loren H Sylvester; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row27-richard-c-sylvester-b936",
+      "person_id": "d51e9ca8-2451-55db-9884-0a4087d89e78",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard C Sylvester; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name military, employment, obituary and archival searches supplied no Box 762 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row28-stephen-j-symanski-b936",
+      "person_id": "f344b7eb-15cf-5e29-be0b-560a0944bbd2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stephen J Symanski; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A 44th Infantry Division roster lead matches the name but lacks a protected identifier, OSS transition or Box 762 bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row29-louise-syminyon-b936",
+      "person_id": "16ec2597-787b-5430-bb98-b83c28508d64",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louise Syminyon; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no defensible identity or pre-OSS affiliation evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row30-percival-m-symonds-b936",
+      "person_id": "edb4cff2-1aef-52ac-bb58-a19115af6e2c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Percival M Symonds; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, occupation and archival searches supplied no defensible Box 762 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row31-sidney-l-symons-b936",
+      "person_id": "0faa01df-72cc-5ec9-9ba0-73347161a55a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sidney L Symons; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, OSS, obituary and institutional searches supplied no defensible Box 762 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row32-fryderyk-synowiec-b936",
+      "person_id": "125350a5-bab1-5917-81c2-7a28a22f794d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fryderyk Synowiec; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, transliteration-variant and foreign-language searches supplied no defensible identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row33-willem-k-sypesteyn-b936",
+      "person_id": "102b2653-669a-5c85-8d6f-b90832a06d73",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Willem K Sypesteyn; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row34-william-k-sypesteyn-b936",
+      "person_id": "74c91ced-6cbb-50e5-a9e8-a907707b21ec",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William K Sypesteyn; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The similar Willem K Sypesteyn evidence is not transferred to this separately printed William K Sypesteyn row. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row35-john-w-syphax-b936",
+      "person_id": "100e38c5-bc8e-5fca-80b6-be988adcb44a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Syphax; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A reputable obituary supplies an explicit OSS role and dates plus qualified documented-prewar Howard University employment. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row36-ganna-m-syro-boiarsky-b936",
+      "person_id": "04556319-8777-5a62-b9d7-7fe2ef158c19",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ganna M Syro-Boiarsky; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A contemporary Treasury memorandum supplies a qualified probable identity and documented 1940 secretary role; unrelated sensitive allegations were excluded. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row37-morris-a-syrstad-b936",
+      "person_id": "75c7db38-481e-593b-a784-d054ebc68582",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Morris A Syrstad; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Official protected-identifier evidence confirms the identity; official and institutional records support a qualified 99th Infantry-to-NORSO II pathway. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row38-stephen-j-sysko-b936",
+      "person_id": "7a11d7e0-ee8f-5199-86e9-e5f4c99c5dc9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stephen J Sysko; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The accepted Stevan/Steven J Sysko Army evidence is not transferred to this separately printed Stephen J Sysko row. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row39-stevan-j-sysko-b936",
+      "person_id": "fcfea34a-7168-5376-b507-a09d9df29740",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stevan J Sysko; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row40-bertha-b-syverud-b936",
+      "person_id": "2273a4dd-11de-509c-9631-b3498cad2756",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bertha B Syverud; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, military, employer, obituary and archival searches supplied no defensible identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row41-kie-syzdek-b936",
+      "person_id": "c38713db-05d0-5cf2-a5bd-6f1e7c5d50a8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kie Syzdek; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row42-george-m-szabad-b936",
+      "person_id": "6e48695f-4e86-52d8-b1ae-2e754ca0bef5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George M Szabad; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row43-kalman-l-szabo-b936",
+      "person_id": "33908893-ab7a-5d9e-b705-c78866ae3f4e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kalman L Szabo; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A same-name obituary documents wartime Army service but lacks a protected identifier, OSS transition or Box 762 bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row44-kazmer-j-szabo-b936",
+      "person_id": "1b13a8d4-f5f2-5bf6-8cc1-d144b498659e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kazmer J Szabo; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no defensible Box 762 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row45-edward-m-szachowicz-b936",
+      "person_id": "2dc317c8-8b94-56e3-9778-08d8d1c2e254",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward M Szachowicz; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A 1940 amateur-radio directory lead supplies the exact name but no OSS, protected-identifier or Box 762 bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    },
+    {
+      "key": "page458-row46-stanley-f-szalamacha-b936",
+      "person_id": "3709a6cd-b7d5-5701-b630-8996171e1bf9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stanley F Szalamacha; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_936",
+      "started_at": "2026-10-28T03:16:00Z",
+      "completed_at": "2026-10-28T03:36:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The Army candidate was withheld because one protected identifier is printed for two different index names; neither person receives the occupation evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b936-v1"
+    }
+  ]
+}
