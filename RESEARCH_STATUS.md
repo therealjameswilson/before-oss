@@ -1,5 +1,49 @@
 # Research status
 
+Batch 945 completed PDF page 463, rows 1-23, from **Kenneth S. Templeton**
+through **William B. Terrell**, preserving all 23 printed rows as separate
+people with saved terminal research outcomes. The two Lazare Teper rows remain
+separate in one visible possible-duplicate group because their protected
+identifiers differ; the accepted Army bridge and employment evidence apply
+only to row 11.
+
+Edward A. Tenenbaum has a high-confidence Edward Adam Tenenbaum identity, with
+Yale student status and U.S. Army Air Forces service modeled separately rather
+than treated as a civilian employer. Helen B. Tenny has a probable Helen B.
+Tenney identity and a visibly qualified 1942 Short Wave Research-to-OSS
+sequence. Lazare Teper row 11 has high-confidence earlier employment as the
+ILGWU Research Department's founding director, while Ethel M. Terhaar has a
+probable University of Minnesota clerk-stenographer identity. Neither ILGWU
+nor Minnesota is promoted to an immediate predecessor. Four Army identities
+have qualified dated occupation categories without named employers. Fifteen
+other rows retain explicit Box 768 or 769 archival-review outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,676/23,936 (61.3135%)**;
+verified-employer coverage is **470/23,936 (1.9636%)**;
+verified-affiliation coverage is **1,044/23,936 (4.3616%)**; archival-review
+coverage is **13,150/23,936 (54.9382%)**. There are **9,255** not-started
+people, **642** possible-duplicate groups and **511** conflicts. Claim
+confidence counts are **1,654 confirmed**, **4,825 high**, **2,194 medium**,
+**252 low**, **427 conflicting** and **2 unresolved**. The public projection
+contains **3,467** affiliations, **1,207** organizations, **5,990** sources and
+**9,096** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 463, row
+24, **Henry W. Terrett**, in Box 769. See `research/batch-945-progress.md` for
+the source-by-source audit.
+
+Batch 945 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 576
+files with zero errors, warnings or hints and builds 25,191 static pages. The
+27/27 Batch 945 browser matrix and full 96/96 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication
+verification is recorded in `reports/release_batch_945.md`.
+
 Batch 944 completed PDF page 462, rows 24-46, from **Ivan M. Tchok** through
 **Harry M. Templeton**, preserving all 23 printed rows as separate people with
 terminal reviewed outcomes. Six Army identities have qualified dated
