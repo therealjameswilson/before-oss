@@ -73,4 +73,11 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Not yet published. A local build or commit is not publication.
+Batch 934 is public from immutable content commit
+`f536be6ca3a550d19923b62be057353405587158`. GitHub Actions Test run
+`40622815225` and Pages run `40622815166` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**124,513,765** bytes at manifest SHA-256
+`d96b51ccc78f7dcc9f3eb2eebfae893efb254ccaa4090848dca69fb0bf34f788`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.
