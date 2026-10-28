@@ -73,6 +73,11 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Publication is pending the content commit, GitHub Actions checks and an
-unauthenticated comparison of the deployed manifest, core routes, source
-register and 23 directly affected profiles.
+Batch 943 is public from immutable content commit
+`df9b88a261785e0548bce3c9747e97e8255b504e`. GitHub Actions Test run
+`40651451312` and Pages run `40651451255` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**125,850,623** bytes at manifest SHA-256
+`3fe6f6da4f0d43f7d655c82baca6b10449a3fa4906153447363f328823c1b5a4`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.

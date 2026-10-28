@@ -42,7 +42,11 @@ files with zero errors, warnings or hints and builds 25,189 static pages. The
 accessibility release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds.
-Publication verification remains pending; see `reports/release_batch_943.md`.
+The release is public from immutable content commit
+`df9b88a261785e0548bce3c9747e97e8255b504e`. GitHub Actions Test run
+`40651451312` and Pages run `40651451255` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 40 source-register pages and all 23
+directly affected profiles; see `reports/release_batch_943.md`.
 
 Batch 942 completed PDF page 461, rows 24-46, from **Bernard Tatz** through
 **Jeanne H. Taylor**, preserving all 23 printed rows as separate people with
