@@ -1,0 +1,1684 @@
+{
+  "bundle_version": "batch-947-v1",
+  "reviewer": "Before OSS Batch 947 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b947",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 770-771",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 464, rows 1-23; checked against layout-preserving text and a 300 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. The adjacent Thanos, Melvin E. Tharp and William A. Thayer rows remain unmerged. Costas A. Theodorou at row 24 was visually checked as the next boundary. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b947",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; nine reviewed Batch 947 candidates; protected identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row or full protected identifier is retained in public assets. Eight exact or suffix-variant identities were accepted. One unrelated Hucal record sharing William A. Thayer's private identifier was rejected as a direct name conflict. Code 999 is not interpreted or published."
+    },
+    {
+      "key": "army-tech-b947",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b947",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-174 and 304; reviewed historical categories 0-97, 3-06, 4-02, 4-33, 5-13, 6-88 and 9-92",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "All relevant pages were rendered and visually inspected. Students is status, not employment. Other historical labels are qualified and never converted into named employers."
+    },
+    {
+      "key": "state-history-thayer-b947",
+      "stable_url": "https://history.state.gov/departmenthistory/people/thayer-charles-wheeler",
+      "title": "Charles Wheeler Thayer (1910-1969)",
+      "author_creator": "Office of the Historian",
+      "repository_publisher": "United States Department of State",
+      "locator": "People directory entry; Career Foreign Service Officer; Afghanistan service through July 2, 1942",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Department History: People",
+      "rights_notes": "This official page supplies the expanded middle name, career Foreign Service status and dated Afghanistan assignment. It does not state an OSS transfer date."
+    },
+    {
+      "key": "frus-thayer-b947",
+      "stable_url": "https://history.state.gov/historicaldocuments/frus1944v04/d1312",
+      "archival_identifier": "Foreign Relations of the United States, 1944, Volume IV, document 1312",
+      "title": "Report by Major Charles W. Thayer of the Independent American Military Mission to Marshal Tito",
+      "author_creator": "Charles W. Thayer",
+      "repository_publisher": "Office of the Historian, United States Department of State",
+      "publication_record_date": "1944-11-04",
+      "locator": "Document 1312 and editor's footnote 91",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Foreign Relations of the United States",
+      "rights_notes": "The document identifies Thayer as a U.S. Army major leading the mission; the editorial note calls him a former Foreign Service Officer. It supports chronology but not an exact OSS transfer date."
+    },
+    {
+      "key": "london-gazette-thackthwaite-b947",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/37909/supplement/1313/data.pdf",
+      "archival_identifier": "The London Gazette, issue 37909, supplement, page 1313",
+      "title": "The London Gazette: Foreign Decorations",
+      "author_creator": "Central Chancery of the Orders of Knighthood",
+      "repository_publisher": "The London Gazette",
+      "publication_record_date": "1947-03-20",
+      "locator": "Supplement page 1313; Henry Hopkinson Augustus Thackthwaite, Royal Army Service Corps",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Official public record of the United Kingdom",
+      "rights_notes": "The official notice supplies Thackthwaite's expanded name, acting-major status and Royal Army Service Corps affiliation. The printed service number is not reproduced publicly here."
+    },
+    {
+      "key": "resistance-museum-thackthwaite-b947",
+      "stable_url": "https://www.museedelaresistanceenligne.org/media7626-Avion-britannique-Halifax-B-Mark-II",
+      "title": "Avion britannique Halifax B Mark II",
+      "author_creator": "Fondation de la Resistance; Musee de la Resistance en ligne",
+      "repository_publisher": "Musee de la Resistance en ligne",
+      "locator": "Union mission narrative; Captain Henri Thackthwaite, alias Procureur",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musee de la Resistance en ligne",
+      "rights_notes": "The institutional narrative identifies Thackthwaite as a British SOE member in the interallied Union mission with OSS officer Peter Ortiz and BCRA officer Camille Monnier."
+    },
+    {
+      "key": "resistance-museum-person-thackthwaite-b947",
+      "stable_url": "https://www.museedelaresistanceenligne.org/personnedetail.php?id=31553",
+      "title": "Henry Thackthwaite",
+      "author_creator": "Fondation de la Resistance; Musee de la Resistance en ligne",
+      "repository_publisher": "Musee de la Resistance en ligne",
+      "locator": "Person entry; SOE Section RF; Union I mission, January 6-May 3, 1944",
+      "access_date": "2026-10-28",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musee de la Resistance en ligne",
+      "rights_notes": "Used for mission dates and SOE section context. The entry is not treated as evidence that this British officer became a U.S. OSS employee."
+    },
+    {
+      "key": "mvr-thackthwaite-b947",
+      "stable_url": "https://mvr.asso.fr/thackthwaite/",
+      "title": "Henry Hopkinson Augustus Thackthwaite, Procureur",
+      "author_creator": "Memoire et Resistance en Vercors",
+      "repository_publisher": "Memoire et Resistance en Vercors",
+      "locator": "Biographical chronology; prewar translator and teacher; British Army and SOE service",
+      "access_date": "2026-10-28",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Biographical histories of the Resistance in the Vercors",
+      "rights_notes": "Used as a qualified secondary chronology and occupation lead. It cites the 1939 register and official records but does not name a civilian employer."
+    },
+    {
+      "key": "assessment-staff-theaman-b947",
+      "stable_url": "https://wellcomecollection.org/works/z9va5p3c",
+      "archival_identifier": "Wellcome Collection b32174317; Assessment of Men: Selection of Personnel for the Office of Strategic Services",
+      "title": "Assessment of Men: Selection of Personnel for the Office of Strategic Services",
+      "author_creator": "Office of Strategic Services Assessment Staff",
+      "repository_publisher": "Rinehart and Company; digital copy hosted by Wellcome Collection",
+      "publication_record_date": "1948",
+      "locator": "Printed pages v-vi; IIIF images b32174317_0011.jp2 and b32174317_0012.jp2",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Wellcome Collection digitized books",
+      "rights_notes": "The original OSS staff roster prints Milton Theaman, M.S., 2nd Lt., station S. The preceding page defines S as Fairfax, Virginia and the dagger as final-research, composition or first-draft participation. No parenthetical pre-government institution is printed for him."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "department-of-state-b947",
+      "organization_id": "4d2fbb5f-218d-5445-b7b3-4c2fd22f0286",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": [
+        "U.S. Department of State",
+        "Foreign Service"
+      ],
+      "organization_type": "federal government department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Existing Department of State organization reused. Charles W. Thayer's Foreign Service assignment is government service, not a private-sector employer."
+    },
+    {
+      "key": "special-operations-executive-b947",
+      "organization_id": "b917eced-da73-5c67-8579-3fdacb16a31a",
+      "canonical_name": "Special Operations Executive",
+      "historical_name": "Special Operations Executive",
+      "aliases": [
+        "SOE",
+        "SOE Section RF"
+      ],
+      "organization_type": "British wartime government organization",
+      "sector": "federal_government",
+      "country": "United Kingdom",
+      "active_dates": "1940-1946",
+      "normalization_notes": "Existing organization reused. Henry Thackthwaite remained a British SOE officer serving in an interallied mission with OSS; the record does not recast him as a U.S. employee."
+    },
+    {
+      "key": "royal-army-service-corps-b947",
+      "canonical_name": "Royal Army Service Corps",
+      "historical_name": "Royal Army Service Corps",
+      "aliases": [
+        "RASC"
+      ],
+      "organization_type": "British Army corps",
+      "sector": "military",
+      "country": "United Kingdom",
+      "active_dates": "1888-1965",
+      "normalization_notes": "Kept distinct from the Special Operations Executive. The official Gazette identifies Thackthwaite with the Royal Army Service Corps."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "travis-h-thames-row6-occupation-b947",
+      "person_id": "99367b41-0a3e-5c62-aef5-3104871326bd",
+      "occupation": "general farmer",
+      "relationship_type": "employment",
+      "end_date": "1943-02-23",
+      "date_precision": "Historical civilian-occupation code 306 was recorded at Army entry on 1943-02-23; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "spiro-thanas-row7-occupation-b947",
+      "person_id": "0cd1511a-436c-5194-8cb8-8fc06f3704f2",
+      "occupation": "skilled occupation in manufacture of miscellaneous products",
+      "relationship_type": "employment",
+      "end_date": "1943-08-31",
+      "date_precision": "Historical civilian-occupation code 513 was recorded at Army entry on 1943-08-31; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "william-j-thanos-row8-occupation-b947",
+      "person_id": "1c92d07c-cd55-5e30-b2a4-e08d875b4053",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-06-08",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-06-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "melvin-e-tharp-row11-occupation-b947",
+      "person_id": "7d9b1c4a-da89-520e-8cbf-5f710df54b6a",
+      "occupation": "manager or official, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-02-13",
+      "date_precision": "Historical civilian-occupation code 097 was recorded at Army entry on 1943-02-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "frank-a-thayer-row17-occupation-b947",
+      "person_id": "41a0b4c5-ff81-52f7-ae21-5bbaf74742ab",
+      "occupation": "skilled general woodworking occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-03-13",
+      "date_precision": "Historical civilian-occupation code 433 was recorded at Army entry on 1943-03-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "william-f-thayer-row20-occupation-b947",
+      "person_id": "c802b855-fe16-54cc-b66b-ddc1df2d6aaa",
+      "occupation": "skilled bakery-production occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-08-05",
+      "date_precision": "Historical civilian-occupation code 402 was recorded at Army entry on 1942-08-05; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "william-a-thayer-row22-occupation-b947",
+      "person_id": "85cf7aaf-41bb-520b-9b90-3eb782d0c1df",
+      "occupation": "semiskilled mechanical metal-treatment occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-01-12",
+      "date_precision": "Historical civilian-occupation code 688 was recorded at Army entry on 1942-01-12; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "henry-thackthwaite-soe-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "organization_key": "special-operations-executive-b947",
+      "organization_name_as_found": "British Special Operations Executive (SOE), Section RF",
+      "role_title": "Captain; Union interallied mission member; alias Procureur",
+      "relationship_type": "government_assignment",
+      "start_date": "1944-01-06",
+      "end_date": "1944-05-03",
+      "date_precision": "Institutional Resistance Museum records place Captain Thackthwaite of SOE Section RF in the Union mission from January 6 to May 3, 1944, alongside OSS and BCRA officers.",
+      "country": "United Kingdom and France",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is the best-supported source affiliation for his OSS-indexed interallied service. It does not imply that the British officer became a U.S. OSS employee."
+    },
+    {
+      "key": "henry-thackthwaite-rasc-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "organization_key": "royal-army-service-corps-b947",
+      "organization_name_as_found": "Royal Army Service Corps",
+      "role_title": "British Army officer; captain and later acting major",
+      "relationship_type": "military_assignment",
+      "start_date": "1939",
+      "date_precision": "A qualified secondary chronology places him in the British Army in 1939 and detached to SOE in 1943-1944; the official Gazette confirms the expanded name, acting-major rank and Royal Army Service Corps affiliation.",
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The 1939 start comes from the secondary chronology; the official Gazette independently establishes the exact person and corps."
+    },
+    {
+      "key": "henry-thackthwaite-occupation-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "occupation": "translator and teacher",
+      "relationship_type": "employment",
+      "end_date": "1939",
+      "date_precision": "The secondary Vercors chronology describes prewar work as a translator and teacher but names no employer and gives no exact employment dates.",
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation only. No school, translation agency or other employer is inferred."
+    },
+    {
+      "key": "charles-thayer-state-b947",
+      "person_id": "289cb16a-9b6f-5f3b-a998-3d93b87d9cd2",
+      "organization_key": "department-of-state-b947",
+      "organization_name_as_found": "Foreign Service",
+      "role_title": "Career Foreign Service officer; charge d'affaires ad interim in Afghanistan",
+      "relationship_type": "government_assignment",
+      "end_date": "1942-07-02",
+      "date_precision": "The official State Department biography dates his Kabul charge assignment through July 2, 1942; by November 1944 an official FRUS document identifies him as a U.S. Army major and former Foreign Service Officer.",
+      "country": "United States and Afghanistan",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "State/Foreign Service is the best-supported predecessor affiliation, but the sources do not state the exact transfer date or exclude an intervening Army assignment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-marcelen-j-tezak-row1-army-b947",
+      "person_id": "f9f222b7-721e-54fc-9bcd-e22ad431a59f",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Marcelen J Tezak is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 1; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-travis-h-thames-row6-army-b947",
+      "person_id": "99367b41-0a3e-5c62-aef5-3104871326bd",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Travis H Thames is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 6; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-travis-h-thames-row6-army-b947",
+      "person_id": "99367b41-0a3e-5c62-aef5-3104871326bd",
+      "affiliation_key": "travis-h-thames-row6-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-23, the record coded Travis H Thames's civilian occupation as General farmers.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 306; NARA's historical code list expands it to General farmers.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 306; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 172; historical category 3-06",
+          "excerpt_override": "General farmers"
+        }
+      ]
+    },
+    {
+      "key": "identity-spiro-thanas-row7-army-b947",
+      "person_id": "0cd1511a-436c-5194-8cb8-8fc06f3704f2",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Spiro Thanas is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 7; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-spiro-thanas-row7-army-b947",
+      "person_id": "0cd1511a-436c-5194-8cb8-8fc06f3704f2",
+      "affiliation_key": "spiro-thanas-row7-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-08-31, the record coded Spiro Thanas's civilian occupation as Skilled occupations in manufacture of miscellaneous products.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 513; NARA's historical code list expands it to Skilled occupations in manufacture of miscellaneous products.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 513; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 174; historical category 5-13",
+          "excerpt_override": "Skilled occupations in manufacture of miscellaneous products"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-j-thanos-row8-army-b947",
+      "person_id": "1c92d07c-cd55-5e30-b2a4-e08d875b4053",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed William J Thanos is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 8; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-j-thanos-row8-army-b947",
+      "person_id": "1c92d07c-cd55-5e30-b2a4-e08d875b4053",
+      "affiliation_key": "william-j-thanos-row8-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-08, William J Thanos was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 992; NARA's historical code list expands it to Students.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-melvin-e-tharp-row11-army-b947",
+      "person_id": "7d9b1c4a-da89-520e-8cbf-5f710df54b6a",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Melvin E Tharp is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 11; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-melvin-e-tharp-row11-army-b947",
+      "person_id": "7d9b1c4a-da89-520e-8cbf-5f710df54b6a",
+      "affiliation_key": "melvin-e-tharp-row11-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-13, the record coded Melvin E Tharp's civilian occupation as Managers and officials, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 097; NARA's historical code list expands it to Managers and officials, n.e.c..",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 097; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 171; historical category 0-97",
+          "excerpt_override": "Managers and officials, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-frank-a-thayer-row17-army-b947",
+      "person_id": "41a0b4c5-ff81-52f7-ae21-5bbaf74742ab",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Frank A Thayer is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, which prints the preserved suffix variant Frank A Thayer Jr.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier, aligned full name and a documented Jr. suffix variant.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 17; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frank-a-thayer-row17-army-b947",
+      "person_id": "41a0b4c5-ff81-52f7-ae21-5bbaf74742ab",
+      "affiliation_key": "frank-a-thayer-row17-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-13, the record coded Frank A Thayer's civilian occupation as Skilled general woodworking occupations, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 433; NARA's historical code list expands it to Skilled general woodworking occupations, n.e.c..",
+      "identity_match_assessment": "High confidence from a private nonshared identifier, aligned full name and a documented Jr. suffix variant.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 433; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 173; historical category 4-33",
+          "excerpt_override": "Skilled general woodworking occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-william-f-thayer-row20-army-b947",
+      "person_id": "c802b855-fe16-54cc-b66b-ddc1df2d6aaa",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed William F Thayer is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, which prints the preserved suffix variant William F Thayer Jr.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier, aligned full name and a documented Jr. suffix variant.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 20; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-f-thayer-row20-army-b947",
+      "person_id": "c802b855-fe16-54cc-b66b-ddc1df2d6aaa",
+      "affiliation_key": "william-f-thayer-row20-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-05, the record coded William F Thayer's civilian occupation as Skilled occupations in production of bakery products, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 402; NARA's historical code list expands it to Skilled occupations in production of bakery products, n.e.c..",
+      "identity_match_assessment": "High confidence from a private nonshared identifier, aligned full name and a documented Jr. suffix variant.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 402; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 173; historical category 4-02",
+          "excerpt_override": "Skilled occupations in production of bakery products, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-william-a-thayer-row22-army-b947",
+      "person_id": "85cf7aaf-41bb-520b-9b90-3eb782d0c1df",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed William A Thayer is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record, and the full name agrees exactly. A separate bulk record naming Hucal Julian S shared the private identifier but was explicitly rejected as a name conflict.",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for the matching source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 22; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-a-thayer-row22-army-b947",
+      "person_id": "85cf7aaf-41bb-520b-9b90-3eb782d0c1df",
+      "affiliation_key": "william-a-thayer-row22-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-12, the record coded William A Thayer's civilian occupation as Semiskilled occupations in mechanical treatment of metals, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 688; NARA's historical code list expands it to Semiskilled occupations in mechanical treatment of metals, n.e.c..",
+      "identity_match_assessment": "High confidence from a private nonshared identifier plus exact full-name agreement.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b947",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 688; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b947",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b947",
+          "locator_override": "PDF physical page 174; historical category 6-88",
+          "excerpt_override": "Semiskilled occupations in mechanical treatment of metals, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-thackthwaite-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Henry H. Thackthwaite is a high-confidence match to British officer Henry Hopkinson Augustus Thackthwaite, alias Procureur.",
+      "evidence_paraphrase": "The rare surname and matching first and middle initial align with the expanded official name; institutional Resistance records place him in an interallied mission with OSS.",
+      "identity_match_assessment": "High confidence from the rare exact indexed name pattern, expanded official name, British rank and explicit OSS-connected mission context.",
+      "temporal_assessment": "The sources establish wartime service and mission dates; the Box 770 file remains needed to document why the Allied officer appears in the U.S. personnel index.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile identifies him as British and Allied personnel and does not call him a U.S. OSS employee or agent.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 4"
+        },
+        {
+          "source_key": "london-gazette-thackthwaite-b947",
+          "locator_override": "Supplement page 1313; expanded name and Royal Army Service Corps"
+        },
+        {
+          "source_key": "resistance-museum-thackthwaite-b947",
+          "locator_override": "Union mission narrative; Captain Henri Thackthwaite, alias Procureur"
+        }
+      ]
+    },
+    {
+      "key": "immediate-henry-thackthwaite-soe-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "affiliation_key": "henry-thackthwaite-soe-b947",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Henry Thackthwaite's best-supported source affiliation for his OSS-indexed interallied work was the British Special Operations Executive, Section RF.",
+      "evidence_paraphrase": "The Resistance Museum identifies Captain Thackthwaite as a British SOE member in the Union mission with OSS officer Peter Ortiz and BCRA officer Camille Monnier.",
+      "identity_match_assessment": "High-confidence rare-name identity with aligned rank, alias, organization and explicit OSS-connected mission.",
+      "temporal_assessment": "Explicit assignment context from January to May 1944; this is an Allied source affiliation, not evidence of U.S. employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as the immediate source affiliation for an Allied mission participant; the qualification prevents conflating SOE and OSS.",
+      "sources": [
+        {
+          "source_key": "resistance-museum-thackthwaite-b947",
+          "locator_override": "Union mission narrative"
+        },
+        {
+          "source_key": "resistance-museum-person-thackthwaite-b947",
+          "locator_override": "SOE Section RF; Union I mission, January 6-May 3, 1944"
+        }
+      ]
+    },
+    {
+      "key": "military-henry-thackthwaite-rasc-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "affiliation_key": "henry-thackthwaite-rasc-b947",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Henry Thackthwaite served as a British Army officer in the Royal Army Service Corps before his SOE detachment.",
+      "evidence_paraphrase": "The official Gazette identifies his expanded name, acting-major rank and Royal Army Service Corps; the Vercors chronology places Army entry in 1939 and SOE detachment in 1943-1944.",
+      "identity_match_assessment": "High confidence from the expanded rare name, official corps record and compatible SOE chronology.",
+      "temporal_assessment": "The 1939-to-1943 sequence is supported by a qualified secondary chronology; the corps affiliation is independently official.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The military assignment is separate from both the unnamed prewar civilian work and the later SOE mission.",
+      "sources": [
+        {
+          "source_key": "london-gazette-thackthwaite-b947",
+          "locator_override": "Supplement page 1313"
+        },
+        {
+          "source_key": "mvr-thackthwaite-b947",
+          "support_type": "context_only",
+          "locator_override": "British Army entry and SOE-detachment chronology"
+        }
+      ]
+    },
+    {
+      "key": "occupation-henry-thackthwaite-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "affiliation_key": "henry-thackthwaite-occupation-b947",
+      "claim_type": "occupation",
+      "claim_text": "Before British Army service, Henry Thackthwaite was described as a translator and teacher; no civilian employer is named.",
+      "evidence_paraphrase": "The Vercors biographical chronology describes prewar work as a translator and teacher before British Army entry in 1939.",
+      "identity_match_assessment": "High-confidence person match from the rare expanded name and wartime service context.",
+      "temporal_assessment": "Documented as prewar occupation only; exact dates and employer remain unknown.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as qualified occupation evidence. No school, agency or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "mvr-thackthwaite-b947",
+          "locator_override": "Prewar occupation and 1939 Army-entry chronology"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-wheeler-thayer-b947",
+      "person_id": "289cb16a-9b6f-5f3b-a998-3d93b87d9cd2",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Charles W. Thayer is a high-confidence match to Foreign Service officer and U.S. Army Major Charles Wheeler Thayer.",
+      "evidence_paraphrase": "Official State Department pages align the exact indexed name, expanded middle name, Foreign Service career, Afghanistan assignment and 1944 major rank.",
+      "identity_match_assessment": "High confidence from exact full-name pattern, compatible officer rank, direct official chronology and distinctive wartime mission.",
+      "temporal_assessment": "The sources establish the person and a State-to-Army chronology; the Box 771 file is still needed for the exact OSS linkage and transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile uses official sources and does not infer a more specific OSS role than the indexed file establishes.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 16; protected identifier withheld"
+        },
+        {
+          "source_key": "state-history-thayer-b947",
+          "locator_override": "Career Foreign Service Officer; Afghanistan assignment"
+        },
+        {
+          "source_key": "frus-thayer-b947",
+          "locator_override": "Document 1312 and editor's footnote 91"
+        }
+      ]
+    },
+    {
+      "key": "immediate-charles-thayer-state-b947",
+      "person_id": "289cb16a-9b6f-5f3b-a998-3d93b87d9cd2",
+      "affiliation_key": "charles-thayer-state-b947",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Charles Wheeler Thayer's best-supported pre-OSS predecessor affiliation was the United States Foreign Service in the Department of State.",
+      "evidence_paraphrase": "The State biography calls him a career Foreign Service Officer and dates his Kabul charge assignment through July 2, 1942; FRUS later calls him a former Foreign Service Officer and Army major.",
+      "identity_match_assessment": "High-confidence exact identity from two official State Department records and the indexed officer row.",
+      "temporal_assessment": "Probable immediate predecessor: the official chronology brackets State service and later Army command but does not state the exact transfer date or exclude an intervening assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified government assignment, not a civilian-company employer and not an explicit recruitment-from claim.",
+      "sources": [
+        {
+          "source_key": "state-history-thayer-b947",
+          "locator_override": "Career Foreign Service Officer; charge d'affaires ad interim, Afghanistan, through July 2, 1942"
+        },
+        {
+          "source_key": "frus-thayer-b947",
+          "locator_override": "November 4, 1944 report; former Foreign Service Officer"
+        }
+      ]
+    },
+    {
+      "key": "identity-milton-theaman-b947",
+      "person_id": "748e62ad-1fcb-57da-9267-515ca36220c8",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Milton Theaman is a high-confidence match to the OSS Assessment Staff roster's Milton Theaman, M.S., second lieutenant, at Fairfax, Virginia.",
+      "evidence_paraphrase": "The original OSS volume prints the rare exact name with second-lieutenant rank and station code S; the preceding page defines S as Fairfax and the dagger's staff-work meaning.",
+      "identity_match_assessment": "High confidence from the rare exact name, officer-style index entry and direct original OSS staff roster.",
+      "temporal_assessment": "The roster proves wartime OSS staff service but prints no parenthetical pre-government institution and supplies no pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile publishes the direct identity and OSS staff context but retains an archival-review outcome for the unanswered pre-OSS question.",
+      "sources": [
+        {
+          "source_key": "nara-index-b947",
+          "locator_override": "PDF page 464 row 23; protected identifier withheld"
+        },
+        {
+          "source_key": "assessment-staff-theaman-b947",
+          "locator_override": "Printed pages v-vi; staff legend and Milton Theaman entry",
+          "excerpt_override": "Milton Theaman, M.S., 2nd Lt. S"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "d2783d4b-fe3b-560d-b190-f6f84e6de449",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William M Thabit, Box 770 and archive location 230/86/41/07. Exact-name and meaningful-variant searches produced only the index and unbridged genealogy or namesake leads.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c53ed20-1ce2-507d-a269-34b4bd9eb7ca",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Vera L Thacher, Box 770 and archive location 230/86/41/07. Exact-name and Thacher/Thatcher variant searches found no official, institutional or contemporary source connecting this row to OSS or a pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "403f4110-6b65-5ad9-9953-88cc025cc06e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Shelby Thames, Box 770 and archive location 230/86/41/07. Searches returned unrelated later people and unbridged genealogy leads; none matched the index identifiers or Box 770 context.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b07b5eb3-e214-51be-bf1f-74bab9fcec48",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert E Tharp, Box 771 and archive location 230/86/42/01. Several same-name military and obituary candidates lacked the private identifier, OSS context and a second corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bb719215-673f-594d-a912-d2b97c02d1b0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William G Tharp, Box 771 and archive location 230/86/42/01. Common-name military and directory candidates could not be connected to the indexed officer-style row or Box 771.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a6b1e854-e46e-504a-8d46-fca99c2da9fc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kathryn L Tharpe, Box 771 and archive location 230/86/42/01. Exact-name, obituary, institutional, directory and archival searches did not produce a reliable OSS identity or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "642defc6-04d1-5ac0-9662-e4a5c22454ff",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Herbert S Thatcher, Box 771 and archive location 230/86/42/01. A 1940 labor-law attorney named Herbert S. Thatcher is a plausible lead, but no source connects him to OSS, Box 771 or another indexed identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b925f995-0e43-5318-b36c-83627a67fe75",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Guy V Thayer, Box 771 and archive location 230/86/42/01. An unverified genealogy lead and several namesakes lacked an OSS, Box 771 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "11cb30b6-b205-5398-951d-25b488c3ca42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John O Thayer, Box 771 and archive location 230/86/42/01. A same-name Massachusetts man and directory leads lacked an OSS, Box 771 or protected-identifier bridge and were rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f9f222b7-721e-54fc-9bcd-e22ad431a59f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Marcelen J Tezak index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 770 to identify the immediate pre-OSS affiliation and last civilian employer. Army code 999 remains uninterpreted and is not published.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99367b41-0a3e-5c62-aef5-3104871326bd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Travis H Thames index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0cd1511a-436c-5194-8cb8-8fc06f3704f2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Spiro Thanas index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c92d07c-cd55-5e30-b2a4-e08d875b4053",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified William J Thanos index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review both adjacent same-name Box files together. Keep the source rows separate and do not transfer the accepted Army evidence to the other row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "william-thanos-page464-rows8-9-b947"
+    },
+    {
+      "person_id": "7d9b1c4a-da89-520e-8cbf-5f710df54b6a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Melvin E Tharp index row to the reviewed official Army record. The full name agrees exactly.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review both adjacent same-name Box files together. Keep the source rows separate and do not transfer the accepted Army evidence to the other row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "melvin-e-tharp-page464-rows10-11-b947"
+    },
+    {
+      "person_id": "41a0b4c5-ff81-52f7-ae21-5bbaf74742ab",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Frank A Thayer index row to the reviewed official Army record. The Army record preserves the suffix variant Frank A Thayer Jr.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Frank A Thayer Jr"
+      ]
+    },
+    {
+      "person_id": "c802b855-fe16-54cc-b66b-ddc1df2d6aaa",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified William F Thayer index row to the reviewed official Army record. The Army record preserves the suffix variant William F Thayer Jr.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army code into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "William F Thayer Jr"
+      ]
+    },
+    {
+      "person_id": "85cf7aaf-41bb-520b-9b90-3eb782d0c1df",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified William A Thayer index row to the reviewed official Army record. The full name agrees exactly. A separate Hucal Julian S bulk record sharing the private identifier was rejected as an unrelated name conflict.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review both adjacent same-name Box files together. Keep the source rows separate and do not transfer the accepted Army evidence to the other row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "william-a-thayer-page464-rows21-22-b947"
+    },
+    {
+      "person_id": "d8530779-7a9c-5320-b4f7-3da486e87dc4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints William Thanos without a protected identifier immediately after William J. Thanos with one. Name similarity and adjacency are insufficient to merge them; the accepted Army student record applies only to row 8.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "william-thanos-page464-rows8-9-b947",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both adjacent same-name Box 770 files together and compare identifiers, birth details, ranks and OSS assignments. Do not transfer evidence between rows.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "192eba0d-f4e2-5312-94bf-0296d77898ef",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 464 contains two separate Melvin E. Tharp rows with different protected identifiers and different indexed personnel styles. The accepted Army record applies only to row 11.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "melvin-e-tharp-page464-rows10-11-b947",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both adjacent same-name Box 770 files together and compare identifiers, birth details, ranks and OSS assignments. Do not transfer evidence between rows.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2865eae8-783c-5524-849e-5c4f981cf01f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints William A. Thayer without a protected identifier immediately before a separate protected William A. Thayer row. The accepted Army record and rejected Hucal collision apply only to row 22.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "possible_duplicate_group": "william-a-thayer-page464-rows21-22-b947",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both adjacent same-name Box 771 files together and compare identifiers, birth details, ranks and OSS assignments. Do not transfer evidence between rows.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare indexed name aligns with official expanded name Henry Hopkinson Augustus Thackthwaite, British Army rank and an institutional account of his SOE interallied mission with OSS officer Peter Ortiz.",
+      "name_variants": [
+        "Henry Hopkinson Augustus Thackthwaite",
+        "Henri Thackthwaite",
+        "Procureur"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 770 to document why the British SOE officer is indexed, verify the exact liaison status and identify any named prewar civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "289cb16a-9b6f-5f3b-a998-3d93b87d9cd2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official State Department records align indexed Charles W. Thayer with Charles Wheeler Thayer, a career Foreign Service Officer and later U.S. Army major in the Independent American Military Mission to Tito.",
+      "name_variants": [
+        "Charles Wheeler Thayer"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 771 to confirm the exact Foreign Service-to-Army/OSS transfer sequence and determine whether an intervening assignment occurred after July 2, 1942.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "748e62ad-1fcb-57da-9267-515ca36220c8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name and officer-style index entry align with the original OSS Assessment Staff roster's Milton Theaman, M.S., second lieutenant, at the Fairfax, Virginia station.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 771 to identify the immediate pre-OSS affiliation and last civilian employer. The staff roster prints no parenthetical pre-government institution for Theaman.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page464-row1-marcelen-j-tezak-b947",
+      "person_id": "f9f222b7-721e-54fc-9bcd-e22ad431a59f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marcelen J Tezak; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row2-william-m-thabit-b947",
+      "person_id": "d2783d4b-fe3b-560d-b190-f6f84e6de449",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William M Thabit; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and meaningful-variant searches produced only the index and unbridged genealogy or namesake leads. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row3-vera-l-thacher-b947",
+      "person_id": "4c53ed20-1ce2-507d-a269-34b4bd9eb7ca",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vera L Thacher; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name and Thacher/Thatcher variant searches found no official, institutional or contemporary source connecting this row to OSS or a pre-OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row4-henry-h-thackthwaite-b947",
+      "person_id": "a29532d6-9a7c-5f1e-b629-13b2e5b7b5ab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry H Thackthwaite; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Official and institutional sources identify the rare-name British Army officer, his SOE Section RF interallied mission and a qualified prewar translator-teacher occupation without a named employer. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row5-shelby-thames-b947",
+      "person_id": "403f4110-6b65-5ad9-9953-88cc025cc06e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shelby Thames; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Searches returned unrelated later people and unbridged genealogy leads; none matched the index identifiers or Box 770 context. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row6-travis-h-thames-b947",
+      "person_id": "99367b41-0a3e-5c62-aef5-3104871326bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Travis H Thames; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row7-spiro-thanas-b947",
+      "person_id": "0cd1511a-436c-5194-8cb8-8fc06f3704f2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Spiro Thanas; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row8-william-j-thanos-b947",
+      "person_id": "1c92d07c-cd55-5e30-b2a4-e08d875b4053",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Thanos; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row9-william-thanos-b947",
+      "person_id": "d8530779-7a9c-5320-b4f7-3da486e87dc4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Thanos; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name index row has different or missing protected identifiers. The rows remain separate and evidence is isolated to the bridged row. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row10-melvin-e-tharp-b947",
+      "person_id": "192eba0d-f4e2-5312-94bf-0296d77898ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Melvin E Tharp; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name index row has different or missing protected identifiers. The rows remain separate and evidence is isolated to the bridged row. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row11-melvin-e-tharp-b947",
+      "person_id": "7d9b1c4a-da89-520e-8cbf-5f710df54b6a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Melvin E Tharp; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row12-robert-e-tharp-b947",
+      "person_id": "b07b5eb3-e214-51be-bf1f-74bab9fcec48",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert E Tharp; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Several same-name military and obituary candidates lacked the private identifier, OSS context and a second corroborating identifier. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row13-william-g-tharp-b947",
+      "person_id": "bb719215-673f-594d-a912-d2b97c02d1b0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William G Tharp; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Common-name military and directory candidates could not be connected to the indexed officer-style row or Box 771. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row14-kathryn-l-tharpe-b947",
+      "person_id": "a6b1e854-e46e-504a-8d46-fca99c2da9fc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kathryn L Tharpe; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Exact-name, obituary, institutional, directory and archival searches did not produce a reliable OSS identity or employer bridge. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row15-herbert-s-thatcher-b947",
+      "person_id": "642defc6-04d1-5ac0-9662-e4a5c22454ff",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert S Thatcher; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A 1940 labor-law attorney named Herbert S. Thatcher is a plausible lead, but no source connects him to OSS, Box 771 or another indexed identifier. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row16-charles-w-thayer-b947",
+      "person_id": "289cb16a-9b6f-5f3b-a998-3d93b87d9cd2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles W Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "Two official State Department records establish Charles Wheeler Thayer's Foreign Service career, dated Kabul assignment and later U.S. Army major role; the exact transfer remains qualified. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row17-frank-a-thayer-b947",
+      "person_id": "41a0b4c5-ff81-52f7-ae21-5bbaf74742ab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank A Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row18-guy-v-thayer-b947",
+      "person_id": "b925f995-0e43-5318-b36c-83627a67fe75",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Guy V Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An unverified genealogy lead and several namesakes lacked an OSS, Box 771 or protected-identifier bridge. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row19-john-o-thayer-b947",
+      "person_id": "11cb30b6-b205-5398-951d-25b488c3ca42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John O Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "A same-name Massachusetts man and directory leads lacked an OSS, Box 771 or protected-identifier bridge and were rejected. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row20-william-f-thayer-b947",
+      "person_id": "c802b855-fe16-54cc-b66b-ddc1df2d6aaa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William F Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row21-william-a-thayer-b947",
+      "person_id": "2865eae8-783c-5524-849e-5c4f981cf01f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William A Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An adjacent same-name index row has different or missing protected identifiers. The rows remain separate and evidence is isolated to the bridged row. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row22-william-a-thayer-b947",
+      "person_id": "85cf7aaf-41bb-520b-9b90-3eb782d0c1df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William A Thayer; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and, where the code is interpretable, a dated historical occupation or student-status category; it does not name an employer or immediate OSS affiliation. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    },
+    {
+      "key": "page464-row23-milton-theaman-b947",
+      "person_id": "748e62ad-1fcb-57da-9267-515ca36220c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Milton Theaman; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 770-771; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_947",
+      "started_at": "2026-10-28T09:20:00Z",
+      "completed_at": "2026-10-28T10:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-tree assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned.",
+      "research_notes": "An original OSS Assessment Staff roster establishes the rare-name identity, second-lieutenant rank and Fairfax station, but prints no pre-government institution or employer. The index page and admitted Army, code-list, official or institutional pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b947-v1"
+    }
+  ]
+}
