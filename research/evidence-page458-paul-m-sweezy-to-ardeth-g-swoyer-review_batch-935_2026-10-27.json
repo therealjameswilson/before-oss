@@ -1,0 +1,1527 @@
+{
+  "bundle_version": "batch-935-v1",
+  "reviewer": "Before OSS Batch 935 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b935",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 761-762",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 458, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. The two Paul M Sweezy rows have different protected identifiers and are not merged."
+    },
+    {
+      "key": "army-bulk-b935",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted and one rejected Batch 935 identity candidates",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Accepted rows use nonshared protected-identifier matches. No raw bulk row or full identifier is public."
+    },
+    {
+      "key": "army-tech-b935",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only."
+    },
+    {
+      "key": "army-codes-b935",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170, 174 and 304; categories 011, 513, 699, 935 and amended 992 visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify neither a named employer nor workplace. Students is status, not employment."
+    },
+    {
+      "key": "sweezy-interview-b935",
+      "stable_url": "https://www.devrimcimarksizm.net/sites/default/files/sungur_savran_and_e._ahmet_tonak_an_interview_with_paul_sweezy.pdf",
+      "archival_identifier": "Interview conducted 1986-03-20; republished in Revolutionary Marxism 2025",
+      "title": "An Interview with Paul Sweezy",
+      "author_creator": "Sungur Savran and E. Ahmet Tonak; interviewee Paul M. Sweezy",
+      "repository_publisher": "Revolutionary Marxism; originally translated in Onbirinci Tez and later published in Monthly Review",
+      "publication_record_date": "1986 interview; 2025 republication",
+      "locator": "PDF pages 1-2, printed pages 287-290; footnote and first-person Harvard-Army-OSS chronology",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "harvard-crimson-sweezy-b935",
+      "stable_url": "https://www.thecrimson.com/article/1940/12/4/dunster-forum-discusses-economics-of-defense/",
+      "archival_identifier": "Harvard Crimson article, 1940-12-04",
+      "title": "Dunster Forum Discusses Economics of Defense Before Large Crowd",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1940-12-04",
+      "locator": "Article text; Paul M. Sweezy '32 identified as instructor in Economics",
+      "access_date": "2026-10-27",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Harvard Crimson archive",
+      "rights_notes": "Contemporary institutional newspaper used to corroborate the named Harvard role."
+    },
+    {
+      "key": "cia-swift-review-b935",
+      "stable_url": "https://www.cia.gov/resources/csi/static/675d915ae21817e698dfb5f08240f6a7/Swift-WhyVietnam.pdf",
+      "archival_identifier": "Studies in Intelligence 25, no. 2 (1981)",
+      "title": "Intelligence in Recent Public Literature: Why Vietnam? Prelude to America's Albatross",
+      "author_creator": "Carleton A. Swift",
+      "repository_publisher": "Center for the Study of Intelligence, Central Intelligence Agency",
+      "publication_record_date": "1981",
+      "locator": "PDF page 1, printed page 99; first-person November 1944 OSS entry and wartime assignments; PDF page 9 signature",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "The author line uses middle initial A while the index and family memorial use B/Byron. The discrepancy remains explicit."
+    },
+    {
+      "key": "cia-swift-anthology-b935",
+      "stable_url": "https://www.cia.gov/resources/csi/static/CIA-Wars-Southeast-Asia.pdf",
+      "archival_identifier": "Studies in Intelligence anthology, August 2016",
+      "title": "CIA and the Wars in Southeast Asia, 1947-75",
+      "author_creator": "Clayton D. Laurie and Andres Vaart",
+      "repository_publisher": "Center for the Study of Intelligence, Central Intelligence Agency",
+      "publication_record_date": "2016-08",
+      "locator": "PDF page 45, printed page 29; Carleton Swift identified as Patti's successor as chief of Hanoi Station",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence anthology",
+      "rights_notes": "Official institutional corroboration of the OSS identity and Hanoi assignment."
+    },
+    {
+      "key": "swift-memorial-b935",
+      "stable_url": "https://remembered.com/biography/cbs",
+      "archival_identifier": "Carleton Byron Swift memorial biography",
+      "title": "Carleton Byron Swift's Biography",
+      "repository_publisher": "Remembered.com",
+      "publication_record_date": "2012",
+      "locator": "Memorial biography paragraphs 1-2; Harvard, Swift and Co., Navy and OSS chronology",
+      "access_date": "2026-10-27",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Family memorial used with official CIA sources. The Swift and Co. employer claim remains medium-confidence and qualified."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "harvard-existing-b935",
+      "organization_id": "45ddf347-21c6-59f5-a8ae-517418adf941",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused."
+    },
+    {
+      "key": "army-existing-b935",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused."
+    },
+    {
+      "key": "navy-existing-b935",
+      "organization_id": "3960fa8e-a551-56cf-8305-b2b9e4961b9d",
+      "canonical_name": "United States Navy",
+      "historical_name": "United States Navy",
+      "aliases": [
+        "U.S. Navy",
+        "Navy"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused."
+    },
+    {
+      "key": "swift-company-b935",
+      "canonical_name": "Swift & Company",
+      "historical_name": "Swift and Co.",
+      "aliases": [
+        "Swift and Company",
+        "Swift & Co.",
+        "Swift and Co."
+      ],
+      "organization_type": "meatpacking company",
+      "sector": "business_and_industry",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "The family memorial's historical wording is preserved. No modern successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "paul-m-sweezy-row1-occupation-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "occupation": "College presidents, professors, and instructors",
+      "relationship_type": "employment",
+      "end_date": "1942-12-16",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "thomas-t-sweigart-row4-occupation-b935",
+      "person_id": "42e969fc-831d-5694-8def-3fa1ae9bc063",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1943-03-01",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "john-w-swensen-row7-occupation-b935",
+      "person_id": "5e771570-d7a2-5818-bc1b-d11f552dd40a",
+      "occupation": "Routemen",
+      "relationship_type": "employment",
+      "end_date": "1942-06-12",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "sigurd-m-swenson-row8-occupation-b935",
+      "person_id": "47405c7a-b8cb-518d-9c10-efe83bc67588",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1942-10-12",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "andrew-l-swider-row11-occupation-b935",
+      "person_id": "2ce271ea-ff12-53f1-b078-e4641e595135",
+      "occupation": "Occupations in manufacture of radios and phonographs",
+      "relationship_type": "employment",
+      "end_date": "1943-02-13",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "henry-r-swierat-row13-occupation-b935",
+      "person_id": "4c018d36-d9e1-54dc-8b94-79ff9bf1636d",
+      "occupation": "Occupations in manufacture of miscellaneous products",
+      "relationship_type": "employment",
+      "end_date": "1943-11-17",
+      "date_precision": "Army entry date; beginning and duration are not stated",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official historical category is tied to Army entry. It identifies no employer or workplace and is not promoted to an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "paul-sweezy-harvard-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "organization_key": "harvard-existing-b935",
+      "organization_name_as_found": "Harvard",
+      "role_title": "Assistant Professor of Economics",
+      "occupation": "economist and university teacher",
+      "relationship_type": "employment",
+      "end_date": "1942",
+      "date_precision": "Sweezy says he left Harvard in 1942 while on a five-year contract; exact day not stated",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Sweezy's first-person account explicitly places Harvard immediately before Army service; the Army then intervened before OSS."
+    },
+    {
+      "key": "paul-sweezy-army-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "organization_key": "army-existing-b935",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Private at entry; later taken into the intelligence apparatus",
+      "occupation": "military service",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-12-16",
+      "date_precision": "Army entry date is exact; transfer into OSS is explicit but undated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The official Army entry and Sweezy's first-person statement establish the Army-to-OSS pathway without inferring a transfer date."
+    },
+    {
+      "key": "carleton-swift-navy-b935",
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "organization_key": "navy-existing-b935",
+      "organization_name_as_found": "US Navy",
+      "role_title": "PT boat service in the South Pacific; later Lieutenant Commander",
+      "occupation": "naval officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1944-11",
+      "date_precision": "Swift's first-person account dates OSS entry to November 1944; exact Navy dates are not stated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The family memorial supplies the Navy-before-OSS sequence; Swift's CIA-hosted first-person review dates OSS entry and official CIA sources document his OSS rank and assignments."
+    },
+    {
+      "key": "carleton-swift-company-b935",
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "organization_key": "swift-company-b935",
+      "organization_name_as_found": "Swift and Co.",
+      "role_title": "Role not stated",
+      "occupation": "meatpacking-company employee",
+      "relationship_type": "employment",
+      "date_precision": "Brief employment after Harvard graduation in 1941 and before Navy service; exact dates not stated",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Best-supported last civilian employer before Navy service, but currently supported by a family memorial rather than a personnel or company record."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-paul-m-sweezy-row1-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul M Sweezy row 1 is a high-confidence match to an official Army record dated 1942-12-16.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved one-letter surname variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1942-12-16; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 1; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-12-16; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b935",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-paul-m-sweezy-row1-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "affiliation_key": "paul-m-sweezy-row1-occupation-b935",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-16, Paul M Sweezy was recorded in the historical category College presidents, professors, and instructors; no employer or workplace is identified.",
+      "evidence_excerpt": "College presidents, professors, and instructors",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 011, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Army entry 1942-12-16; civilian-occupation code 011; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b935",
+          "locator_override": "PDF physical page 170; historical category 0-11"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-t-sweigart-row4-b935",
+      "person_id": "42e969fc-831d-5694-8def-3fa1ae9bc063",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas T Sweigart row 4 is a high-confidence match to an official Army record dated 1943-03-01.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved one-letter surname variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1943-03-01; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 4; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-03-01; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b935",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-t-sweigart-row4-b935",
+      "person_id": "42e969fc-831d-5694-8def-3fa1ae9bc063",
+      "affiliation_key": "thomas-t-sweigart-row4-occupation-b935",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-01, Thomas T Sweigart was recorded in the historical category Students; no employer or workplace is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Army entry 1943-03-01; civilian-occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b935",
+          "locator_override": "PDF physical page 304; amended historical category 9-92"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-w-swensen-row7-b935",
+      "person_id": "5e771570-d7a2-5818-bc1b-d11f552dd40a",
+      "claim_type": "identity",
+      "claim_text": "The indexed John W Swensen row 7 is a high-confidence match to an official Army record dated 1942-06-12.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved one-letter surname variant. The Army file spells the surname Swenson; the indexed Swensen spelling remains primary.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1942-06-12; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 7; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-06-12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b935",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-w-swensen-row7-b935",
+      "person_id": "5e771570-d7a2-5818-bc1b-d11f552dd40a",
+      "affiliation_key": "john-w-swensen-row7-occupation-b935",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-12, John W Swensen was recorded in the historical category Routemen; no employer or workplace is identified.",
+      "evidence_excerpt": "Routemen",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 935, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Army entry 1942-06-12; civilian-occupation code 935; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b935",
+          "locator_override": "PDF physical page 174; historical category 7,9-35"
+        }
+      ]
+    },
+    {
+      "key": "identity-sigurd-m-swenson-row8-b935",
+      "person_id": "47405c7a-b8cb-518d-9c10-efe83bc67588",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sigurd M Swenson row 8 is a high-confidence match to an official Army record dated 1942-10-12.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved one-letter surname variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1942-10-12; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 8; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-10-12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b935",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-sigurd-m-swenson-row8-b935",
+      "person_id": "47405c7a-b8cb-518d-9c10-efe83bc67588",
+      "affiliation_key": "sigurd-m-swenson-row8-occupation-b935",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-12, Sigurd M Swenson was recorded in the historical category Students; no employer or workplace is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Army entry 1942-10-12; civilian-occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b935",
+          "locator_override": "PDF physical page 304; amended historical category 9-92"
+        }
+      ]
+    },
+    {
+      "key": "identity-andrew-l-swider-row11-b935",
+      "person_id": "2ce271ea-ff12-53f1-b078-e4641e595135",
+      "claim_type": "identity",
+      "claim_text": "The indexed Andrew L Swider row 11 is a high-confidence match to an official Army record dated 1943-02-13.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved one-letter surname variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1943-02-13; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 11; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-02-13; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b935",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-andrew-l-swider-row11-b935",
+      "person_id": "2ce271ea-ff12-53f1-b078-e4641e595135",
+      "affiliation_key": "andrew-l-swider-row11-occupation-b935",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-13, Andrew L Swider was recorded in the historical category Occupations in manufacture of radios and phonographs; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in manufacture of radios and phonographs",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 699, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Army entry 1943-02-13; civilian-occupation code 699; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b935",
+          "locator_override": "PDF physical page 174; historical category 4,6,8-99"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-r-swierat-row13-b935",
+      "person_id": "4c018d36-d9e1-54dc-8b94-79ff9bf1636d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry R Swierat row 13 is a high-confidence match to an official Army record dated 1943-11-17.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and the full name or a preserved one-letter surname variant.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier; the identifier itself is withheld.",
+      "temporal_assessment": "The Army record documents entry on 1943-11-17; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or workplace is inferred from the coded occupation field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 13; Box 761"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-11-17; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b935",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-henry-r-swierat-row13-b935",
+      "person_id": "4c018d36-d9e1-54dc-8b94-79ff9bf1636d",
+      "affiliation_key": "henry-r-swierat-row13-occupation-b935",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-11-17, Henry R Swierat was recorded in the historical category Occupations in manufacture of miscellaneous products; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in manufacture of miscellaneous products",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 513, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category is assigned only to the accepted protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical language is preserved and is not converted into a company, school, workplace or modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b935",
+          "locator_override": "Army entry 1943-11-17; civilian-occupation code 513; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b935",
+          "locator_override": "PDF physical page 174; historical category 5,7,9-13"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-paul-sweezy-harvard-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "affiliation_key": "paul-sweezy-harvard-b935",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Paul M. Sweezy's last civilian employer before Army service was Harvard University, where he taught economics.",
+      "evidence_excerpt": "on military leave from Harvard ... an Assistant Professor",
+      "evidence_paraphrase": "Sweezy said he left Harvard in 1942 for the Army while holding a five-year academic contract; a 1940 Crimson article identifies him as an economics instructor.",
+      "identity_match_assessment": "High confidence from the rare full name, exact protected-identifier Army bridge, 1942 entry date and matching professor category.",
+      "temporal_assessment": "Explicit civilian-to-Army sequence. Harvard is the last civilian employer, not the immediate pre-OSS affiliation because Army service intervened.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The separately printed second Paul M Sweezy row receives no copied claim.",
+      "sources": [
+        {
+          "source_key": "sweezy-interview-b935",
+          "locator_override": "PDF page 2, printed page 290; first-person Harvard-Army chronology"
+        },
+        {
+          "source_key": "harvard-crimson-sweezy-b935",
+          "support_type": "supports",
+          "locator_override": "Article text; instructor in Economics"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "support_type": "supports",
+          "locator_override": "Accepted Army identity record; 1942-12-16 entry; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "immediate-paul-sweezy-army-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "affiliation_key": "paul-sweezy-army-b935",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Paul M. Sweezy entered OSS from the U.S. Army.",
+      "evidence_excerpt": "taken from the Army into the intelligence apparatus",
+      "evidence_paraphrase": "Sweezy explicitly described moving from the Army into OSS; the official Army file dates entry to 16 December 1942.",
+      "identity_match_assessment": "High confidence from the exact name, nonshared protected identifier and matching academic occupation.",
+      "temporal_assessment": "Explicit immediate Army-to-OSS transition; the exact transfer date is not stated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army is modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "sweezy-interview-b935",
+          "locator_override": "PDF page 2, printed page 290; first-person Army-to-OSS statement"
+        },
+        {
+          "source_key": "army-bulk-b935",
+          "support_type": "supports",
+          "locator_override": "Accepted Army identity record; entry date and private grade; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-carleton-swift-b935",
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carleton B Swift is a high-confidence match to Carleton Byron Swift Jr., the naval officer who joined OSS in 1944 and served in China and Hanoi.",
+      "evidence_paraphrase": "The rare exact given and surname, Byron middle name, 1944 OSS entry, China service and Hanoi role align the index, family memorial, Swift's CIA-hosted first-person review and the CIA anthology.",
+      "identity_match_assessment": "High confidence, not confirmed: official CIA sources document the rare-name OSS officer, while the review author line uses middle initial A rather than indexed B/Byron.",
+      "temporal_assessment": "Swift's first-person review dates OSS entry to November 1944; the memorial places Navy service immediately before it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The middle-initial disagreement remains visible and requires Box 761 confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b935",
+          "locator_override": "PDF page 458 row 14; Box 761"
+        },
+        {
+          "source_key": "cia-swift-review-b935",
+          "locator_override": "PDF page 1 and signature on page 9; first-person OSS chronology"
+        },
+        {
+          "source_key": "cia-swift-anthology-b935",
+          "locator_override": "PDF page 45, printed page 29; Hanoi station role"
+        },
+        {
+          "source_key": "swift-memorial-b935",
+          "support_type": "supports",
+          "locator_override": "Memorial biography paragraphs 1-2"
+        }
+      ]
+    },
+    {
+      "key": "immediate-carleton-swift-navy-b935",
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "affiliation_key": "carleton-swift-navy-b935",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Carleton B. Swift Jr.'s immediate pre-OSS affiliation was the United States Navy.",
+      "evidence_excerpt": "then joined the US Navy ... In 1944, he joined the Office of Strategic Services",
+      "evidence_paraphrase": "The memorial explicitly sequences PT boat-related Navy service before OSS, while Swift's first-person CIA-hosted review dates OSS entry to November 1944 and identifies his subsequent assignments.",
+      "identity_match_assessment": "High confidence from the rare name and mutually consistent official OSS chronology, with the middle-initial discrepancy retained.",
+      "temporal_assessment": "Explicit Navy-to-OSS sequence; exact Navy dates are not stated.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The explicit transition is currently supplied by a family memorial; the Navy is not labeled a civilian employer, and the claim is excluded from default high-confidence analytics pending direct personnel or naval evidence.",
+      "sources": [
+        {
+          "source_key": "swift-memorial-b935",
+          "locator_override": "Memorial biography paragraph 2; Navy-to-OSS sequence"
+        },
+        {
+          "source_key": "cia-swift-review-b935",
+          "support_type": "supports",
+          "locator_override": "PDF page 1; November 1944 OSS entry and maritime assignment"
+        },
+        {
+          "source_key": "cia-swift-anthology-b935",
+          "support_type": "supports",
+          "locator_override": "PDF page 45; OSS Hanoi role"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-carleton-swift-company-b935",
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "affiliation_key": "carleton-swift-company-b935",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Carleton B. Swift Jr.'s best-supported last civilian employer before Navy service is Swift and Co., the family meatpacking business.",
+      "evidence_excerpt": "worked briefly for Swift and Co. ... and then joined the US Navy",
+      "evidence_paraphrase": "The family memorial explicitly places brief Swift and Co. employment between Harvard graduation and Navy service.",
+      "identity_match_assessment": "High-confidence identity through official OSS evidence and the rare full-name chronology.",
+      "temporal_assessment": "Strongly date-bounded as the last identified civilian employer before Navy service; exact employment dates are not stated.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified pending a personnel, company or contemporary directory record. Excluded from default high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "swift-memorial-b935",
+          "locator_override": "Memorial biography paragraph 2; employer-to-Navy chronology"
+        },
+        {
+          "source_key": "cia-swift-review-b935",
+          "support_type": "supports",
+          "locator_override": "PDF page 1; first-person 1944 OSS chronology"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8686bb8e-3b16-5aa2-bb72-bdd2e6a6f3aa",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row supplies Paul M Sweezy, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. This separately printed Paul M Sweezy row carries a different protected identifier from row 1; the Harvard and Army evidence is not transferred.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 761 Paul M Sweezy files together. The printed rows have different protected identifiers and must not be merged or share Harvard claims without direct file evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "possible-same-person-paul-m-sweezy-box-761"
+    },
+    {
+      "person_id": "c9b7d9f5-98f1-59a1-8e0a-8d643f54c836",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William H Sweezy, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, military, employment and obituary searches supplied no Box 761 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a2761d25-38eb-5bb3-adb5-888b7e86b976",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mildred M Sweiven, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no defensible OSS or Box 761 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b32bda9e-0f87-5349-8295-5eed630cf55e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James J Swensen, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and military searches supplied no two-identifier match for James J Swensen.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8754c3cd-4deb-59a1-bb64-a27660fc132c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Judith Swerdloff, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Genealogy-style Judith Swerdloff leads lacked an OSS, Box 761 or employment bridge and were not assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1f497093-a7d0-52a4-8850-62bacd564f87",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John W Swetish, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A 501st Parachute Infantry roster lead remains unassigned because no authoritative source establishes its relation to the Box 761 file or an OSS transition.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a3672823-a79c-5c58-b74e-71f94571ecf2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gertrude T Swidler, Box 761 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and employment searches supplied no defensible OSS or Box 761 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 761 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f9095d98-30c0-5d33-8bc6-480b69fee15c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frank R Swift, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name searches produced unrelated and unbridged namesakes; no Box 762 identity bridge was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b37cbcdc-c931-5136-902f-636a7dcd3881",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Helen G Swift, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Multiple Helen G Swift namesakes could not be distinguished from the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d28f5516-3542-5fb6-a6b9-6931d7b69c2d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John L Swift, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The short protected identifier and common name did not yield a defensible official-record match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "706ed1af-148d-5ea7-bd31-1cc6468955c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert S Swift, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The reviewed Army candidate was rejected because its surname and given name differ completely from Robert S Swift.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 to resolve Robert S Swift's identity. The different-name Army candidate was rejected and supplies no usable occupation evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6edd27e8-41b1-5b78-a5b9-71ad5f4e0b5b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Walter S Swift, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, military and obituary searches supplied no two-identifier match for Walter S Swift.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c8d7ec94-a521-5ca1-85c8-1908acdddb91",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard M Swinhart, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches supplied no defensible OSS or Box 762 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c92f224b-0f73-57c8-918a-b93ffe1fac0b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Marion A Swiss, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Searches for the exact indexed name returned unrelated uses of Swiss as a nationality and no person-specific bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b47f4bff-6090-505d-88d0-c4a89900d368",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alfred R Switgall, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A Ritchie Boys roster supplies the rare exact name but no protected identifier, OSS transition, employer or Box 762 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f77f5aea-ea0d-5cc6-8c5b-dc8c29ac1b4d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ardeth G Swoyer, Box 762 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, obituary, institutional and archival searches supplied no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 762 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review both Box 761 Paul M Sweezy files to confirm the exact Army-to-OSS transfer and explain the separately printed second identifier.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Paul M. Sweezy",
+        "Paul Marlor Sweezy"
+      ],
+      "possible_duplicate_group": "possible-same-person-paul-m-sweezy-box-761"
+    },
+    {
+      "person_id": "42e969fc-831d-5694-8def-3fa1ae9bc063",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e771570-d7a2-5818-bc1b-d11f552dd40a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links indexed John W Swensen to the Army record spelling John W Swenson. The one-letter surname difference remains visible and requires Box 761 confirmation.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "John W Swenson",
+        "John W. Swensen"
+      ]
+    },
+    {
+      "person_id": "47405c7a-b8cb-518d-9c10-efe83bc67588",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2ce271ea-ff12-53f1-b078-e4641e595135",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c018d36-d9e1-54dc-8b94-79ff9bf1636d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 761 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official CIA publications, Swift's first-person review and a family memorial align the rare Carleton Swift name, 1944 OSS entry, China and Hanoi assignments and Lieutenant Commander rank. The review author line's A middle initial differs from indexed B/Byron and remains explicit.",
+      "name_variants": [
+        "Carleton Byron Swift Jr.",
+        "Carleton B. Swift Jr.",
+        "Carleton A. Swift"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 761 and a Swift & Company personnel or contemporary directory source to confirm the middle initial, Navy transition and qualified company employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page458-row1-paul-m-sweezy-b935",
+      "person_id": "ead0d460-6fcd-51cd-a6d4-01862ecc82f8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul M Sweezy; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The official Army bridge, a first-person interview and a contemporary Harvard article establish a high-confidence identity, Harvard employment and an explicit Army-to-OSS pathway. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row2-paul-m-sweezy-b935",
+      "person_id": "8686bb8e-3b16-5aa2-bb72-bdd2e6a6f3aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul M Sweezy; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "This separately printed Paul M Sweezy row carries a different protected identifier from row 1; the Harvard and Army evidence is not transferred. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row3-william-h-sweezy-b935",
+      "person_id": "c9b7d9f5-98f1-59a1-8e0a-8d643f54c836",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Sweezy; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name OSS, military, employment and obituary searches supplied no Box 761 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row4-thomas-t-sweigart-b935",
+      "person_id": "42e969fc-831d-5694-8def-3fa1ae9bc063",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas T Sweigart; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row5-mildred-m-sweiven-b935",
+      "person_id": "a2761d25-38eb-5bb3-adb5-888b7e86b976",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mildred M Sweiven; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no defensible OSS or Box 761 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row6-james-j-swensen-b935",
+      "person_id": "b32bda9e-0f87-5349-8295-5eed630cf55e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James J Swensen; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and military searches supplied no two-identifier match for James J Swensen. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row7-john-w-swensen-b935",
+      "person_id": "5e771570-d7a2-5818-bc1b-d11f552dd40a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Swensen; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row8-sigurd-m-swenson-b935",
+      "person_id": "47405c7a-b8cb-518d-9c10-efe83bc67588",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sigurd M Swenson; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row9-judith-swerdloff-b935",
+      "person_id": "8754c3cd-4deb-59a1-bb64-a27660fc132c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Judith Swerdloff; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Genealogy-style Judith Swerdloff leads lacked an OSS, Box 761 or employment bridge and were not assigned. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row10-john-w-swetish-b935",
+      "person_id": "1f497093-a7d0-52a4-8850-62bacd564f87",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Swetish; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A 501st Parachute Infantry roster lead remains unassigned because no authoritative source establishes its relation to the Box 761 file or an OSS transition. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row11-andrew-l-swider-b935",
+      "person_id": "2ce271ea-ff12-53f1-b078-e4641e595135",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andrew L Swider; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row12-gertrude-t-swidler-b935",
+      "person_id": "a3672823-a79c-5c58-b74e-71f94571ecf2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gertrude T Swidler; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and employment searches supplied no defensible OSS or Box 761 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row13-henry-r-swierat-b935",
+      "person_id": "4c018d36-d9e1-54dc-8b94-79ff9bf1636d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry R Swierat; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence Army identity bridge and dated occupation-only evidence. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row14-carleton-b-swift-b935",
+      "person_id": "e9dc5d67-dbf5-51a9-8805-17111ba5b93e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carleton B Swift; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 761; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Official CIA sources and a family memorial establish a high-confidence identity and Navy pathway; Swift and Co. remains a qualified medium-confidence last civilian employer. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 761 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row15-frank-r-swift-b935",
+      "person_id": "f9095d98-30c0-5d33-8bc6-480b69fee15c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank R Swift; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name searches produced unrelated and unbridged namesakes; no Box 762 identity bridge was found. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row16-helen-g-swift-b935",
+      "person_id": "b37cbcdc-c931-5136-902f-636a7dcd3881",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Helen G Swift; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Multiple Helen G Swift namesakes could not be distinguished from the indexed person. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row17-john-l-swift-b935",
+      "person_id": "d28f5516-3542-5fb6-a6b9-6931d7b69c2d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Swift; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The short protected identifier and common name did not yield a defensible official-record match. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row18-robert-s-swift-b935",
+      "person_id": "706ed1af-148d-5ea7-bd31-1cc6468955c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert S Swift; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "The reviewed Army candidate was rejected because its surname and given name differ completely from Robert S Swift. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row19-walter-s-swift-b935",
+      "person_id": "6edd27e8-41b1-5b78-a5b9-71ad5f4e0b5b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter S Swift; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, military and obituary searches supplied no two-identifier match for Walter S Swift. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row20-richard-m-swinhart-b935",
+      "person_id": "c8d7ec94-a521-5ca1-85c8-1908acdddb91",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard M Swinhart; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name and spelling-variant searches supplied no defensible OSS or Box 762 identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row21-marion-a-swiss-b935",
+      "person_id": "c92f224b-0f73-57c8-918a-b93ffe1fac0b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marion A Swiss; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Searches for the exact indexed name returned unrelated uses of Swiss as a nationality and no person-specific bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row22-alfred-r-switgall-b935",
+      "person_id": "b47f4bff-6090-505d-88d0-c4a89900d368",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred R Switgall; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "A Ritchie Boys roster supplies the rare exact name but no protected identifier, OSS transition, employer or Box 762 bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    },
+    {
+      "key": "page458-row23-ardeth-g-swoyer-b935",
+      "person_id": "f77f5aea-ea0d-5cc6-8c5b-dc8c29ac1b4d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ardeth G Swoyer; NARA index and public Archives context; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 762; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_935",
+      "started_at": "2026-10-27T22:45:00Z",
+      "completed_at": "2026-10-28T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, genealogy-only assertions, modern people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress site-restricted exact-name checks produced no additional defensible person-specific result.",
+      "research_notes": "Exact-name, obituary, institutional and archival searches supplied no defensible identity bridge. The index page and official Army code-list pages were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 762 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b935-v1"
+    }
+  ]
+}

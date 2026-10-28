@@ -1,5 +1,48 @@
 # Research status
 
+Batch 935 completed PDF page 458, rows 1-23, from **Paul M. Sweezy**
+through **Ardeth G. Swoyer**, preserving all 23 printed rows as separate people
+with saved terminal research attempts. Six official Army identity bridges were
+accepted, one wholly different-name candidate was rejected, and no protected
+identifier is present in tracked evidence or public data.
+
+Paul M. Sweezy row 1 is a high-confidence identity with Harvard University
+published as his last civilian employer before Army service and the U.S. Army
+as his immediate pre-OSS affiliation. The separately printed second Paul M.
+Sweezy row remains separate and receives no copied Harvard or Army claim.
+Carleton B. Swift is a high-confidence identity, but the official `A` versus
+indexed `B`/Byron middle-initial discrepancy remains visible. His Navy-to-OSS
+and Swift and Co.-to-Navy chronologies are qualified medium-confidence claims,
+excluded from default high-confidence analytics pending direct file evidence.
+Six Army records preserve dated historical occupations or student status but
+do not identify employers or workplaces.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,449/23,936 (60.3651%)**;
+verified-employer coverage is **463/23,936 (1.9343%)**;
+verified-affiliation coverage is **1,024/23,936 (4.2781%)**; archival-review
+coverage is **12,922/23,936 (53.9856%)**. There are **9,482** not-started
+people, **632** possible-duplicate groups and **497** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,727 high**, **2,109 medium**,
+**252 low**, **419 conflicting** and **2 unresolved**. The public projection
+contains **3,366** affiliations, **1,186** organizations, **5,872** sources and
+**8,901** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 458, row
+24, **Edward D. Sybesma**, in Box 762. See `research/batch-935-progress.md` for
+the source-by-source audit.
+
+Batch 935 has passed evidence-schema validation, idempotent decision import,
+SQLite integrity and foreign-key checks, full ingest validation, derived export
+regeneration, coverage reporting, public-data redaction and the 200-profile
+structural audit. All 147 Python tests pass. Astro checks 566 files with zero
+errors, warnings or hints and builds 25,170 static pages. The 27/27 Batch 935
+browser matrix and full 96/96 bounded browser and accessibility release suite
+pass, as do the complete internal-link check, protected-identifier audit,
+checked-in public manifest, zero-vulnerability production dependency audit and
+two deterministic consecutive builds. Live deployment remains unverified until
+the immutable content commit passes GitHub Actions and the unauthenticated
+verifier; see `reports/release_batch_935.md`.
+
 Batch 934 completed PDF page 457, rows 24-46, from **James A. Sweatte**
 through **Frank L. Sweetser**, preserving all 23 printed rows as 23 separate
 people with saved terminal research attempts. Three official Army identity
