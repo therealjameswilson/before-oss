@@ -74,6 +74,15 @@ Date: 2026-10-28 America/New_York
 
 ## Publication verification
 
-Publication is pending the content commit, GitHub Actions checks and an
-unauthenticated comparison of the deployed manifest, core routes, source
-register and 23 directly affected profiles.
+Batch 944 is public from immutable content commit
+`89cd98fb87bbbb2d6c1eb13db9cc330239390baf`. GitHub Actions Test run
+`40655154269` and Pages run `40655154277` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**125,994,995** bytes at manifest SHA-256
+`6aa654b0a946c5127610ccf7d770fcb797174ad9dad2a505b2ceee4532ea481c`,
+plus eight core routes, 40 source-register pages and all 22 profiles changed
+by the Batch 944 evidence bundle. Lucille E. Temple's profile was unchanged
+because she already had a completed protocol outcome; her cohort route was
+verified separately at HTTP 200 with the correct indexed-name heading. The
+live statistics and oil-company category route also returned HTTP 200 and
+matched the committed Batch 944 counters.

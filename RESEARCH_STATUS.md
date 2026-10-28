@@ -42,7 +42,13 @@ files with zero errors, warnings or hints and builds 25,190 static pages. The
 accessibility release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds.
-Publication verification remains pending; see `reports/release_batch_944.md`.
+The release is public from immutable content commit
+`89cd98fb87bbbb2d6c1eb13db9cc330239390baf`. GitHub Actions Test run
+`40655154269` and Pages run `40655154277` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 40 source-register pages and all 22
+newly changed profiles; Lucille E. Temple's unchanged cohort profile and the
+live statistics and oil-company routes were verified separately at HTTP 200.
+See `reports/release_batch_944.md`.
 
 Batch 943 completed PDF page 462, rows 1-23, from **John F. Taylor** through
 **Francis M. Tchitcherine**, preserving all 23 printed rows as separate people
