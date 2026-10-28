@@ -39,11 +39,15 @@ with zero errors, warnings or hints and builds 25,194 static pages. The 18/18
 Batch 950 browser matrix and full 87/87 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. The immutable
-content commit, GitHub Actions results and unauthenticated deployed-release
-verification will be added after publication. Batches 947-949 are already
-public and retain their individual progress and release ledgers under
-`research/` and `reports/`.
+dependency audit and two deterministic consecutive builds. The release is
+public from immutable content commit
+`a1b10f04ec12f3cbcf5f7139f56271d7c2336972`; GitHub Actions Test run
+`40682100900` and Pages run `40682100833` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 950
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_950.md`. Batches 947-949 are also public and retain
+their individual progress and release ledgers under `research/` and
+`reports/`.
 
 Batch 946 completed PDF page 463, rows 24-46, from **Henry W. Terrett**
 through **Erika Teutsch**, preserving all 23 printed rows as separate people
