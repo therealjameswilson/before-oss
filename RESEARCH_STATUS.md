@@ -1,5 +1,49 @@
 # Research status
 
+Batch 939 completed PDF page 460, rows 1-23, from **Will S. Talbot** through
+**Yasuo Tanaka**, preserving all 23 printed rows as separate people with saved
+terminal research attempts. The Noboru Tamimoto and Noboru M. Tanimoto rows
+remain separate in a visible possible-duplicate group because the reviewed OSS
+travel order cannot determine which row represents Noboru Mori Tanimoto.
+
+Lucy Talcott is a high-confidence identity with the American School of
+Classical Studies at Athens published as her qualified last identified
+civilian employer before OSS; the exact transition remains unproved. Bruno A.
+Talevi and Bunliang Tamthai have explicit student pathways that are not
+misrepresented as employment. Bernard W. Tallaksen has a high-confidence 99th
+Infantry-to-OSS pathway. Bob and James Talmadge remain separate people with
+distinct Coast Guard roles in Operational Swimmer Group III. Jack Tamargo has
+a qualified Army-to-OSS counterintelligence pathway. Chuzo Tamotsu has a
+high-confidence OSS identity and qualified Federal Art Project employment,
+without claiming that the 1935-1937 role immediately preceded OSS. Fourteen
+other rows retain explicit Box 764 or 765 archival-review outcomes.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,541/23,936 (60.7495%)**;
+verified-employer coverage is **463/23,936 (1.9343%)**;
+verified-affiliation coverage is **1,031/23,936 (4.3073%)**; archival-review
+coverage is **13,014/23,936 (54.3700%)**. There are **9,390** not-started
+people, **636** possible-duplicate groups and **499** conflicts. Claim
+confidence counts are **1,652 confirmed**, **4,759 high**, **2,149 medium**,
+**252 low**, **420 conflicting** and **2 unresolved**. The public projection
+contains **3,406** affiliations, **1,198** organizations, **5,925** sources and
+**8,976** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 460, row
+24, **Jefferson M. Tancil**, in Box 765. See `research/batch-939-progress.md`
+for the source-by-source audit.
+
+Batch 939 passed evidence-schema validation, isolated import replay, canonical
+evidence import, SQLite integrity and foreign-key checks, full ingest
+validation, derived export regeneration, coverage reporting, public-data
+redaction and the 200-profile structural audit. All 147 Python tests pass.
+Astro checks 569 files with zero errors, warnings or hints and builds 25,182
+static pages. The 39/39 Batch 939 browser matrix and full 108/108 bounded
+browser and accessibility release suite pass, as do the complete internal-link
+check, protected-identifier audit, checked-in public manifest and zero-
+vulnerability production dependency audit. Publication verification will be
+recorded in `reports/release_batch_939.md` after GitHub Actions and the live
+unauthenticated verifier complete.
+
 Batch 938 completed PDF page 459, rows 24-46, from **John T. Takach**
 through **Max V. Talbot**, preserving all 23 printed rows as separate people
 with saved terminal research attempts. One official Army identity bridge was
