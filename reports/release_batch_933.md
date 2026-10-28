@@ -71,6 +71,12 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Pending. Local preparation is not publication. Record the immutable content
-commit, successful GitHub Actions Test and Pages runs, and unauthenticated live
-manifest and direct-profile verification here before calling Batch 933 public.
+Batch 933 is public from immutable content commit
+`80b5c06af657a5e612d836493b8291b22b53c3e8`. GitHub Actions Test run
+`40620080559` and Pages run `40620080566` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**124,398,240** bytes at manifest SHA-256
+`23baf53b2371dd3fcf39efe65182cace1f10bc711274e086394b08198ae007c2`,
+plus eight core routes, 40 source-register pages and all 24 directly affected
+profiles (the 23 page-457 people and the separately printed Fred S. Watson Jr.
+duplicate-cluster profile).

@@ -39,8 +39,11 @@ static pages. The 27/27 Batch 933 browser matrix and full 96/96 bounded browser
 and accessibility release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds. The
-release is locally prepared but **not yet verified public**; see
-`reports/release_batch_933.md`.
+release is public from immutable content commit
+`80b5c06af657a5e612d836493b8291b22b53c3e8`. GitHub Actions Test run
+`40620080559` and Pages run `40620080566` passed. The unauthenticated verifier
+matched all 67 assets, eight core routes, 40 source-register pages and all 24
+directly affected profiles; see `reports/release_batch_933.md`.
 
 Batch 932 completed PDF page 456, rows 24-46, from **Donald E. Sutcliffe**
 through **Betty H. Swadley**, preserving all 23 printed rows. Twenty-two newly

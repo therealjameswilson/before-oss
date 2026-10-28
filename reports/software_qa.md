@@ -1,6 +1,6 @@
 # Software QA
 
-Run: 2026-10-27 America/New_York, Batch 933 local release candidate. All
+Run: 2026-10-27 America/New_York, Batch 933 public release. All
 **147/147** Python tests pass; SQLite integrity, foreign-key, and
 522-page/23,978-row extraction checks pass; the deterministic 200-profile
 structural audit passes all seven checks. Astro checks 564 files with zero
@@ -14,7 +14,11 @@ full-number matches. The local verifier matches 67 assets / 124,398,240 bytes.
 Two builds reproduce output-tree SHA-256
 `6fd27bbae456666c3a76442a9b2608c11f85fd75b19281b8f99b59db2533914b`.
 The production dependency audit finds zero vulnerabilities. CI, Pages, and
-live verification are pending; see `reports/release_batch_933.md`.
+live verification pass for content commit
+`80b5c06af657a5e612d836493b8291b22b53c3e8`: Test run `40620080559` and Pages
+run `40620080566` succeeded, and the unauthenticated verifier matched 67 assets
+across 124,398,240 bytes, eight core routes, 40 source-register pages and all
+24 directly affected profiles. See `reports/release_batch_933.md`.
 
 Run: 2026-10-27 America/New_York, Batch 932 public release. All
 **147/147** Python tests pass; SQLite integrity, foreign-key, and
