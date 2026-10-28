@@ -80,6 +80,16 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Publication verification will be recorded after the immutable content commit
-passes GitHub Actions and the unauthenticated deployment matches the committed
-manifest and changed-profile set.
+- Batch 929 is public from immutable content commit
+  `d916c5457eb7a36117bc81fc718eed67e996c245`.
+- GitHub Actions Test run `40605841826` completed successfully, including the
+  147-test Python suite, committed-manifest verification, browser release suite
+  and public-identifier audit.
+- GitHub Pages run `40605841956` completed successfully.
+- The unauthenticated deployment verifier matched all 67 assets and
+  123,766,159 bytes to the committed manifest SHA-256
+  `ae94f77cb01fbc7c25f9b189e3538ddb6b2edec99d1cbb72b8804887eb9309ab`.
+  It also verified eight core routes, 39 source-register pages and all 23
+  profiles changed by the evidence bundle.
+- The live statistics asset reports the exact release-candidate counts above.
+  Public site: <https://therealjameswilson.github.io/before-oss/>.
