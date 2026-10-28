@@ -39,9 +39,11 @@ errors, warnings or hints and builds 25,170 static pages. The 27/27 Batch 935
 browser matrix and full 96/96 bounded browser and accessibility release suite
 pass, as do the complete internal-link check, protected-identifier audit,
 checked-in public manifest, zero-vulnerability production dependency audit and
-two deterministic consecutive builds. Live deployment remains unverified until
-the immutable content commit passes GitHub Actions and the unauthenticated
-verifier; see `reports/release_batch_935.md`.
+two deterministic consecutive builds. The release is public from immutable
+content commit `b2a6e636a685752a7058a063a354c83435e8cc95`. GitHub Actions
+Test run `40625697082` and Pages run `40625697010` passed. The unauthenticated
+verifier matched all 67 assets, eight core routes, 40 source-register pages and
+all 23 directly affected profiles; see `reports/release_batch_935.md`.
 
 Batch 934 completed PDF page 457, rows 24-46, from **James A. Sweatte**
 through **Frank L. Sweetser**, preserving all 23 printed rows as 23 separate

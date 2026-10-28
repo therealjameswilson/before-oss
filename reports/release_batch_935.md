@@ -72,6 +72,11 @@ Date: 2026-10-27 America/New_York
 
 ## Publication verification
 
-Pending the immutable content commit, GitHub Actions results and
-unauthenticated live manifest/profile verification. Local QA is not treated as
-publication.
+Batch 935 is public from immutable content commit
+`b2a6e636a685752a7058a063a354c83435e8cc95`. GitHub Actions Test run
+`40625697082` and Pages run `40625697010` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets across
+**124,650,026** bytes at manifest SHA-256
+`b401edff3cbee82214e7bf02f0888e19017e2115683a7d7db90ed92980846f25`,
+plus eight core routes, 40 source-register pages and all 23 directly affected
+profiles.
