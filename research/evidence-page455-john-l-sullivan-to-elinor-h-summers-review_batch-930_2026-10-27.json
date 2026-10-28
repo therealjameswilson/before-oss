@@ -1,0 +1,1346 @@
+{
+  "bundle_version": "batch-930-v1",
+  "reviewer": "Before OSS Batch 930 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b930",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 757-758",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 455, rows 24-46; checked against layout-preserving text and the rendered page image",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full identifiers remain private. Three John L Sullivan rows and the Richard E/Richard P Sullivan pair are not silently merged."
+    },
+    {
+      "key": "army-bulk-b930",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; five reviewed Batch 930 protected-identifier candidates",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record or full protected identifier is retained in public assets. Leo E Sullivan's 1946 entry is identity-only. Richard E/Richard P remains a published conflict."
+    },
+    {
+      "key": "army-tech-b930",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b930",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 173, 174 and 304; Batch 930 categories visually checked",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer nor workplace. The 1946 Leo E Sullivan category is not published as pre-OSS evidence."
+    },
+    {
+      "key": "nhhs-sulloway-finding-aid-b930",
+      "stable_url": "https://www.nhhistory.org/finding_aids/finding_aids/Sulloway_Alvah_Papers_2007.035.pdf",
+      "archival_identifier": "New Hampshire Historical Society collection 2007.035",
+      "title": "Guide to the Alvah Sulloway Papers, 1836-2006",
+      "author_creator": "Sandra Wheeler",
+      "repository_publisher": "New Hampshire Historical Society",
+      "publication_record_date": "2008",
+      "locator": "PDF physical pages 2-3; visually checked biographical chronology",
+      "access_date": "2026-10-27",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Alvah Sulloway Papers, 1836-2006",
+      "document_number": "2007.035",
+      "rights_notes": "The finding aid identifies the father's firm as Sulloway & Hollis, states that Alvah joined it after law school, and dates his OSS service to 1942-1945."
+    },
+    {
+      "key": "official-register-1943-b930",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-CS1-3497893fa707a7a3803ce15b4ac4e6ad/pdf/GOVPUB-CS1-3497893fa707a7a3803ce15b4ac4e6ad.pdf",
+      "archival_identifier": "GovInfo 10055624; printed page 301",
+      "title": "Official Register of the United States, 1943",
+      "author_creator": "United States Civil Service Commission",
+      "repository_publisher": "U.S. Government Publishing Office",
+      "publication_record_date": "1943",
+      "locator": "PDF physical page 319, printed page 301; Office of Strategic Services, Secretariat",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Official Register of the United States",
+      "rights_notes": "Visually checked. It lists Alvah W. Sulloway as Chief of the OSS Secretariat and does not identify a military rank."
+    },
+    {
+      "key": "berkeley-amache-leave-b930",
+      "stable_url": "https://digicoll.lib.berkeley.edu/record/174635/files/cubanc_35_1_01249806ta.pdf",
+      "archival_identifier": "BANC MSS 67/14 c, folder L2.15:2; record 174635; ark:/13030/k6zs33mg",
+      "title": "Japanese translation layouts (2 of 7)",
+      "author_creator": "United States War Relocation Authority",
+      "repository_publisher": "The Bancroft Library, University of California, Berkeley",
+      "publication_record_date": "July 1944",
+      "locator": "PDF physical page 85; Granada Pioneer leave list dated 20 July 1944, entries 3-4",
+      "access_date": "2026-10-27",
+      "source_quality": "A_direct_official",
+      "collection_name": "Japanese American Evacuation and Resettlement Records 1930-1974",
+      "document_number": "cubanc_35_1_01249806ta.pdf",
+      "rights_notes": "The federal record was visually checked. It documents involuntary confinement, indefinite leave and an OSS destination employer; no home address or family relationship is reproduced or inferred."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "sulloway-hollis-b930",
+      "canonical_name": "Sulloway & Hollis",
+      "historical_name": "Sulloway & Hollis",
+      "aliases": [
+        "his father's law firm"
+      ],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "Concord",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "active_dates": "Established before 1941; exact dates not fixed by the reviewed finding aid",
+      "normalization_notes": "The finding aid calls Frank J. Sulloway a founder and principal of Sulloway & Hollis, then states that Alvah joined his father's law firm. This supports the normalization without substituting a later firm name."
+    },
+    {
+      "key": "granada-relocation-center-b930",
+      "canonical_name": "Granada Relocation Center (Amache)",
+      "historical_name": "Granada Relocation Center",
+      "aliases": [
+        "Amache",
+        "Granada Pioneer"
+      ],
+      "organization_type": "federal wartime incarceration center",
+      "sector": "federal_government",
+      "city": "Granada",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "This was an incarceration site administered by the War Relocation Authority. The relationship is involuntary confinement, not employment, education or voluntary affiliation."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "leslie-f-sullivan-occupation-b930",
+      "person_id": "69aae1f4-cc49-5b26-86ba-5782f9ce687c",
+      "occupation": "Occupations in the manufacture of leather",
+      "relationship_type": "employment",
+      "end_date": "1941-01-25",
+      "date_precision": "Historical civilian-occupation code 859 was recorded at Army entry on 1941-01-25; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "thomas-j-sullivan-occupation-b930",
+      "person_id": "7c49fa2c-9da6-5134-8f26-c1e2dcbeb631",
+      "occupation": "Brick and stone masons, and tile setters",
+      "relationship_type": "employment",
+      "end_date": "1943-07-14",
+      "date_precision": "Historical civilian-occupation code 724 was recorded at Army entry on 1943-07-14; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "thomas-v-sullivan-occupation-b930",
+      "person_id": "aa513060-bc48-57e7-8260-caaa874a3bee",
+      "occupation": "Occupations in the manufacture of automobiles, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-11-30",
+      "date_precision": "Historical civilian-occupation code 902 was recorded at Army entry on 1942-11-30; no employer or workplace is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "alvah-sulloway-sulloway-hollis-b930",
+      "person_id": "eb928c89-4472-5038-98f9-78343042b846",
+      "organization_key": "sulloway-hollis-b930",
+      "organization_name_as_found": "his father's law firm",
+      "role_title": "lawyer",
+      "occupation": "attorney",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "The finding aid states that Sulloway graduated from Harvard Law School in 1941, then joined his father's law firm, and served in OSS from 1942 through 1945.",
+      "city": "Concord",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The chronology strongly bounds the firm as the immediate and last civilian employment before OSS service; the finding aid does not give an exact hire or separation day."
+    },
+    {
+      "key": "mercedes-sumi-amache-b930",
+      "person_id": "80542357-a72c-57b3-a590-b452b2827ba5",
+      "organization_key": "granada-relocation-center-b930",
+      "organization_name_as_found": "Granada Pioneer, Amache, Colorado",
+      "role_title": "incarcerated resident granted indefinite leave",
+      "relationship_type": "unknown",
+      "end_date": "1944-07-22",
+      "date_precision": "A federal leave list dated 20 July 1944 records departure for Washington, D.C. on 22 July and identifies the Office of Strategic Services as employer-to-be.",
+      "city": "Granada",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is an involuntary confinement status immediately before OSS employment, not employment by or voluntary affiliation with the center. No earlier civilian employer is identified."
+    },
+    {
+      "key": "shingo-sumi-amache-b930",
+      "person_id": "1b764b72-6166-56ed-8896-cea761979131",
+      "organization_key": "granada-relocation-center-b930",
+      "organization_name_as_found": "Granada Pioneer, Amache, Colorado",
+      "role_title": "incarcerated resident granted indefinite leave",
+      "relationship_type": "unknown",
+      "end_date": "1944-07-22",
+      "date_precision": "A federal leave list dated 20 July 1944 records departure for Washington, D.C. on 22 July and identifies the Office of Strategic Services as employer-to-be.",
+      "city": "Granada",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is an involuntary confinement status immediately before OSS employment, not employment by or voluntary affiliation with the center. No earlier civilian employer is identified."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-leo-e-sullivan-row27-b930",
+      "person_id": "3c6e6e5c-59a3-541b-8acd-51204243227c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Leo E Sullivan row is a high-confidence match to an official Army record dated 1946-01-31.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and exact full name.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and exact full name.",
+      "temporal_assessment": "The record dates Army entry to 31 January 1946, after OSS dissolution; it is identity and classification evidence only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld. The post-OSS occupation code is not published as pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 27; Box 757"
+        },
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; Army entry 1946-01-31; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-leslie-f-sullivan-row28-b930",
+      "person_id": "69aae1f4-cc49-5b26-86ba-5782f9ce687c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Leslie F Sullivan row is a high-confidence match to an official Army record dated 1941-01-25.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and exact full name.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and exact full name.",
+      "temporal_assessment": "The Army record documents entry on 1941-01-25; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 28; Box 757"
+        },
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; Army entry 1941-01-25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-j-sullivan-row34-b930",
+      "person_id": "7c49fa2c-9da6-5134-8f26-c1e2dcbeb631",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas J Sullivan row is a high-confidence match to an official Army record dated 1943-07-14.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and exact full name.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and exact full name.",
+      "temporal_assessment": "The Army record documents entry on 1943-07-14; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 34; Box 757"
+        },
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; Army entry 1943-07-14; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-v-sullivan-row35-b930",
+      "person_id": "aa513060-bc48-57e7-8260-caaa874a3bee",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas V Sullivan row is a high-confidence match to an official Army record dated 1942-11-30.",
+      "evidence_paraphrase": "The reviewed Army row agrees through a nonshared protected identifier and exact full name.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and exact full name.",
+      "temporal_assessment": "The Army record documents entry on 1942-11-30; it does not establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier is withheld from public data; no employer is inferred from the Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 35; Box 757"
+        },
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; Army entry 1942-11-30; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        }
+      ]
+    },
+    {
+      "key": "occupation-leslie-f-sullivan-b930",
+      "person_id": "69aae1f4-cc49-5b26-86ba-5782f9ce687c",
+      "affiliation_key": "leslie-f-sullivan-occupation-b930",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-01-25, Leslie F Sullivan was recorded in the historical occupation category Occupations in the manufacture of leather; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in the manufacture of leather",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 859, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 859; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b930",
+          "locator_override": "PDF physical page 173; historical category 8-59",
+          "excerpt_override": "Occupations in the manufacture of leather"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-j-sullivan-b930",
+      "person_id": "7c49fa2c-9da6-5134-8f26-c1e2dcbeb631",
+      "affiliation_key": "thomas-j-sullivan-occupation-b930",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-14, Thomas J Sullivan was recorded in the historical occupation category Brick and stone masons, and tile setters; no employer or workplace is identified.",
+      "evidence_excerpt": "Brick and stone masons, and tile setters",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 724, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 724; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b930",
+          "locator_override": "PDF physical pages 174 and 304; historical category 7-24",
+          "excerpt_override": "Brick and stone masons, and tile setters"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-v-sullivan-b930",
+      "person_id": "aa513060-bc48-57e7-8260-caaa874a3bee",
+      "affiliation_key": "thomas-v-sullivan-occupation-b930",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-30, Thomas V Sullivan was recorded in the historical occupation category Occupations in the manufacture of automobiles, not elsewhere classified; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in the manufacture of automobiles, not elsewhere classified",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 902, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Dated to Army entry; it does not establish an immediate pre-OSS affiliation or named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not a named employer, institution, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 902; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b930",
+          "locator_override": "PDF physical page 174; historical category 9-02",
+          "excerpt_override": "Occupations in the manufacture of automobiles, not elsewhere classified"
+        }
+      ]
+    },
+    {
+      "key": "richard-e-p-sullivan-conflict-b930",
+      "person_id": "f8fd70de-0878-51c3-a901-66c5f8104788",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard E Sullivan row shares a nonpublic identifier with an Army record for Richard P Sullivan; the middle-initial conflict is unresolved.",
+      "evidence_paraphrase": "The protected identifier agrees, but the official Army name conflicts with the index and also matches the adjacent identifier-free Richard P Sullivan row.",
+      "identity_match_assessment": "Conflicting. The identifier is strong evidence for the Richard E row, while the exact Army name points toward the adjacent Richard P row.",
+      "temporal_assessment": "The Army row records entry on 24 April 1943 and student code 992; neither is assigned as a settled fact until Box 757 resolves the name conflict.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both index rows remain separate. No middle initial is silently corrected and no occupation affiliation is published for either person.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 rows 32-33; two separate Richard E and Richard P Sullivan rows; Box 757"
+        },
+        {
+          "source_key": "army-bulk-b930",
+          "locator_override": "Conflicting reviewed identity record; name Richard P Sullivan; Army entry 1943-04-24; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; field definitions"
+        },
+        {
+          "source_key": "army-codes-b930",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 304; amended category 9-92 Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-alvah-w-sulloway-b930",
+      "person_id": "eb928c89-4472-5038-98f9-78343042b846",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alvah W Sulloway is a high-confidence match to Alvah Woodbury Sulloway, the lawyer documented in the OSS General Counsel's office and as Chief of its Secretariat.",
+      "evidence_paraphrase": "An institutional finding aid and the 1943 Official Register independently align the distinctive exact name, legal profession and OSS service.",
+      "identity_match_assessment": "High confidence from a distinctive exact name and two independent authoritative sources with explicit OSS roles.",
+      "temporal_assessment": "The finding aid dates OSS legal service to 1942-1945; the Official Register lists him in 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full middle-name variant is retained. The official register supports civilian rather than commissioned classification.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 37; Box 758"
+        },
+        {
+          "source_key": "nhhs-sulloway-finding-aid-b930",
+          "locator_override": "PDF physical pages 2-3; biographical chronology"
+        },
+        {
+          "source_key": "official-register-1943-b930",
+          "locator_override": "PDF physical page 319, printed page 301; OSS Secretariat"
+        }
+      ]
+    },
+    {
+      "key": "alvah-sulloway-immediate-law-firm-b930",
+      "person_id": "eb928c89-4472-5038-98f9-78343042b846",
+      "affiliation_key": "alvah-sulloway-sulloway-hollis-b930",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "After graduating from Harvard Law School in 1941, Alvah W Sulloway joined his father's Concord law firm, Sulloway & Hollis, before beginning OSS legal service in 1942.",
+      "evidence_excerpt": "Alvah then joined his father's law firm in Concord.",
+      "evidence_paraphrase": "The finding aid gives the firm relationship and adjacent 1941-1942 chronology, and identifies the father's firm as Sulloway & Hollis.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and independent official OSS register entry.",
+      "temporal_assessment": "Strongly date-bounded as the employment immediately between 1941 law-school graduation and 1942 OSS service; exact dates are not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as immediate pre-OSS employment with the date-bounded qualifier; no exact day or later firm name is inferred.",
+      "sources": [
+        {
+          "source_key": "nhhs-sulloway-finding-aid-b930",
+          "locator_override": "PDF physical pages 2-3; 1941 graduation, father's law firm, 1942-1945 OSS service"
+        },
+        {
+          "source_key": "official-register-1943-b930",
+          "support_type": "context_only",
+          "locator_override": "1943 official OSS Secretariat identity"
+        }
+      ]
+    },
+    {
+      "key": "alvah-sulloway-last-civilian-law-firm-b930",
+      "person_id": "eb928c89-4472-5038-98f9-78343042b846",
+      "affiliation_key": "alvah-sulloway-sulloway-hollis-b930",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Sulloway & Hollis is the best-supported last civilian employer before Alvah W Sulloway's OSS service.",
+      "evidence_paraphrase": "The institutional chronology places no intervening employer or military assignment between the Concord law firm and OSS service beginning in 1942.",
+      "identity_match_assessment": "High-confidence identity from distinctive name and explicit OSS legal roles.",
+      "temporal_assessment": "Strongly date-bounded, not an explicit 'recruited from' statement.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Kept separate from the immediate-affiliation claim even though the same employer satisfies both categories on current evidence.",
+      "sources": [
+        {
+          "source_key": "nhhs-sulloway-finding-aid-b930",
+          "locator_override": "PDF physical pages 2-3; consecutive 1941-1942 chronology"
+        }
+      ]
+    },
+    {
+      "key": "identity-mercedes-sumi-b930",
+      "person_id": "80542357-a72c-57b3-a590-b452b2827ba5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Mercedes Sumi is a high-confidence match to the person named in a federal Amache leave list whose employer-to-be was the Office of Strategic Services.",
+      "evidence_excerpt": "Employer to be Office of Strategic Services.",
+      "evidence_paraphrase": "The federal record names the exact distinctive person, departure date and OSS destination; Mercedes and Shingo appear together in both the leave list and adjacent index rows.",
+      "identity_match_assessment": "High confidence from the exact distinctive name, paired-name context, same dated OSS destination and adjacent Box 758 index placement.",
+      "temporal_assessment": "The leave list is dated 20 July 1944 and records departure for Washington on 22 July 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No family relationship is inferred. The source establishes impending civilian OSS employment but does not name a job title or earlier employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 40; Box 758"
+        },
+        {
+          "source_key": "berkeley-amache-leave-b930",
+          "locator_override": "PDF physical page 85; entry 3; 22 July 1944"
+        }
+      ]
+    },
+    {
+      "key": "mercedes-sumi-immediate-amache-b930",
+      "person_id": "80542357-a72c-57b3-a590-b452b2827ba5",
+      "affiliation_key": "mercedes-sumi-amache-b930",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before OSS employment, Mercedes Sumi was an incarcerated resident of Granada Relocation Center (Amache) and was granted indefinite leave to depart for Washington on 22 July 1944.",
+      "evidence_excerpt": "Employer to be Office of Strategic Services.",
+      "evidence_paraphrase": "The federal leave list directly links the end of Amache confinement to the dated Washington departure and OSS employment.",
+      "identity_match_assessment": "High confidence from the exact distinctive name and paired OSS transition evidence.",
+      "temporal_assessment": "Explicit immediate transition: leave for Washington on 22 July 1944, with OSS identified as employer-to-be.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The center relationship is involuntary confinement, not employment or a voluntary institutional affiliation. No earlier civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "berkeley-amache-leave-b930",
+          "locator_override": "PDF physical page 85; entry 3"
+        }
+      ]
+    },
+    {
+      "key": "identity-shingo-sumi-b930",
+      "person_id": "1b764b72-6166-56ed-8896-cea761979131",
+      "claim_type": "identity",
+      "claim_text": "The indexed Shingo Sumi is a high-confidence match to the person named in a federal Amache leave list whose employer-to-be was the Office of Strategic Services.",
+      "evidence_excerpt": "Employer to be Office of Strategic Services.",
+      "evidence_paraphrase": "The federal record names the exact distinctive person, departure date and OSS destination; Mercedes and Shingo appear together in both the leave list and adjacent index rows.",
+      "identity_match_assessment": "High confidence from the exact distinctive name, paired-name context, same dated OSS destination and adjacent Box 758 index placement.",
+      "temporal_assessment": "The leave list is dated 20 July 1944 and records departure for Washington on 22 July 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No family relationship is inferred. The source establishes impending civilian OSS employment but does not name a job title or earlier employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b930",
+          "locator_override": "PDF page 455 row 41; Box 758"
+        },
+        {
+          "source_key": "berkeley-amache-leave-b930",
+          "locator_override": "PDF physical page 85; entry 4; 22 July 1944"
+        }
+      ]
+    },
+    {
+      "key": "shingo-sumi-immediate-amache-b930",
+      "person_id": "1b764b72-6166-56ed-8896-cea761979131",
+      "affiliation_key": "shingo-sumi-amache-b930",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before OSS employment, Shingo Sumi was an incarcerated resident of Granada Relocation Center (Amache) and was granted indefinite leave to depart for Washington on 22 July 1944.",
+      "evidence_excerpt": "Employer to be Office of Strategic Services.",
+      "evidence_paraphrase": "The federal leave list directly links the end of Amache confinement to the dated Washington departure and OSS employment.",
+      "identity_match_assessment": "High confidence from the exact distinctive name and paired OSS transition evidence.",
+      "temporal_assessment": "Explicit immediate transition: leave for Washington on 22 July 1944, with OSS identified as employer-to-be.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The center relationship is involuntary confinement, not employment or a voluntary institutional affiliation. No earlier civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "berkeley-amache-leave-b930",
+          "locator_override": "PDF physical page 85; entry 4"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4de5a14f-5ca1-5267-b56e-eab157fe4939",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John W Sullivan, Box 757 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. The printed identifier has no accepted Army bulk match, and common-name results did not supply an independent Box 757 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 757 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6f6c6933-ea91-574f-afde-93c02d04e065",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary L Sullivan, Box 757 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Common-name results produced namesakes but no two-identifier bridge to the Box 757 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 757 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bd96d822-ef30-5b41-b9a7-830974f0dedf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Phillip B Sullivan, Box 757 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and variant searches found no source that linked this person to OSS context or a pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 757 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "46808238-ddda-5ac1-9686-48515565caec",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Phyllis A Sullivan, Box 757 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Common-name results produced namesakes but no two-identifier bridge to the Box 757 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 757 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c81aa01-870e-501f-ae9f-c54de01297c2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William H Sullivan, Box 757 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Common-name results produced no sufficiently specific identity bridge or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 757 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ceff069a-9287-5cf2-8109-339aeda1ed7a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Leonard Sultan, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. A same-name 1940 census-derived discovery lead lacked any OSS, protected-identifier or Box 758 bridge and was rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0ce88b2f-5413-5a46-b5f4-bccf37837d22",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alfred F Sumabat, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name, Philippine and transliteration searches produced no corroborating identity or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "79541560-3d33-5b65-8458-aa01f9d3e4b5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Helen P Summerlin, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Multiple same-name vital-record and genealogy leads lacked an OSS, identifier or Box 758 bridge and were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d9b876f4-34ba-5f11-907a-a645936912db",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charnelle H Summers, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches produced no reliable external identity or employment evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a466c051-eb38-5c1c-a190-eb1d19f29c28",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Donald B Summers, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Common-name results produced no two-identifier bridge to the Box 758 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ed415c3b-04a3-5806-9aea-33973ab8a08a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elinor H Summers, Box 758 and archive location, but staged official-register, CIA-site, OSS, employment, occupation, obituary, institutional, newspaper, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches produced no reliable external identity or employment evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3c6e6e5c-59a3-541b-8acd-51204243227c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record. The 1946 entry is post-OSS and therefore supports identity and personnel classification only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 757 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "69aae1f4-cc49-5b26-86ba-5782f9ce687c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 757 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7c49fa2c-9da6-5134-8f26-c1e2dcbeb631",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 757 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aa513060-bc48-57e7-8260-caaa874a3bee",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 757 for the immediate pre-OSS affiliation and a named employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cca2cffa-2270-5b47-9ef6-666706057b05",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Three separately printed John L Sullivan rows occur consecutively on page 455 with the same box and no visible identifier. Name and adjacency alone cannot establish duplication.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review all three Box 757 John L Sullivan files together for identifiers, cross-references and duplicate-file evidence before merging or assigning any external biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "11f41a4b-d7a5-52ca-bf54-f3295c8a213a"
+    },
+    {
+      "person_id": "1bf7a6a5-b2b8-575c-98c7-2c2dabd79a48",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Three separately printed John L Sullivan rows occur consecutively on page 455 with the same box and no visible identifier. Name and adjacency alone cannot establish duplication.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review all three Box 757 John L Sullivan files together for identifiers, cross-references and duplicate-file evidence before merging or assigning any external biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "11f41a4b-d7a5-52ca-bf54-f3295c8a213a"
+    },
+    {
+      "person_id": "f8fd70de-0878-51c3-a901-66c5f8104788",
+      "identity_status": "conflicting",
+      "identity_evidence": "A nonshared protected identifier links the index row to an Army record, but the index prints Richard E Sullivan and the Army record prints Richard P Sullivan; an adjacent index row separately prints Richard P Sullivan without an identifier.",
+      "name_variants": [
+        "Richard P Sullivan"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "94907ff1-0deb-5832-8707-2b8ea4b91890",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both Box 757 Richard Sullivan files and original index cards together to determine whether the identifier, middle initial or file association is erroneous before accepting the Army identity or student category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4efe4157-32eb-5ae0-a682-0a9219a23dd3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "This separately printed Richard P Sullivan row has no visible identifier, while the adjacent Richard E Sullivan row's nonpublic identifier matches an Army record named Richard P Sullivan.",
+      "name_variants": [
+        "Richard E Sullivan"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "94907ff1-0deb-5832-8707-2b8ea4b91890",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 757 Richard Sullivan files and original index cards together before merging, correcting an initial or assigning the Army record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "eb928c89-4472-5038-98f9-78343042b846",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact indexed name aligns with an institutional finding aid documenting OSS legal service and the 1943 Official Register's OSS Secretariat entry.",
+      "name_variants": [
+        "Alvah Woodbury Sulloway"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 758 for the exact recruitment or appointment date and any direct application or résumé confirming the 1941-1942 law-firm transition.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "80542357-a72c-57b3-a590-b452b2827ba5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A federal Amache leave list names Mercedes Sumi, dates her 22 July 1944 departure for Washington and identifies OSS as employer-to-be; she appears beside Shingo Sumi in both sources.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for her OSS position, exact start date and any civilian employer before wartime incarceration. No earlier employer is inferred from the leave list.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1b764b72-6166-56ed-8896-cea761979131",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A federal Amache leave list names Shingo Sumi, dates his 22 July 1944 departure for Washington and identifies OSS as employer-to-be; he appears beside Mercedes Sumi in both sources.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for his OSS position, exact start date and any civilian employer before wartime incarceration. No earlier employer is inferred from the leave list.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f726cb2f-798c-56a5-9112-cd287137b5d4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index directly prints Roy C Summerlin as 2nd Lt in Box 758, but exact-name, rank, official-register, CIA-site, obituary, institutional and archival searches found no defensible external identity bridge or employer.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 758 for branch, assignment, full identity and last civilian employer before military service. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page455-row24-john-l-sullivan-b930",
+      "person_id": "cca2cffa-2270-5b47-9ef6-666706057b05",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Three identical adjacent John L Sullivan rows remain separate and require joint Box 757 review before any external biography is assigned. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row25-john-l-sullivan-b930",
+      "person_id": "1bf7a6a5-b2b8-575c-98c7-2c2dabd79a48",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Three identical adjacent John L Sullivan rows remain separate and require joint Box 757 review before any external biography is assigned. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row26-john-w-sullivan-b930",
+      "person_id": "4de5a14f-5ca1-5267-b56e-eab157fe4939",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "The printed identifier has no accepted Army bulk match, and common-name results did not supply an independent Box 757 bridge. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row27-leo-e-sullivan-b930",
+      "person_id": "3c6e6e5c-59a3-541b-8acd-51204243227c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leo E Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence official Army identity bridge. The 1946 record is post-OSS and was not converted into pre-OSS evidence. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row28-leslie-f-sullivan-b930",
+      "person_id": "69aae1f4-cc49-5b26-86ba-5782f9ce687c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leslie F Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row29-mary-l-sullivan-b930",
+      "person_id": "6f6c6933-ea91-574f-afde-93c02d04e065",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary L Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Common-name results produced namesakes but no two-identifier bridge to the Box 757 person. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row30-phillip-b-sullivan-b930",
+      "person_id": "bd96d822-ef30-5b41-b9a7-830974f0dedf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Phillip B Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Exact-name and variant searches found no source that linked this person to OSS context or a pre-OSS affiliation. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row31-phyllis-a-sullivan-b930",
+      "person_id": "46808238-ddda-5ac1-9686-48515565caec",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Phyllis A Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Common-name results produced namesakes but no two-identifier bridge to the Box 757 person. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row32-richard-e-sullivan-b930",
+      "person_id": "f8fd70de-0878-51c3-a901-66c5f8104788",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard E Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "The protected identifier agrees but the middle initial conflicts with the Army record and an adjacent index row; the conflict remains public and unresolved. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row33-richard-p-sullivan-b930",
+      "person_id": "4efe4157-32eb-5ae0-a682-0a9219a23dd3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard P Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "The adjacent identifier conflict creates a possible duplicate or indexing error; this row remains separate pending joint file review. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row34-thomas-j-sullivan-b930",
+      "person_id": "7c49fa2c-9da6-5134-8f26-c1e2dcbeb631",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas J Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row35-thomas-v-sullivan-b930",
+      "person_id": "aa513060-bc48-57e7-8260-caaa874a3bee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas V Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A nonshared protected identifier supports a high-confidence official Army identity bridge. The dated occupation category names no employer or workplace. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row36-william-h-sullivan-b930",
+      "person_id": "4c81aa01-870e-501f-ae9f-c54de01297c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Sullivan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 757; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Common-name results produced no sufficiently specific identity bridge or reliable pre-OSS affiliation. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 757 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row37-alvah-w-sulloway-b930",
+      "person_id": "eb928c89-4472-5038-98f9-78343042b846",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alvah W Sulloway; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "An institutional finding aid and official register support a high-confidence identity and strongly date-bounded Sulloway & Hollis employment before OSS service. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row38-leonard-sultan-b930",
+      "person_id": "ceff069a-9287-5cf2-8109-339aeda1ed7a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leonard Sultan; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A same-name 1940 census-derived discovery lead lacked any OSS, protected-identifier or Box 758 bridge and was rejected. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row39-alfred-f-sumabat-b930",
+      "person_id": "0ce88b2f-5413-5a46-b5f4-bccf37837d22",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred F Sumabat; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Exact-name, Philippine and transliteration searches produced no corroborating identity or pre-OSS affiliation. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row40-mercedes-sumi-b930",
+      "person_id": "80542357-a72c-57b3-a590-b452b2827ba5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mercedes Sumi; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A federal Amache leave list explicitly connects involuntary confinement to a 22 July 1944 departure for OSS employment; it names no earlier civilian employer. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row41-shingo-sumi-b930",
+      "person_id": "1b764b72-6166-56ed-8896-cea761979131",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shingo Sumi; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "A federal Amache leave list explicitly connects involuntary confinement to a 22 July 1944 departure for OSS employment; it names no earlier civilian employer. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row42-helen-p-summerlin-b930",
+      "person_id": "79541560-3d33-5b65-8458-aa01f9d3e4b5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Helen P Summerlin; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Multiple same-name vital-record and genealogy leads lacked an OSS, identifier or Box 758 bridge and were rejected. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row43-roy-c-summerlin-b930",
+      "person_id": "f726cb2f-798c-56a5-9112-cd287137b5d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy C Summerlin; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "The index directly supports commissioned-officer classification, but no reliable external identity or employment source was found. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row44-charnelle-h-summers-b930",
+      "person_id": "d9b876f4-34ba-5f11-907a-a645936912db",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charnelle H Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable external identity or employment evidence. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row45-donald-b-summers-b930",
+      "person_id": "a466c051-eb38-5c1c-a190-eb1d19f29c28",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald B Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Common-name results produced no two-identifier bridge to the Box 758 person. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    },
+    {
+      "key": "page455-row46-elinor-h-summers-b930",
+      "person_id": "ed415c3b-04a3-5806-9aea-33973ab8a08a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elinor H Summers; NARA index and public Archives context; 1943 Official Register; CIA Reading Room site-restricted exact-name discovery; OSS and spelling variants; employer and occupation 1940; obituary, institutional, newspaper, Library of Congress and archival searches; Box 758; protected-identifier Army crosswalk where defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_930",
+      "started_at": "2026-10-27T20:00:00Z",
+      "completed_at": "2026-10-28T00:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, family-only assertions, modern profiles, postwar-only leads and sources without an OSS or Box-file bridge were not assigned. Grouped CIA Reading Room and Library of Congress exact-name checks returned no additional person-specific pre-OSS result. A Densho Names Registry check for the Sumi pair was blocked by source access and was not bypassed.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable external identity or employment evidence. The index, Sulloway, Amache, official-register and relevant Army code-list pages were visually checked where applicable. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA API call was made.",
+      "next_action": "Review Box 758 for corroborating identifiers and the immediate pre-OSS affiliation or last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b930-v1"
+    }
+  ]
+}

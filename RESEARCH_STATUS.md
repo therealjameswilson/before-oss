@@ -1,5 +1,49 @@
 # Research status
 
+Batch 930 completed PDF page 455, rows 24-46, from the second separately
+printed **John L Sullivan** row through **Elinor H Summers**, preserving all 23
+printed rows and linking them to 23 separate active people. All 23 now have
+saved terminal research outcomes. Four official Army identity bridges were
+accepted, and no protected identifier is present in the public projection.
+
+Alvah W. Sulloway is a high-confidence match to the Concord attorney whose
+father's firm, Sulloway & Hollis, immediately preceded his 1942-1945 OSS legal
+service. The firm is published, with a strongly date-bounded qualifier, as
+both his immediate affiliation and last civilian employer. A federal War
+Relocation Authority leave list documents Mercedes Sumi and Shingo Sumi leaving
+the Granada Relocation Center for OSS employment in Washington on 22 July
+1944. Their immediate status is modeled as involuntary confinement, not as
+employment by or voluntary affiliation with the center. Three other accepted
+Army findings name occupations but no employer. Three consecutive John L.
+Sullivan rows and the adjacent Richard E./Richard P. Sullivan conflict remain
+separate and visibly routed to joint archival review.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,337/23,936 (59.8972%)**;
+verified-employer coverage is **459/23,936 (1.9176%)**;
+verified-affiliation coverage is **1,017/23,936 (4.2488%)**; archival-review
+coverage is **12,810/23,936 (53.5177%)**. There are **9,594** not-started
+people, **630** possible-duplicate groups and **492** conflicts. Claim
+confidence counts are **1,650 confirmed**, **4,673 high**, **2,070 medium**,
+**252 low**, **414 conflicting** and **2 unresolved**. The public projection
+contains **3,309** affiliations, **1,168** organizations, **5,827** sources and
+**8,803** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 456, row 1,
+**Erwin Summers**, in Box 758. See `research/batch-930-progress.md` for the
+source-by-source audit.
+
+Batch 930 has passed evidence-schema validation, duplicate-safe canonical
+import, SQLite integrity and foreign-key checks, derived export regeneration,
+coverage reporting, public-data redaction and the 200-profile structural audit.
+All 147 Python tests pass. Astro checks 561 files with zero errors, warnings or
+hints and builds 25,151 static pages. The 30/30 Batch 930 browser matrix and
+the full 99/99 bounded browser and accessibility release suite pass, as do the
+complete internal-link check, protected-identifier audit, checked-in public
+manifest, zero-vulnerability production dependency audit and two deterministic
+consecutive builds. Publication verification will be added after GitHub Actions
+and the unauthenticated deployment verifier pass. See
+`reports/release_batch_930.md`.
+
 Batch 928 completed PDF page 454, rows 24-46, from **Donald B Sturtevant**
 through **Pearl E Sugerman**, preserving all 23 printed rows and linking them
 to 23 separate active people. All 23 now have saved terminal research outcomes.
