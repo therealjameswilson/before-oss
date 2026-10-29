@@ -1,5 +1,48 @@
 # Research status
 
+Batch 955 completed PDF page 468, rows 1-23, from **Arthur M Thurston**
+through **Aaron L Tietelbaum**, preserving all 23 printed rows and 22 people
+with saved terminal research outcomes. The two identical Philip D Tierney
+rows remain separate source records linked cautiously to one person.
+
+Arthur M Thurston has a high-confidence documented earlier government
+assignment as FBI legal attaché at the American Embassy in London on 18 August
+1943. It is not presented as an immediate pre-OSS affiliation or civilian
+employer because the transfer chronology is unproven. Nine accepted Army
+identity bridges carry qualified dated historical categories without named
+employers or workplaces. Twelve people retain explicit Box 777 or 778
+archival-review outcomes. A protected identifier conflict was rejected
+without transferring facts, no authenticated NARA Catalog API request was
+used, and no protected identifier appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,903/23,936 (62.2619%)**;
+verified-employer coverage is **472/23,936 (1.9719%)**;
+verified-affiliation coverage is **1,054/23,936 (4.4034%)**; archival-review
+coverage is **13,379/23,936 (55.8949%)**. There are **9,028** not-started
+people, **648** possible-duplicate groups and **514** conflicts. Claim
+confidence counts are **1,662 confirmed**, **4,916 high**, **2,260 medium**,
+**254 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,550** affiliations, **1,210** organizations, **6,058** sources
+and **9,263** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 468, row
+24, **Francis E Tifft**, in Box 778. See `research/batch-955-progress.md` for
+the source-by-source audit.
+
+Batch 955 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 586
+files with zero errors, warnings or hints and builds 25,195 static pages. The
+21/21 Batch 955 browser matrix and full 90/90 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication is
+pending GitHub Actions, Pages deployment and unauthenticated live verification;
+local success is not being represented as public release. Full local evidence
+is recorded in `reports/release_batch_955.md`.
+
 Batch 954 completed PDF page 467, rows 24-46, from **George Thornton**
 through **Walter H Thurn**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes. Eleven accepted Army identity bridges
