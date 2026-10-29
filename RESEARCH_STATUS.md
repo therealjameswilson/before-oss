@@ -40,10 +40,13 @@ files with zero errors, warnings or hints and builds 25,195 static pages. The
 24/24 Batch 953 browser matrix and full 93/93 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. Publication is
-pending the immutable content commit, GitHub Test and Pages workflows, and
-unauthenticated live verification; `reports/release_batch_953.md` records the
-release gate.
+dependency audit and two deterministic consecutive builds. The release is
+public from immutable content commit
+`540d9ac6c8694e810842350eaafca1fd1a3be407`; GitHub Actions Test run
+`40810326498` and Pages run `40810326431` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 953
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_953.md`.
 
 Batch 952 completed PDF page 466, rows 24-46, from **Janet F Thompson**
 through **Theodore J Thompson**, preserving all 23 printed rows as separate
