@@ -1,5 +1,52 @@
 # Research status
 
+Batch 957 completed PDF page 469, rows 1-23, from **George S Tinlakos**
+through **Bentley Tobin**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Calvin L Tinney has confirmed Mutual Broadcasting System employment before
+active Army duty. Vladimir P Timoshenko has a qualified continuing Stanford
+University Food Research Institute affiliation during wartime OSS consulting.
+Mischa Titiev has a confirmed University of Michigan civilian role and a
+separate immediate Army training-program pathway. Roy Titus has confirmed
+Helena Rubinstein, Inc. employment before and after OSS without projecting
+later executive titles backward. George S Tinlakos/Tiniakos has a qualified
+merchant-marine and Army pathway but no inferred ship, line or employer.
+Laurence A Tisch and Joseph M Tobari retain student pathways that are not
+counted as employers. Abraham J Tobias has separate earlier civilian and
+immediate military art assignments. The two Carl Tjerandsen rows remain
+separate; only row 19 receives the supported biography claims. Twelve
+unresolved people retain Box 779 archival-review outcomes. No authenticated
+NARA Catalog API request was used, and no protected identifier appears in the
+public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,949/23,936 (62.4540%)**;
+verified-employer coverage is **478/23,936 (1.9970%)**;
+verified-affiliation coverage is **1,067/23,936 (4.4577%)**; archival-review
+coverage is **13,425/23,936 (56.0871%)**. There are **8,982** not-started
+people, **649** possible-duplicate groups and **514** conflicts. Claim
+confidence counts are **1,674 confirmed**, **4,947 high**, **2,274 medium**,
+**254 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,581** affiliations, **1,217** organizations, **6,088** sources
+and **9,320** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 469, row
+24, **Gordon R Tobin**, in Box 779. See `research/batch-957-progress.md` for
+the source-by-source audit.
+
+Batch 957 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, extraction validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 588
+files with zero errors, warnings or hints and builds 25,202 static pages. The
+24/24 Batch 957 browser matrix and full 93/93 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-identifier
+audit, checked-in public manifest, zero-vulnerability production dependency
+audit and two deterministic consecutive builds. Publication verification will
+be recorded after GitHub Actions and the unauthenticated live-site comparison
+complete.
+
 Batch 956 completed PDF page 468, rows 24-46, from **Francis E Tifft**
 through **Paul Tinken**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.

@@ -1,0 +1,2578 @@
+{
+  "bundle_version": "batch-957-v1",
+  "reviewer": "Before OSS Batch 957 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b957",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 778-779",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 469, rows 1-23; checked against layout-preserving text and a 220 dpi page render",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": null,
+      "rights_notes": "All 23 printed rows remain separate. Printed Tinlakos, Tinmoshenko and Timonthy spellings are preserved; private identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b957",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight Batch 957 candidates reviewed; private identifiers withheld",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Eight reviewed identity leads were accepted. No raw bulk row, response payload or full protected identifier enters public assets."
+    },
+    {
+      "key": "army-tech-b957",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, identifier, DD/MM/YY Army-entry-date and occupation fields",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "army-codes-b957",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-172 and amended page 304; eight reviewed historical categories",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": null,
+      "rights_notes": "Historical categories are qualified and never converted into named employers, workplaces, institutions or exact modern job titles."
+    },
+    {
+      "key": "after-battle-tiniakos-b957",
+      "stable_url": "https://dokumen.pub/after-the-battle-behind-the-scenes-with-the-oss-in-greece-186.html",
+      "archival_identifier": null,
+      "title": "Behind the Lines with the OSS in Greece",
+      "author_creator": "Robert E. Perdue, Jr.; edited by Karel Margry",
+      "repository_publisher": "After the Battle, no. 186",
+      "publication_record_date": "2019",
+      "locator": "Issue pages 5, 10 and 24; George S. Tiniakos biography and Operational Group II roster",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "After the Battle, number 186",
+      "document_number": null,
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained; the full copyrighted issue is not republished."
+    },
+    {
+      "key": "us-war-memorials-tiniakos-b957",
+      "stable_url": "https://www.uswarmemorials.org/html/monument_details.php?MemID=1865&SiteID=1414&file=monument_details.php&page=4",
+      "archival_identifier": null,
+      "title": "Greek Operational Group (OSS) Soldier Monument",
+      "author_creator": null,
+      "repository_publisher": "American War Memorials Overseas, Inc.",
+      "publication_record_date": "monument dedicated 2005-05-26",
+      "locator": "Monument history and plaque roster naming George S. Tiniakos",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Athens Hellenic Army ALSOS Park memorial database",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "stanford-timoshenko-b957",
+      "stable_url": "https://ageconsearch.umn.edu/record/136771/files/fris-1965-05-03-383.pdf",
+      "archival_identifier": null,
+      "title": "Memorial Resolution: Vladimir P. Timoshenko, 1885-1965",
+      "author_creator": "Joseph S. Davis; Edward S. Shaw; Helen C. Farnsworth",
+      "repository_publisher": "Stanford University Food Research Institute; AgEcon Search",
+      "publication_record_date": "1965",
+      "locator": "PDF physical pages 1-2; permanent Stanford staff and wartime OSS consultant chronology",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Food Research Institute Studies memorial resolutions",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "broadcasting-tinney-b957",
+      "stable_url": "https://www.worldradiohistory.com/Archive-BC/BC-1943/1943-09-27-BC.pdf",
+      "archival_identifier": null,
+      "title": "Tinney to Army",
+      "author_creator": "Broadcasting Publications, Inc.",
+      "repository_publisher": "Broadcasting and Broadcast Advertising; World Radio History",
+      "publication_record_date": "1943-09-27",
+      "locator": "PDF physical page 45; September 27, 1943 industry notice",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting and Broadcast Advertising",
+      "document_number": null,
+      "rights_notes": "A short excerpt and paraphrase support the dated Mutual-to-Army transition; the full issue is not republished."
+    },
+    {
+      "key": "mbc-tisch-b957",
+      "stable_url": "https://www.museum.tv/tv-encyclopedia-17/tisch-laurence",
+      "archival_identifier": null,
+      "title": "Laurence Tisch",
+      "author_creator": null,
+      "repository_publisher": "Museum of Broadcast Communications",
+      "publication_record_date": "accessed 2026-10-29",
+      "locator": "Biographical header and first paragraph; education and U.S. Army OSS service",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Museum of Broadcast Communications Encyclopedia of Television",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "anu-titiev-b957",
+      "stable_url": "https://openresearch-repository.anu.edu.au/bitstreams/97d1413e-cddf-4d92-b5cd-e1bd6a8de5f9/download",
+      "archival_identifier": null,
+      "title": "George Ernest Morrison Lecture introduction for Mischa Titiev",
+      "author_creator": "Australian National University",
+      "repository_publisher": "Australian National University Open Research Repository",
+      "publication_record_date": "1954",
+      "locator": "Biographical introduction; 1942 University of Michigan ASTP appointment and following-year OSS entry",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "George Ernest Morrison Lectures in Ethnology",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "umich-titiev-b957",
+      "stable_url": "https://quod.lib.umich.edu/cgi/p/pod/dod-idx/anthropology.pdf?c=bicentennial%3Bidno%3D13950886.0002.006%3Bformat%3Dpdf",
+      "archival_identifier": null,
+      "title": "Anthropology: The University of Michigan, An Encyclopedic Survey",
+      "author_creator": "Carl E. Guthe and later departmental historians",
+      "repository_publisher": "Regents of the University of Michigan",
+      "publication_record_date": "1942; 1975; compiled 2015",
+      "locator": "PDF physical pages 8 and 11; 1935 appointment and prewar faculty chronology",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Michigan Bicentennial Encyclopedic Survey",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "moma-roy-titus-b957",
+      "stable_url": "https://www.moma.org/docs/press_archives/5442/releases/MOMA_1976_0102_89a.pdf",
+      "archival_identifier": null,
+      "title": "Biographical Notes - Roy and Niuta Titus",
+      "author_creator": "Museum of Modern Art",
+      "repository_publisher": "Museum of Modern Art",
+      "publication_record_date": "1976-10",
+      "locator": "PDF physical page 1; Helena Rubinstein chronology and wartime OSS exception",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Museum of Modern Art press archives",
+      "document_number": "No. 89A",
+      "rights_notes": null
+    },
+    {
+      "key": "wsu-tjerandsen-b957",
+      "stable_url": "https://content.libraries.wsu.edu/digital/api/collection/powwows/id/15090/download",
+      "archival_identifier": null,
+      "title": "Washington State University Hilltopics, October-November 1982",
+      "author_creator": "Washington State University Alumni Association",
+      "repository_publisher": "Washington State University Libraries",
+      "publication_record_date": "1982-10/11",
+      "locator": "PDF page 18; Carl Tjerandsen chronology, 1934-1945",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Washington State University alumni publications",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "legacy-tjerandsen-b957",
+      "stable_url": "https://www.legacy.com/us/obituaries/montereyherald/name/carl-tjerandsen-obituary?id=26814556",
+      "archival_identifier": null,
+      "title": "Carl Tjerandsen Obituary",
+      "author_creator": null,
+      "repository_publisher": "Monterey Herald via Legacy.com",
+      "publication_record_date": "2005-03-23",
+      "locator": "Obituary paragraphs 1-3; education, University of Idaho and OSS officer service",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": null,
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "utah-tobari-b957",
+      "stable_url": "https://attheu.utah.edu/arts-humanities/saving-the-legacy-honoring-veterans-through-oral-histories/",
+      "archival_identifier": null,
+      "title": "Saving the Legacy: Honoring veterans through oral histories",
+      "author_creator": "Duston Mazzella, Special Collections",
+      "repository_publisher": "University of Utah J. Willard Marriott Library",
+      "publication_record_date": "2025-11-05",
+      "locator": "Joseph 'Joe' Tobari section; Salt Lake City origin, 1943 enlistment and 442nd RCT service",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Saving the Legacy Oral Histories Collection A0864",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "berkeley-tobari-b957",
+      "stable_url": "https://digicoll.lib.berkeley.edu/record/176281/files/cubanc_35_1_00263103ta.pdf",
+      "archival_identifier": null,
+      "title": "Wartime Japanese American student record naming Joseph Mamoru Tobari",
+      "author_creator": null,
+      "repository_publisher": "University of California, Berkeley, Bancroft Library Digital Collections",
+      "publication_record_date": "ca. 1942-1943",
+      "locator": "Digitized record entry: Joseph Mamoru Tobari — University of Utah",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Japanese American student relocation records",
+      "document_number": null,
+      "rights_notes": null
+    },
+    {
+      "key": "smithsonian-tobias-b957",
+      "stable_url": "https://sirismm.si.edu/EADpdfs/AAA.tobijoel.pdf",
+      "archival_identifier": "AAA.tobijoel",
+      "title": "A Finding Aid to the Abraham Joel Tobias Papers, 1913-2000",
+      "author_creator": "Carla De Luise",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "publication_record_date": "2006-11-30",
+      "locator": "PDF physical pages 3-4 and 6; biographical note and wartime records",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Abraham Joel Tobias papers, 1913-2000",
+      "document_number": null,
+      "rights_notes": null
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-existing-b957",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing heavily linked canonical organization reused."
+    },
+    {
+      "key": "stanford-existing-b957",
+      "organization_id": "63b7b9f4-ee2a-51b3-b83a-d483901bdc38",
+      "canonical_name": "Stanford University",
+      "historical_name": "Food Research Institute, Stanford University",
+      "aliases": [
+        "Stanford Food Research Institute",
+        "Food Research Institute"
+      ],
+      "organization_type": "university and research institute",
+      "sector": "academia_and_research",
+      "city": "Stanford",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": "Food Research Institute at Stanford, 1921-1996",
+      "normalization_notes": "The historical Food Research Institute unit is preserved in the as-found field; no modern unit equivalence is asserted."
+    },
+    {
+      "key": "mutual-existing-b957",
+      "organization_id": "9dce34b6-35f0-5686-b3e8-847601bf60fd",
+      "canonical_name": "Mutual Broadcasting System",
+      "historical_name": "Mutual Broadcasting System",
+      "aliases": [
+        "Mutual",
+        "MBS"
+      ],
+      "organization_type": "radio network",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1934-1999",
+      "normalization_notes": "Existing canonical organization reused; the historical network name is retained."
+    },
+    {
+      "key": "nyu-existing-b957",
+      "organization_id": "54f70fa3-cf82-5149-84fb-72372b2e348a",
+      "canonical_name": "New York University",
+      "historical_name": "New York University",
+      "aliases": [
+        "NYU"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; student status is not counted as employment."
+    },
+    {
+      "key": "umich-existing-b957",
+      "organization_id": "4ee8a858-3cd1-5a2d-94a7-0d3c7a3fdb3a",
+      "canonical_name": "University of Michigan",
+      "historical_name": "University of Michigan",
+      "aliases": [
+        "U-M",
+        "Michigan"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Ann Arbor",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "normalization_notes": "Existing heavily linked canonical organization reused."
+    },
+    {
+      "key": "helena-rubinstein-b957",
+      "canonical_name": "Helena Rubinstein Inc.",
+      "historical_name": "Helena Rubinstein Inc.",
+      "aliases": [
+        "Helena Rubinstein",
+        "British affiliate of Helena Rubinstein Inc."
+      ],
+      "organization_type": "cosmetics company",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The 1976 institutional biography names both the British affiliate and American company; no modern owner is substituted."
+    },
+    {
+      "key": "university-utah-b957",
+      "canonical_name": "University of Utah",
+      "historical_name": "University of Utah",
+      "aliases": [
+        "the U"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Salt Lake City",
+      "state_or_region": "Utah",
+      "country": "United States",
+      "normalization_notes": "Student affiliation remains separate from employment analytics."
+    },
+    {
+      "key": "usaaf-existing-b957",
+      "organization_id": "75a3a185-5c26-548b-8be6-9bcdf51bc4eb",
+      "canonical_name": "United States Army Air Forces",
+      "historical_name": "Intelligence Division, Army Air Force",
+      "aliases": [
+        "Army Air Forces",
+        "AAF"
+      ],
+      "organization_type": "military air service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1941-1947",
+      "normalization_notes": "Existing canonical organization reused; the finding aid's singular historical wording is preserved as found."
+    },
+    {
+      "key": "federal-art-project-existing-b957",
+      "organization_id": "9cd8468b-fd4f-5e10-a70c-6a83d42560fd",
+      "canonical_name": "Federal Art Project",
+      "historical_name": "Federal Arts Project",
+      "aliases": [
+        "WPA Federal Art Project",
+        "Federal Arts Project"
+      ],
+      "organization_type": "federal arts employment program",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1935-1943",
+      "normalization_notes": "Existing canonical organization reused; Smithsonian's plural wording is preserved in the affiliation."
+    },
+    {
+      "key": "university-idaho-b957",
+      "canonical_name": "University of Idaho",
+      "historical_name": "University of Idaho",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Moscow",
+      "state_or_region": "Idaho",
+      "country": "United States",
+      "normalization_notes": "Named historical employer; later institutions are not conflated with it."
+    },
+    {
+      "key": "greek-merchant-marine-b957",
+      "canonical_name": "Greek Merchant Marine",
+      "historical_name": "Greek merchant marine",
+      "aliases": [
+        "Greek merchant navy"
+      ],
+      "organization_type": "national merchant shipping service",
+      "sector": "business_and_industry",
+      "country": "Greece",
+      "normalization_notes": "A broad professional affiliation, not a named shipowner or employer; no company is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "army-category-row1-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "cooks, except private family",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1943-01-22",
+      "date_precision": "Historical category 2-26 at Army entry on 1943-01-22; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row5-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "authors, editors, and reporters",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1943-09-07",
+      "date_precision": "Historical category 0-06 at Army entry on 1943-09-07; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row6-b957",
+      "person_id": "eb1fe0e8-97f5-5885-8d74-e9323154bd9b",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "architects",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942-08-14",
+      "date_precision": "Historical category 0-03 at Army entry on 1942-08-14; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row11-b957",
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "students",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942-12-10",
+      "date_precision": "Historical category 9-92 at Army entry on 1942-12-10; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row17-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "managers and officials, n.e.c.",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942-10-01",
+      "date_precision": "Historical category 0-97 at Army entry on 1942-10-01; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row19-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "professional occupations, n.e.c.",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1944-07-17",
+      "date_precision": "Historical category 0-39 at Army entry on 1944-07-17; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row21-b957",
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "students",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-05-05",
+      "date_precision": "Historical category 9-92 at Army entry on 1943-05-05; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "army-category-row23-b957",
+      "person_id": "cd940470-af04-59be-b654-97e6ccaf928b",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "actors and actresses",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942-08-07",
+      "date_precision": "Historical category 0-02 at Army entry on 1942-08-07; no employer, workplace, school or OSS-transfer date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as a qualified historical category; it is not converted into a named employer or exact modern occupation."
+    },
+    {
+      "key": "greek-merchant-marine-george-tiniakos-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "organization_key": "greek-merchant-marine-b957",
+      "organization_name_as_found": "Greek merchant marine",
+      "role_title": "merchant seaman",
+      "occupation": "merchant mariner",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1929",
+      "end_date": "1943-01",
+      "date_precision": "Joined at about age 15, returned after Greek Army service, and left ship in Boston before entering U.S. military service in January 1943.",
+      "city": null,
+      "state_or_region": null,
+      "country": "Greece / international",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The source names a maritime service, not a ship, shipping line or employer; no company is inferred."
+    },
+    {
+      "key": "us-army-george-tiniakos-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "organization_key": "us-army-existing-b957",
+      "organization_name_as_found": "U.S. military service / Greek Battalion",
+      "role_title": "enlisted soldier; later Technician Fifth Grade",
+      "occupation": "soldier",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-01",
+      "end_date": "1944",
+      "date_precision": "Entered U.S. military service in January 1943 and later served in OSS Operational Group II; the exact transfer date is not stated.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States / Greece",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as the best-supported broad military pathway, not a specific immediately preceding unit on a known date."
+    },
+    {
+      "key": "stanford-timoshenko-b957",
+      "person_id": "48d659c6-cab8-5a75-9e42-15f9c5efb2c9",
+      "organization_key": "stanford-existing-b957",
+      "organization_name_as_found": "Food Research Institute, Stanford University",
+      "role_title": "professor of commodity economics; senior staff",
+      "occupation": "economist",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1950",
+      "date_precision": "Permanent senior staff from 1936; served for a time during World War II as an OSS consultant; became emeritus in 1950.",
+      "city": "Stanford",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Stanford was his continuing home institution while he consulted for OSS; this is not described as a resignation-and-transfer sequence."
+    },
+    {
+      "key": "mutual-calvin-tinney-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "organization_key": "mutual-existing-b957",
+      "organization_name_as_found": "Mutual network",
+      "role_title": "radio news commentator",
+      "occupation": "author, editor, reporter and broadcaster",
+      "relationship_type": "employment",
+      "start_date": "1941-08",
+      "end_date": "1943-09-27",
+      "date_precision": "A September 27, 1943 industry notice says he had until recently broadcast for Mutual and reported for active Army duty that day.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The dated contemporary transition supports Mutual as the immediate and last documented civilian employer before Army service."
+    },
+    {
+      "key": "nyu-laurence-tisch-b957",
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "organization_key": "nyu-existing-b957",
+      "organization_name_as_found": "New York University",
+      "role_title": "student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "B.S. awarded in 1942; official Army entry record categorized him as a student on 1942-12-10.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Student status is an institutional affiliation, not employment. Graduate study in 1943 is noted in the source but is not forced into the pre-entry sequence."
+    },
+    {
+      "key": "umich-mischa-titiev-b957",
+      "person_id": "4f650f82-d872-5bab-a27f-c2937118926c",
+      "organization_key": "umich-existing-b957",
+      "organization_name_as_found": "University of Michigan",
+      "role_title": "anthropology faculty; Supervisor, Army Specialized Training Program for the Far East",
+      "occupation": "anthropologist and educator",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1943",
+      "date_precision": "University faculty from 1936; appointed ASTP supervisor in 1942; an ANU biographical introduction says he joined OSS during the following year.",
+      "city": "Ann Arbor",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source explicitly orders the University appointment, 1942 ASTP role and following-year OSS entry."
+    },
+    {
+      "key": "helena-rubinstein-roy-titus-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "organization_key": "helena-rubinstein-b957",
+      "organization_name_as_found": "Helena Rubinstein Inc.",
+      "role_title": "business employee",
+      "occupation": "business manager",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "The MoMA biography says his company career was continuous except for wartime OSS service; the exact OSS entry date and prewar title are not supplied.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Later executive titles are not projected backward onto the pre-OSS period."
+    },
+    {
+      "key": "university-idaho-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "organization_key": "university-idaho-b957",
+      "organization_name_as_found": "University of Idaho",
+      "role_title": "assistant professor of business",
+      "occupation": "educator",
+      "relationship_type": "employment",
+      "start_date": "1934",
+      "end_date": "1935",
+      "date_precision": "Washington State University alumni chronology dates the appointment to 1934-1935.",
+      "city": "Moscow",
+      "state_or_region": "Idaho",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Documented earlier employment; not presented as the immediate OSS predecessor."
+    },
+    {
+      "key": "federal-land-use-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "organization_key": null,
+      "organization_name_as_found": "federal land-use planning (agency not identified)",
+      "role_title": "land-use planner",
+      "occupation": "planner",
+      "relationship_type": "government_assignment",
+      "start_date": "1935",
+      "end_date": "1942",
+      "date_precision": "The WSU chronology dates federal land-use planning work to 1935-1942 but does not name an agency.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "No department, bureau or employer is invented from the broad federal description."
+    },
+    {
+      "key": "food-research-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "organization_key": null,
+      "organization_name_as_found": "food and agriculture research (institution not identified)",
+      "role_title": "researcher",
+      "occupation": "food and agriculture researcher",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "The WSU chronology places food and agriculture research in 1942-1944 directly before 1944-1945 U.S. Army OSS service.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "This is the immediate documented activity, but the source does not name an employer or sponsoring institution."
+    },
+    {
+      "key": "university-utah-joseph-tobari-b957",
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "organization_key": "university-utah-b957",
+      "organization_name_as_found": "University of Utah",
+      "role_title": "student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-05-05",
+      "date_precision": "A wartime institutional record connects Joseph Mamoru Tobari to the University of Utah; the Army record labels him a student at entry on 1943-05-05.",
+      "city": "Salt Lake City",
+      "state_or_region": "Utah",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Student status is not classified as employment and is excluded from employer analytics."
+    },
+    {
+      "key": "usaaf-abraham-tobias-b957",
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "organization_key": "usaaf-existing-b957",
+      "organization_name_as_found": "Intelligence Division, Army Air Force",
+      "role_title": "art director",
+      "occupation": "art director and graphic designer",
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": "1945",
+      "date_precision": "The Smithsonian finding aid places the Army Air Force intelligence art-director role before employment as an OSS graphic designer in 1945.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Published as the immediate documented military assignment, not as a civilian employer."
+    },
+    {
+      "key": "fap-abraham-tobias-b957",
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "organization_key": "federal-art-project-existing-b957",
+      "organization_name_as_found": "Federal Arts Project",
+      "role_title": "muralist",
+      "occupation": "artist and muralist",
+      "relationship_type": "government_assignment",
+      "start_date": "1938",
+      "end_date": "1940",
+      "date_precision": "The Smithsonian finding aid dates Federal Arts Project work to 1938-1940.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Documented earlier government arts work; the reviewed source does not establish it as the last civilian employer before wartime service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-row1-army-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed George S Tinlakos is a high confidence match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement, a transparent spelling difference, and independent distinctive-name wartime evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 1; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        },
+        {
+          "source_key": "after-battle-tiniakos-b957",
+          "locator_override": "Issue page 5 biography and page 10 roster naming George S. Tiniakos"
+        }
+      ]
+    },
+    {
+      "key": "category-row1-army-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "affiliation_key": "army-category-row1-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-22, George S Tinlakos was recorded in the historical Cooks, except private family category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Cooks, except private family",
+      "evidence_paraphrase": "The official bulk record supplies historical code 2-26; the inspected NARA code list expands it as Cooks, except private family.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement, a transparent spelling difference, and independent distinctive-name wartime evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1943-01-22; historical code 2-26; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 172; historical category 2-26"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row5-army-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Calvin L Tinney is a confirmed match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 5; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        },
+        {
+          "source_key": "broadcasting-tinney-b957",
+          "locator_override": "PDF page 45, Tinney to Army"
+        }
+      ]
+    },
+    {
+      "key": "category-row5-army-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "affiliation_key": "army-category-row5-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-09-07, Calvin L Tinney was recorded in the historical Authors, editors, and reporters category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Authors, editors, and reporters",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-06; the inspected NARA code list expands it as Authors, editors, and reporters.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1943-09-07; historical code 0-06; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 170; historical category 0-06"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row6-army-b957",
+      "person_id": "eb1fe0e8-97f5-5885-8d74-e9323154bd9b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul Tinney is a confirmed match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 6; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "category-row6-army-b957",
+      "person_id": "eb1fe0e8-97f5-5885-8d74-e9323154bd9b",
+      "affiliation_key": "army-category-row6-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-14, Paul Tinney was recorded in the historical Architects category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Architects",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-03; the inspected NARA code list expands it as Architects.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1942-08-14; historical code 0-03; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 170; historical category 0-03"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row11-army-b957",
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Laurence A Tisch is a high confidence match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement, a transparent spelling difference, and independent distinctive-name wartime evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 11; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        },
+        {
+          "source_key": "mbc-tisch-b957",
+          "locator_override": "Biographical header, education and Army OSS line"
+        }
+      ]
+    },
+    {
+      "key": "category-row11-army-b957",
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "affiliation_key": "army-category-row11-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-10, Laurence A Tisch was recorded in the historical Students category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The official bulk record supplies historical code 9-92; the inspected NARA code list expands it as Students.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement, a transparent spelling difference, and independent distinctive-name wartime evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1942-12-10; historical code 9-92; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 304; historical category 9-92"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row17-army-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Roy Titus is a confirmed match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 17; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        },
+        {
+          "source_key": "moma-roy-titus-b957",
+          "locator_override": "PDF page 1, exact Roy V. Titus chronology"
+        }
+      ]
+    },
+    {
+      "key": "category-row17-army-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "affiliation_key": "army-category-row17-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-01, Roy Titus was recorded in the historical Managers and officials, n.e.c. category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Managers and officials, n.e.c.",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-97; the inspected NARA code list expands it as Managers and officials, n.e.c..",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1942-10-01; historical code 0-97; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 171; historical category 0-97"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row19-army-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl Tjerandsen is a high confidence match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement, a transparent spelling difference, and independent distinctive-name wartime evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 19; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        },
+        {
+          "source_key": "wsu-tjerandsen-b957",
+          "locator_override": "PDF page 18, 1934-1945 chronology"
+        }
+      ]
+    },
+    {
+      "key": "category-row19-army-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "affiliation_key": "army-category-row19-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-07-17, Carl Tjerandsen was recorded in the historical Professional occupations, n.e.c. category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Professional occupations, n.e.c.",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-39; the inspected NARA code list expands it as Professional occupations, n.e.c..",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement, a transparent spelling difference, and independent distinctive-name wartime evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1944-07-17; historical code 0-39; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 171; historical category 0-39"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row21-army-b957",
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph M Tobari is a confirmed match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 21; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        },
+        {
+          "source_key": "utah-tobari-b957",
+          "locator_override": "Joseph 'Joe' Tobari section"
+        }
+      ]
+    },
+    {
+      "key": "category-row21-army-b957",
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "affiliation_key": "army-category-row21-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-05, Joseph M Tobari was recorded in the historical Students category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The official bulk record supplies historical code 9-92; the inspected NARA code list expands it as Students.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1943-05-05; historical code 9-92; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 304; historical category 9-92"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "identity-row23-army-b957",
+      "person_id": "cd940470-af04-59be-b654-97e6ccaf928b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Bentley Tobin is a confirmed match to the reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A private nonshared identifier connects the visually verified index row to the Army record; independent sources corroborate distinctive spelling variants where needed.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "The Army record dates entry into service but does not by itself establish the OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not by itself establish a named employer or immediate OSS predecessor; private identifiers remain withheld.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 23; Box 779; private identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Reviewed name record; private identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "category-row23-army-b957",
+      "person_id": "cd940470-af04-59be-b654-97e6ccaf928b",
+      "affiliation_key": "army-category-row23-b957",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-07, Bentley Tobin was recorded in the historical Actors and actresses category; no employer, workplace or institution is identified.",
+      "evidence_excerpt": "Actors and actresses",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-02; the inspected NARA code list expands it as Actors and actresses.",
+      "identity_match_assessment": "Confirmed from exact compatible name and private nonshared identifier agreement, with independent biographical corroboration where available.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category; no employer, school, workplace or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1942-08-07; historical code 0-02; private identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b957",
+          "locator_override": "PDF physical page 170; historical category 0-02"
+        },
+        {
+          "source_key": "army-tech-b957",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "merchant-marine-george-tiniakos-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "affiliation_key": "greek-merchant-marine-george-tiniakos-b957",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "George S. Tiniakos served in the Greek merchant marine before U.S. military service; no shipowner or company is identified.",
+      "evidence_excerpt": "had joined the Greek merchant marine at age 15",
+      "evidence_paraphrase": "A detailed scholarly history says he joined the Greek merchant marine at 15, returned after Greek Army duty, and left ship in Boston before U.S. enlistment.",
+      "identity_match_assessment": "High confidence from the index-private-identifier bridge, rare Tiniakos/Tinlakos variant, middle initial and exact OSS operational-group context.",
+      "temporal_assessment": "Strongly date-bounded before U.S. military entry in January 1943, with an intervening Greek Army period in 1938-1940.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The broad merchant-marine affiliation is published; a ship, shipping line and employer remain unknown.",
+      "sources": [
+        {
+          "source_key": "after-battle-tiniakos-b957",
+          "locator_override": "Issue page 5, George Tiniakos biography"
+        }
+      ]
+    },
+    {
+      "key": "army-path-george-tiniakos-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "affiliation_key": "us-army-george-tiniakos-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The U.S. Army is George S. Tiniakos's best-supported broad immediate pathway into OSS Operational Group II; the precise transfer date remains unknown.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The source dates U.S. military entry to January 1943 and later lists him as Technician Fifth Grade in OSS Operational Group II.",
+      "identity_match_assessment": "High confidence from private identifier agreement, distinctive spelling variant and an exact OSS roster.",
+      "temporal_assessment": "Probable immediate at the broad service level; the specific unit immediately before OSS and transfer date are not stated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from civilian-employer analytics and shown with an uncertainty warning.",
+      "sources": [
+        {
+          "source_key": "after-battle-tiniakos-b957",
+          "locator_override": "Issue pages 5 and 10"
+        },
+        {
+          "source_key": "us-war-memorials-tiniakos-b957",
+          "support_type": "context_only",
+          "locator_override": "Plaque roster and unit history"
+        }
+      ]
+    },
+    {
+      "key": "identity-vladimir-timoshenko-b957",
+      "person_id": "48d659c6-cab8-5a75-9e42-15f9c5efb2c9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Vladimir Tinmoshenko is a high-confidence match to Stanford economist and OSS consultant Vladimir P. Timoshenko; both spellings remain visible.",
+      "evidence_excerpt": "During World War II Professor Timoshenko served for a time in Washington as consultant",
+      "evidence_paraphrase": "Stanford's memorial resolution identifies the rare name, academic specialty, permanent Food Research Institute appointment and wartime OSS consultancy.",
+      "identity_match_assessment": "High confidence from the rare near-exact surname, exact given name, authoritative OSS chronology and compatible box context; the printed extra 'n' is not silently corrected.",
+      "temporal_assessment": "The memorial dates permanent Stanford staff from 1936 and service for a time as an OSS consultant during World War II.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The normalized variant is published alongside, not instead of, the printed Tinmoshenko form.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 2; Box 778; printed Tinmoshenko spelling"
+        },
+        {
+          "source_key": "stanford-timoshenko-b957",
+          "locator_override": "PDF pages 1-2; permanent staff and OSS consultancy"
+        }
+      ]
+    },
+    {
+      "key": "stanford-immediate-vladimir-timoshenko-b957",
+      "person_id": "48d659c6-cab8-5a75-9e42-15f9c5efb2c9",
+      "affiliation_key": "stanford-timoshenko-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Stanford University's Food Research Institute was Vladimir P. Timoshenko's continuing home institution when he served as an OSS consultant during World War II.",
+      "evidence_excerpt": "was on its permanent senior staff from 1936",
+      "evidence_paraphrase": "The Stanford memorial says he was permanent senior staff from 1936 and separately notes wartime OSS consulting service.",
+      "identity_match_assessment": "High confidence from the distinctive name, specialization and authoritative institutional chronology.",
+      "temporal_assessment": "Strongly date-bounded and concurrent; the source does not describe a resignation or exclusive transfer to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Displayed as a continuing academic affiliation and employer, with the concurrent-consultant relationship made explicit.",
+      "sources": [
+        {
+          "source_key": "stanford-timoshenko-b957",
+          "locator_override": "PDF pages 1-2"
+        }
+      ]
+    },
+    {
+      "key": "stanford-last-civilian-vladimir-timoshenko-b957",
+      "person_id": "48d659c6-cab8-5a75-9e42-15f9c5efb2c9",
+      "affiliation_key": "stanford-timoshenko-b957",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Stanford University's Food Research Institute is the last documented civilian employer connected to Vladimir P. Timoshenko's wartime OSS consultancy.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Permanent senior-staff status beginning in 1936 continued across the wartime consultancy described in the same institutional memorial.",
+      "identity_match_assessment": "High confidence from the rare name and authoritative Stanford resolution.",
+      "temporal_assessment": "The source supports continuity but does not supply an OSS start date or say he left Stanford.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Counted as the last documented civilian employer, not as proof of a discrete transfer date.",
+      "sources": [
+        {
+          "source_key": "stanford-timoshenko-b957",
+          "locator_override": "PDF pages 1-2"
+        }
+      ]
+    },
+    {
+      "key": "mutual-immediate-calvin-tinney-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "affiliation_key": "mutual-calvin-tinney-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before Army duty in September 1943, Calvin L. 'Cal' Tinney was a radio news commentator for the Mutual Broadcasting System.",
+      "evidence_excerpt": "until recently broadcasting his ... commentaries ... over Mutual network",
+      "evidence_paraphrase": "A contemporary industry notice says he had until recently broadcast commentaries for Mutual and reported for active duty on September 27.",
+      "identity_match_assessment": "Confirmed by exact private identifier and name agreement, the Cal/Calvin variant, and a dated contemporary transition notice.",
+      "temporal_assessment": "Explicit immediate transition from Mutual broadcasting to active Army duty on 1943-09-27.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as named civilian employment immediately before Army service; the later OSS transfer date remains unknown.",
+      "sources": [
+        {
+          "source_key": "broadcasting-tinney-b957",
+          "locator_override": "PDF physical page 45, Tinney to Army"
+        }
+      ]
+    },
+    {
+      "key": "mutual-last-civilian-calvin-tinney-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "affiliation_key": "mutual-calvin-tinney-b957",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Mutual Broadcasting System is Calvin L. Tinney's last documented civilian employer before active Army duty.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The same September 1943 notice explicitly places his Mutual broadcasting immediately before active duty.",
+      "identity_match_assessment": "Confirmed by private identifier, exact indexed name and contemporary chronology.",
+      "temporal_assessment": "Explicitly ordered in a point-in-time industry notice.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Counted in last-civilian-employer analytics; no later pre-OSS civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "broadcasting-tinney-b957",
+          "locator_override": "PDF physical page 45"
+        }
+      ]
+    },
+    {
+      "key": "student-laurence-tisch-b957",
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "affiliation_key": "nyu-laurence-tisch-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Laurence A. Tisch completed a New York University degree in 1942 and was recorded as a student at Army entry on December 10, 1942.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The Museum of Broadcast Communications dates his NYU B.S. to 1942; the official Army record labels him a student at entry.",
+      "identity_match_assessment": "High confidence from private identifier agreement, distinctive full name, transparent Laurence/Lawrence conflict and independent Army OSS biography.",
+      "temporal_assessment": "Strongly date-bounded before Army OSS service, while 1943 graduate study makes the precise wartime sequence non-linear.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is published as an institutional affiliation, not as employment by NYU.",
+      "sources": [
+        {
+          "source_key": "mbc-tisch-b957",
+          "locator_override": "Biographical header and education line"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1942-12-10; historical student code; private identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-mischa-titiev-b957",
+      "person_id": "4f650f82-d872-5bab-a27f-c2937118926c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Mischa Titiev is confirmed as the University of Michigan anthropologist who joined the OSS in 1943.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "ANU and University of Michigan institutional histories supply the exact distinctive name, faculty chronology, 1942 ASTP role and following-year OSS entry.",
+      "identity_match_assessment": "Confirmed by exact rare name and two authoritative institutional chronologies explicitly identifying University of Michigan and OSS service.",
+      "temporal_assessment": "The sources order faculty service, the 1942 ASTP appointment and the following-year OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No famous-name assignment rests on name alone; the institutional chronology supplies the bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 14; Box 779"
+        },
+        {
+          "source_key": "anu-titiev-b957",
+          "locator_override": "Biographical introduction"
+        },
+        {
+          "source_key": "umich-titiev-b957",
+          "support_type": "context_only",
+          "locator_override": "PDF pages 8 and 11"
+        }
+      ]
+    },
+    {
+      "key": "umich-immediate-mischa-titiev-b957",
+      "person_id": "4f650f82-d872-5bab-a27f-c2937118926c",
+      "affiliation_key": "umich-mischa-titiev-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Mischa Titiev's immediate documented pre-OSS affiliation was the University of Michigan, where he supervised the Far East Army Specialized Training Program in 1942.",
+      "evidence_excerpt": "During the following year he joined the Office of Strategic Services",
+      "evidence_paraphrase": "The ANU biography says he joined Michigan's faculty, received the ASTP appointment in 1942, and joined OSS during the following year.",
+      "identity_match_assessment": "Confirmed identity from exact rare name and explicit institutional OSS chronology.",
+      "temporal_assessment": "Explicit immediate sequence: 1942 ASTP supervisor at Michigan, then OSS during the following year.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army-sponsored program role is shown within his continuing University employment; it is not mislabeled as a separate private employer.",
+      "sources": [
+        {
+          "source_key": "anu-titiev-b957",
+          "locator_override": "Biographical introduction"
+        }
+      ]
+    },
+    {
+      "key": "umich-last-civilian-mischa-titiev-b957",
+      "person_id": "4f650f82-d872-5bab-a27f-c2937118926c",
+      "affiliation_key": "umich-mischa-titiev-b957",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The University of Michigan is Mischa Titiev's last documented civilian employer before OSS service.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Institutional histories place him on Michigan's anthropology faculty from 1936 and order his 1942 ASTP role before the following-year OSS entry.",
+      "identity_match_assessment": "Confirmed identity from exact name and matching university/OSS chronology.",
+      "temporal_assessment": "Explicitly date-bounded immediately before OSS entry in 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Counted in civilian-employer analytics; the ASTP assignment is described separately within the same affiliation.",
+      "sources": [
+        {
+          "source_key": "anu-titiev-b957",
+          "locator_override": "Biographical introduction"
+        },
+        {
+          "source_key": "umich-titiev-b957",
+          "locator_override": "PDF pages 8 and 11"
+        }
+      ]
+    },
+    {
+      "key": "helena-immediate-roy-titus-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "affiliation_key": "helena-rubinstein-roy-titus-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Roy V. Titus worked for Helena Rubinstein Inc. immediately before and after his wartime OSS service.",
+      "evidence_excerpt": "Except for his service in the Office of Strategic Services during World War II",
+      "evidence_paraphrase": "A Museum of Modern Art biography says his company career continued without interruption except for wartime OSS service.",
+      "identity_match_assessment": "Confirmed by private identifier agreement, exact surname and authoritative Roy V. Titus OSS chronology.",
+      "temporal_assessment": "Explicit immediate relationship; the biography identifies OSS as the sole exception to his company career.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The prewar role is kept broad because later executive titles are not projected backward.",
+      "sources": [
+        {
+          "source_key": "moma-roy-titus-b957",
+          "locator_override": "PDF physical page 1, lines 10-18"
+        }
+      ]
+    },
+    {
+      "key": "helena-last-civilian-roy-titus-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "affiliation_key": "helena-rubinstein-roy-titus-b957",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Helena Rubinstein Inc. is Roy V. Titus's last documented civilian employer before OSS service.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The institutional biography presents continuous company service with OSS as the wartime exception.",
+      "identity_match_assessment": "Confirmed by exact private identifier and specific institutional biography.",
+      "temporal_assessment": "Explicitly immediate but without a precise OSS entry date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Counted in last-civilian-employer analytics with the historical company name preserved.",
+      "sources": [
+        {
+          "source_key": "moma-roy-titus-b957",
+          "locator_override": "PDF physical page 1"
+        }
+      ]
+    },
+    {
+      "key": "university-idaho-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "affiliation_key": "university-idaho-carl-tjerandsen-b957",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Carl Tjerandsen was an assistant professor of business at the University of Idaho in 1934-1935.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Washington State University's alumni chronology names the employer, role and dates; a published obituary independently names his teaching there.",
+      "identity_match_assessment": "High confidence for row 19 from private identifier agreement, rare surname, compatible Army chronology and independent institutional biography.",
+      "temporal_assessment": "Documented earlier employment, followed by federal planning and food-agriculture research before 1944 Army OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The second distinct index row remains separate; this claim is not duplicated onto it.",
+      "sources": [
+        {
+          "source_key": "wsu-tjerandsen-b957",
+          "locator_override": "PDF page 18"
+        },
+        {
+          "source_key": "legacy-tjerandsen-b957",
+          "support_type": "context_only",
+          "locator_override": "Obituary paragraphs 1-3"
+        }
+      ]
+    },
+    {
+      "key": "federal-planning-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "affiliation_key": "federal-land-use-carl-tjerandsen-b957",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Carl Tjerandsen worked in federal land-use planning from 1935 to 1942; the reviewed source does not name the agency.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The WSU alumni chronology supplies the field and dates but no department or bureau.",
+      "identity_match_assessment": "High confidence for row 19 from rare-name and private-identifier evidence.",
+      "temporal_assessment": "Documented prewar work between University of Idaho teaching and later food-agriculture research.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "No federal agency is invented; the broad as-found wording remains visible.",
+      "sources": [
+        {
+          "source_key": "wsu-tjerandsen-b957",
+          "locator_override": "PDF page 18"
+        }
+      ]
+    },
+    {
+      "key": "food-research-immediate-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "affiliation_key": "food-research-carl-tjerandsen-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Carl Tjerandsen's immediate documented pre-OSS activity was food and agriculture research in 1942-1944; the institution is not identified.",
+      "evidence_excerpt": "1942-44, research in food and agriculture; 1944-45, U.S. Army",
+      "evidence_paraphrase": "The WSU chronology places this research directly before 1944-1945 U.S. Army OSS service.",
+      "identity_match_assessment": "High confidence for row 19 from private identifier, rare name and compatible chronology; row 20 remains separate.",
+      "temporal_assessment": "Explicit chronological adjacency, but no employer or sponsoring institution is named.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from named-employer analytics and not copied to the second index row.",
+      "sources": [
+        {
+          "source_key": "wsu-tjerandsen-b957",
+          "locator_override": "PDF page 18"
+        }
+      ]
+    },
+    {
+      "key": "student-joseph-tobari-b957",
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "affiliation_key": "university-utah-joseph-tobari-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Joseph Mamoru Tobari was affiliated with the University of Utah as a student before entering the Army in 1943.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A wartime student record names Tobari and the University of Utah; the Army record labels him a student at entry, and Utah's oral history confirms 1943 enlistment.",
+      "identity_match_assessment": "Confirmed by private identifier agreement, exact first and last name, matching middle initial, Utah origin and 442nd service chronology.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on 1943-05-05.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is not counted as employment; an OSS transfer date remains unverified.",
+      "sources": [
+        {
+          "source_key": "berkeley-tobari-b957",
+          "locator_override": "Digitized wartime record naming Joseph Mamoru Tobari and University of Utah"
+        },
+        {
+          "source_key": "utah-tobari-b957",
+          "locator_override": "Joseph 'Joe' Tobari section"
+        },
+        {
+          "source_key": "army-bulk-b957",
+          "locator_override": "Army entry 1943-05-05; historical student code; private identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-abraham-joel-tobias-b957",
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Abraham J Tobias is a high-confidence match to New York muralist and OSS graphic designer Abraham Joel Tobias.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The Smithsonian finding aid supplies the exact first name, surname, middle initial, wartime armed-forces role and 1945 OSS employment.",
+      "identity_match_assessment": "High confidence from exact full name and middle initial plus a distinctive art-director and OSS graphic-design chronology.",
+      "temporal_assessment": "The finding aid orders Army Air Force intelligence work before OSS employment in 1945.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The middle name is added as a documented variant; the source-index form remains recoverable.",
+      "sources": [
+        {
+          "source_key": "nara-index-b957",
+          "locator_override": "PDF page 469 row 22; Box 779"
+        },
+        {
+          "source_key": "smithsonian-tobias-b957",
+          "locator_override": "PDF physical pages 3-4"
+        }
+      ]
+    },
+    {
+      "key": "usaaf-immediate-abraham-tobias-b957",
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "affiliation_key": "usaaf-abraham-tobias-b957",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Abraham Joel Tobias served as an art director with the Army Air Force Intelligence Division before becoming an OSS graphic designer in 1945.",
+      "evidence_excerpt": "an art director with the Intelligence Division, Army Air Force",
+      "evidence_paraphrase": "The Smithsonian biographical note gives both wartime roles in sequence.",
+      "identity_match_assessment": "High confidence from exact full-name compatibility and a highly specific art-and-intelligence chronology.",
+      "temporal_assessment": "Explicit immediate sequence, though exact start and end dates are not supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Shown as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "smithsonian-tobias-b957",
+          "locator_override": "PDF physical page 3, biographical note"
+        }
+      ]
+    },
+    {
+      "key": "fap-abraham-tobias-b957",
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "affiliation_key": "fap-abraham-tobias-b957",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Abraham Joel Tobias worked for the Federal Arts Project as a muralist from 1938 to 1940.",
+      "evidence_excerpt": "He worked for the Federal Arts Project, 1938-1940",
+      "evidence_paraphrase": "The Smithsonian finding aid dates his Federal Arts Project work and describes his muralist training.",
+      "identity_match_assessment": "High confidence from exact name, middle initial and specific OSS art-career chronology.",
+      "temporal_assessment": "Documented prewar work, but not shown to be the last civilian employer before wartime service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as earlier employment; no gap-filling claim is made for 1941-1944.",
+      "sources": [
+        {
+          "source_key": "smithsonian-tobias-b957",
+          "locator_override": "PDF physical page 3"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2b9323d8-17cb-5503-b9ab-240238a9dad4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gerhard Tinner, Box 779 and location 230/86/42/02. Exact-name, German-language, OSS, military, obituary, directory and institutional searches produced no defensible Box 779 identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4977142b-28b4-5965-b7b5-7eb62d661f34",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Amedee Tinners, Box 778 and location 230/86/42/02. Exact-name, French-language and spelling-variant searches produced no reliable wartime identity, occupation or Box 778 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 778 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f4b40566-0b08-527f-bf49-e7afc4b7650f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louise H Tipp, Box 779 and location 230/86/42/02. A same-name death-index lead lacked an OSS, occupation, employer or second-identifier bridge and was rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d255da88-c17e-5014-bc51-06e5a972cc32",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Timonthy L Tippit, Box 779 and location 230/86/42/02. The printed Timonthy spelling and Timothy variants were searched; modern and historical namesakes supplied no reliable Box 779 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "818d4e1f-d461-5cde-b8d3-85c50d2ae0a3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lloyd R Tipton, Box 779 and location 230/86/42/02. The common name produced military and obituary namesakes, none with two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c215017-0200-51c6-b49d-566f9a78cdcb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph Tirpik, Box 779 and location 230/86/42/02. A secondary OSS operational-group roster contains an S/Sgt. J. Y. G. Tirpik, but the initials and chronology do not safely resolve indexed Joseph Tirpik.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b7a5fe6e-a8bc-5da9-a1e4-fb5d7e7e9566",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Chamroon Tishyarandara, Box 779 and location 230/86/42/02. Exact printed spelling and Thai transliteration variants produced no reliable OSS, institutional, diplomatic or occupational identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "385e9df4-b96c-55fb-9879-2cec534c8cd3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul Tison, Box 779 and location 230/86/42/02. The common name produced French, U.S. military and obituary namesakes, none with a second identifier or Box 779 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0a50dadb-9ce7-5fcf-a35b-cee05810da13",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Austin E Titus, Box 779 and location 230/86/42/02. Exact-name, middle-initial, official-domain, military, obituary and directory searches produced no defensible Box 779 identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5c7948a6-b3c3-5ae7-b64e-3c6f7bf1c6f9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gerald Titus, Box 779 and location 230/86/42/02. The common name produced multiple wartime and later namesakes but no two corroborating identifiers or reliable Box 779 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a6e984b-0962-5841-9d7c-c7ff1d07d76b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kenneth D Tivey, Box 779 and location 230/86/42/02. Exact-name, private-identifier, Army, obituary and Commonwealth variants produced no reliable identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 779 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fdbd568c-3c2f-59eb-a1c0-098d2e3fc429",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row supplies Carl Tjerandsen, Box 779 and location 230/86/42/02. A second printed Carl Tjerandsen row carries a distinct private identifier. It remains separate from row 19 pending Box 779 review and is not double-counted.",
+      "personnel_category": "unknown_or_indeterminate",
+      "possible_duplicate_group": "batch957-carl-tjerandsen-page469",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both Carl Tjerandsen personnel files in Box 779 using the distinct private identifiers; do not merge or duplicate biographical claims without direct file evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A private nonshared identifier, rare Tinlakos/Tiniakos spelling variant, middle initial and exact OSS Operational Group II evidence establish a strong bridge without overwriting the printed form.",
+      "name_variants": [
+        "George S. Tiniakos",
+        "Tech/5 George S. Tiniakos"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 779 for the named ship or shipping employer, exact Greek Battalion assignment and OSS transfer date.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "48d659c6-cab8-5a75-9e42-15f9c5efb2c9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare near-exact name and authoritative Stanford memorial explicitly connect Vladimir P. Timoshenko to the Food Research Institute and wartime OSS consultancy; the printed Tinmoshenko form remains preserved.",
+      "name_variants": [
+        "Vladimir P. Timoshenko",
+        "Vladimir Timoshenko"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 778 for the OSS consultancy dates and whether Stanford employment was formally interrupted; current evidence supports a continuing home institution.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name and private identifier agreement connect the index to the Army record; a contemporary broadcast-industry notice supplies the Cal/Calvin variant and dated Mutual-to-Army transition.",
+      "name_variants": [
+        "Cal Tinney",
+        "Calvin L. Tinney",
+        "Calvin Lawrence Tinney"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 779 for the OSS transfer date and assignment; Mutual is already established as the last civilian employer before active Army duty.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "eb1fe0e8-97f5-5885-8d74-e9323154bd9b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name and a private nonshared identifier connect the visually verified index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 779 to identify the architectural employer or practice and the specific Army-to-OSS pathway; the coded category does not name either.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A private nonshared identifier, distinctive full name, transparent Laurence/Lawrence spelling conflict and an institutional biography explicitly naming Army OSS service establish a strong identity bridge.",
+      "name_variants": [
+        "Laurence Alan Tisch",
+        "Lawrence A Tisch"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 779 to establish the exact sequence among NYU graduation, Army entry, 1943 graduate study and OSS assignment; do not treat student status as employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4f650f82-d872-5bab-a27f-c2937118926c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "Two authoritative institutional histories identify the exact distinctive name, University of Michigan faculty role, 1942 ASTP appointment and following-year OSS service.",
+      "name_variants": [
+        "Mischa Titiev",
+        "Misha Titiev"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 779 for the formal leave, OSS entry date and assignment; University of Michigan is already documented as the immediate and last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact private identifier agreement and the matching initial in an authoritative MoMA biography explicitly connect Roy V. Titus, Helena Rubinstein Inc. and wartime OSS service.",
+      "name_variants": [
+        "Roy V. Titus"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 779 for the OSS entry date and prewar company title; do not project later executive titles backward.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A private nonshared identifier, rare surname, compatible Army record, WSU institutional chronology and obituary support row 19; row 20 remains a separate ambiguous entity.",
+      "name_variants": [
+        "Carl Tjerandsen",
+        "Carl Tjerandse"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "possible_duplicate_group": "batch957-carl-tjerandsen-page469",
+      "research_status": "completed",
+      "next_action": "Review both Box 779 files to determine whether the two source rows represent one person at different service stages or distinct records; do not merge automatically.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact private identifier and name agreement, the compatible middle initial, Utah origin, 1943 enlistment and 442nd service chronology confirm Joseph Mamoru Tobari.",
+      "name_variants": [
+        "Joseph Mamoru Tobari",
+        "Joseph 'Joe' Tobari"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 779 for the relationship between 442nd service and the indexed OSS personnel file; student status at University of Utah is documented.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact first name, surname and middle initial plus Smithsonian documentation of Army Air Force intelligence and 1945 OSS graphic-design work support Abraham Joel Tobias.",
+      "name_variants": [
+        "Abraham Joel Tobias"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 779 to establish service status, dates and any civilian work between the Federal Arts Project and Army Air Force assignment.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "cd940470-af04-59be-b654-97e6ccaf928b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "The distinctive exact name and private nonshared identifier connect the index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 779 for the acting employer, production or venue and the Army-to-OSS sequence; the historical actor category alone does not name an employer.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page469-row1-george-s-tinlakos-b957",
+      "person_id": "fb61ba6c-6059-550e-9839-82e058ce3783",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George S Tinlakos; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review plus a scholarly OSS Greece history and memorial roster established the Tiniakos variant, merchant-marine background and broad U.S. Army pathway. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row2-vladimir-tinmoshenko-b957",
+      "person_id": "48d659c6-cab8-5a75-9e42-15f9c5efb2c9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vladimir Tinmoshenko; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 778; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "A Stanford memorial resolution established the rare Timoshenko variant, permanent Food Research Institute employment and wartime OSS consultancy. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 778 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row3-gerhard-tinner-b957",
+      "person_id": "2b9323d8-17cb-5503-b9ab-240238a9dad4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gerhard Tinner; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Exact-name, German-language, OSS, military, obituary, directory and institutional searches produced no defensible Box 779 identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row4-amedee-tinners-b957",
+      "person_id": "4977142b-28b4-5965-b7b5-7eb62d661f34",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Amedee Tinners; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 778; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Exact-name, French-language and spelling-variant searches produced no reliable wartime identity, occupation or Box 778 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 778 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row5-calvin-l-tinney-b957",
+      "person_id": "3b2e307c-2e90-50fc-aa80-a0203028cef8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Calvin L Tinney; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review and a contemporary broadcast-industry notice established Mutual employment immediately before active Army duty. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row6-paul-tinney-b957",
+      "person_id": "eb1fe0e8-97f5-5885-8d74-e9323154bd9b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Tinney; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review established a dated historical Architects category at Army entry; no employer or practice was identified. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row7-louise-h-tipp-b957",
+      "person_id": "f4b40566-0b08-527f-bf49-e7afc4b7650f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louise H Tipp; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "A same-name death-index lead lacked an OSS, occupation, employer or second-identifier bridge and was rejected. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row8-timonthy-l-tippit-b957",
+      "person_id": "d255da88-c17e-5014-bc51-06e5a972cc32",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Timonthy L Tippit; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "The printed Timonthy spelling and Timothy variants were searched; modern and historical namesakes supplied no reliable Box 779 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row9-lloyd-r-tipton-b957",
+      "person_id": "818d4e1f-d461-5cde-b8d3-85c50d2ae0a3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lloyd R Tipton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "The common name produced military and obituary namesakes, none with two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row10-joseph-tirpik-b957",
+      "person_id": "1c215017-0200-51c6-b49d-566f9a78cdcb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Tirpik; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "A secondary OSS operational-group roster contains an S/Sgt. J. Y. G. Tirpik, but the initials and chronology do not safely resolve indexed Joseph Tirpik. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row11-laurence-a-tisch-b957",
+      "person_id": "affc7800-9e2e-51f2-bc04-f5e4fdae4af4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Laurence A Tisch; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review and an institutional biography established the Laurence/Lawrence identity, NYU degree and Army OSS service; the exact education-service sequence remains qualified. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row12-chamroon-tishyarandara-b957",
+      "person_id": "b7a5fe6e-a8bc-5da9-a1e4-fb5d7e7e9566",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Chamroon Tishyarandara; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Exact printed spelling and Thai transliteration variants produced no reliable OSS, institutional, diplomatic or occupational identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row13-paul-tison-b957",
+      "person_id": "385e9df4-b96c-55fb-9879-2cec534c8cd3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Tison; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "The common name produced French, U.S. military and obituary namesakes, none with a second identifier or Box 779 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row14-mischa-titiev-b957",
+      "person_id": "4f650f82-d872-5bab-a27f-c2937118926c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mischa Titiev; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "ANU and University of Michigan institutional histories explicitly ordered Michigan faculty and ASTP work before the following-year OSS entry. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row15-austin-e-titus-b957",
+      "person_id": "0a50dadb-9ce7-5fcf-a35b-cee05810da13",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Austin E Titus; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Exact-name, middle-initial, official-domain, military, obituary and directory searches produced no defensible Box 779 identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row16-gerald-titus-b957",
+      "person_id": "5c7948a6-b3c3-5ae7-b64e-3c6f7bf1c6f9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gerald Titus; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "The common name produced multiple wartime and later namesakes but no two corroborating identifiers or reliable Box 779 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row17-roy-titus-b957",
+      "person_id": "c4470663-f746-5d1b-8be4-a8d01c796fc0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy Titus; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review and a MoMA biography explicitly established Helena Rubinstein Inc. as the employer before and after OSS service. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row18-kenneth-d-tivey-b957",
+      "person_id": "2a6e984b-0962-5841-9d7c-c7ff1d07d76b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kenneth D Tivey; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Exact-name, private-identifier, Army, obituary and Commonwealth variants produced no reliable identity or pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row19-carl-tjerandsen-b957",
+      "person_id": "6a5bf026-1024-547c-9b12-ee8055a12439",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl Tjerandsen; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review, WSU chronology and a published obituary established earlier teaching, federal planning and immediate food-agriculture research; the duplicate row remains separate. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row20-carl-tjerandsen-b957",
+      "person_id": "fdbd568c-3c2f-59eb-a1c0-098d2e3fc429",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl Tjerandsen; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "A second printed Carl Tjerandsen row carries a distinct private identifier. It remains separate from row 19 pending Box 779 review and is not double-counted. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Compare both distinct Carl Tjerandsen Box 779 files before any merge or duplicate attribution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row21-joseph-m-tobari-b957",
+      "person_id": "8b47480b-a586-540b-80c3-fdb94bdd067b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph M Tobari; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review, wartime student records and a University of Utah oral-history summary established identity, student status and 1943 enlistment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row22-abraham-j-tobias-b957",
+      "person_id": "178ce891-c060-5d71-8c4c-20646d94107c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Abraham J Tobias; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "A Smithsonian finding aid established the exact-name art career, Army Air Force intelligence assignment and 1945 OSS employment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    },
+    {
+      "key": "page469-row23-bentley-tobin-b957",
+      "person_id": "cd940470-af04-59be-b654-97e6ccaf928b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bentley Tobin; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 779; private identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_957",
+      "started_at": "2026-10-29T21:00:00Z",
+      "completed_at": "2026-10-29T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, private-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. The two Carl Tjerandsen rows were not merged.",
+      "research_notes": "Private identifier review established a dated historical Actors and actresses category at Army entry; no employer, production or venue was identified. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army documentation and relevant occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 779 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b957-v1"
+    }
+  ]
+}
