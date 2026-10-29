@@ -1,5 +1,46 @@
 # Research status
 
+Batch 954 completed PDF page 467, rows 24-46, from **George Thornton**
+through **Walter H Thurn**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes. Eleven accepted Army identity bridges
+carry qualified dated historical categories. George Thornton has student
+status without a named school; ten other people have historical occupation
+categories without a named employer or workplace. None is presented as an
+immediate OSS predecessor or last civilian employer.
+
+Twelve people retain explicit Box 776 or 777 archival-review outcomes after
+the staged online protocol. Namesakes, a mismatched full identifier and an
+unavailable CIA item were not substituted for inspected evidence. No
+authenticated NARA Catalog API request was used, and no protected identifier
+appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,881/23,936 (62.1700%)**;
+verified-employer coverage is **472/23,936 (1.9719%)**;
+verified-affiliation coverage is **1,053/23,936 (4.3992%)**; archival-review
+coverage is **13,357/23,936 (55.8030%)**. There are **9,050** not-started
+people, **648** possible-duplicate groups and **514** conflicts. Claim
+confidence counts are **1,662 confirmed**, **4,905 high**, **2,251 medium**,
+**254 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,540** affiliations, **1,210** organizations, **6,052** sources and
+**9,243** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 468, row
+1, **Arthur M Thurston**, in Box 777. See `research/batch-954-progress.md` for
+the source-by-source audit.
+
+Batch 954 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 585
+files with zero errors, warnings or hints and builds 25,195 static pages. The
+21/21 Batch 954 browser matrix and full 90/90 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication is
+pending immutable commit, GitHub Actions and live-manifest verification; full
+local verification is recorded in `reports/release_batch_954.md`.
+
 Batch 953 completed PDF page 467, rows 1-23, from **William J Thompson**
 through **Ronald H Thornley**, preserving all 23 printed rows as separate
 people with saved terminal research outcomes. Ethel M Thornbury has two

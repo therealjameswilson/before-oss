@@ -7287,6 +7287,17 @@ complete Playwright matrix passed 459 / 459 in 6.6 minutes across all three
 viewports. Twenty-seven axe scans—nine representative routes per viewport—
 reported no serious accessibility violations.
 
+## Batch 954 accessibility and responsive regression
+
+The bounded release suite passed **90 / 90** checks: 21 Batch 954 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and
+tablet widths. It verifies all 23 direct profiles, eleven reviewed Army
+identity matches, the student/employer distinction, source spelling and name
+variants, twelve archival-review outcomes, protected-identifier masking,
+exact coverage, and the unchanged oil-company category. All 30 axe scans
+reported no serious accessibility violations.
+
 ## Batch 137 accessibility and responsive regression
 
 Batch 137 adds direct-route coverage for Robert B. Bangs, Leif Bangsboll,

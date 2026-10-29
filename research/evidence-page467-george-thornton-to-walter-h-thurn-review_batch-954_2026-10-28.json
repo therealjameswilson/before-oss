@@ -1,0 +1,1546 @@
+{
+  "bundle_version": "batch-954-v1",
+  "reviewer": "Before OSS Batch 954 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b954",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 776-777",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 467, rows 24-46; checked against layout-preserving text and a 220 dpi page render",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Rows 24-38 are in Box 776 and rows 39-46 in Box 777. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b954",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eleven Batch 954 protected-identifier candidates reviewed; identifiers withheld",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Eleven identity links were accepted after exact protected-identifier and name review. No raw bulk row or full protected identifier enters public assets."
+    },
+    {
+      "key": "army-tech-b954",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, DD/MM/YY Army-entry-date and civilian-occupation fields",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b954",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-175 and 304; eleven reviewed historical categories",
+      "access_date": "2026-10-28",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories are qualified and never converted into named employers, workplaces or exact modern job titles."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "army-category-row24-b954",
+      "person_id": "3eaee07c-ad1f-5aac-9067-80b288358223",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-12-10",
+      "date_precision": "Historical category 9-92 was recorded at Army entry on 1942-12-10; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row25-b954",
+      "person_id": "9813058e-948f-54a1-b531-830fd57520f7",
+      "occupation": "purchasing agents and buyers, n. e. c.",
+      "relationship_type": "employment",
+      "end_date": "1945-02-16",
+      "date_precision": "Historical category 0-91 was recorded at Army entry on 1945-02-16; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row26-b954",
+      "person_id": "28de3ad1-ac3d-5166-9252-718f74ee763d",
+      "occupation": "architects",
+      "relationship_type": "employment",
+      "end_date": "1943-10-05",
+      "date_precision": "Historical category 0-03 was recorded at Army entry on 1943-10-05; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row30-b954",
+      "person_id": "1329c519-a0c3-5f86-9c7c-77f6d1aaa0f9",
+      "occupation": "occupations in manufacture of boots and shoes",
+      "relationship_type": "employment",
+      "end_date": "1942-11-21",
+      "date_precision": "Historical category 6-61 was recorded at Army entry on 1942-11-21; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row31-b954",
+      "person_id": "c0ad88ce-8efc-5642-94aa-0b737b50eb48",
+      "occupation": "construction occupations, n. e. c.",
+      "relationship_type": "employment",
+      "end_date": "1942-09-21",
+      "date_precision": "Historical category 7-32 was recorded at Army entry on 1942-09-21; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row32-b954",
+      "person_id": "50c61c2d-b77b-59c9-b09a-bdb215f5c10b",
+      "occupation": "machine shop and related occupations, n. e. c.",
+      "relationship_type": "employment",
+      "end_date": "1941-03-11",
+      "date_precision": "Historical category 6-78 was recorded at Army entry on 1941-03-11; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row36-b954",
+      "person_id": "997e7660-49ed-5566-988a-aff5457c1624",
+      "occupation": "construction occupations, n. e. c.",
+      "relationship_type": "employment",
+      "end_date": "1942-12-03",
+      "date_precision": "Historical category 7-32 was recorded at Army entry on 1942-12-03; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row37-b954",
+      "person_id": "a0498cde-de76-5b25-94b3-c1bfabac856a",
+      "occupation": "general farmers",
+      "relationship_type": "employment",
+      "end_date": "1942-12-16",
+      "date_precision": "Historical category 3-06 was recorded at Army entry on 1942-12-16; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row41-b954",
+      "person_id": "6b3ee250-ca60-58ce-8990-e481afd8c743",
+      "occupation": "lawyers and judges",
+      "relationship_type": "employment",
+      "end_date": "1943-06-15",
+      "date_precision": "Historical category 0-22 was recorded at Army entry on 1943-06-15; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row45-b954",
+      "person_id": "3b177db3-fa9f-5558-ac1f-32ed57cf2f2a",
+      "occupation": "salesmen, insurance",
+      "relationship_type": "employment",
+      "end_date": "1942-09-28",
+      "date_precision": "Historical category 1-57 was recorded at Army entry on 1942-09-28; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "army-category-row46-b954",
+      "person_id": "ab0cb3f1-9652-57c4-9768-bc6d0d95e43a",
+      "occupation": "mechanics and repairmen, motor vehicle",
+      "relationship_type": "employment",
+      "end_date": "1942-07-01",
+      "date_precision": "Historical category 7-81 was recorded at Army entry on 1942-07-01; no employer, workplace, school or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, exact specialization or immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-row24-army-b954",
+      "person_id": "3eaee07c-ad1f-5aac-9067-80b288358223",
+      "claim_type": "identity",
+      "claim_text": "The indexed George Thornton is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 24; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row24-army-b954",
+      "person_id": "3eaee07c-ad1f-5aac-9067-80b288358223",
+      "affiliation_key": "army-category-row24-b954",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1942-12-10, George Thornton was recorded in the historical student category; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The official bulk record supplies historical code 9-92; the visually reviewed NARA code list expands it as Students.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-12-10; historical code 9-92; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 304; historical category 9-92"
+        }
+      ]
+    },
+    {
+      "key": "identity-row25-army-b954",
+      "person_id": "9813058e-948f-54a1-b531-830fd57520f7",
+      "claim_type": "identity",
+      "claim_text": "The indexed George D Thornton is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 25; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row25-army-b954",
+      "person_id": "9813058e-948f-54a1-b531-830fd57520f7",
+      "affiliation_key": "army-category-row25-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-02-16, George D Thornton was recorded in the historical Purchasing agents and buyers, n. e. c. category; no employer or workplace is identified.",
+      "evidence_excerpt": "Purchasing agents and buyers, n. e. c.",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-91; the visually reviewed NARA code list expands it as Purchasing agents and buyers, n. e. c..",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1945-02-16; historical code 0-91; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 171; historical category 0-91"
+        }
+      ]
+    },
+    {
+      "key": "identity-row26-army-b954",
+      "person_id": "28de3ad1-ac3d-5166-9252-718f74ee763d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Homer A Thornton is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 26; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row26-army-b954",
+      "person_id": "28de3ad1-ac3d-5166-9252-718f74ee763d",
+      "affiliation_key": "army-category-row26-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-10-05, Homer A Thornton was recorded in the historical Architects category; no employer or workplace is identified.",
+      "evidence_excerpt": "Architects",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-03; the visually reviewed NARA code list expands it as Architects.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1943-10-05; historical code 0-03; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 170; historical category 0-03"
+        }
+      ]
+    },
+    {
+      "key": "identity-row30-army-b954",
+      "person_id": "1329c519-a0c3-5f86-9c7c-77f6d1aaa0f9",
+      "claim_type": "identity",
+      "claim_text": "The indexed George H Thorpe is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 30; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row30-army-b954",
+      "person_id": "1329c519-a0c3-5f86-9c7c-77f6d1aaa0f9",
+      "affiliation_key": "army-category-row30-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-21, George H Thorpe was recorded in the historical Occupations in manufacture of boots and shoes category; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in manufacture of boots and shoes",
+      "evidence_paraphrase": "The official bulk record supplies historical code 6-61; the visually reviewed NARA code list expands it as Occupations in manufacture of boots and shoes.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-11-21; historical code 6-61; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 173; historical category 6-61"
+        }
+      ]
+    },
+    {
+      "key": "identity-row31-army-b954",
+      "person_id": "c0ad88ce-8efc-5642-94aa-0b737b50eb48",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wilbur Thorpe is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 31; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row31-army-b954",
+      "person_id": "c0ad88ce-8efc-5642-94aa-0b737b50eb48",
+      "affiliation_key": "army-category-row31-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-21, Wilbur Thorpe was recorded in the historical Construction occupations, n. e. c. category; no employer or workplace is identified.",
+      "evidence_excerpt": "Construction occupations, n. e. c.",
+      "evidence_paraphrase": "The official bulk record supplies historical code 7-32; the visually reviewed NARA code list expands it as Construction occupations, n. e. c..",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-09-21; historical code 7-32; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 174; historical category 7-32"
+        }
+      ]
+    },
+    {
+      "key": "identity-row32-army-b954",
+      "person_id": "50c61c2d-b77b-59c9-b09a-bdb215f5c10b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur C Thorsen is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 32; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row32-army-b954",
+      "person_id": "50c61c2d-b77b-59c9-b09a-bdb215f5c10b",
+      "affiliation_key": "army-category-row32-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-11, Arthur C Thorsen was recorded in the historical Machine shop and related occupations, n. e. c. category; no employer or workplace is identified.",
+      "evidence_excerpt": "Machine shop and related occupations, n. e. c.",
+      "evidence_paraphrase": "The official bulk record supplies historical code 6-78; the visually reviewed NARA code list expands it as Machine shop and related occupations, n. e. c..",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1941-03-11; historical code 6-78; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 174; historical category 6-78"
+        }
+      ]
+    },
+    {
+      "key": "identity-row36-army-b954",
+      "person_id": "997e7660-49ed-5566-988a-aff5457c1624",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald S Thrall is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 36; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row36-army-b954",
+      "person_id": "997e7660-49ed-5566-988a-aff5457c1624",
+      "affiliation_key": "army-category-row36-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-03, Donald S Thrall was recorded in the historical Construction occupations, n. e. c. category; no employer or workplace is identified.",
+      "evidence_excerpt": "Construction occupations, n. e. c.",
+      "evidence_paraphrase": "The official bulk record supplies historical code 7-32; the visually reviewed NARA code list expands it as Construction occupations, n. e. c..",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-12-03; historical code 7-32; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 174; historical category 7-32"
+        }
+      ]
+    },
+    {
+      "key": "identity-row37-army-b954",
+      "person_id": "a0498cde-de76-5b25-94b3-c1bfabac856a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rastus W Thrasher is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 37; Box 776; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row37-army-b954",
+      "person_id": "a0498cde-de76-5b25-94b3-c1bfabac856a",
+      "affiliation_key": "army-category-row37-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-16, Rastus W Thrasher was recorded in the historical General farmers category; no employer or workplace is identified.",
+      "evidence_excerpt": "General farmers",
+      "evidence_paraphrase": "The official bulk record supplies historical code 3-06; the visually reviewed NARA code list expands it as General farmers.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-12-16; historical code 3-06; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 172; historical category 3-06"
+        }
+      ]
+    },
+    {
+      "key": "identity-row41-army-b954",
+      "person_id": "6b3ee250-ca60-58ce-8990-e481afd8c743",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert Thrun is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 41; Box 777; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row41-army-b954",
+      "person_id": "6b3ee250-ca60-58ce-8990-e481afd8c743",
+      "affiliation_key": "army-category-row41-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-15, Robert Thrun was recorded in the historical Lawyers and judges category; no employer or workplace is identified.",
+      "evidence_excerpt": "Lawyers and judges",
+      "evidence_paraphrase": "The official bulk record supplies historical code 0-22; the visually reviewed NARA code list expands it as Lawyers and judges.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1943-06-15; historical code 0-22; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 171; historical category 0-22"
+        }
+      ]
+    },
+    {
+      "key": "identity-row45-army-b954",
+      "person_id": "3b177db3-fa9f-5558-ac1f-32ed57cf2f2a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edwin B Thurman is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 45; Box 777; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row45-army-b954",
+      "person_id": "3b177db3-fa9f-5558-ac1f-32ed57cf2f2a",
+      "affiliation_key": "army-category-row45-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-28, Edwin B Thurman was recorded in the historical Salesmen, insurance category; no employer or workplace is identified.",
+      "evidence_excerpt": "Salesmen, insurance",
+      "evidence_paraphrase": "The official bulk record supplies historical code 1-57; the visually reviewed NARA code list expands it as Salesmen, insurance.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-09-28; historical code 1-57; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 171; historical category 1-57"
+        }
+      ]
+    },
+    {
+      "key": "identity-row46-army-b954",
+      "person_id": "ab0cb3f1-9652-57c4-9768-bc6d0d95e43a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Walter H Thurn is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and name agreement connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from private nonshared identifier agreement and compatible name evidence.",
+      "temporal_assessment": "The Army record dates entry into service but does not establish the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This identity decision does not establish a named employer or immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b954",
+          "locator_override": "PDF page 467 row 46; Box 777; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Reviewed name record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b954",
+          "support_type": "context_only",
+          "locator_override": "Field definitions and DD/MM/YY date format, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "category-row46-army-b954",
+      "person_id": "ab0cb3f1-9652-57c4-9768-bc6d0d95e43a",
+      "affiliation_key": "army-category-row46-b954",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-01, Walter H Thurn was recorded in the historical Mechanics and repairmen, motor vehicle category; no employer or workplace is identified.",
+      "evidence_excerpt": "Mechanics and repairmen, motor vehicle",
+      "evidence_paraphrase": "The official bulk record supplies historical code 7-81; the visually reviewed NARA code list expands it as Mechanics and repairmen, motor vehicle.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge and compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not shown to be the immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified historical category. No employer, workplace, school or exact modern specialization is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b954",
+          "locator_override": "Army entry 1942-07-01; historical code 7-81; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b954",
+          "locator_override": "PDF physical page 175; historical category 7-81"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "13adbaaa-c9f4-5a34-9dc7-bec1b035473f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies J R Thornton, Box 776 and archive location 230/86/42/01. Initials-only exact and variant searches produced no second identifier or Box 776 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ff67f7bb-616f-595b-aa02-b384b2b07b34",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Steve W Thornton, Box 776 and archive location 230/86/42/01. The printed six-digit protected number is too short for an exact Army bulk bridge; exact-name searches found only unassignable Steven and Stephen namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6aca7beb-46ce-5804-b46e-fba2731d0582",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Claude G Thorpe, Box 776 and archive location 230/86/42/01. Exact-name, OSS, employer, occupation, obituary, newspaper and institutional searches produced no defensible Box 776 identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f226327-04e9-5dfd-812d-b00883aabbae",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Randell A Thorsen, Box 776 and archive location 230/86/42/01. The printed Randell spelling was preserved; Randall variants and exact-name searches produced no defensible OSS or Box 776 linkage.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a0872503-1a26-598e-b496-20a238fb327d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kent D Thorup, Box 776 and archive location 230/86/42/01. Postwar Marine and legal records concern a plausible exact-name person but do not bridge that person to Box 776 or establish a pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4313fff7-d9d1-5ac0-9683-f1669e8e4509",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Martin C Thraikill, Box 776 and archive location 230/86/42/01. The printed Thraikill spelling was preserved; Thrailkill was used only as a search alias and produced no defensible identity or employment evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c80601a9-cc7c-5c78-9e4d-e97621314899",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John E Throwbridge, Box 776 and archive location 230/86/42/01. The printed Throwbridge spelling was preserved; Trowbridge variants produced multiple namesakes but no OSS, Box 776 or employment bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 776 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a943f5da-0fbb-5f23-98ff-3731251fdf9b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Clellan C Thrower, Box 777 and archive location 230/86/42/01. The printed seven-digit protected number is not eligible for an exact Army bulk bridge; an exact-name Army row carried a different full identifier and was not assigned by name alone.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 777 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8b4a9cd3-97aa-5dc7-92ff-719ace44183c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Fredrick M Thrower, Box 777 and archive location 230/86/42/01. The printed Fredrick spelling was preserved; Frederick variants and official-domain, obituary, directory and employment searches produced no reliable Box 777 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 777 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "73b4c7d4-b77b-50de-aec6-08bea9efcd3d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul H Thunnissen, Box 777 and archive location 230/86/42/01. Exact-name, foreign-name, OSS, archival, obituary and institutional searches produced no defensible Box 777 identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 777 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eca8027a-3642-5f8f-a3d5-34d14d72805c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Francis B Thurber, Box 777 and archive location 230/86/42/01. Results were dominated by the nineteenth-century Francis B. Thurber and other namesakes; none bridges the indexed Box 777 person to OSS or pre-OSS employment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 777 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "59151c96-04d4-50f4-ae2e-c8830d29ef03",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John W Thurlow, Box 777 and archive location 230/86/42/01. A postwar obituary for an Army veteran named John W. Thurlow lacks an OSS, protected-identifier or Box 777 bridge and was rejected as an unassigned namesake.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 777 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3eaee07c-ad1f-5aac-9067-80b288358223",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": [
+        "George C Thornton"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9813058e-948f-54a1-b531-830fd57520f7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "28de3ad1-ac3d-5166-9252-718f74ee763d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1329c519-a0c3-5f86-9c7c-77f6d1aaa0f9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c0ad88ce-8efc-5642-94aa-0b737b50eb48",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "50c61c2d-b77b-59c9-b09a-bdb215f5c10b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "997e7660-49ed-5566-988a-aff5457c1624",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a0498cde-de76-5b25-94b3-c1bfabac856a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 776 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6b3ee250-ca60-58ce-8990-e481afd8c743",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 777 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b177db3-fa9f-5558-ac1f-32ed57cf2f2a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 777 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ab0cb3f1-9652-57c4-9768-bc6d0d95e43a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name agreement connect the visually verified index row to the reviewed official Army record.",
+      "name_variants": [
+        "Walter H Thurn Jr"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 777 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page467-row24-george-thornton-b954",
+      "person_id": "3eaee07c-ad1f-5aac-9067-80b288358223",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George Thornton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and dated student status at Army entry on 1942-12-10, without naming a school or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row25-george-d-thornton-b954",
+      "person_id": "9813058e-948f-54a1-b531-830fd57520f7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George D Thornton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Purchasing agents and buyers, n. e. c. category at Army entry on 1945-02-16, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row26-homer-a-thornton-b954",
+      "person_id": "28de3ad1-ac3d-5166-9252-718f74ee763d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Homer A Thornton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Architects category at Army entry on 1943-10-05, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row27-j-r-thornton-b954",
+      "person_id": "13adbaaa-c9f4-5a34-9dc7-bec1b035473f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "J R Thornton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "Initials-only exact and variant searches produced no second identifier or Box 776 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row28-steve-w-thornton-b954",
+      "person_id": "ff67f7bb-616f-595b-aa02-b384b2b07b34",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Steve W Thornton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "The printed six-digit protected number is too short for an exact Army bulk bridge; exact-name searches found only unassignable Steven and Stephen namesakes. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row29-claude-g-thorpe-b954",
+      "person_id": "6aca7beb-46ce-5804-b46e-fba2731d0582",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Claude G Thorpe; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, newspaper and institutional searches produced no defensible Box 776 identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row30-george-h-thorpe-b954",
+      "person_id": "1329c519-a0c3-5f86-9c7c-77f6d1aaa0f9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George H Thorpe; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Occupations in manufacture of boots and shoes category at Army entry on 1942-11-21, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row31-wilbur-thorpe-b954",
+      "person_id": "c0ad88ce-8efc-5642-94aa-0b737b50eb48",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilbur Thorpe; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Construction occupations, n. e. c. category at Army entry on 1942-09-21, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row32-arthur-c-thorsen-b954",
+      "person_id": "50c61c2d-b77b-59c9-b09a-bdb215f5c10b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur C Thorsen; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Machine shop and related occupations, n. e. c. category at Army entry on 1941-03-11, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row33-randell-a-thorsen-b954",
+      "person_id": "3f226327-04e9-5dfd-812d-b00883aabbae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Randell A Thorsen; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "The printed Randell spelling was preserved; Randall variants and exact-name searches produced no defensible OSS or Box 776 linkage. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row34-kent-d-thorup-b954",
+      "person_id": "a0872503-1a26-598e-b496-20a238fb327d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kent D Thorup; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "Postwar Marine and legal records concern a plausible exact-name person but do not bridge that person to Box 776 or establish a pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row35-martin-c-thraikill-b954",
+      "person_id": "4313fff7-d9d1-5ac0-9683-f1669e8e4509",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Martin C Thraikill; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "The printed Thraikill spelling was preserved; Thrailkill was used only as a search alias and produced no defensible identity or employment evidence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row36-donald-s-thrall-b954",
+      "person_id": "997e7660-49ed-5566-988a-aff5457c1624",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald S Thrall; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Construction occupations, n. e. c. category at Army entry on 1942-12-03, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row37-rastus-w-thrasher-b954",
+      "person_id": "a0498cde-de76-5b25-94b3-c1bfabac856a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rastus W Thrasher; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical General farmers category at Army entry on 1942-12-16, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row38-john-e-throwbridge-b954",
+      "person_id": "c80601a9-cc7c-5c78-9e4d-e97621314899",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John E Throwbridge; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 776; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "The printed Throwbridge spelling was preserved; Trowbridge variants produced multiple namesakes but no OSS, Box 776 or employment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 776 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row39-clellan-c-thrower-b954",
+      "person_id": "a943f5da-0fbb-5f23-98ff-3731251fdf9b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clellan C Thrower; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "The printed seven-digit protected number is not eligible for an exact Army bulk bridge; an exact-name Army row carried a different full identifier and was not assigned by name alone. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row40-fredrick-m-thrower-b954",
+      "person_id": "8b4a9cd3-97aa-5dc7-92ff-719ace44183c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fredrick M Thrower; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "The printed Fredrick spelling was preserved; Frederick variants and official-domain, obituary, directory and employment searches produced no reliable Box 777 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row41-robert-thrun-b954",
+      "person_id": "6b3ee250-ca60-58ce-8990-e481afd8c743",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Thrun; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Lawyers and judges category at Army entry on 1943-06-15, without naming an employer or workplace. A CIA Reading Room search exposed a specific wartime document naming Robert Thrun, but the direct page redirected to system maintenance during review and was not used as final claim evidence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row42-paul-h-thunnissen-b954",
+      "person_id": "73b4c7d4-b77b-50de-aec6-08bea9efcd3d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul H Thunnissen; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "Exact-name, foreign-name, OSS, archival, obituary and institutional searches produced no defensible Box 777 identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row43-francis-b-thurber-b954",
+      "person_id": "eca8027a-3642-5f8f-a3d5-34d14d72805c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis B Thurber; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "Results were dominated by the nineteenth-century Francis B. Thurber and other namesakes; none bridges the indexed Box 777 person to OSS or pre-OSS employment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row44-john-w-thurlow-b954",
+      "person_id": "59151c96-04d4-50f4-ae2e-c8830d29ef03",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Thurlow; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "A postwar obituary for an Army veteran named John W. Thurlow lacks an OSS, protected-identifier or Box 777 bridge and was rejected as an unassigned namesake. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row45-edwin-b-thurman-b954",
+      "person_id": "3b177db3-fa9f-5558-ac1f-32ed57cf2f2a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edwin B Thurman; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Salesmen, insurance category at Army entry on 1942-09-28, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    },
+    {
+      "key": "page467-row46-walter-h-thurn-b954",
+      "person_id": "ab0cb3f1-9652-57c4-9768-bc6d0d95e43a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter H Thurn; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS and military clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 777; protected identifiers used privately only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_954",
+      "started_at": "2026-10-28T22:55:00Z",
+      "completed_at": "2026-10-29T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, modern records, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were not assigned. Spelling variants were search aliases only. Short or differing protected numbers were not bridged by name alone.",
+      "research_notes": "An accepted protected-identifier Army bridge supports identity and a dated historical Mechanics and repairmen, motor vehicle category at Army entry on 1942-07-01, without naming an employer or workplace. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 777 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b954-v1"
+    }
+  ]
+}
