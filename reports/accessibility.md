@@ -7460,3 +7460,15 @@ occupation codes from employers, the qualified Stimpson and Stirnus wartime
 affiliations, private namesake-candidate details, protected-identifier
 masking, exact coverage, and the oil-company category. All 30 axe scans
 reported no serious accessibility violations.
+
+## Batch 956 accessibility and responsive regression
+
+The bounded release suite passed **96 / 96** checks: 27 Batch 956 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and tablet
+widths. It verifies all 23 direct profiles, Louis Timpanaro's confirmed Artex
+Spraying Company employment, Wilho Tikander's dated Justice Department role,
+Fritz Tillisch's qualified Danish chronology, four reviewed Army identity
+matches, thirteen unresolved archival outcomes, protected-identifier masking,
+exact coverage, and the unchanged oil-company category. All 30 axe scans
+reported no serious accessibility violations.

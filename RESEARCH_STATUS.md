@@ -1,5 +1,50 @@
 # Research status
 
+Batch 956 completed PDF page 468, rows 24-46, from **Francis E Tifft**
+through **Paul Tinken**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Louis Timpanaro is confirmed by a direct wartime OSS examination that
+explicitly places him at Artex Spraying Company immediately before he entered
+OSS on 19 November 1942; Artex is published separately as both his immediate
+affiliation and last civilian employer. Wilho Tikander has a confirmed OSS
+Stockholm identity and a documented 1940 Justice Department assignment that
+is not presented as immediate. Fritz G Tillisch has qualified Danish Army and
+wartime military-intelligence affiliations; Leslie C Tihany has a dated
+prewar scholarly occupation without an inferred employer; James L Tilly and
+Otwell D Timmons retain explicit archival questions. Four accepted Army
+identity bridges carry qualified dated categories without invented employers.
+Thirteen unresolved people retain Box 778 archival-review outcomes. One
+protected-identifier middle-initial conflict was rejected without transferring
+facts, no authenticated NARA Catalog API request was used, and no protected
+identifier appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,926/23,936 (62.3580%)**;
+verified-employer coverage is **473/23,936 (1.9761%)**;
+verified-affiliation coverage is **1,058/23,936 (4.4201%)**; archival-review
+coverage is **13,402/23,936 (55.9910%)**. There are **9,005** not-started
+people, **648** possible-duplicate groups and **514** conflicts. Claim
+confidence counts are **1,666 confirmed**, **4,928 high**, **2,265 medium**,
+**254 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,560** affiliations, **1,213** organizations, **6,071** sources
+and **9,284** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 469, row
+1, **George S Tinlakos**, in Box 779. See `research/batch-956-progress.md` for
+the source-by-source audit.
+
+Batch 956 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, derived export regeneration,
+coverage reporting, public-data redaction and the 200-profile structural
+audit. All 147 Python tests pass. Astro checks 587 files with zero errors,
+warnings or hints and builds 25,198 static pages. The 27/27 Batch 956 browser
+matrix and full 96/96 bounded browser and accessibility release suite pass, as
+do the complete internal-link check, protected-identifier audit, checked-in
+public manifest, zero-vulnerability production dependency audit and two
+deterministic consecutive builds. The release is locally complete and awaits
+immutable-commit publication and unauthenticated deployed verification.
+
 Batch 955 completed PDF page 468, rows 1-23, from **Arthur M Thurston**
 through **Aaron L Tietelbaum**, preserving all 23 printed rows and 22 people
 with saved terminal research outcomes. The two identical Philip D Tierney

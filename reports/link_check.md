@@ -14917,3 +14917,19 @@ rejected **1,420** candidate substrings, and found zero unexpected boundary,
 aggregate, or manifest-size matches. Two consecutive builds reproduced the
 same **25,267-file**, **413,193,206-byte** output tree at SHA-256
 `b3e31caaa20222ae89d6bf28042c9ab16aca5a55dec6cb4a61a72da30b0ef371`.
+
+## Batch 956 local link, manifest and redaction check
+
+The static build contains **25,198 HTML files**, including direct pages for all
+**23,936 active person entities** and the 23 Batch 956 profiles. Every internal
+link resolves; **51,918** unique external URLs were inventoried for separate
+live checking. The public-manifest guard verified **67 assets** and
+**127,443,278 bytes** at manifest SHA-256
+`4543a4c8a8ee597a9d01f8a147ae54cf5340c85f7e6952b9623737c564e1bd40`.
+
+The boundary-aware audit compared **12,926** normalized private identifiers and
+**120** formatted variants across all **25,270** production artifacts,
+inspected **1,420** candidate substrings, and found zero unexpected boundary,
+aggregate, or manifest-size matches. Two consecutive builds reproduced the
+same **25,270-file**, **413,647,730-byte** output tree at SHA-256
+`105091e2bbf882c0cfb9059cd1910447fd0ecf747df8f2a735d960737dc4204c`.
