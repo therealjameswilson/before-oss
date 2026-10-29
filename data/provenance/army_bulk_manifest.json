@@ -5,12 +5,16 @@
   "file_naid": "1263923",
   "catalog_url": "https://catalog.archives.gov/id/1263923",
   "filename": "ASNEF.FIN.DAT",
+  "download_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/ASNEF.FIN.zip",
+  "archive_filename": "ASNEF.FIN.zip",
+  "archive_file_size_bytes": 185043578,
+  "archive_sha256": "80c46e83937c6483d11def47fbb1629cab0ac135694fdfa09268b66d826f1066",
   "format": "ASCII fixed-length records with CRLF delimiters",
   "record_length_bytes": 91,
   "record_count": 9200232,
   "file_size_bytes": 837221112,
   "sha256": "db10dbf90f0ef95dc327b0e8f8f0489923941b65399cf79bba71ac4b45d07e5b",
-  "retrieval_date": null,
-  "local_verification_date": "2026-09-19",
-  "provenance_note": "Official unrestricted bulk-data file, distinct from authenticated NARA Catalog API responses. Original local retrieval date was not recoverable. The local file is not committed."
+  "retrieval_date": "2026-10-29",
+  "local_verification_date": "2026-10-29",
+  "provenance_note": "Official unrestricted bulk-data file, distinct from authenticated NARA Catalog API responses. The current ZIP URL was obtained from NARA's public Catalog proxy for file NAID 1263923. Both the downloaded ZIP and extracted fixed-width file were hashed locally; the extracted file matches the previously documented payload hash and size. Neither file is committed."
 }
