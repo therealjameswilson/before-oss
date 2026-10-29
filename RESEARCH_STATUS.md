@@ -43,9 +43,12 @@ files with zero errors, warnings or hints and builds 25,202 static pages. The
 24/24 Batch 957 browser matrix and full 93/93 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-identifier
 audit, checked-in public manifest, zero-vulnerability production dependency
-audit and two deterministic consecutive builds. Publication verification will
-be recorded after GitHub Actions and the unauthenticated live-site comparison
-complete.
+audit and two deterministic consecutive builds. Publication is public from
+immutable content commit `9bf66bad3f1ae9d73523b0f380ceabcf748b9cbb`;
+GitHub Actions Test run `40961622146` and Pages run `40961622130` succeeded,
+and the unauthenticated manifest, eight core routes, 41 source-register pages
+and all 23 Batch 957 profile routes match that commit. Full verification is
+recorded in `reports/release_batch_957.md`.
 
 Batch 956 completed PDF page 468, rows 24-46, from **Francis E Tifft**
 through **Paul Tinken**, preserving all 23 printed rows as separate people
