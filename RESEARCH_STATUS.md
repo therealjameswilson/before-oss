@@ -37,9 +37,13 @@ files with zero errors, warnings or hints and builds 25,195 static pages. The
 21/21 Batch 954 browser matrix and full 90/90 bounded browser and accessibility
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
-dependency audit and two deterministic consecutive builds. Publication is
-pending immutable commit, GitHub Actions and live-manifest verification; full
-local verification is recorded in `reports/release_batch_954.md`.
+dependency audit and two deterministic consecutive builds. The release is
+public from immutable content commit
+`7a2593522d80e8aab841b4fc84deca0af12d0a1b`; GitHub Actions Test run
+`40813186104` and Pages run `40813186059` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 954
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_954.md`.
 
 Batch 953 completed PDF page 467, rows 1-23, from **William J Thompson**
 through **Ronald H Thornley**, preserving all 23 printed rows as separate
