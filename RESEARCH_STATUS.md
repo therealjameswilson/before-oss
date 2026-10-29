@@ -1,5 +1,50 @@
 # Research status
 
+Batch 953 completed PDF page 467, rows 1-23, from **William J Thompson**
+through **Ronald H Thornley**, preserving all 23 printed rows as separate
+people with saved terminal research outcomes. Ethel M Thornbury has two
+documented prewar academic employers, neither presented as immediate; Gordon
+P Thorigal has a documented Coast Guard Reserve pathway into OSS-attached
+swimmer units, presented as a military assignment; and Reginald Thorlin has
+documented Naval Academy student status and a Detachment 101 identity with
+the intervening chronology left for archival review.
+
+Four accepted Army bridges carry qualified dated occupation categories
+without named employers or workplaces. William J Thompson's undefined code
+was not interpreted. James C Thompson remains conflicting because his
+protected identifier retrieves a different official Army name; no facts were
+transferred. Sixteen people retain explicit Box 775 or 776 archival-review
+outcomes. No authenticated NARA Catalog API request was used, and no protected
+identifier appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **14,858/23,936 (62.0739%)**;
+verified-employer coverage is **472/23,936 (1.9719%)**;
+verified-affiliation coverage is **1,053/23,936 (4.3992%)**; archival-review
+coverage is **13,334/23,936 (55.7069%)**. There are **9,073** not-started
+people, **648** possible-duplicate groups and **514** conflicts. Claim
+confidence counts are **1,662 confirmed**, **4,894 high**, **2,240 medium**,
+**254 low**, **429 conflicting** and **2 unresolved**. The public projection
+contains **3,529** affiliations, **1,210** organizations, **6,048** sources and
+**9,221** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 467, row
+24, **George Thornton**, in Box 776. See `research/batch-953-progress.md` for
+the source-by-source audit.
+
+Batch 953 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, full ingest validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 584
+files with zero errors, warnings or hints and builds 25,195 static pages. The
+24/24 Batch 953 browser matrix and full 93/93 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication is
+pending the immutable content commit, GitHub Test and Pages workflows, and
+unauthenticated live verification; `reports/release_batch_953.md` records the
+release gate.
+
 Batch 952 completed PDF page 466, rows 24-46, from **Janet F Thompson**
 through **Theodore J Thompson**, preserving all 23 printed rows as separate
 people with saved terminal research outcomes. Paul A Thompson has an accepted
