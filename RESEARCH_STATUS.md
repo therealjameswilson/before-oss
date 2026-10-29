@@ -42,8 +42,12 @@ warnings or hints and builds 25,198 static pages. The 27/27 Batch 956 browser
 matrix and full 96/96 bounded browser and accessibility release suite pass, as
 do the complete internal-link check, protected-identifier audit, checked-in
 public manifest, zero-vulnerability production dependency audit and two
-deterministic consecutive builds. The release is locally complete and awaits
-immutable-commit publication and unauthenticated deployed verification.
+deterministic consecutive builds. Publication is public from immutable content
+commit `e78ec3e196d8c38fc3a98e225e0806ba031dd494`; GitHub Actions Test run
+`40952556168` and Pages run `40952556166` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 956
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_956.md`.
 
 Batch 955 completed PDF page 468, rows 1-23, from **Arthur M Thurston**
 through **Aaron L Tietelbaum**, preserving all 23 printed rows and 22 people
