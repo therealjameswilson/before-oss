@@ -39,9 +39,12 @@ files with zero errors, warnings or hints and builds 25,195 static pages. The
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
 dependency audit and two deterministic consecutive builds. Publication is
-pending GitHub Actions, Pages deployment and unauthenticated live verification;
-local success is not being represented as public release. Full local evidence
-is recorded in `reports/release_batch_955.md`.
+public from immutable content commit
+`0e18a91ff8dcd2ebe89b262a3afff493830c2a26`; GitHub Actions Test run
+`40945756667` and Pages run `40945756736` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 22 Batch 955
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_955.md`.
 
 Batch 954 completed PDF page 467, rows 24-46, from **George Thornton**
 through **Walter H Thurn**, preserving all 23 printed rows as separate people
