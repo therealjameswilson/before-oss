@@ -32,9 +32,12 @@ integrity, the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic
 build, the 30/30 batch browser matrix and the full 99/99 browser and
 accessibility release suite. All 25,237 internal page links resolve, the
 protected-identifier audit found zero unexpected matches, and the 67-asset
-public manifest verifies locally. Publication is pending the immutable content
-commit, GitHub Actions checks and unauthenticated deployed-release
-verification. Full verification is recorded in `reports/release_batch_969.md`.
+public manifest verifies locally. Publication is public from immutable content
+commit `946b067cf7e60c4415535a0a2f69ae90031384dd`; GitHub Actions Test run
+`41006904745` and Pages run `41006904915` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 969
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_969.md`.
 
 Batch 968 completed PDF page 474, rows 24-46, from **Michalis Tsirmulas**
 through **Margaret E Tugas**, preserving all 23 printed rows as separate people
