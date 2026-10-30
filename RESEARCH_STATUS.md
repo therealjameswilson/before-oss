@@ -1,5 +1,40 @@
 # Research status
 
+Batch 975 completed PDF page 478, rows 1-23, from **Henry Untermeyer** through
+**Robert Vacasovich**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Reviewed evidence identifies Henry Untermeyer's CBS-owned WABC employment
+before active Army duty, Paul M Ursin's prewar U.S. diplomatic-post work in
+Prague, and Vladimir Ussachevsky's concurrent Roosevelt High School and
+Pasadena Junior College teaching before his explicit Army-to-OSS assignment.
+Five exact Army identity bridges publish qualified occupation or student
+categories without inventing employers; a sixth supports Louis J Urbanski's
+identity only. Furman H Updike and Yoshisada Usuda receive official or
+contemporary identity findings but no unsupported employer. The two Richard E
+Usher rows remain distinct conflict and ambiguity profiles. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,360/23,936 (64.1711%)**;
+verified-employer coverage is **495/23,936 (2.0680%)**;
+verified-affiliation coverage is **1,105/23,936 (4.6165%)**; archival-review
+coverage is **13,836/23,936 (57.8041%)**. There are **8,571** not-started
+people, **665** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,159 high**, **2,452 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,795** affiliations, **1,264** organizations, **6,305** sources and
+**9,749** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 478, row 24,
+**Sylvester Vacek**, in Box 796. See `research/batch-975-progress.md`.
+
+Batch 975 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+27/27 batch browser matrix and the full 96/96 browser and accessibility release
+suite. All 25,251 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. Publication verification will be recorded
+in `reports/release_batch_975.md` after the immutable content commit is live.
+
 Batch 974 completed PDF page 477, rows 24-46, from **Joe W Ulmer** through
 **Morris Unterberger**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.
