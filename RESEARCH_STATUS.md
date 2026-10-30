@@ -1,5 +1,40 @@
 # Research status
 
+Batch 979 completed PDF page 480, rows 1-23, from **Elizabeth Van Kuyk**
+through **Robert G Vance**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Reviewed institutional evidence identifies Robert Lawrence Van Nice and
+documents the Hagia Sophia architectural survey as his immediate and last
+civilian pre-service affiliation, with his earlier Iranian survey work kept
+separate. Clark University records identify Samuel Van Valkenber as geographer
+Samuel Van Valkenburg and support Clark as his last civilian employer without
+claiming an unproved immediate transition into OSS. Five exact official Army
+identity bridges publish qualified, date-bounded occupations only. Unbridged
+namesakes, snippets and postwar-only leads create no public employers. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,452/23,936 (64.5555%)**;
+verified-employer coverage is **501/23,936 (2.0931%)**;
+verified-affiliation coverage is **1,115/23,936 (4.6583%)**; archival-review
+coverage is **13,928/23,936 (58.1885%)**. There are **8,479** not-started
+people, **667** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,713 confirmed**, **5,203 high**, **2,473 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,832** affiliations, **1,277** organizations, **6,354** sources and
+**9,821** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 480, row
+24, **Charles Vanda**. See `research/batch-979-progress.md`.
+
+Batch 979 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+24/24 batch browser matrix and the full 93/93 browser and accessibility release
+suite. All 25,264 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. Publication verification is recorded in
+`reports/release_batch_979.md` and will be completed against the immutable
+content commit.
+
 Batch 978 completed PDF page 479, rows 24-46, from the Box 797 **William R Van
 Cleef** through **Samuel Van Hyning**, preserving all 23 printed rows as
 separate people with saved terminal research outcomes.
