@@ -1,5 +1,39 @@
 # Research status
 
+Batch 967 completed PDF page 474, rows 1-23, from **Robert E True** through
+**Ernest Tsikerdanos**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Svend Truelsen's Danish Agricultural Council employment and Robert C Tryon's
+University of California, Berkeley employment are documented without
+conflating government, military or professional affiliations. Six accepted
+Army identity bridges publish only qualified occupation or military evidence;
+one protected-identifier candidate was rejected because it names a different
+person. Jerry Truhlar and Jerry Truhler remain separate within their existing
+possible-duplicate group. One conflict and seven archival-review cases remain
+visible. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,177/23,936 (63.4066%)**;
+verified-employer coverage is **488/23,936 (2.0388%)**;
+verified-affiliation coverage is **1,092/23,936 (4.5622%)**; archival-review
+coverage is **13,653/23,936 (57.0396%)**. There are **8,754** not-started
+people, **664** possible-duplicate groups and **520** conflicts. Claim
+confidence counts are **1,704 confirmed**, **5,057 high**, **2,383 medium**,
+**254 low**, **433 conflicting** and **2 unresolved**. The public projection
+contains **3,712** affiliations, **1,250** organizations, **6,216** sources and
+**9,573** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 474, row
+24, **Michalis Tsirmulas**, in Box 787. See `research/batch-967-progress.md`.
+
+Batch 967 passed evidence-schema validation, idempotent import, SQLite
+integrity, extraction validation, the 200-profile audit, all 147 Python tests,
+Astro's zero-diagnostic build, the 27/27 batch browser matrix and the full
+96/96 browser and accessibility release suite. All 25,236 internal page links
+resolve, the protected-identifier audit found zero unexpected matches, and the
+67-asset public manifest verifies locally. Publication verification is being
+recorded in `reports/release_batch_967.md`.
+
 Batch 966 completed PDF page 473, rows 24-46, from **Michael J Troisi**
 through **John V Truden**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
