@@ -1,5 +1,39 @@
 # Research status
 
+Batch 974 completed PDF page 477, rows 24-46, from **Joe W Ulmer** through
+**Morris Unterberger**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Reviewed institutional evidence identifies Irvin W Underhill's concurrent
+Philadelphia Housing Authority employment during wartime OSS consulting,
+Horace H Underwood's Yonhi College presidency, and Horace G Underwood's
+distinct Chosen Christian College and U.S. Navy pathway. Warren W Unna remains
+a qualified student candidate, never a university employee. Four exact Army
+identity bridges publish qualified occupation or student categories, while a
+Military Intelligence Service registry supports Kazuo Unoki's identity only.
+Fourteen unresolved identities retain archival-review outcomes. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,338/23,936 (64.0792%)**;
+verified-employer coverage is **493/23,936 (2.0597%)**;
+verified-affiliation coverage is **1,102/23,936 (4.6039%)**; archival-review
+coverage is **13,814/23,936 (57.7122%)**. There are **8,593** not-started
+people, **664** possible-duplicate groups and **523** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,143 high**, **2,446 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,784** affiliations, **1,263** organizations, **6,294** sources and
+**9,727** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 478, row 1.
+See `research/batch-974-progress.md`.
+
+Batch 974 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+24/24 batch browser matrix and the full 93/93 browser and accessibility release
+suite. All 25,247 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. Publication verification will be recorded
+in `reports/release_batch_974.md` after the immutable content commit is live.
+
 Batch 973 completed PDF page 477, rows 1-23, from **Robert M Tyson** through
 **Doris B Ulmer**, preserving all 23 printed rows as separate people with saved
 terminal research outcomes.
