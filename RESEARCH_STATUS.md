@@ -36,9 +36,12 @@ Batch 977 passed evidence-schema validation, repeat import, SQLite integrity,
 the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
 27/27 batch browser matrix and the full 96/96 browser and accessibility release
 suite. All 25,258 internal page links resolve, and the protected-identifier
-audit found zero unexpected matches. The release candidate is locally verified
-and awaits publication; final deployment evidence will be added to
-`reports/release_batch_977.md` after the immutable content commit is live.
+audit found zero unexpected matches. Publication is public from immutable
+content commit `3f891283f02bb48f475683e0e10f6b1e67f071ba`; GitHub Actions
+Test run `41034396537` and Pages run `41034396730` succeeded. Unauthenticated
+verification matched the 67-asset manifest, eight core routes, 43 source-
+register pages and all 24 Batch 977 affected profile routes to that commit.
+Full verification is recorded in `reports/release_batch_977.md`.
 
 Batch 976 completed PDF page 478, rows 24-46, from **Sylvester Vacek** through
 **Florencio A Valenzuela**, preserving all 23 printed rows as separate people

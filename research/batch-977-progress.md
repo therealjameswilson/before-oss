@@ -117,6 +117,14 @@ Continue with PDF page 479, row 24, the separate William R Van Cleef in Box
 
 ## Publication verification
 
-Publication is pending. This section will record the immutable content commit,
-GitHub Actions results and unauthenticated deployed-release verification after
-the release is live.
+- Public content commit:
+  `3f891283f02bb48f475683e0e10f6b1e67f071ba`.
+- GitHub Actions Test run `41034396537` completed successfully for that exact
+  commit.
+- GitHub Pages run `41034396730` completed successfully for that exact commit.
+- The unauthenticated deployed-release verifier matched 67 manifest assets
+  totaling 130,963,327 bytes, eight core routes, 43 source-register pages and
+  all 24 affected direct profile routes to the immutable commit.
+- Deployed manifest SHA-256:
+  `4a81b0a0a6ab12823a078b2f3fdb0a3bbcaf9e19ea48519096f9b90d6d658418`.
+- Public site: https://therealjameswilson.github.io/before-oss/
