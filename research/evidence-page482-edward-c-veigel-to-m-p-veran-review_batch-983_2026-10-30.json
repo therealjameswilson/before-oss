@@ -1,0 +1,1699 @@
+{
+  "bundle_version": "batch-983-v1",
+  "reviewer": "Before OSS Batch 983 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b983",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 802",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 482, rows 1-23; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate; original spelling and archival context are recoverable while public identifiers are masked."
+    },
+    {
+      "key": "army-bulk-b983",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; twelve Batch 983 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b983",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b983",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175 and 304; every published Batch 983 category visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify status or broad occupation, not a named employer, workplace or exact job title."
+    },
+    {
+      "key": "cambridge-walter-vella-b983",
+      "stable_url": "https://doi.org/10.1017/S002191180008013X",
+      "title": "Walter Francis Vella (1924-1980)",
+      "author_creator": "Robert Van Niel",
+      "repository_publisher": "The Journal of Asian Studies; Cambridge University Press",
+      "publication_record_date": "1981-05",
+      "locator": "Volume 40, issue 3, page 660; first biographical paragraph; source PDF visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Journal of Asian Studies",
+      "document_number": "DOI 10.1017/S002191180008013X",
+      "rights_notes": "The obituary explicitly sequences Berkeley enrollment, military service, Army language training and OSS CBI assignment."
+    },
+    {
+      "key": "oss-society-alex-vellis-b983",
+      "stable_url": "https://www.ossreborn.com/files/OSS_Sum10_Final.pdf",
+      "title": "Help Wanted: Alex L. Vellis",
+      "author_creator": "Nick Vellis",
+      "repository_publisher": "The OSS Society Journal",
+      "publication_record_date": "2010",
+      "locator": "Summer/Fall 2010, page 77; family research request",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "The OSS Society Journal",
+      "rights_notes": "First-person family testimony is corroborative, not direct personnel-file proof; the transition claim remains qualified."
+    },
+    {
+      "key": "us-war-memorials-alex-vellis-b983",
+      "stable_url": "https://uswarmemorials.org/html/people_details.php?PeopleID=24839",
+      "title": "Vellis, Alex L.",
+      "author_creator": "U.S. War Memorials",
+      "repository_publisher": "U.S. War Memorials",
+      "publication_record_date": "Database current at access",
+      "locator": "Person record; Greek Operational Group monument linkage and service summary",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Greek Operational Group (OSS) Soldier Monument database"
+    },
+    {
+      "key": "us-war-memorials-greek-og-b983",
+      "stable_url": "https://www.uswarmemorials.org/html/monument_details.php?MemID=1865&SiteID=1414&file=monument_details.php&page=5",
+      "title": "Greek Operational Group (OSS) Soldier Monument",
+      "author_creator": "U.S. War Memorials",
+      "repository_publisher": "U.S. War Memorials",
+      "publication_record_date": "Monument dedicated 2005-05-26; database current at access",
+      "locator": "Company C, 2671st Special Reconnaissance Battalion roster; Gus Vellios and Alex Vellis entries",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Athens Hellenic Army ALSOS Park memorials"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "uc-berkeley-b983",
+      "organization_id": "dd5d0a44-0368-5e91-a5d3-074de36840ed",
+      "canonical_name": "University of California, Berkeley",
+      "historical_name": "University of California at Berkeley",
+      "aliases": [
+        "UC Berkeley",
+        "University of California at Berkeley"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Student status remains distinct from employment."
+    },
+    {
+      "key": "army-astp-b983",
+      "organization_id": "fca60c0c-b288-54f2-b3a9-5ab0370f00eb",
+      "canonical_name": "Army Specialized Training Program",
+      "historical_name": "Army Specialized Training Program",
+      "aliases": [
+        "ASTP"
+      ],
+      "organization_type": "military training program",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "An Army training assignment, not a civilian employer or university affiliation unless separately documented."
+    },
+    {
+      "key": "oss-greek-og-b983",
+      "organization_id": "5672671e-db84-554a-aefd-469d60722262",
+      "canonical_name": "OSS Greek Operational Group",
+      "historical_name": "Company C, 2671st Special Reconnaissance Battalion",
+      "aliases": [
+        "Greek Battalion",
+        "Greek/US Operational Group",
+        "Operational Group III"
+      ],
+      "organization_type": "military and OSS operational unit",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The wartime designation is preserved; this assignment is not a civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "rock-g-veilleux-occupation-b983-row2",
+      "person_id": "3b8b4299-8dc4-5b1e-aff3-d8abe1363965",
+      "occupation": "paper-goods manufacturing occupation",
+      "relationship_type": "employment",
+      "start_date": "1943-07-23",
+      "end_date": "1943-07-23",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "anthony-j-vella-occupation-b983-row6",
+      "person_id": "8b6fe7b1-ce53-5cc3-895f-724988f74fcd",
+      "occupation": "warehousing, storekeeping, handling, loading or unloading occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "start_date": "1942-11-28",
+      "end_date": "1942-11-28",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "walter-f-vella-occupation-b983-row8",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1943-04-03",
+      "end_date": "1943-04-03",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "moritz-velleman-occupation-b983-row10",
+      "person_id": "833cab1f-839d-5766-baf2-4bebff78cada",
+      "occupation": "retail manager",
+      "relationship_type": "employment",
+      "start_date": "1942-01-12",
+      "end_date": "1942-01-12",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "guss-vellios-occupation-b983-row11",
+      "person_id": "899455b1-64c6-5a77-8c65-29b2447b86a9",
+      "occupation": "decorator or window dresser",
+      "relationship_type": "employment",
+      "start_date": "1942-11-04",
+      "end_date": "1942-11-04",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "lawson-r-venable-occupation-b983-row13",
+      "person_id": "28d4ca4f-e3c6-5322-a519-d2f03ee5c6fd",
+      "occupation": "laboratory technician or assistant",
+      "relationship_type": "employment",
+      "start_date": "1945-12-22",
+      "end_date": "1945-12-22",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "anthony-a-veneruso-occupation-b983-row16",
+      "person_id": "5cd94b1a-0c3b-5fbc-8750-5946f8b482d8",
+      "occupation": "semiskilled automobile-manufacturing occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "start_date": "1943-03-10",
+      "end_date": "1943-03-10",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "claude-h-venon-occupation-b983-row18",
+      "person_id": "2f8a9780-0748-5d48-92f7-de31c48cba54",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1943-04-14",
+      "end_date": "1943-04-14",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "jose-ventura-occupation-b983-row21",
+      "person_id": "bdd660b0-ca6b-54fa-81a7-cd22b108476e",
+      "occupation": "kitchen worker in a hotel, restaurant, railroad, steamship or related establishment, not elsewhere classified",
+      "relationship_type": "employment",
+      "start_date": "1941-01-27",
+      "end_date": "1941-01-27",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "lauro-venturi-occupation-b983-row22",
+      "person_id": "bf74d86c-94cf-5191-92d5-f60b97c64d37",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1943-05-14",
+      "end_date": "1943-05-14",
+      "date_precision": "Dated at Army entry; the historical category names no employer, school, workplace, duration or precise OSS-transfer date",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "walter-vella-berkeley-student-b983",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "organization_key": "uc-berkeley-b983",
+      "organization_name_as_found": "University of California at Berkeley",
+      "role_title": "student",
+      "relationship_type": "student",
+      "start_date": "1942",
+      "end_date": "1942",
+      "date_precision": "Entered in 1942 and was soon drawn into military service; exact dates are not supplied",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Last documented civilian status before military service. Berkeley is not labeled an employer."
+    },
+    {
+      "key": "walter-vella-astp-b983",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "organization_key": "army-astp-b983",
+      "organization_name_as_found": "ASTP program",
+      "role_title": "Thai-language trainee",
+      "relationship_type": "military_assignment",
+      "start_date": "1942 or later",
+      "end_date": "Before OSS CBI assignment",
+      "date_precision": "The obituary gives the explicit ASTP-to-OSS sequence but not exact transfer dates",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Immediate documented military training assignment before OSS CBI service; not a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-rock-g-veilleux-army-b983-row2",
+      "person_id": "3b8b4299-8dc4-5b1e-aff3-d8abe1363965",
+      "claim_type": "identity",
+      "claim_text": "Indexed Rock G Veilleux is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rock-g-veilleux-b983-row2",
+      "person_id": "3b8b4299-8dc4-5b1e-aff3-d8abe1363965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-23, Rock G Veilleux's historical civilian category was occupations in manufacture of paper goods.",
+      "evidence_paraphrase": "The official Army field carries historical code 642; NARA's code list defines it as Occupations in manufacture of paper goods.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 173; historical category 6-42"
+        }
+      ],
+      "affiliation_key": "rock-g-veilleux-occupation-b983-row2"
+    },
+    {
+      "key": "identity-anthony-j-vella-army-b983-row6",
+      "person_id": "8b6fe7b1-ce53-5cc3-895f-724988f74fcd",
+      "claim_type": "identity",
+      "claim_text": "Indexed Anthony J Vella is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-anthony-j-vella-b983-row6",
+      "person_id": "8b6fe7b1-ce53-5cc3-895f-724988f74fcd",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-28, Anthony J Vella's historical civilian category was warehousing, storekeeping, handling, loading, unloading, and related occupations, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 788; NARA's code list defines it as Warehousing, storekeeping, handling, loading, unloading, and related occupations, not elsewhere classified.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 175; historical category 7-88"
+        }
+      ],
+      "affiliation_key": "anthony-j-vella-occupation-b983-row6"
+    },
+    {
+      "key": "identity-walter-f-vella-army-b983-row8",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "claim_type": "identity",
+      "claim_text": "Indexed Walter F Vella is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-walter-f-vella-b983-row8",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-04-03, Walter F Vella's historical civilian category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ],
+      "affiliation_key": "walter-f-vella-occupation-b983-row8"
+    },
+    {
+      "key": "identity-moritz-velleman-army-b983-row10",
+      "person_id": "833cab1f-839d-5766-baf2-4bebff78cada",
+      "claim_type": "identity",
+      "claim_text": "Indexed Moritz Velleman is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-moritz-velleman-b983-row10",
+      "person_id": "833cab1f-839d-5766-baf2-4bebff78cada",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-12, Moritz Velleman's historical civilian category was retail managers.",
+      "evidence_paraphrase": "The official Army field carries historical code 072; NARA's code list defines it as Retail managers.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 171; historical category 0-72"
+        }
+      ],
+      "affiliation_key": "moritz-velleman-occupation-b983-row10"
+    },
+    {
+      "key": "identity-guss-vellios-army-b983-row11",
+      "person_id": "899455b1-64c6-5a77-8c65-29b2447b86a9",
+      "claim_type": "identity",
+      "claim_text": "Indexed Guss Vellios is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The nonshared protected identifier agrees exactly; the official Army form prints Gus while the index prints Guss, and the rare-name monument entry independently supports Gus Vellios.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "us-war-memorials-greek-og-b983",
+          "locator_override": "Company C roster; Gus Vellios entry"
+        }
+      ]
+    },
+    {
+      "key": "occupation-guss-vellios-b983-row11",
+      "person_id": "899455b1-64c6-5a77-8c65-29b2447b86a9",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-04, Guss Vellios's historical civilian category was decorators and window dressers.",
+      "evidence_paraphrase": "The official Army field carries historical code 043; NARA's code list defines it as Decorators and window dressers.",
+      "identity_match_assessment": "The nonshared protected identifier agrees exactly; the official Army form prints Gus while the index prints Guss, and the rare-name monument entry independently supports Gus Vellios.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 171; historical category 0-43"
+        }
+      ],
+      "affiliation_key": "guss-vellios-occupation-b983-row11"
+    },
+    {
+      "key": "identity-lawson-r-venable-army-b983-row13",
+      "person_id": "28d4ca4f-e3c6-5322-a519-d2f03ee5c6fd",
+      "claim_type": "identity",
+      "claim_text": "Indexed Lawson R Venable is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-lawson-r-venable-b983-row13",
+      "person_id": "28d4ca4f-e3c6-5322-a519-d2f03ee5c6fd",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-12-22, Lawson R Venable's historical civilian category was laboratory technicians and assistants.",
+      "evidence_paraphrase": "The official Army field carries historical code 050; NARA's code list defines it as Laboratory technicians and assistants.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 171; historical category 0-50"
+        }
+      ],
+      "affiliation_key": "lawson-r-venable-occupation-b983-row13"
+    },
+    {
+      "key": "identity-anthony-a-veneruso-army-b983-row16",
+      "person_id": "5cd94b1a-0c3b-5fbc-8750-5946f8b482d8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Anthony A Veneruso is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-anthony-a-veneruso-b983-row16",
+      "person_id": "5cd94b1a-0c3b-5fbc-8750-5946f8b482d8",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-10, Anthony A Veneruso's historical civilian category was occupations in manufacture of automobiles, not elsewhere classified (semiskilled level).",
+      "evidence_paraphrase": "The official Army field carries historical code 702; NARA's code list defines it as Occupations in manufacture of automobiles, not elsewhere classified (semiskilled level).",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 174; historical category 7-02"
+        }
+      ],
+      "affiliation_key": "anthony-a-veneruso-occupation-b983-row16"
+    },
+    {
+      "key": "identity-claude-h-venon-army-b983-row18",
+      "person_id": "2f8a9780-0748-5d48-92f7-de31c48cba54",
+      "claim_type": "identity",
+      "claim_text": "Indexed Claude H Venon is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claude-h-venon-b983-row18",
+      "person_id": "2f8a9780-0748-5d48-92f7-de31c48cba54",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-04-14, Claude H Venon's historical civilian category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ],
+      "affiliation_key": "claude-h-venon-occupation-b983-row18"
+    },
+    {
+      "key": "identity-jose-ventura-army-b983-row21",
+      "person_id": "bdd660b0-ca6b-54fa-81a7-cd22b108476e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Jose Ventura is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jose-ventura-b983-row21",
+      "person_id": "bdd660b0-ca6b-54fa-81a7-cd22b108476e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-01-27, Jose Ventura's historical civilian category was kitchen workers in hotels, restaurants, railroads, steamships, and related establishments, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 229; NARA's code list defines it as Kitchen workers in hotels, restaurants, railroads, steamships, and related establishments, not elsewhere classified.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 172; historical category 2-29"
+        }
+      ],
+      "affiliation_key": "jose-ventura-occupation-b983-row21"
+    },
+    {
+      "key": "identity-lauro-venturi-army-b983-row22",
+      "person_id": "bf74d86c-94cf-5191-92d5-f60b97c64d37",
+      "claim_type": "identity",
+      "claim_text": "Indexed Lauro Venturi is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "The official name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "The Army entry date is preserved separately from later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-lauro-venturi-b983-row22",
+      "person_id": "bf74d86c-94cf-5191-92d5-f60b97c64d37",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-05-14, Lauro Venturi's historical civilian category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b983",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b983",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ],
+      "affiliation_key": "lauro-venturi-occupation-b983-row22"
+    },
+    {
+      "key": "identity-walter-francis-vella-b983",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "claim_type": "identity",
+      "claim_text": "Indexed Walter F Vella is confirmed as historian Walter Francis Vella, who served with the OSS in the China-Burma-India theater.",
+      "evidence_paraphrase": "A scholarly obituary supplies his full name and explicit Berkeley-to-military-to-OSS chronology; the index and Army files add exact-name and protected-identifier agreement.",
+      "identity_match_assessment": "Confirmed by the exact indexed and Army name, nonshared protected identifier, expanded middle name, student chronology and explicit OSS CBI service.",
+      "temporal_assessment": "The obituary places Berkeley and Army language training before the OSS assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The source sequence is explicit and independently anchored by the official protected-identifier crosswalk.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Exact nonshared protected-identifier comparison; raw value withheld"
+        },
+        {
+          "source_key": "cambridge-walter-vella-b983",
+          "locator_override": "Page 660; first biographical paragraph"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-walter-vella-berkeley-b983",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Walter Francis Vella was a student at the University of California at Berkeley immediately before entering military service in 1942.",
+      "evidence_paraphrase": "The obituary says he entered Berkeley in 1942 and was soon drawn into military service.",
+      "identity_match_assessment": "Confirmed Walter Francis Vella identity.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian status before military service; Berkeley is not an employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as student status, not employment, and excluded from verified-employer counts.",
+      "sources": [
+        {
+          "source_key": "cambridge-walter-vella-b983",
+          "excerpt_override": "entered the University of California at Berkeley in 1942 but was soon drawn into military service"
+        }
+      ],
+      "affiliation_key": "walter-vella-berkeley-student-b983"
+    },
+    {
+      "key": "immediate-walter-vella-astp-b983",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Walter Francis Vella's immediate documented pre-OSS assignment was Thai-language training in the Army Specialized Training Program.",
+      "evidence_paraphrase": "The obituary explicitly sequences ASTP Thai-language study and then assignment to OSS service in the China-Burma-India theater.",
+      "identity_match_assessment": "Confirmed Walter Francis Vella identity.",
+      "temporal_assessment": "Explicit immediate sequence, although exact transfer dates are not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military training assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "cambridge-walter-vella-b983",
+          "excerpt_override": "Placed in an ASTP program, he began his study of Thai language and was then assigned to serve with the OSS"
+        }
+      ],
+      "affiliation_key": "walter-vella-astp-b983"
+    },
+    {
+      "key": "identity-alex-vellis-greek-og-b983",
+      "person_id": "5a0538fa-0b0c-5f45-bbbc-4094c81f9736",
+      "claim_type": "identity",
+      "claim_text": "Indexed Alex L Vellis is high-confidence matched to the Greek Operational Group veteran recorded by the Athens memorial project.",
+      "evidence_paraphrase": "The rare exact name and nonshared protected identifier agree with the Army record; memorial and family sources independently place Alex L. Vellis in the Greek operational unit.",
+      "identity_match_assessment": "High confidence from rare exact name, nonshared protected identifier and two concordant Greek Operational Group sources.",
+      "temporal_assessment": "The sources document wartime service but do not establish a civilian employer or a fully audited pre-OSS transfer date.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The family transition account remains corroborative. Box 802 is required before publishing a settled immediate-predecessor claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b983"
+        },
+        {
+          "source_key": "army-bulk-b983",
+          "locator_override": "Exact nonshared protected-identifier comparison; code 993 left uninterpreted"
+        },
+        {
+          "source_key": "us-war-memorials-alex-vellis-b983"
+        },
+        {
+          "source_key": "oss-society-alex-vellis-b983",
+          "excerpt_override": "served in Company C ... was later assigned to the OSS and served in Operational Group III"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "25b4ded1-d287-5680-9e77-072ccadf2f03",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 482 row supplies Edward C Veigel, Box 802 and archive location 230/86/42/05. The protected identifier is shared by a separately printed Edward C Viegel row on page 483. The spelling variant may represent one person, but the rows remain separate pending Box 802 and Box 804 review.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The protected identifier is shared by a separately printed Edward C Viegel row on page 483. The spelling variant may represent one person, but the rows remain separate pending Box 802 and Box 804 review."
+    },
+    {
+      "person_id": "033b3adc-b3f2-525a-802f-6d438bcf8bc9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Evelyn M Veith, Box 802 and archive location 230/86/42/05. A 1940-census discovery lead for a stenographer and a later obituary naming an OSS veteran's wife supply no protected identifier, Box 802 or direct OSS bridge to this row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A 1940-census discovery lead for a stenographer and a later obituary naming an OSS veteran's wife supply no protected identifier, Box 802 or direct OSS bridge to this row."
+    },
+    {
+      "person_id": "1124fde4-d031-5cc1-8b89-217722a1e6cc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Paul Velay, Box 802 and archive location 230/86/42/05. French military and casualty results for namesakes do not establish the indexed French sergeant's identity, unit or pre-OSS chronology.",
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. French military and casualty results for namesakes do not establish the indexed French sergeant's identity, unit or pre-OSS chronology."
+    },
+    {
+      "person_id": "45dc42eb-8c1c-52ba-91a1-1ac1da7909e4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Hermes Velez, Box 802 and archive location 230/86/42/05. Puerto Rican military, obituary and genealogy results produced multiple namesakes and no Box 802 or direct OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Puerto Rican military, obituary and genealogy results produced multiple namesakes and no Box 802 or direct OSS bridge."
+    },
+    {
+      "person_id": "404f2fd6-b353-581f-8ba8-57b953916e94",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 482 row supplies Anthony J Vella, Box 802 and archive location 230/86/42/05. This second printed Anthony J Vella row has no identifier and remains separate from the adjacent identifier-bearing row; name and box alone do not justify a merge or claim transfer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "p482-anthony-j-vella-rows6-7-b983",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This second printed Anthony J Vella row has no identifier and remains separate from the adjacent identifier-bearing row; name and box alone do not justify a merge or claim transfer."
+    },
+    {
+      "person_id": "73d65c5b-56b8-5e0d-bf76-055753173f4a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Theodore Venard, Box 802 and archive location 230/86/42/05. Common-name officer and obituary results did not connect the indexed first lieutenant's officer number and Box 802 to a defensible biography or employer.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name officer and obituary results did not connect the indexed first lieutenant's officer number and Box 802 to a defensible biography or employer."
+    },
+    {
+      "person_id": "982f70ae-b035-5658-9369-decacad2e92b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Malcolm Vendrick, Box 802 and archive location 230/86/42/05. An airborne roster supports a same-name Army service lead, but it does not establish the sequence into OSS or a prewar employer.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An airborne roster supports a same-name Army service lead, but it does not establish the sequence into OSS or a prewar employer."
+    },
+    {
+      "person_id": "ba6f0b53-a64c-567b-a673-b02fc77e71b0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Irene A Venit, Box 802 and archive location 230/86/42/05. Exact-name, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "7f0f46d5-0bad-5d45-92a6-5bbe9bfd9057",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Atta B Venson, Box 802 and archive location 230/86/42/05. Exact-name and spelling-variant searches produced no reliable wartime identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable wartime identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "3a7fc3e4-e455-57dc-b944-8b992a31a505",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Annina Ventrella, Box 802 and archive location 230/86/42/05. Exact-name, Italian-name, employer, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, Italian-name, employer, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "432ad6dd-0b72-5c7c-b104-2ea7721abd74",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies M P Veran, Box 802 and archive location 230/86/42/05. The initials-only name is insufficient to distinguish candidates, and reviewed OSS, military, directory and archival searches supplied no corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The initials-only name is insufficient to distinguish candidates, and reviewed OSS, military, directory and archival searches supplied no corroborating identifier."
+    },
+    {
+      "person_id": "3b8b4299-8dc4-5b1e-aff3-d8abe1363965",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 642 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8b6fe7b1-ce53-5cc3-895f-724988f74fcd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "p482-anthony-j-vella-rows6-7-b983",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 788 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed and Army name, nonshared protected identifier, scholarly expanded name and explicit Berkeley-to-ASTP-to-OSS chronology confirm Walter Francis Vella.",
+      "name_variants": [
+        "Walter Francis Vella"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "completed",
+      "next_action": "Research protocol completed: Berkeley student status and the ASTP-to-OSS sequence are documented. Review Box 802 only to refine exact dates or identify any separate civilian employment.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "899455b1-64c6-5a77-8c65-29b2447b86a9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The nonshared protected identifier agrees exactly; the official Army form prints Gus while the index prints Guss, and the rare-name monument entry independently supports Gus Vellios.",
+      "name_variants": [
+        "Gus Vellios"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 043 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "28d4ca4f-e3c6-5322-a519-d2f03ee5c6fd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 050 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "5cd94b1a-0c3b-5fbc-8750-5946f8b482d8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 702 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "2f8a9780-0748-5d48-92f7-de31c48cba54",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 992 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "bdd660b0-ca6b-54fa-81a7-cd22b108476e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 229 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "bf74d86c-94cf-5191-92d5-f60b97c64d37",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree and the protected identifier is nonshared.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 802 to identify the named employer or institution behind historical category 992 and establish the precise Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "5a0538fa-0b0c-5f45-bbbc-4094c81f9736",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact indexed and Army name and nonshared protected identifier agree; two independent memorial/family sources identify Alex L. Vellis with the Greek Operational Group.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 to verify the Company C-to-Operational Group III chronology and identify the last civilian employer or status; code 993 remains uninterpreted.",
+      "nara_catalog_id": "1263923"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page482-row1-edward-c-veigel-b983",
+      "person_id": "25b4ded1-d287-5680-9e77-072ccadf2f03",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward C Veigel; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "The protected identifier is shared by a separately printed Edward C Viegel row on page 483. The spelling variant may represent one person, but the rows remain separate pending Box 802 and Box 804 review. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row2-rock-g-veilleux-b983",
+      "person_id": "3b8b4299-8dc4-5b1e-aff3-d8abe1363965",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rock G Veilleux; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row3-evelyn-m-veith-b983",
+      "person_id": "033b3adc-b3f2-525a-802f-6d438bcf8bc9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Evelyn M Veith; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "A 1940-census discovery lead for a stenographer and a later obituary naming an OSS veteran's wife supply no protected identifier, Box 802 or direct OSS bridge to this row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row4-paul-velay-b983",
+      "person_id": "1124fde4-d031-5cc1-8b89-217722a1e6cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Velay; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "French military and casualty results for namesakes do not establish the indexed French sergeant's identity, unit or pre-OSS chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row5-hermes-velez-b983",
+      "person_id": "45dc42eb-8c1c-52ba-91a1-1ac1da7909e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hermes Velez; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Puerto Rican military, obituary and genealogy results produced multiple namesakes and no Box 802 or direct OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row6-anthony-j-vella-b983",
+      "person_id": "8b6fe7b1-ce53-5cc3-895f-724988f74fcd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony J Vella; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row7-anthony-j-vella-b983",
+      "person_id": "404f2fd6-b353-581f-8ba8-57b953916e94",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony J Vella; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "This second printed Anthony J Vella row has no identifier and remains separate from the adjacent identifier-bearing row; name and box alone do not justify a merge or claim transfer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row8-walter-f-vella-b983",
+      "person_id": "ca775866-fb72-5226-8b75-71447d09d156",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter F Vella; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row10-moritz-velleman-b983",
+      "person_id": "833cab1f-839d-5766-baf2-4bebff78cada",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Moritz Velleman; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row11-guss-vellios-b983",
+      "person_id": "899455b1-64c6-5a77-8c65-29b2447b86a9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Guss Vellios; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row12-alex-l-vellis-b983",
+      "person_id": "5a0538fa-0b0c-5f45-bbbc-4094c81f9736",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alex L Vellis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row13-lawson-r-venable-b983",
+      "person_id": "28d4ca4f-e3c6-5322-a519-d2f03ee5c6fd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lawson R Venable; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row14-theodore-venard-b983",
+      "person_id": "73d65c5b-56b8-5e0d-bf76-055753173f4a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Theodore Venard; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Common-name officer and obituary results did not connect the indexed first lieutenant's officer number and Box 802 to a defensible biography or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row15-malcolm-vendrick-b983",
+      "person_id": "982f70ae-b035-5658-9369-decacad2e92b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Malcolm Vendrick; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "An airborne roster supports a same-name Army service lead, but it does not establish the sequence into OSS or a prewar employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row16-anthony-a-veneruso-b983",
+      "person_id": "5cd94b1a-0c3b-5fbc-8750-5946f8b482d8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony A Veneruso; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row17-irene-a-venit-b983",
+      "person_id": "ba6f0b53-a64c-567b-a673-b02fc77e71b0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irene A Venit; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row18-claude-h-venon-b983",
+      "person_id": "2f8a9780-0748-5d48-92f7-de31c48cba54",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Claude H Venon; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row19-atta-b-venson-b983",
+      "person_id": "7f0f46d5-0bad-5d45-92a6-5bbe9bfd9057",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Atta B Venson; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable wartime identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row20-annina-ventrella-b983",
+      "person_id": "3a7fc3e4-e455-57dc-b944-8b992a31a505",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Annina Ventrella; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name, Italian-name, employer, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row21-jose-ventura-b983",
+      "person_id": "bdd660b0-ca6b-54fa-81a7-cd22b108476e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jose Ventura; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row22-lauro-venturi-b983",
+      "person_id": "bf74d86c-94cf-5191-92d5-f60b97c64d37",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lauro Venturi; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and corroborating sources produced the identity, dated occupation, student or military-training outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    },
+    {
+      "key": "page482-row23-m-p-veran-b983",
+      "person_id": "432ad6dd-0b72-5c7c-b104-2ea7721abd74",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "M P Veran; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_983",
+      "started_at": "2026-10-30T22:10:00Z",
+      "completed_at": "2026-10-31T00:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "The initials-only name is insufficient to distinguish candidates, and reviewed OSS, military, directory and archival searches supplied no corroborating identifier. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army bulk comparison, technical field definitions and code-list pages were inspected directly. The Walter Francis Vella obituary was visually and textually checked; Alex Vellis and Gus Vellios unit sources were reviewed in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 802 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b983-v1"
+    }
+  ]
+}

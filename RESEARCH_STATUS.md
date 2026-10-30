@@ -1,5 +1,40 @@
 # Research status
 
+Batch 983 completed PDF page 482, rows 1-23, from **Edward C Veigel**
+through **M P Veran**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Reviewed evidence confirms Walter Francis Vella and separates Berkeley student
+status from his immediate Army Specialized Training Program pathway into OSS.
+Alex L Vellis is identified at high confidence as an OSS Greek Operational
+Group member, but his undefined Army category is not interpreted as an
+occupation. Ten official Army categories publish only qualified historical
+occupation or student statuses. Edward C Veigel and Edward C Viegel remain
+separate because their shared protected identifier conflicts across two
+printed rows; both Anthony J Vella rows also remain separate. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,542/23,936 (64.9315%)**;
+verified-employer coverage is **504/23,936 (2.1056%)**;
+verified-affiliation coverage is **1,120/23,936 (4.6791%)**; archival-review
+coverage is **14,018/23,936 (58.5645%)**. There are **8,389** not-started
+people, **669** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,717 confirmed**, **5,247 high**, **2,502 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,867** affiliations, **1,281** organizations, **6,393** sources and
+**9,898** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 482, row
+24, **William Verback**. See `research/batch-983-progress.md`.
+
+Batch 983 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+24/24 batch browser matrix and the full 93/93 browser and accessibility release
+suite. All 25,268 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. Publication verification will be recorded
+in `reports/release_batch_983.md` after GitHub Actions and the unauthenticated
+immutable-commit check succeed.
+
 Batch 982 completed PDF page 481, rows 24-46, from **Spyridon S Varthis**
 through **Lena B Veazey**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
