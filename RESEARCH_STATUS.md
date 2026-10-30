@@ -1,5 +1,41 @@
 # Research status
 
+Batch 984 completed PDF page 482, rows 24-46, from **William Verback**
+through **Frederick Vetlesen**, preserving all 23 printed rows as separate
+people with saved terminal research outcomes.
+
+Reviewed evidence identifies Joseph P Verkamp at high confidence but keeps his
+University of Cincinnati affiliation as student status, not employment; a
+source conflict over his enlistment year remains visible. Six official Army
+categories publish only qualified occupations, not named employers. Marcel
+Verzeano's American Rescue Center relationship remains a professional
+affiliation; Robinson Verrill's 1928 firm role remains documented prewar work,
+not immediate employment. Frederick Vetlesen's exact official OSS identity is
+confirmed, while a separate shipbuilder bridge remains medium-confidence
+because the first name differs. Joseph Veselinovich remains an identity
+conflict. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,565/23,936 (65.0276%)**;
+verified-employer coverage is **504/23,936 (2.1056%)**;
+verified-affiliation coverage is **1,122/23,936 (4.6875%)**; archival-review
+coverage is **14,041/23,936 (58.6606%)**. There are **8,366** not-started
+people, **670** possible-duplicate groups and **525** conflicts. Claim
+confidence counts are **1,718 confirmed**, **5,258 high**, **2,511 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,877** affiliations, **1,282** organizations, **6,405** sources and
+**9,919** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 483, row
+1, **George Vetlesen**. See `research/batch-984-progress.md`.
+
+Batch 984 passed evidence-schema validation, repeat import, SQLite integrity,
+the complete ingest audit, the 200-profile audit, all 147 Python tests, Astro's
+zero-diagnostic build, the 24/24 batch browser matrix and the full 93/93
+browser and accessibility release suite. The checked-in 67-asset public
+manifest verifies locally, and the protected-identifier audit found zero
+unexpected matches. Publication verification will be recorded in
+`reports/release_batch_984.md`.
+
 Batch 983 completed PDF page 482, rows 1-23, from **Edward C Veigel**
 through **M P Veran**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.

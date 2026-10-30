@@ -1,0 +1,1655 @@
+{
+  "bundle_version": "batch-984-v1",
+  "reviewer": "Before OSS Batch 984 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b984",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 802-804",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 482, rows 24-46; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate; original spelling and archival context are recoverable while public identifiers are masked."
+    },
+    {
+      "key": "army-bulk-b984",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight Batch 984 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b984",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b984",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-173; six published Batch 984 categories visually and textually checked; code 993 left uninterpreted",
+      "access_date": "2026-10-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify status or broad occupation, not a named employer, workplace or exact job title."
+    },
+    {
+      "key": "verkamp-obituary-b984",
+      "stable_url": "https://www.legacy.com/us/obituaries/cincinnati/name/joseph-verkamp-obituary?id=39661908",
+      "title": "Joseph P. Verkamp obituary",
+      "author_creator": "The Cincinnati Enquirer",
+      "repository_publisher": "The Cincinnati Enquirer; Legacy.com",
+      "publication_record_date": "2005-04-29",
+      "locator": "Biographical paragraph describing University of Cincinnati engineering study, Army enlistment and OSS assignment",
+      "access_date": "2026-10-31",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Cincinnati Enquirer obituaries",
+      "rights_notes": "The obituary's 1943 enlistment year conflicts with the official Army file's 1942 entry date; the discrepancy is retained."
+    },
+    {
+      "key": "varian-fry-verzeano-b984",
+      "stable_url": "https://www.varianfry.org/sauvage_fry_oxford_en.htm",
+      "title": "Varian Fry in Marseille",
+      "author_creator": "Pierre Sauvage",
+      "repository_publisher": "Varian Fry Institute; Chambon Foundation",
+      "publication_record_date": "2001",
+      "locator": "Section describing American Rescue Center staffer and physician Marcel Verzeano",
+      "access_date": "2026-10-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Varian Fry Institute historical resources"
+    },
+    {
+      "key": "verrill-court-opinion-b984",
+      "stable_url": "https://openjurist.org/25/f2d/232/railways-corp-v-ray-consol-copper-co",
+      "archival_identifier": "25 F.2d 232; U.S. Court of Appeals for the First Circuit; April 9, 1928",
+      "title": "Railways Corporation v. Ray Consolidated Copper Company",
+      "author_creator": "United States Court of Appeals for the First Circuit",
+      "repository_publisher": "OpenJurist",
+      "publication_record_date": "1928-04-09",
+      "locator": "Counsel listing names Robinson Verrill and the firm Verrill, Hale, Booth & Ives",
+      "access_date": "2026-10-31",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Federal Reporter, Second Series",
+      "document_number": "25 F.2d 232"
+    },
+    {
+      "key": "nps-george-verghis-b984",
+      "stable_url": "https://home.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008; web edition current at access",
+      "locator": "Greek-American Operational Group section naming Captain George Verghis",
+      "access_date": "2026-10-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II"
+    },
+    {
+      "key": "nps-eliot-vestner-b984",
+      "stable_url": "https://www.nps.gov/articles/instructing-for-dangerous-missions.htm",
+      "title": "Instructing for Dangerous Missions",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008; web edition current at access",
+      "locator": "Area A instructor section naming Captain Eliot N. Vestner as chief instructor in 1943",
+      "access_date": "2026-10-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II"
+    },
+    {
+      "key": "bronxville-eliot-vestner-b984",
+      "archival_identifier": "Bronxville Historical Conservancy, Bronxville's World War II, page 38",
+      "title": "Bronxville's World War II",
+      "author_creator": "Raymond H. Geselbracht",
+      "repository_publisher": "Bronxville Historical Conservancy",
+      "publication_record_date": "2024",
+      "locator": "PDF physical page 38; Eliot N. Vestner, Sr. and Eliot N. Vestner, Jr.",
+      "access_date": "2026-10-31",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Bronxville Historical Conservancy local histories",
+      "rights_notes": "Used only for concise chronology; the public site does not reproduce the page."
+    },
+    {
+      "key": "columbia-vetlesen-b984",
+      "stable_url": "https://lamont.columbia.edu/about/vetlesen-prize",
+      "title": "The Vetlesen Prize",
+      "author_creator": "Lamont-Doherty Earth Observatory",
+      "repository_publisher": "Columbia University",
+      "publication_record_date": "Current at access",
+      "locator": "Biographical section on Georg Unger Vetlesen",
+      "access_date": "2026-10-31",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Lamont-Doherty Earth Observatory institutional history",
+      "rights_notes": "The institutional biography uses Georg Unger Vetlesen; the identity bridge to indexed Frederick Vetlesen remains qualified."
+    },
+    {
+      "key": "nara-vetlesen-award-b984",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "JFK release 104-10165-10120; OSS SO Branch awards-board recommendations",
+      "title": "Survey of Board Recommendations: SO Branch",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "World War II; released 2017",
+      "locator": "PDF physical page 155, document page 35; Legion of Merit recommendation for Cmdr. Frederick W. G. U. Vetlesen, USNR",
+      "access_date": "2026-10-31",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-cincinnati-b984",
+      "organization_id": "999ca910-2376-5acc-a6dd-092ba19c2ab5",
+      "canonical_name": "University of Cincinnati",
+      "historical_name": "University of Cincinnati",
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cincinnati",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "Student status is modeled separately from employment."
+    },
+    {
+      "key": "centre-americain-secours-b984",
+      "organization_id": "463def8b-1633-5a8d-8c1a-af710fc29b9a",
+      "canonical_name": "Centre américain de secours",
+      "historical_name": "Centre américain de secours",
+      "aliases": [
+        "American Rescue Center",
+        "Centre Américain de Secours"
+      ],
+      "organization_type": "refugee relief and rescue organization",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "Marseille",
+      "country": "France",
+      "active_dates": "1940-1941",
+      "normalization_notes": "The historical French and English names are retained as aliases; no modern successor is substituted."
+    },
+    {
+      "key": "verrill-hale-booth-ives-b984",
+      "canonical_name": "Verrill, Hale, Booth & Ives",
+      "historical_name": "Verrill, Hale, Booth & Ives",
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "Portland",
+      "state_or_region": "Maine",
+      "country": "United States",
+      "active_dates": "documented by 1928",
+      "normalization_notes": "Historical firm name preserved; no modern firm name is substituted."
+    },
+    {
+      "key": "us-army-b984",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Military assignment is not classified as civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "robert-l-verlin-occupation-b984-row31",
+      "person_id": "fb8792f6-08ec-586f-99b9-9790913e5ff4",
+      "occupation": "photographer",
+      "relationship_type": "employment",
+      "end_date": "1942-04-16",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace and duration are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "robert-j-vermillion-occupation-b984-row32",
+      "person_id": "d147ce88-5433-52e2-a501-9cf351a625a5",
+      "occupation": "checker",
+      "relationship_type": "employment",
+      "end_date": "1943-04-14",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace and duration are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "robert-l-vernon-occupation-b984-row34",
+      "person_id": "eddd5dcf-bf46-54cb-b9e7-3f681a4ad351",
+      "occupation": "salesperson",
+      "relationship_type": "employment",
+      "end_date": "1942-09-28",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace and duration are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "marcel-verzeano-occupation-b984-row39",
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "occupation": "physician or surgeon",
+      "relationship_type": "employment",
+      "end_date": "1943-12-11",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace and duration are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "john-w-vest-occupation-b984-row42",
+      "person_id": "cc7777d3-a62d-5a6f-9243-6a726dda4fba",
+      "occupation": "textile-manufacturing occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1942-08-11",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace and duration are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "james-o-vestal-occupation-b984-row43",
+      "person_id": "b9932397-4c76-5442-bcfd-9875324e5c76",
+      "occupation": "cook, except in a private family",
+      "relationship_type": "employment",
+      "end_date": "1942-02-03",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace and duration are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "joseph-verkamp-cincinnati-student-b984",
+      "person_id": "97ba01a2-5b0c-5d2b-9b34-a62d709313d6",
+      "organization_key": "university-cincinnati-b984",
+      "organization_name_as_found": "University of Cincinnati",
+      "role_title": "engineering student",
+      "relationship_type": "student",
+      "end_date": "Before Army entry",
+      "date_precision": "The obituary says he left engineering studies to enlist; its 1943 enlistment year conflicts with the official Army entry date of 1942-10-28",
+      "city": "Cincinnati",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Student status is not employment. The conflicting enlistment years are displayed rather than harmonized."
+    },
+    {
+      "key": "marcel-verzeano-american-rescue-center-b984",
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "organization_key": "centre-americain-secours-b984",
+      "organization_name_as_found": "American Rescue Center",
+      "role_title": "staffer and physician",
+      "occupation": "physician",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1940",
+      "end_date": "1941",
+      "date_precision": "Documented Marseille rescue-work period before later U.S. Army entry; not shown to be the immediate pre-OSS role",
+      "city": "Marseille",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Modeled as professional affiliation because the reviewed source does not establish payroll status."
+    },
+    {
+      "key": "robinson-verrill-law-firm-b984",
+      "person_id": "cda23c4c-3ae2-585f-9b79-f597967a8f66",
+      "organization_key": "verrill-hale-booth-ives-b984",
+      "organization_name_as_found": "Verrill, Hale, Booth & Ives",
+      "role_title": "lawyer",
+      "occupation": "lawyer",
+      "relationship_type": "employment",
+      "start_date": "1928",
+      "date_precision": "Contemporary counsel listing; definitely prewar but not demonstrated as the immediate predecessor to Army or OSS service",
+      "city": "Portland",
+      "state_or_region": "Maine",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact uncommon name and contemporary firm association are strong, but Box 803 remains necessary to close the person-level identity bridge."
+    },
+    {
+      "key": "eliot-vestner-us-army-b984",
+      "person_id": "ab78876d-899a-55db-98f8-03ff916bf315",
+      "organization_key": "us-army-b984",
+      "organization_name_as_found": "Army",
+      "role_title": "Army officer; later OSS Area A chief instructor",
+      "relationship_type": "military_assignment",
+      "start_date": "1941-12",
+      "end_date": "By 1943",
+      "date_precision": "Army service began about two weeks after Pearl Harbor; the NPS documents an OSS captain and chief instructor in 1943",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The sources establish an Army-to-OSS chronology but do not state the exact transfer date or identify a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-robert-l-verlin-army-b984-row31",
+      "person_id": "fb8792f6-08ec-586f-99b9-9790913e5ff4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert L Verlin is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-l-verlin-b984-row31",
+      "person_id": "fb8792f6-08ec-586f-99b9-9790913e5ff4",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-16, Robert L Verlin's historical civilian category was photographers.",
+      "evidence_paraphrase": "The official Army field carries historical code 056; NARA's code list defines it as Photographers.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b984",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b984",
+          "locator_override": "PDF physical page 171; historical category 0-56"
+        }
+      ],
+      "affiliation_key": "robert-l-verlin-occupation-b984-row31"
+    },
+    {
+      "key": "identity-robert-j-vermillion-army-b984-row32",
+      "person_id": "d147ce88-5433-52e2-a501-9cf351a625a5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert J Vermillion is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-j-vermillion-b984-row32",
+      "person_id": "d147ce88-5433-52e2-a501-9cf351a625a5",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-14, Robert J Vermillion's historical civilian category was checkers.",
+      "evidence_paraphrase": "The official Army field carries historical code 103; NARA's code list defines it as Checkers.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b984",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b984",
+          "locator_override": "PDF physical page 171; historical category 1-03"
+        }
+      ],
+      "affiliation_key": "robert-j-vermillion-occupation-b984-row32"
+    },
+    {
+      "key": "identity-robert-l-vernon-army-b984-row34",
+      "person_id": "eddd5dcf-bf46-54cb-b9e7-3f681a4ad351",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert L Vernon is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-l-vernon-b984-row34",
+      "person_id": "eddd5dcf-bf46-54cb-b9e7-3f681a4ad351",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-28, Robert L Vernon's historical civilian category was salespersons.",
+      "evidence_paraphrase": "The official Army field carries historical code 175; NARA's code list defines it as Salespersons.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b984",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b984",
+          "locator_override": "PDF physical page 171; historical category 1-75"
+        }
+      ],
+      "affiliation_key": "robert-l-vernon-occupation-b984-row34"
+    },
+    {
+      "key": "identity-marcel-verzeano-army-b984-row39",
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "claim_type": "identity",
+      "claim_text": "Indexed Marcel Verzeano is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-marcel-verzeano-b984-row39",
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-12-11, Marcel Verzeano's historical civilian category was physicians and surgeons.",
+      "evidence_paraphrase": "The official Army field carries historical code 026; NARA's code list defines it as Physicians and surgeons.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b984",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b984",
+          "locator_override": "PDF physical page 171; historical category 0-26"
+        }
+      ],
+      "affiliation_key": "marcel-verzeano-occupation-b984-row39"
+    },
+    {
+      "key": "identity-john-w-vest-army-b984-row42",
+      "person_id": "cc7777d3-a62d-5a6f-9243-6a726dda4fba",
+      "claim_type": "identity",
+      "claim_text": "Indexed John W Vest is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-w-vest-b984-row42",
+      "person_id": "cc7777d3-a62d-5a6f-9243-6a726dda4fba",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-11, John W Vest's historical civilian category was occupations in manufacture of textiles, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 419; NARA's code list defines it as Occupations in manufacture of textiles, not elsewhere classified.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b984",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b984",
+          "locator_override": "PDF physical page 173; historical category 4-19"
+        }
+      ],
+      "affiliation_key": "john-w-vest-occupation-b984-row42"
+    },
+    {
+      "key": "identity-james-o-vestal-army-b984-row43",
+      "person_id": "b9932397-4c76-5442-bcfd-9875324e5c76",
+      "claim_type": "identity",
+      "claim_text": "Indexed James O Vestal is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-o-vestal-b984-row43",
+      "person_id": "b9932397-4c76-5442-bcfd-9875324e5c76",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-02-03, James O Vestal's historical civilian category was cooks, except private family.",
+      "evidence_paraphrase": "The official Army field carries historical code 226; NARA's code list defines it as Cooks, except private family.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b984",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b984",
+          "locator_override": "PDF physical page 172; historical category 2-26"
+        }
+      ],
+      "affiliation_key": "james-o-vestal-occupation-b984-row43"
+    },
+    {
+      "key": "identity-joseph-p-verkamp-army-b984-row30",
+      "person_id": "97ba01a2-5b0c-5d2b-9b34-a62d709313d6",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph P Verkamp is high-confidence matched to the official Army entry used for this dated pre-service finding.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw record are withheld.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-joseph-verkamp-student-b984",
+      "person_id": "97ba01a2-5b0c-5d2b-9b34-a62d709313d6",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Joseph P. Verkamp was an engineering student at the University of Cincinnati immediately before entering Army service.",
+      "evidence_paraphrase": "His obituary says he left University of Cincinnati engineering studies to enlist and was later assigned to the OSS.",
+      "identity_match_assessment": "High confidence from exact uncommon name, PFC context, official protected-identifier agreement and explicit obituary OSS service.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian status before Army service; the obituary's 1943 year conflicts with the official 1942 entry date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is not employment and is therefore not marked as a last civilian employer. The date conflict is disclosed and not silently reconciled.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984",
+          "locator_override": "Official Army entry date 1942-10-28; protected identifier withheld"
+        },
+        {
+          "source_key": "verkamp-obituary-b984"
+        }
+      ],
+      "affiliation_key": "joseph-verkamp-cincinnati-student-b984"
+    },
+    {
+      "key": "identity-george-verghis-greek-og-b984",
+      "person_id": "7d7ba9de-cab0-5a67-bd1b-582ad1123eac",
+      "claim_type": "identity",
+      "claim_text": "Indexed George W Verghis is high-confidence matched to the Captain George Verghis who led Greek-American OSS Operational Group missions.",
+      "evidence_paraphrase": "The uncommon exact first and last name, captain context and Greek Operational Group service align with the indexed official record.",
+      "identity_match_assessment": "High confidence, but the NPS source omits the middle initial and protected identifier; Box 803 remains the final identity check.",
+      "temporal_assessment": "The NPS account documents wartime OSS operations, not a pre-OSS employer or transfer chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No pre-OSS employer is inferred from the operational history.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "nps-george-verghis-b984"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-marcel-verzeano-rescue-center-b984",
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before later U.S. Army and OSS service, Marcel Verzeano worked as a physician and staffer with the American Rescue Center in Marseille.",
+      "evidence_paraphrase": "The Varian Fry Institute identifies Marcel Verzeano as an American Rescue Center staffer and Romanian Jewish doctor involved in refugee rescue.",
+      "identity_match_assessment": "High confidence from the rare exact name, physician description and exact official protected-identifier match to the indexed later officer.",
+      "temporal_assessment": "Documented in Marseille in 1940-1941; the evidence does not establish it as the immediate predecessor to Army or OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as professional affiliation because the reviewed source does not establish payroll status.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "army-bulk-b984"
+        },
+        {
+          "source_key": "varian-fry-verzeano-b984"
+        }
+      ],
+      "affiliation_key": "marcel-verzeano-american-rescue-center-b984"
+    },
+    {
+      "key": "other-pre-oss-robinson-verrill-law-firm-b984",
+      "person_id": "cda23c4c-3ae2-585f-9b79-f597967a8f66",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A 1928 federal appellate case identifies Robinson Verrill as a lawyer with Verrill, Hale, Booth & Ives in Portland, Maine.",
+      "evidence_paraphrase": "The contemporary counsel listing names Robinson Verrill and the historical Portland law firm.",
+      "identity_match_assessment": "Probable match from the uncommon exact name and legal profession; Box 803 is required to close the identity bridge to the later lieutenant colonel.",
+      "temporal_assessment": "Definitely prewar, but too early to establish the firm as the immediate pre-OSS or last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with visible qualification and excluded from default confirmed/high employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "verrill-court-opinion-b984"
+        }
+      ],
+      "affiliation_key": "robinson-verrill-law-firm-b984"
+    },
+    {
+      "key": "identity-eliot-n-vestner-b984",
+      "person_id": "ab78876d-899a-55db-98f8-03ff916bf315",
+      "claim_type": "identity",
+      "claim_text": "Indexed Eliot N Vestner is high-confidence matched to Captain Eliot N. Vestner, the OSS Area A chief instructor in 1943.",
+      "evidence_paraphrase": "The exact uncommon name, indexed identifier, Army chronology and official NPS Area A role align.",
+      "identity_match_assessment": "High confidence from exact full-name agreement, the indexed protected identifier and two concordant institutional histories.",
+      "temporal_assessment": "The sources establish Army service beginning in December 1941 and an OSS training role in 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The civilian employer before Army entry remains unidentified.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "nps-eliot-vestner-b984"
+        },
+        {
+          "source_key": "bronxville-eliot-vestner-b984"
+        }
+      ]
+    },
+    {
+      "key": "immediate-eliot-vestner-army-b984",
+      "person_id": "ab78876d-899a-55db-98f8-03ff916bf315",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Eliot N. Vestner's best-supported immediate pre-OSS status is U.S. Army service begun in December 1941.",
+      "evidence_paraphrase": "A local institutional history dates his Army entry to about two weeks after Pearl Harbor; the NPS places him in OSS Area A by 1943.",
+      "identity_match_assessment": "High-confidence Eliot N. Vestner identity.",
+      "temporal_assessment": "Probable immediate military pathway; the sources do not state the exact Army-to-OSS transfer date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Military assignment, not a civilian employer. The claim remains visibly qualified.",
+      "sources": [
+        {
+          "source_key": "bronxville-eliot-vestner-b984"
+        },
+        {
+          "source_key": "nps-eliot-vestner-b984"
+        }
+      ],
+      "affiliation_key": "eliot-vestner-us-army-b984"
+    },
+    {
+      "key": "identity-frederick-vetlesen-b984",
+      "person_id": "aa2df4e4-b97f-51cf-999d-d600620f6366",
+      "claim_type": "identity",
+      "claim_text": "Indexed Commander Frederick Vetlesen is confirmed as Cmdr. Frederick W. G. U. Vetlesen, USNR, in an official OSS awards-board record.",
+      "evidence_paraphrase": "The official record matches the uncommon indexed name, commander rank and Norwegian-Danish resistance mission.",
+      "identity_match_assessment": "Confirmed for the exact Frederick Vetlesen OSS record; the separate bridge to Columbia's Georg Unger Vetlesen remains probable rather than settled.",
+      "temporal_assessment": "The award record documents OSS wartime work, not the prewar civilian chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The official spelling is preserved. The Columbia name variant is not silently substituted.",
+      "sources": [
+        {
+          "source_key": "nara-index-b984"
+        },
+        {
+          "source_key": "nara-vetlesen-award-b984"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frederick-vetlesen-shipbuilder-b984",
+      "person_id": "aa2df4e4-b97f-51cf-999d-d600620f6366",
+      "claim_type": "occupation",
+      "claim_text": "Columbia's institutional biography supports a probable prewar occupation for indexed Frederick Vetlesen as a shipbuilder in the United States.",
+      "evidence_paraphrase": "Columbia describes Georg Unger Vetlesen as a successful U.S. shipbuilder who became a Navy commander and worked with Norwegian resistance during World War II.",
+      "identity_match_assessment": "Probable identity bridge from the highly distinctive Vetlesen surname, commander rank, Navy service and Norwegian-resistance mission; first names conflict.",
+      "temporal_assessment": "Documented as prewar civilian work, but neither a named employer nor an exact immediate-to-Navy chronology is supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified occupation lead. Box 804 is required before treating Georg and Frederick as the same person for confirmed analytics.",
+      "sources": [
+        {
+          "source_key": "columbia-vetlesen-b984"
+        },
+        {
+          "source_key": "nara-vetlesen-award-b984"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2dac46d2-9b5d-5730-acb6-23290829a089",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies William Verback and Box 802. Exact-name, OSS, employer, occupation, obituary, directory and archival searches supplied no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary, directory and archival searches supplied no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "001e9673-0fc6-5dce-8429-abcf0e475057",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Madeline Verga and Box 802. The protected identifier and Box 802 distinguish this row, but reviewed exact-name and institutional searches did not establish a reliable biography or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The protected identifier and Box 802 distinguish this row, but reviewed exact-name and institutional searches did not establish a reliable biography or pre-OSS affiliation."
+    },
+    {
+      "person_id": "f130b15b-0575-58cc-8929-9fa5bea41b7e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Francis C Verger and Box 803. Exact-name and spelling-variant searches produced multiple unbridged namesakes and no protected-identifier, Box 803 or direct OSS connection.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced multiple unbridged namesakes and no protected-identifier, Box 803 or direct OSS connection."
+    },
+    {
+      "person_id": "4b0ba62d-83e4-552e-8adc-0330ebce47ee",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Henri L Vergon and Box 803. The French rank and Box 803 narrow the archival target, but accessible French, military and OSS searches did not establish the lieutenant's identity or pre-OSS sequence.",
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The French rank and Box 803 narrow the archival target, but accessible French, military and OSS searches did not establish the lieutenant's identity or pre-OSS sequence."
+    },
+    {
+      "person_id": "e29bb927-f990-5078-ac90-68fcb0e38634",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified page 482 row supplies George M Verhaeghe and Box 803. Wartime Jedburgh and award-roster leads support an OSS officer with this exact name and rank, but they do not establish a pre-OSS employer or a sufficiently documented civilian chronology.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Wartime Jedburgh and award-roster leads support an OSS officer with this exact name and rank, but they do not establish a pre-OSS employer or a sufficiently documented civilian chronology."
+    },
+    {
+      "person_id": "359d97f4-5f6d-58ed-b8fa-f11f6ed4bef0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Frank Vernon and Box 803. The common name and absence of an index identifier left obituary, military and directory candidates unresolved.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name and absence of an index identifier left obituary, military and directory candidates unresolved."
+    },
+    {
+      "person_id": "342a327e-add8-548f-b7fa-10a3a1c18940",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Joseph R Verreault and Box 803. French-Canadian and U.S. namesake results supplied no protected identifier, Box 803 or direct OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. French-Canadian and U.S. namesake results supplied no protected identifier, Box 803 or direct OSS bridge."
+    },
+    {
+      "person_id": "6847cada-7512-51e5-a133-c7cd6a13c3d7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Margaret Verrnay and Box 803. Exact-name and likely spelling-variant searches supplied no reliable identity, occupation or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and likely spelling-variant searches supplied no reliable identity, occupation or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "b435df81-7601-52f3-a167-211173b83f8e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Irving A Verschoor and Box 803. A same-name postwar newspaper lead mentions British intelligence and OSS experience but does not establish the indexed identity or a dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A same-name postwar newspaper lead mentions British intelligence and OSS experience but does not establish the indexed identity or a dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "3ca4b213-c8ba-56c1-807e-0296b80429fe",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Erik J Vesely and Box 804. Exact-name and Central European spelling-variant searches supplied no protected identifier, Box 804 or direct OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and Central European spelling-variant searches supplied no protected identifier, Box 804 or direct OSS bridge."
+    },
+    {
+      "person_id": "f632036c-0896-5d74-bc26-a7e2c699d503",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 482 row supplies Carolyn B Vester and Box 804. Exact-name, employer, occupation, obituary, directory and archival searches supplied no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, employer, occupation, obituary, directory and archival searches supplied no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "7d7ba9de-cab0-5a67-bd1b-582ad1123eac",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name, indexed protected identifier, captain context and National Park Service Greek Operational Group history support a high-confidence match.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 803 to verify the middle initial and identify the immediate pre-OSS affiliation and last civilian employer; the operational history documents OSS service only."
+    },
+    {
+      "person_id": "97ba01a2-5b0c-5d2b-9b34-a62d709313d6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon name, PFC context, official nonshared protected identifier and an obituary explicitly linking Army service to OSS support this match.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Student status immediately before Army service is documented. Review Box 803 to reconcile the 1942 official Army-entry date with the obituary's 1943 year and to determine whether separate civilian employment existed.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "fb8792f6-08ec-586f-99b9-9790913e5ff4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 803 to identify the named employer behind historical occupation code 056 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "d147ce88-5433-52e2-a501-9cf351a625a5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 803 to identify the named employer behind historical occupation code 103 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "eddd5dcf-bf46-54cb-b9e7-3f681a4ad351",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 803 to identify the named employer behind historical occupation code 175 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "name_variants": [
+        "Maurice Verzeano"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 803 to determine whether the Marseille rescue affiliation was followed by another civilian role and to establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "cc7777d3-a62d-5a6f-9243-6a726dda4fba",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 804 to identify the named employer behind historical occupation code 419 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "b9932397-4c76-5442-bcfd-9875324e5c76",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 804 to identify the named employer behind historical occupation code 226 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "cda23c4c-3ae2-585f-9b79-f597967a8f66",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "A contemporary federal case identifies an uncommon exact-name Portland lawyer, but Box 803 is still needed to connect him definitively to the indexed lieutenant colonel.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 803 to confirm the Portland law-firm identity and determine whether Verrill, Hale, Booth & Ives remained the last civilian employer before wartime service."
+    },
+    {
+      "person_id": "55337c5f-4136-5242-b58d-ba8372a9f01c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The page 482 second-lieutenant row is distinct, but its protected identifier is already associated with a differently named printed source row; no Army finding is transferred.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "protected-identifier-conflict-b984",
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 803 and the separately indexed conflicting row to resolve the protected-identifier discrepancy before accepting any external identity or pre-OSS claim."
+    },
+    {
+      "person_id": "ab78876d-899a-55db-98f8-03ff916bf315",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact uncommon name, indexed protected identifier, Army chronology and National Park Service identification of Captain Eliot N. Vestner as OSS Area A chief instructor align.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "The Army-to-OSS pathway is documented with a qualified transfer chronology. Review Box 804 to identify his last civilian employer before Army service and the exact transfer date."
+    },
+    {
+      "person_id": "aa2df4e4-b97f-51cf-999d-d600620f6366",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact uncommon indexed name and commander rank match the official OSS award record for Cmdr. Frederick W. G. U. Vetlesen, USNR. The bridge to Columbia's Georg Unger Vetlesen remains probable.",
+      "name_variants": [
+        "Frederick W. G. U. Vetlesen",
+        "Georg Unger Vetlesen (probable institutional-name bridge)"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 804 to determine whether Frederick W. G. U. Vetlesen and Georg Unger Vetlesen are the same person and to identify any named shipbuilding employer before Navy service."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page482-row24-william-verback-b984",
+      "person_id": "2dac46d2-9b5d-5730-acb6-23290829a089",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Verback; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, directory and archival searches supplied no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row25-madeline-verga-b984",
+      "person_id": "001e9673-0fc6-5dce-8429-abcf0e475057",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Madeline Verga; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "The protected identifier and Box 802 distinguish this row, but reviewed exact-name and institutional searches did not establish a reliable biography or pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row26-francis-c-verger-b984",
+      "person_id": "f130b15b-0575-58cc-8929-9fa5bea41b7e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis C Verger; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name and spelling-variant searches produced multiple unbridged namesakes and no protected-identifier, Box 803 or direct OSS connection. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row27-george-w-verghis-b984",
+      "person_id": "7d7ba9de-cab0-5a67-bd1b-582ad1123eac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George W Verghis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row28-henri-l-vergon-b984",
+      "person_id": "4b0ba62d-83e4-552e-8adc-0330ebce47ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henri L Vergon; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "The French rank and Box 803 narrow the archival target, but accessible French, military and OSS searches did not establish the lieutenant's identity or pre-OSS sequence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row29-george-m-verhaeghe-b984",
+      "person_id": "e29bb927-f990-5078-ac90-68fcb0e38634",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George M Verhaeghe; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Wartime Jedburgh and award-roster leads support an OSS officer with this exact name and rank, but they do not establish a pre-OSS employer or a sufficiently documented civilian chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row30-joseph-p-verkamp-b984",
+      "person_id": "97ba01a2-5b0c-5d2b-9b34-a62d709313d6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph P Verkamp; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row31-robert-l-verlin-b984",
+      "person_id": "fb8792f6-08ec-586f-99b9-9790913e5ff4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Verlin; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row32-robert-j-vermillion-b984",
+      "person_id": "d147ce88-5433-52e2-a501-9cf351a625a5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert J Vermillion; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row33-frank-vernon-b984",
+      "person_id": "359d97f4-5f6d-58ed-b8fa-f11f6ed4bef0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank Vernon; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "The common name and absence of an index identifier left obituary, military and directory candidates unresolved. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row34-robert-l-vernon-b984",
+      "person_id": "eddd5dcf-bf46-54cb-b9e7-3f681a4ad351",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Vernon; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row35-joseph-r-verreault-b984",
+      "person_id": "342a327e-add8-548f-b7fa-10a3a1c18940",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph R Verreault; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "French-Canadian and U.S. namesake results supplied no protected identifier, Box 803 or direct OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row36-robinson-verrill-b984",
+      "person_id": "cda23c4c-3ae2-585f-9b79-f597967a8f66",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robinson Verrill; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row37-margaret-verrnay-b984",
+      "person_id": "6847cada-7512-51e5-a133-c7cd6a13c3d7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Margaret Verrnay; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name and likely spelling-variant searches supplied no reliable identity, occupation or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row38-irving-a-verschoor-b984",
+      "person_id": "b435df81-7601-52f3-a167-211173b83f8e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irving A Verschoor; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "A same-name postwar newspaper lead mentions British intelligence and OSS experience but does not establish the indexed identity or a dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row39-marcel-verzeano-b984",
+      "person_id": "cf546e55-06b5-5eb2-82a7-9f264e930744",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marcel Verzeano; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row40-joseph-veselinovich-b984",
+      "person_id": "55337c5f-4136-5242-b58d-ba8372a9f01c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Veselinovich; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 803; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "A protected-identifier conflict with a differently named printed row prevents transfer of the Army candidate or any occupation data. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row41-erik-j-vesely-b984",
+      "person_id": "3ca4b213-c8ba-56c1-807e-0296b80429fe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Erik J Vesely; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 804; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name and Central European spelling-variant searches supplied no protected identifier, Box 804 or direct OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row42-john-w-vest-b984",
+      "person_id": "cc7777d3-a62d-5a6f-9243-6a726dda4fba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Vest; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 804; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row43-james-o-vestal-b984",
+      "person_id": "b9932397-4c76-5442-bcfd-9875324e5c76",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James O Vestal; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 804; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row44-carolyn-b-vester-b984",
+      "person_id": "f632036c-0896-5d74-bc26-a7e2c699d503",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carolyn B Vester; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 804; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Exact-name, employer, occupation, obituary, directory and archival searches supplied no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row45-eliot-n-vestner-b984",
+      "person_id": "ab78876d-899a-55db-98f8-03ff916bf315",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eliot N Vestner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 804; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    },
+    {
+      "key": "page482-row46-frederick-vetlesen-b984",
+      "person_id": "aa2df4e4-b97f-51cf-999d-d600620f6366",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederick Vetlesen; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; indexed Box 804; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_984",
+      "started_at": "2026-10-31T01:05:00Z",
+      "completed_at": "2026-10-31T12:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories and military assignments were not converted into employers.",
+      "research_notes": "Reviewed official and institutional sources produced the identity, occupation, student, professional, legal-employment or military-pathway outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index page, official Army comparison, technical field definitions and every cited code-list page were inspected directly. The Bronxville and OSS awards PDFs were OCR-assisted only after source inspection, then checked against rendered page images. Code 993 was left uninterpreted. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b984-v1"
+    }
+  ]
+}
