@@ -72,5 +72,11 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication is pending the audited release commit, successful GitHub Actions
-Test and Pages runs, and unauthenticated deployed-release verification.
+Batch 990 is public from audited release commit
+`04af14d4c1b104515a7b79289e350db8f38d59a0`. GitHub Actions Test run
+`41095545519` and Pages run `41095545357` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets byte for byte across
+132,835,276 bytes, verified eight core routes, all 44 source-register pages
+and 25 direct profiles (the 23-person cohort plus the two comparison records
+updated for visible duplicate groups), and reproduced manifest SHA-256
+`772ceea7fb76f85d985840e91b2495d8609a9569228872b5de68abc8fb26ea56`.

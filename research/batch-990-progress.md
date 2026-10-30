@@ -128,8 +128,12 @@ Archive location: 230/86/42/06
   `772ceea7fb76f85d985840e91b2495d8609a9569228872b5de68abc8fb26ea56`.
 - The 70-file public tree totals 135,182,431 bytes and has SHA-256
   `2b0a9d657bed395d26ddac615a51244ddb54555d4bdd5ef85b0e0f85315504b9`.
-- Deployed-site verification is recorded in
-  `reports/release_batch_990.md` after GitHub Pages publication.
+- GitHub Actions Test run `41095545519` and Pages run `41095545357` succeeded
+  for audited release commit
+  `04af14d4c1b104515a7b79289e350db8f38d59a0`. The unauthenticated verifier
+  matched all 67 assets byte for byte, checked eight core routes, all 44
+  source-register pages and 25 direct profiles: the 23-person cohort plus the
+  two comparison records updated for visible duplicate groups.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable
   replay inputs. Batch 990 itself is replayable to the same authoritative
