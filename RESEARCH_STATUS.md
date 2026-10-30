@@ -1,5 +1,41 @@
 # Research status
 
+Batch 982 completed PDF page 481, rows 24-46, from **Spyridon S Varthis**
+through **Lena B Veazey**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Reviewed contemporary and institutional evidence identifies John Vassos at
+high confidence and documents RCA Victor as his last civilian employer before
+wartime Army service. His Army Engineering Corps assignment remains separate.
+A declassified OSS field-report register and contemporary newspaper report
+identify Capt. Philip N Vassil and document Signal Corps service without
+inventing a civilian employer. Philip Vaudrin's Oxford University Press
+employment is published only as a medium-confidence, probable prewar finding.
+Five official Army bridges publish qualified historical occupation categories,
+not employers. Fifteen unbridged people remain unresolved and affiliation-free.
+No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,521/23,936 (64.8438%)**;
+verified-employer coverage is **504/23,936 (2.1056%)**;
+verified-affiliation coverage is **1,119/23,936 (4.6750%)**; archival-review
+coverage is **13,997/23,936 (58.4768%)**. There are **8,410** not-started
+people, **668** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,716 confirmed**, **5,234 high**, **2,492 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,855** affiliations, **1,281** organizations, **6,385** sources and
+**9,874** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 482, row 1,
+**Edward C Veigel**. See `research/batch-982-progress.md`.
+
+Batch 982 passed evidence-schema validation, repeat import, SQLite integrity,
+the complete ingest audit, the 200-profile audit, all 147 Python tests and 84
+subtests, Astro's zero-diagnostic build, the 24/24 batch browser matrix and the
+full 93/93 browser and accessibility release suite. All 25,268 internal page
+links resolve, and the protected-identifier audit found zero unexpected
+matches. Publication verification is recorded in
+`reports/release_batch_982.md`.
+
 Batch 981 completed PDF page 481, rows 1-23, from **E L Vanduesen** through
 **1st Lt Thomas A Varnson**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.

@@ -1,0 +1,1481 @@
+{
+  "bundle_version": "batch-982-v1",
+  "reviewer": "Before OSS Batch 982 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b982",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 800-802",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 481, rows 24-46; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate; original spellings, boxes and locations remain recoverable while public identifiers are masked."
+    },
+    {
+      "key": "army-bulk-b982",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; five Batch 982 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b982",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b982",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171 and 174; all five Batch 982 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "smithsonian-john-vassos-b982",
+      "stable_url": "https://www.si.edu/object/archives/sova-aaa-vassjohn",
+      "archival_identifier": "SOVA AAA.vassjohn; John Vassos papers, 1915-1989",
+      "title": "John Vassos Papers",
+      "author_creator": "John Vassos; Archives of American Art finding-aid staff",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "publication_record_date": "1915-1989; finding aid current at access",
+      "locator": "Biographical note; RCA files include contracting agreements dated 1939-1950 and other prewar design records",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "John Vassos papers",
+      "rights_notes": "The finding aid states that Vassos established RCA's first internal design department in 1933 and remained a consultant through 1964."
+    },
+    {
+      "key": "syracuse-john-vassos-b982",
+      "stable_url": "https://library.syracuse.edu/digital/exhibits/d/DawnNewAge/vassos.html",
+      "archival_identifier": "Syracuse University Libraries, Dawn of a New Age digital exhibit",
+      "title": "John Vassos",
+      "author_creator": "Syracuse University Libraries",
+      "repository_publisher": "Syracuse University Libraries",
+      "publication_record_date": "Digital exhibit current at access",
+      "locator": "Biographical paragraphs on RCA design work and World War II OSS service",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dawn of a New Age"
+    },
+    {
+      "key": "broadcasting-john-vassos-b982",
+      "stable_url": "https://web.archive.org/web/20250626234916id_/https://www.worldradiohistory.com/Archive-All-BC/Broadcasting-Magazine/BC-1945/1945-03-26-BC.pdf",
+      "title": "Technical personnel note: Lt. Col. John Vassos returns to RCA Victor Division",
+      "author_creator": "Broadcasting magazine editorial staff",
+      "repository_publisher": "Broadcasting Publications, Inc.; preserved by World Radio History and the Internet Archive",
+      "publication_record_date": "1945-03-26",
+      "locator": "PDF physical and printed page 52; upper-right Technical column; visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting, March 26, 1945",
+      "rights_notes": "Contemporary trade-journal notice; only citation metadata, a project-authored paraphrase and a minimal excerpt are retained."
+    },
+    {
+      "key": "cia-philip-vassil-b982",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100410007-2.pdf",
+      "archival_identifier": "CIA-RDP13X00001R000100410007-2; Field Reports, volume V, report 15,542",
+      "title": "OSS Reports on Experiences and Conditions in the Field: List of Field Reports by Author",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Central Intelligence Agency FOIA Electronic Reading Room",
+      "publication_record_date": "World War II; declassified for release 2013-09-25",
+      "locator": "PDF physical page 131; Field Reports volume V; Philip N. Vassil entry visually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA FOIA OSS Collection",
+      "document_number": "CIA-RDP13X00001R000100410007-2",
+      "rights_notes": "The CIA Reading Room was temporarily in maintenance; a 2024 public Internet Archive capture was used for local visual verification while the official CIA URL remains the citation pointer."
+    },
+    {
+      "key": "loc-philip-vassil-b982",
+      "stable_url": "https://www.loc.gov/resource/sn83045462/1942-08-05/ed-1/?sp=7",
+      "archival_identifier": "LCCN sn83045462; reel 00280603612; image sequence 0683",
+      "title": "Count Andre de Limur Renounces Title to Become American",
+      "author_creator": "Evening Star editorial staff",
+      "repository_publisher": "Evening Star; Library of Congress Chronicling America",
+      "publication_record_date": "1942-08-05",
+      "locator": "Page A-5, upper-center column; sequence 0683; OCR and official page image checked",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "The contemporary item identifies Capt. Philip N. Vassil as attached to the Army Signal Corps; home-address details are excluded."
+    },
+    {
+      "key": "msa-philip-vaudrin-b982",
+      "stable_url": "https://msa.maryland.gov/megafile/msa/speccol/sc5300/sc5339/000030/000000/000010/restricted/hiss%20nyu/homepages.nyu.edu/_th15/breakw.html",
+      "archival_identifier": "Paul Willert supporting affidavit, sworn 1952-03-14",
+      "title": "Paul Willert's Account: Supporting Affidavit of Paul Willert",
+      "author_creator": "Paul Willert",
+      "repository_publisher": "Maryland State Archives, Alger Hiss research collection",
+      "publication_record_date": "1952-03-14",
+      "locator": "Paragraphs 2-3(a), recalling late 1937 or early 1938",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Alger Hiss Story research materials",
+      "rights_notes": "The sworn account identifies Philip Vaudrin as an Oxford University Press editor; it contains no OSS or protected-identifier bridge."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "rca-b982",
+      "organization_id": "71cb9b7e-5023-5ec3-b7c9-34afafeea171",
+      "canonical_name": "Radio Corporation of America",
+      "historical_name": "RCA",
+      "aliases": [
+        "RCA",
+        "Radio Corporation of America",
+        "RCA Victor Division"
+      ],
+      "organization_type": "electronics and communications company",
+      "sector": "engineering_science_and_technology",
+      "country": "United States",
+      "normalization_notes": "RCA is not merged with the separately preserved RCA Communications, Inc. entity; the historical RCA Victor Division wording remains visible in the affiliation."
+    },
+    {
+      "key": "army-engineers-b982",
+      "organization_id": "f2367526-082d-5cad-8156-c405c426f2e1",
+      "canonical_name": "United States Army Corps of Engineers",
+      "historical_name": "Army Corps of Engineers",
+      "aliases": [
+        "Engineer Corps",
+        "U.S. Army Corps of Engineers",
+        "Army Engineering Corps"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The contemporary source's Army Engineering Corps wording is retained; service is a military assignment, not civilian employment."
+    },
+    {
+      "key": "army-signal-corps-b982",
+      "organization_id": "37fe0e48-9745-5a0a-8e04-6be9bc7c5c91",
+      "canonical_name": "United States Army Signal Corps",
+      "historical_name": "Signal Corps",
+      "aliases": [
+        "Army Signal Corps"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Military assignment remains distinct from civilian employment."
+    },
+    {
+      "key": "oxford-university-press-b982",
+      "organization_id": "6fcfc80a-2927-5462-861e-a8c12cf3391c",
+      "canonical_name": "Oxford University Press",
+      "historical_name": "Oxford University Press",
+      "aliases": [
+        "OUP",
+        "Oxford University Press, Inc."
+      ],
+      "organization_type": "publisher",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The historical New York publishing office is retained; no modern corporate successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "spyridon-s-varthis-occupation-b982",
+      "person_id": "36517755-54ec-50f6-afae-502c414c2754",
+      "occupation": "ship captain, mate, pilot, or engineer",
+      "relationship_type": "unknown",
+      "start_date": "1943-05-24",
+      "end_date": "1943-05-24",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation category only; excluded from employer analytics and not narrowed to a specific title."
+    },
+    {
+      "key": "joseph-f-vasko-occupation-b982",
+      "person_id": "e8daa0a0-a427-5118-87da-9c7220cdf61b",
+      "occupation": "semiskilled automobile-manufacturing occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": "1942-02-13",
+      "end_date": "1942-02-13",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation category only; excluded from employer analytics and not narrowed to a specific title."
+    },
+    {
+      "key": "james-h-vater-occupation-b982",
+      "person_id": "3c644922-ab30-5b95-ad91-b7707aa47937",
+      "occupation": "stenographer or typist",
+      "relationship_type": "unknown",
+      "start_date": "1943-04-14",
+      "end_date": "1943-04-14",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation category only; excluded from employer analytics and not narrowed to a specific title."
+    },
+    {
+      "key": "anastassios-t-vatis-occupation-b982",
+      "person_id": "e84e9bd0-adcd-5f91-9818-1fb3ef3c5a97",
+      "occupation": "semiprofessional occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": "1943-07-13",
+      "end_date": "1943-07-13",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation category only; excluded from employer analytics and not narrowed to a specific title."
+    },
+    {
+      "key": "salvatore-vavala-occupation-b982",
+      "person_id": "a61d9e12-ec43-595f-8ef6-b1191764f80d",
+      "occupation": "unskilled machine-shop or related occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": "1942-12-10",
+      "end_date": "1942-12-10",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation category only; excluded from employer analytics and not narrowed to a specific title."
+    },
+    {
+      "key": "john-vassos-rca-b982",
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "organization_key": "rca-b982",
+      "organization_name_as_found": "RCA Victor Division",
+      "role_title": "consultant designer",
+      "occupation": "industrial designer",
+      "relationship_type": "employment",
+      "start_date": "1934",
+      "end_date": "1942",
+      "date_precision": "Contemporary trade press gives 1934 through 1942, when he entered the armed forces",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Best-supported last civilian employer before armed service; Army service intervened before or overlapped the OSS assignment, so RCA is not labeled the immediate OSS predecessor."
+    },
+    {
+      "key": "john-vassos-army-engineers-b982",
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "organization_key": "army-engineers-b982",
+      "organization_name_as_found": "Army Engineering Corps",
+      "role_title": "lieutenant colonel; special missions overseas",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1945-03-26 or earlier",
+      "date_precision": "The 1945 notice says he entered the armed forces in 1942 and had been discharged after two and one-half years",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Documented military assignment. The reviewed sources do not establish whether Corps of Engineers service immediately preceded or administratively overlapped OSS duty."
+    },
+    {
+      "key": "philip-vassil-signal-corps-b982",
+      "person_id": "4c33016a-9513-5a16-9055-68fea1dd99a3",
+      "organization_key": "army-signal-corps-b982",
+      "organization_name_as_found": "Army Signal Corps",
+      "role_title": "captain",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-08-05 or earlier",
+      "date_precision": "Contemporary newspaper attestation on 5 August 1942; exact assignment dates are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Documented military assignment. The CIA field-report index confirms later OSS SI/METO context but does not prove the exact Signal Corps-to-OSS transition date."
+    },
+    {
+      "key": "philip-vaudrin-oup-b982",
+      "person_id": "a9f02ad8-652e-5fae-941e-9d644d20a575",
+      "organization_key": "oxford-university-press-b982",
+      "organization_name_as_found": "Oxford University Press",
+      "role_title": "editor",
+      "occupation": "publishing editor",
+      "relationship_type": "employment",
+      "start_date": "1937 or earlier",
+      "end_date": "1938 or later",
+      "date_precision": "Sworn recollection places him in the role at the end of 1937 or beginning of 1938",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Rare-name probable match and definite prewar employment, but no protected identifier or explicit OSS bridge. Not labeled immediate or last civilian employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-spyridon-s-varthis-army-b982-row1",
+      "person_id": "36517755-54ec-50f6-afae-502c414c2754",
+      "claim_type": "identity",
+      "claim_text": "Indexed Spyridon S Varthis is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-spyridon-s-varthis-b982-row1",
+      "person_id": "36517755-54ec-50f6-afae-502c414c2754",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-24, Spyridon S Varthis's historical civilian-occupation category was ship captains, mates, pilots, and engineers.",
+      "evidence_paraphrase": "The official Army field carries historical code 088; NARA's code list defines it as Ship captains, mates, pilots, and engineers.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical occupation category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b982",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b982",
+          "locator_override": "PDF physical page 171; historical category 0-88"
+        }
+      ],
+      "affiliation_key": "spyridon-s-varthis-occupation-b982"
+    },
+    {
+      "key": "identity-joseph-f-vasko-army-b982-row5",
+      "person_id": "e8daa0a0-a427-5118-87da-9c7220cdf61b",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph F Vasko is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-f-vasko-b982-row5",
+      "person_id": "e8daa0a0-a427-5118-87da-9c7220cdf61b",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-02-13, Joseph F Vasko's historical civilian-occupation category was occupations in manufacture of automobiles, not elsewhere classified (semiskilled level).",
+      "evidence_paraphrase": "The official Army field carries historical code 702; NARA's code list defines it as Occupations in manufacture of automobiles, not elsewhere classified (semiskilled level).",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical occupation category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b982",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b982",
+          "locator_override": "PDF physical page 174; historical category 7-02"
+        }
+      ],
+      "affiliation_key": "joseph-f-vasko-occupation-b982"
+    },
+    {
+      "key": "identity-james-h-vater-army-b982-row9",
+      "person_id": "3c644922-ab30-5b95-ad91-b7707aa47937",
+      "claim_type": "identity",
+      "claim_text": "Indexed James H Vater is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-h-vater-b982-row9",
+      "person_id": "3c644922-ab30-5b95-ad91-b7707aa47937",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-14, James H Vater's historical civilian-occupation category was stenographers and typists.",
+      "evidence_paraphrase": "The official Army field carries historical code 137; NARA's code list defines it as Stenographers and typists.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical occupation category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b982",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b982",
+          "locator_override": "PDF physical page 171; historical category 1-37"
+        }
+      ],
+      "affiliation_key": "james-h-vater-occupation-b982"
+    },
+    {
+      "key": "identity-anastassios-t-vatis-army-b982-row10",
+      "person_id": "e84e9bd0-adcd-5f91-9818-1fb3ef3c5a97",
+      "claim_type": "identity",
+      "claim_text": "Indexed Anastassios T Vatis is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-anastassios-t-vatis-b982-row10",
+      "person_id": "e84e9bd0-adcd-5f91-9818-1fb3ef3c5a97",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-13, Anastassios T Vatis's historical civilian-occupation category was semiprofessional occupations, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 069; NARA's code list defines it as Semiprofessional occupations, not elsewhere classified.",
+      "identity_match_assessment": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical occupation category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b982",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b982",
+          "locator_override": "PDF physical page 171; historical category 0-69"
+        }
+      ],
+      "affiliation_key": "anastassios-t-vatis-occupation-b982"
+    },
+    {
+      "key": "identity-salvatore-vavala-army-b982-row21",
+      "person_id": "a61d9e12-ec43-595f-8ef6-b1191764f80d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Salvatore Vavala is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The Army entry adds middle initial A while the index omits it; the exact nonshared protected identifier resolves the otherwise exact name agreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-salvatore-vavala-b982-row21",
+      "person_id": "a61d9e12-ec43-595f-8ef6-b1191764f80d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-10, Salvatore Vavala's historical civilian-occupation category was machine shop and related occupations, not elsewhere classified (unskilled level).",
+      "evidence_paraphrase": "The official Army field carries historical code 878; NARA's code list defines it as Machine shop and related occupations, not elsewhere classified (unskilled level).",
+      "identity_match_assessment": "The Army entry adds middle initial A while the index omits it; the exact nonshared protected identifier resolves the otherwise exact name agreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical occupation category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b982",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b982",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b982",
+          "locator_override": "PDF physical page 174; historical category 8-78"
+        }
+      ],
+      "affiliation_key": "salvatore-vavala-occupation-b982"
+    },
+    {
+      "key": "identity-john-vassos-oss-b982",
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "claim_type": "identity",
+      "claim_text": "Indexed John Vassos is high-confidence matched to industrial designer John Vassos, who served with the OSS during World War II.",
+      "evidence_paraphrase": "Syracuse explicitly identifies John Vassos as an RCA industrial designer who entered the Army as a captain and worked for the OSS.",
+      "identity_match_assessment": "High confidence from rare exact name, commissioned service, explicit OSS context and a coherent RCA-to-Army chronology.",
+      "temporal_assessment": "The sources place RCA work before 1942 armed service and OSS work during the war.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected index identifier is not reproduced publicly; Box 801 remains the personnel-file authority for exact assignment dates.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "syracuse-john-vassos-b982"
+        },
+        {
+          "source_key": "broadcasting-john-vassos-b982"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-john-vassos-rca-b982",
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "John Vassos held a consultant-designer post at RCA Victor from 1934 until entering the armed forces in 1942.",
+      "evidence_paraphrase": "A contemporary 1945 trade-journal notice gives the employer, role and 1934-1942 interval; Smithsonian records independently document the RCA relationship.",
+      "identity_match_assessment": "High-confidence rare-name and explicit OSS-context match.",
+      "temporal_assessment": "Strongly date-bounded to the point of armed-forces entry; Army service intervened before or overlapped OSS duty.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as the best-supported last civilian employer before wartime service, not as an explicit immediate predecessor to OSS.",
+      "sources": [
+        {
+          "source_key": "broadcasting-john-vassos-b982",
+          "excerpt_override": "consultant designer, a post he held from 1934 until 1942 when he entered the armed forces"
+        },
+        {
+          "source_key": "smithsonian-john-vassos-b982"
+        }
+      ],
+      "affiliation_key": "john-vassos-rca-b982"
+    },
+    {
+      "key": "military-john-vassos-army-engineers-b982",
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "John Vassos entered the armed forces in 1942 and served in the Army Engineering Corps on special missions overseas.",
+      "evidence_paraphrase": "The contemporary notice reports his 1942 entry, lieutenant-colonel rank, Corps service, overseas missions and discharge before March 26, 1945.",
+      "identity_match_assessment": "High-confidence rare-name and explicit OSS-context match.",
+      "temporal_assessment": "The military assignment is date-bounded, but its administrative relationship to OSS duty is not stated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not a civilian employer; not labeled the immediate pre-OSS affiliation because overlap or transfer timing is unresolved.",
+      "sources": [
+        {
+          "source_key": "broadcasting-john-vassos-b982"
+        },
+        {
+          "source_key": "syracuse-john-vassos-b982"
+        }
+      ],
+      "affiliation_key": "john-vassos-army-engineers-b982"
+    },
+    {
+      "key": "identity-philip-vassil-oss-b982",
+      "person_id": "4c33016a-9513-5a16-9055-68fea1dd99a3",
+      "claim_type": "identity",
+      "claim_text": "Indexed Philip N Vassil is high-confidence matched to Capt. Philip N. Vassil in the OSS Field Reports index.",
+      "evidence_paraphrase": "The declassified OSS index gives the exact rare full name, captain rank, Secret Intelligence branch, Middle East Theater and report number 15,542.",
+      "identity_match_assessment": "High confidence from rare exact name, compatible officer identifier and direct OSS field-report context.",
+      "temporal_assessment": "The field-report list documents OSS service; the 1942 newspaper separately documents a Signal Corps assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 801 review remains necessary to confirm exact transfer dates and any civilian employment before military service.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "cia-philip-vassil-b982"
+        }
+      ]
+    },
+    {
+      "key": "military-philip-vassil-signal-corps-b982",
+      "person_id": "4c33016a-9513-5a16-9055-68fea1dd99a3",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Capt. Philip N. Vassil was attached to the Army Signal Corps by August 5, 1942.",
+      "evidence_paraphrase": "The contemporary Evening Star citizenship report gives the exact name, captain rank and Signal Corps attachment; the CIA index establishes OSS SI/METO context.",
+      "identity_match_assessment": "High confidence from the exact rare full name, captain rank and independent official OSS context.",
+      "temporal_assessment": "Attested in August 1942; the exact sequence or overlap between Signal Corps and OSS service is not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not a civilian employer; published without claiming that Signal Corps was the immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "loc-philip-vassil-b982",
+          "excerpt_override": "Capt. Philip N. Vassil, 31, attached to the Army Signal Corps"
+        },
+        {
+          "source_key": "cia-philip-vassil-b982"
+        }
+      ],
+      "affiliation_key": "philip-vassil-signal-corps-b982"
+    },
+    {
+      "key": "identity-philip-vaudrin-editor-b982",
+      "person_id": "a9f02ad8-652e-5fae-941e-9d644d20a575",
+      "claim_type": "identity",
+      "claim_text": "Indexed Philip Vaudrin is probably the Oxford University Press editor documented in a sworn account of 1937-1938 events.",
+      "evidence_paraphrase": "The rare exact name and wartime-age publishing chronology are compatible, but the source contains no protected identifier or explicit OSS statement.",
+      "identity_match_assessment": "Probable rare-name match; direct personnel-file confirmation is absent.",
+      "temporal_assessment": "The employment is explicitly prewar, while its relationship to OSS entry is unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a visibly qualified probable identity; Box 801 is required for confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b982"
+        },
+        {
+          "source_key": "msa-philip-vaudrin-b982"
+        }
+      ]
+    },
+    {
+      "key": "prewar-philip-vaudrin-oup-b982",
+      "person_id": "a9f02ad8-652e-5fae-941e-9d644d20a575",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "The probable Philip Vaudrin match was an editor at Oxford University Press in late 1937 or early 1938.",
+      "evidence_paraphrase": "Paul Willert's sworn account identifies the then Oxford University Press editor Philip Vaudrin and dates the underlying events to late 1937 or early 1938.",
+      "identity_match_assessment": "Probable rare-name match without a direct OSS or protected-identifier bridge.",
+      "temporal_assessment": "Explicitly prewar but not shown to be the immediate or last civilian affiliation before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified documented-prewar employment only; excluded from default verified-employer analytics because identity remains probable and chronology incomplete.",
+      "sources": [
+        {
+          "source_key": "msa-philip-vaudrin-b982",
+          "excerpt_override": "I asked the then editor of the Oxford University Press, Philip Vaudrin"
+        }
+      ],
+      "affiliation_key": "philip-vaudrin-oup-b982"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "37d602c5-4b19-5eb8-94fd-106d6e6dd4c7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John A Vasdekis, Box 801 and archive location 230/86/42/05. Exact-name, OSS, employer, obituary and institutional searches produced no source with a protected identifier, rank, Box 801 or assignment bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, obituary and institutional searches produced no source with a protected identifier, rank, Box 801 or assignment bridge."
+    },
+    {
+      "person_id": "2885f9a0-0523-5b02-b09d-5b509ea2fbe8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John M Vasicak, Box 801 and archive location 230/86/42/05. A contemporary amateur-radio lead for John M Vasicak and the search alias Vasiack supply no OSS, protected-identifier, Box 801 or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A contemporary amateur-radio lead for John M Vasicak and the search alias Vasiack supply no OSS, protected-identifier, Box 801 or employer bridge."
+    },
+    {
+      "person_id": "7783cf92-1a1e-5a60-a18d-e2d540e7c82a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Helen Vasiliou, Box 801 and archive location 230/86/42/05. Education and later classical-studies leads for namesakes do not establish that the indexed Helen Vasiliou is the same person or identify a pre-OSS employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Education and later classical-studies leads for namesakes do not establish that the indexed Helen Vasiliou is the same person or identify a pre-OSS employer."
+    },
+    {
+      "person_id": "78d5a8f0-936f-54d0-87c1-a0491d72eb76",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Steve Vassiliades, Box 801 and archive location 230/86/42/05. Exact-name and Greek-name variant searches produced no reliable wartime identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and Greek-name variant searches produced no reliable wartime identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "abc57901-1182-5327-8f14-1b344d4178e3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joan M Vatsek, Box 801 and archive location 230/86/42/05. Exact-name, newspaper, obituary and archival searches produced no reliable OSS identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, newspaper, obituary and archival searches produced no reliable OSS identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "93ede38e-9f89-500e-9106-defc6c205efa",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James Vaughan Jr., Box 801 and archive location 230/86/42/05. The incomplete common name produced multiple namesakes but no source with an OSS, Box 801 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The incomplete common name produced multiple namesakes but no source with an OSS, Box 801 or protected-identifier bridge."
+    },
+    {
+      "person_id": "2ba6c6c1-029f-57b6-aaeb-83e35e4b252d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Grady W Vaughn, Box 801 and archive location 230/86/42/05. Common-name military, obituary and directory results produced no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name military, obituary and directory results produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "42952bdd-a460-590f-8d0d-7250f9adbf5c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James K Vaughn, Box 800 and archive location 230/86/42/05. Common-name results did not connect the indexed protected identifier and Box 800 record to a defensible biography or employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 800 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results did not connect the indexed protected identifier and Box 800 record to a defensible biography or employer."
+    },
+    {
+      "person_id": "babd50c3-6b7d-5404-bbff-837ea829f1a0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James B Vaughn, Box 801 and archive location 230/86/42/05. Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge."
+    },
+    {
+      "person_id": "4649c0a2-1f81-584d-ba7b-8f2d5ea92bc3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John J Vaughn, Box 801 and archive location 230/86/42/05. Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge."
+    },
+    {
+      "person_id": "e7bba9bc-f72e-55ff-9d5b-f7f362845544",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard B Vaughn, Box 801 and archive location 230/86/42/05. Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge."
+    },
+    {
+      "person_id": "7a43241e-66da-55e3-8f1a-99549733b28d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William L Vaughn, Box 801 and archive location 230/86/42/05. Common-name results did not connect the indexed protected identifier and Box 801 record to a defensible biography or employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results did not connect the indexed protected identifier and Box 801 record to a defensible biography or employer."
+    },
+    {
+      "person_id": "16c1a5d0-6a50-5979-a48a-ea254489b749",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jean Vauzelle, Box 801 and archive location 230/86/42/05. Modern French business and obituary results are unbridged namesakes and do not establish the indexed person's wartime identity.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Modern French business and obituary results are unbridged namesakes and do not establish the indexed person's wartime identity."
+    },
+    {
+      "person_id": "9df06569-d14b-5318-bcec-b9f35893a9d0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Alberto Vazquez, Box 801 and archive location 230/86/42/05. Results for Alberto Vazquez and Alberto D Vazquez did not connect the index row to a wartime OSS assignment, Box 801 or employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Results for Alberto Vazquez and Alberto D Vazquez did not connect the index row to a wartime OSS assignment, Box 801 or employer."
+    },
+    {
+      "person_id": "f95e3869-4cb3-5121-8977-b8b915deff46",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lena B Veazey, Box 802 and archive location 230/86/42/05. Exact-name, newspaper, obituary, directory and archival searches produced no reliable OSS identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 802 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, newspaper, obituary, directory and archival searches produced no reliable OSS identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "36517755-54ec-50f6-afae-502c414c2754",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 801 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace or exact job title."
+    },
+    {
+      "person_id": "e8daa0a0-a427-5118-87da-9c7220cdf61b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 801 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace or exact job title."
+    },
+    {
+      "person_id": "3c644922-ab30-5b95-ad91-b7707aa47937",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 801 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace or exact job title."
+    },
+    {
+      "person_id": "e84e9bd0-adcd-5f91-9818-1fb3ef3c5a97",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed full names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 801 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace or exact job title."
+    },
+    {
+      "person_id": "a61d9e12-ec43-595f-8ef6-b1191764f80d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army entry adds middle initial A while the index omits it; the exact nonshared protected identifier resolves the otherwise exact name agreement. The protected identifier and raw record ordinal remain private.",
+      "name_variants": [
+        "Salvatore A Vavala"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 801 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace or exact job title."
+    },
+    {
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Institutional sources identify the rare exact name John Vassos as an RCA industrial designer and OSS officer; contemporary trade press dates RCA and Army service.",
+      "name_variants": [
+        "John Plato Vassacopoulos"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 801 to establish the precise Army Engineering Corps-to-OSS chronology and whether any concurrent civilian consulting continued after 1942."
+    },
+    {
+      "person_id": "4c33016a-9513-5a16-9055-68fea1dd99a3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The declassified OSS field-report index gives the exact rare name Capt. Philip N. Vassil, SI branch and Middle East Theater; a 1942 newspaper independently documents the same captain in the Signal Corps.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 to establish the Signal Corps-to-OSS sequence and identify any last civilian employer before military service. No reliable civilian employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "a9f02ad8-652e-5fae-941e-9d644d20a575",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "A sworn account documents the rare exact name Philip Vaudrin as an Oxford University Press editor in 1937-1938, but supplies no protected identifier or explicit OSS statement.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 801 to confirm the probable editor identity and determine whether Oxford University Press was the last civilian or immediate pre-OSS affiliation."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page481-row24-spyridon-s-varthis-b982",
+      "person_id": "36517755-54ec-50f6-afae-502c414c2754",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Spyridon S Varthis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row25-john-a-vasdekis-b982",
+      "person_id": "37d602c5-4b19-5eb8-94fd-106d6e6dd4c7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John A Vasdekis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name, OSS, employer, obituary and institutional searches produced no source with a protected identifier, rank, Box 801 or assignment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row26-john-m-vasicak-b982",
+      "person_id": "2885f9a0-0523-5b02-b09d-5b509ea2fbe8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John M Vasicak; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "A contemporary amateur-radio lead for John M Vasicak and the search alias Vasiack supply no OSS, protected-identifier, Box 801 or employer bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row27-helen-vasiliou-b982",
+      "person_id": "7783cf92-1a1e-5a60-a18d-e2d540e7c82a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Helen Vasiliou; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Education and later classical-studies leads for namesakes do not establish that the indexed Helen Vasiliou is the same person or identify a pre-OSS employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row28-joseph-f-vasko-b982",
+      "person_id": "e8daa0a0-a427-5118-87da-9c7220cdf61b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph F Vasko; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row29-philip-n-vassil-b982",
+      "person_id": "4c33016a-9513-5a16-9055-68fea1dd99a3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip N Vassil; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row30-steve-vassiliades-b982",
+      "person_id": "78d5a8f0-936f-54d0-87c1-a0491d72eb76",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Steve Vassiliades; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name and Greek-name variant searches produced no reliable wartime identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row31-john-vassos-b982",
+      "person_id": "bd395aaa-5af1-51d0-aaa6-14cb8e528862",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Vassos; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row32-james-h-vater-b982",
+      "person_id": "3c644922-ab30-5b95-ad91-b7707aa47937",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James H Vater; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row33-anastassios-t-vatis-b982",
+      "person_id": "e84e9bd0-adcd-5f91-9818-1fb3ef3c5a97",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anastassios T Vatis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row34-joan-m-vatsek-b982",
+      "person_id": "abc57901-1182-5327-8f14-1b344d4178e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joan M Vatsek; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name, newspaper, obituary and archival searches produced no reliable OSS identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row35-philip-vaudrin-b982",
+      "person_id": "a9f02ad8-652e-5fae-941e-9d644d20a575",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip Vaudrin; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row36-james-vaughan-jr-b982",
+      "person_id": "93ede38e-9f89-500e-9106-defc6c205efa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James Vaughan Jr.; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "The incomplete common name produced multiple namesakes but no source with an OSS, Box 801 or protected-identifier bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row37-grady-w-vaughn-b982",
+      "person_id": "2ba6c6c1-029f-57b6-aaeb-83e35e4b252d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Grady W Vaughn; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name military, obituary and directory results produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row38-james-k-vaughn-b982",
+      "person_id": "42952bdd-a460-590f-8d0d-7250f9adbf5c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James K Vaughn; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name results did not connect the indexed protected identifier and Box 800 record to a defensible biography or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row39-james-b-vaughn-b982",
+      "person_id": "babd50c3-6b7d-5404-bbff-837ea829f1a0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James B Vaughn; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row40-john-j-vaughn-b982",
+      "person_id": "4649c0a2-1f81-584d-ba7b-8f2d5ea92bc3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John J Vaughn; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row41-richard-b-vaughn-b982",
+      "person_id": "e7bba9bc-f72e-55ff-9d5b-f7f362845544",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard B Vaughn; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name results produced no source with a wartime OSS, Box 801 or protected-identifier bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row42-william-l-vaughn-b982",
+      "person_id": "7a43241e-66da-55e3-8f1a-99549733b28d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William L Vaughn; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name results did not connect the indexed protected identifier and Box 801 record to a defensible biography or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row43-jean-vauzelle-b982",
+      "person_id": "16c1a5d0-6a50-5979-a48a-ea254489b749",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jean Vauzelle; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Modern French business and obituary results are unbridged namesakes and do not establish the indexed person's wartime identity. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row44-salvatore-vavala-b982",
+      "person_id": "a61d9e12-ec43-595f-8ef6-b1191764f80d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Salvatore Vavala; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, employment or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row45-alberto-vazquez-b982",
+      "person_id": "9df06569-d14b-5318-bcec-b9f35893a9d0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alberto Vazquez; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Results for Alberto Vazquez and Alberto D Vazquez did not connect the index row to a wartime OSS assignment, Box 801 or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    },
+    {
+      "key": "page481-row46-lena-b-veazey-b982",
+      "person_id": "f95e3869-4cb3-5121-8977-b8b915deff46",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lena B Veazey; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, branch and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 800-802; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_982",
+      "started_at": "2026-10-30T18:05:00Z",
+      "completed_at": "2026-10-30T21:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation categories and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name, newspaper, obituary, directory and archival searches produced no reliable OSS identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk evidence, code list, Smithsonian and Syracuse finding aids, 1945 Broadcasting notice, declassified CIA field-report index, Library of Congress newspaper page and Maryland State Archives affidavit were inspected directly where relevant. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b982-v1"
+    }
+  ]
+}
