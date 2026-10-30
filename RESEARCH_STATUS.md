@@ -1,5 +1,45 @@
 # Research status
 
+Batch 977 completed PDF page 479, rows 1-23, from **Melchiore Valeriano**
+through the Box 798 **William R Van Cleef**, preserving all 23 printed rows as
+separate people with saved terminal research outcomes.
+
+Reviewed institutional evidence identifies Serban Vallimarescu at high
+confidence as the Harvard graduate and U.S. Army lieutenant who recalled
+wartime OSS service; Harvard remains student status and Army service remains a
+military assignment, not employment. Contemporary reporting links Archbold
+Van Beuren to Cue in 1939 as a professional business affiliation and separately
+to OSS, without inventing a formal employer or an immediate transition.
+Micheline Van Biesbroec receives a visibly qualified probable spelling-variant
+match and 1933 student affiliation. Four exact official Army identity bridges
+publish only dated occupation or student categories. William L Van Alen and
+Cornelius C Van Boecop namesake leads remain unaccepted. The two adjacent
+William R Van Cleef rows remain separate, share a visible possible-duplicate
+group and require file review. No authenticated NARA Catalog API request was
+used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,406/23,936 (64.3633%)**;
+verified-employer coverage is **497/23,936 (2.0764%)**;
+verified-affiliation coverage is **1,110/23,936 (4.6374%)**; archival-review
+coverage is **13,882/23,936 (57.9963%)**. There are **8,525** not-started
+people, **666** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,708 confirmed**, **5,183 high**, **2,464 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,816** affiliations, **1,271** organizations, **6,328** sources and
+**9,787** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 479, row 24,
+the separate Box 797 **William R Van Cleef**. See
+`research/batch-977-progress.md`.
+
+Batch 977 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+27/27 batch browser matrix and the full 96/96 browser and accessibility release
+suite. All 25,258 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. The release candidate is locally verified
+and awaits publication; final deployment evidence will be added to
+`reports/release_batch_977.md` after the immutable content commit is live.
+
 Batch 976 completed PDF page 478, rows 24-46, from **Sylvester Vacek** through
 **Florencio A Valenzuela**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
