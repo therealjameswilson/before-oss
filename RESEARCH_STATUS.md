@@ -1,5 +1,47 @@
 # Research status
 
+Batch 962 completed PDF page 471, rows 26-46, and page 472, rows 1-2, from
+**James B Townsend** through **Charles J Traina**, preserving all 23 printed
+rows as separate people with saved terminal research outcomes.
+
+Alfred M Tozzer has a documented Harvard University civilian affiliation,
+published as his last documented civilian employer rather than an explicit
+recruited-from affiliation. Barney Traban retains a separate immediate Army
+pathway into OSS; James Traban preserves a direct name/identifier conflict.
+Reisuke Toyota and Lufra J Trahan retain government and student affiliations
+that are not relabeled as employment. Paul J Traficante is confirmed without
+inventing an earlier employer, Thomas J Tracy retains an occupation only, and
+the two Robert A Trago rows remain separate ambiguous profiles. Fourteen other
+unresolved identities retain Box 783 archival-review outcomes. No authenticated
+NARA Catalog API request was used, and no protected identifier appears in the
+public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,064/23,936 (62.9345%)**;
+verified-employer coverage is **486/23,936 (2.0304%)**;
+verified-affiliation coverage is **1,084/23,936 (4.5287%)**; archival-review
+coverage is **13,540/23,936 (56.5675%)**. There are **8,867** not-started
+people, **662** possible-duplicate groups and **517** conflicts. Claim
+confidence counts are **1,692 confirmed**, **5,008 high**, **2,322 medium**,
+**254 low**, **431 conflicting** and **2 unresolved**. The public projection
+contains **3,649** affiliations, **1,238** organizations, **6,159** sources and
+**9,449** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 472, row 3,
+**Harry Trainosky**, in Box 785. See `research/batch-962-progress.md` for the
+source-by-source audit.
+
+Batch 962 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, extraction validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 593
+files with zero errors, warnings or hints and builds 25,224 static pages. The
+36/36 Batch 962 browser matrix and full 105/105 bounded browser and
+accessibility release suite pass, as do the complete internal-link check,
+protected-identifier audit, checked-in public manifest, zero-vulnerability
+production dependency audit and two deterministic consecutive builds.
+Publication verification will be recorded in `reports/release_batch_962.md`.
+
 Batch 961 completed PDF page 471, rows 3-25, from **Fulton B Torry** through
 **Campbell Townsend**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.
