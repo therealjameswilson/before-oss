@@ -70,7 +70,10 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication is pending. Local release checks do not establish that Batch 986
-is public. Record the immutable content commit, GitHub Actions Test and Pages
-runs, and unauthenticated deployed-release verification here only after all
-three succeed.
+Batch 986 is public from immutable content commit
+`efa27f8f9a4f017345421505549449b7598569d1`. GitHub Actions Test run
+`41070475903` and Pages run `41070475817` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets byte for byte across
+132,236,093 bytes, verified eight core routes, all 43 source-register pages and
+all 23 direct cohort profiles, and reproduced manifest SHA-256
+`a313f4b5d91bb8e1580538bda04ce95084b0cbcf1ef5c7c17a253ab49cef313b`.

@@ -36,8 +36,13 @@ zero-diagnostic 25,274-page build, the 33/33 batch browser matrix and the full
 the protected-identifier audit found zero unexpected matches, the checked-in
 67-asset manifest verifies locally and two clean builds are deterministic.
 Full local verification is recorded in `reports/release_batch_986.md`.
-Publication and unauthenticated live verification remain pending; this batch is
-not yet included in the public Batch 985 totals.
+Batch 986 is public from immutable content commit
+`efa27f8f9a4f017345421505549449b7598569d1`; GitHub Actions Test run
+`41070475903` and Pages run `41070475817` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets across 132,236,093
+bytes, eight core routes, all 43 source-register pages and all 23 direct cohort
+profiles, with manifest SHA-256
+`a313f4b5d91bb8e1580538bda04ce95084b0cbcf1ef5c7c17a253ab49cef313b`.
 
 Batch 985 completed PDF page 483, rows 1-23, from **George Vetlesen**
 through **Peter P Viezbicke Jr.**, preserving all 23 printed rows as separate
