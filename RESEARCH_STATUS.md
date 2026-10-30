@@ -38,8 +38,11 @@ files with zero errors, warnings or hints and builds 25,224 static pages. The
 release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds.
-Publication verification is pending the immutable content commit and GitHub
-Actions deployment; exact local verification is recorded in
+Publication is public from immutable content commit
+`e3c3babe3893cc69c10960b0d1b0f12d211a10ce`; GitHub Actions Test run
+`40990545648` and Pages run `40990545774` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 21 Batch 964
+profile routes match that commit. Full verification is recorded in
 `reports/release_batch_964.md`.
 
 Batch 963 completed PDF page 472, rows 3-25, from **Harry Trainosky** through

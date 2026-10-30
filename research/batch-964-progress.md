@@ -123,5 +123,11 @@ location 230/86/42/03.
 
 ## Publication verification
 
-Pending the immutable content commit, GitHub Actions checks and unauthenticated
-deployed-release verification.
+- Immutable public content commit:
+  `e3c3babe3893cc69c10960b0d1b0f12d211a10ce`.
+- GitHub Test run `40990545648` passed.
+- GitHub Pages run `40990545774` passed.
+- The unauthenticated deployed-release verifier matched all 67 manifest assets,
+  eight core routes, 42 source-register pages and all 21 Batch 964 profiles to
+  the immutable content commit.
+- Public site: <https://therealjameswilson.github.io/before-oss/>.
