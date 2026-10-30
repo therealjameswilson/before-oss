@@ -59,5 +59,14 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication verification will be added after GitHub Actions and unauthenticated
-production checks match the immutable content commit.
+- Public content commit:
+  `8a8256576e6ba715ef8b6dba1335f52ab524d9d0`.
+- GitHub Actions Test run `41039889002` completed successfully for that exact
+  commit.
+- GitHub Pages run `41039889103` completed successfully for that exact commit.
+- The unauthenticated deployed-release verifier matched 67 manifest assets
+  totaling 131,229,238 bytes, eight core routes, 43 source-register pages and
+  all 23 affected direct profile routes to the immutable commit.
+- Deployed manifest SHA-256:
+  `246b8b28e81e02f5ec430f7be3ed8ef4084f4e9da11ca49c05c7c9c68416f075`.
+- Public site: https://therealjameswilson.github.io/before-oss/

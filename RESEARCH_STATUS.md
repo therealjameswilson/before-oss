@@ -31,9 +31,12 @@ Batch 979 passed evidence-schema validation, repeat import, SQLite integrity,
 the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
 24/24 batch browser matrix and the full 93/93 browser and accessibility release
 suite. All 25,264 internal page links resolve, and the protected-identifier
-audit found zero unexpected matches. Publication verification is recorded in
-`reports/release_batch_979.md` and will be completed against the immutable
-content commit.
+audit found zero unexpected matches. Publication is public from immutable
+content commit `8a8256576e6ba715ef8b6dba1335f52ab524d9d0`; GitHub Actions
+Test run `41039889002` and Pages run `41039889103` succeeded. Unauthenticated
+verification matched the 67-asset manifest, eight core routes, 43 source-
+register pages and all 23 Batch 979 affected profile routes to that commit.
+Full verification is recorded in `reports/release_batch_979.md`.
 
 Batch 978 completed PDF page 479, rows 24-46, from the Box 797 **William R Van
 Cleef** through **Samuel Van Hyning**, preserving all 23 printed rows as
