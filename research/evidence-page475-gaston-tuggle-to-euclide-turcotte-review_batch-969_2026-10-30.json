@@ -1,0 +1,1590 @@
+{
+  "bundle_version": "batch-969-v1",
+  "reviewer": "Before OSS Batch 969 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b969",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 788-789",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 475, rows 1-23; checked against layout-preserving text and a 200 dpi page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b969",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; ten accepted and one rejected Batch 969 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b969",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b969",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-174 and corrected page 304; seven Batch 969 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employers nor workplaces and are retained only where needed for auditability."
+    },
+    {
+      "key": "det101-tuggle-b969",
+      "stable_url": "https://www.javadc.org/java/docs/1945-03-15%20OSSSU%20Detachment%20101%20Promotions%20and%20Citations%20OCR%20P11_MA.pdf",
+      "archival_identifier": "Headquarters Northern Combat Area Command, General Orders No. 6; extract in OSS SU Detachment 101 records",
+      "title": "Promotions and Citations Report, Detachment 101",
+      "author_creator": "Headquarters, OSS Special Unit Detachment 101",
+      "repository_publisher": "Japanese American Veterans Association digital archive",
+      "publication_record_date": "1945-05-15; attached order 1945-04-10",
+      "locator": "PDF page 11, Combat Infantryman Badge extract; Sgt. Gaston E. Tuggle, effective 1944-01-01; protected identifier withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Detachment 101 records",
+      "rights_notes": "Direct declassified official document facsimile; the public claim omits the full service number."
+    },
+    {
+      "key": "nps-joseph-tully-b969",
+      "stable_url": "https://www.nps.gov/articles/transforming-prince-william-forest-park-into-military-camps.htm",
+      "title": "Transforming Prince William Forest Park into Military Camps",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": null,
+      "locator": "Communications School, Area C section; Corporal Joseph J. Tully, Area C cadre, November 1944-October 1945; note 134",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II"
+    },
+    {
+      "key": "nytimes-turano-obit-b969",
+      "stable_url": "https://www.legacy.com/us/obituaries/nytimes/name/anthony-turano-obituary?id=33949891",
+      "title": "Anthony Turano Obituary",
+      "author_creator": null,
+      "repository_publisher": "The New York Times via Legacy.com",
+      "publication_record_date": "2010-02-19 to 2010-02-20",
+      "locator": "Obituary; OSS service, major rank and resumption of a commercial-photography career",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The New York Times obituaries",
+      "rights_notes": "Only a short excerpt and project-authored paraphrases are retained."
+    },
+    {
+      "key": "persico-papers-turano-b969",
+      "stable_url": "https://oac.cdlib.org/findaid/ark:/13030/tf0d5n97c1/",
+      "archival_identifier": "Hoover Institution Library & Archives collection 81137",
+      "title": "Joseph E. Persico papers, 1943-1980",
+      "author_creator": "Joseph E. Persico; finding aid by Hoover Institution Library and Archives staff",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "Finding aid encoded 2024-05-01",
+      "locator": "Box 5, tape 11; interview recording with Nam de Beaufort and Anthony Turano; research for Piercing the Reich",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Joseph E. Persico papers"
+    },
+    {
+      "key": "ossog-turco-b969",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "OSS Operational Groups Personnel",
+      "author_creator": "OSS Operational Groups veterans history project",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": null,
+      "locator": "Italian Operational Groups roster; Peedee team; S/Sgt. Carmen Turco",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups personnel roster",
+      "rights_notes": "Used only for a qualified identity and OSS-assignment lead, not to infer pre-OSS employment."
+    },
+    {
+      "key": "nara-entry210-tularak-b969",
+      "stable_url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/entry-210.pdf",
+      "archival_identifier": "RG 226, Entry 210, WN#13644",
+      "title": "Records of the Office of Strategic Services, Entry 210",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": null,
+      "locator": "Translation of a letter from Thai leader Sanguan Tularak, 1944-09-05, WN#13644",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226"
+    },
+    {
+      "key": "reynolds-tularak-b969",
+      "stable_url": "https://assets.cambridge.org/97805218/36012/frontmatter/9780521836012_frontmatter.pdf",
+      "title": "Thailand's Secret War: The Free Thai, OSS, and SOE During World War II",
+      "author_creator": "E. Bruce Reynolds",
+      "repository_publisher": "Cambridge University Press",
+      "publication_record_date": "2005",
+      "locator": "Front matter, illustration 7; Sanguan Tularak training for OSS DURIAN at Trincomalee, Ceylon",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Thailand's Secret War",
+      "rights_notes": "Used only to document the unbridged Sanguan Tularak lead; no copyrighted image is republished."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "gaston-e-tuggle-occupation-b969",
+      "person_id": "56ba9eee-1bb0-5054-a45e-4699f644e0d8",
+      "occupation": "semiskilled worker in dairy-products processing",
+      "relationship_type": "unknown",
+      "end_date": "1942-08-24",
+      "date_precision": "Historical civilian-status code 606 was recorded at Army entry on 1942-08-24; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "donald-g-tuinstra-occupation-b969",
+      "person_id": "5d842394-776f-549a-a6cf-d8c4c3037525",
+      "occupation": "warehousing, storekeeping, handling, loading or unloading worker",
+      "relationship_type": "unknown",
+      "end_date": "1943-01-28",
+      "date_precision": "Historical civilian-status code 788 was recorded at Army entry on 1943-01-28; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "robert-e-tulley-occupation-b969",
+      "person_id": "1649ead5-2a9a-5f10-86fe-00dd4b3474bd",
+      "occupation": "chauffeur or driver of a bus, taxi, truck or tractor",
+      "relationship_type": "unknown",
+      "end_date": "1943-07-13",
+      "date_precision": "Historical civilian-status code 736 was recorded at Army entry on 1943-07-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "joseph-j-tully-occupation-b969",
+      "person_id": "ec8827c8-9bcd-5dbb-89ca-df454bd11cf6",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-07-22",
+      "date_precision": "Historical civilian-status code 992 was recorded at Army entry on 1943-07-22; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "barney-r-tumbiolo-occupation-b969",
+      "person_id": "93e7815f-bcb2-5a0e-88a2-da7233aab883",
+      "occupation": "laundering, cleaning, dyeing or apparel-pressing worker",
+      "relationship_type": "unknown",
+      "end_date": "1943-05-18",
+      "date_precision": "Historical civilian-status code 757 was recorded at Army entry on 1943-05-18; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "frederick-h-tunnell-occupation-b969",
+      "person_id": "3cfe62b7-af17-5849-b5d9-0e966470945d",
+      "occupation": "statistical clerk or compiler",
+      "relationship_type": "unknown",
+      "end_date": "1945-07-24",
+      "date_precision": "Historical civilian-status code 136 was recorded at Army entry on 1945-07-24; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "euclide-turcotte-occupation-b969",
+      "person_id": "f58e7cd0-d5c2-57b8-b186-31809a186ffc",
+      "occupation": "semiskilled textile-manufacturing worker, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1943-04-23",
+      "date_precision": "Historical civilian-status code 619 was recorded at Army entry on 1943-04-23; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "anthony-turano-commercial-photographer-b969",
+      "person_id": "cdde1d60-e611-5f8b-83c3-b6cb604755c5",
+      "occupation": "commercial photographer",
+      "relationship_type": "unknown",
+      "date_precision": "The obituary says Turano resumed his commercial-photography career after wartime OSS service; it does not identify the prewar employer, dates or employment arrangement.",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation only. Anton Bruehl is not named as Turano's prewar employer, so the studio is not projected backward."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-gaston-e-tuggle-b969",
+      "person_id": "56ba9eee-1bb0-5054-a45e-4699f644e0d8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Gaston E Tuggle is confirmed matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact nonshared protected identifier connects the index and official Army row; a declassified Detachment 101 order independently prints Gaston E. Tuggle with the same identifier and sergeant rank.",
+      "identity_match_assessment": "The exact nonshared protected identifier connects the index and official Army row; a declassified Detachment 101 order independently prints Gaston E. Tuggle with the same identifier and sergeant rank.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        },
+        {
+          "source_key": "det101-tuggle-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-gaston-e-tuggle-b969",
+      "person_id": "56ba9eee-1bb0-5054-a45e-4699f644e0d8",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-24, Gaston E Tuggle's historical civilian-status category was semiskilled occupations in processing dairy products.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 606; NARA's code list defines it as Semiskilled occupations in processing dairy products.",
+      "identity_match_assessment": "The exact nonshared protected identifier connects the index and official Army row; a declassified Detachment 101 order independently prints Gaston E. Tuggle with the same identifier and sergeant rank.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical page 173; historical category 6-06"
+        }
+      ],
+      "affiliation_key": "gaston-e-tuggle-occupation-b969"
+    },
+    {
+      "key": "identity-donald-g-tuinstra-b969",
+      "person_id": "5d842394-776f-549a-a6cf-d8c4c3037525",
+      "claim_type": "identity",
+      "claim_text": "Indexed Donald G Tuinstra is high-confidence matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-donald-g-tuinstra-b969",
+      "person_id": "5d842394-776f-549a-a6cf-d8c4c3037525",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-28, Donald G Tuinstra's historical civilian-status category was warehousing, storekeeping, handling, loading, unloading, and related occupations.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 788; NARA's code list defines it as Warehousing, storekeeping, handling, loading, unloading, and related occupations.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical page 174; historical category 7-88"
+        }
+      ],
+      "affiliation_key": "donald-g-tuinstra-occupation-b969"
+    },
+    {
+      "key": "identity-robert-e-tulley-b969",
+      "person_id": "1649ead5-2a9a-5f10-86fe-00dd4b3474bd",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert E Tulley is high-confidence matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army row prints the exact indexed name Robert E Tulley and the shared protected identifier. The neighboring Robt E Tullen row remains separate and conflicting; no merge is made.",
+      "identity_match_assessment": "The official Army row prints the exact indexed name Robert E Tulley and the shared protected identifier. The neighboring Robt E Tullen row remains separate and conflicting; no merge is made.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-e-tulley-b969",
+      "person_id": "1649ead5-2a9a-5f10-86fe-00dd4b3474bd",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-13, Robert E Tulley's historical civilian-status category was chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 736; NARA's code list defines it as Chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "The official Army row prints the exact indexed name Robert E Tulley and the shared protected identifier. The neighboring Robt E Tullen row remains separate and conflicting; no merge is made.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical page 174; historical category 7-36"
+        }
+      ],
+      "affiliation_key": "robert-e-tulley-occupation-b969"
+    },
+    {
+      "key": "identity-joseph-j-tully-b969",
+      "person_id": "ec8827c8-9bcd-5dbb-89ca-df454bd11cf6",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph J Tully is high-confidence matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The exact nonshared protected identifier connects the index and official Army row; a National Park Service history independently identifies Corporal Joseph J. Tully as an OSS Area C cadre member.",
+      "identity_match_assessment": "The exact nonshared protected identifier connects the index and official Army row; a National Park Service history independently identifies Corporal Joseph J. Tully as an OSS Area C cadre member.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        },
+        {
+          "source_key": "nps-joseph-tully-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-j-tully-b969",
+      "person_id": "ec8827c8-9bcd-5dbb-89ca-df454bd11cf6",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-07-22, Joseph J Tully's historical civilian-status category was students.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The exact nonshared protected identifier connects the index and official Army row; a National Park Service history independently identifies Corporal Joseph J. Tully as an OSS Area C cadre member.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ],
+      "affiliation_key": "joseph-j-tully-occupation-b969"
+    },
+    {
+      "key": "identity-barney-r-tumbiolo-b969",
+      "person_id": "93e7815f-bcb2-5a0e-88a2-da7233aab883",
+      "claim_type": "identity",
+      "claim_text": "Indexed Barney R Tumbiolo is high-confidence matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-barney-r-tumbiolo-b969",
+      "person_id": "93e7815f-bcb2-5a0e-88a2-da7233aab883",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-18, Barney R Tumbiolo's historical civilian-status category was occupations in laundering, cleaning, dyeing, and pressing apparel and other articles.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 757; NARA's code list defines it as Occupations in laundering, cleaning, dyeing, and pressing apparel and other articles.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical page 174; historical category 7-57"
+        }
+      ],
+      "affiliation_key": "barney-r-tumbiolo-occupation-b969"
+    },
+    {
+      "key": "identity-frederick-h-tunnell-b969",
+      "person_id": "3cfe62b7-af17-5849-b5d9-0e966470945d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Frederick H Tunnell is high-confidence matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The nonshared protected identifier connects Frederick H Tunnell to the official Army spelling Frederic H Tunnell Jr; the spelling and suffix difference remain visible as variants.",
+      "identity_match_assessment": "The nonshared protected identifier connects Frederick H Tunnell to the official Army spelling Frederic H Tunnell Jr; the spelling and suffix difference remain visible as variants.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frederick-h-tunnell-b969",
+      "person_id": "3cfe62b7-af17-5849-b5d9-0e966470945d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-07-24, Frederick H Tunnell's historical civilian-status category was statistical clerks and compilers.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 136; NARA's code list defines it as Statistical clerks and compilers.",
+      "identity_match_assessment": "The nonshared protected identifier connects Frederick H Tunnell to the official Army spelling Frederic H Tunnell Jr; the spelling and suffix difference remain visible as variants.",
+      "temporal_assessment": "The 1945 Army-entry date is close to the end of OSS and its relation to OSS service is uncertain; no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical pages 171 and 304; historical category 1-36"
+        }
+      ],
+      "affiliation_key": "frederick-h-tunnell-occupation-b969"
+    },
+    {
+      "key": "identity-euclide-turcotte-b969",
+      "person_id": "f58e7cd0-d5c2-57b8-b186-31809a186ffc",
+      "claim_type": "identity",
+      "claim_text": "Indexed Euclide Turcotte is high-confidence matched to the reviewed Army entry.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        }
+      ]
+    },
+    {
+      "key": "occupation-euclide-turcotte-b969",
+      "person_id": "f58e7cd0-d5c2-57b8-b186-31809a186ffc",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-23, Euclide Turcotte's historical civilian-status category was semiskilled occupations in manufacture of textiles, not elsewhere classified.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 619; NARA's code list defines it as Semiskilled occupations in manufacture of textiles, not elsewhere classified.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b969",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b969",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b969",
+          "locator_override": "PDF physical page 173; historical category 6-19"
+        }
+      ],
+      "affiliation_key": "euclide-turcotte-occupation-b969"
+    },
+    {
+      "key": "identity-nicholas-tukalo-b969",
+      "person_id": "a5bf76a7-2699-51ba-af14-6e2d1aa572c3",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nicholas Tukalo is high-confidence matched to a reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "temporal_assessment": "The official Army entry date is 1942-06-27; it does not establish a usable pre-OSS occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity evidence only; no employer or occupation is inferred from undecoded or unusable historical code data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        },
+        {
+          "source_key": "army-tech-b969"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-o-tulka-b969",
+      "person_id": "a48648cb-bc3b-5fcc-9123-b7e9ff3feddf",
+      "claim_type": "identity",
+      "claim_text": "Indexed Charles O Tulka is high-confidence matched to a reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. The 1946 date is post-OSS and code 274 is not safely decoded, so nothing is projected backward as a pre-OSS occupation.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. The 1946 date is post-OSS and code 274 is not safely decoded, so nothing is projected backward as a pre-OSS occupation.",
+      "temporal_assessment": "The official Army entry date is 1946-04-02; it does not establish a usable pre-OSS occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity evidence only; no employer or occupation is inferred from undecoded or unusable historical code data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        },
+        {
+          "source_key": "army-tech-b969"
+        }
+      ]
+    },
+    {
+      "key": "identity-edwin-d-tunnell-b969",
+      "person_id": "1a7c8fa9-a745-57e2-8fcf-367d049b5318",
+      "claim_type": "identity",
+      "claim_text": "Indexed Edwin D Tunnell is high-confidence matched to a reviewed official Army record.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "temporal_assessment": "The official Army entry date is 1942-04-27; it does not establish a usable pre-OSS occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity evidence only; no employer or occupation is inferred from undecoded or unusable historical code data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        },
+        {
+          "source_key": "army-tech-b969"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-robt-tullen-b969",
+      "person_id": "a0badc47-6594-5946-8e5a-a01e23d0f246",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robt E Tullen row remains in an unresolved identity conflict with the separately indexed Robert E Tulley row.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Both index rows carry the same protected identifier, while the official Army row prints Robert E Tulley. The two source rows remain separate and are not merged.",
+      "identity_match_assessment": "Conflicting name evidence on a shared protected identifier; physical-file review is required.",
+      "temporal_assessment": "The conflict prevents publication of a pre-OSS occupation for Robt E Tullen.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier is withheld. This conflict is visible and excluded from default analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "army-bulk-b969"
+        }
+      ]
+    },
+    {
+      "key": "sanguan-tularak-unbridged-lead-b969",
+      "person_id": "e1bb7d16-57bd-5199-8a64-744c85b4f691",
+      "claim_type": "identity",
+      "claim_text": "Indexed Sam Tularak may be related to the well-documented Sanguan Tularak OSS/Free Thai record, but the identity is not established.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "NARA records and a scholarly OSS history document Sanguan Tularak, while no reviewed source equates the indexed forename Sam with Sanguan.",
+      "identity_match_assessment": "Name and OSS context are suggestive, but no alias, identifier, box-file or second biographical bridge was found.",
+      "temporal_assessment": "No employment chronology is assigned to the indexed person while identity remains ambiguous.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained as a private review lead and withheld from public facts and analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "nara-entry210-tularak-b969"
+        },
+        {
+          "source_key": "reynolds-tularak-b969"
+        }
+      ]
+    },
+    {
+      "key": "identity-anthony-turano-b969",
+      "person_id": "cdde1d60-e611-5f8b-83c3-b6cb604755c5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Anthony Turano is a high-confidence match to commercial photographer and OSS veteran Anthony (Tony) Turano.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The obituary explicitly connects the exact name to OSS service and Piercing the Reich; the Persico papers list an Anthony Turano interview used for that book.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, explicit OSS statement and independent Persico archival interview pointer.",
+      "temporal_assessment": "The obituary documents prewar occupation by describing his postwar return to the same career, but does not name a prewar employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The later Anton Bruehl studio relationship is not projected backward without dated evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "nytimes-turano-obit-b969"
+        },
+        {
+          "source_key": "persico-papers-turano-b969"
+        }
+      ]
+    },
+    {
+      "key": "prewar-anthony-turano-photographer-b969",
+      "person_id": "cdde1d60-e611-5f8b-83c3-b6cb604755c5",
+      "claim_type": "occupation",
+      "claim_text": "Anthony Turano worked as a commercial photographer before wartime OSS service; the prewar employer is not identified.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "His obituary says he resumed his commercial-photography career after OSS service, establishing the occupation before the interruption of wartime service.",
+      "identity_match_assessment": "High-confidence identity based on explicit OSS obituary evidence and the Persico archival interview pointer.",
+      "temporal_assessment": "Documented prewar occupation, but neither immediacy nor a named employer is established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation only; Anton Bruehl is not identified as the prewar employer.",
+      "sources": [
+        {
+          "source_key": "nytimes-turano-obit-b969",
+          "excerpt_override": "before resuming his career as a commercial photographer in New York City"
+        }
+      ],
+      "affiliation_key": "anthony-turano-commercial-photographer-b969"
+    },
+    {
+      "key": "identity-carmen-turco-b969",
+      "person_id": "cdd69d6f-4836-54d4-ad47-bb2001257b3d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Carmen Turco is a probable match to Staff Sergeant Carmen Turco of the OSS Peedee Italian Operational Group.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The veterans roster supplies the exact name, staff-sergeant rank and Peedee assignment, but no service number or second person-specific identifier.",
+      "identity_match_assessment": "Probable exact-name match in direct OSS context; Box 789 must confirm the identity.",
+      "temporal_assessment": "The source documents an OSS assignment, not a pre-OSS employer or occupation.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified identity lead; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b969"
+        },
+        {
+          "source_key": "ossog-turco-b969",
+          "excerpt_override": "S/Sgt. Carmen Turco"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4d0ce179-3d73-55b5-b97c-9cf938f35f1c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Murray A Tulis, Box 788 and archive location 230/86/42/03. Discovery-only genealogy suggested a 1923-1979 namesake, but no source connected that person to OSS or established a dated occupation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Discovery-only genealogy suggested a 1923-1979 namesake, but no source connected that person to OSS or established a dated occupation."
+    },
+    {
+      "person_id": "0b414d74-66f8-550d-a466-dad5b793fa9f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dorothy G Tully, Box 788 and archive location 230/86/42/03. The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "26b244ae-83c3-5a4d-8c8b-df1b31174f7a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jack A Tully, Box 788 and archive location 230/86/42/03. Exact-name, initial, OSS, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initial, OSS, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "d28301f9-8700-5685-8cbc-6f08462b0663",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Susan Tully, Box 788 and archive location 230/86/42/03. The name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context."
+    },
+    {
+      "person_id": "384228de-0f41-53e7-8405-f4fbe2000c17",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John W Tumbridge, Box 789 and archive location 230/86/42/03. An older Brooklyn engineer and public official with the exact name was rejected because no evidence ties him to this OSS index row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An older Brooklyn engineer and public official with the exact name was rejected because no evidence ties him to this OSS index row."
+    },
+    {
+      "person_id": "b2afe78f-52cc-56de-88f7-87f6014ba057",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harry T Tun, Box 789 and archive location 230/86/42/03. Exact-name, spacing and transliteration variants in official, obituary, institutional and archival searches produced no reliable identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, spacing and transliteration variants in official, obituary, institutional and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "5bef741a-256e-5848-b824-0147cb9c6653",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Chen Dao Tung, Box 789 and archive location 230/86/42/03. Chinese-name order and transliteration variants were searched, but no source tied a candidate to OSS, Box 789 or another corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Chinese-name order and transliteration variants were searched, but no source tied a candidate to OSS, Box 789 or another corroborating identifier."
+    },
+    {
+      "person_id": "4fbbb540-7cbd-5a56-884c-679d4a06c62b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Annis L Tunis, Box 789 and archive location 230/86/42/03. Exact-name, initial, employer, obituary, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initial, employer, obituary, newspaper and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "39fcc188-1258-510e-b442-d0cb0828d3b0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Bill K Tunnel, Box 789 and archive location 230/86/42/03. Exact-name, Tunnel/Tunnell variants, employer, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, Tunnel/Tunnell variants, employer, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "56ba9eee-1bb0-5054-a45e-4699f644e0d8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact nonshared protected identifier connects the index and official Army row; a declassified Detachment 101 order independently prints Gaston E. Tuggle with the same identifier and sergeant rank.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "5d842394-776f-549a-a6cf-d8c4c3037525",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "1649ead5-2a9a-5f10-86fe-00dd4b3474bd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army row prints the exact indexed name Robert E Tulley and the shared protected identifier. The neighboring Robt E Tullen row remains separate and conflicting; no merge is made.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "serial-conflict:33691027",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 788 to determine whether the neighboring Tullen row is a transcription variant or a distinct person, then establish the immediate pre-OSS affiliation and named last civilian employer."
+    },
+    {
+      "person_id": "ec8827c8-9bcd-5dbb-89ca-df454bd11cf6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact nonshared protected identifier connects the index and official Army row; a National Park Service history independently identifies Corporal Joseph J. Tully as an OSS Area C cadre member.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "93e7815f-bcb2-5a0e-88a2-da7233aab883",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "3cfe62b7-af17-5849-b5d9-0e966470945d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The nonshared protected identifier connects Frederick H Tunnell to the official Army spelling Frederic H Tunnell Jr; the spelling and suffix difference remain visible as variants.",
+      "name_variants": [
+        "Frederic H Tunnell Jr"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "f58e7cd0-d5c2-57b8-b186-31809a186ffc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "a5bf76a7-2699-51ba-af14-6e2d1aa572c3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and last civilian employer; no usable historical occupation category was established."
+    },
+    {
+      "person_id": "a48648cb-bc3b-5fcc-9123-b7e9ff3feddf",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. The 1946 date is post-OSS and code 274 is not safely decoded, so nothing is projected backward as a pre-OSS occupation.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and last civilian employer; no usable historical occupation category was established."
+    },
+    {
+      "person_id": "1a7c8fa9-a745-57e2-8fcf-367d049b5318",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and last civilian employer; no usable historical occupation category was established."
+    },
+    {
+      "person_id": "e1bb7d16-57bd-5199-8a64-744c85b4f691",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The indexed forename Sam and the documented Thai leader Sanguan Tularak share a rare surname and OSS context, but no reviewed source establishes an alias or direct identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 788 to determine whether Sam Tularak is Sanguan Tularak or another person before assigning any Thai government, Free Thai or tobacco-monopoly affiliation."
+    },
+    {
+      "person_id": "a0badc47-6594-5946-8e5a-a01e23d0f246",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier is printed on both this Robt E Tullen row and a separate Robert E Tulley row; the official Army row prints Robert E Tulley. Both index rows remain separate.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "possible_duplicate_group": "serial-conflict:33691027",
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 788 and the original file label to determine whether Tullen is a transcription variant, a duplicate index row or a distinct person. Do not merge with Robert E Tulley without direct evidence."
+    },
+    {
+      "person_id": "cdde1d60-e611-5f8b-83c3-b6cb604755c5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A New York Times obituary explicitly links Anthony (Tony) Turano to OSS service and Piercing the Reich; the Persico papers independently list an Anthony Turano interview used for that book.",
+      "name_variants": [
+        "Anthony (Tony) Turano",
+        "Tony Turano"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 789 and the Persico interview to identify Turano's immediate pre-OSS affiliation and determine whether Anton Bruehl's studio employed him before the war."
+    },
+    {
+      "person_id": "cdd69d6f-4836-54d4-ad47-bb2001257b3d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "An OSS Operational Groups roster lists the exact name as Staff Sergeant Carmen Turco on the Peedee team, but supplies no protected identifier or second person-specific bridge.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 789 to confirm the Peedee identity and establish the immediate pre-OSS affiliation and last civilian employer."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page475-row1-gaston-e-tuggle-b969",
+      "person_id": "56ba9eee-1bb0-5054-a45e-4699f644e0d8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gaston E Tuggle; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row2-donald-g-tuinstra-b969",
+      "person_id": "5d842394-776f-549a-a6cf-d8c4c3037525",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald G Tuinstra; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row3-nicholas-tukalo-b969",
+      "person_id": "a5bf76a7-2699-51ba-af14-6e2d1aa572c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas Tukalo; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row4-sam-tularak-b969",
+      "person_id": "e1bb7d16-57bd-5199-8a64-744c85b4f691",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sam Tularak; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row5-murray-a-tulis-b969",
+      "person_id": "4d0ce179-3d73-55b5-b97c-9cf938f35f1c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Murray A Tulis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Discovery-only genealogy suggested a 1923-1979 namesake, but no source connected that person to OSS or established a dated occupation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row6-charles-o-tulka-b969",
+      "person_id": "a48648cb-bc3b-5fcc-9123-b7e9ff3feddf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles O Tulka; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row7-robt-e-tullen-b969",
+      "person_id": "a0badc47-6594-5946-8e5a-a01e23d0f246",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robt E Tullen; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row8-robert-e-tulley-b969",
+      "person_id": "1649ead5-2a9a-5f10-86fe-00dd4b3474bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert E Tulley; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row9-dorothy-g-tully-b969",
+      "person_id": "0b414d74-66f8-550d-a466-dad5b793fa9f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dorothy G Tully; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row10-jack-a-tully-b969",
+      "person_id": "26b244ae-83c3-5a4d-8c8b-df1b31174f7a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack A Tully; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, initial, OSS, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row11-joseph-j-tully-b969",
+      "person_id": "ec8827c8-9bcd-5dbb-89ca-df454bd11cf6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph J Tully; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row12-susan-tully-b969",
+      "person_id": "d28301f9-8700-5685-8cbc-6f08462b0663",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Susan Tully; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row13-barney-r-tumbiolo-b969",
+      "person_id": "93e7815f-bcb2-5a0e-88a2-da7233aab883",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Barney R Tumbiolo; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row14-john-w-tumbridge-b969",
+      "person_id": "384228de-0f41-53e7-8405-f4fbe2000c17",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Tumbridge; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "An older Brooklyn engineer and public official with the exact name was rejected because no evidence ties him to this OSS index row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row15-harry-t-tun-b969",
+      "person_id": "b2afe78f-52cc-56de-88f7-87f6014ba057",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry T Tun; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, spacing and transliteration variants in official, obituary, institutional and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row16-chen-dao-tung-b969",
+      "person_id": "5bef741a-256e-5848-b824-0147cb9c6653",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Chen Dao Tung; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Chinese-name order and transliteration variants were searched, but no source tied a candidate to OSS, Box 789 or another corroborating identifier. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row17-annis-l-tunis-b969",
+      "person_id": "4fbbb540-7cbd-5a56-884c-679d4a06c62b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Annis L Tunis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, initial, employer, obituary, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row18-bill-k-tunnel-b969",
+      "person_id": "39fcc188-1258-510e-b442-d0cb0828d3b0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bill K Tunnel; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, Tunnel/Tunnell variants, employer, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row19-edwin-d-tunnell-b969",
+      "person_id": "1a7c8fa9-a745-57e2-8fcf-367d049b5318",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edwin D Tunnell; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row20-frederick-h-tunnell-b969",
+      "person_id": "3cfe62b7-af17-5849-b5d9-0e966470945d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederick H Tunnell; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row21-anthony-turano-b969",
+      "person_id": "cdde1d60-e611-5f8b-83c3-b6cb604755c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony Turano; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row22-carmen-turco-b969",
+      "person_id": "cdd69d6f-4836-54d4-ad47-bb2001257b3d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carmen Turco; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    },
+    {
+      "key": "page475-row23-euclide-turcotte-b969",
+      "person_id": "f58e7cd0-d5c2-57b8-b186-31809a186ffc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Euclide Turcotte; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 788-789; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_969",
+      "started_at": "2026-10-30T03:10:00Z",
+      "completed_at": "2026-10-30T05:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, conflict or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. The Sam/Sanguan Tularak lead remains unbridged and withheld; the Tullen/Tulley conflict remains visible. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b969-v1"
+    }
+  ]
+}

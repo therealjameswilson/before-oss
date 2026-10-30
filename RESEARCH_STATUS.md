@@ -1,5 +1,41 @@
 # Research status
 
+Batch 969 completed PDF page 475, rows 1-23, from **Gaston E Tuggle** through
+**Euclide Turcotte**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+A declassified Detachment 101 order confirms Gaston E Tuggle's identity and
+sergeant rank; the National Park Service independently documents Joseph Tully
+as Area C cadre; and an authoritative obituary plus the Persico papers support
+Anthony Turano's OSS identity and earlier commercial-photographer occupation.
+None establishes a named pre-OSS employer. Carmen Turco remains a qualified
+probable Peedee-team identity. Robt E Tullen and Robert E Tulley remain separate
+within one possible-duplicate group despite a protected-identifier collision.
+The Sam/Sanguan Tularak lead remains withheld because no reviewed source bridges
+the forenames. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,223/23,936 (63.5988%)**;
+verified-employer coverage is **488/23,936 (2.0388%)**;
+verified-affiliation coverage is **1,094/23,936 (4.5705%)**; archival-review
+coverage is **13,699/23,936 (57.2318%)**. There are **8,708** not-started
+people, **664** possible-duplicate groups and **521** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,080 high**, **2,403 medium**,
+**255 low**, **434 conflicting** and **2 unresolved**. The public projection
+contains **3,734** affiliations, **1,251** organizations, **6,239** sources and
+**9,619** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 475, row
+24, **Joseph E Turcotte**, in Box 789. See `research/batch-969-progress.md`.
+
+Batch 969 passed evidence-schema validation, idempotent import, SQLite
+integrity, the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic
+build, the 30/30 batch browser matrix and the full 99/99 browser and
+accessibility release suite. All 25,237 internal page links resolve, the
+protected-identifier audit found zero unexpected matches, and the 67-asset
+public manifest verifies locally. Publication is pending the immutable content
+commit, GitHub Actions checks and unauthenticated deployed-release
+verification. Full verification is recorded in `reports/release_batch_969.md`.
+
 Batch 968 completed PDF page 474, rows 24-46, from **Michalis Tsirmulas**
 through **Margaret E Tugas**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
