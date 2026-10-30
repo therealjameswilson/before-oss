@@ -75,5 +75,10 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Pending push, GitHub Actions completion and unauthenticated deployed-release
-verification.
+Batch 989 is public from audited release commit
+`94b14df8e84a459e03d0c8f1786dc9fba6f7d00b`. GitHub Actions Test run
+`41088622169` and Pages run `41088622180` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets byte for byte across
+132,598,411 bytes, verified eight core routes, all 44 source-register pages
+and all 23 direct cohort profiles, and reproduced manifest SHA-256
+`c198e65be6bd8c7adc023b52e56501eec95813c0dd3e3aa8753c904cec6a51c8`.

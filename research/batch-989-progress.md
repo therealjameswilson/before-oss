@@ -130,6 +130,11 @@ Archive location: 230/86/42/06
 - The checked-in 67-asset public manifest verifies locally at 132,598,411
   bytes with SHA-256
   `c198e65be6bd8c7adc023b52e56501eec95813c0dd3e3aa8753c904cec6a51c8`.
+- GitHub Actions Test run `41088622169` and Pages run `41088622180` succeeded
+  for audited release commit
+  `94b14df8e84a459e03d0c8f1786dc9fba6f7d00b`. The unauthenticated verifier
+  matched all 67 assets byte for byte, checked eight core routes, all 44
+  source-register pages and all 23 direct Batch 989 profiles.
 - The 70-file public tree totals 134,945,569 bytes and has SHA-256
   `6a6e84c9f4eab7f844862d293e907cd77d63c5774e2f803690536df69562b123`.
 - The known older replay gap disclosed in Batch 959 remains open: 473
