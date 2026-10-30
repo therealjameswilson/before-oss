@@ -1,5 +1,45 @@
 # Research status
 
+Batch 971 completed PDF page 476, rows 1-23, from **Olive J Turner** through
+**Edgar H Twamley**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Official NARA awards-board records identify Pierre M Turquet as a British Army
+major serving in the OSS Secret Intelligence context; an independent
+biographical record supports his Royal Army Medical Corps assignment, but the
+evidence does not establish that assignment as immediately pre-OSS.
+Contemporary *Broadcasting* reports identify Edgar H Twamley as WBEN's station
+director immediately before a confidential overseas government assignment and
+later describe him as recently in OSS. His earlier NBC station-relations work
+is retained separately. Four exact Army identity bridges publish qualified
+occupation categories without inventing employers, three more support identity
+only, and Wilmore J Turner's conflicting initials remain visible for Box 789
+review. Thirteen unresolved identities retain archival-review outcomes. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,269/23,936 (63.7909%)**;
+verified-employer coverage is **489/23,936 (2.0429%)**;
+verified-affiliation coverage is **1,095/23,936 (4.5747%)**; archival-review
+coverage is **13,745/23,936 (57.4240%)**. There are **8,662** not-started
+people, **664** possible-duplicate groups and **522** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,103 high**, **2,419 medium**,
+**255 low**, **435 conflicting** and **2 unresolved**. The public projection
+contains **3,751** affiliations, **1,253** organizations, **6,253** sources and
+**9,659** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 476, row
+24, **George B Tweed**, in Box 791. See `research/batch-971-progress.md`.
+
+Batch 971 passed evidence-schema validation, idempotent import, SQLite
+integrity, the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic
+build, the 27/27 batch browser matrix and the full 96/96 browser and
+accessibility release suite. All 25,239 internal page links resolve, the
+protected-identifier audit found zero unexpected matches, and two consecutive
+builds reproduced the 67-asset public manifest and full static output tree.
+Publication verification remains pending until the immutable content commit,
+GitHub Actions and unauthenticated live-site checks complete. Full local
+verification is recorded in `reports/release_batch_971.md`.
+
 Batch 970 completed PDF page 475, rows 24-46, from **Joseph E Turcotte** through
 **Mildred M Turner**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.
