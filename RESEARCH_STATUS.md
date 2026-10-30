@@ -30,10 +30,14 @@ research remains unfinished. The next indexed boundary is PDF page 484, row
 1, **Domonic Virdo**. See `research/batch-986-progress.md`.
 
 Batch 986 passed evidence-schema validation, repeat import, SQLite integrity,
-the complete ingest audit, the 200-profile audit and all 147 Python tests.
-Site build, browser, accessibility, link, identifier, determinism and public
-deployment verification remain release gates; this batch is not yet included
-in the public Batch 985 totals.
+the complete ingest audit, the 200-profile audit, all 147 Python tests, Astro's
+zero-diagnostic 25,274-page build, the 33/33 batch browser matrix and the full
+102/102 browser and accessibility release suite. All internal links resolve,
+the protected-identifier audit found zero unexpected matches, the checked-in
+67-asset manifest verifies locally and two clean builds are deterministic.
+Full local verification is recorded in `reports/release_batch_986.md`.
+Publication and unauthenticated live verification remain pending; this batch is
+not yet included in the public Batch 985 totals.
 
 Batch 985 completed PDF page 483, rows 1-23, from **George Vetlesen**
 through **Peter P Viezbicke Jr.**, preserving all 23 printed rows as separate

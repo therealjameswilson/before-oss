@@ -97,9 +97,27 @@ Archive location: 230/86/42/05
 - All 147 Python pipeline tests passed.
 - The complete ingest audit and 200-profile stratified audit passed every
   check.
-- Site build, Batch 986 browser tests, release-suite, link, identifier,
-  manifest, determinism and public-deployment checks remain release gates and
-  are not claimed complete here.
+- Astro checked 617 files with zero diagnostics and generated 25,274 static
+  pages from a clean worktree.
+- All 33 Batch 986 browser checks passed across desktop, phone and tablet. The
+  bounded release suite passed all 102 browser and accessibility checks,
+  including 30 axe scans with no serious or critical violations.
+- All internal links across 25,274 HTML files resolve; 52,171 unique external
+  URLs were inventoried for the separate live check.
+- The public identifier audit checked 12,926 normalized identifiers and 120
+  formatted variants across 25,346 clean output artifacts, inspected 1,440
+  candidate substrings and found zero unexpected boundary matches.
+- The checked-in 67-asset public manifest verifies locally at 132,236,093
+  bytes and SHA-256
+  `a313f4b5d91bb8e1580538bda04ce95084b0cbcf1ef5c7c17a253ab49cef313b`.
+- The 70-file public tree totals 134,583,251 bytes and has SHA-256
+  `b4241f121e035faee0ea61d3f5eddcef953b0b98de06193a87370d2f8a3a5e9b`.
+- Two consecutive clean static builds reproduced the same 25,346-file tree,
+  421,557,133 bytes and tree SHA-256
+  `ebaa7bd5a8ff4a6365ea67baeeba4b7d8834231f7cc4c16546117ad564cae099`.
+- The production dependency audit found zero vulnerabilities.
+- Public deployment and unauthenticated verification remain pending and are
+  not claimed complete here.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable replay
   inputs. Batch 986 itself is replayable to the same authoritative state.
