@@ -117,3 +117,14 @@ Archive location: 230/86/42/04
 ## Resume point
 
 Continue with PDF page 478, row 24, Sylvester Vacek, in Box 796.
+
+## Publication verification
+
+Published from immutable content commit
+`5ddbcb9ce76ad44d819cc6c17219d7f2079279fd`. GitHub Actions Test run
+`41028217307` and Pages run `41028217344` succeeded. After one transient HTTP
+503, an unchanged retry of the unauthenticated deployed-release verifier
+matched all 67 public assets (130,672,220 bytes; manifest SHA-256
+`557753a0d0855ec1800c430c7b957b95994112f1d3027ec882bb6a28507d5530`),
+eight core routes, 43 source-register pages and all 23 Batch 975 direct profile
+routes at <https://therealjameswilson.github.io/before-oss/>.

@@ -32,8 +32,12 @@ Batch 975 passed evidence-schema validation, repeat import, SQLite integrity,
 the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
 27/27 batch browser matrix and the full 96/96 browser and accessibility release
 suite. All 25,251 internal page links resolve, and the protected-identifier
-audit found zero unexpected matches. Publication verification will be recorded
-in `reports/release_batch_975.md` after the immutable content commit is live.
+audit found zero unexpected matches. Publication is public from immutable
+content commit `5ddbcb9ce76ad44d819cc6c17219d7f2079279fd`; GitHub Actions
+Test run `41028217307` and Pages run `41028217344` succeeded, and the
+unauthenticated manifest, eight core routes, 43 source-register pages and all
+23 Batch 975 profile routes match that commit. Full verification is recorded
+in `reports/release_batch_975.md`.
 
 Batch 974 completed PDF page 477, rows 24-46, from **Joe W Ulmer** through
 **Morris Unterberger**, preserving all 23 printed rows as separate people with
