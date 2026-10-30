@@ -1,5 +1,40 @@
 # Research status
 
+Batch 986 completed PDF page 483, rows 24-46, from **Joseph P Viggiani**
+through **Edward J Virant**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Reviewed evidence identifies Marcel Vigneras at Smith College before wartime
+service and keeps his French Army pathway into OSS separate. Elizabeth E
+Vilm's National Park Service employment remains distinct from her later
+Women's Army Corps commission. Harold O Vingers's earlier Stukins
+Distributing Company work remains separate from the best-supported last
+civilian employer, Kraft Cheese Company. An official X-2 roster confirms
+Andre L Villere without creating a pre-OSS employer, while Stephen P
+Vinciguerra's Cornell record remains qualified student status. Eight official
+Army categories publish only qualified occupations or student status; two
+undefined codes remain identity-only. Nine unbridged people remain unresolved
+and affiliation-free. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,610/23,936 (65.2156%)**;
+verified-employer coverage is **508/23,936 (2.1223%)**;
+verified-affiliation coverage is **1,127/23,936 (4.7084%)**; archival-review
+coverage is **14,086/23,936 (58.8486%)**. There are **8,321** not-started
+people, **672** possible-duplicate groups and **526** conflicts. Claim
+confidence counts are **1,719 confirmed**, **5,285 high**, **2,534 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,904** affiliations, **1,287** organizations, **6,429** sources and
+**9,970** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 484, row
+1, **Domonic Virdo**. See `research/batch-986-progress.md`.
+
+Batch 986 passed evidence-schema validation, repeat import, SQLite integrity,
+the complete ingest audit, the 200-profile audit and all 147 Python tests.
+Site build, browser, accessibility, link, identifier, determinism and public
+deployment verification remain release gates; this batch is not yet included
+in the public Batch 985 totals.
+
 Batch 985 completed PDF page 483, rows 1-23, from **George Vetlesen**
 through **Peter P Viezbicke Jr.**, preserving all 23 printed rows as separate
 people with saved terminal research outcomes.
@@ -33,7 +68,12 @@ Batch 985 passed evidence-schema validation, repeat import, SQLite integrity,
 the complete ingest audit, the 200-profile audit, all 147 Python tests and the
 27/27 batch browser matrix. Clean-worktree build, browser, accessibility, link,
 identifier, manifest, determinism and publication verification are recorded in
-`reports/release_batch_985.md`.
+`reports/release_batch_985.md`. Publication is public from immutable content
+commit `e5e48eca8b280d19367aa5e790a11d081143c672`; GitHub Actions Pages run
+`41065006122` succeeded. Unauthenticated verification matched the 67-asset
+manifest, eight core routes, 43 source-register pages and all 23 Batch 985
+profile routes to that commit. GitHub Actions Test run `41065006054` also
+succeeded.
 
 Batch 984 completed PDF page 482, rows 24-46, from **William Verback**
 through **Frederick Vetlesen**, preserving all 23 printed rows as separate

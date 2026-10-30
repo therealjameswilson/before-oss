@@ -69,6 +69,12 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Local release checks pass. Public commit, GitHub Actions run identifiers and
-the unauthenticated manifest/profile verification will be recorded after the
-content commit deploys successfully.
+Publication is public from immutable content commit
+`e5e48eca8b280d19367aa5e790a11d081143c672`. GitHub Actions Pages run
+`41065006122` and Test run `41065006054` both completed successfully. The
+unauthenticated verifier matched all **67** manifest assets (**132,055,053**
+bytes; manifest SHA-256
+`9211cf135ed73a1edb263db621ba6228bb12c5d26c8254a0f615175d0c2610d4`),
+**8** core routes, **43** source-register pages and all **23** Batch 985
+profile routes to that immutable commit at
+<https://therealjameswilson.github.io/before-oss/>.
