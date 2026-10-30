@@ -37,7 +37,12 @@ warnings or hints and builds 25,224 static pages. The 24/24 Batch 963 browser
 matrix and full 93/93 bounded browser and accessibility release suite pass, as
 do the complete internal-link check, protected-identifier audit, checked-in
 public manifest, zero-vulnerability production dependency audit and two
-deterministic consecutive builds. Publication verification is pending.
+deterministic consecutive builds. Publication is public from immutable content
+commit `d8f015e28dec84b188ed0bded2d8e12b48625dcf`; GitHub Actions Test run
+`40988140782` and Pages run `40988140774` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 963
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_963.md`.
 
 Batch 962 completed PDF page 471, rows 26-46, and page 472, rows 1-2, from
 **James B Townsend** through **Charles J Traina**, preserving all 23 printed

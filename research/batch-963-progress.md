@@ -113,3 +113,14 @@ Archive locations: 230/86/42/02 and 230/86/42/03
 
 Continue with PDF page 472, row 26, **Oliver E Trechter**, Box 784, archive
 location 230/86/42/02.
+
+## Publication verification
+
+- Immutable public content commit:
+  `d8f015e28dec84b188ed0bded2d8e12b48625dcf`.
+- GitHub Test run `40988140782` passed.
+- GitHub Pages run `40988140774` passed.
+- The unauthenticated deployed-release verifier matched all 67 manifest assets,
+  eight core routes, 42 source-register pages and all 23 Batch 963 profiles to
+  the immutable content commit.
+- Public site: <https://therealjameswilson.github.io/before-oss/>.
