@@ -1,5 +1,22 @@
 # Link check
 
+Batch 985 local validation, 2026-10-30 America/New_York: the clean release
+build contains **25,272** HTML files and **25,344** total artifacts. Every
+internal link resolves, and the checker inventories **52,164** unique external
+URLs for the separate live check. The public-identifier audit compares
+**12,926** normalized identifiers and **120** formatted variants against all
+output artifacts, inspects **1,441** candidate substrings and finds zero
+unexpected boundary, aggregate or manifest-size matches. The manifest lists
+**67** assets and **132,055,053** bytes at manifest SHA-256
+`9211cf135ed73a1edb263db621ba6228bb12c5d26c8254a0f615175d0c2610d4`.
+The public tree contains **70** files and **134,402,210** bytes at SHA-256
+`6f5e5deb10e87b10ddca1c0e107b32a66e6749ab8b0ee30cb4c018f3793fc967`.
+Two consecutive clean static builds reproduce **25,344** files and
+**421,256,782** bytes at output-tree SHA-256
+`145dc7f3bf4df1d93fb4ca358275245de442908391fcbc777c98711eb20bbc4e`.
+External URLs were inventoried, not all requested; CI and live-release
+verification are separate gates.
+
 Batch 984 local validation, 2026-10-30 America/New_York: the clean release
 build contains **25,269** HTML files and **25,341** total artifacts. Every
 internal link resolves, and the checker inventories **52,155** unique external

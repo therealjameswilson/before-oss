@@ -1,5 +1,40 @@
 # Research status
 
+Batch 985 completed PDF page 483, rows 1-23, from **George Vetlesen**
+through **Peter P Viezbicke Jr.**, preserving all 23 printed rows as separate
+people with saved terminal research outcomes.
+
+Reviewed institutional evidence identifies Peter Viertel at high confidence,
+documents Warner Bros. as his last civilian employer before military service,
+and keeps the United States Marine Corps separate as his immediate military
+pathway into OSS. Alexander O Vietor's Cox & Stevens and Yale roles remain
+documented prewar employment rather than an immediate predecessor. Four
+official Army categories publish only qualified occupations, not named
+employers. George Vetlesen's George/Georg bridge and Berthold Viertel's
+occupation remain qualified; Francis J Vicovari's ambulance work remains a
+volunteer affiliation; Thomas F Vietor Jr.'s Princeton record remains student
+status. Edward C Viegel remains an identity conflict with separately printed
+Edward C Veigel. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,587/23,936 (65.1195%)**;
+verified-employer coverage is **505/23,936 (2.1098%)**;
+verified-affiliation coverage is **1,124/23,936 (4.6959%)**; archival-review
+coverage is **14,063/23,936 (58.7525%)**. There are **8,344** not-started
+people, **672** possible-duplicate groups and **526** conflicts. Claim
+confidence counts are **1,718 confirmed**, **5,267 high**, **2,524 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,889** affiliations, **1,285** organizations, **6,419** sources and
+**9,941** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 483, row
+24, **Joseph P Viggiani**. See `research/batch-985-progress.md`.
+
+Batch 985 passed evidence-schema validation, repeat import, SQLite integrity,
+the complete ingest audit, the 200-profile audit, all 147 Python tests and the
+27/27 batch browser matrix. Clean-worktree build, browser, accessibility, link,
+identifier, manifest, determinism and publication verification are recorded in
+`reports/release_batch_985.md`.
+
 Batch 984 completed PDF page 482, rows 24-46, from **William Verback**
 through **Frederick Vetlesen**, preserving all 23 printed rows as separate
 people with saved terminal research outcomes.
