@@ -120,6 +120,13 @@ Continue with PDF page 479, row 1.
 
 ## Publication verification
 
-Not yet published. Record the immutable content commit, GitHub Actions Test and
-Pages runs, public manifest verification, core routes, source-register pages
-and all 23 Batch 976 direct profile routes after deployment succeeds.
+Published from immutable content commit
+`e839ba0a4eeb4476e74727e16c3a947d7487e707`. GitHub Actions Test run
+`41031428307` and Pages run `41031428310` succeeded. The unauthenticated
+deployed-release verifier matched all 67 public assets totaling 130,845,755
+bytes, manifest SHA-256
+`d0cd18d785301589e6e20aea8560ea3970643c3b1f0dafd44460f7b07d6fc5a4`,
+eight core routes, 43 source-register pages and all 23 Batch 976 direct profile
+routes.
+
+Verified public URL: <https://therealjameswilson.github.io/before-oss/>.
