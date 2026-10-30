@@ -1,0 +1,1284 @@
+{
+  "bundle_version": "batch-989-v1",
+  "reviewer": "Before OSS Batch 989 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b989",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 807-808",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 485, rows 1-23; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. The James Volosen conflict and truncated Wilhelm-Viggo E.F. Von Hoffmanst name are preserved rather than silently corrected or merged."
+    },
+    {
+      "key": "army-bulk-b989",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; five protected-identifier comparisons; identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Four exact name-and-identifier bridges were accepted. The Wilhelm-Viggo/Raimund name mismatch and James Volosen/Walter Kuznecoff shared identifier remain conflicts. No raw bulk row, record ordinal or full identifier enters public assets."
+    },
+    {
+      "key": "army-tech-b989",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b989",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171 and 174, with amended page 304; codes 022, 105 and 480 visually checked; code 999 absent from the reviewed three-digit list",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify broad occupations, not a named employer, workplace or exact job. Code 480 is not used because its Army entry postdates OSS dissolution; code 999 remains uninterpreted."
+    },
+    {
+      "key": "usda-graduate-school-bulletin-1945-b989",
+      "stable_url": "https://archive.org/details/CAT31332222003",
+      "archival_identifier": "CAT31332222003",
+      "title": "Graduate School, United States Department of Agriculture: Spring Semester 1945",
+      "author_creator": "Graduate School, United States Department of Agriculture",
+      "repository_publisher": "United States Department of Agriculture; digitized by the National Agricultural Library and Internet Archive",
+      "publication_record_date": "1945-01",
+      "locator": "PDF physical page 89, printed page 85; Nathalie Von Bretzel faculty biography",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "United States Department of Agriculture Graduate School bulletins",
+      "rights_notes": "The contemporary government bulletin identifies Von Bretzel's current OSS role and earlier teaching at National Park Junior College. Her concurrent 1945 Graduate School teaching is not recast as pre-OSS employment."
+    },
+    {
+      "key": "ias-maxim-von-brevern-b989",
+      "stable_url": "https://www.ias.edu/scholars/maxim-von-brevern",
+      "archival_identifier": "Institute for Advanced Study scholar profile: Maxim von Brevern",
+      "title": "Maxim von Brevern",
+      "author_creator": "Institute for Advanced Study",
+      "repository_publisher": "Institute for Advanced Study",
+      "publication_record_date": null,
+      "locator": "Scholar profile; School of Economics and Politics, member, September-December 1941",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Institute for Advanced Study scholar records",
+      "rights_notes": "The exact-name institutional record supports a qualified pre-OSS professional affiliation, not employment. It does not mention OSS or the middle initial, so identity remains probable pending personnel-file review."
+    },
+    {
+      "key": "lbg-gunther-von-fritsch-b989",
+      "stable_url": "https://austriansoldiers.lbg.ac.at/bio/gunther-von-fritsch/?lang=en",
+      "archival_identifier": "Austrian Soldiers in the US Army biography: Gunther von Fritsch",
+      "title": "Gunther von Fritsch",
+      "author_creator": "Ludwig Boltzmann Institute for Research on Consequences of War",
+      "repository_publisher": "Ludwig Boltzmann Gesellschaft",
+      "publication_record_date": null,
+      "locator": "Biography section on emigration and employment; October 1940 draft-card employment at the U.S. Department of the Interior",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Austrian Soldiers in the US Army",
+      "rights_notes": "Institutional research biography citing underlying NARA records. It supports a qualified 1940 government assignment but does not directly link the person to OSS."
+    },
+    {
+      "key": "air-force-magazine-john-von-der-lieth-b989",
+      "stable_url": "https://www.airandspaceforces.com/app/uploads/2024/08/AFmag_1980_11.pdf",
+      "archival_identifier": "Air Force Magazine, November 1980",
+      "title": "Raids on Schweinfurt",
+      "author_creator": "Col. Stone Christopher, USAF (Ret.)",
+      "repository_publisher": "Air Force Association",
+      "publication_record_date": "1980-11",
+      "locator": "PDF physical page 18, printed page 16; letter to the editor",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Air Force Magazine",
+      "rights_notes": "The retrospective letter places exact-name John Von der Lieth as U.S. Vice Consul in Gothenburg on 1 January 1944. It supplies wartime context but neither a pre-OSS employer nor a direct OSS link."
+    },
+    {
+      "key": "time-raimund-von-hofmannsthal-b989",
+      "stable_url": "https://time.com/archive/6760841/milestones-jun-19-1939/",
+      "archival_identifier": "TIME archive, June 19, 1939",
+      "title": "Milestones, Jun. 19, 1939",
+      "author_creator": "TIME",
+      "repository_publisher": "TIME",
+      "publication_record_date": "1939-06-19",
+      "locator": "Milestones notice for Raimund von Hofmannsthal",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "TIME archive",
+      "rights_notes": "This contemporary source documents Raimund von Hofmannsthal's London staff role at Time Inc. It is conflict context only and is not assigned to the differently named indexed Wilhelm-Viggo E.F. Von Hoffmanst."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "national-park-junior-college-b989",
+      "canonical_name": "National Park Junior College",
+      "historical_name": "National Park Junior College",
+      "aliases": [
+        "National Park Seminary and Junior College"
+      ],
+      "organization_type": "junior college",
+      "sector": "academia_and_research",
+      "city": "Forest Glen",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "active_dates": "Historical institution; exact name preserved from the 1945 source",
+      "normalization_notes": "The historical employer name is preserved. No modern successor institution is substituted."
+    },
+    {
+      "key": "institute-for-advanced-study-b989",
+      "canonical_name": "Institute for Advanced Study",
+      "historical_name": "Institute for Advanced Study",
+      "aliases": [
+        "IAS"
+      ],
+      "organization_type": "independent research institute",
+      "sector": "academia_and_research",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "active_dates": "Founded 1930",
+      "normalization_notes": "The School of Economics and Politics is retained in the role field rather than treated as a separate employer."
+    },
+    {
+      "key": "us-department-interior-b989",
+      "canonical_name": "United States Department of the Interior",
+      "historical_name": "U.S. Department of the Interior",
+      "aliases": [
+        "Department of the Interior",
+        "Interior Department"
+      ],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "The department is retained as the named 1940 government organization; no unidentified subordinate bureau is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-c-vokoun-jr-army-category-b989-row3",
+      "person_id": "aa1ebeca-8f75-538f-8771-d00f31025d41",
+      "occupation": "general office clerk",
+      "relationship_type": "employment",
+      "end_date": "1942-08-31",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace, duration and exact job are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "mario-h-volpe-army-category-b989-row11",
+      "person_id": "b5fe08c4-ccf3-55e9-875c-13318f603d38",
+      "occupation": "lawyer or judge",
+      "relationship_type": "employment",
+      "end_date": "1942-09-14",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace, duration and exact job are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "nathalie-von-bretzel-national-park-b989",
+      "person_id": "43ea8eb6-e45b-554e-96da-f05b7bcb038f",
+      "organization_key": "national-park-junior-college-b989",
+      "organization_name_as_found": "National Park Junior College",
+      "role_title": "teacher",
+      "occupation": "teacher",
+      "relationship_type": "employment",
+      "date_precision": "A January 1945 government bulletin describes this teaching in the past tense while listing Von Bretzel's current OSS role; exact dates and immediacy are not supplied",
+      "city": "Forest Glen",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Earlier documented employment. The source directly names both the prior college teaching and her current OSS role, but it does not prove this was the immediate predecessor or last civilian employer."
+    },
+    {
+      "key": "maxim-von-brevern-ias-b989",
+      "person_id": "42bb66fb-49e7-5501-a166-4451abefae0d",
+      "organization_key": "institute-for-advanced-study-b989",
+      "organization_name_as_found": "Institute for Advanced Study",
+      "role_title": "member, School of Economics and Politics",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1941-09",
+      "end_date": "1941-12",
+      "date_precision": "Institute profile gives September through December 1941",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified professional affiliation, not employment. Exact-name institutional evidence is strong, but the profile has no middle initial or OSS link."
+    },
+    {
+      "key": "gunther-von-fritsch-interior-b989",
+      "person_id": "b365dd9c-3759-5b54-8365-b0662c9c7aa4",
+      "organization_key": "us-department-interior-b989",
+      "organization_name_as_found": "U.S. Department of the Interior",
+      "role_title": "director of short documentary films",
+      "occupation": "film director",
+      "relationship_type": "government_assignment",
+      "start_date": "1940-10",
+      "date_precision": "An October 1940 draft-card record cited by the institutional biography gives the employer and activity; beginning and ending dates are unknown",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified earlier government assignment. The source does not link the biography directly to the OSS index or establish the immediate pre-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-c-vokoun-jr-army-b989-row3",
+      "person_id": "aa1ebeca-8f75-538f-8771-d00f31025d41",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph C Vokoun Jr. is high-confidence matched to the official Army entry reviewed for Batch 989.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The dated Army entry precedes the later OSS-index context; the personnel file remains necessary to document the transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity bridge does not by itself establish an employer or immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "army-bulk-b989",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-c-vokoun-jr-b989-row3",
+      "person_id": "aa1ebeca-8f75-538f-8771-d00f31025d41",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-31, Joseph C Vokoun Jr.'s historical civilian category was clerks, general office.",
+      "evidence_paraphrase": "The official Army field carries historical code 105; NARA's code list defines it as Clerks, general office.",
+      "identity_match_assessment": "High confidence from the reviewed official identity bridge.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b989",
+          "locator_override": "Reviewed Army entry; raw record and identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b989",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b989",
+          "locator_override": "Historical code 105; visually reviewed code-list page"
+        }
+      ],
+      "affiliation_key": "joseph-c-vokoun-jr-army-category-b989-row3"
+    },
+    {
+      "key": "identity-mario-h-volpe-army-b989-row11",
+      "person_id": "b5fe08c4-ccf3-55e9-875c-13318f603d38",
+      "claim_type": "identity",
+      "claim_text": "Indexed Mario H Volpe is high-confidence matched to the official Army entry reviewed for Batch 989.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The dated Army entry precedes the later OSS-index context; the personnel file remains necessary to document the transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity bridge does not by itself establish an employer or immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "army-bulk-b989",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-mario-h-volpe-b989-row11",
+      "person_id": "b5fe08c4-ccf3-55e9-875c-13318f603d38",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-14, Mario H Volpe's historical civilian category was lawyers and judges.",
+      "evidence_paraphrase": "The official Army field carries historical code 022; NARA's code list defines it as Lawyers and judges.",
+      "identity_match_assessment": "High confidence from the reviewed official identity bridge.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b989",
+          "locator_override": "Reviewed Army entry; raw record and identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b989",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b989",
+          "locator_override": "Historical code 022; visually reviewed code-list page"
+        }
+      ],
+      "affiliation_key": "mario-h-volpe-army-category-b989-row11"
+    },
+    {
+      "key": "identity-william-j-volk-army-b989-row6",
+      "person_id": "2cde1c52-ca14-52a3-b9b8-bc3a61fdbe18",
+      "claim_type": "identity",
+      "claim_text": "Indexed William J Volk is high-confidence matched to the official Army entry reviewed for Batch 989.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The Army-entry date is 16 July 1946, after OSS dissolution, so the record supports identity but no pre-OSS occupation or affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Historical code 480 is not transferred because the dated Army entry is post-OSS.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "army-bulk-b989",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-volpe-army-b989-row12",
+      "person_id": "b0b9a0cb-dc8e-59b8-bf41-49cf90f41b8f",
+      "claim_type": "identity",
+      "claim_text": "Indexed William Volpe is high-confidence matched to the official Army entry reviewed for Batch 989.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The Army record supports identity; historical code 999 is undefined in the reviewed official code list and supplies no occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No occupation, employer or chronology is inferred from undefined code 999.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "army-bulk-b989",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-nathalie-von-bretzel-usda-b989",
+      "person_id": "43ea8eb6-e45b-554e-96da-f05b7bcb038f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nathalie A Von Bretzel is high-confidence identified as the OSS research assistant described in a contemporary U.S. government bulletin.",
+      "evidence_paraphrase": "The distinctive exact name appears with a current senior research-assistant role in the USSR Section of OSS and an earlier teaching role.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and a contemporary government source that directly names her OSS section and role.",
+      "temporal_assessment": "The January 1945 bulletin explicitly distinguishes her current OSS role from earlier teaching, but gives no exact transition date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed file remains necessary for a confirmed identifier match and complete transfer chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "usda-graduate-school-bulletin-1945-b989"
+        }
+      ]
+    },
+    {
+      "key": "earlier-nathalie-von-bretzel-national-park-b989",
+      "person_id": "43ea8eb6-e45b-554e-96da-f05b7bcb038f",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nathalie Von Bretzel taught at National Park Junior College before the January 1945 bulletin described her current OSS role.",
+      "evidence_paraphrase": "The contemporary government faculty biography says she taught at National Park Junior College and currently served as an OSS senior research assistant.",
+      "identity_match_assessment": "High-confidence identity from the distinctive exact name and direct OSS role in the same source.",
+      "temporal_assessment": "Documented before the dated current OSS role, but exact dates, immediacy and last-civilian status are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as earlier employment only; not counted as immediate pre-OSS or last civilian employer.",
+      "sources": [
+        {
+          "source_key": "usda-graduate-school-bulletin-1945-b989"
+        }
+      ],
+      "affiliation_key": "nathalie-von-bretzel-national-park-b989"
+    },
+    {
+      "key": "identity-maxim-von-brevern-ias-b989",
+      "person_id": "42bb66fb-49e7-5501-a166-4451abefae0d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Maxim C Von Brevern is probably the Maxim von Brevern documented at the Institute for Advanced Study in late 1941.",
+      "evidence_paraphrase": "The exact distinctive name appears in the Institute's scholar record as a member of the School of Economics and Politics.",
+      "identity_match_assessment": "Probable: the exact rare name and prewar timing agree, but the institutional profile omits the middle initial and does not mention OSS.",
+      "temporal_assessment": "The affiliation is explicitly dated September through December 1941; its relation to OSS recruitment is unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified identity pending review of Box 807; not included in default confirmed/high identity analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "ias-maxim-von-brevern-b989"
+        }
+      ]
+    },
+    {
+      "key": "earlier-maxim-von-brevern-ias-b989",
+      "person_id": "42bb66fb-49e7-5501-a166-4451abefae0d",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Maxim von Brevern was a member of the Institute for Advanced Study's School of Economics and Politics from September through December 1941.",
+      "evidence_paraphrase": "The Institute's scholar record directly supplies the name, school, member status and date range.",
+      "identity_match_assessment": "Probable identity from the exact rare name; personnel-file corroboration is still required.",
+      "temporal_assessment": "Explicitly dated prewar professional affiliation; no source shows it was employment, immediate pre-OSS or the last civilian role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified professional affiliation, never as an employer.",
+      "sources": [
+        {
+          "source_key": "ias-maxim-von-brevern-b989"
+        }
+      ],
+      "affiliation_key": "maxim-von-brevern-ias-b989"
+    },
+    {
+      "key": "identity-context-john-von-der-lieth-b989",
+      "person_id": "e6eb81b4-b503-5a3e-a5cd-c32139ddcb27",
+      "claim_type": "identity",
+      "claim_text": "The indexed John Von Der Lieth is probably the U.S. vice consul documented in Gothenburg on 1 January 1944.",
+      "evidence_paraphrase": "A military-history journal letter names John Von der Lieth as U.S. Vice Consul in Gothenburg during a documented wartime bearing transaction.",
+      "identity_match_assessment": "Probable from the distinctive exact name and wartime European context; the source gives no protected identifier or direct OSS link.",
+      "temporal_assessment": "The source establishes a 1 January 1944 diplomatic role, not a pre-OSS employer or recruitment sequence.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified identity and wartime context only; no affiliation record is created.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "air-force-magazine-john-von-der-lieth-b989"
+        }
+      ]
+    },
+    {
+      "key": "identity-gunther-von-fritsch-lbg-b989",
+      "person_id": "b365dd9c-3759-5b54-8365-b0662c9c7aa4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gunther Von Fritsch is probably the Austrian-born filmmaker documented by an institutional military-history project.",
+      "evidence_paraphrase": "The exact distinctive name and compatible wartime Army chronology appear in a research biography based on archival records.",
+      "identity_match_assessment": "Probable from the exact rare name and compatible Army chronology; the biography does not directly link the person to OSS.",
+      "temporal_assessment": "The biography dates a Department of the Interior assignment to October 1940 and Army induction to December 1943.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified identity pending personnel-file review; not included in default confirmed/high identity analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "lbg-gunther-von-fritsch-b989"
+        }
+      ]
+    },
+    {
+      "key": "earlier-gunther-von-fritsch-interior-b989",
+      "person_id": "b365dd9c-3759-5b54-8365-b0662c9c7aa4",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Gunther von Fritsch worked for the U.S. Department of the Interior directing short documentary films in October 1940.",
+      "evidence_paraphrase": "The institutional biography reports that his October 1940 draft card recorded this department and documentary-directing activity.",
+      "identity_match_assessment": "Probable identity from the distinctive exact name and compatible wartime chronology; direct OSS corroboration remains absent.",
+      "temporal_assessment": "Documented in October 1940, but neither dates of service nor its relation to OSS recruitment are established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified earlier government assignment, not as immediate pre-OSS or last civilian employment.",
+      "sources": [
+        {
+          "source_key": "lbg-gunther-von-fritsch-b989"
+        }
+      ],
+      "affiliation_key": "gunther-von-fritsch-interior-b989"
+    },
+    {
+      "key": "identity-conflict-james-volosen-b989",
+      "person_id": "752029e7-cc27-5f1c-b486-30108e4126ee",
+      "claim_type": "identity",
+      "claim_text": "James Volosen remains a conflicting identity because his printed protected identifier is also assigned to Walter M Kuznecoff in the OSS index.",
+      "evidence_paraphrase": "Two separately printed index people share the same protected identifier, preventing a defensible identity or occupation transfer.",
+      "identity_match_assessment": "Conflicting: a shared identifier is strong evidence of an index or filing problem, not permission to merge differently named people.",
+      "temporal_assessment": "No reliable pre-OSS sequence can be assigned until both indexed files are compared.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The source rows stay separate in the existing conflict group; no Army identity, occupation or employer is transferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "army-bulk-b989",
+          "support_type": "context_only",
+          "locator_override": "Candidate comparison withheld because the index identifier is shared"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-wilhelm-viggo-von-hoffmanst-b989",
+      "person_id": "52b56726-abdc-51af-aefe-6557f1c579ee",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wilhelm-Viggo E.F. Von Hoffmanst conflicts with an Army record for Raimund Von Hofmannsthal carrying the same protected identifier.",
+      "evidence_paraphrase": "The protected identifier resolves to a wholly different full name in the official Army file; a contemporary source separately documents Raimund's 1939 employment.",
+      "identity_match_assessment": "Conflicting: identifier agreement is outweighed by the wholly different full name, and the truncated index spelling cannot be silently expanded.",
+      "temporal_assessment": "Neither the Army occupation nor Raimund's Time Inc. employment can be assigned to the indexed person without personnel-file review.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Conflict is public and excluded from default analytics. The Time employment belongs only to the separate Raimund candidate unless the indexed file proves otherwise.",
+      "sources": [
+        {
+          "source_key": "nara-index-b989"
+        },
+        {
+          "source_key": "army-bulk-b989",
+          "support_type": "contradicts",
+          "locator_override": "Army candidate name: Raimund Von Hofmannsthal; protected identifier withheld"
+        },
+        {
+          "source_key": "time-raimund-von-hofmannsthal-b989",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2f4efe76-ace1-5e51-b6c1-37bea40965ac",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Alice Voiles and its indexed Box 807 or 808 context. Exact-name, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "1544624a-b9ba-549b-968a-433233d49a7c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves John F Vokestaitis and its indexed Box 807 or 808 context. Exact-name and spelling-variant searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "2cef112d-9b1c-59ae-af29-c585cc49a415",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Arthur W Volck and its indexed Box 807 or 808 context. Exact-name, middle-initial, OSS, employer, occupation and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, middle-initial, OSS, employer, occupation and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "0ee623a9-7af4-5d84-89f0-6dce00e8a775",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Harold F Volk and its indexed Box 807 or 808 context. A 1941 Dallas directory names a Harold F. Volk as a company president, but no OSS or protected-identifier evidence connects that namesake to this row.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A 1941 Dallas directory names a Harold F. Volk as a company president, but no OSS or protected-identifier evidence connects that namesake to this row."
+    },
+    {
+      "person_id": "168bb5fb-3e0e-543b-92a4-b80c8ada3acd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Ernest W Volkmar and its indexed Box 807 or 808 context. Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "9086c36c-96b5-5a72-a132-d139935f13d3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Daniel E Volm and its indexed Box 807 or 808 context. Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "1895dfcb-a588-5581-a5dc-6b56b86546a7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Gerald Volm and its indexed Box 807 or 808 context. A company history begins Gerald Volm's business career in 1954, which is postwar and cannot establish a pre-OSS affiliation.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A company history begins Gerald Volm's business career in 1954, which is postwar and cannot establish a pre-OSS affiliation."
+    },
+    {
+      "person_id": "113ffbf7-df79-5f44-a033-9f4e9560b928",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Elmer Volton and its indexed Box 807 or 808 context. Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "2b7a4536-0cc9-54ad-b7d2-8447faa16939",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Frederick G Voltz and its indexed Box 807 or 808 context. Exact-name, middle-initial, OSS, employer, occupation and archival searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, middle-initial, OSS, employer, occupation and archival searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "2afa5f16-eb5c-539b-947e-0db82255d630",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Joseph Voltz and its indexed Box 807 or 808 context. Exact-name searches produced multiple namesakes but no corroborating OSS identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name searches produced multiple namesakes but no corroborating OSS identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "2216a8ab-92ec-5871-a82a-2e80d7ce470d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Gerhard E Von Glahn and its indexed Box 807 or 808 context. Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "bbc9de8f-66d7-52ef-a825-cd04a55cfba4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Gert Hans Von Gontard and its indexed Box 807 or 808 context. Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "7dfe6372-13f7-5ee8-8fb2-4dab6bdf03df",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Herman W Von Meyerfeld and its indexed Box 807 or 808 context. Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "aa1ebeca-8f75-538f-8771-d00f31025d41",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify any named employer behind historical code 105 and establish the Army-to-OSS chronology. The code supplies only a broad occupation category.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "b5fe08c4-ccf3-55e9-875c-13318f603d38",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify any named employer behind historical code 022 and establish the Army-to-OSS chronology. The code supplies only a broad occupation category.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "2cde1c52-ca14-52a3-b9b8-bc3a61fdbe18",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 807 to establish the pre-OSS chronology. The accepted Army identity record entered after OSS dissolution, so its occupation code supplies no pre-OSS evidence.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "752029e7-cc27-5f1c-b486-30108e4126ee",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The printed protected identifier is shared by separately indexed James Volosen and Walter M Kuznecoff. The source rows remain separate and no Army identity, occupation or employer is transferred.",
+      "possible_duplicate_group": "p261-p485-kuznecoff-volosen-b619",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the James Volosen and Walter M Kuznecoff personnel files together before assigning an identity, occupation or pre-OSS affiliation."
+    },
+    {
+      "person_id": "b0b9a0cb-dc8e-59b8-bf41-49cf90f41b8f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 807 to establish pre-OSS employment and the Army-to-OSS chronology. Historical code 999 is undefined in the reviewed official code list.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "43ea8eb6-e45b-554e-96da-f05b7bcb038f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A contemporary U.S. government bulletin gives the distinctive exact name, a current OSS senior research-assistant role and the earlier National Park Junior College teaching role.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "National Park Junior College is documented as earlier employment, but Box 807 should be reviewed to establish dates, the immediate predecessor affiliation and the last civilian employer."
+    },
+    {
+      "person_id": "42bb66fb-49e7-5501-a166-4451abefae0d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The exact rare name and prewar timing agree with the Institute for Advanced Study scholar record, but the profile omits the middle initial and does not mention OSS.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 807 for an identifier and OSS chronology. The September-December 1941 Institute for Advanced Study membership is published only as a qualified professional affiliation, not employment."
+    },
+    {
+      "person_id": "e6eb81b4-b503-5a3e-a5cd-c32139ddcb27",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "A military-history journal gives the distinctive exact name and a wartime U.S. vice-consul role in Gothenburg, but no protected identifier or direct OSS link.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 807 for an identity bridge and pre-OSS chronology. The 1 January 1944 vice-consul context does not establish a pre-OSS employer."
+    },
+    {
+      "person_id": "b365dd9c-3759-5b54-8365-b0662c9c7aa4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "An institutional research biography gives the distinctive exact name and compatible wartime Army chronology, but it does not directly link the person to the OSS index.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 808 for an identifier and transfer chronology. The October 1940 Department of the Interior assignment is published only as qualified earlier evidence."
+    },
+    {
+      "person_id": "52b56726-abdc-51af-aefe-6557f1c579ee",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier resolves in the Army file to Raimund Von Hofmannsthal, a wholly different full name from the indexed Wilhelm-Viggo E.F. Von Hoffmanst. No identity, occupation or employment is transferred.",
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 808 and the neighboring von-name files to resolve whether the printed name or identifier is displaced. Do not assign Raimund von Hofmannsthal's Army record or Time Inc. employment before that review."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page485-row1-alice-voiles-b989",
+      "person_id": "2f4efe76-ace1-5e51-b6c1-37bea40965ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alice Voiles; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row2-john-f-vokestaitis-b989",
+      "person_id": "1544624a-b9ba-549b-968a-433233d49a7c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John F Vokestaitis; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row3-joseph-c-vokoun-jr-b989",
+      "person_id": "aa1ebeca-8f75-538f-8771-d00f31025d41",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph C Vokoun Jr.; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Reviewed official index, Army bulk, technical and code-list evidence produced the accepted identity and qualified occupation or identity-only outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row4-arthur-w-volck-b989",
+      "person_id": "2cef112d-9b1c-59ae-af29-c585cc49a415",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur W Volck; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name, middle-initial, OSS, employer, occupation and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row5-harold-f-volk-b989",
+      "person_id": "0ee623a9-7af4-5d84-89f0-6dce00e8a775",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold F Volk; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "A 1941 Dallas directory names a Harold F. Volk as a company president, but no OSS or protected-identifier evidence connects that namesake to this row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row6-william-j-volk-b989",
+      "person_id": "2cde1c52-ca14-52a3-b9b8-bc3a61fdbe18",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Volk; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Reviewed official index, Army bulk, technical and code-list evidence produced the accepted identity and qualified occupation or identity-only outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row7-ernest-w-volkmar-b989",
+      "person_id": "168bb5fb-3e0e-543b-92a4-b80c8ada3acd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest W Volkmar; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row8-daniel-e-volm-b989",
+      "person_id": "9086c36c-96b5-5a72-a132-d139935f13d3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel E Volm; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row9-gerald-volm-b989",
+      "person_id": "1895dfcb-a588-5581-a5dc-6b56b86546a7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gerald Volm; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "A company history begins Gerald Volm's business career in 1954, which is postwar and cannot establish a pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row10-james-volosen-b989",
+      "person_id": "752029e7-cc27-5f1c-b486-30108e4126ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James Volosen; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Official identifier comparison exposed a conflicting name or shared-identifier problem, so identity, occupation and employer transfer were withheld. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row11-mario-h-volpe-b989",
+      "person_id": "b5fe08c4-ccf3-55e9-875c-13318f603d38",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mario H Volpe; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Reviewed official index, Army bulk, technical and code-list evidence produced the accepted identity and qualified occupation or identity-only outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row12-william-volpe-b989",
+      "person_id": "b0b9a0cb-dc8e-59b8-bf41-49cf90f41b8f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Volpe; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Reviewed official index, Army bulk, technical and code-list evidence produced the accepted identity and qualified occupation or identity-only outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row13-elmer-volton-b989",
+      "person_id": "113ffbf7-df79-5f44-a033-9f4e9560b928",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elmer Volton; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row14-frederick-g-voltz-b989",
+      "person_id": "2b7a4536-0cc9-54ad-b7d2-8447faa16939",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederick G Voltz; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name, middle-initial, OSS, employer, occupation and archival searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row15-joseph-voltz-b989",
+      "person_id": "2afa5f16-eb5c-539b-947e-0db82255d630",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Voltz; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name searches produced multiple namesakes but no corroborating OSS identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row16-nathalie-a-von-bretzel-b989",
+      "person_id": "43ea8eb6-e45b-554e-96da-f05b7bcb038f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nathalie A Von Bretzel; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "A contemporary USDA Graduate School bulletin directly linked the exact name to OSS and documented earlier National Park Junior College teaching. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row17-maxim-c-von-brevern-b989",
+      "person_id": "42bb66fb-49e7-5501-a166-4451abefae0d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Maxim C Von Brevern; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "An institutional or military-history source supplied a qualified identity and dated context, but no direct personnel-file bridge or reliable immediate pre-OSS employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row18-john-von-der-lieth-b989",
+      "person_id": "e6eb81b4-b503-5a3e-a5cd-c32139ddcb27",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Von Der Lieth; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "An institutional or military-history source supplied a qualified identity and dated context, but no direct personnel-file bridge or reliable immediate pre-OSS employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row19-gunther-von-fritsch-b989",
+      "person_id": "b365dd9c-3759-5b54-8365-b0662c9c7aa4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gunther Von Fritsch; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "An institutional or military-history source supplied a qualified identity and dated context, but no direct personnel-file bridge or reliable immediate pre-OSS employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row20-gerhard-e-von-glahn-b989",
+      "person_id": "2216a8ab-92ec-5871-a82a-2e80d7ce470d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gerhard E Von Glahn; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row21-gert-hans-von-gontard-b989",
+      "person_id": "bbc9de8f-66d7-52ef-a825-cd04a55cfba4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gert Hans Von Gontard; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row22-wilhelm-viggo-e-f-von-hoffmanst-b989",
+      "person_id": "52b56726-abdc-51af-aefe-6557f1c579ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilhelm-Viggo E.F. Von Hoffmanst; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Official identifier comparison exposed a conflicting name or shared-identifier problem, so identity, occupation and employer transfer were withheld. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    },
+    {
+      "key": "page485-row23-herman-w-von-meyerfeld-b989",
+      "person_id": "7dfe6372-13f7-5ee8-8fb2-4dab6bdf03df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herman W Von Meyerfeld; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_989",
+      "started_at": "2026-10-30T15:45:00Z",
+      "completed_at": "2026-10-30T17:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Historical occupation categories, wartime diplomatic roles and government assignments were not converted into employers. Harold F. Volk's Dallas directory namesake and Gerald Volm's postwar company history were rejected. Raimund von Hofmannsthal's Time Inc. employment was not transferred to the differently named indexed person.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA Reading Room adapter recorded its robots restriction without bypass; grouped official-domain discovery searches returned no candidate. The LoC.gov adapter or current collection check produced no publishable source for this review. The NARA index page, official Army technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b989-v1"
+    }
+  ]
+}

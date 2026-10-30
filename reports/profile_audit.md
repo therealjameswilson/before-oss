@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-10-30T15:24:29+00:00
+Generated: 2026-10-30T16:00:44+00:00
 
 Deterministic profiles audited: **200**.
 
