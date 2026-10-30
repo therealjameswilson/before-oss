@@ -1,0 +1,1512 @@
+{
+  "bundle_version": "batch-964-v1",
+  "reviewer": "Before OSS Batch 964 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b964",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 784-785",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 472, rows 26-46; checked against layout-preserving text and the 200 dpi page render",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 21 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b964",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight accepted Batch 964 identity candidates; protected identifiers withheld",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets. Historical occupation codes identify neither employers nor workplaces."
+    },
+    {
+      "key": "army-tech-b964",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b964",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175 and 304; categories 1-01, 2-26, 4-61, 6-93, 7-73 and amended 9-92 visually checked",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Students is status, not employment. Historical occupation groups are qualified and never converted into named employers or exact workplaces."
+    },
+    {
+      "key": "loc-ginny-mission-b964",
+      "stable_url": "https://tile.loc.gov/storage-services/service/ll/llmlp/2011525363_NT_Nazi_Vol-V/2011525363_NT_Nazi_Vol-V.pdf",
+      "archival_identifier": "Document 2610-PS",
+      "title": "Nazi Conspiracy and Aggression, Volume V",
+      "author_creator": "Office of United States Chief of Counsel for Prosecution of Axis Criminality",
+      "repository_publisher": "United States Government Printing Office; Library of Congress digital copy",
+      "publication_record_date": "1946",
+      "locator": "PDF physical pages 335-336; affidavit concerning United States v. Anton Dostler and the Ginny Mission",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Military Legal Resources, Library of Congress",
+      "document_number": "2610-PS",
+      "rights_notes": "The original published affidavit independently confirms Tremonte's exact identity, Army grade and 2677th Special Reconnaissance Battalion assignment. The public claim omits the protected identifier."
+    },
+    {
+      "key": "mmwf-nison-tregor-b964",
+      "stable_url": "https://www.mmwf.org/monuments-men-and-women/nison-tregor",
+      "title": "Captain Nison A. Tregor (US Army) (1904-1972)",
+      "author_creator": "Monuments Men and Women Foundation",
+      "repository_publisher": "Monuments Men and Women Foundation",
+      "publication_record_date": null,
+      "locator": "Biography sections covering 1920s-1930s portrait commissions, Washington studio, 1943 Army service and MFAA work",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Monuments Men and Women biographies",
+      "rights_notes": "The biography supports prewar commissioned sculpture and wartime Army context, but does not establish the exact OSS transfer date."
+    },
+    {
+      "key": "usgs-willis-tressler-1941-b964",
+      "stable_url": "https://pubs.usgs.gov/pp/0196c/report.pdf",
+      "archival_identifier": "U.S. Geological Survey Professional Paper 196-C",
+      "title": "Geology and Biology of North Atlantic Deep-Sea Cores Between Newfoundland and Ireland, Part 4: Ostracoda",
+      "author_creator": "Willis L. Tressler",
+      "repository_publisher": "United States Geological Survey; United States Government Printing Office",
+      "publication_record_date": "1941",
+      "locator": "Title page and scientific report",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "USGS Professional Papers",
+      "document_number": "Professional Paper 196-C",
+      "rights_notes": "The paper documents prewar scientific authorship, not employment by USGS or an immediate OSS affiliation."
+    },
+    {
+      "key": "usni-willis-tressler-b964",
+      "stable_url": "https://www.usni.org/people/willis-l-tressler",
+      "title": "Willis L. Tressler",
+      "author_creator": "U.S. Naval Institute",
+      "repository_publisher": "U.S. Naval Institute",
+      "publication_record_date": "1955",
+      "locator": "Contributor biography for the November 1955 article Arctic and Antarctic",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Proceedings contributor biographies",
+      "rights_notes": "Used only to corroborate the scientist's field and publication continuity; the later Hydrographic Office position is not presented as pre-OSS employment."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "oliver-e-trechter-occupation-b964",
+      "person_id": "6fe4eaa1-86c3-5d63-b223-68b2fda75b23",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-11-05",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-11-05; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "jack-r-trees-occupation-b964",
+      "person_id": "2154d06f-9bf5-540e-91cb-457981d016ee",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-03-02",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-03-02; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "benny-j-treglia-occupation-b964",
+      "person_id": "feb195b8-d812-5ea4-a6fe-099fcf1f4fa8",
+      "occupation": "craneman, derrickman, hoistman, or shovelman",
+      "relationship_type": "employment",
+      "end_date": "1942-09-08",
+      "date_precision": "Historical civilian-occupation code 773 was recorded at Army entry on 1942-09-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "guillaume-m-treguier-occupation-b964",
+      "person_id": "e3f8a928-a21e-5256-8a0d-afe6fd52e211",
+      "occupation": "cook, except private family",
+      "relationship_type": "employment",
+      "end_date": "1942-07-25",
+      "date_precision": "Historical civilian-occupation code 226 was recorded at Army entry on 1942-07-25; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "raymond-a-tremblay-occupation-b964",
+      "person_id": "5764ba1f-30c0-524e-b87d-30f17d35fa85",
+      "occupation": "skilled boot or shoe manufacturing occupation",
+      "relationship_type": "employment",
+      "end_date": "1943-06-24",
+      "date_precision": "Historical civilian-occupation code 461 was recorded at Army entry on 1943-06-24; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "liberty-j-tremonte-occupation-b964",
+      "person_id": "2759e2e9-c59f-51e0-a2f6-30e5ba9706cf",
+      "occupation": "semiskilled metal-products fabrication occupation, not elsewhere classified",
+      "relationship_type": "employment",
+      "end_date": "1943-03-08",
+      "date_precision": "Historical civilian-occupation code 693 was recorded at Army entry on 1943-03-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "burton-s-tretheway-occupation-b964",
+      "person_id": "994d4a09-36fc-5536-b6ca-5f7bf153131d",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-03-17",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-03-17; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "vincent-r-treul-occupation-b964",
+      "person_id": "b62e39d5-4d63-5bec-8d26-41a28df5984e",
+      "occupation": "bookkeeper or cashier, except bank cashier",
+      "relationship_type": "employment",
+      "end_date": "1942-10-24",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1942-10-24; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, school, immediate affiliation or exact modern job title."
+    },
+    {
+      "key": "nison-a-tregor-sculptor-b964",
+      "person_id": "e01974ac-1197-5c29-bd10-f2d67bef32f1",
+      "role_title": "commissioned portrait sculptor",
+      "occupation": "sculptor",
+      "relationship_type": "self_employment",
+      "end_date": "1943",
+      "date_precision": "The institutional biography documents portrait commissions and a Washington studio before his 1943 Army service; it does not prove the final day of civilian work.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The biography establishes commissioned sculptural work before Army service but does not identify an employer or the exact OSS transfer chronology."
+    },
+    {
+      "key": "willis-l-tressler-scientific-research-b964",
+      "person_id": "a9d1c646-205e-5415-9c0c-9b53ab370f1e",
+      "occupation": "scientific researcher and author on ostracods",
+      "relationship_type": "professional_affiliation",
+      "end_date": "1941",
+      "date_precision": "A 1941 federal scientific paper documents authorship before the wartime OSS period; no employer or transfer date is established.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare exact name and continuous scientific specialty support a probable identity only. USGS is the publisher, not a claimed employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-oliver-e-trechter-army-b964",
+      "person_id": "6fe4eaa1-86c3-5d63-b223-68b2fda75b23",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Oliver E Trechter is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record. The Army record prints the preserved variant Oliver E Trechter Jr.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-oliver-e-trechter-army-b964",
+      "person_id": "6fe4eaa1-86c3-5d63-b223-68b2fda75b23",
+      "affiliation_key": "oliver-e-trechter-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-05, Oliver E Trechter was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 992; NARA's historical code list expands it to Students.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-jack-r-trees-army-b964",
+      "person_id": "2154d06f-9bf5-540e-91cb-457981d016ee",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Jack R Trees is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 29; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jack-r-trees-army-b964",
+      "person_id": "2154d06f-9bf5-540e-91cb-457981d016ee",
+      "affiliation_key": "jack-r-trees-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-02, Jack R Trees was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 992; NARA's historical code list expands it to Students.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-benny-j-treglia-army-b964",
+      "person_id": "feb195b8-d812-5ea4-a6fe-099fcf1f4fa8",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Benny J Treglia is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 31; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-benny-j-treglia-army-b964",
+      "person_id": "feb195b8-d812-5ea4-a6fe-099fcf1f4fa8",
+      "affiliation_key": "benny-j-treglia-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-08, the record coded Benny J Treglia's civilian occupation as Cranemen, derrickmen, hoistmen, and shovelmen.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 773; NARA's historical code list expands it to Cranemen, derrickmen, hoistmen, and shovelmen.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 773; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 175; historical category 7-73",
+          "excerpt_override": "Cranemen, derrickmen, hoistmen, and shovelmen"
+        }
+      ]
+    },
+    {
+      "key": "identity-guillaume-m-treguier-army-b964",
+      "person_id": "e3f8a928-a21e-5256-8a0d-afe6fd52e211",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Guillaume M Treguier is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 33; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-guillaume-m-treguier-army-b964",
+      "person_id": "e3f8a928-a21e-5256-8a0d-afe6fd52e211",
+      "affiliation_key": "guillaume-m-treguier-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-25, the record coded Guillaume M Treguier's civilian occupation as Cooks, except private family.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 226; NARA's historical code list expands it to Cooks, except private family.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 226; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 172; historical category 2-26",
+          "excerpt_override": "Cooks, except private family"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-a-tremblay-army-b964",
+      "person_id": "5764ba1f-30c0-524e-b87d-30f17d35fa85",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Raymond A Tremblay is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 36; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-raymond-a-tremblay-army-b964",
+      "person_id": "5764ba1f-30c0-524e-b87d-30f17d35fa85",
+      "affiliation_key": "raymond-a-tremblay-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-24, the record coded Raymond A Tremblay's civilian occupation as Skilled occupations in manufacture of boots and shoes.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 461; NARA's historical code list expands it to Skilled occupations in manufacture of boots and shoes.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 461; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 173; historical category 4-61",
+          "excerpt_override": "Skilled occupations in manufacture of boots and shoes"
+        }
+      ]
+    },
+    {
+      "key": "identity-liberty-j-tremonte-army-b964",
+      "person_id": "2759e2e9-c59f-51e0-a2f6-30e5ba9706cf",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Liberty J Tremonte is a confirmed match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record. An independently published original military-trial affidavit repeats the same identity and wartime unit.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement, exact full-name evidence and an independent original military-trial record.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 37; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "loc-ginny-mission-b964",
+          "locator_override": "Document 2610-PS; PDF physical pages 335-336; protected identifier withheld",
+          "excerpt_override": "Technician Fifth Grade Liberty J. Tremonte"
+        }
+      ]
+    },
+    {
+      "key": "occupation-liberty-j-tremonte-army-b964",
+      "person_id": "2759e2e9-c59f-51e0-a2f6-30e5ba9706cf",
+      "affiliation_key": "liberty-j-tremonte-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-08, the record coded Liberty J Tremonte's civilian occupation as Semiskilled occupations in fabrication of metal products, n.e.c..",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 693; NARA's historical code list expands it to Semiskilled occupations in fabrication of metal products, n.e.c..",
+      "identity_match_assessment": "Confirmed identity from three agreeing direct records.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 693; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 174; historical category 6-93",
+          "excerpt_override": "Semiskilled occupations in fabrication of metal products, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-burton-s-tretheway-army-b964",
+      "person_id": "994d4a09-36fc-5536-b6ca-5f7bf153131d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Burton S Tretheway is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 44; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-burton-s-tretheway-army-b964",
+      "person_id": "994d4a09-36fc-5536-b6ca-5f7bf153131d",
+      "affiliation_key": "burton-s-tretheway-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-17, Burton S Tretheway was recorded in the historical Students category; no school or employer is identified.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 992; NARA's historical code list expands it to Students.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-vincent-r-treul-army-b964",
+      "person_id": "b62e39d5-4d63-5bec-8d26-41a28df5984e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Vincent R Treul is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record. The Army record prints the preserved variant Vincent R Treul Jr.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row, preserves source spellings and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-vincent-r-treul-army-b964",
+      "person_id": "b62e39d5-4d63-5bec-8d26-41a28df5984e",
+      "affiliation_key": "vincent-r-treul-occupation-b964",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-24, the record coded Vincent R Treul's civilian occupation as Bookkeepers and cashiers, except bank cashiers.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 101; NARA's historical code list expands it to Bookkeepers and cashiers, except bank cashiers.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace, school or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation or status evidence and is excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b964",
+          "locator_override": "Accepted identity record; civilian occupation code 101; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b964",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b964",
+          "locator_override": "PDF physical page 171; historical category 1-01",
+          "excerpt_override": "Bookkeepers and cashiers, except bank cashiers"
+        }
+      ]
+    },
+    {
+      "key": "service-liberty-j-tremonte-ginny-b964",
+      "person_id": "2759e2e9-c59f-51e0-a2f6-30e5ba9706cf",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "An original U.S. military-trial affidavit identifies Liberty J. Tremonte as a technician fifth grade in the 2677th Special Reconnaissance Battalion during the Ginny Mission.",
+      "evidence_paraphrase": "Document 2610-PS names Tremonte, his grade and the battalion among the fifteen U.S. soldiers captured after landing near Stazione di Framura in March 1944.",
+      "identity_match_assessment": "Confirmed by the exact full name and protected identifier independently repeated in the index, Army bulk file and original trial affidavit.",
+      "temporal_assessment": "The source documents a wartime Army assignment during OSS service, not the preceding civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The public claim omits the full identifier and does not call the historical occupation code an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 37; protected identifier withheld"
+        },
+        {
+          "source_key": "loc-ginny-mission-b964",
+          "locator_override": "Document 2610-PS; PDF physical pages 335-336",
+          "excerpt_override": "two officers and thirteen enlisted men of the 2677th Special Reconnaissance Battalion"
+        }
+      ]
+    },
+    {
+      "key": "identity-nison-a-tregor-b964",
+      "person_id": "e01974ac-1197-5c29-bd10-f2d67bef32f1",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Nison A. Tregor is a high-confidence match to the sculptor and U.S. Army Monuments officer documented by the Monuments Men and Women Foundation.",
+      "evidence_paraphrase": "The institutional biography supplies the rare exact full name, 1904 birth, Washington sculptural career, 1943 Army service, captain's grade and European restitution work.",
+      "identity_match_assessment": "High confidence from a rare exact full name plus compatible U.S. Army chronology, commissioned grade and specialized wartime European service.",
+      "temporal_assessment": "The source establishes wartime Army service but not the exact date or channel of OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Box 784 file remains necessary to confirm the OSS administrative path and immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 32; Box 784"
+        },
+        {
+          "source_key": "mmwf-nison-tregor-b964",
+          "locator_override": "Biography and wartime-service sections"
+        }
+      ]
+    },
+    {
+      "key": "prewar-nison-a-tregor-sculptor-b964",
+      "person_id": "e01974ac-1197-5c29-bd10-f2d67bef32f1",
+      "affiliation_key": "nison-a-tregor-sculptor-b964",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before Army service, Nison A. Tregor worked as a commissioned portrait sculptor from his own Washington studio.",
+      "evidence_paraphrase": "The institutional biography documents 1920s-1930s portrait commissions, a Washington residence and studio, and major completed subjects before U.S. entry into the war.",
+      "identity_match_assessment": "High-confidence identity from the rare exact name and compatible Army and specialist chronology.",
+      "temporal_assessment": "Documented prewar self-employment; the source does not explicitly call it the immediate pre-OSS affiliation or name a separate employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified earlier pre-OSS self-employment and excluded from immediate-affiliation analytics.",
+      "sources": [
+        {
+          "source_key": "mmwf-nison-tregor-b964",
+          "locator_override": "1920s-1930s career and Washington-studio sections"
+        }
+      ]
+    },
+    {
+      "key": "identity-willis-l-tressler-b964",
+      "person_id": "a9d1c646-205e-5415-9c0c-9b53ab370f1e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Willis L. Tressler is a probable match to the ostracod researcher who published a federal scientific paper in 1941.",
+      "evidence_paraphrase": "A 1941 USGS paper and a later Naval Institute biography document the rare exact name and a continuous career in limnology, ecology, taxonomy and oceanography.",
+      "identity_match_assessment": "Probable from the rare exact full name and continuous specialist field; no independent public source yet supplies an OSS, Box 785 or protected-identifier bridge.",
+      "temporal_assessment": "The paper predates the OSS period, while the later biography corroborates field continuity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The identity remains visibly qualified and excluded from confirmed/high identity analytics pending Box 785 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b964",
+          "locator_override": "PDF page 472 row 43; Box 785"
+        },
+        {
+          "source_key": "usgs-willis-tressler-1941-b964",
+          "locator_override": "1941 title page and report"
+        },
+        {
+          "source_key": "usni-willis-tressler-b964",
+          "support_type": "context_only",
+          "locator_override": "1955 contributor biography"
+        }
+      ]
+    },
+    {
+      "key": "prewar-willis-l-tressler-research-b964",
+      "person_id": "a9d1c646-205e-5415-9c0c-9b53ab370f1e",
+      "affiliation_key": "willis-l-tressler-scientific-research-b964",
+      "claim_type": "occupation",
+      "claim_text": "A probable identity match indicates that Willis L. Tressler was publishing scientific research on ostracods in 1941.",
+      "evidence_paraphrase": "The federal report names Willis L. Tressler as author of the Ostracoda section of a North Atlantic deep-sea-core study.",
+      "identity_match_assessment": "Probable identity only; the rare exact name and later field continuity are supportive but do not independently prove the OSS match.",
+      "temporal_assessment": "The report is explicitly dated 1941 and therefore documents prewar scientific work, but not an employer or immediate affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "USGS is treated as publisher, not employer. The claim remains qualified pending personnel-file review.",
+      "sources": [
+        {
+          "source_key": "usgs-willis-tressler-1941-b964",
+          "locator_override": "1941 title page and report"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "aa208071-c04b-5558-914a-ad29030b8351",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Barton G Treece, Box 784 and archive location 230/86/42/02. A postwar Oklahoma professional-engineer namesake is plausible, but no protected identifier, OSS assignment or Box 784 bridge establishes that biography.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e86d1332-e250-5dba-9617-39881a7b50b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles J Trees, Box 784 and archive location 230/86/42/02. Exact-name, official-domain, occupation, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0718d886-9fd4-5f31-898d-dbceafc4595d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John R Tregenza, Box 784 and archive location 230/86/42/02. Modern banking and family namesakes are chronologically incompatible or lack an OSS, protected-identifier or Box 784 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d9e3e3c9-c5c5-5678-8c31-457ee5325861",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard W Treiber, Box 784 and archive location 230/86/42/02. Patent and other exact-name results did not establish the indexed person's identity, wartime service or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5cd7e5e-3876-538e-9d87-314f6a070e11",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John Treisner, Box 784 and archive location 230/86/42/02. The no-initial name produced only weak genealogy and cemetery leads with no corroborating OSS or Box 784 identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b9829380-0583-5381-9759-6afa04b0f1d9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Walter N Trenerry, Box 785 and archive location 230/86/42/03. A rare-name Minnesota lawyer and historian is a plausible namesake, but accessible sources do not connect his biography to OSS, the protected identifier or Box 785.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a5500bfe-9a3b-5869-ba82-bb6bb0fedce1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis P Trent, Box 785 and archive location 230/86/42/03. The name is insufficiently distinctive, and accessible lawyer and public-record namesakes lack compatible wartime and OSS selectors.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "14ff91bd-993e-5aa5-b86b-73be3482c144",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Clarence J Trentman, Box 785 and archive location 230/86/42/03. The protected identifier produced no Army bulk candidate, and exact-name searches produced no independent OSS or pre-OSS affiliation source.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d91b1a09-beb1-5319-8181-bbb322b31ac4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Peter Trerotole, Box 785 and archive location 230/86/42/03. Exact-name and spelling-variant searches produced no reliable identity, occupation or institutional bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21c7b171-aa76-57b1-bafe-6358af0661af",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rudolph Tressel, Box 785 and archive location 230/86/42/03. The no-initial name produced unrelated or insufficiently specific military and obituary results with no Box 785 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "94c8d58c-9b7d-5f1c-b385-330e76891e1b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Walter Treumann, Box 785 and archive location 230/86/42/03. A German-Jewish refugee and later State Department lawyer is a plausible rare-name lead, but no accessible source directly connects that biography to the Box 785 index row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6fe4eaa1-86c3-5d63-b223-68b2fda75b23",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Oliver E Trechter index row to the reviewed official Army record. The Army record preserves the compatible variant Oliver E Trechter Jr.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Oliver E Trechter Jr"
+      ]
+    },
+    {
+      "person_id": "2154d06f-9bf5-540e-91cb-457981d016ee",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Jack R Trees index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "feb195b8-d812-5ea4-a6fe-099fcf1f4fa8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Benny J Treglia index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3f8a928-a21e-5256-8a0d-afe6fd52e211",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Guillaume M Treguier index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5764ba1f-30c0-524e-b87d-30f17d35fa85",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Raymond A Tremblay index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2759e2e9-c59f-51e0-a2f6-30e5ba9706cf",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Liberty J Tremonte index row to the reviewed official Army record. An independent original military-trial affidavit repeats the exact identity and wartime unit.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "994d4a09-36fc-5536-b6ca-5f7bf153131d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Burton S Tretheway index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b62e39d5-4d63-5bec-8d26-41a28df5984e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Vincent R Treul index row to the reviewed official Army record. The Army record preserves the compatible variant Vincent R Treul Jr.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 or 785 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Vincent R Treul Jr"
+      ]
+    },
+    {
+      "person_id": "e01974ac-1197-5c29-bd10-f2d67bef32f1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A rare exact full name, compatible U.S. Army chronology, commissioned grade and specialized European wartime service connect the index row to the institutional Monuments biography.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 784 to confirm Nison Tregor's OSS administrative path and determine whether his documented sculptural self-employment was the immediate predecessor.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a9d1c646-205e-5415-9c0c-9b53ab370f1e",
+      "identity_status": "probable",
+      "identity_evidence": "A 1941 federal scientific paper and later institutional biography supply the rare exact name and continuous specialist field, but no independent OSS, Box 785 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 to confirm whether the indexed Willis L. Tressler is the ostracod researcher and to identify his immediate pre-OSS affiliation and employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page472-row26-oliver-e-trechter-b964",
+      "person_id": "6fe4eaa1-86c3-5d63-b223-68b2fda75b23",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Oliver E Trechter; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row27-barton-g-treece-b964",
+      "person_id": "aa208071-c04b-5558-914a-ad29030b8351",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Barton G Treece; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A postwar Oklahoma professional-engineer namesake is plausible, but no protected identifier, OSS assignment or Box 784 bridge establishes that biography. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row28-charles-j-trees-b964",
+      "person_id": "e86d1332-e250-5dba-9617-39881a7b50b4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles J Trees; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Exact-name, official-domain, occupation, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row29-jack-r-trees-b964",
+      "person_id": "2154d06f-9bf5-540e-91cb-457981d016ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack R Trees; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row30-john-r-tregenza-b964",
+      "person_id": "0718d886-9fd4-5f31-898d-dbceafc4595d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John R Tregenza; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Modern banking and family namesakes are chronologically incompatible or lack an OSS, protected-identifier or Box 784 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row31-benny-j-treglia-b964",
+      "person_id": "feb195b8-d812-5ea4-a6fe-099fcf1f4fa8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benny J Treglia; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row32-nison-a-tregor-b964",
+      "person_id": "e01974ac-1197-5c29-bd10-f2d67bef32f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nison A Tregor; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "An authoritative institutional biography supplied a rare-name, Army-chronology and specialist-role match plus documented prewar commissioned sculpture; immediacy remains unproved. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row33-guillaume-m-treguier-b964",
+      "person_id": "e3f8a928-a21e-5256-8a0d-afe6fd52e211",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Guillaume M Treguier; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row34-richard-w-treiber-b964",
+      "person_id": "d9e3e3c9-c5c5-5678-8c31-457ee5325861",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard W Treiber; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Patent and other exact-name results did not establish the indexed person's identity, wartime service or pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row35-john-treisner-b964",
+      "person_id": "b5cd7e5e-3876-538e-9d87-314f6a070e11",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Treisner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "The no-initial name produced only weak genealogy and cemetery leads with no corroborating OSS or Box 784 identifier. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row36-raymond-a-tremblay-b964",
+      "person_id": "5764ba1f-30c0-524e-b87d-30f17d35fa85",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond A Tremblay; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row37-liberty-j-tremonte-b964",
+      "person_id": "2759e2e9-c59f-51e0-a2f6-30e5ba9706cf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Liberty J Tremonte; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. An original U.S. military-trial affidavit independently confirmed Liberty Tremonte's identity, grade and wartime unit. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row38-walter-n-trenerry-b964",
+      "person_id": "b9829380-0583-5381-9759-6afa04b0f1d9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter N Trenerry; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A rare-name Minnesota lawyer and historian is a plausible namesake, but accessible sources do not connect his biography to OSS, the protected identifier or Box 785. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row39-louis-p-trent-b964",
+      "person_id": "a5500bfe-9a3b-5869-ba82-bb6bb0fedce1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis P Trent; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "The name is insufficiently distinctive, and accessible lawyer and public-record namesakes lack compatible wartime and OSS selectors. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row40-clarence-j-trentman-b964",
+      "person_id": "14ff91bd-993e-5aa5-b86b-73be3482c144",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence J Trentman; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "The protected identifier produced no Army bulk candidate, and exact-name searches produced no independent OSS or pre-OSS affiliation source. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row41-peter-trerotole-b964",
+      "person_id": "d91b1a09-beb1-5319-8181-bbb322b31ac4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Peter Trerotole; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable identity, occupation or institutional bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row42-rudolph-tressel-b964",
+      "person_id": "21c7b171-aa76-57b1-bafe-6358af0661af",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rudolph Tressel; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "The no-initial name produced unrelated or insufficiently specific military and obituary results with no Box 785 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row43-willis-l-tressler-b964",
+      "person_id": "a9d1c646-205e-5415-9c0c-9b53ab370f1e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Willis L Tressler; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A 1941 federal scientific paper and institutional biography support a probable rare-name identity and prewar scientific occupation, but not a confirmed OSS bridge or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row44-burton-s-tretheway-b964",
+      "person_id": "994d4a09-36fc-5536-b6ca-5f7bf153131d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Burton S Tretheway; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row45-vincent-r-treul-b964",
+      "person_id": "b62e39d5-4d63-5bec-8d26-41a28df5984e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vincent R Treul; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    },
+    {
+      "key": "page472-row46-walter-treumann-b964",
+      "person_id": "94c8d58c-9b7d-5f1c-b385-330e76891e1b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter Treumann; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 784-785; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_964",
+      "started_at": "2026-10-30T04:40:00Z",
+      "completed_at": "2026-10-30T06:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education and occupation categories were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A German-Jewish refugee and later State Department lawyer is a plausible rare-name lead, but no accessible source directly connects that biography to the Box 785 index row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b964-v1"
+    }
+  ]
+}
