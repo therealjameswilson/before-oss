@@ -33,9 +33,12 @@ Astro's zero-diagnostic build, the 30/30 batch browser matrix and the full
 99/99 browser and accessibility release suite. All 25,237 internal page links
 resolve, the protected-identifier audit found zero unexpected matches, the
 dependency audit reports zero vulnerabilities, and the 67-asset public
-manifest verifies locally. Publication is pending the immutable content
-commit, GitHub Actions checks and unauthenticated deployed-release
-verification. Full verification is recorded in `reports/release_batch_968.md`.
+manifest verifies locally. Publication is public from immutable content commit
+`fa2287c50bcc7bd275b7f8e38ee907260ab114c1`; GitHub Actions Test run
+`41004448375` and Pages run `41004448333` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 968
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_968.md`.
 
 Batch 967 completed PDF page 474, rows 1-23, from **Robert E True** through
 **Ernest Tsikerdanos**, preserving all 23 printed rows as separate people with
