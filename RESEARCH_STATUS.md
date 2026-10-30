@@ -1,5 +1,47 @@
 # Research status
 
+Batch 966 completed PDF page 473, rows 24-46, from **Michael J Troisi**
+through **John V Truden**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Seven exact protected-identifier Army matches retain qualified dated
+occupation or student categories without invented employers or workplaces.
+Frank Trojohak preserves the one-letter surname conflict with Frank Trojchak
+and receives no backward projection from a post-OSS Army row. Authoritative
+evidence documents Ferruccio Trombetti's immediate Italian Resistance pathway
+and Inge Trondsen's Norwegian naval pathway; Lief Trondstad remains a probable
+match to Leif Tronstad with qualified employment and consulting claims. Twelve
+unresolved identities retain archival-review outcomes. No authenticated NARA
+Catalog API request was used, and no protected identifier appears in the
+public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,154/23,936 (63.3105%)**;
+verified-employer coverage is **486/23,936 (2.0304%)**;
+verified-affiliation coverage is **1,087/23,936 (4.5413%)**; archival-review
+coverage is **13,630/23,936 (56.9435%)**. There are **8,777** not-started
+people, **663** possible-duplicate groups and **519** conflicts. Claim
+confidence counts are **1,700 confirmed**, **5,040 high**, **2,370 medium**,
+**254 low**, **433 conflicting** and **2 unresolved**. The public projection
+contains **3,694** affiliations, **1,246** organizations, **6,197** sources and
+**9,539** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 474, row
+1, **Robert E True**, in Box 786. See `research/batch-966-progress.md` for the
+source-by-source audit.
+
+Batch 966 passed evidence-schema validation, deterministic bundle generation,
+idempotent review-decision and evidence import, SQLite integrity and
+foreign-key checks, extraction validation, derived export regeneration,
+coverage reporting, public-data redaction and the 200-profile structural
+audit. All 147 Python tests pass. Astro checks 597 files with zero errors,
+warnings or hints and builds 25,232 static pages. The 27/27 Batch 966 browser
+matrix and full 96/96 bounded browser and accessibility release suite pass, as
+do the complete internal-link check, protected-identifier audit, checked-in
+public manifest, zero-vulnerability production dependency audit and two
+deterministic consecutive builds. Publication verification will be recorded
+after the immutable Batch 966 content commit completes GitHub Actions and
+Pages deployment.
+
 Batch 965 completed PDF page 473, rows 1-23, from **Edward M Trevaskis**
 through **Barry Trivers**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
