@@ -39,7 +39,12 @@ files with zero errors, warnings or hints and builds 25,221 static pages. The
 release suite pass, as do the complete internal-link check, protected-
 identifier audit, checked-in public manifest, zero-vulnerability production
 dependency audit and two deterministic consecutive builds. Publication
-verification is recorded in `reports/release_batch_961.md`.
+is public from immutable content commit
+`e8303de70893be2af100a9c3a60cb43a702547cb`; GitHub Actions Test run
+`40981614042` and Pages run `40981614075` succeeded, and the unauthenticated
+manifest, eight core routes, 41 source-register pages and all 23 Batch 961
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_961.md`.
 
 Batch 957 completed PDF page 469, rows 1-23, from **George S Tinlakos**
 through **Bentley Tobin**, preserving all 23 printed rows as separate people
