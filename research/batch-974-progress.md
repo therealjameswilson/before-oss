@@ -108,3 +108,14 @@ Archive location: 230/86/42/04
 ## Resume point
 
 Continue with PDF page 478, row 1, after Morris Unterberger.
+
+## Publication verification
+
+Published from immutable content commit
+`634cbf443db8e8e4e55538e580d6f3d766622276`. GitHub Actions Test run
+`41025409508` and Pages run `41025409590` succeeded. The unauthenticated
+deployed-release verifier matched all 67 public assets (130,511,864 bytes;
+manifest SHA-256
+`a54d10fcea1314dfb6a81962f0e1f79b3e167c0e08d279d4b8df687e45dd25c2`),
+eight core routes, 42 source-register pages and all 23 Batch 974 direct profile
+routes at <https://therealjameswilson.github.io/before-oss/>.
