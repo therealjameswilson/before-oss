@@ -72,6 +72,11 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication evidence is recorded after the immutable content commit, GitHub
-Actions test and Pages runs, and unauthenticated deployed-release verification
-all succeed.
+Batch 988 is public from immutable release commit
+`2acc55bffa2d7aba130b5180a86c7373374c6f4c`. GitHub Actions Test run
+`41081885631` and Pages run `41081885633` both succeeded. After one transient
+GitHub Pages 503 during propagation, the unchanged unauthenticated verifier
+matched all 67 manifested assets byte for byte across 132,486,862 bytes,
+verified eight core routes, all 43 source-register pages and all 23 direct
+cohort profiles, and reproduced manifest SHA-256
+`14f1df814f0fa69ef3d6a8b04856b1a4e78864feb08ed39cf5d4ae073ae5eaba`.

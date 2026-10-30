@@ -119,6 +119,14 @@ Archive location: 230/86/42/06
   421,974,427 bytes and tree SHA-256
   `938328e62631adbd4f683dcc364dd259777ae047265a7fc1f49dcfce37148060`.
 - The production dependency audit found zero vulnerabilities.
+- Batch 988 is public from immutable release commit
+  `2acc55bffa2d7aba130b5180a86c7373374c6f4c`. GitHub Actions Test run
+  `41081885631` and Pages run `41081885633` both succeeded. After one transient
+  GitHub Pages 503 during propagation, the unchanged unauthenticated verifier
+  matched all 67 manifested assets across 132,486,862 bytes, eight core
+  routes, all 43 source-register pages and all 23 direct cohort profiles,
+  reproducing manifest SHA-256
+  `14f1df814f0fa69ef3d6a8b04856b1a4e78864feb08ed39cf5d4ae073ae5eaba`.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable replay
   inputs. Batch 988 itself is replayable to the same authoritative state.
