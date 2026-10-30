@@ -1,0 +1,1845 @@
+{
+  "bundle_version": "batch-968-v1",
+  "reviewer": "Before OSS Batch 968 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b968",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 787-788",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 474, rows 24-46; checked against layout-preserving text and a 200 dpi page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b968",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven accepted Batch 968 comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b968",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b968",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-174 and corrected page 304; seven Batch 968 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employers nor workplaces and are retained only where needed for auditability."
+    },
+    {
+      "key": "dpaa-tsirmulas-b968",
+      "stable_url": "https://www.dpaa.mil/Portals/85/WWIIAccounting/wwii_una_ARMY_20211015.pdf",
+      "archival_identifier": "DPAA World War II Army personnel still unaccounted for",
+      "title": "World War II Army Personnel Still Unaccounted For",
+      "author_creator": "Defense POW/MIA Accounting Agency",
+      "repository_publisher": "Defense POW/MIA Accounting Agency",
+      "publication_record_date": "2021-10-15",
+      "locator": "Michalis Tsirmulas entry; Technical Fifth Grade; 2671st Special Reconnaissance Battalion, OSS; protected identifier withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II accounting lists"
+    },
+    {
+      "key": "ossog-personnel-b968",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "OSS Operational Groups Personnel",
+      "author_creator": "OSS Operational Groups veterans history project",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": null,
+      "locator": "Greek Operational Groups roster; Michalis Tsirmulas and James A. Tsolas",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups personnel roster",
+      "rights_notes": "Used to corroborate identity and OSS unit context, not to infer a pre-OSS employer."
+    },
+    {
+      "key": "uswm-tsolas-b968",
+      "stable_url": "https://uswarmemorials.org/html/people_details.php?PeopleID=24832",
+      "title": "James A. Tsolas",
+      "author_creator": "U.S. War Memorials Overseas",
+      "repository_publisher": "U.S. War Memorials Overseas",
+      "publication_record_date": null,
+      "locator": "Person profile; staff sergeant, Company C, 2671st Special Reconnaissance Battalion",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "World War II personnel profiles"
+    },
+    {
+      "key": "ossog-tsouderos-b968",
+      "stable_url": "https://ossog.info/balkans/greek_08.html",
+      "title": "Greek Operational Group VIII",
+      "author_creator": "OSS Operational Groups veterans history project",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": null,
+      "locator": "Personnel roster; Sergeant John E. Tsouderos",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups unit histories"
+    },
+    {
+      "key": "after-battle-tsouderos-b968",
+      "stable_url": "https://dokumen.pub/after-the-battle-behind-the-scenes-with-the-oss-in-greece-186.html",
+      "title": "Behind the Scenes with the OSS in Greece",
+      "author_creator": "Robert E. Perdue with James Chimbidis",
+      "repository_publisher": "After the Battle, issue 186; online text mirror",
+      "publication_record_date": "2020",
+      "locator": "Issue 186, printed page 5; John E. Tsouderos biographical caption",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "After the Battle magazine",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "densho-tsurutani-b968",
+      "stable_url": "https://ddr.densho.org/media/ddr-densho-125/ddr-densho-125-165-mezzanine-52a2d5a3a9.htm",
+      "archival_identifier": "denshopd-i125-00165",
+      "title": "Manzanar Free Press pictorial: Legal Services",
+      "author_creator": "Manzanar Free Press",
+      "repository_publisher": "Densho Digital Repository",
+      "publication_record_date": "1943-11-19",
+      "locator": "Legal Services section; Director of Legal Aid Henry J. Tsurutani",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Manzanar Free Press"
+    },
+    {
+      "key": "pacific-citizen-tsurutani-b968",
+      "stable_url": "https://pacificcitizen.org/wp-content/uploads/archives-menu/Vol.021_%2305_Aug_04_1945.pdf",
+      "title": "Pacific Citizen, volume 21, number 5",
+      "author_creator": "Pacific Citizen",
+      "repository_publisher": "Pacific Citizen archive",
+      "publication_record_date": "1945-08-04",
+      "locator": "Item identifying Henry J. Tsurutani as formerly an attorney in Los Angeles and then engaged in war work",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Pacific Citizen archive"
+    },
+    {
+      "key": "princeton-robert-tucker-b968",
+      "stable_url": "https://www.princeton.edu/news/2010/08/03/robert-tucker-renowned-soviet-expert-and-stalin-biographer-dies?section=facstaff",
+      "title": "Robert Tucker, renowned Soviet expert and Stalin biographer, dies",
+      "author_creator": "Princeton University Office of Communications",
+      "repository_publisher": "Princeton University",
+      "publication_record_date": "2010-08-03",
+      "locator": "Obituary; Harvard degrees and OSS service from 1942 to 1944",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional"
+    },
+    {
+      "key": "wapo-robert-tucker-b968",
+      "stable_url": "https://www.washingtonpost.com/archive/local/2010/07/31/professor-was-scholar-of-sovietera-politics-and-history/8f697b4e-9060-4705-90ea-f33ecd727121/",
+      "title": "Professor was scholar of Soviet-era politics and history",
+      "author_creator": "Matt Schudel",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2010-07-31",
+      "locator": "Obituary; Harvard education, intensive Russian-language training and OSS chronology",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only project-authored paraphrases are retained."
+    },
+    {
+      "key": "wapo-laura-tuckerman-b968",
+      "stable_url": "https://www.washingtonpost.com/local/obituaries/laura-tuckerman-triest-100-dies/2012/09/02/7386116a-f453-11e1-a612-3cfc842a6d89_story.html",
+      "title": "Laura Tuckerman Triest, 100, dies",
+      "author_creator": "Matt Schudel",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2012-09-02",
+      "locator": "Obituary; Depression-era dress-shop employment and 1942 work for William Donovan",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only a short excerpt and project-authored paraphrases are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "army-field-artillery-b968",
+      "organization_id": "04d90237-ae57-55c9-91fc-00744f8d6170",
+      "canonical_name": "United States Army Field Artillery",
+      "historical_name": "U.S. Army Field Artillery",
+      "aliases": [
+        "Field Artillery"
+      ],
+      "organization_type": "Army branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; military assignment remains distinct from civilian employment."
+    },
+    {
+      "key": "harvard-b968",
+      "organization_id": "45ddf347-21c6-59f5-a8ae-517418adf941",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; Robert C Tucker's relationship is student status, never employment."
+    },
+    {
+      "key": "manzanar-legal-aid-b968",
+      "canonical_name": "Manzanar Relocation Center Legal Aid Section",
+      "historical_name": "Legal Aid Section, Manzanar Relocation Center",
+      "aliases": [
+        "Manzanar Legal Aid Section"
+      ],
+      "organization_type": "federal relocation-center legal service",
+      "sector": "federal_government",
+      "city": "Manzanar",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Modeled as a government assignment at the historical center; no private employer or modern successor is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "michalis-tsirmulas-occupation-b968",
+      "person_id": "2a3e1fd8-a46d-553e-aa39-0ae740bdf7b6",
+      "occupation": "waiter",
+      "relationship_type": "unknown",
+      "end_date": "1943-05-13",
+      "date_precision": "Historical civilian-status code 227 was recorded at Army entry on 1943-05-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "george-t-tsohonis-occupation-b968",
+      "person_id": "b292cf8c-e222-5691-af95-d8b9611a1804",
+      "occupation": "salesman or sales agent",
+      "relationship_type": "unknown",
+      "end_date": "1942-04-23",
+      "date_precision": "Historical civilian-status code 185 was recorded at Army entry on 1942-04-23; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "james-tsolas-occupation-b968",
+      "person_id": "b26df1e4-6235-529e-a944-eb433fac14da",
+      "occupation": "waiter",
+      "relationship_type": "unknown",
+      "end_date": "1943-01-12",
+      "date_precision": "Historical civilian-status code 227 was recorded at Army entry on 1943-01-12; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "james-r-tucker-occupation-b968",
+      "person_id": "c1f47b06-84b9-5924-9e22-6b55c72bd8b0",
+      "occupation": "fireman other than a process fireman",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-10",
+      "date_precision": "Historical civilian-status code 770 was recorded at Army entry on 1942-11-10; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "roger-s-tucker-occupation-b968",
+      "person_id": "7d27b4fb-6450-5bc4-a3e5-81821aacccf2",
+      "occupation": "stenographer or typist",
+      "relationship_type": "unknown",
+      "end_date": "1942-06-13",
+      "date_precision": "Historical civilian-status code 137 was recorded at Army entry on 1942-06-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "william-r-tucker-occupation-b968",
+      "person_id": "5de20758-c6bd-5ac2-9599-9ad015af799f",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-06-08",
+      "date_precision": "Historical civilian-status code 992 was recorded at Army entry on 1943-06-08; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "robert-w-tufts-occupation-b968",
+      "person_id": "13d4e94d-069e-59ae-9c82-148c1d872244",
+      "occupation": "professional occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1944-12-11",
+      "date_precision": "Historical civilian-status code 039 was recorded at Army entry on 1944-12-11; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, school, workplace or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "john-tsouderos-field-artillery-b968",
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "organization_key": "army-field-artillery-b968",
+      "organization_name_as_found": "Field Artillery",
+      "role_title": "enlisted soldier and trained medic",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1942-1943",
+      "date_precision": "A scholarly unit history says Tsouderos qualified as a medic in July 1942 and served with Field Artillery before entering OSS; exact transfer date is unstated.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Immediate military assignment, not a civilian employer."
+    },
+    {
+      "key": "john-tsouderos-waiter-b968",
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "occupation": "busboy or waiter",
+      "relationship_type": "employment",
+      "end_date": "1942",
+      "date_precision": "The unit history states that he worked as a busboy or waiter until drafted; no employing establishment is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Best-supported last civilian occupation before Army service; the employer remains unidentified."
+    },
+    {
+      "key": "henry-tsurutani-manzanar-b968",
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "organization_key": "manzanar-legal-aid-b968",
+      "organization_name_as_found": "Legal Aid Section, Manzanar Relocation Center",
+      "role_title": "Director of Legal Aid",
+      "occupation": "attorney",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-1943",
+      "end_date": "1943",
+      "date_precision": "A November 1943 Manzanar publication identifies Tsurutani as Director of Legal Aid; the exact start and end dates are not established.",
+      "city": "Manzanar",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Government/legal-aid assignment; the evidence does not establish a private employer or prove that this was immediately before OSS."
+    },
+    {
+      "key": "henry-tsurutani-attorney-b968",
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "occupation": "attorney",
+      "relationship_type": "unknown",
+      "end_date": "1942",
+      "date_precision": "A contemporary 1945 article describes him as formerly an attorney in Los Angeles; no firm, dates or employment arrangement is named.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation only; no law firm or self-employment relationship is inferred."
+    },
+    {
+      "key": "robert-c-tucker-language-training-b968",
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "role_title": "Russian-language trainee",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "The obituary places intensive Russian-language training after his 1941 Harvard master's degree and before his 1942 OSS service; no institution is named.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Immediate pre-OSS student/training status with the institution unresolved; not employment."
+    },
+    {
+      "key": "robert-c-tucker-harvard-b968",
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "organization_key": "harvard-b968",
+      "organization_name_as_found": "Harvard University",
+      "role_title": "graduate student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1935",
+      "end_date": "1941",
+      "date_precision": "Princeton records a Harvard bachelor's degree in 1939 and master's degree in 1941, followed by OSS service beginning in 1942.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Harvard is documented as an educational institution, not an employer."
+    },
+    {
+      "key": "laura-tuckerman-dress-shop-b968",
+      "person_id": "a9947f65-e455-5916-b23c-22b3d93f9c1f",
+      "occupation": "dress-shop worker",
+      "relationship_type": "employment",
+      "end_date": "1930s",
+      "date_precision": "The obituary places the job during the Depression and OSS work beginning in 1942; it does not name the shop or prove this was her last pre-OSS job.",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier documented employment; the shop is unnamed and immediacy is not established."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-michalis-tsirmulas-b968",
+      "person_id": "2a3e1fd8-a46d-553e-aa39-0ae740bdf7b6",
+      "claim_type": "identity",
+      "claim_text": "Indexed Michalis Tsirmulas is confirmed matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The protected identifier connects the index to the Army transcription TEIRMULAS MICHALIS; DPAA and the OSS Greek Operational Group roster independently identify Michalis Tsirmulas.",
+      "identity_match_assessment": "The protected identifier connects the index to the Army transcription TEIRMULAS MICHALIS; DPAA and the OSS Greek Operational Group roster independently identify Michalis Tsirmulas.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        },
+        {
+          "source_key": "dpaa-tsirmulas-b968"
+        },
+        {
+          "source_key": "ossog-personnel-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-michalis-tsirmulas-b968",
+      "person_id": "2a3e1fd8-a46d-553e-aa39-0ae740bdf7b6",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-13, Michalis Tsirmulas's historical civilian-status category was waiters and waitresses, except private family.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 227; NARA's code list defines it as Waiters and waitresses, except private family.",
+      "identity_match_assessment": "The protected identifier connects the index to the Army transcription TEIRMULAS MICHALIS; DPAA and the OSS Greek Operational Group roster independently identify Michalis Tsirmulas.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical page 172; historical category 2-27"
+        }
+      ],
+      "affiliation_key": "michalis-tsirmulas-occupation-b968"
+    },
+    {
+      "key": "identity-george-t-tsohonis-b968",
+      "person_id": "b292cf8c-e222-5691-af95-d8b9611a1804",
+      "claim_type": "identity",
+      "claim_text": "Indexed George T Tsohonis is high-confidence matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-t-tsohonis-b968",
+      "person_id": "b292cf8c-e222-5691-af95-d8b9611a1804",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-23, George T Tsohonis's historical civilian-status category was salesmen and sales agents, except to consumers.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 185; NARA's code list defines it as Salesmen and sales agents, except to consumers.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical pages 171-172; historical category 1-85"
+        }
+      ],
+      "affiliation_key": "george-t-tsohonis-occupation-b968"
+    },
+    {
+      "key": "identity-james-tsolas-b968",
+      "person_id": "b26df1e4-6235-529e-a944-eb433fac14da",
+      "claim_type": "identity",
+      "claim_text": "Indexed James Tsolas is high-confidence matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The protected identifier connects the index to the corrupted Army name TBOLA JAMES; Greek Operational Group sources independently identify Staff Sergeant James A Tsolas.",
+      "identity_match_assessment": "The protected identifier connects the index to the corrupted Army name TBOLA JAMES; Greek Operational Group sources independently identify Staff Sergeant James A Tsolas.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        },
+        {
+          "source_key": "ossog-personnel-b968"
+        },
+        {
+          "source_key": "uswm-tsolas-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-tsolas-b968",
+      "person_id": "b26df1e4-6235-529e-a944-eb433fac14da",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-12, James Tsolas's historical civilian-status category was waiters and waitresses, except private family.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 227; NARA's code list defines it as Waiters and waitresses, except private family.",
+      "identity_match_assessment": "The protected identifier connects the index to the corrupted Army name TBOLA JAMES; Greek Operational Group sources independently identify Staff Sergeant James A Tsolas.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical page 172; historical category 2-27"
+        }
+      ],
+      "affiliation_key": "james-tsolas-occupation-b968"
+    },
+    {
+      "key": "identity-james-r-tucker-b968",
+      "person_id": "c1f47b06-84b9-5924-9e22-6b55c72bd8b0",
+      "claim_type": "identity",
+      "claim_text": "Indexed James R Tucker is high-confidence matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-r-tucker-b968",
+      "person_id": "c1f47b06-84b9-5924-9e22-6b55c72bd8b0",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-10, James R Tucker's historical civilian-status category was firemen, other than process firemen.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 770; NARA's code list defines it as Firemen, other than process firemen.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical page 174; historical category 7-70"
+        }
+      ],
+      "affiliation_key": "james-r-tucker-occupation-b968"
+    },
+    {
+      "key": "identity-roger-s-tucker-b968",
+      "person_id": "7d27b4fb-6450-5bc4-a3e5-81821aacccf2",
+      "claim_type": "identity",
+      "claim_text": "Indexed Roger S Tucker is high-confidence matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-roger-s-tucker-b968",
+      "person_id": "7d27b4fb-6450-5bc4-a3e5-81821aacccf2",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-13, Roger S Tucker's historical civilian-status category was stenographers and typists.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 137; NARA's code list defines it as Stenographers and typists.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical page 172; historical category 1-37"
+        }
+      ],
+      "affiliation_key": "roger-s-tucker-occupation-b968"
+    },
+    {
+      "key": "identity-william-r-tucker-b968",
+      "person_id": "5de20758-c6bd-5ac2-9599-9ad015af799f",
+      "claim_type": "identity",
+      "claim_text": "Indexed William R Tucker is high-confidence matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-r-tucker-b968",
+      "person_id": "5de20758-c6bd-5ac2-9599-9ad015af799f",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-06-08, William R Tucker's historical civilian-status category was students.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ],
+      "affiliation_key": "william-r-tucker-occupation-b968"
+    },
+    {
+      "key": "identity-robert-w-tufts-b968",
+      "person_id": "13d4e94d-069e-59ae-9c82-148c1d872244",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert W Tufts is high-confidence matched to the reviewed Army entry and retained name variants.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "The Army entry date establishes military-entry chronology but not the date of OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "army-bulk-b968"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-w-tufts-b968",
+      "person_id": "13d4e94d-069e-59ae-9c82-148c1d872244",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-12-11, Robert W Tufts's historical civilian-status category was professional occupations, not elsewhere classified.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The official Army field carries historical code 039; NARA's code list defines it as Professional occupations, not elsewhere classified.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; no employer, school, workplace or OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b968",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b968",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b968",
+          "locator_override": "PDF physical page 171; historical category 0-39"
+        }
+      ],
+      "affiliation_key": "robert-w-tufts-occupation-b968"
+    },
+    {
+      "key": "identity-john-tsouderos-b968",
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "claim_type": "identity",
+      "claim_text": "Indexed John E Tsouderos is a high-confidence match to Sergeant John E. Tsouderos of the OSS Greek Operational Groups.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "An OSS unit roster and a detailed unit history supply the exact name, sergeant rank and Greek Operational Group service.",
+      "identity_match_assessment": "High confidence from the exact uncommon full name, indexed protected identifier and matching direct OSS context.",
+      "temporal_assessment": "The sources document his Army pathway before OSS but do not give an exact OSS entry date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Family relationship is context only and is not used as the principal identity basis.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "ossog-tsouderos-b968"
+        },
+        {
+          "source_key": "after-battle-tsouderos-b968"
+        }
+      ]
+    },
+    {
+      "key": "immediate-john-tsouderos-field-artillery-b968",
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "John E Tsouderos served with U.S. Army Field Artillery immediately before entering OSS.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The unit history explicitly states that he served with Field Artillery before coming to OSS after qualifying as a medic.",
+      "identity_match_assessment": "High-confidence exact-name match in two OSS Greek Operational Group sources.",
+      "temporal_assessment": "Explicit immediate sequence, although exact transfer dates and unit are unstated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "after-battle-tsouderos-b968",
+          "excerpt_override": "had served with the Field Artillery before he came to the OSS"
+        },
+        {
+          "source_key": "ossog-tsouderos-b968",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "john-tsouderos-field-artillery-b968"
+    },
+    {
+      "key": "last-civilian-john-tsouderos-waiter-b968",
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "John E Tsouderos worked as a busboy or waiter before he was drafted; the employer is not identified.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The unit history explicitly places busboy or waiter work before his draft and subsequent Army and OSS service.",
+      "identity_match_assessment": "High-confidence exact-name match in two OSS Greek Operational Group sources.",
+      "temporal_assessment": "Explicitly before the draft; no employer or precise dates are named.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Occupation and employment relationship are preserved without inventing a restaurant or hotel.",
+      "sources": [
+        {
+          "source_key": "after-battle-tsouderos-b968",
+          "excerpt_override": "worked as a busboy or waiter until he was drafted"
+        }
+      ],
+      "affiliation_key": "john-tsouderos-waiter-b968"
+    },
+    {
+      "key": "identity-henry-tsurutani-b968",
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Henry J Tsurutani is a high-confidence match to attorney Henry J. Tsurutani of Manzanar's Legal Aid Section.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A contemporary Manzanar publication and a 1945 Japanese American newspaper both supply the exact uncommon full name and legal profession.",
+      "identity_match_assessment": "High confidence from the exact rare full name, wartime chronology and consistent legal profession across independent contemporary sources.",
+      "temporal_assessment": "The sources document wartime roles but do not state the exact date he entered OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or transfer sequence is inferred beyond the cited evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "densho-tsurutani-b968"
+        },
+        {
+          "source_key": "pacific-citizen-tsurutani-b968"
+        }
+      ]
+    },
+    {
+      "key": "prewar-henry-tsurutani-manzanar-b968",
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Henry J Tsurutani served as Director of Legal Aid at the Manzanar Relocation Center.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The November 1943 Manzanar Free Press identifies Henry J. Tsurutani as Director of Legal Aid in the center's Legal Aid Section.",
+      "identity_match_assessment": "High-confidence exact rare-name identity with matching legal profession.",
+      "temporal_assessment": "Documented wartime role; its exact temporal relation to OSS entry remains uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Government assignment; no private employer or immediate-OSS sequence is asserted.",
+      "sources": [
+        {
+          "source_key": "densho-tsurutani-b968",
+          "excerpt_override": "Director of Legal Aid Henry J. Tsurutani"
+        }
+      ],
+      "affiliation_key": "henry-tsurutani-manzanar-b968"
+    },
+    {
+      "key": "prewar-henry-tsurutani-attorney-b968",
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "claim_type": "occupation",
+      "claim_text": "Henry J Tsurutani had worked as an attorney in Los Angeles before his wartime assignment; no firm is identified.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "A contemporary 1945 item describes him as formerly an attorney in Los Angeles before later war work.",
+      "identity_match_assessment": "High-confidence exact rare-name identity with matching legal profession.",
+      "temporal_assessment": "Documented earlier occupation; no dates, firm or immediate relationship to OSS are supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No law firm, self-employment status or named employer is inferred.",
+      "sources": [
+        {
+          "source_key": "pacific-citizen-tsurutani-b968"
+        }
+      ],
+      "affiliation_key": "henry-tsurutani-attorney-b968"
+    },
+    {
+      "key": "identity-robert-c-tucker-b968",
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert C Tucker is a high-confidence match to Soviet specialist Robert Charles Tucker, who served in OSS from 1942 to 1944.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Princeton and The Washington Post independently supply his exact indexed name, Harvard chronology and 1942-1944 OSS service.",
+      "identity_match_assessment": "High confidence from exact name and middle initial plus matching education, language specialty and explicit OSS service.",
+      "temporal_assessment": "Both sources date Harvard and language preparation before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is not based on later academic prominence alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "princeton-robert-tucker-b968"
+        },
+        {
+          "source_key": "wapo-robert-tucker-b968"
+        }
+      ]
+    },
+    {
+      "key": "immediate-robert-c-tucker-language-training-b968",
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before OSS service, Robert C Tucker undertook intensive Russian-language training at an unidentified institution.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The obituary places intensive Russian-language training after his Harvard degrees and immediately before his OSS work.",
+      "identity_match_assessment": "High-confidence exact-name identity with explicit OSS chronology.",
+      "temporal_assessment": "Strongly date-bounded before OSS; training institution and exact dates are unresolved.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student/training status only; no employer is inferred.",
+      "sources": [
+        {
+          "source_key": "wapo-robert-tucker-b968"
+        }
+      ],
+      "affiliation_key": "robert-c-tucker-language-training-b968"
+    },
+    {
+      "key": "prewar-robert-c-tucker-harvard-b968",
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Robert C Tucker was a Harvard University student, earning a bachelor's degree in 1939 and master's degree in 1941.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "Princeton records both Harvard degrees before his 1942 OSS service; The Washington Post independently confirms the chronology.",
+      "identity_match_assessment": "High-confidence exact-name identity with explicit OSS chronology.",
+      "temporal_assessment": "Documented educational affiliation ending before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is an educational institution here, never an employer.",
+      "sources": [
+        {
+          "source_key": "princeton-robert-tucker-b968"
+        },
+        {
+          "source_key": "wapo-robert-tucker-b968"
+        }
+      ],
+      "affiliation_key": "robert-c-tucker-harvard-b968"
+    },
+    {
+      "key": "identity-laura-tuckerman-b968",
+      "person_id": "a9947f65-e455-5916-b23c-22b3d93f9c1f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Laura W Tuckerman is a high-confidence match to Laura Wolcott Tuckerman Triest, who began wartime work for William Donovan in 1942.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The obituary supplies the expanded exact name and direct chronology from 1942 work for Donovan into OSS duties.",
+      "identity_match_assessment": "High confidence from the exact uncommon indexed name and explicit OSS chronology in a reputable obituary.",
+      "temporal_assessment": "The obituary dates the start of her wartime service but does not establish every intervening prewar role.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The expanded name is retained as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b968"
+        },
+        {
+          "source_key": "wapo-laura-tuckerman-b968"
+        }
+      ]
+    },
+    {
+      "key": "prewar-laura-tuckerman-dress-shop-b968",
+      "person_id": "a9947f65-e455-5916-b23c-22b3d93f9c1f",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "During the Depression, Laura W Tuckerman worked at an unnamed dress shop.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The obituary records paid dress-shop work during the Depression and later OSS work beginning in 1942.",
+      "identity_match_assessment": "High-confidence exact-name identity with explicit OSS chronology.",
+      "temporal_assessment": "Definitely pre-OSS, but not shown to be her immediate predecessor role or last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The unnamed shop is not fabricated or normalized to an employer.",
+      "sources": [
+        {
+          "source_key": "wapo-laura-tuckerman-b968",
+          "excerpt_override": "worked at a dress shop"
+        }
+      ],
+      "affiliation_key": "laura-tuckerman-dress-shop-b968"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e6c5814a-672a-5bac-ae39-2a26838efc57",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Tsun O Tso, Box 787 and archive location 230/86/42/03. Exact-name, transliteration-variant, official-domain, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, transliteration-variant, official-domain, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "7a7cc39d-f5f6-5acd-bac5-0a09bacd19e1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frances M Tuchscher, Box 788 and archive location 230/86/42/03. A postwar State Department editor-writer record for the exact name was rejected as temporally insufficient and no independent OSS identity bridge was found.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A postwar State Department editor-writer record for the exact name was rejected as temporally insufficient and no independent OSS identity bridge was found."
+    },
+    {
+      "person_id": "7b279230-6292-529c-9480-87e12a7c69a1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Emily Tuck, Box 788 and archive location 230/86/42/03. The common name produced multiple modern and historical namesakes without two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple modern and historical namesakes without two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "5fe05290-6b8b-5b6a-84f7-049e0b5c627a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies G L Tucker, Box 788 and archive location 230/86/42/03. Initials-only exact and variant searches could not distinguish a unique person or dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Initials-only exact and variant searches could not distinguish a unique person or dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "bcb3f46a-5f2f-5770-9a73-250b2c1a855f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gertrude G Tucker, Box 788 and archive location 230/86/42/03. The common name produced plausible namesakes but no source tied one to OSS, Box 788 or another corroborating identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced plausible namesakes but no source tied one to OSS, Box 788 or another corroborating identifier."
+    },
+    {
+      "person_id": "f494ab67-5719-579c-8e05-3127319d62f9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Isota A Tucker, Box 788 and archive location 230/86/42/03. The unusual indexed spelling yielded only unbridged genealogical leads and no reliable OSS, occupation or employer evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The unusual indexed spelling yielded only unbridged genealogical leads and no reliable OSS, occupation or employer evidence."
+    },
+    {
+      "person_id": "1783f52f-a39e-5f77-b1e5-7f0b882b5bb8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lula E Tucker, Box 788 and archive location 230/86/42/03. Exact-name, initials, occupation, obituary, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initials, occupation, obituary, newspaper and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "96fb3fa0-c6cf-5e8b-b7fb-84ae878c8326",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert W Tucker, Box 788 and archive location 230/86/42/03. Multiple Robert W Tucker namesakes were found; none supplied the required OSS and second-identifier bridge, and the later scholar was rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Multiple Robert W Tucker namesakes were found; none supplied the required OSS and second-identifier bridge, and the later scholar was rejected."
+    },
+    {
+      "person_id": "4139f4b9-2858-53d7-8ec5-de13855ba5ae",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Margaret C Tuckerman, Box 788 and archive location 230/86/42/03. Searches found family and social-register context but no source tied Margaret C Tuckerman to OSS or a dated pre-OSS occupation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Searches found family and social-register context but no source tied Margaret C Tuckerman to OSS or a dated pre-OSS occupation."
+    },
+    {
+      "person_id": "f9bd1785-ba59-57e9-b1c0-30854e721f7b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Bert A Tueling, Box 788 and archive location 230/86/42/03. A discovery-only family-history profile supplied age and draft context but no OSS or occupation bridge and was rejected as final evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A discovery-only family-history profile supplied age and draft context but no OSS or occupation bridge and was rejected as final evidence."
+    },
+    {
+      "person_id": "23f36d5e-436d-59f4-80d7-c784630bad71",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lois R Tufts, Box 788 and archive location 230/86/42/03. Exact-name, initials, occupation, obituary and archival searches produced no reliable identity bridge; people-finder results were rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initials, occupation, obituary and archival searches produced no reliable identity bridge; people-finder results were rejected."
+    },
+    {
+      "person_id": "fe30d53d-9014-56f2-8470-bf66465c91d4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Margaret E Tugas, Box 788 and archive location 230/86/42/03. Exact-name, spelling-variant, employer, obituary, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, spelling-variant, employer, obituary, newspaper and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "2a3e1fd8-a46d-553e-aa39-0ae740bdf7b6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The protected identifier connects the index to the Army transcription TEIRMULAS MICHALIS; DPAA and the OSS Greek Operational Group roster independently identify Michalis Tsirmulas.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "name_variants": [
+        "Teirmulas Michalis"
+      ]
+    },
+    {
+      "person_id": "b292cf8c-e222-5691-af95-d8b9611a1804",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "b26df1e4-6235-529e-a944-eb433fac14da",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The protected identifier connects the index to the corrupted Army name TBOLA JAMES; Greek Operational Group sources independently identify Staff Sergeant James A Tsolas.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "name_variants": [
+        "James A Tsolas",
+        "Tbola James"
+      ]
+    },
+    {
+      "person_id": "c1f47b06-84b9-5924-9e22-6b55c72bd8b0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "7d27b4fb-6450-5bc4-a3e5-81821aacccf2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "5de20758-c6bd-5ac2-9599-9ad015af799f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "13d4e94d-069e-59ae-9c82-148c1d872244",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation, wartime grade and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An OSS Greek Operational Group roster and a detailed unit history supply the exact name, sergeant rank and Army-to-OSS pathway.",
+      "name_variants": [
+        "John E. Tsouderos"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 787 for the exact Field Artillery unit, draft and OSS transfer dates, and the name of the restaurant or establishment where he worked."
+    },
+    {
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact full name and legal profession appear in independent contemporary Manzanar and Japanese American newspaper sources.",
+      "name_variants": [
+        "Henry Junya Tsurutani"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 787 and War Relocation Authority records to establish the exact OSS entry date, administrative employment relationship and any named Los Angeles law firm."
+    },
+    {
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Princeton and The Washington Post independently connect Robert C. Tucker/Robert Charles Tucker, Harvard education, Russian-language preparation and explicit 1942-1944 OSS service.",
+      "name_variants": [
+        "Robert Charles Tucker"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 788 and wartime training records to identify the Russian-language training institution and determine whether any civilian employer intervened after Harvard."
+    },
+    {
+      "person_id": "a9947f65-e455-5916-b23c-22b3d93f9c1f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A reputable obituary supplies Laura Wolcott Tuckerman's exact expanded name and direct chronology from 1942 work for William Donovan into OSS duties.",
+      "name_variants": [
+        "Laura Wolcott Tuckerman",
+        "Laura Tuckerman Triest"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 788 to identify the immediate 1942 recruitment pathway, the unnamed Depression-era dress shop and any intervening employment."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page474-row24-michalis-tsirmulas-b968",
+      "person_id": "2a3e1fd8-a46d-553e-aa39-0ae740bdf7b6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Michalis Tsirmulas; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 787 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row25-tsun-o-tso-b968",
+      "person_id": "e6c5814a-672a-5bac-ae39-2a26838efc57",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Tsun O Tso; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, transliteration-variant, official-domain, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 787 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row26-george-t-tsohonis-b968",
+      "person_id": "b292cf8c-e222-5691-af95-d8b9611a1804",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George T Tsohonis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 787 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row27-james-tsolas-b968",
+      "person_id": "b26df1e4-6235-529e-a944-eb433fac14da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James Tsolas; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 787 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row28-john-e-tsouderos-b968",
+      "person_id": "1a007dc6-b269-5628-b725-877372b6a93d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John E Tsouderos; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 787 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row29-henry-j-tsurutani-b968",
+      "person_id": "c1d3dce5-ca55-5fab-b00b-48b340b5691e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry J Tsurutani; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 787 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row30-frances-m-tuchscher-b968",
+      "person_id": "7a7cc39d-f5f6-5acd-bac5-0a09bacd19e1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frances M Tuchscher; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "A postwar State Department editor-writer record for the exact name was rejected as temporally insufficient and no independent OSS identity bridge was found. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row31-emily-tuck-b968",
+      "person_id": "7b279230-6292-529c-9480-87e12a7c69a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Emily Tuck; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name produced multiple modern and historical namesakes without two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row32-g-l-tucker-b968",
+      "person_id": "5fe05290-6b8b-5b6a-84f7-049e0b5c627a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "G L Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Initials-only exact and variant searches could not distinguish a unique person or dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row33-gertrude-g-tucker-b968",
+      "person_id": "bcb3f46a-5f2f-5770-9a73-250b2c1a855f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gertrude G Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name produced plausible namesakes but no source tied one to OSS, Box 788 or another corroborating identifier. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row34-isota-a-tucker-b968",
+      "person_id": "f494ab67-5719-579c-8e05-3127319d62f9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Isota A Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The unusual indexed spelling yielded only unbridged genealogical leads and no reliable OSS, occupation or employer evidence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row35-james-r-tucker-b968",
+      "person_id": "c1f47b06-84b9-5924-9e22-6b55c72bd8b0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James R Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row36-lula-e-tucker-b968",
+      "person_id": "1783f52f-a39e-5f77-b1e5-7f0b882b5bb8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lula E Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, initials, occupation, obituary, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row37-robert-c-tucker-b968",
+      "person_id": "d3a34ac7-43ac-5275-ae27-cb95fc84324d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert C Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row38-robert-w-tucker-b968",
+      "person_id": "96fb3fa0-c6cf-5e8b-b7fb-84ae878c8326",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Multiple Robert W Tucker namesakes were found; none supplied the required OSS and second-identifier bridge, and the later scholar was rejected. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row39-roger-s-tucker-b968",
+      "person_id": "7d27b4fb-6450-5bc4-a3e5-81821aacccf2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roger S Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row40-william-r-tucker-b968",
+      "person_id": "5de20758-c6bd-5ac2-9599-9ad015af799f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William R Tucker; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row41-laura-w-tuckerman-b968",
+      "person_id": "a9947f65-e455-5916-b23c-22b3d93f9c1f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Laura W Tuckerman; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row42-margaret-c-tuckerman-b968",
+      "person_id": "4139f4b9-2858-53d7-8ec5-de13855ba5ae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Margaret C Tuckerman; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Searches found family and social-register context but no source tied Margaret C Tuckerman to OSS or a dated pre-OSS occupation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row43-bert-a-tueling-b968",
+      "person_id": "f9bd1785-ba59-57e9-b1c0-30854e721f7b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bert A Tueling; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "A discovery-only family-history profile supplied age and draft context but no OSS or occupation bridge and was rejected as final evidence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row44-lois-r-tufts-b968",
+      "person_id": "23f36d5e-436d-59f4-80d7-c784630bad71",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lois R Tufts; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, initials, occupation, obituary and archival searches produced no reliable identity bridge; people-finder results were rejected. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row45-robert-w-tufts-b968",
+      "person_id": "13d4e94d-069e-59ae-9c82-148c1d872244",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Tufts; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed direct, institutional or contemporary evidence produced the qualified identity, occupation, student, government or military-pathway outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    },
+    {
+      "key": "page474-row46-margaret-e-tugas-b968",
+      "person_id": "fe30d53d-9014-56f2-8470-bf66465c91d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Margaret E Tugas; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 787-788; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_968",
+      "started_at": "2026-10-30T18:35:00Z",
+      "completed_at": "2026-10-30T22:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, spelling-variant, employer, obituary, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 788 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b968-v1"
+    }
+  ]
+}

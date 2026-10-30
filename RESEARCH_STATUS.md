@@ -1,5 +1,42 @@
 # Research status
 
+Batch 968 completed PDF page 474, rows 24-46, from **Michalis Tsirmulas**
+through **Margaret E Tugas**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Direct and authoritative evidence supports qualified military, government,
+student and civilian-occupation pathways for eleven people without turning
+them into unsupported employer claims. John E Tsouderos's Army Field Artillery
+assignment remains separate from his last known civilian occupation; Henry J
+Tsurutani's Manzanar Legal Aid assignment remains separate from his earlier
+attorney occupation; Robert C Tucker and William R Tucker remain students, not
+university employees. Twelve unresolved identities retain archival-review
+outcomes. This batch establishes no new named employer. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,200/23,936 (63.5027%)**;
+verified-employer coverage is **488/23,936 (2.0388%)**;
+verified-affiliation coverage is **1,094/23,936 (4.5705%)**; archival-review
+coverage is **13,676/23,936 (57.1357%)**. There are **8,731** not-started
+people, **664** possible-duplicate groups and **520** conflicts. Claim
+confidence counts are **1,705 confirmed**, **5,070 high**, **2,394 medium**,
+**254 low**, **433 conflicting** and **2 unresolved**. The public projection
+contains **3,726** affiliations, **1,251** organizations, **6,230** sources and
+**9,598** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 475, row 1,
+**Gaston E Tuggle**, in Box 788. See `research/batch-968-progress.md`.
+
+Batch 968 passed evidence-schema validation, idempotent import, SQLite
+integrity, extraction validation, the 200-profile audit, all 147 Python tests,
+Astro's zero-diagnostic build, the 30/30 batch browser matrix and the full
+99/99 browser and accessibility release suite. All 25,237 internal page links
+resolve, the protected-identifier audit found zero unexpected matches, the
+dependency audit reports zero vulnerabilities, and the 67-asset public
+manifest verifies locally. Publication is pending the immutable content
+commit, GitHub Actions checks and unauthenticated deployed-release
+verification. Full verification is recorded in `reports/release_batch_968.md`.
+
 Batch 967 completed PDF page 474, rows 1-23, from **Robert E True** through
 **Ernest Tsikerdanos**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.
