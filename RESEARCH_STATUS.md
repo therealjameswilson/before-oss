@@ -1,5 +1,42 @@
 # Research status
 
+Batch 970 completed PDF page 475, rows 24-46, from **Joseph E Turcotte** through
+**Mildred M Turner**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Eleven protected-identifier Army matches support high-confidence identities;
+nine publish only qualified occupation or student categories and two provide
+identity evidence without a usable pre-OSS occupation. Contemporary *American
+Foreign Service Journal* advertisements document Colonel Campbell Turner at
+Turner's Diplomatic School from 1938 through February 1942, but the match to
+the indexed person remains probable and is excluded from default analytics
+pending Box 789 review. The Turlano/Iurlano spelling discrepancy remains
+visible. Eleven unresolved identities retain archival-review outcomes. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,246/23,936 (63.6949%)**;
+verified-employer coverage is **488/23,936 (2.0388%)**;
+verified-affiliation coverage is **1,094/23,936 (4.5705%)**; archival-review
+coverage is **13,722/23,936 (57.3279%)**. There are **8,685** not-started
+people, **664** possible-duplicate groups and **521** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,091 high**, **2,414 medium**,
+**255 low**, **434 conflicting** and **2 unresolved**. The public projection
+contains **3,744** affiliations, **1,251** organizations, **6,245** sources and
+**9,641** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 476, row 1,
+**Olive J Turner**, in Box 790. See `research/batch-970-progress.md`.
+
+Batch 970 passed evidence-schema validation, idempotent import, SQLite
+integrity, the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic
+build, the 24/24 batch browser matrix and the full 93/93 browser and
+accessibility release suite. All 25,237 internal page links resolve, the
+protected-identifier audit found zero unexpected matches, and two consecutive
+builds reproduced the 67-asset public manifest and full static output tree.
+Publication is pending the immutable content commit, GitHub Actions checks and
+unauthenticated deployed-release verification. Full verification is recorded
+in `reports/release_batch_970.md`.
+
 Batch 969 completed PDF page 475, rows 1-23, from **Gaston E Tuggle** through
 **Euclide Turcotte**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.

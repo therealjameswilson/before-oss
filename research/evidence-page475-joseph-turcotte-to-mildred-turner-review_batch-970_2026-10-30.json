@@ -1,0 +1,1583 @@
+{
+  "bundle_version": "batch-970-v1",
+  "reviewer": "Before OSS Batch 970 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b970",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 365 and 789-790",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 475, rows 24-46; checked against layout-preserving text and a 200 dpi page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b970",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eleven accepted Batch 970 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b970",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b970",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-174 and corrected page 304; nine Batch 970 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employers nor workplaces and are retained only where needed for auditability."
+    },
+    {
+      "key": "fsj-campbell-turner-1938-b970",
+      "stable_url": "https://www.afsa.org/sites/default/files/fsj-1938-05-may_0.pdf",
+      "title": "The American Foreign Service Journal, May 1938",
+      "author_creator": "American Foreign Service Association",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1938-05",
+      "locator": "PDF page 64 (viewer page 63); Turner’s Diplomatic School advertisement and Colonel Campbell Turner contact",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Foreign Service Journal archive",
+      "rights_notes": "Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "fsj-campbell-turner-1942-b970",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1942-02-february_0.pdf",
+      "title": "The American Foreign Service Journal, February 1942",
+      "author_creator": "American Foreign Service Association",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1942-02",
+      "locator": "PDF page 62 (viewer page 61); Turner’s Diplomatic School advertisement naming Colonel Campbell Turner as director",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Foreign Service Journal archive",
+      "rights_notes": "Only a short excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "turners-diplomatic-school-b970",
+      "organization_id": "f24ecbc7-450d-5c41-8fdf-a2e2286b41f2",
+      "canonical_name": "Turner's Diplomatic School",
+      "historical_name": "Mr. Turner's Diplomatic School",
+      "aliases": [
+        "TURNER'S DIPLOMATIC SCHOOL",
+        "Turner’s Diplomatic School"
+      ],
+      "organization_type": "Foreign Service examination school",
+      "sector": "academia_and_research",
+      "country": "United States",
+      "active_dates": "Documented 1938-1942",
+      "normalization_notes": "The existing 'Mr. Turner's Diplomatic School' record and contemporary advertisements headed 'TURNER'S DIPLOMATIC SCHOOL' describe the same Foreign Service examination school. It advertised a Washington, D.C. address in 1938 and an Alexandria, Virginia address in February 1942; no modern successor is assigned."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-e-turcotte-occupation-b970",
+      "person_id": "a2f22323-2d3a-50fe-a2b2-b67b8d3a6253",
+      "occupation": "semiskilled machine-shop or related worker, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1942-01-26",
+      "date_precision": "Historical civilian-status code 678 was recorded at Army entry on 1942-01-26; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-turean-occupation-b970",
+      "person_id": "5029cf18-6843-58b3-a9d5-bd89a2ffccf4",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-11-03",
+      "date_precision": "Historical civilian-status code 992 was recorded at Army entry on 1942-11-03; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "august-a-turlano-occupation-b970",
+      "person_id": "98c38d68-3fee-5c00-9cb7-fb7dc7a48249",
+      "occupation": "lawyer or judge",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-13",
+      "date_precision": "Historical civilian-status code 022 was recorded at Army entry on 1942-11-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "douglas-h-turnbull-occupation-b970",
+      "person_id": "f59b7664-3c11-533c-827f-6cc6f742efc4",
+      "occupation": "chauffeur or driver of a bus, taxi, truck or tractor",
+      "relationship_type": "unknown",
+      "end_date": "1942-02-13",
+      "date_precision": "Historical civilian-status code 736 was recorded at Army entry on 1942-02-13; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "robert-t-turnbull-occupation-b970",
+      "person_id": "415f3a77-a884-51c3-b9fa-05d7b0575d5e",
+      "occupation": "recreation or amusement attendant, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1941-02-10",
+      "date_precision": "Historical civilian-status code 240 was recorded at Army entry on 1941-02-10; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "hugh-w-turner-occupation-b970",
+      "person_id": "e2aea350-195f-5aab-b91f-eecee44b996f",
+      "occupation": "general-industry clerk",
+      "relationship_type": "unknown",
+      "end_date": "1943-04-17",
+      "date_precision": "Historical civilian-status code 118 was recorded at Army entry on 1943-04-17; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-l-turner-occupation-b970",
+      "person_id": "9a83dca7-ea84-5abb-9139-fb7448ee5dde",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1945-06-28",
+      "date_precision": "Historical civilian-status code 992 was recorded at Army entry on 1945-06-28; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-m-turner-occupation-b970",
+      "person_id": "e695bb1b-ee87-56e8-af3b-5cf51377eed3",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-12-12",
+      "date_precision": "Historical civilian-status code 992 was recorded at Army entry on 1942-12-12; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "marden-s-turner-occupation-b970",
+      "person_id": "c7fed2e6-f649-5059-98cc-56d7be89ccdc",
+      "occupation": "manufacturing foreman",
+      "relationship_type": "unknown",
+      "end_date": "1943-05-19",
+      "date_precision": "Historical civilian-status code 592 was recorded at Army entry on 1943-05-19; no employer, school, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer or institution and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "campbell-turner-diplomatic-school-b970",
+      "person_id": "d20803ab-67c1-5afe-bde2-f11ea7cb0a02",
+      "organization_key": "turners-diplomatic-school-b970",
+      "organization_name_as_found": "TURNER'S DIPLOMATIC SCHOOL",
+      "role_title": "director",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1938-05",
+      "end_date": "1942-02",
+      "date_precision": "Foreign Service Journal advertisements name Colonel Campbell Turner in May 1938 and as director in February 1942. They do not identify the indexed OSS file or the date of OSS entry.",
+      "city": "Alexandria",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified institutional affiliation. The exact-name chronology is strong, but Box 789 must bridge the school director to the indexed person before the relationship can enter default analytics."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-e-turcotte-b970",
+      "person_id": "a2f22323-2d3a-50fe-a2b2-b67b8d3a6253",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joseph E Turcotte is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1942-01-26; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-turean-b970",
+      "person_id": "5029cf18-6843-58b3-a9d5-bd89a2ffccf4",
+      "claim_type": "identity",
+      "claim_text": "Indexed John Turean is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1942-11-03; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-august-a-turlano-b970",
+      "person_id": "98c38d68-3fee-5c00-9cb7-fb7dc7a48249",
+      "claim_type": "identity",
+      "claim_text": "Indexed August A Turlano is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "The exact protected identifier connects indexed August A Turlano to the official Army spelling August A Iurlano. The surname conflict remains visible as a variant; the index rank Cpl. and Army-entry grade PVT describe different moments and are not treated as a contradiction.",
+      "identity_match_assessment": "The exact protected identifier connects indexed August A Turlano to the official Army spelling August A Iurlano. The surname conflict remains visible as a variant; the index rank Cpl. and Army-entry grade PVT describe different moments and are not treated as a contradiction.",
+      "temporal_assessment": "The official Army entry date is 1942-11-13; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-douglas-h-turnbull-b970",
+      "person_id": "f59b7664-3c11-533c-827f-6cc6f742efc4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Douglas H Turnbull is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1942-02-13; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-t-turnbull-b970",
+      "person_id": "415f3a77-a884-51c3-b9fa-05d7b0575d5e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert T Turnbull is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1941-02-10; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-hugh-w-turner-b970",
+      "person_id": "e2aea350-195f-5aab-b91f-eecee44b996f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Hugh W Turner is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1943-04-17; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-l-turner-b970",
+      "person_id": "9a83dca7-ea84-5abb-9139-fb7448ee5dde",
+      "claim_type": "identity",
+      "claim_text": "Indexed John L Turner is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1945-06-28; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-m-turner-b970",
+      "person_id": "e695bb1b-ee87-56e8-af3b-5cf51377eed3",
+      "claim_type": "identity",
+      "claim_text": "Indexed John M Turner is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier connects indexed John M Turner to the official Army spelling John M Turner Jr. The suffix remains visible as a variant and is not silently added to the indexed name.",
+      "identity_match_assessment": "The protected identifier connects indexed John M Turner to the official Army spelling John M Turner Jr. The suffix remains visible as a variant and is not silently added to the indexed name.",
+      "temporal_assessment": "The official Army entry date is 1942-12-12; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-marden-s-turner-b970",
+      "person_id": "c7fed2e6-f649-5059-98cc-56d7be89ccdc",
+      "claim_type": "identity",
+      "claim_text": "Indexed Marden S Turner is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The official Army entry date is 1943-05-19; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-carl-w-turley-b970",
+      "person_id": "43d20da9-2ff9-5732-8e6c-126abbcb0b40",
+      "claim_type": "identity",
+      "claim_text": "Indexed Carl W Turley is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. The Army-entry date is after OSS dissolution and code 345 is not safely decoded, so no pre-OSS occupation is projected backward.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. The Army-entry date is after OSS dissolution and code 345 is not safely decoded, so no pre-OSS occupation is projected backward.",
+      "temporal_assessment": "The official Army entry date is 1946-01-29; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "identity-grady-v-turley-b970",
+      "person_id": "2f9c3116-ab53-51b0-8618-b04abf056627",
+      "claim_type": "identity",
+      "claim_text": "Indexed Grady V Turley is high-confidence matched to a reviewed official Army record.",
+      "evidence_paraphrase": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "temporal_assessment": "The official Army entry date is 1941-03-10; it establishes military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "army-bulk-b970"
+        },
+        {
+          "source_key": "army-tech-b970"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-e-turcotte-b970",
+      "person_id": "a2f22323-2d3a-50fe-a2b2-b67b8d3a6253",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-26, Joseph E Turcotte's historical civilian-status category was machine shop and related occupations, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 678; NARA's code list defines it as Machine shop and related occupations, not elsewhere classified.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Historical category 6-78; machine-shop and related occupations, n.e.c."
+        }
+      ],
+      "affiliation_key": "joseph-e-turcotte-occupation-b970"
+    },
+    {
+      "key": "occupation-john-turean-b970",
+      "person_id": "5029cf18-6843-58b3-a9d5-bd89a2ffccf4",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1942-11-03, John Turean's historical civilian-status category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Corrected historical category 9-92; students"
+        }
+      ],
+      "affiliation_key": "john-turean-occupation-b970"
+    },
+    {
+      "key": "occupation-august-a-turlano-b970",
+      "person_id": "98c38d68-3fee-5c00-9cb7-fb7dc7a48249",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-13, August A Turlano's historical civilian-status category was lawyers and judges.",
+      "evidence_paraphrase": "The official Army field carries historical code 022; NARA's code list defines it as Lawyers and judges.",
+      "identity_match_assessment": "The exact protected identifier connects indexed August A Turlano to the official Army spelling August A Iurlano. The surname conflict remains visible as a variant; the index rank Cpl. and Army-entry grade PVT describe different moments and are not treated as a contradiction.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Historical category 0-22; lawyers and judges"
+        }
+      ],
+      "affiliation_key": "august-a-turlano-occupation-b970"
+    },
+    {
+      "key": "occupation-douglas-h-turnbull-b970",
+      "person_id": "f59b7664-3c11-533c-827f-6cc6f742efc4",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-02-13, Douglas H Turnbull's historical civilian-status category was chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "evidence_paraphrase": "The official Army field carries historical code 736; NARA's code list defines it as Chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Historical category 7-36; chauffeurs and drivers, bus, taxi, truck and tractor"
+        }
+      ],
+      "affiliation_key": "douglas-h-turnbull-occupation-b970"
+    },
+    {
+      "key": "occupation-robert-t-turnbull-b970",
+      "person_id": "415f3a77-a884-51c3-b9fa-05d7b0575d5e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-02-10, Robert T Turnbull's historical civilian-status category was attendants, recreation and amusement, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 240; NARA's code list defines it as Attendants, recreation and amusement, not elsewhere classified.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Historical category 2-40; attendants, recreation and amusement, n.e.c."
+        }
+      ],
+      "affiliation_key": "robert-t-turnbull-occupation-b970"
+    },
+    {
+      "key": "occupation-hugh-w-turner-b970",
+      "person_id": "e2aea350-195f-5aab-b91f-eecee44b996f",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-17, Hugh W Turner's historical civilian-status category was clerks, general industry.",
+      "evidence_paraphrase": "The official Army field carries historical code 118; NARA's code list defines it as Clerks, general industry.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Corrected historical category 1-18; clerks, general industry"
+        }
+      ],
+      "affiliation_key": "hugh-w-turner-occupation-b970"
+    },
+    {
+      "key": "occupation-john-l-turner-b970",
+      "person_id": "9a83dca7-ea84-5abb-9139-fb7448ee5dde",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1945-06-28, John L Turner's historical civilian-status category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "The 1945 Army-entry date falls within the final months of OSS and its relation to this person's OSS service is uncertain; no institution or employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Corrected historical category 9-92; students"
+        }
+      ],
+      "affiliation_key": "john-l-turner-occupation-b970"
+    },
+    {
+      "key": "occupation-john-m-turner-b970",
+      "person_id": "e695bb1b-ee87-56e8-af3b-5cf51377eed3",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1942-12-12, John M Turner's historical civilian-status category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The protected identifier connects indexed John M Turner to the official Army spelling John M Turner Jr. The suffix remains visible as a variant and is not silently added to the indexed name.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Corrected historical category 9-92; students"
+        }
+      ],
+      "affiliation_key": "john-m-turner-occupation-b970"
+    },
+    {
+      "key": "occupation-marden-s-turner-b970",
+      "person_id": "c7fed2e6-f649-5059-98cc-56d7be89ccdc",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-19, Marden S Turner's historical civilian-status category was foremen, manufacturing.",
+      "evidence_paraphrase": "The official Army field carries historical code 592; NARA's code list defines it as Foremen, manufacturing.",
+      "identity_match_assessment": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no employer, school, workplace or exact OSS-transfer date is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b970",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b970",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b970",
+          "locator_override": "Historical category 5-92; foremen, manufacturing"
+        }
+      ],
+      "affiliation_key": "marden-s-turner-occupation-b970"
+    },
+    {
+      "key": "identity-campbell-turner-b970",
+      "person_id": "d20803ab-67c1-5afe-bde2-f11ea7cb0a02",
+      "claim_type": "identity",
+      "claim_text": "Indexed Campbell Turner is a probable match to Colonel Campbell Turner, director of Turner's Diplomatic School.",
+      "evidence_paraphrase": "Contemporary advertisements use the exact name in 1938 and again in February 1942, but neither identifies OSS service or Box 789.",
+      "identity_match_assessment": "Probable exact-name match across a continuous, unusually specific prewar institutional record; the personnel file is still needed for a direct identity bridge.",
+      "temporal_assessment": "The advertisements document activity through February 1942 but do not establish when the indexed person entered OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified identity lead and excluded from default analytics until Box 789 confirms the match.",
+      "sources": [
+        {
+          "source_key": "nara-index-b970"
+        },
+        {
+          "source_key": "fsj-campbell-turner-1938-b970",
+          "excerpt_override": "COLONEL CAMPBELL TURNER"
+        },
+        {
+          "source_key": "fsj-campbell-turner-1942-b970",
+          "excerpt_override": "COLONEL CAMPBELL TURNER, Director"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-campbell-turner-school-b970",
+      "person_id": "d20803ab-67c1-5afe-bde2-f11ea7cb0a02",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable Campbell Turner served as director of Turner's Diplomatic School from at least 1938 through February 1942.",
+      "evidence_paraphrase": "Foreign Service Journal advertisements identify Colonel Campbell Turner with the school in 1938 and as its director in February 1942.",
+      "identity_match_assessment": "Probable identity; exact name and continuous institution-specific chronology, without a direct OSS or Box 789 bridge.",
+      "temporal_assessment": "Documented before OSS was established, but neither immediate pre-OSS status nor a last civilian employer is established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Modeled as a professional affiliation rather than employment because the advertisements state the role but not the employment arrangement.",
+      "sources": [
+        {
+          "source_key": "fsj-campbell-turner-1938-b970",
+          "excerpt_override": "COLONEL CAMPBELL TURNER"
+        },
+        {
+          "source_key": "fsj-campbell-turner-1942-b970",
+          "excerpt_override": "COLONEL CAMPBELL TURNER, Director"
+        }
+      ],
+      "affiliation_key": "campbell-turner-diplomatic-school-b970"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "cae8ee63-77b7-5b6f-933c-577360d0a0fb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Leonard S Turkowski, Box 789 and archive location 230/86/42/03. A specialist Ritchie Boys roster lead was not admitted because the accessible result did not provide a second person-specific identifier or inspectable pre-OSS chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A specialist Ritchie Boys roster lead was not admitted because the accessible result did not provide a second person-specific identifier or inspectable pre-OSS chronology."
+    },
+    {
+      "person_id": "4ff7bce1-cef9-5c40-b79a-fc4493625ec3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dennis H Turnbull, Box 789 and archive location 230/86/42/03. Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "cb434056-7a1e-54c1-8239-a141caa85f96",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Fredrick Turnbull, Box 789 and archive location 230/86/42/03. The index spelling Fredrick and Frederick variants produced multiple namesakes without two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The index spelling Fredrick and Frederick variants produced multiple namesakes without two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "e406630e-c5da-5d8e-826d-463e8c577e6b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert L Turnbull, Box 789 and archive location 230/86/42/03. The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "3fe00325-5ead-586f-8f25-337bd56c685f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ronald B Turnbull, Box 789 and archive location 230/86/42/03. Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "cb43dd8f-a17c-50ea-8ddb-0bddefb6f932",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William Turnbull, Box 789 and archive location 230/86/42/03. The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "8f4710f2-9061-58c3-b539-b794eb783096",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles N Turner, Box 789 and archive location 230/86/42/03. Exact-name, middle-initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, middle-initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "e87a0151-6edd-5cf4-8686-0937b4e0ae80",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dora Turner, Box 789 and archive location 230/86/42/03. Name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context."
+    },
+    {
+      "person_id": "aa8a566b-5fb0-5694-a270-f56909e7e083",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gladys Turner, Box 789 and archive location 230/86/42/03. Name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context."
+    },
+    {
+      "person_id": "cea7eb07-203b-5308-acc3-8f074a9c52be",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Margaret H Turner, Box 790 and archive location 230/86/42/03. The common name and middle initial produced multiple namesakes without a source linking one to Box 790 or OSS.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name and middle initial produced multiple namesakes without a source linking one to Box 790 or OSS."
+    },
+    {
+      "person_id": "6e04f465-6968-56dc-8252-26dbf33beec3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mildred M Turner, Box 790 and archive location 230/86/42/03. The common name and middle initial produced multiple namesakes without a source linking one to Box 790 or OSS.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name and middle initial produced multiple namesakes without a source linking one to Box 790 or OSS."
+    },
+    {
+      "person_id": "a2f22323-2d3a-50fe-a2b2-b67b8d3a6253",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "5029cf18-6843-58b3-a9d5-bd89a2ffccf4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "98c38d68-3fee-5c00-9cb7-fb7dc7a48249",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact protected identifier connects indexed August A Turlano to the official Army spelling August A Iurlano. The surname conflict remains visible as a variant; the index rank Cpl. and Army-entry grade PVT describe different moments and are not treated as a contradiction.",
+      "name_variants": [
+        "August A Iurlano"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 365 at archive location 230/86/33/06 to resolve the Turlano/Iurlano surname discrepancy and establish the immediate pre-OSS affiliation and named last civilian employer."
+    },
+    {
+      "person_id": "f59b7664-3c11-533c-827f-6cc6f742efc4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "415f3a77-a884-51c3-b9fa-05d7b0575d5e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "e2aea350-195f-5aab-b91f-eecee44b996f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "9a83dca7-ea84-5abb-9139-fb7448ee5dde",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "e695bb1b-ee87-56e8-af3b-5cf51377eed3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The protected identifier connects indexed John M Turner to the official Army spelling John M Turner Jr. The suffix remains visible as a variant and is not silently added to the indexed name.",
+      "name_variants": [
+        "John M Turner Jr"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "c7fed2e6-f649-5059-98cc-56d7be89ccdc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the indexed person to the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "43d20da9-2ff9-5732-8e6c-126abbcb0b40",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. The Army-entry date is after OSS dissolution and code 345 is not safely decoded, so no pre-OSS occupation is projected backward.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and last civilian employer; no usable historical occupation category was established."
+    },
+    {
+      "person_id": "2f9c3116-ab53-51b0-8618-b04abf056627",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact full name and nonshared protected identifier connect the index row to the reviewed official Army row. Historical code 999 supplies no safely decoded civilian occupation.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and last civilian employer; no usable historical occupation category was established."
+    },
+    {
+      "person_id": "d20803ab-67c1-5afe-bde2-f11ea7cb0a02",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "Contemporary Foreign Service Journal advertisements use the exact name Colonel Campbell Turner with Turner's Diplomatic School from 1938 through February 1942, but neither source identifies OSS service or Box 789.",
+      "name_variants": [
+        "Colonel Campbell Turner"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 789 to confirm whether the indexed person directed Turner's Diplomatic School and determine whether that affiliation was immediate before OSS entry or a last civilian employer."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page475-row24-joseph-e-turcotte-b970",
+      "person_id": "a2f22323-2d3a-50fe-a2b2-b67b8d3a6253",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph E Turcotte; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row25-john-turean-b970",
+      "person_id": "5029cf18-6843-58b3-a9d5-bd89a2ffccf4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Turean; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row26-leonard-s-turkowski-b970",
+      "person_id": "cae8ee63-77b7-5b6f-933c-577360d0a0fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leonard S Turkowski; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers. A Ritchie Boys roster search result was retained only as a lead and rejected as final evidence because no inspectable source or second identifier bridged it to the index row.",
+      "research_notes": "A specialist Ritchie Boys roster lead was not admitted because the accessible result did not provide a second person-specific identifier or inspectable pre-OSS chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row27-august-a-turlano-b970",
+      "person_id": "98c38d68-3fee-5c00-9cb7-fb7dc7a48249",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "August A Turlano; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 365 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row28-carl-w-turley-b970",
+      "person_id": "43d20da9-2ff9-5732-8e6c-126abbcb0b40",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl W Turley; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row29-grady-v-turley-b970",
+      "person_id": "2f9c3116-ab53-51b0-8618-b04abf056627",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Grady V Turley; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row30-dennis-h-turnbull-b970",
+      "person_id": "4ff7bce1-cef9-5c40-b79a-fc4493625ec3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dennis H Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row31-douglas-h-turnbull-b970",
+      "person_id": "f59b7664-3c11-533c-827f-6cc6f742efc4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Douglas H Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row32-fredrick-turnbull-b970",
+      "person_id": "cb434056-7a1e-54c1-8239-a141caa85f96",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fredrick Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The index spelling Fredrick and Frederick variants produced multiple namesakes without two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row33-robert-l-turnbull-b970",
+      "person_id": "e406630e-c5da-5d8e-826d-463e8c577e6b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row34-robert-t-turnbull-b970",
+      "person_id": "415f3a77-a884-51c3-b9fa-05d7b0575d5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert T Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row35-ronald-b-turnbull-b970",
+      "person_id": "3fe00325-5ead-586f-8f25-337bd56c685f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ronald B Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row36-william-turnbull-b970",
+      "person_id": "cb43dd8f-a17c-50ea-8ddb-0bddefb6f932",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Turnbull; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name produced multiple namesakes and no source supplied two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row37-campbell-turner-b970",
+      "person_id": "d20803ab-67c1-5afe-bde2-f11ea7cb0a02",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Campbell Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row38-charles-n-turner-b970",
+      "person_id": "8f4710f2-9061-58c3-b539-b794eb783096",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles N Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Exact-name, middle-initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row39-dora-turner-b970",
+      "person_id": "e87a0151-6edd-5cf4-8686-0937b4e0ae80",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dora Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row40-gladys-turner-b970",
+      "person_id": "aa8a566b-5fb0-5694-a270-f56909e7e083",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gladys Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Name-only searches produced multiple plausible namesakes without a second identifier or dated OSS context. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row41-hugh-w-turner-b970",
+      "person_id": "e2aea350-195f-5aab-b91f-eecee44b996f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hugh W Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row42-john-l-turner-b970",
+      "person_id": "9a83dca7-ea84-5abb-9139-fb7448ee5dde",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row43-john-m-turner-b970",
+      "person_id": "e695bb1b-ee87-56e8-af3b-5cf51377eed3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John M Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row44-marden-s-turner-b970",
+      "person_id": "c7fed2e6-f649-5059-98cc-56d7be89ccdc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marden S Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers. Contemporary Utah newspaper references to another Marden Turner were rejected because their National Guard/Air Corps chronology conflicts with the protected-identifier-linked Army-entry chronology.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, student, institutional-affiliation or identity-only outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 789 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row45-margaret-h-turner-b970",
+      "person_id": "cea7eb07-203b-5308-acc3-8f074a9c52be",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Margaret H Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name and middle initial produced multiple namesakes without a source linking one to Box 790 or OSS. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 790 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    },
+    {
+      "key": "page475-row46-mildred-m-turner-b970",
+      "person_id": "6e04f465-6968-56dc-8252-26dbf33beec3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mildred M Turner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 365 and 789-790; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_970",
+      "started_at": "2026-10-30T12:30:00Z",
+      "completed_at": "2026-10-30T16:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes, military service and student status were not silently converted into employers.",
+      "research_notes": "The common name and middle initial produced multiple namesakes without a source linking one to Box 790 or OSS. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and occupation-code pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed Box 790 personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b970-v1"
+    }
+  ]
+}
