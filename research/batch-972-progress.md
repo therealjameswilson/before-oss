@@ -123,5 +123,11 @@ location 230/86/42/04.
 
 ## Publication verification
 
-Pending immutable content commit, CI and unauthenticated deployed-release
-verification.
+Published from immutable content commit
+`5b9c9ccb50bdb78ad8fd2eda324d07e0909ba976`. GitHub Actions Test run
+`41017086287` and Pages run `41017086290` succeeded. The unauthenticated
+deployed-release verifier matched all 67 public assets (130,131,796 bytes;
+manifest SHA-256
+`04bc0c5532115971d745853a0682a9a73077b799828b89e00505b53d9997b21c`),
+eight core routes, 42 source-register pages and all 23 Batch 972 direct profile
+routes at <https://therealjameswilson.github.io/before-oss/>.
