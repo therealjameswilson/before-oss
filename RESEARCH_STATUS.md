@@ -34,7 +34,11 @@ zero-diagnostic build, the 24/24 batch browser matrix and the full 93/93
 browser and accessibility release suite. The checked-in 67-asset public
 manifest verifies locally, and the protected-identifier audit found zero
 unexpected matches. Publication verification will be recorded in
-`reports/release_batch_984.md`.
+`reports/release_batch_984.md`. Publication is public from immutable content
+commit `72d0f67977297f4bd86bfe8ab53e7e1fe4d9e0d4`; GitHub Actions Test run
+`41060223571` and Pages run `41060223583` succeeded. Unauthenticated
+verification matched the 67-asset manifest, eight core routes, 43 source-
+register pages and all 23 Batch 984 profile routes to that commit.
 
 Batch 983 completed PDF page 482, rows 1-23, from **Edward C Veigel**
 through **M P Veran**, preserving all 23 printed rows as separate people with
