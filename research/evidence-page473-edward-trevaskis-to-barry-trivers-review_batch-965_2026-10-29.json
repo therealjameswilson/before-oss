@@ -1,0 +1,2036 @@
+{
+  "bundle_version": "batch-965-v1",
+  "reviewer": "Before OSS Batch 965 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b965",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 785-786",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 473, rows 1-23; checked against layout-preserving text and a 200 dpi page render",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b965",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted and two rejected Batch 965 candidates; protected identifiers withheld",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b965",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b965",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-173 and 175; six Batch 965 historical civilian-occupation categories visually and textually checked",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation groups identify neither employers nor workplaces."
+    },
+    {
+      "key": "times-union-trevett-b965",
+      "stable_url": "https://www.legacy.com/us/obituaries/timesunion-albany/name/richard-trevett-obituary?id=5007718",
+      "title": "Richard S. Trevett Obituary",
+      "author_creator": "Albany Times Union obituary",
+      "repository_publisher": "Albany Times Union; Legacy.com",
+      "publication_record_date": "2016-10-26",
+      "locator": "Obituary paragraphs identifying 1940 graduation, 1942 Army enlistment and OSS radio-operator service",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Albany Times Union obituaries",
+      "rights_notes": "The postwar General Electric career is not presented as pre-OSS employment."
+    },
+    {
+      "key": "nara-trevor-wilson-b965",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "JFK release 104-10165-10120; X-2 Branch award recommendations",
+      "title": "X-2 Branch: Survey of Board Recommendations",
+      "author_creator": "Office of Strategic Services, X-2 Branch",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945",
+      "locator": "PDF physical page 182; Major Arthur G. Trevor-Wilson, British Army, Legion of Merit recommendation; visually inspected",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120"
+    },
+    {
+      "key": "warwick-trevor-wilson-b965",
+      "stable_url": "https://wrap.warwick.ac.uk/id/eprint/81565/1/WRAP_Theses_Shah_2016.pdf",
+      "archival_identifier": "University of Warwick WRAP 81565",
+      "title": "Secret Towns: British Intelligence in Asia during the Cold War",
+      "author_creator": "Nikita Shah",
+      "repository_publisher": "University of Warwick",
+      "publication_record_date": "2016-03",
+      "locator": "Thesis page 184; PDF physical page 199; Arthur Trevor-Wilson biographical paragraph",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Warwick Research Archive Portal",
+      "rights_notes": "Only a concise paraphrase and short excerpt are retained."
+    },
+    {
+      "key": "wisconsin-trewartha-b965",
+      "stable_url": "https://wisconsingeography.wordpress.com/wp-content/uploads/2013/05/1978-cover-pg.pdf",
+      "title": "The Wisconsin Geographer, Volume 16",
+      "author_creator": "Clarence U. Olmstead, compiler",
+      "repository_publisher": "Department of Geography, University of Wisconsin-Madison",
+      "publication_record_date": "1978",
+      "locator": "Printed page 3; PDF physical page 6; dedication and career chronology for Glenn T. Trewartha",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Wisconsin Geographer"
+    },
+    {
+      "key": "truman-trezise-b965",
+      "stable_url": "https://www.trumanlibrary.gov/library/oral-histories/trezise",
+      "title": "Philip Trezise Oral History Interview",
+      "author_creator": "Philip Trezise; interviewed by Richard D. McKinzie",
+      "repository_publisher": "Harry S. Truman Presidential Library and Museum",
+      "publication_record_date": "1975-05-27; opened 1979-06",
+      "locator": "Transcript pages 2-3; Navy-to-OSS transfer and rejected St. John's University offer",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Harry S. Truman Library Oral Histories",
+      "rights_notes": "The interview explicitly says Trezise did not take the St. John's University job; it is not modeled as employment."
+    },
+    {
+      "key": "nara-detachment-101-trifletti-b965",
+      "archival_identifier": "RG 226, Entry UD140, Box 35, Folder 4; Promotions & Citations Report, Detachment 101, 15 May 1945; declassification authority NND 87790",
+      "title": "Promotions & Citations Report, OSS SU Detachment 101, May report",
+      "author_creator": "Office of Strategic Services, Special Unit Detachment 101",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-05-15",
+      "locator": "Enlisted men's recommendations approved; Vincent J. Trifletti, staff sergeant to technical sergeant",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The exact archival identifier is retained because the former third-party scan URL no longer resolves safely."
+    },
+    {
+      "key": "indiana-guard-tripcony-b965",
+      "stable_url": "https://worldwartwoveterans.org/wp-content/uploads/2020/10/National-Guard-of-the-State-of-Indiana-1938-Part-1-of-2-wm.pdf",
+      "title": "Historical Annual, National Guard of the State of Indiana, 1938",
+      "author_creator": "Indiana National Guard, Adjutant General's Office",
+      "repository_publisher": "Indiana National Guard; digital reproduction by World War II Veterans",
+      "publication_record_date": "1938; digital reproduction 2020",
+      "locator": "PDF physical pages 158-159; Medical Department Detachment, Columbia City; Bonnell L. Tripcony listed among privates",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Indiana National Guard historical annuals"
+    },
+    {
+      "key": "washington-post-tritsch-b965",
+      "stable_url": "https://www.legacy.com/us/obituaries/washingtonpost/name/arthur-tritsch-obituary?id=5601765",
+      "title": "Arthur Albert Tritsch Jr. Obituary",
+      "author_creator": "Washington Post obituary",
+      "repository_publisher": "The Washington Post; Legacy.com",
+      "publication_record_date": "2007-11-08",
+      "locator": "Obituary paragraph identifying 1941 Army enlistment, OSS service and photographic-reconnaissance specialty",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Washington Post obituaries"
+    },
+    {
+      "key": "free-library-trivanovitch-b965",
+      "stable_url": "https://catalog.freelibrary.org/Record/767932",
+      "archival_identifier": "Free Library of Philadelphia catalog record ocm00522705",
+      "title": "International Transactions of the United States: An Audit and Interpretation of Balance-of-Payments Estimates",
+      "author_creator": "National Industrial Conference Board; Ray Ovid Hall; Vaso Trivanovitch, editor",
+      "repository_publisher": "Free Library of Philadelphia catalog",
+      "publication_record_date": "1936",
+      "locator": "Catalog item description and MARC note identifying Trivanovitch as a member of the Board's staff",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Free Library of Philadelphia catalog"
+    },
+    {
+      "key": "smithsonian-trivanovitch-b965",
+      "stable_url": "https://www.aaa.si.edu/collections/interviews/oral-history-interview-miriam-hapgood-dewitt-12941",
+      "archival_identifier": "Archives of American Art oral-history record edanmdm-AAADCD_oh_215739",
+      "title": "Oral History Interview with Miriam Hapgood DeWitt, 1987-1988",
+      "author_creator": "Miriam Hapgood DeWitt; interviewed by Robert F. Brown",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "publication_record_date": "1987-1988",
+      "locator": "Transcript around 00:26:24-00:30:05; Vaso Trivanovitch identified as an economist met at a wartime government agency",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Archives of American Art Oral History Program",
+      "rights_notes": "The interview does not name OSS and is used only as corroborating identity and occupation context."
+    },
+    {
+      "key": "afi-trivers-b965",
+      "stable_url": "https://catalog.afi.com/Catalog/MovieDetails/26698?cxt=filmography",
+      "archival_identifier": "AFI Catalog movie record 26698",
+      "title": "Flight from Destiny",
+      "author_creator": "American Film Institute Catalog of Feature Films",
+      "repository_publisher": "American Film Institute",
+      "publication_record_date": "1941-02-08",
+      "locator": "Full credits, Writers; Barry Trivers credited for screenplay; release details",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "AFI Catalog of Feature Films",
+      "rights_notes": "A film credit establishes professional writing activity, not employment by the studio."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b965",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "US Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; exact component and unit remain unresolved where the source does not identify them."
+    },
+    {
+      "key": "us-navy-b965",
+      "organization_id": "3960fa8e-a551-56cf-8305-b2b9e4961b9d",
+      "canonical_name": "United States Navy",
+      "historical_name": "United States Navy",
+      "aliases": [
+        "U.S. Navy",
+        "Navy",
+        "USN"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; Trezise's rank and component remain unresolved."
+    },
+    {
+      "key": "wisconsin-b965",
+      "organization_id": "4a1a13c4-1aee-5ab1-ac44-16b7a037b7d4",
+      "canonical_name": "University of Wisconsin-Madison",
+      "historical_name": "University of Wisconsin",
+      "aliases": [
+        "University of Wisconsin",
+        "UW-Madison"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Madison",
+      "state_or_region": "Wisconsin",
+      "country": "United States",
+      "normalization_notes": "The historical employer wording is preserved separately from the modern canonical name."
+    },
+    {
+      "key": "indiana-guard-b965",
+      "organization_id": "f500e532-8599-537c-8c0b-cf11a8c1ee6b",
+      "canonical_name": "Indiana National Guard",
+      "historical_name": "Indiana National Guard",
+      "aliases": [
+        "National Guard of the State of Indiana"
+      ],
+      "organization_type": "state military organization",
+      "sector": "military",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "normalization_notes": "The 1938 Medical Department Detachment is preserved as a unit detail, not silently merged into a later federal Army assignment."
+    },
+    {
+      "key": "broadalbin-high-b965",
+      "canonical_name": "Broadalbin High School",
+      "historical_name": "Broadalbin High School",
+      "organization_type": "secondary school",
+      "sector": "academia_and_research",
+      "city": "Broadalbin",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Trevett's relationship is student status and is not counted as employment."
+    },
+    {
+      "key": "nicb-b965",
+      "canonical_name": "National Industrial Conference Board",
+      "historical_name": "National Industrial Conference Board, Inc.",
+      "aliases": [
+        "Conference Board",
+        "NICB"
+      ],
+      "organization_type": "business research organization",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1916-1970",
+      "normalization_notes": "The historical organization is not silently replaced by a modern successor name."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "curtis-d-trevathan-occupation-b965",
+      "person_id": "cc6c821b-f2dd-5a1c-aea7-7075d9ed9f75",
+      "occupation": "apprentice to another trade",
+      "relationship_type": "employment",
+      "end_date": "1943-01-07",
+      "date_precision": "Historical civilian-occupation code 799 was recorded at Army entry on 1943-01-07; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "richard-s-trevett-occupation-b965",
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "occupation": "general office clerk",
+      "relationship_type": "employment",
+      "end_date": "1942-11-09",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1942-11-09; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "leonard-g-trexler-occupation-b965",
+      "person_id": "3805afc8-7986-5daf-9a0b-deca137f4390",
+      "occupation": "unskilled clay-products production occupation",
+      "relationship_type": "employment",
+      "end_date": "1943-01-07",
+      "date_precision": "Historical civilian-occupation code 866 was recorded at Army entry on 1943-01-07; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "john-e-triesner-occupation-b965",
+      "person_id": "e674cc03-2add-5526-b953-d389e2093d5e",
+      "occupation": "electrical engineer",
+      "relationship_type": "employment",
+      "end_date": "1944-01-04",
+      "date_precision": "Historical civilian-occupation code 017 was recorded at Army entry on 1944-01-04; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "norman-m-trigalet-occupation-b965",
+      "person_id": "01afa479-d58b-5c99-bc78-26a7f5b6f897",
+      "occupation": "bartender",
+      "relationship_type": "employment",
+      "end_date": "1941-02-04",
+      "date_precision": "Historical civilian-occupation code 221 was recorded at Army entry on 1941-02-04; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "raymond-e-triplett-occupation-b965",
+      "person_id": "df5f7faa-df5d-5f9c-8a72-9587c69299a1",
+      "occupation": "photographer",
+      "relationship_type": "employment",
+      "end_date": "1943-10-25",
+      "date_precision": "Historical civilian-occupation code 056 was recorded at Army entry on 1943-10-25; no employer, workplace or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace, exact specialization or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "richard-trevett-broadalbin-b965",
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "organization_key": "broadalbin-high-b965",
+      "organization_name_as_found": "Broadalbin High School",
+      "role_title": "student",
+      "relationship_type": "student",
+      "end_date": "1940",
+      "date_precision": "The obituary states that Trevett graduated in 1940; it does not identify later civilian employment before his 1942 Army enlistment.",
+      "city": "Broadalbin",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Education is preserved as student status and not treated as an employer."
+    },
+    {
+      "key": "arthur-trevor-wilson-perfume-b965",
+      "person_id": "849c7517-d88a-5db9-87e5-eb8d45592c13",
+      "organization_name_as_found": "unnamed French perfume house",
+      "role_title": "employee",
+      "occupation": "perfume-house employee",
+      "relationship_type": "employment",
+      "end_date": "1942",
+      "date_precision": "The scholarly source says he spent the interwar years at a French perfume house and was MI6 station chief in Algiers by 1942; the employer is not named.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The unnamed historical employer is not normalized to a modern company and is not claimed as the immediate OSS predecessor."
+    },
+    {
+      "key": "glenn-trewartha-wisconsin-b965",
+      "person_id": "53fea1d3-d777-5d70-b6e1-44d86bb73fab",
+      "organization_key": "wisconsin-b965",
+      "organization_name_as_found": "University of Wisconsin",
+      "role_title": "instructor and professor of geography",
+      "occupation": "geography professor",
+      "relationship_type": "employment",
+      "start_date": "1922",
+      "date_precision": "The institutional history dates instructor service to 1922, assistant-professor service to 1926 and a 59-year Wisconsin geography career; 1942 marks the pre-OSS research boundary, not termination.",
+      "city": "Madison",
+      "state_or_region": "Wisconsin",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The employer is explicit, but the Box 785 file must confirm the rare-name identity and exact OSS chronology."
+    },
+    {
+      "key": "philip-trezise-navy-b965",
+      "person_id": "e9ee2cd1-b2bf-5f49-9cf9-5b4e9dc92b29",
+      "organization_key": "us-navy-b965",
+      "organization_name_as_found": "Navy",
+      "relationship_type": "military_assignment",
+      "end_date": "1945",
+      "date_precision": "Trezise explicitly recalled being co-opted from the Navy to OSS during World War II; exact transfer date, component and rank are not supplied.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The unaccepted St. John's University offer is explicitly excluded from employment claims."
+    },
+    {
+      "key": "bonnell-tripcony-indiana-guard-b965",
+      "person_id": "3a2f3978-8978-58b2-a5c7-52df9fea8dbd",
+      "organization_key": "indiana-guard-b965",
+      "organization_name_as_found": "National Guard of the State of Indiana",
+      "role_title": "private, Medical Department Detachment",
+      "relationship_type": "military_assignment",
+      "end_date": "1938",
+      "date_precision": "The 1938 annual lists the exact rare name among the detachment's privates; it does not document later federal service or an OSS transfer date.",
+      "city": "Columbia City",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as a qualified earlier military affiliation pending Box 786 review."
+    },
+    {
+      "key": "arthur-tritsch-army-b965",
+      "person_id": "6eec0862-b778-5316-8dac-ac5a78be8dec",
+      "organization_key": "us-army-b965",
+      "organization_name_as_found": "U.S. Army",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "end_date": "1945",
+      "date_precision": "The obituary states that Tritsch enlisted in 1941 and then served with OSS throughout World War II; exact unit, transfer date and commissioning chronology are not supplied.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source supports an Army-to-OSS pathway but not the exact administrative transfer or a civilian employer."
+    },
+    {
+      "key": "vaso-trivanovitch-nicb-b965",
+      "person_id": "3b46fb9d-a240-5366-856c-4db2e7c9fbf8",
+      "organization_key": "nicb-b965",
+      "organization_name_as_found": "National Industrial Conference Board",
+      "role_title": "research staff member and editor",
+      "occupation": "economist",
+      "relationship_type": "employment",
+      "start_date": "1933",
+      "end_date": "1936",
+      "date_precision": "Catalog records document his economic investigation in 1933 and explicitly identify him as a Board staff member and editor in 1936.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare name and economist occupation support a probable identity; the wartime agency is not identified as OSS in the corroborating oral history."
+    },
+    {
+      "key": "barry-trivers-screenwriter-b965",
+      "person_id": "36192a2e-94fe-54fb-88bf-2b5d14d3c1b4",
+      "role_title": "screenplay writer",
+      "occupation": "screenwriter",
+      "relationship_type": "professional_affiliation",
+      "end_date": "1941-02-08",
+      "date_precision": "AFI credits Trivers for the screenplay of a film released on 8 February 1941; the credit does not establish an employment contract or OSS chronology.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Warner Bros. is not inferred to be his employer from a film credit alone."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-curtis-d-trevathan-army-b965",
+      "person_id": "cc6c821b-f2dd-5a1c-aea7-7075d9ed9f75",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Curtis D Trevathan is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 2; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-curtis-d-trevathan-army-b965",
+      "person_id": "cc6c821b-f2dd-5a1c-aea7-7075d9ed9f75",
+      "affiliation_key": "curtis-d-trevathan-occupation-b965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-07, the record coded Curtis D Trevathan's civilian occupation as Apprentices to other trades.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 799; NARA's historical code list expands it to Apprentices to other trades.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation evidence and excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted identity record; civilian occupation code 799; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b965",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b965",
+          "locator_override": "PDF physical page 175; historical category 7-99",
+          "excerpt_override": "Apprentices to other trades"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-s-trevett-army-b965",
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Richard S Trevett is a confirmed match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record. An independent obituary repeats his exact name, Army chronology and OSS radio service.",
+      "identity_match_assessment": "Confirmed by exact identifier agreement plus an independent exact-name OSS obituary.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 3; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "times-union-trevett-b965",
+          "locator_override": "Obituary paragraphs on 1940 graduation, 1942 enlistment and OSS radio service",
+          "excerpt_override": "served as a radio operator for the O.S.S."
+        }
+      ]
+    },
+    {
+      "key": "occupation-richard-s-trevett-army-b965",
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "affiliation_key": "richard-s-trevett-occupation-b965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-09, the record coded Richard S Trevett's civilian occupation as Clerks, general office.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 105; NARA's historical code list expands it to Clerks, general office.",
+      "identity_match_assessment": "Confirmed identity from independent exact-name OSS evidence and the accepted identifier bridge.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation evidence and excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b965",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b965",
+          "locator_override": "PDF physical page 171; historical category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-leonard-g-trexler-army-b965",
+      "person_id": "3805afc8-7986-5daf-9a0b-deca137f4390",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Leonard G Trexler is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 6; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-leonard-g-trexler-army-b965",
+      "person_id": "3805afc8-7986-5daf-9a0b-deca137f4390",
+      "affiliation_key": "leonard-g-trexler-occupation-b965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-07, the record coded Leonard G Trexler's civilian occupation as Unskilled occupations in production of clay products.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 866; NARA's historical code list expands it to Unskilled occupations in production of clay products.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation evidence and excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted identity record; civilian occupation code 866; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b965",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b965",
+          "locator_override": "PDF physical page 173; historical category 8-66",
+          "excerpt_override": "Unskilled occupations in production of clay products"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-e-triesner-army-b965",
+      "person_id": "e674cc03-2add-5526-b953-d389e2093d5e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed John E Triesner is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 10; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-e-triesner-army-b965",
+      "person_id": "e674cc03-2add-5526-b953-d389e2093d5e",
+      "affiliation_key": "john-e-triesner-occupation-b965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-01-04, the record coded John E Triesner's civilian occupation as Engineers, electrical.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 017; NARA's historical code list expands it to Engineers, electrical.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation evidence and excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted identity record; civilian occupation code 017; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b965",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b965",
+          "locator_override": "PDF physical page 170; historical category 0-17",
+          "excerpt_override": "Engineers, electrical"
+        }
+      ]
+    },
+    {
+      "key": "identity-norman-m-trigalet-army-b965",
+      "person_id": "01afa479-d58b-5c99-bc78-26a7f5b6f897",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Norman M Trigalet is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 13; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-norman-m-trigalet-army-b965",
+      "person_id": "01afa479-d58b-5c99-bc78-26a7f5b6f897",
+      "affiliation_key": "norman-m-trigalet-occupation-b965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-02-04, the record coded Norman M Trigalet's civilian occupation as Bartenders.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 221; NARA's historical code list expands it to Bartenders.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation evidence and excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted identity record; civilian occupation code 221; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b965",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b965",
+          "locator_override": "PDF physical page 172; historical category 2-21",
+          "excerpt_override": "Bartenders"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-e-triplett-army-b965",
+      "person_id": "df5f7faa-df5d-5f9c-8a72-9587c69299a1",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Raymond E Triplett is a high-confidence match to the reviewed official Army entry.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement plus compatible full-name evidence.",
+      "temporal_assessment": "Identity evidence only; the Army entry does not itself establish an OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review accepts identity only for this source row and does not expose the protected identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 17; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-raymond-e-triplett-army-b965",
+      "person_id": "df5f7faa-df5d-5f9c-8a72-9587c69299a1",
+      "affiliation_key": "raymond-e-triplett-occupation-b965",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-10-25, the record coded Raymond E Triplett's civilian occupation as Photographers.",
+      "evidence_paraphrase": "The official Army record contains civilian-occupation code 056; NARA's historical code list expands it to Photographers.",
+      "identity_match_assessment": "High-confidence identity from the accepted protected-identifier bridge and compatible full-name evidence.",
+      "temporal_assessment": "The code was recorded at Army entry and is date-bounded, but it identifies no employer, workplace or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published as qualified occupation evidence and excluded from named-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b965",
+          "locator_override": "Accepted identity record; civilian occupation code 056; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b965",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b965",
+          "locator_override": "PDF physical page 171; historical category 0-56",
+          "excerpt_override": "Photographers"
+        }
+      ]
+    },
+    {
+      "key": "conflict-edward-trevaskis-army-b965",
+      "person_id": "a86f8f5e-1b90-507d-8b07-156121038784",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Edward M Trevaskis has a rejected Army candidate whose protected identifier agrees but whose printed name is incompatible and corrupt.",
+      "evidence_paraphrase": "The private identifier selects an Army row with a name that does not match Trevaskis; no occupation, date or grade is transferred.",
+      "identity_match_assessment": "Conflicting source selectors. Identifier agreement alone cannot overcome a materially incompatible name.",
+      "temporal_assessment": "Identity conflict only; all candidate biographical fields are withheld.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The candidate remains reviewable in the private decision ledger; the public claim exposes no identifier or raw Army row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 1; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "support_type": "contradicts",
+          "locator_override": "Rejected incompatible-name candidate; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "conflict-samuel-trifiletti-army-b965",
+      "person_id": "5cbcdd94-4fee-5e50-9bc2-51c4031de526",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Samuel L Trifiletti has a rejected Army candidate that prints Samuel F Trifiletti despite protected-identifier agreement.",
+      "evidence_paraphrase": "The middle-initial disagreement is preserved and the candidate's occupation, date and grade are not transferred.",
+      "identity_match_assessment": "Conflicting. The exact surname and first name plus identifier are strong, but the middle initial differs and no independent bridge resolves it.",
+      "temporal_assessment": "Identity conflict only; the dated occupation remains withheld.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Do not merge the initials or publish the candidate occupation until Box 785 or another direct source resolves the discrepancy.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 11; Samuel L Trifiletti; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b965",
+          "support_type": "contradicts",
+          "locator_override": "Rejected Samuel F Trifiletti candidate; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "student-richard-trevett-broadalbin-b965",
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "affiliation_key": "richard-trevett-broadalbin-b965",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Richard S. Trevett graduated from Broadalbin High School in 1940 before entering the Army in 1942.",
+      "evidence_paraphrase": "The obituary supplies the school, graduation year, Army-entry year and OSS radio-operator service.",
+      "identity_match_assessment": "Confirmed by the exact protected-identifier Army bridge and independent exact-name obituary.",
+      "temporal_assessment": "Documented prewar education; the two-year interval means it is not labeled the immediate OSS predecessor or an employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is explicitly separated from employment.",
+      "sources": [
+        {
+          "source_key": "times-union-trevett-b965",
+          "locator_override": "Obituary paragraph on 1940 graduation and 1942 Army enlistment"
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-trevor-wilson-b965",
+      "person_id": "849c7517-d88a-5db9-87e5-eb8d45592c13",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Arthur G Trevor Wilson is confirmed as British Army Major Arthur G. Trevor-Wilson, an Allied counterintelligence officer who cooperated with OSS.",
+      "evidence_paraphrase": "An original OSS X-2 award sheet supplies the exact name variant, middle initial, British Army rank and detailed counterintelligence cooperation.",
+      "identity_match_assessment": "Confirmed by the uncommon exact name and middle initial, British Army status and direct original OSS record.",
+      "temporal_assessment": "The source documents wartime Allied cooperation, not a transfer into U.S. OSS employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The hyphenated surname and expanded full name are preserved as documented variants.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 4; Box 785"
+        },
+        {
+          "source_key": "nara-trevor-wilson-b965",
+          "locator_override": "PDF physical page 182; first Legion of Merit entry",
+          "excerpt_override": "(Major) Arthur G. Trevor-Wilson (Brit Army)"
+        }
+      ]
+    },
+    {
+      "key": "prewar-arthur-trevor-wilson-perfume-b965",
+      "person_id": "849c7517-d88a-5db9-87e5-eb8d45592c13",
+      "affiliation_key": "arthur-trevor-wilson-perfume-b965",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before wartime intelligence service, Arthur Trevor-Wilson worked for an unnamed French perfume house during the interwar years.",
+      "evidence_paraphrase": "A scholarly history states that he spent the interwar years at a French perfume house before becoming MI6 station chief in Algiers in 1942.",
+      "identity_match_assessment": "Confirmed identity from the original OSS award sheet; the scholarly source uses the same rare hyphenated name and intelligence chronology.",
+      "temporal_assessment": "Documented prewar employment. The employer is unnamed and immediacy relative to OSS cooperation is not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No company name or modern successor is inferred.",
+      "sources": [
+        {
+          "source_key": "warwick-trevor-wilson-b965",
+          "locator_override": "Thesis page 184; PDF physical page 199",
+          "excerpt_override": "spent the inter-war years working for a French perfume house"
+        }
+      ]
+    },
+    {
+      "key": "identity-glenn-trewartha-b965",
+      "person_id": "53fea1d3-d777-5d70-b6e1-44d86bb73fab",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Glenn T Trewartha is a probable match to University of Wisconsin geographer Glenn Thomas Trewartha.",
+      "evidence_paraphrase": "The institutional history supplies the rare exact name, expanded middle name, continuous Wisconsin geography career and extensive Japan expertise.",
+      "identity_match_assessment": "Probable from the rare exact name and compatible specialist background; no independent public OSS, Box 785 or protected-identifier bridge was found.",
+      "temporal_assessment": "The career chronology begins in 1920 and spans the wartime period, but the exact OSS relationship is unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The identity and employer remain visibly qualified pending personnel-file review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 5; Box 785"
+        },
+        {
+          "source_key": "wisconsin-trewartha-b965",
+          "locator_override": "Printed page 3; PDF physical page 6"
+        }
+      ]
+    },
+    {
+      "key": "prewar-glenn-trewartha-wisconsin-b965",
+      "person_id": "53fea1d3-d777-5d70-b6e1-44d86bb73fab",
+      "affiliation_key": "glenn-trewartha-wisconsin-b965",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match indicates that Glenn T. Trewartha taught geography at the University of Wisconsin from the 1920s through the pre-OSS period.",
+      "evidence_paraphrase": "The departmental history dates assistant service to 1920-1921, instructor service to 1922 and assistant-professor service to 1926 within a long Wisconsin career.",
+      "identity_match_assessment": "Probable identity only; the rare name and specialist field are strong but do not independently prove the OSS index match.",
+      "temporal_assessment": "Documented prewar employment, but the exact OSS start and any wartime leave or transfer are not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified employment and excluded from confirmed/high default employer analytics.",
+      "sources": [
+        {
+          "source_key": "wisconsin-trewartha-b965",
+          "locator_override": "Printed page 3; PDF physical page 6"
+        }
+      ]
+    },
+    {
+      "key": "identity-philip-trezise-b965",
+      "person_id": "e9ee2cd1-b2bf-5f49-9cf9-5b4e9dc92b29",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Philip Trezise is confirmed as the U.S. Navy serviceman who recalled being transferred to OSS and sent to China.",
+      "evidence_paraphrase": "In a presidential-library oral history, Trezise directly describes his Navy-to-OSS transfer and subsequent China assignment.",
+      "identity_match_assessment": "Confirmed by the uncommon exact name and first-person account explicitly naming Navy, OSS and China.",
+      "temporal_assessment": "The first-person chronology explicitly places Navy service immediately before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The rejected St. John's University offer is not an affiliation or employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 7; Box 785"
+        },
+        {
+          "source_key": "truman-trezise-b965",
+          "locator_override": "Transcript page 2",
+          "excerpt_override": "I was co-opted from the Navy to OSS"
+        }
+      ]
+    },
+    {
+      "key": "immediate-philip-trezise-navy-b965",
+      "person_id": "e9ee2cd1-b2bf-5f49-9cf9-5b4e9dc92b29",
+      "affiliation_key": "philip-trezise-navy-b965",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Philip Trezise's immediate pre-OSS affiliation was service in the United States Navy.",
+      "evidence_paraphrase": "Trezise explicitly states that OSS co-opted him from the Navy during World War II.",
+      "identity_match_assessment": "Confirmed by a first-person presidential-library oral history and the uncommon exact index name.",
+      "temporal_assessment": "Explicit immediate: the interview directly describes movement from Navy to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Rank, component, exact date and last civilian employer remain unresolved.",
+      "sources": [
+        {
+          "source_key": "truman-trezise-b965",
+          "locator_override": "Transcript page 2",
+          "excerpt_override": "co-opted from the Navy to OSS"
+        }
+      ]
+    },
+    {
+      "key": "identity-vincent-trifletti-b965",
+      "person_id": "6bfa53b8-ca2d-5f76-9b0e-fbcdbb2d8e00",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Vincent J Trifletti is confirmed as the enlisted OSS Detachment 101 member recommended for promotion in May 1945.",
+      "evidence_paraphrase": "An original OSS promotion report names Vincent J. Trifletti and records an approved staff-sergeant-to-technical-sergeant recommendation.",
+      "identity_match_assessment": "Confirmed by the rare exact full name and middle initial in both the index and a direct original OSS unit record.",
+      "temporal_assessment": "The source documents OSS service in May 1945 but supplies no pre-OSS employer or transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The public record identifies enlisted status without exposing the index identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 12; Box 785"
+        },
+        {
+          "source_key": "nara-detachment-101-trifletti-b965",
+          "locator_override": "Enlisted men's recommendations approved",
+          "excerpt_override": "Trifletti, Vincent J"
+        }
+      ]
+    },
+    {
+      "key": "identity-bonnell-tripcony-b965",
+      "person_id": "3a2f3978-8978-58b2-a5c7-52df9fea8dbd",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Bonnell L Tripcony is a probable match to the Indiana National Guard private listed in a 1938 unit roster.",
+      "evidence_paraphrase": "The contemporary state military annual supplies the rare exact full name and middle initial in a Columbia City medical detachment.",
+      "identity_match_assessment": "Probable from the rare exact name and compatible prewar military context; no independent OSS, Box 786 or protected-identifier bridge was found.",
+      "temporal_assessment": "The 1938 record predates OSS but does not establish a later transfer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The identity remains qualified pending Box 786 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 15; Box 786"
+        },
+        {
+          "source_key": "indiana-guard-tripcony-b965",
+          "locator_override": "PDF physical pages 158-159; Medical Department Detachment roster"
+        }
+      ]
+    },
+    {
+      "key": "prewar-bonnell-tripcony-guard-b965",
+      "person_id": "3a2f3978-8978-58b2-a5c7-52df9fea8dbd",
+      "affiliation_key": "bonnell-tripcony-indiana-guard-b965",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match indicates that Bonnell L. Tripcony served as a private in an Indiana National Guard medical detachment in 1938.",
+      "evidence_paraphrase": "The 1938 annual lists Bonnell L. Tripcony among the detachment's privates and places the unit in Columbia City, Indiana.",
+      "identity_match_assessment": "Probable identity from the rare exact name; the personnel file has not yet supplied an OSS bridge.",
+      "temporal_assessment": "Documented prewar military affiliation, not proven to be the immediate OSS predecessor.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified earlier military affiliation and excluded from confirmed/high default analytics.",
+      "sources": [
+        {
+          "source_key": "indiana-guard-tripcony-b965",
+          "locator_override": "PDF physical pages 158-159; Medical Department Detachment roster",
+          "excerpt_override": "TRIPCONY, BONNELL L."
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-tritsch-b965",
+      "person_id": "6eec0862-b778-5316-8dac-ac5a78be8dec",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Indexed Arthur A Tritsch is a high-confidence match to Arthur Albert Tritsch Jr., who served with OSS after entering the U.S. Army.",
+      "evidence_paraphrase": "The Washington Post obituary supplies the exact uncommon name, expanded middle name, 1941 Army entry, direct OSS service and photographic-reconnaissance specialty.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, middle initial, explicit OSS service and compatible wartime Army chronology.",
+      "temporal_assessment": "The chronology establishes wartime service but not the exact OSS transfer or commissioning date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Later rank and postwar employment are not projected backward into the OSS period.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 20; Box 786"
+        },
+        {
+          "source_key": "washington-post-tritsch-b965",
+          "locator_override": "Opening obituary paragraph",
+          "excerpt_override": "served with the OSS in southern Europe, Panama and North Africa"
+        }
+      ]
+    },
+    {
+      "key": "immediate-arthur-tritsch-army-b965",
+      "person_id": "6eec0862-b778-5316-8dac-ac5a78be8dec",
+      "affiliation_key": "arthur-tritsch-army-b965",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Arthur A. Tritsch's best-supported pathway into OSS was U.S. Army service beginning in 1941.",
+      "evidence_paraphrase": "The obituary states that Tritsch enlisted in the Army in 1941 and then served with OSS throughout World War II.",
+      "identity_match_assessment": "High-confidence identity from the uncommon exact name and explicit OSS biography.",
+      "temporal_assessment": "Probable immediate: the ordered chronology supports an Army-to-OSS pathway, but no transfer order or exact date was found.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The claim is visibly qualified and does not establish commissioned status or a civilian employer.",
+      "sources": [
+        {
+          "source_key": "washington-post-tritsch-b965",
+          "locator_override": "Opening obituary paragraph"
+        }
+      ]
+    },
+    {
+      "key": "identity-vaso-trivanovitch-b965",
+      "person_id": "3b46fb9d-a240-5366-856c-4db2e7c9fbf8",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Vaso Trivanovitch is a probable match to the economist who worked for the National Industrial Conference Board and later at a wartime government agency.",
+      "evidence_paraphrase": "Institutional catalog and oral-history sources independently supply the rare exact name, economist occupation and prewar-to-wartime chronology.",
+      "identity_match_assessment": "Probable from a highly distinctive exact name and consistent economist role; the oral history does not identify the wartime agency as OSS.",
+      "temporal_assessment": "The 1933-1936 employment clearly predates OSS; the wartime agency sequence remains incomplete.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The identity remains qualified and the physical file is needed to name the wartime agency and OSS entry path.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 22; Box 786"
+        },
+        {
+          "source_key": "free-library-trivanovitch-b965",
+          "locator_override": "Catalog item description and MARC note"
+        },
+        {
+          "source_key": "smithsonian-trivanovitch-b965",
+          "support_type": "context_only",
+          "locator_override": "Transcript around 00:26:24-00:30:05"
+        }
+      ]
+    },
+    {
+      "key": "prewar-vaso-trivanovitch-nicb-b965",
+      "person_id": "3b46fb9d-a240-5366-856c-4db2e7c9fbf8",
+      "affiliation_key": "vaso-trivanovitch-nicb-b965",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match documents Vaso Trivanovitch as a National Industrial Conference Board staff economist and editor by 1936.",
+      "evidence_paraphrase": "The library catalog quotes the publication note identifying Trivanovitch as a member of the Board's staff and editor of the report.",
+      "identity_match_assessment": "Probable identity from the rare exact name, economist occupation and corroborating wartime oral-history context.",
+      "temporal_assessment": "Documented prewar employment in 1933-1936; it is not shown to be the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified earlier employment and excluded from confirmed/high default employer analytics.",
+      "sources": [
+        {
+          "source_key": "free-library-trivanovitch-b965",
+          "locator_override": "Catalog item description and MARC note",
+          "excerpt_override": "Vaso Trivanovitch, also of the Board's staff"
+        }
+      ]
+    },
+    {
+      "key": "identity-barry-trivers-b965",
+      "person_id": "36192a2e-94fe-54fb-88bf-2b5d14d3c1b4",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Barry Trivers is a probable match to the screenwriter credited by the American Film Institute in 1941.",
+      "evidence_paraphrase": "AFI supplies the rare exact name and a dated prewar screenplay credit.",
+      "identity_match_assessment": "Probable from the rare exact name and compatible chronology; no independent OSS, Box 786 or protected-identifier bridge was found.",
+      "temporal_assessment": "The film credit predates OSS but does not establish the timing of any OSS association.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The identity remains qualified pending personnel-file review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b965",
+          "locator_override": "PDF page 473 row 23; Box 786"
+        },
+        {
+          "source_key": "afi-trivers-b965",
+          "locator_override": "Full credits, Writers; release details"
+        }
+      ]
+    },
+    {
+      "key": "prewar-barry-trivers-screenwriter-b965",
+      "person_id": "36192a2e-94fe-54fb-88bf-2b5d14d3c1b4",
+      "affiliation_key": "barry-trivers-screenwriter-b965",
+      "claim_type": "occupation",
+      "claim_text": "A probable identity match indicates that Barry Trivers was working as a screenwriter before the wartime OSS period.",
+      "evidence_paraphrase": "The AFI Catalog credits Barry Trivers for the screenplay of Flight from Destiny, released in February 1941.",
+      "identity_match_assessment": "Probable identity from the rare exact name; no independent OSS bridge was found.",
+      "temporal_assessment": "Documented prewar professional activity, but neither a studio employment relationship nor immediacy is established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The film credit is not converted into employment by Warner Bros. or another production company.",
+      "sources": [
+        {
+          "source_key": "afi-trivers-b965",
+          "locator_override": "Full credits, Writers; release date",
+          "excerpt_override": "Barry Trivers — Scr"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a03f9a5e-c228-5651-bba5-20e98ad00c52",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Andre Tricard, Box 785 and archive location 230/86/42/03. Exact-name, spelling-variant, official-domain, occupation, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 785 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "342ecd8d-85bb-5c7c-ab27-709c7bc95573",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Arthur Triebwasser, Box 785 and archive location 230/86/42/03. A later accounting lead and regional namesakes lack an OSS, Box 785 or protected-identifier bridge and cannot support a pre-OSS claim.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 785 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3d0e3029-78ca-510c-ae1f-32aafa4c5d0d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harold R Trimble, Box 786 and archive location 230/86/42/03. The common name produced multiple military and civilian namesakes without two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 786 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ab62ea6f-75de-567e-9524-8af26054a8d8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Cecil L Triplett, Box 786 and archive location 230/86/42/03. Exact-name and rank-variant searches produced no reliable OSS identity or pre-OSS affiliation source for the Box 786 row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 786 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d2e3f6f2-942f-5d3e-b850-0913d39ba058",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis C Trippel, Box 786 and archive location 230/86/42/03. Accessible exact-name, occupation, obituary and archival results did not establish the indexed person's identity or chronology.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 786 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04a73096-7a1f-5c3a-8aec-36b2a1320ab3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George R Triska, Box 786 and archive location 230/86/42/03. Exact-name and variant searches produced no reliable identity bridge, dated occupation or employing organization.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 786 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a4007d7c-1236-5e83-b91b-9714712011e1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Madeline E Tritsch, Box 786 and archive location 230/86/42/03. The adjacent Arthur Tritsch record does not establish kinship or shared biography; no independent source identifies Madeline E Tritsch.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 786 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cc6c821b-f2dd-5a1c-aea7-7075d9ed9f75",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Curtis D Trevathan index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 or 786 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Richard S Trevett index row to the reviewed official Army record. An independent exact-name obituary also supplies compatible Army chronology and direct OSS radio service.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 or 786 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Richard S. \"Dick\" Trevett"
+      ]
+    },
+    {
+      "person_id": "3805afc8-7986-5daf-9a0b-deca137f4390",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Leonard G Trexler index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 or 786 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e674cc03-2add-5526-b953-d389e2093d5e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified John E Triesner index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 or 786 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "01afa479-d58b-5c99-bc78-26a7f5b6f897",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Norman M Trigalet index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 or 786 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "df5f7faa-df5d-5f9c-8a72-9587c69299a1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified Raymond E Triplett index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 or 786 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a86f8f5e-1b90-507d-8b07-156121038784",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier selects an official Army candidate whose printed name is materially incompatible and corrupt. The candidate was rejected and no biographical field was transferred.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 785 and an original service record to resolve the protected-identifier conflict. No candidate occupation or employer has been transferred.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5cbcdd94-4fee-5e50-9bc2-51c4031de526",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier selects Samuel F Trifiletti, while the index prints Samuel L Trifiletti. The middle-initial conflict is unresolved, so the candidate was rejected and its occupation withheld.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 785 and an original service record to resolve the protected-identifier conflict. No candidate occupation or employer has been transferred.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "849c7517-d88a-5db9-87e5-eb8d45592c13",
+      "identity_status": "confirmed",
+      "identity_evidence": "An original OSS X-2 award sheet identifies British Army Major Arthur G. Trevor-Wilson by exact name and middle initial and documents extensive counterintelligence cooperation with OSS.",
+      "name_variants": [
+        "Arthur G. Trevor-Wilson",
+        "Arthur Geoffrey Trevor-Wilson"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 785 and British service records to confirm the exact relationship between his British assignments and the OSS file and to identify the unnamed French perfume house.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53fea1d3-d777-5d70-b6e1-44d86bb73fab",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact name, expanded middle name, continuous University of Wisconsin geography career and Japan expertise support a probable match, but no independent OSS or protected-identifier bridge was found.",
+      "name_variants": [
+        "Glenn Thomas Trewartha"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 785 to confirm identity, exact OSS chronology and whether University of Wisconsin employment was the immediate civilian predecessor.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e9ee2cd1-b2bf-5f49-9cf9-5b4e9dc92b29",
+      "identity_status": "confirmed",
+      "identity_evidence": "In a presidential-library oral history, Philip Trezise directly states that he was co-opted from the Navy to OSS and sent to China.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 785 for Navy rank and component, exact transfer date and last civilian employer. Do not treat the rejected St. John's University offer as employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6bfa53b8-ca2d-5f76-9b0e-fbcdbb2d8e00",
+      "identity_status": "confirmed",
+      "identity_evidence": "An original OSS Detachment 101 promotion report repeats the rare exact full name and middle initial and identifies enlisted wartime service.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 785 for pre-OSS Army unit, civilian occupation and named employer; the 1945 Detachment 101 record establishes OSS service only.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3a2f3978-8978-58b2-a5c7-52df9fea8dbd",
+      "identity_status": "probable",
+      "identity_evidence": "A 1938 Indiana National Guard annual lists the rare exact Bonnell L Tripcony name as a private in a Columbia City medical detachment, but supplies no OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 786 to confirm the rare-name identity, later military chronology, immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6eec0862-b778-5316-8dac-ac5a78be8dec",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A Washington Post obituary supplies the uncommon exact name, expanded middle name, 1941 Army entry, explicit OSS service and photographic-reconnaissance specialty.",
+      "name_variants": [
+        "Arthur Albert Tritsch Jr."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 786 for the exact Army-to-OSS transfer, wartime grade and last civilian employer; do not project the later Major rank backward.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b46fb9d-a240-5366-856c-4db2e7c9fbf8",
+      "identity_status": "probable",
+      "identity_evidence": "Institutional catalog and oral-history sources independently supply the highly distinctive exact name, economist occupation and compatible prewar-to-wartime government chronology, but the wartime agency is not identified as OSS.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 786 to confirm the identity, name the wartime government agency and determine whether the 1936 Conference Board role was followed by another employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36192a2e-94fe-54fb-88bf-2b5d14d3c1b4",
+      "identity_status": "probable",
+      "identity_evidence": "The AFI Catalog supplies the rare exact name and a dated 1941 screenplay credit, but no independent OSS, Box 786 or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 786 to confirm the identity, employment arrangement, immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page473-row1-edward-m-trevaskis-b965",
+      "person_id": "a86f8f5e-1b90-507d-8b07-156121038784",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward M Trevaskis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Rejected the Army candidate because its printed name conflicts with the indexed identity despite private identifier agreement; no candidate field was transferred. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row2-curtis-d-trevathan-b965",
+      "person_id": "cc6c821b-f2dd-5a1c-aea7-7075d9ed9f75",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Curtis D Trevathan; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row3-richard-s-trevett-b965",
+      "person_id": "01d9f8cd-245b-5f1d-931a-1bfde4a8846e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard S Trevett; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. An independent obituary confirmed Richard Trevett's exact identity, school chronology, Army entry and OSS radio service. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row4-arthur-g-trevor-wilson-b965",
+      "person_id": "849c7517-d88a-5db9-87e5-eb8d45592c13",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur G Trevor Wilson; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "An original OSS award sheet confirmed the British officer's identity; a scholarly history documented only an unnamed interwar French perfume-house employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row5-glenn-t-trewartha-b965",
+      "person_id": "53fea1d3-d777-5d70-b6e1-44d86bb73fab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Glenn T Trewartha; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "An institutional departmental history supports a probable rare-name identity and explicit University of Wisconsin employment; exact OSS chronology remains unproved. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row6-leonard-g-trexler-b965",
+      "person_id": "3805afc8-7986-5daf-9a0b-deca137f4390",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leonard G Trexler; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row7-philip-trezise-b965",
+      "person_id": "e9ee2cd1-b2bf-5f49-9cf9-5b4e9dc92b29",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip Trezise; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A first-person presidential-library oral history explicitly documented transfer from the Navy to OSS and rejection of the St. John's University job offer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row8-andre-tricard-b965",
+      "person_id": "a03f9a5e-c228-5651-bba5-20e98ad00c52",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andre Tricard; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Exact-name, spelling-variant, official-domain, occupation, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row9-arthur-triebwasser-b965",
+      "person_id": "342ecd8d-85bb-5c7c-ab27-709c7bc95573",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Triebwasser; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A later accounting lead and regional namesakes lack an OSS, Box 785 or protected-identifier bridge and cannot support a pre-OSS claim. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row10-john-e-triesner-b965",
+      "person_id": "e674cc03-2add-5526-b953-d389e2093d5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John E Triesner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row11-samuel-l-trifiletti-b965",
+      "person_id": "5cbcdd94-4fee-5e50-9bc2-51c4031de526",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Samuel L Trifiletti; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Rejected the Army candidate because its printed name conflicts with the indexed identity despite private identifier agreement; no candidate field was transferred. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row12-vincent-j-trifletti-b965",
+      "person_id": "6bfa53b8-ca2d-5f76-9b0e-fbcdbb2d8e00",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vincent J Trifletti; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "An original OSS Detachment 101 promotion report confirmed the exact identity and enlisted service but supplied no pre-OSS occupation or employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row13-norman-m-trigalet-b965",
+      "person_id": "01afa479-d58b-5c99-bc78-26a7f5b6f897",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norman M Trigalet; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row14-harold-r-trimble-b965",
+      "person_id": "3d0e3029-78ca-510c-ae1f-32aafa4c5d0d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold R Trimble; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "The common name produced multiple military and civilian namesakes without two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row15-bonnell-l-tripcony-b965",
+      "person_id": "3a2f3978-8978-58b2-a5c7-52df9fea8dbd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bonnell L Tripcony; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A contemporary Indiana National Guard annual supports a probable rare-name match and 1938 private's assignment; no independent OSS bridge was found. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row16-cecil-l-triplett-b965",
+      "person_id": "ab62ea6f-75de-567e-9524-8af26054a8d8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Cecil L Triplett; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Exact-name and rank-variant searches produced no reliable OSS identity or pre-OSS affiliation source for the Box 786 row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row17-raymond-e-triplett-b965",
+      "person_id": "df5f7faa-df5d-5f9c-8a72-9587c69299a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond E Triplett; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accepted an exact nonshared protected-identifier Army bridge and verified the dated historical civilian-occupation code against NARA technical documentation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row18-louis-c-trippel-b965",
+      "person_id": "d2e3f6f2-942f-5d3e-b850-0913d39ba058",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis C Trippel; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Accessible exact-name, occupation, obituary and archival results did not establish the indexed person's identity or chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row19-george-r-triska-b965",
+      "person_id": "04a73096-7a1f-5c3a-8aec-36b2a1320ab3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George R Triska; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Exact-name and variant searches produced no reliable identity bridge, dated occupation or employing organization. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row20-arthur-a-tritsch-b965",
+      "person_id": "6eec0862-b778-5316-8dac-ac5a78be8dec",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur A Tritsch; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "A reputable obituary supports a high-confidence exact-name OSS identity and probable Army-to-OSS pathway, while commissioning chronology and civilian employer remain unresolved. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row21-madeline-e-tritsch-b965",
+      "person_id": "a4007d7c-1236-5e83-b91b-9714712011e1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Madeline E Tritsch; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "The adjacent Arthur Tritsch record does not establish kinship or shared biography; no independent source identifies Madeline E Tritsch. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row22-vaso-trivanovitch-b965",
+      "person_id": "3b46fb9d-a240-5366-856c-4db2e7c9fbf8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vaso Trivanovitch; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "Independent institutional sources support a probable rare-name economist identity and explicit 1930s Conference Board employment; the wartime agency is unnamed. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    },
+    {
+      "key": "page473-row23-barry-trivers-b965",
+      "person_id": "36192a2e-94fe-54fb-88bf-2b5d14d3c1b4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Barry Trivers; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army, Navy and rank clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 785-786; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_965",
+      "started_at": "2026-10-30T01:45:00Z",
+      "completed_at": "2026-10-30T03:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Education, occupation categories, family adjacency and film credits were not converted into named employers. Search aliases were not treated as silent corrections.",
+      "research_notes": "AFI documents a 1941 screenplay credit for the rare exact name, but no independent OSS bridge or studio employment relationship was found. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation, occupation-code pages and cited original or institutional sources were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b965-v1"
+    }
+  ]
+}
