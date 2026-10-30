@@ -1,5 +1,41 @@
 # Research status
 
+Batch 987 completed PDF page 484, rows 1-23, from **Domonic Virdo** through
+**Floyd Tomas Vlasic**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Five reviewed official Army bridges support only four qualified historical
+occupation categories and one student category, never named employers.
+Anthony and Antonio Visini remain separate people inside one visible possible-
+duplicate group; Emile Vivequin and Emile Viviquin likewise remain separate
+ambiguous people without affiliations. Valentine P.T. Viviani's probable
+Valentine Patrick Terrel Vivian bridge supports only qualified documented-
+prewar British Army service, not an SIS claim or an immediate predecessor to
+OSS. Other unbridged namesakes create no affiliation. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,633/23,936 (65.3117%)**;
+verified-employer coverage is **508/23,936 (2.1223%)**;
+verified-affiliation coverage is **1,127/23,936 (4.7084%)**; archival-review
+coverage is **14,109/23,936 (58.9447%)**. There are **8,298** not-started
+people, **674** possible-duplicate groups and **526** conflicts. Claim
+confidence counts are **1,719 confirmed**, **5,290 high**, **2,542 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,910** affiliations, **1,287** organizations, **6,436** sources and
+**9,983** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 484, row
+24, **Ovito T Vlasic**. See `research/batch-987-progress.md`.
+
+Batch 987 passed evidence-schema validation, repeat import, SQLite integrity,
+the complete ingest audit, the 200-profile audit, all 147 Python tests, the
+21/21 targeted browser matrix and the bounded browser/accessibility release
+suite. The protected-identifier audit found zero unexpected matches, all
+internal links resolve, the checked-in 67-asset manifest verifies locally and
+the production dependency audit found zero vulnerabilities. Clean-worktree
+verification and publication evidence will be recorded in
+`reports/release_batch_987.md` before the release is pushed.
+
 Batch 986 completed PDF page 483, rows 24-46, from **Joseph P Viggiani**
 through **Edward J Virant**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
