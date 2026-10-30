@@ -1,5 +1,44 @@
 # Research status
 
+Batch 963 completed PDF page 472, rows 3-25, from **Harry Trainosky** through
+**William W Treat**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Six exact protected-identifier Army matches retain qualified dated occupation
+or student categories without invented employers, workplaces or schools. Owen
+E Treanor has a high-confidence direct OSS identity and commissioned Army
+classification, but his preceding affiliation remains an archival question.
+Lillian Trangott and Lillian Traugott remain separate ambiguous profiles.
+Plausible but unbridged Travaglini, Treacy and Treat namesakes were rejected,
+and fourteen unresolved identities retain archival-review outcomes. No
+authenticated NARA Catalog API request was used, and no protected identifier
+appears in the public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,087/23,936 (63.0306%)**;
+verified-employer coverage is **486/23,936 (2.0304%)**;
+verified-affiliation coverage is **1,084/23,936 (4.5287%)**; archival-review
+coverage is **13,563/23,936 (56.6636%)**. There are **8,844** not-started
+people, **663** possible-duplicate groups and **517** conflicts. Claim
+confidence counts are **1,692 confirmed**, **5,015 high**, **2,328 medium**,
+**254 low**, **431 conflicting** and **2 unresolved**. The public projection
+contains **3,655** affiliations, **1,238** organizations, **6,164** sources and
+**9,462** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 472, row
+26, **Oliver E Trechter**, in Box 784. See `research/batch-963-progress.md` for
+the source-by-source audit.
+
+Batch 963 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, derived export regeneration,
+coverage reporting, public-data redaction and the 200-profile structural
+audit. All 147 Python tests pass. Astro checks 594 files with zero errors,
+warnings or hints and builds 25,224 static pages. The 24/24 Batch 963 browser
+matrix and full 93/93 bounded browser and accessibility release suite pass, as
+do the complete internal-link check, protected-identifier audit, checked-in
+public manifest, zero-vulnerability production dependency audit and two
+deterministic consecutive builds. Publication verification is pending.
+
 Batch 962 completed PDF page 471, rows 26-46, and page 472, rows 1-2, from
 **James B Townsend** through **Charles J Traina**, preserving all 23 printed
 rows as separate people with saved terminal research outcomes.
