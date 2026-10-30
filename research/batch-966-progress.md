@@ -121,5 +121,11 @@ Continue with PDF page 474, row 1, **Robert E True**, Box 786, archive location
 
 ## Publication verification
 
-Publication verification will be added after GitHub Actions and the public
-deployment have completed for the immutable Batch 966 content commit.
+- Immutable public content commit:
+  `f3a76e588ac623a76dbe3072a8224ac8655c29ac`.
+- GitHub Test run `40999975642` passed.
+- GitHub Pages run `40999975641` passed.
+- The unauthenticated deployed-release verifier matched all 67 manifest assets,
+  eight core routes, 42 source-register pages and all 23 Batch 966 profiles to
+  the immutable content commit.
+- Public site: <https://therealjameswilson.github.io/before-oss/>.

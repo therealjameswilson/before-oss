@@ -82,5 +82,19 @@ Date: 2026-10-29 America/New_York
 
 ## Publication verification
 
-Publication verification will be added after GitHub Actions and the public
-deployment have completed for the immutable Batch 966 content commit.
+- Immutable content commit:
+  [`f3a76e588ac623a76dbe3072a8224ac8655c29ac`](https://github.com/therealjameswilson/before-oss/commit/f3a76e588ac623a76dbe3072a8224ac8655c29ac).
+- GitHub Test run
+  [40999975642](https://github.com/therealjameswilson/before-oss/actions/runs/40999975642)
+  passed, including the Python tests, checked-in public-manifest check, bounded
+  browser release suite and public-identifier redaction audit.
+- GitHub Pages run
+  [40999975641](https://github.com/therealjameswilson/before-oss/actions/runs/40999975641)
+  passed and deployed the immutable content commit.
+- The unauthenticated deployed-release verifier compared 67 public assets
+  totaling 129,197,069 bytes to that commit's manifest; the deployed manifest
+  SHA-256 was
+  `5a5a02637211ba0c75c6464d657cd085d8254ebfdf5578b3dfeca8e389c1cb43`.
+- Eight core routes, 42 source-register pages and all 23 direct Batch 966
+  profile routes returned successfully from
+  <https://therealjameswilson.github.io/before-oss/>.
