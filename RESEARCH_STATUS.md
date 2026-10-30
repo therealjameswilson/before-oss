@@ -1,5 +1,46 @@
 # Research status
 
+Batch 961 completed PDF page 471, rows 3-25, from **Fulton B Torry** through
+**Campbell Townsend**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+John E Toulmin has a documented 1939 First National Bank of Boston employer,
+published as his last documented civilian employer rather than an explicit
+recruited-from affiliation. Ivan Tors and Bernardo Hugh Tovar retain separate
+student, occupation and military pathways. Direct OSS records confirm Samuel
+J Toscano, Alvin Toso and Bernard A Towell without inventing earlier
+employers. Henri S Tosy remains probable, Elsie S Townlsey retains the index
+spelling, and two undefined Army occupation codes remain uninterpreted. Six
+unresolved people retain Box 782-783 archival-review outcomes. No authenticated
+NARA Catalog API request was used, and no protected identifier appears in the
+public projection.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,041/23,936 (62.8384%)**;
+verified-employer coverage is **485/23,936 (2.0262%)**;
+verified-affiliation coverage is **1,081/23,936 (4.5162%)**; archival-review
+coverage is **13,517/23,936 (56.4714%)**. There are **8,890** not-started
+people, **660** possible-duplicate groups and **516** conflicts. Claim
+confidence counts are **1,690 confirmed**, **5,001 high**, **2,320 medium**,
+**254 low**, **430 conflicting** and **2 unresolved**. The public projection
+contains **3,644** affiliations, **1,236** organizations, **6,147** sources and
+**9,437** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 471, row
+26, **James B Townsend**, in Box 783. See `research/batch-961-progress.md` for
+the source-by-source audit.
+
+Batch 961 passed evidence-schema validation, deterministic bundle generation,
+isolated idempotent import replay, canonical review-decision and evidence
+import, SQLite integrity and foreign-key checks, extraction validation,
+derived export regeneration, coverage reporting, public-data redaction and the
+200-profile structural audit. All 147 Python tests pass. Astro checks 592
+files with zero errors, warnings or hints and builds 25,221 static pages. The
+30/30 Batch 961 browser matrix and full 99/99 bounded browser and accessibility
+release suite pass, as do the complete internal-link check, protected-
+identifier audit, checked-in public manifest, zero-vulnerability production
+dependency audit and two deterministic consecutive builds. Publication
+verification is recorded in `reports/release_batch_961.md`.
+
 Batch 957 completed PDF page 469, rows 1-23, from **George S Tinlakos**
 through **Bentley Tobin**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.

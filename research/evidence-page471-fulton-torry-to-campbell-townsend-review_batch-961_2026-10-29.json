@@ -1,0 +1,1976 @@
+{
+  "bundle_version": "batch-961-v1",
+  "reviewer": "Before OSS Batch 961 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b961",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 782-783",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 471, rows 3-25; checked against layout text and a 300 dpi render",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate people. Protected identifiers remain excluded from public evidence and exports."
+    },
+    {
+      "key": "army-bulk-b961",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; ten accepted Batch 961 identity candidates; identifiers withheld",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b961",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date and civilian-occupation fields",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used only to interpret selected fields; source damage and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b961",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-174 and 178; eight historical civilian-occupation categories checked visually",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories are qualified and never converted into named employers, workplaces or exact modern job titles."
+    },
+    {
+      "key": "international-tv-almanac-ivan-tors-b961",
+      "stable_url": "https://www.worldradiohistory.com/Archive-International-Television-Almanac/1956/International-Television-Almanac-1956-1-Whos-Who.pdf",
+      "title": "International Television Almanac 1956: Who's Who",
+      "repository_publisher": "Quigley Publishing Company; World Radio History",
+      "publication_record_date": "1956",
+      "locator": "Tors, Ivan entry in the Tor-Tra section",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "International Television Almanac",
+      "rights_notes": "The professional directory supplies a compact career chronology; no postwar employer is used as prewar evidence."
+    },
+    {
+      "key": "hoover-samuel-toscano-b961",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331570/full",
+      "title": "The Board at 1330 o'clock, 2 May 1944",
+      "author_creator": "Office of Strategic Services review board",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-02",
+      "locator": "Page 3B; Pvt. Samuel J. Toscano testimony and review",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Hoover Institution Digital Collections",
+      "rights_notes": "Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "nara-alvin-toso-b961",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2022/104-10165-10121.pdf",
+      "archival_identifier": "JFK release 104-10165-10121",
+      "title": "Headquarters Operational Group Command, Special Orders Number 9",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-05-09",
+      "locator": "Section 3; T Sgt Alvin Toso assigned to Company B, Special Reconnaissance Battalion",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "rights_notes": "The public claim omits the full service identifier printed in the order."
+    },
+    {
+      "key": "cnd-castille-henri-tosy-b961",
+      "stable_url": "https://www.cnd-castille.org/wp-content/uploads/2021/10/infiltrations_into_france.pdf",
+      "title": "History of WWII Infiltrations into France",
+      "repository_publisher": "Centre National de Documentation Castille",
+      "publication_record_date": "2021-07-31",
+      "locator": "Appendix 36; 7 June 1944 Cendrillon mission row; archival references include NARA M1623 and SHD GR 28 P 4 175/85",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "History of Agents Infiltrated into France",
+      "rights_notes": "The rare-name match remains probable because the compiled mission table does not supply the index's middle initial."
+    },
+    {
+      "key": "java-calvin-tottori-b961",
+      "stable_url": "https://www.javadc.org/MISLS%20Registry%2002-02-03.pdf",
+      "title": "Military Intelligence Service Language School Registry, 1941-46",
+      "author_creator": "Japanese American Veterans Association",
+      "repository_publisher": "Japanese American Veterans Association",
+      "locator": "Registry row 5919; Calvin A. Tottori; Savannah February 1944; OSS Detachment 101",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Military Intelligence Service Registry",
+      "rights_notes": "The public claim omits the full service identifier printed in the registry."
+    },
+    {
+      "key": "harvard-crimson-john-toulmin-b961",
+      "stable_url": "https://www.thecrimson.com/article/1939/10/10/alumni-association-elects-new-officers-pdr/",
+      "title": "Alumni Association Elects New Officers",
+      "author_creator": "The Harvard Crimson",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1939-10-10",
+      "locator": "John E. Toulmin '25 entry",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Harvard Crimson archive",
+      "rights_notes": "Contemporary evidence for employer and role; Harvard alumni status is not treated as employment."
+    },
+    {
+      "key": "temple-john-toulmin-b961",
+      "stable_url": "https://scholarshare.temple.edu/bitstreams/0e8035f8-21d3-455c-a831-2b1c6c0af02f/download",
+      "title": "Intelligence Professionalism: A Study of Developing Intelligence",
+      "repository_publisher": "Temple University ScholarShare",
+      "locator": "Page 130; Colonel John Toulmin appointed head of OSS Cairo in summer 1943",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Temple University electronic theses and dissertations",
+      "rights_notes": "Used with the exact-name index row to bridge the prewar banker to the OSS officer."
+    },
+    {
+      "key": "cia-hugh-tovar-b961",
+      "stable_url": "https://www.cia.gov/resources/csi/studies-in-intelligence/volume-54-no-2/",
+      "title": "Training for War and Espionage: Office of Strategic Services Training During World War II",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2010-06",
+      "locator": "Studies in Intelligence 54, no. 2, page 37; Lt. Hugh Tovar",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "CIA hosts the article but states that authors' views do not necessarily represent an official agency position."
+    },
+    {
+      "key": "washington-post-bernardo-tovar-b961",
+      "stable_url": "https://www.legacy.com/us/obituaries/washingtonpost/name/bernado-tovar-obituary?id=6053066",
+      "title": "Bernardo Hugh Tovar obituary",
+      "repository_publisher": "The Washington Post via Legacy.com",
+      "publication_record_date": "2015-06-29",
+      "locator": "Obituary text; Harvard, Army and OSS chronology",
+      "access_date": "2026-10-29",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post obituaries",
+      "rights_notes": "The web heading misspells Bernado; the obituary text repeatedly supplies Bernardo Hugh Tovar."
+    },
+    {
+      "key": "nara-bernard-towell-b961",
+      "stable_url": "https://nara-media.s3.amazonaws.com/dc-metro/rg-263/640446/640446_Box58_Folder4/640446_Box58_Folder4.pdf",
+      "archival_identifier": "RG 263, NAID 640446, Box 58, Folder 4",
+      "title": "Memorandum to Bernard A. Towell, X-2 Branch, Office of Strategic Services",
+      "author_creator": "Frederick B. Lyon, Department of State",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-07-04",
+      "locator": "Memorandum addressed to Bernard A. Towell, X-2 Branch, OSS",
+      "access_date": "2026-10-29",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Central Intelligence Agency, Record Group 263",
+      "rights_notes": "Direct wartime identity and assignment evidence; it does not name a pre-OSS employer."
+    },
+    {
+      "key": "ny-military-museum-campbell-townsend-b961",
+      "stable_url": "https://museum.dmna.ny.gov/unit-history/conflict/world-war-2-1939-1945/27th-infantry-division-world-war-two/27th-infantry-division-world-war-two-men-who-were-federalized-1940/27th-infantry-division-world-war-two-men-who-were-federalized-1940-last-names-beginning-t",
+      "title": "27th Infantry Division World War Two Men Who Were Federalized in 1940: T",
+      "author_creator": "New York State Military Museum and Veterans Research Center",
+      "repository_publisher": "New York State Division of Military and Naval Affairs",
+      "locator": "Campbell Townsend row; Troop E, 101st Cavalry; 23 September 1940 to 16 October 1945",
+      "access_date": "2026-10-29",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "New York National Guard World War II roster",
+      "rights_notes": "The public claim omits the full service identifier printed in the roster."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "org-army-b961",
+      "organization_id": "24cec6d5-c3cc-5dc4-b8c9-10ef805535e9",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Military assignment remains distinct from civilian employment."
+    },
+    {
+      "key": "org-usaaf-b961",
+      "canonical_name": "United States Army Air Forces",
+      "historical_name": "Army Air Forces",
+      "aliases": [
+        "Army Air Force",
+        "USAAF"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1941-1947",
+      "normalization_notes": "Historical wartime branch wording retained."
+    },
+    {
+      "key": "org-fordham-b961",
+      "canonical_name": "Fordham University",
+      "historical_name": "Fordham University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Student relationship is not employment."
+    },
+    {
+      "key": "org-harvard-b961",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Student relationship is not employment."
+    },
+    {
+      "key": "org-first-national-boston-b961",
+      "canonical_name": "First National Bank of Boston",
+      "historical_name": "The First National Bank of Boston",
+      "aliases": [],
+      "organization_type": "bank",
+      "sector": "finance_and_banking",
+      "city": "Boston",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Historical employer name preserved; no modern successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "army-occupation-fulton-b-torry-b961",
+      "person_id": "7cce93cf-1573-5348-8fe2-06eefb1881f1",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 138 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Stock clerks",
+      "end_date": "1942-04-10",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-charles-m-toth-b961",
+      "person_id": "c0ede82a-f3a6-5a4f-99dd-a543647db0e9",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 678 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Semiskilled machine-shop and related occupations, n.e.c.",
+      "end_date": "1942-02-21",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-frank-s-toth-b961",
+      "person_id": "1ac4f57c-668e-5957-9783-55f13f4fd885",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 688 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Semiskilled occupations in mechanical treatment of metals, n.e.c.",
+      "end_date": "1942-07-13",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-lowell-s-totton-b961",
+      "person_id": "349e5385-11af-5d13-a55a-6720cbd23624",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 106 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Financial institution clerks, n.e.c.",
+      "end_date": "1941-02-26",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-james-m-towle-b961",
+      "person_id": "e6f0686a-c4c3-5edc-b84a-db3e3da409c6",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 602 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Semiskilled occupations in production of bakery products, n.e.c.",
+      "end_date": "1942-08-13",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-frank-m-towne-b961",
+      "person_id": "77e34712-a863-5b34-b0ae-eb3301b302f5",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 031 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Teachers (secondary school) and principals",
+      "end_date": "1943-01-30",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-hazen-a-towne-b961",
+      "person_id": "5e4380ad-c504-584b-8198-38cb4db9fa4c",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 963 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Unskilled nonprocess occupations in manufacturing, n.e.c.",
+      "end_date": "1942-12-14",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "army-occupation-campbell-townsend-b961",
+      "person_id": "cc737543-a7a4-5200-be84-326a52ee892a",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Historical code 003 at Army entry; no named employer or workplace is inferred. Full protected identifier withheld.",
+      "occupation": "Architects",
+      "end_date": "1941-01-27",
+      "date_precision": "exact Army entry date; occupation current at entry",
+      "country": "United States"
+    },
+    {
+      "key": "ivan-tors-usaaf-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The directory groups Army Air Forces and OSS service but does not state an exact transfer date.",
+      "organization_key": "org-usaaf-b961",
+      "organization_name_as_found": "Army Air Forces",
+      "country": "United States",
+      "immediate_pre_oss": true
+    },
+    {
+      "key": "ivan-tors-fordham-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "relationship_type": "student",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The directory explicitly names Fordham education before its wartime service sentence; student status is not employment.",
+      "organization_key": "org-fordham-b961",
+      "organization_name_as_found": "Fordham U., New York",
+      "occupation": "student",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States"
+    },
+    {
+      "key": "ivan-tors-playwright-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "relationship_type": "professional_affiliation",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The directory names several plays written in Europe before the wartime chronology; no employer is inferred.",
+      "role_title": "playwright",
+      "occupation": "playwright",
+      "country": "Hungary"
+    },
+    {
+      "key": "john-toulmin-bank-b961",
+      "person_id": "96db45dd-3f47-5c96-b15f-226b4c8956f2",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "A contemporary 1939 report names his bank and vice-presidential role; an independent scholarly source places exact-name Colonel John Toulmin in OSS Cairo in 1943.",
+      "organization_key": "org-first-national-boston-b961",
+      "organization_name_as_found": "First National Bank of Boston",
+      "role_title": "vice president",
+      "occupation": "banker",
+      "end_date": "after 1939 and before 1943",
+      "date_precision": "bounded by contemporary 1939 employment and 1943 OSS command",
+      "city": "Boston",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "last_civilian_pre_service": true
+    },
+    {
+      "key": "bernardo-tovar-army-b961",
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The obituary explicitly places infantry, artillery and communications assignments after commissioning and before his 1945 OSS selection; CIA history independently confirms the Harvard ROTC trainee.",
+      "organization_key": "org-army-b961",
+      "organization_name_as_found": "Army",
+      "role_title": "second lieutenant",
+      "start_date": "1944-06",
+      "end_date": "1945",
+      "date_precision": "month/year start and year end",
+      "country": "United States",
+      "immediate_pre_oss": true
+    },
+    {
+      "key": "bernardo-tovar-harvard-b961",
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "relationship_type": "student",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The obituary dates Harvard and ROTC from September 1941 to the 1943 active-duty call; CIA history independently calls him a Harvard ROTC graduate.",
+      "organization_key": "org-harvard-b961",
+      "organization_name_as_found": "Harvard",
+      "role_title": "student and ROTC cadet",
+      "occupation": "student",
+      "start_date": "1941-09",
+      "end_date": "1943-06",
+      "date_precision": "month",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States"
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-fulton-b-torry-army-b961",
+      "person_id": "7cce93cf-1573-5348-8fe2-06eefb1881f1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fulton B Torry is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Fulton B Torry; Army entry was 1942-04-10.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 3; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Fulton B Torry record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-fulton-b-torry-army-b961",
+      "person_id": "7cce93cf-1573-5348-8fe2-06eefb1881f1",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-10, Fulton B Torry was recorded in the historical Stock clerks category.",
+      "evidence_paraphrase": "The official bulk record supplies code 138; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1942-04-10; code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 178; historical category 138"
+        }
+      ],
+      "affiliation_key": "army-occupation-fulton-b-torry-b961",
+      "evidence_excerpt": "Stock clerks"
+    },
+    {
+      "key": "identity-charles-m-toth-army-b961",
+      "person_id": "c0ede82a-f3a6-5a4f-99dd-a543647db0e9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles M Toth is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Charles M Toth; Army entry was 1942-02-21.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 9; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Charles M Toth record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-charles-m-toth-army-b961",
+      "person_id": "c0ede82a-f3a6-5a4f-99dd-a543647db0e9",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-02-21, Charles M Toth was recorded in the historical Semiskilled machine-shop and related occupations, n.e.c. category.",
+      "evidence_paraphrase": "The official bulk record supplies code 678; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1942-02-21; code 678; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 173; historical category 678"
+        }
+      ],
+      "affiliation_key": "army-occupation-charles-m-toth-b961",
+      "evidence_excerpt": "Semiskilled machine-shop and related occupations, n.e.c."
+    },
+    {
+      "key": "identity-frank-s-toth-army-b961",
+      "person_id": "1ac4f57c-668e-5957-9783-55f13f4fd885",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank S Toth is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Frank S Toth; Army entry was 1942-07-13.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 10; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Frank S Toth record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frank-s-toth-army-b961",
+      "person_id": "1ac4f57c-668e-5957-9783-55f13f4fd885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-13, Frank S Toth was recorded in the historical Semiskilled occupations in mechanical treatment of metals, n.e.c. category.",
+      "evidence_paraphrase": "The official bulk record supplies code 688; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1942-07-13; code 688; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 174; historical category 688"
+        }
+      ],
+      "affiliation_key": "army-occupation-frank-s-toth-b961",
+      "evidence_excerpt": "Semiskilled occupations in mechanical treatment of metals, n.e.c."
+    },
+    {
+      "key": "identity-lowell-s-totton-army-b961",
+      "person_id": "349e5385-11af-5d13-a55a-6720cbd23624",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lowell S Totton is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Lowell S Totton; Army entry was 1941-02-26.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 12; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Lowell S Totton record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-lowell-s-totton-army-b961",
+      "person_id": "349e5385-11af-5d13-a55a-6720cbd23624",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-02-26, Lowell S Totton was recorded in the historical Financial institution clerks, n.e.c. category.",
+      "evidence_paraphrase": "The official bulk record supplies code 106; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1941-02-26; code 106; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 171; historical category 106"
+        }
+      ],
+      "affiliation_key": "army-occupation-lowell-s-totton-b961",
+      "evidence_excerpt": "Financial institution clerks, n.e.c."
+    },
+    {
+      "key": "identity-james-m-towle-army-b961",
+      "person_id": "e6f0686a-c4c3-5edc-b84a-db3e3da409c6",
+      "claim_type": "identity",
+      "claim_text": "The indexed James M Towle is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names James M Towle; Army entry was 1942-08-13.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 20; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed James M Towle record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-m-towle-army-b961",
+      "person_id": "e6f0686a-c4c3-5edc-b84a-db3e3da409c6",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-13, James M Towle was recorded in the historical Semiskilled occupations in production of bakery products, n.e.c. category.",
+      "evidence_paraphrase": "The official bulk record supplies code 602; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1942-08-13; code 602; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 173; historical category 602"
+        }
+      ],
+      "affiliation_key": "army-occupation-james-m-towle-b961",
+      "evidence_excerpt": "Semiskilled occupations in production of bakery products, n.e.c."
+    },
+    {
+      "key": "identity-frank-m-towne-army-b961",
+      "person_id": "77e34712-a863-5b34-b0ae-eb3301b302f5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank M Towne is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Frank M Towne; Army entry was 1943-01-30.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 21; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Frank M Towne record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frank-m-towne-army-b961",
+      "person_id": "77e34712-a863-5b34-b0ae-eb3301b302f5",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-30, Frank M Towne was recorded in the historical Teachers (secondary school) and principals category.",
+      "evidence_paraphrase": "The official bulk record supplies code 031; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1943-01-30; code 031; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 171; historical category 031"
+        }
+      ],
+      "affiliation_key": "army-occupation-frank-m-towne-b961",
+      "evidence_excerpt": "Teachers (secondary school) and principals"
+    },
+    {
+      "key": "identity-hazen-a-towne-army-b961",
+      "person_id": "5e4380ad-c504-584b-8198-38cb4db9fa4c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Hazen A Towne is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Hazen A Towne; Army entry was 1942-12-14.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 22; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Hazen A Towne record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-hazen-a-towne-army-b961",
+      "person_id": "5e4380ad-c504-584b-8198-38cb4db9fa4c",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-14, Hazen A Towne was recorded in the historical Unskilled nonprocess occupations in manufacturing, n.e.c. category.",
+      "evidence_paraphrase": "The official bulk record supplies code 963; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1942-12-14; code 963; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 174; historical category 963"
+        }
+      ],
+      "affiliation_key": "army-occupation-hazen-a-towne-b961",
+      "evidence_excerpt": "Unskilled nonprocess occupations in manufacturing, n.e.c."
+    },
+    {
+      "key": "identity-campbell-townsend-army-b961",
+      "person_id": "cc737543-a7a4-5200-be84-326a52ee892a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Campbell Townsend is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The protected identifier agrees and the Army record names Campbell Townsend; Army entry was 1941-01-27.",
+      "identity_match_assessment": "High confidence from exact protected-identifier agreement and a compatible exact name.",
+      "temporal_assessment": "The Army record dates entry but not the later OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers and raw bulk rows remain excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 25; Box 783; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Reviewed Campbell Townsend record; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b961",
+          "support_type": "context_only",
+          "locator_override": "Field definitions, PDF physical pages 44-46"
+        }
+      ]
+    },
+    {
+      "key": "occupation-campbell-townsend-army-b961",
+      "person_id": "cc737543-a7a4-5200-be84-326a52ee892a",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-01-27, Campbell Townsend was recorded in the historical Architects category.",
+      "evidence_paraphrase": "The official bulk record supplies code 003; the visually reviewed NARA list expands that historical code.",
+      "identity_match_assessment": "High confidence from the accepted protected-identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry; no employer, workplace or immediate OSS sequence is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical category is not converted into a named employer or exact modern job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b961",
+          "locator_override": "Army entry 1941-01-27; code 003; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b961",
+          "locator_override": "PDF physical page 170; historical category 003"
+        }
+      ],
+      "affiliation_key": "army-occupation-campbell-townsend-b961",
+      "evidence_excerpt": "Architects"
+    },
+    {
+      "key": "identity-ivan-tors-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ivan L Tors is a high-confidence match to writer and producer Ivan Tors.",
+      "evidence_paraphrase": "The rare exact name, compatible Army Air Forces and OSS service, and prewar European/Fordham chronology agree with the indexed enlisted record.",
+      "identity_match_assessment": "High confidence from a distinctive exact name and an explicit Army Air Forces/OSS biography; the public biography omits the middle initial and service identifier.",
+      "temporal_assessment": "The directory separates European writing and education from wartime service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No later film-company affiliation is projected backward into the prewar period.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 4; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "international-tv-almanac-ivan-tors-b961"
+        }
+      ]
+    },
+    {
+      "key": "immediate-ivan-tors-usaaf-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army Air Forces was the probable military pathway immediately before Ivan Tors's OSS service.",
+      "evidence_paraphrase": "The professional directory places Army Air Forces and OSS together in its wartime chronology.",
+      "identity_match_assessment": "High-confidence distinctive-name identity.",
+      "temporal_assessment": "Probable immediate sequence; the directory does not state an exact transfer order or date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "international-tv-almanac-ivan-tors-b961",
+          "excerpt_override": "During World War II with Army Air Forces and O.S.S."
+        }
+      ],
+      "affiliation_key": "ivan-tors-usaaf-b961"
+    },
+    {
+      "key": "prewar-ivan-tors-fordham-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ivan Tors studied at Fordham University before his wartime service.",
+      "evidence_paraphrase": "The directory lists Fordham education before its sentence on Army Air Forces and OSS service.",
+      "identity_match_assessment": "High-confidence distinctive-name identity.",
+      "temporal_assessment": "Documented prewar education; not a named employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is kept separate from employment.",
+      "sources": [
+        {
+          "source_key": "international-tv-almanac-ivan-tors-b961",
+          "excerpt_override": "U. of Budapest and Fordham U., New York"
+        }
+      ],
+      "affiliation_key": "ivan-tors-fordham-b961"
+    },
+    {
+      "key": "occupation-ivan-tors-playwright-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "claim_type": "occupation",
+      "claim_text": "Ivan Tors had written plays in Europe before his wartime service.",
+      "evidence_paraphrase": "The directory names several plays before its wartime Army Air Forces and OSS chronology.",
+      "identity_match_assessment": "High-confidence distinctive-name identity.",
+      "temporal_assessment": "Documented prewar occupation; no employer or immediate sequence is claimed.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Playwriting is not converted into self-employment or a named employer without evidence.",
+      "sources": [
+        {
+          "source_key": "international-tv-almanac-ivan-tors-b961",
+          "excerpt_override": "While in Europe wrote numerous plays"
+        }
+      ],
+      "affiliation_key": "ivan-tors-playwright-b961"
+    },
+    {
+      "key": "identity-samuel-toscano-b961",
+      "person_id": "c196ef9d-7da3-5d21-a76e-d3b6253e1a6d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Samuel J Toscano is confirmed as the OSS interpreter reviewed on 2 May 1944.",
+      "evidence_paraphrase": "The contemporary board record supplies the exact full name and protected identifier printed in the index.",
+      "identity_match_assessment": "Confirmed by exact name and protected-identifier agreement in a direct OSS record.",
+      "temporal_assessment": "The record explicitly dates civilian OSS entry to July 1943 but does not name his prior employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The statement about prior weekly earnings is not converted into an employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 5; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "hoover-samuel-toscano-b961",
+          "locator_override": "Page 3B; protected identifier withheld",
+          "excerpt_override": "Entered OSS as a civilian in July 1943"
+        }
+      ]
+    },
+    {
+      "key": "identity-alvin-toso-b961",
+      "person_id": "bfd0e358-bde8-554e-bcbc-0fa97266da46",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alvin Toso is confirmed as the OSS Operational Group technical sergeant in the 9 May 1945 special order.",
+      "evidence_paraphrase": "The exact name and protected identifier agree between the index and the OSS order.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement in a direct OSS order.",
+      "temporal_assessment": "The order documents a 1945 OSS assignment, not a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No civilian employer is inferred from military service.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 6; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "nara-alvin-toso-b961",
+          "locator_override": "Special Orders Number 9, section 3; protected identifier withheld",
+          "excerpt_override": "T Sgt Alvin Toso"
+        }
+      ]
+    },
+    {
+      "key": "identity-henri-tosy-b961",
+      "person_id": "bdc4c7f4-1391-5279-8027-0de411dc2dbe",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henri S Tosy is a probable match to OSS Cendrillon radio operator Henri Tosy, alias Henri Bousquet.",
+      "evidence_paraphrase": "A compiled mission table cites NARA and French archival files for rare-name radio operator Henri Tosy on the 7 June 1944 Cendrillon mission.",
+      "identity_match_assessment": "Probable from the rare exact first and last name and explicit OSS mission; the mission table omits the index's middle initial.",
+      "temporal_assessment": "The evidence documents wartime OSS activity but no pre-OSS affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Henri Bousquet is retained as a documented mission alias; the Box 782 file is still required for confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 8; Box 782"
+        },
+        {
+          "source_key": "cnd-castille-henri-tosy-b961",
+          "excerpt_override": "WT Henri Tosy @Henri Bousquet"
+        }
+      ]
+    },
+    {
+      "key": "identity-calvin-tottori-b961",
+      "person_id": "572de7a9-c6e3-53c1-9d1d-7f1ca5516c05",
+      "claim_type": "identity",
+      "claim_text": "The indexed Calvin A Tottori is a high-confidence match to the MIS Language School registrant assigned to OSS Detachment 101.",
+      "evidence_paraphrase": "The registry supplies the exact name, the protected identifier printed in the index, a February 1944 class and the OSS detachment.",
+      "identity_match_assessment": "High confidence from exact full-name and protected-identifier agreement in an institutional military registry.",
+      "temporal_assessment": "The registry documents wartime language-school and OSS assignment, not a pre-OSS employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army code 993 is undefined in the reviewed code list and is not published as an occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 13; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "java-calvin-tottori-b961",
+          "locator_override": "Registry row 5919; protected identifier withheld",
+          "excerpt_override": "OSS, Detach 101"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-toulmin-b961",
+      "person_id": "96db45dd-3f47-5c96-b15f-226b4c8956f2",
+      "claim_type": "identity",
+      "claim_text": "The indexed John E Toulmin is a high-confidence match to banker and OSS Cairo chief John E. Toulmin.",
+      "evidence_paraphrase": "A contemporary 1939 report names John E. Toulmin at the First National Bank of Boston; a scholarly NARA-based study names Colonel John Toulmin as OSS Cairo chief in 1943.",
+      "identity_match_assessment": "High confidence from exact name and middle initial, compatible chronology, officer status and two independent reputable sources.",
+      "temporal_assessment": "The sources bridge a 1939 civilian job to a 1943 OSS command but do not supply the Army entry date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No postwar bank title is used to enlarge the 1939 role.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 14; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "harvard-crimson-john-toulmin-b961"
+        },
+        {
+          "source_key": "temple-john-toulmin-b961"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-john-toulmin-bank-b961",
+      "person_id": "96db45dd-3f47-5c96-b15f-226b4c8956f2",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The First National Bank of Boston was John E. Toulmin's last documented civilian employer before wartime service and OSS command.",
+      "evidence_paraphrase": "The Harvard Crimson identifies him as the bank's vice president in October 1939; an independent scholarly study places him in command of OSS Cairo in summer 1943.",
+      "identity_match_assessment": "High-confidence exact-name identity.",
+      "temporal_assessment": "Strongly date-bounded; the evidence does not exclude an undocumented intervening affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Presented as last documented civilian employer, not an explicit recruited-from claim.",
+      "sources": [
+        {
+          "source_key": "harvard-crimson-john-toulmin-b961",
+          "excerpt_override": "Vice-President of the First National Bank of Boston"
+        },
+        {
+          "source_key": "temple-john-toulmin-b961",
+          "support_type": "context_only",
+          "locator_override": "Page 130"
+        }
+      ],
+      "affiliation_key": "john-toulmin-bank-b961"
+    },
+    {
+      "key": "identity-bernardo-tovar-b961",
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernardo H Tovar is a high-confidence match to Bernardo Hugh Tovar, the Harvard ROTC graduate and OSS trainee.",
+      "evidence_paraphrase": "The obituary expands the exact indexed name and gives the Army-to-OSS chronology; the CIA history independently identifies Lt. Hugh Tovar as a Harvard ROTC graduate and OSS trainee.",
+      "identity_match_assessment": "High confidence from the exact full-name expansion and two independent sources with matching Harvard, Army and OSS chronology.",
+      "temporal_assessment": "Both sources date the Army and OSS sequence to 1943-45.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The obituary heading's Bernado typo is not adopted; the body repeatedly supplies Bernardo Hugh Tovar.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 17; Box 782; protected identifier withheld"
+        },
+        {
+          "source_key": "cia-hugh-tovar-b961",
+          "locator_override": "Studies in Intelligence 54, no. 2, page 37"
+        },
+        {
+          "source_key": "washington-post-bernardo-tovar-b961"
+        }
+      ]
+    },
+    {
+      "key": "immediate-bernardo-tovar-army-b961",
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army was Bernardo Hugh Tovar's immediate affiliation before he joined OSS in 1945.",
+      "evidence_paraphrase": "The obituary states that after commissioning and Army assignments he volunteered and was selected for OSS in 1945; CIA history corroborates the lieutenant and trainee chronology.",
+      "identity_match_assessment": "High-confidence identity from the exact-name bridge and independent CIA history.",
+      "temporal_assessment": "Explicit immediate chronology in the obituary.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment is kept separate from civilian employment.",
+      "sources": [
+        {
+          "source_key": "washington-post-bernardo-tovar-b961",
+          "excerpt_override": "volunteered and was selected to join the Office of Strategic Services"
+        },
+        {
+          "source_key": "cia-hugh-tovar-b961",
+          "support_type": "context_only",
+          "locator_override": "Page 37"
+        }
+      ],
+      "affiliation_key": "bernardo-tovar-army-b961"
+    },
+    {
+      "key": "prewar-bernardo-tovar-harvard-b961",
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Bernardo Hugh Tovar was a Harvard University student and ROTC cadet before active Army duty.",
+      "evidence_paraphrase": "The obituary dates Harvard and ROTC from September 1941 until the June 1943 active-duty call; CIA history independently calls him a Harvard ROTC graduate.",
+      "identity_match_assessment": "High-confidence exact-name identity.",
+      "temporal_assessment": "Strongly date-bounded immediately before active Army service; student status is not employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is not counted as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "washington-post-bernardo-tovar-b961",
+          "excerpt_override": "Hugh entered Harvard in September 1941, and joined the ROTC."
+        },
+        {
+          "source_key": "cia-hugh-tovar-b961",
+          "support_type": "context_only",
+          "locator_override": "Page 37"
+        }
+      ],
+      "affiliation_key": "bernardo-tovar-harvard-b961"
+    },
+    {
+      "key": "identity-bernard-towell-b961",
+      "person_id": "983bf923-9d2c-5849-b479-5e3a0e6fc801",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernard A Towell is confirmed as Bernard A. Towell of OSS X-2 Branch.",
+      "evidence_paraphrase": "A 4 July 1945 Department of State memorandum is addressed to the exact full name at X-2 Branch, Office of Strategic Services.",
+      "identity_match_assessment": "Confirmed by exact full name and direct official OSS branch identification.",
+      "temporal_assessment": "The memorandum documents a wartime OSS role but no pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Postwar financial-employer leads were not projected backward.",
+      "sources": [
+        {
+          "source_key": "nara-index-b961",
+          "locator_override": "PDF page 471 row 18; Box 782"
+        },
+        {
+          "source_key": "nara-bernard-towell-b961",
+          "excerpt_override": "BERNARD A. TOWELL, X-2 BRANCH, OFFICE OF STRATEGIC SERVICES"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "83f43e3e-486d-5cb6-99b1-57a63f440526",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis C Tossy, Box 782 and archive location 230/86/42/02. Exact-name, variant, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fa84528c-a191-5a70-ae2d-c6f480d35c63",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gordon K Totten, Box 782 and archive location 230/86/42/02. The indexed officer-style identifier and exact name produced no public second identifier or reliable pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "35e93c41-be61-545d-b2c2-1e3b70973b95",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert J Tousignant, Box 782 and archive location 230/86/42/02. Searches returned multiple modern and military namesakes, none connected by the protected identifier or an OSS record.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1ee653dc-122f-5dfa-9151-bc0676f56454",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George H Touslay, Box 782 and archive location 230/86/42/02. Exact-name and spelling-variant searches produced no defensible identity or pre-OSS affiliation beyond the index row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2190dafe-14fd-5973-b94f-21335d626562",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James A Tower, Box 782 and archive location 230/86/42/02. Same-name biographical and obituary leads lacked the indexed middle initial, protected identifier or an OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c5aa755-2add-5a7f-9f62-4b7c80830c88",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Marion Towns, Box 783 and archive location 230/86/42/02. Exact-name, military, institutional, directory, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 783 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7cce93cf-1573-5348-8fe2-06eefb1881f1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Stock clerks category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c0ede82a-f3a6-5a4f-99dd-a543647db0e9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Semiskilled machine-shop and related occupations, n.e.c. category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1ac4f57c-668e-5957-9783-55f13f4fd885",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Semiskilled occupations in mechanical treatment of metals, n.e.c. category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "349e5385-11af-5d13-a55a-6720cbd23624",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Financial institution clerks, n.e.c. category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e6f0686a-c4c3-5edc-b84a-db3e3da409c6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Semiskilled occupations in production of bakery products, n.e.c. category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "77e34712-a863-5b34-b0ae-eb3301b302f5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Teachers (secondary school) and principals category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e4380ad-c504-584b-8198-38cb4db9fa4c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 782 for a named employer and the Army-to-OSS sequence; the broad historical Unskilled nonprocess occupations in manufacturing, n.e.c. category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cc737543-a7a4-5200-be84-326a52ee892a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the official Army record with an exact compatible name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 783 for a named employer and the Army-to-OSS sequence; the broad historical Architects category is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A professional directory under the distinctive exact name Ivan Tors documents Army Air Forces and OSS service, European playwriting and Fordham study; the public source omits the middle initial and protected identifier.",
+      "name_variants": [
+        "Ivan Tors"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "research_status": "completed",
+      "next_action": "Review Box 782 for the exact Army Air Forces-to-OSS transfer date and any named prewar employer; the documented playwright occupation is not a workplace.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c196ef9d-7da3-5d21-a76e-d3b6253e1a6d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "A direct 2 May 1944 OSS review-board record supplies Samuel J. Toscano's exact name and the protected identifier printed in the index.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for the employer or occupation behind the board's pre-OSS earnings statement. No named prior employer appears in the accessible direct record.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bfd0e358-bde8-554e-bcbc-0fa97266da46",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "A 9 May 1945 OSS special order supplies Alvin Toso's exact name and the protected identifier printed in the index.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for Alvin Toso's pre-Army civilian employer and exact Army-to-OSS transfer chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bdc4c7f4-1391-5279-8027-0de411dc2dbe",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "probable",
+      "identity_evidence": "A compiled mission table citing NARA and French archival records identifies rare-name OSS Cendrillon radio operator Henri Tosy, alias Henri Bousquet; it omits the index middle initial.",
+      "name_variants": [
+        "Henri Tosy",
+        "Henri Bousquet"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "possible_duplicate_group": "batch961-henri-s-tosy-cendrillon",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare Box 782 with SHD GR 28 P 4 175/85 and the NARA Cendrillon report to confirm the middle initial and identify any pre-mission affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "572de7a9-c6e3-53c1-9d1d-7f1ca5516c05",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The MIS Language School registry agrees on Calvin A. Tottori's exact name and protected identifier and records OSS Detachment 101.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for Calvin Tottori's pre-Army employer or occupation; Army code 993 remains undefined and is not published as an occupation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "96db45dd-3f47-5c96-b15f-226b4c8956f2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A contemporary report identifies exact-name John E. Toulmin as a First National Bank of Boston vice president in 1939; a scholarly NARA-based study identifies Colonel John Toulmin as OSS Cairo chief in 1943.",
+      "name_variants": [
+        "John E. Toulmin",
+        "John Edwin Toulmin"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 782 for his Army entry date and any intervening affiliation between the documented 1939 bank role and 1943 OSS command.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Bernardo Hugh Tovar obituary supplies the indexed full-name expansion and Army-to-OSS chronology; CIA history independently identifies Lt. Hugh Tovar as a Harvard ROTC graduate and OSS trainee.",
+      "name_variants": [
+        "Bernardo Hugh Tovar",
+        "B. Hugh Tovar",
+        "Hugh Tovar"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 782 for his exact infantry, artillery and communications assignments and OSS transfer order; Harvard student status is already distinct from employment.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "983bf923-9d2c-5849-b479-5e3a0e6fc801",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "A 4 July 1945 Department of State memorandum is addressed to the exact full name Bernard A. Towell at OSS X-2 Branch.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 782 for Bernard Towell's pre-OSS employer and X-2 appointment chronology; the direct memorandum names no predecessor.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58272cdf-0f08-5172-b65d-0b80d251f536",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Elsie S Townlsey and adds the note '? Move t', which may indicate Townsley; postwar same-name records do not provide an OSS or Box-file bridge.",
+      "name_variants": [
+        "Elsie S Townsley"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "batch961-elsie-townlsey-townsley",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 783 to confirm whether Townlsey should be normalized to Townsley and to identify the immediate pre-OSS affiliation. No spouse's employer or biography has been transferred.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page471-row3-fulton-b-torry-b961",
+      "person_id": "7cce93cf-1573-5348-8fe2-06eefb1881f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fulton B Torry; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical stock-clerk category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row4-ivan-l-tors-b961",
+      "person_id": "fadb13e5-8789-5d88-99d6-19899144581f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ivan L Tors; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "A professional directory established the distinctive Ivan Tors Army Air Forces/OSS identity, prewar playwriting and Fordham study. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row5-samuel-j-toscano-b961",
+      "person_id": "c196ef9d-7da3-5d21-a76e-d3b6253e1a6d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Samuel J Toscano; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "A direct OSS review-board record confirmed Samuel J. Toscano and described July 1943 civilian OSS entry, but named no prior employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row6-alvin-toso-b961",
+      "person_id": "bfd0e358-bde8-554e-bcbc-0fa97266da46",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alvin Toso; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "A direct OSS special order confirmed Alvin Toso by exact name and protected identifier; no civilian predecessor was found. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row7-louis-c-tossy-b961",
+      "person_id": "83f43e3e-486d-5cb6-99b1-57a63f440526",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis C Tossy; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Exact-name, variant, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row8-henri-s-tosy-b961",
+      "person_id": "bdc4c7f4-1391-5279-8027-0de411dc2dbe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henri S Tosy; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "A NARA/SHD-citing mission table produced a probable Henri Tosy Cendrillon identity; the missing middle initial requires Box-file confirmation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row9-charles-m-toth-b961",
+      "person_id": "c0ede82a-f3a6-5a4f-99dd-a543647db0e9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles M Toth; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical semiskilled machine-shop category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row10-frank-s-toth-b961",
+      "person_id": "1ac4f57c-668e-5957-9783-55f13f4fd885",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank S Toth; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical semiskilled metal-treatment category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row11-gordon-k-totten-b961",
+      "person_id": "fa84528c-a191-5a70-ae2d-c6f480d35c63",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gordon K Totten; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "The indexed officer-style identifier and exact name produced no public second identifier or reliable pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row12-lowell-s-totton-b961",
+      "person_id": "349e5385-11af-5d13-a55a-6720cbd23624",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lowell S Totton; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical financial-institution-clerk category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row13-calvin-a-tottori-b961",
+      "person_id": "572de7a9-c6e3-53c1-9d1d-7f1ca5516c05",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Calvin A Tottori; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "The MIS Language School registry confirmed the exact-name protected-identifier Calvin A. Tottori lead and OSS Detachment 101; code 993 remained undefined. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row14-john-e-toulmin-b961",
+      "person_id": "96db45dd-3f47-5c96-b15f-226b4c8956f2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John E Toulmin; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Contemporary Harvard reporting and scholarly OSS history established John E. Toulmin's 1939 bank role and 1943 OSS Cairo command. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row15-robert-j-tousignant-b961",
+      "person_id": "35e93c41-be61-545d-b2c2-1e3b70973b95",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert J Tousignant; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Searches returned multiple modern and military namesakes, none connected by the protected identifier or an OSS record. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row16-george-h-touslay-b961",
+      "person_id": "1ee653dc-122f-5dfa-9151-bc0676f56454",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George H Touslay; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Exact-name and spelling-variant searches produced no defensible identity or pre-OSS affiliation beyond the index row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row17-bernardo-h-tovar-b961",
+      "person_id": "2082513f-fd12-55cd-bdcd-cce06e7e50f0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernardo H Tovar; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "CIA history and a Washington Post obituary established Bernardo Hugh Tovar's Harvard-to-Army-to-OSS chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row18-bernard-a-towell-b961",
+      "person_id": "983bf923-9d2c-5849-b479-5e3a0e6fc801",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernard A Towell; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "A direct Department of State memorandum confirmed Bernard A. Towell at OSS X-2 Branch but supplied no predecessor. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row19-james-a-tower-b961",
+      "person_id": "2190dafe-14fd-5973-b94f-21335d626562",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James A Tower; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Same-name biographical and obituary leads lacked the indexed middle initial, protected identifier or an OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row20-james-m-towle-b961",
+      "person_id": "e6f0686a-c4c3-5edc-b84a-db3e3da409c6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James M Towle; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical semiskilled bakery-products category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row21-frank-m-towne-b961",
+      "person_id": "77e34712-a863-5b34-b0ae-eb3301b302f5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank M Towne; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical secondary-school teacher/principal category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row22-hazen-a-towne-b961",
+      "person_id": "5e4380ad-c504-584b-8198-38cb4db9fa4c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hazen A Towne; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 782; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge and verified the historical unskilled nonprocess-manufacturing category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 782 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row23-elsie-s-townlsey-b961",
+      "person_id": "58272cdf-0f08-5172-b65d-0b80d251f536",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elsie S Townlsey; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 783; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Preserved the printed Townlsey form, the index's '? Move t' note and Townsley as an ambiguous candidate variant pending Box 783 review. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 783 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row24-marion-towns-b961",
+      "person_id": "4c5aa755-2add-5a7f-9f62-4b7c80830c88",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marion Towns; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 783; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Exact-name, military, institutional, directory, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 783 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    },
+    {
+      "key": "page471-row25-campbell-townsend-b961",
+      "person_id": "cc737543-a7a4-5200-be84-326a52ee892a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Campbell Townsend; NARA OSS index and public Archives context; CIA Reading Room or equivalent official-source check; exact-name and meaningful variants; OSS, Army and foreign-name clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 783; protected identifiers used only when defensible",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_961",
+      "started_at": "2026-10-29T22:20:00Z",
+      "completed_at": "2026-10-30T03:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only leads and sources without an OSS, protected-identifier or Box-file bridge were rejected. Search aliases were not treated as silent corrections. An auction description with a Charles W. Toth/Charles M. Toth discrepancy was rejected as final evidence.",
+      "research_notes": "Accepted exact-name protected-identifier Army bridge, corroborated the 101st Cavalry roster and verified the historical architect category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room-equivalent and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant code-list pages were inspected directly. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 783 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b961-v1"
+    }
+  ]
+}
