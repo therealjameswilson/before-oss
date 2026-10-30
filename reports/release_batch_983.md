@@ -65,5 +65,14 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication verification will be added only after GitHub Actions and the
-unauthenticated immutable-commit verifier succeed.
+Publication is public from immutable content commit
+`79fd34605c53173c8a41e5c3649f9e45114a3e46`. GitHub Actions Test run
+`41054160716` and Pages run `41054160844` completed successfully. The
+unauthenticated verifier matched all **67** manifest assets (**131,750,283**
+bytes; manifest SHA-256
+`3d233a18cdde6a5710dc1dd02e0910b548874feb2cae5858da6bbd6a76a97783`),
+**8** core routes, **43** source-register pages and all **21** directly updated
+Batch 983 profile routes to that immutable commit at
+<https://therealjameswilson.github.io/before-oss/>. The two source rows with
+preserved earlier reviewed profiles were also covered by the local 23-profile
+browser matrix.
