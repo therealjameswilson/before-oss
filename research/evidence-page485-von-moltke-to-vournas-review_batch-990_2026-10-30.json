@@ -1,0 +1,2177 @@
+{
+  "bundle_version": "batch-990-v1",
+  "reviewer": "Before OSS Batch 990 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b990",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 807-808",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 485, rows 24-46; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. Walter Von Schuschn and Walter Schuschnigg remain separate possible duplicates; Bert D Voot remains separate from Bert D Vogt."
+    },
+    {
+      "key": "army-bulk-b990",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight protected-identifier comparisons; identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Seven identity bridges were accepted; Bert D Voot remains a shared-identifier name conflict. No raw bulk row, record ordinal or full identifier enters public assets."
+    },
+    {
+      "key": "army-tech-b990",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b990",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Civilian occupation code list; codes 001, 002, 057, 170 and 636 reviewed; code 999 remains undefined",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify broad occupations, not named employers, workplaces or exact jobs. Raymond Vosper's post-OSS record is used only for identity."
+    },
+    {
+      "key": "pab-wilhelm-viggo-von-moltke-b990",
+      "stable_url": "https://www.philadelphiabuildings.org/pab/app/ar_display.cfm/22760",
+      "archival_identifier": "Philadelphia Architects and Buildings architect record 22760",
+      "title": "Moltke, Wilhelm Viggo von (1911-1992)",
+      "author_creator": "Emily T. Cooperman, Rima M. Girnius, and Sandra L. Tatman",
+      "repository_publisher": "Athenaeum of Philadelphia and University of Pennsylvania Architectural Archives",
+      "publication_record_date": null,
+      "locator": "Biographical record; professional experience and military service",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Philadelphia Architects and Buildings",
+      "rights_notes": "The rare name and chronology are compatible, but the profile omits the indexed E.F. initials and does not mention OSS; identity and employment remain qualified."
+    },
+    {
+      "key": "dvids-rudolf-von-ripper-b990",
+      "stable_url": "https://www.dvidshub.net/news/printable/543490",
+      "archival_identifier": "DVIDS story 543490",
+      "title": "Rudolf von Ripper: Warrior, Artist, and Witness to War",
+      "author_creator": "Maj. William McGehee",
+      "repository_publisher": "Defense Visual Information Distribution Service; 1st Armored Division",
+      "publication_record_date": "2025-07-22",
+      "locator": "Biography sections on 1942 Army entry, hospital laboratory duty and the War Art Unit",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "1st Armored Division and Fort Bliss"
+    },
+    {
+      "key": "army-rudolf-von-ripper-b990",
+      "stable_url": "https://innovation.army.mil/Test-Page/videoid/972164/dvpTag/IMCOM/",
+      "archival_identifier": "U.S. Army video feature 972164",
+      "title": "Rudolf von Ripper",
+      "author_creator": "United States Army",
+      "repository_publisher": "United States Army",
+      "publication_record_date": null,
+      "locator": "Feature description; Army art service followed by recruitment into the wartime intelligence organization",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "United States Army historical features",
+      "rights_notes": "The page uses an imprecise expansion of OSS; the project normalizes only the organization name and preserves the underlying Army-to-OSS sequence."
+    },
+    {
+      "key": "nicholas-vonneuman-cv-b990",
+      "stable_url": "https://gwern.net/doc/math/1987-vonneumann.pdf",
+      "archival_identifier": "Appendix G, Curriculum Vitae of Nicholas A. Vonneuman",
+      "title": "John von Neumann As Seen By His Brother",
+      "author_creator": "Nicholas A. Vonneuman",
+      "repository_publisher": "Nicholas A. Vonneuman",
+      "publication_record_date": "1987",
+      "locator": "PDF physical page 75, printed page 70; curriculum vitae employment chronology visually inspected",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Author's autobiographical manuscript",
+      "rights_notes": "The project stores only a citation and concise paraphrase. The exact-name autobiographical chronology is corroborated by the official Army identity bridge."
+    },
+    {
+      "key": "harvard-crimson-von-stade-1942-b990",
+      "stable_url": "https://www.thecrimson.com/article/1942/5/1/dean-von-stade-leaves-college-for/",
+      "archival_identifier": "The Harvard Crimson, May 1, 1942",
+      "title": "Dean Von Stade Leaves College For Service",
+      "author_creator": "The Harvard Crimson",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1942-05-01",
+      "locator": "Contemporary report on Francis Skiddy von Stade Jr.'s resignation as assistant dean",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Harvard Crimson archive"
+    },
+    {
+      "key": "harvard-crimson-von-stade-1995-b990",
+      "stable_url": "https://www.thecrimson.com/article/1995/10/3/former-mather-master-von-stade-dead/",
+      "archival_identifier": "The Harvard Crimson, October 3, 1995",
+      "title": "Former Mather Master Von Stade Dead at 91",
+      "author_creator": "The Harvard Crimson",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1995-10-03",
+      "locator": "Institutional obituary; assistant-dean appointment and departure for Naval Intelligence",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Harvard Crimson archive"
+    },
+    {
+      "key": "cia-mapmakers-voskuil-b990",
+      "stable_url": "https://www.cia.gov/stories/story/the-mapmakers-craft-a-history-of-cartography-at-cia/",
+      "archival_identifier": "CIA historical feature, The Mapmaker's Craft",
+      "title": "The Mapmaker's Craft: A History of Cartography at CIA",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": null,
+      "locator": "Section on the COI Cartography Section's formation after Pearl Harbor and transition to OSS",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA historical stories"
+    },
+    {
+      "key": "uiuc-voskuil-1940-b990",
+      "stable_url": "https://www.trustees.uillinois.edu/trustees/minutes/1940/1940-05-28-uibot.pdf",
+      "archival_identifier": "University of Illinois Board of Trustees minutes, May 28, 1940",
+      "title": "Meeting of the Board of Trustees, University of Illinois, May 28, 1940",
+      "author_creator": "University of Illinois Board of Trustees",
+      "repository_publisher": "University of Illinois",
+      "publication_record_date": "1940-05-28",
+      "locator": "PDF physical page 27, printed page 961; Robert J. Voskuil appointment visually inspected",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Illinois Board of Trustees minutes"
+    },
+    {
+      "key": "princeton-votichenko-b990",
+      "stable_url": "https://paw.princeton.edu/memorial/taras-votichenko-40",
+      "archival_identifier": "Princeton Alumni Weekly memorial: Taras Votichenko '40",
+      "title": "Taras Votichenko '40",
+      "author_creator": "Princeton Alumni Weekly",
+      "repository_publisher": "Princeton University",
+      "publication_record_date": null,
+      "locator": "Memorial; Princeton graduation, Navy service, military-government work and OSS context",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Princeton Alumni Weekly memorials",
+      "rights_notes": "The memorial's phrase 'after the war' is retained as a chronology caveat because OSS ceased operations in October 1945."
+    },
+    {
+      "key": "resistance-museum-vougnon-b990",
+      "stable_url": "https://www.museedelaresistanceenligne.org/media.php?expo=&media=9516",
+      "archival_identifier": "Musée de la Résistance en ligne media 9516",
+      "title": "Maquis C-134 commandé par Claude Vougnon",
+      "author_creator": "Musée de la Résistance en ligne",
+      "repository_publisher": "Fondation de la Résistance",
+      "publication_record_date": null,
+      "locator": "Collection description identifying Claude Vougnon as commander of Maquis C-134",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musée de la Résistance en ligne"
+    },
+    {
+      "key": "us-war-memorials-voulgarakis-b990",
+      "stable_url": "https://uswarmemorials.org/html/people_details.php?PeopleID=24841",
+      "archival_identifier": "US War Memorials profile 24841",
+      "title": "Steve Voulgarakis",
+      "author_creator": "US War Memorials Overseas, Inc.",
+      "repository_publisher": "US War Memorials Overseas, Inc.",
+      "publication_record_date": null,
+      "locator": "Service profile; identifier, Army entry, rank, unit and Greek-American OSS volunteer context",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "US War Memorials personnel profiles",
+      "rights_notes": "The public profile's full service number is not reproduced in project claims or public exports."
+    },
+    {
+      "key": "oss-operational-groups-voulgarakis-b990",
+      "stable_url": "https://ossog.info/balkans/greek_04.html",
+      "archival_identifier": "OSS Operational Groups, Greek group roster page 4",
+      "title": "Greek Operational Group personnel",
+      "author_creator": "OSS Operational Groups",
+      "repository_publisher": "OSS Operational Groups veterans-history project",
+      "publication_record_date": null,
+      "locator": "Roster listing Sgt. Steve Voulgarakis",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups"
+    },
+    {
+      "key": "washington-post-vournas-b990",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1995/10/31/ww-bennett-foreign-service-officer-dies/46b247f6-c3a3-46c1-8421-48d8c538917e/",
+      "archival_identifier": "The Washington Post, October 31, 1995",
+      "title": "W.W. Bennett, Foreign Service Officer, Dies",
+      "author_creator": "The Washington Post",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1995-10-31",
+      "locator": "Obituary item on legal practice and Army assignment to OSS",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post archive"
+    },
+    {
+      "key": "ahepa-vournas-b990",
+      "stable_url": "https://ahepahistory.org/History-of-the-Order-of-AHEPA-1922-1972-George-Leber/part-III-chapter-seven-the-years-1939-1945.html",
+      "archival_identifier": "AHEPA history, Part III, Chapter Seven",
+      "title": "The Years 1939-1945",
+      "author_creator": "George J. Leber",
+      "repository_publisher": "Order of AHEPA historical archive",
+      "publication_record_date": null,
+      "locator": "Wartime account of George C. Vournas as AHEPA president and U.S. Army officer",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "History of the Order of AHEPA, 1922-1972"
+    },
+    {
+      "key": "court-vournas-1940-b990",
+      "stable_url": "https://www.leagle.com/decision/1940826110f2d7161616",
+      "archival_identifier": "110 F.2d 716 (1940)",
+      "title": "Skiriotes v. Florida",
+      "author_creator": "United States Court of Appeals, Fifth Circuit",
+      "repository_publisher": "Leagle legal archive",
+      "publication_record_date": "1940",
+      "locator": "Counsel listing naming George C. Vournas as attorney",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Federal court decisions"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "howe-stonorov-kahn-b990",
+      "canonical_name": "Howe, Stonorov & Kahn",
+      "historical_name": "Howe, Stonorov & Kahn",
+      "organization_type": "architecture firm",
+      "sector": "business_and_industry",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "Historical firm name preserved; no successor organization is substituted."
+    },
+    {
+      "key": "us-army-b990",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": [
+        "US Army"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Specific units and programs remain in role fields when supported."
+    },
+    {
+      "key": "national-city-bank-new-york-b990",
+      "canonical_name": "National City Bank of New York",
+      "historical_name": "National City Bank of New York",
+      "organization_type": "bank",
+      "sector": "finance_and_banking",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Historical name used through 1955",
+      "normalization_notes": "The 1937-1942 historical employer name is preserved; no modern successor is substituted."
+    },
+    {
+      "key": "office-naval-intelligence-b990",
+      "canonical_name": "Office of Naval Intelligence",
+      "historical_name": "Naval Intelligence",
+      "aliases": [
+        "ONI"
+      ],
+      "organization_type": "military intelligence organization",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The obituary's historical wording is preserved in the affiliation."
+    },
+    {
+      "key": "harvard-college-b990",
+      "canonical_name": "Harvard College",
+      "historical_name": "Harvard College",
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Harvard College is retained as the named employer rather than silently broadened to the university."
+    },
+    {
+      "key": "coi-cartography-section-b990",
+      "canonical_name": "Coordinator of Information Cartography Section",
+      "historical_name": "COI Cartography Section",
+      "aliases": [
+        "Cartography Section"
+      ],
+      "organization_type": "federal intelligence cartography unit",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1942; transferred into OSS in June 1942",
+      "normalization_notes": "The predecessor section is kept distinct from the later OSS Cartography Section."
+    },
+    {
+      "key": "university-illinois-b990",
+      "canonical_name": "University of Illinois",
+      "historical_name": "University of Illinois",
+      "organization_type": "public university",
+      "sector": "academia_and_research",
+      "city": "Urbana",
+      "state_or_region": "Illinois",
+      "country": "United States"
+    },
+    {
+      "key": "us-navy-b990",
+      "canonical_name": "United States Navy",
+      "historical_name": "U.S. Navy",
+      "aliases": [
+        "US Navy"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "United States"
+    },
+    {
+      "key": "princeton-university-b990",
+      "canonical_name": "Princeton University",
+      "historical_name": "Princeton University",
+      "organization_type": "university",
+      "sector": "student",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "normalization_notes": "Student status is not counted as employment."
+    },
+    {
+      "key": "maquis-c134-b990",
+      "canonical_name": "Maquis C-134",
+      "historical_name": "Maquis C-134",
+      "aliases": [
+        "C-134",
+        "Forces françaises de l'intérieur"
+      ],
+      "organization_type": "French Resistance formation",
+      "sector": "military",
+      "country": "France",
+      "normalization_notes": "The maquis formation is retained as a historical Allied military/resistance affiliation."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "roy-p-vonel-army-category-b990",
+      "person_id": "fe5b6b14-d45d-5d5f-97fe-d43b8dfbaa97",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "athlete, sports instructor, or sports official",
+      "end_date": "1942-12-03",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace, duration and exact job are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "donald-w-vose-army-category-b990",
+      "person_id": "09daafe4-c14a-5f0b-827a-5ce19ecfb3b4",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "actor or actress",
+      "end_date": "1942-07-01",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace, duration and exact job are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "mario-j-votinelli-army-category-b990",
+      "person_id": "f7484bdc-8aa4-52bf-a82f-8d9971ef4998",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "semiskilled worker in furniture manufacture",
+      "end_date": "1942-08-27",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace, duration and exact job are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "steve-voulgarakis-army-category-b990",
+      "person_id": "a64bc4dd-29e4-5aff-a951-d48b1d668310",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "sales clerk",
+      "end_date": "1942-03-26",
+      "date_precision": "Historical civilian-occupation category recorded at Army entry; employer, workplace, duration and exact job are not supplied",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Official historical category only; excluded from verified-employer analytics and not narrowed beyond the code-list wording."
+    },
+    {
+      "key": "moltke-howe-stonorov-kahn-b990",
+      "person_id": "b8227a87-17a5-52a4-80d7-d31ff6dee558",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "howe-stonorov-kahn-b990",
+      "organization_name_as_found": "Howe, Stonorov & Kahn",
+      "role_title": "architect",
+      "occupation": "architect",
+      "end_date": "1942",
+      "date_precision": "Institutional biography lists the firm in 1942 and Army service beginning in 1943",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Qualified last civilian employer before Army service; the profile omits the indexed initials and does not directly link him to OSS."
+    },
+    {
+      "key": "ripper-us-army-b990",
+      "person_id": "afe08b69-e1ee-5700-b66f-373c322ebc88",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "organization_key": "us-army-b990",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "War Art Unit artist and intelligence officer",
+      "occupation": "artist and Army officer",
+      "start_date": "1942",
+      "date_precision": "Official Army sources document Army service followed by recruitment into OSS; exact transfer date is not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Army assignment immediately before OSS; no civilian employer is inferred."
+    },
+    {
+      "key": "vonneuman-us-army-b990",
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "organization_key": "us-army-b990",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Infantry Replacement Training Center and Army Specialized Training Program",
+      "start_date": "1942",
+      "end_date": "1943",
+      "date_precision": "Author's curriculum vitae gives 1942-1943 Army training followed by 1943-1945 detached service with OSS",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Exact-name autobiographical chronology corroborated by the official Army identity bridge."
+    },
+    {
+      "key": "vonneuman-national-city-b990",
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "organization_key": "national-city-bank-new-york-b990",
+      "organization_name_as_found": "National City Bank of New York",
+      "role_title": "auditor, Comptrollers Department",
+      "occupation": "auditor",
+      "start_date": "1937",
+      "end_date": "1942",
+      "date_precision": "Author's curriculum vitae gives 1937-1942, followed by U.S. Army service",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Last documented civilian employer before Army service; the historical bank name is preserved."
+    },
+    {
+      "key": "von-stade-naval-intelligence-b990",
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "office-naval-intelligence-b990",
+      "organization_name_as_found": "Naval Intelligence",
+      "role_title": "wartime intelligence service",
+      "start_date": "1942",
+      "date_precision": "Institutional obituary says he left Harvard to join Naval Intelligence; exact later transfer into OSS is not supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Qualified predecessor affiliation; Box 808 is needed to establish the Naval Intelligence-to-OSS sequence."
+    },
+    {
+      "key": "von-stade-harvard-b990",
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "harvard-college-b990",
+      "organization_name_as_found": "Harvard College",
+      "role_title": "Assistant Dean",
+      "occupation": "college administrator",
+      "start_date": "1940",
+      "end_date": "1942-05",
+      "date_precision": "Contemporary report and institutional obituary say he resigned in May 1942 to enter wartime service",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Last civilian employer before Naval Intelligence; not recast as the immediate OSS predecessor."
+    },
+    {
+      "key": "voskuil-coi-cartography-b990",
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "relationship_type": "government_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "organization_key": "coi-cartography-section-b990",
+      "organization_name_as_found": "COI Cartography Section",
+      "role_title": "geographer and cartographer",
+      "start_date": "1941-12",
+      "end_date": "1942-06",
+      "date_precision": "CIA history says Voskuil joined the COI Cartography Section after Pearl Harbor; COI became OSS on 13 June 1942",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Direct predecessor assignment transferred into OSS."
+    },
+    {
+      "key": "voskuil-uiuc-b990",
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "university-illinois-b990",
+      "organization_name_as_found": "University of Illinois",
+      "role_title": "Assistant in Geography",
+      "occupation": "geographer",
+      "start_date": "1940-09-01",
+      "end_date": "1941-06",
+      "date_precision": "Board minutes appoint him for ten months beginning 1 September 1940; CIA history places him in COI after Pearl Harbor",
+      "city": "Urbana",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Last documented civilian employer before COI; no later civilian role was found in the reviewed chronology."
+    },
+    {
+      "key": "votichenko-us-navy-b990",
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "us-navy-b990",
+      "organization_name_as_found": "Navy",
+      "role_title": "lieutenant commander; military-government assignment in liberated France",
+      "start_date": "1941",
+      "end_date": "1945",
+      "date_precision": "Princeton memorial places the Navy and military-government service during World War II and later associates him with OSS in North Africa",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Qualified predecessor affiliation because the memorial's OSS chronology is imprecise."
+    },
+    {
+      "key": "votichenko-princeton-b990",
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "relationship_type": "student",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "princeton-university-b990",
+      "organization_name_as_found": "Princeton",
+      "role_title": "undergraduate student",
+      "end_date": "1940",
+      "date_precision": "Princeton class memorial identifies him as a 1940 graduate",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Student status only; Princeton is not classified as his employer."
+    },
+    {
+      "key": "vougnon-maquis-c134-b990",
+      "person_id": "09554b6e-359e-5d5c-9d23-c4083c684e43",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "maquis-c134-b990",
+      "organization_name_as_found": "Maquis C-134",
+      "role_title": "commander",
+      "start_date": "1944-04",
+      "date_precision": "Resistance-museum record identifies Claude Vougnon as commander; exact OSS liaison and transfer chronology require the personnel file",
+      "country": "France",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Qualified Allied resistance affiliation based on the rare exact name and compatible lieutenant context."
+    },
+    {
+      "key": "vournas-us-army-b990",
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "organization_key": "us-army-b990",
+      "organization_name_as_found": "Army",
+      "role_title": "officer assigned to OSS in Europe and North Africa",
+      "start_date": "1943",
+      "date_precision": "Obituary explicitly says the Army assigned him to OSS; AHEPA history independently places him on Army duty in Egypt in 1943",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Direct Army-to-OSS assignment; indexed Major rank is compatible."
+    },
+    {
+      "key": "vournas-private-practice-b990",
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "relationship_type": "self_employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "organization_name_as_found": "private practice of international law",
+      "role_title": "attorney",
+      "occupation": "lawyer",
+      "end_date": "1942",
+      "date_precision": "A 1940 federal decision lists him as counsel; obituary describes a long private practice before and after wartime Army service",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Qualified as self-employment because no law firm is named in the reviewed sources."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-roy-p-vonel-b990",
+      "person_id": "fe5b6b14-d45d-5d5f-97fe-d43b8dfbaa97",
+      "claim_type": "identity",
+      "claim_text": "Indexed Roy P Vonel is high-confidence matched to the official Army entry reviewed for Batch 990.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The dated Army entry precedes the later OSS-index context; the personnel file remains necessary to document the transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity bridge does not by itself establish an employer or immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "claim-roy-p-vonel-army-category-b990",
+      "person_id": "fe5b6b14-d45d-5d5f-97fe-d43b8dfbaa97",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-03, Roy P Vonel's historical civilian category was athletes, sports instructors, and sports officials.",
+      "evidence_paraphrase": "The official Army field carries historical code 057; NARA's code list defines it as Athletes, sports instructors, and sports officials.",
+      "identity_match_assessment": "High confidence from the reviewed official identity bridge.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Reviewed Army entry; raw record and identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b990"
+        },
+        {
+          "source_key": "army-codes-b990",
+          "locator_override": "Historical civilian occupation code 057"
+        }
+      ],
+      "affiliation_key": "roy-p-vonel-army-category-b990"
+    },
+    {
+      "key": "identity-donald-w-vose-b990",
+      "person_id": "09daafe4-c14a-5f0b-827a-5ce19ecfb3b4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Donald W Vose is high-confidence matched to the official Army entry reviewed for Batch 990.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The dated Army entry precedes the later OSS-index context; the personnel file remains necessary to document the transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity bridge does not by itself establish an employer or immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "claim-donald-w-vose-army-category-b990",
+      "person_id": "09daafe4-c14a-5f0b-827a-5ce19ecfb3b4",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-01, Donald W Vose's historical civilian category was actors and actresses.",
+      "evidence_paraphrase": "The official Army field carries historical code 002; NARA's code list defines it as Actors and actresses.",
+      "identity_match_assessment": "High confidence from the reviewed official identity bridge.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Reviewed Army entry; raw record and identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b990"
+        },
+        {
+          "source_key": "army-codes-b990",
+          "locator_override": "Historical civilian occupation code 002"
+        }
+      ],
+      "affiliation_key": "donald-w-vose-army-category-b990"
+    },
+    {
+      "key": "identity-mario-j-votinelli-b990",
+      "person_id": "f7484bdc-8aa4-52bf-a82f-8d9971ef4998",
+      "claim_type": "identity",
+      "claim_text": "Indexed Mario J Votinelli is high-confidence matched to the official Army entry reviewed for Batch 990.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value and raw bulk record are withheld.",
+      "temporal_assessment": "The dated Army entry precedes the later OSS-index context; the personnel file remains necessary to document the transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity bridge does not by itself establish an employer or immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "claim-mario-j-votinelli-army-category-b990",
+      "person_id": "f7484bdc-8aa4-52bf-a82f-8d9971ef4998",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-27, Mario J Votinelli's historical civilian category was semiskilled occupations in manufacture of furniture, n.e.c..",
+      "evidence_paraphrase": "The official Army field carries historical code 636; NARA's code list defines it as Semiskilled occupations in manufacture of furniture, n.e.c..",
+      "identity_match_assessment": "High confidence from the reviewed official identity bridge.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Reviewed Army entry; raw record and identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b990"
+        },
+        {
+          "source_key": "army-codes-b990",
+          "locator_override": "Historical civilian occupation code 636"
+        }
+      ],
+      "affiliation_key": "mario-j-votinelli-army-category-b990"
+    },
+    {
+      "key": "claim-steve-voulgarakis-army-category-b990",
+      "person_id": "a64bc4dd-29e4-5aff-a951-d48b1d668310",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-26, Steve Voulgarakis's historical civilian category was sales clerks.",
+      "evidence_paraphrase": "The official Army field carries historical code 170; NARA's code list defines it as Sales clerks.",
+      "identity_match_assessment": "High confidence from the reviewed official identity bridge.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace, duration or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified historical category only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Reviewed Army entry; raw record and identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b990"
+        },
+        {
+          "source_key": "army-codes-b990",
+          "locator_override": "Historical civilian occupation code 170"
+        }
+      ],
+      "affiliation_key": "steve-voulgarakis-army-category-b990"
+    },
+    {
+      "key": "identity-wilhelm-viggo-e-f-von-moltke-b990",
+      "person_id": "b8227a87-17a5-52a4-80d7-d31ff6dee558",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wilhelm-Viggo E.F. Von Moltke is probably the architect Wilhelm Viggo von Moltke documented in an institutional architecture database.",
+      "evidence_paraphrase": "The rare name and chronology agree; the profile documents Harvard study, Philadelphia architecture work in 1942 and U.S. Army service beginning in 1943.",
+      "identity_match_assessment": "Probable because the profile omits the indexed E.F. initials and does not mention OSS.",
+      "temporal_assessment": "The employment is dated 1942 and Army service 1943, but the OSS transfer is not documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified identity pending review of Box 808.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "pab-wilhelm-viggo-von-moltke-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-moltke-howe-stonorov-kahn-b990",
+      "person_id": "b8227a87-17a5-52a4-80d7-d31ff6dee558",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Wilhelm Viggo von Moltke worked for Howe, Stonorov & Kahn in 1942 before U.S. Army service began in 1943.",
+      "evidence_paraphrase": "The institutional professional biography lists the Philadelphia architecture firm in 1942 and Army service from 1943.",
+      "identity_match_assessment": "Probable identity from the rare name and chronology; the indexed initials and OSS link remain unconfirmed.",
+      "temporal_assessment": "Strongly date-bounded as the last listed civilian employment before Army service; not proven immediate to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified last-civilian employment and excluded from default high-identity analytics.",
+      "sources": [
+        {
+          "source_key": "pab-wilhelm-viggo-von-moltke-b990"
+        }
+      ],
+      "affiliation_key": "moltke-howe-stonorov-kahn-b990"
+    },
+    {
+      "key": "identity-rudolph-c-von-ripper-b990",
+      "person_id": "afe08b69-e1ee-5700-b66f-373c322ebc88",
+      "claim_type": "identity",
+      "claim_text": "Indexed Rudolph C Von Ripper is high-confidence identified as Austrian-born artist and U.S. Army officer Rudolf Charles von Ripper.",
+      "evidence_paraphrase": "Official Army sources give the matching distinctive name, Charles middle name, 1942 Army entry, art service and later OSS recruitment.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, matching middle name and direct Army-to-OSS chronology.",
+      "temporal_assessment": "Official sources establish Army service before OSS recruitment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed personnel file remains necessary for the exact transfer date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "dvids-rudolf-von-ripper-b990"
+        },
+        {
+          "source_key": "army-rudolf-von-ripper-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-ripper-us-army-b990",
+      "person_id": "afe08b69-e1ee-5700-b66f-373c322ebc88",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Rudolf von Ripper served in the U.S. Army, including the War Art Unit, before recruitment into OSS.",
+      "evidence_paraphrase": "Official Army sources describe his Army art and intelligence service followed by OSS recruitment.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and Charles middle name.",
+      "temporal_assessment": "Explicit Army-to-OSS sequence; exact transfer date is not supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "dvids-rudolf-von-ripper-b990"
+        },
+        {
+          "source_key": "army-rudolf-von-ripper-b990"
+        }
+      ],
+      "affiliation_key": "ripper-us-army-b990"
+    },
+    {
+      "key": "identity-nicholas-a-vonneuman-b990",
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nicholas A Vonneuman is confirmed as the Army serviceman and OSS assignee whose curriculum vitae appears in his 1987 manuscript.",
+      "evidence_paraphrase": "Exact name, nonshared protected Army identifier, matching 1942 entry and an autobiographical 1943-1945 OSS chronology converge.",
+      "identity_match_assessment": "Confirmed from the official protected-identifier bridge plus a specific first-person employment and OSS chronology.",
+      "temporal_assessment": "The curriculum vitae explicitly sequences bank, Army training and detached OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The first-person source is corroborated by the official Army record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted exact-name identity bridge; identifier withheld"
+        },
+        {
+          "source_key": "nicholas-vonneuman-cv-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-vonneuman-us-army-b990",
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Nicholas A. Vonneuman moved from Army infantry and language training into detached OSS service in 1943.",
+      "evidence_paraphrase": "His curriculum vitae gives 1942-1943 Army training followed by 1943-1945 U.S. Army detached service with OSS.",
+      "identity_match_assessment": "Confirmed by exact-name autobiographical chronology and the official Army identity bridge.",
+      "temporal_assessment": "Explicit sequence directly identifies the predecessor military assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No civilian employer is inferred from the Army assignment.",
+      "sources": [
+        {
+          "source_key": "nicholas-vonneuman-cv-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted exact-name identity bridge; identifier withheld"
+        }
+      ],
+      "affiliation_key": "vonneuman-us-army-b990"
+    },
+    {
+      "key": "claim-vonneuman-national-city-b990",
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Nicholas A. Vonneuman was an auditor in National City Bank of New York's Comptrollers Department from 1937 to 1942.",
+      "evidence_paraphrase": "His curriculum vitae lists the bank and role immediately before 1942-1943 Army service.",
+      "identity_match_assessment": "Confirmed by exact-name autobiography and official Army bridge.",
+      "temporal_assessment": "Strongly date-bounded as the last civilian employer before Army service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Historical employer name preserved; not modernized.",
+      "sources": [
+        {
+          "source_key": "nicholas-vonneuman-cv-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "support_type": "context_only",
+          "locator_override": "Official 1942 Army-entry corroboration; identifier withheld"
+        }
+      ],
+      "affiliation_key": "vonneuman-national-city-b990"
+    },
+    {
+      "key": "identity-francis-s-vonstade-b990",
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Francis S Vonstade is high-confidence identified as Francis Skiddy von Stade Jr., Harvard assistant dean and wartime Naval Intelligence entrant.",
+      "evidence_paraphrase": "Contemporary and institutional Harvard sources use the full name and document his 1942 resignation for wartime intelligence service.",
+      "identity_match_assessment": "High confidence from the distinctive surname, matching first initial and direct wartime chronology.",
+      "temporal_assessment": "The sources explicitly place Harvard employment before Naval Intelligence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file remains necessary to document the later OSS transfer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "harvard-crimson-von-stade-1942-b990"
+        },
+        {
+          "source_key": "harvard-crimson-von-stade-1995-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-von-stade-naval-intelligence-b990",
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Francis Skiddy von Stade Jr. joined Naval Intelligence after leaving Harvard in 1942.",
+      "evidence_paraphrase": "Harvard's institutional obituary says he left the College to join Naval Intelligence.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and matching wartime transition.",
+      "temporal_assessment": "Probable immediate OSS predecessor; the source does not give the later transfer date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified predecessor military-intelligence affiliation.",
+      "sources": [
+        {
+          "source_key": "harvard-crimson-von-stade-1995-b990"
+        }
+      ],
+      "affiliation_key": "von-stade-naval-intelligence-b990"
+    },
+    {
+      "key": "claim-von-stade-harvard-b990",
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Francis Skiddy von Stade Jr. was Harvard College Assistant Dean until resigning for wartime service in May 1942.",
+      "evidence_paraphrase": "A contemporary report records the resignation; Harvard's obituary says he had been assistant dean since 1940 and left for Naval Intelligence.",
+      "identity_match_assessment": "High-confidence identity from two Harvard sources and the distinctive name.",
+      "temporal_assessment": "Explicit transition from the last civilian employer into wartime intelligence service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is the last civilian employer, not the immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "harvard-crimson-von-stade-1942-b990"
+        },
+        {
+          "source_key": "harvard-crimson-von-stade-1995-b990"
+        }
+      ],
+      "affiliation_key": "von-stade-harvard-b990"
+    },
+    {
+      "key": "identity-james-a-voorhees-b990",
+      "person_id": "03ce197a-fcd3-5ea8-b9a4-cc3c83b02da0",
+      "claim_type": "identity",
+      "claim_text": "Indexed James A Voorhees is high-confidence matched to the official Army entry spelled James A Voorhes.",
+      "evidence_paraphrase": "A nonshared protected identifier and one-letter surname variant connect the index row to the Army record.",
+      "identity_match_assessment": "High confidence from the protected identifier and minor spelling variant; the protected value is withheld.",
+      "temporal_assessment": "The 23 February 1942 Army entry precedes OSS service, but code 999 supplies no occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No occupation or employer is inferred from undefined historical code 999.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted one-letter name variant; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-bert-d-voot-b990",
+      "person_id": "335da26b-23b5-532f-b451-bbc3030ab3a4",
+      "claim_type": "identity",
+      "claim_text": "Bert D Voot remains a conflicting identity because the printed protected identifier is also assigned to Bert D Vogt and the Army record uses Vogt.",
+      "evidence_paraphrase": "Two separately indexed people share the identifier while the official Army name agrees only with Bert D Vogt.",
+      "identity_match_assessment": "Conflicting: a shared identifier documents an index or filing problem, not permission to merge different printed names.",
+      "temporal_assessment": "No pre-OSS occupation or affiliation can be transferred until both personnel files are compared.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows remain separate in the existing conflict group.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "support_type": "contradicts",
+          "locator_override": "Army candidate name differs; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-j-voskuil-b990",
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert J Voskuil is confirmed as the geographer who joined the COI Cartography Section and later served as a naval officer in OSS cartography.",
+      "evidence_paraphrase": "University minutes give exact name and occupation; CIA history places Robert Voskuil in COI cartography, matching the indexed naval rank and OSS file.",
+      "identity_match_assessment": "Confirmed from exact name, occupational continuity, official predecessor-organization history and compatible indexed naval rank.",
+      "temporal_assessment": "The dated university appointment precedes COI formation and transfer into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The combination is specific enough to distinguish the person from namesakes.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "cia-mapmakers-voskuil-b990"
+        },
+        {
+          "source_key": "uiuc-voskuil-1940-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-voskuil-coi-cartography-b990",
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Robert Voskuil joined the Coordinator of Information Cartography Section after Pearl Harbor; that section became part of OSS in June 1942.",
+      "evidence_paraphrase": "CIA's history names Voskuil and the predecessor section, which was operating by February 1942 before COI became OSS.",
+      "identity_match_assessment": "Confirmed from exact name, geography/cartography continuity and indexed OSS naval context.",
+      "temporal_assessment": "Explicit predecessor-organization transition into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Direct predecessor government assignment.",
+      "sources": [
+        {
+          "source_key": "cia-mapmakers-voskuil-b990"
+        },
+        {
+          "source_key": "nara-index-b990",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "voskuil-coi-cartography-b990"
+    },
+    {
+      "key": "claim-voskuil-uiuc-b990",
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Robert J. Voskuil was Assistant in Geography at the University of Illinois for ten months beginning 1 September 1940.",
+      "evidence_paraphrase": "Board minutes give his exact name, department, appointment length and start date; CIA history next places him in COI after Pearl Harbor.",
+      "identity_match_assessment": "Confirmed from exact name, occupation and the later official cartography chronology.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian employer before COI.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No later civilian employer was found in the reviewed sequence.",
+      "sources": [
+        {
+          "source_key": "uiuc-voskuil-1940-b990"
+        },
+        {
+          "source_key": "cia-mapmakers-voskuil-b990",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "voskuil-uiuc-b990"
+    },
+    {
+      "key": "identity-raymond-g-vosper-b990",
+      "person_id": "00cfd64f-fb8a-5b33-b745-65d7e28fd264",
+      "claim_type": "identity",
+      "claim_text": "Indexed Raymond G Vosper is high-confidence matched to the official Army entry reviewed for Batch 990.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier directly link the printed row to the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier; the protected value is withheld.",
+      "temporal_assessment": "The Army entry is dated 16 October 1945, after OSS dissolution, so it supports identity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Historical code 125 is not transferred because the dated record is post-OSS.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-t-alexander-votichenko-b990",
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "claim_type": "identity",
+      "claim_text": "Indexed T.Alexander Votichenko is high-confidence identified as Princeton alumnus Taras A. Votichenko, a Navy lieutenant commander associated with OSS in North Africa.",
+      "evidence_paraphrase": "The rare surname, T./Taras first name, Alexander middle name and Navy-to-OSS wartime chronology agree.",
+      "identity_match_assessment": "High confidence from the distinctive name and direct institutional Navy and OSS context.",
+      "temporal_assessment": "The memorial's phrase 'after the war' makes the precise OSS transition uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Name variant retained; Box 808 should clarify the transfer date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "princeton-votichenko-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-votichenko-us-navy-b990",
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Taras A. Votichenko served as a Navy lieutenant commander and helped establish U.S. military government in liberated France before his documented OSS association.",
+      "evidence_paraphrase": "Princeton's memorial places his Navy and military-government work during World War II and then identifies an OSS role in North Africa.",
+      "identity_match_assessment": "High-confidence identity from the rare full-name variant and direct wartime context.",
+      "temporal_assessment": "Probable predecessor assignment; the memorial's exact OSS timing is imprecise.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified military pathway, excluded from unqualified immediate-affiliation counts.",
+      "sources": [
+        {
+          "source_key": "princeton-votichenko-b990"
+        }
+      ],
+      "affiliation_key": "votichenko-us-navy-b990"
+    },
+    {
+      "key": "claim-votichenko-princeton-b990",
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Taras A. Votichenko was a Princeton University student and graduated in the Class of 1940.",
+      "evidence_paraphrase": "Princeton's memorial identifies his class year and undergraduate study.",
+      "identity_match_assessment": "High-confidence identity from the rare name and wartime biography.",
+      "temporal_assessment": "Documented prewar student status; not employment and not shown as immediately pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is kept separate from employment.",
+      "sources": [
+        {
+          "source_key": "princeton-votichenko-b990"
+        }
+      ],
+      "affiliation_key": "votichenko-princeton-b990"
+    },
+    {
+      "key": "identity-claude-vougnon-b990",
+      "person_id": "09554b6e-359e-5d5c-9d23-c4083c684e43",
+      "claim_type": "identity",
+      "claim_text": "The indexed Claude Vougnon is probably the French Resistance commander of Maquis C-134.",
+      "evidence_paraphrase": "A Resistance museum identifies the rare exact name as maquis commander; the indexed first-lieutenant rank is compatible with the wartime context.",
+      "identity_match_assessment": "Probable from the rare exact name and compatible Allied rank, but no protected identifier directly links the records.",
+      "temporal_assessment": "The source documents 1944 resistance command; the OSS liaison sequence still requires the personnel file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified identity pending Box 808 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "resistance-museum-vougnon-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-vougnon-maquis-c134-b990",
+      "person_id": "09554b6e-359e-5d5c-9d23-c4083c684e43",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Claude Vougnon commanded the French Resistance formation Maquis C-134 in 1944.",
+      "evidence_paraphrase": "The Resistance museum's collection description directly identifies Vougnon as commander.",
+      "identity_match_assessment": "Probable identity from the rare name and compatible lieutenant context.",
+      "temporal_assessment": "Probable immediate Allied resistance affiliation; the OSS transfer or liaison date is not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified Allied military context, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "resistance-museum-vougnon-b990"
+        }
+      ],
+      "affiliation_key": "vougnon-maquis-c134-b990"
+    },
+    {
+      "key": "identity-steve-voulgarakis-b990",
+      "person_id": "a64bc4dd-29e4-5aff-a951-d48b1d668310",
+      "claim_type": "identity",
+      "claim_text": "Indexed Steve Voulgarakis is high-confidence identified as the Army sergeant and Greek Operational Group member documented in veterans-history sources.",
+      "evidence_paraphrase": "The exact rare name and protected service-number agreement connect the index, official Army record and unit histories.",
+      "identity_match_assessment": "High confidence from exact name, nonshared official identifier and consistent Greek Operational Group service.",
+      "temporal_assessment": "The Army entry and unit history precede or coincide with OSS service; no named civilian employer is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Full service number remains excluded from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "army-bulk-b990",
+          "locator_override": "Accepted identity bridge; protected identifier withheld"
+        },
+        {
+          "source_key": "us-war-memorials-voulgarakis-b990",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "oss-operational-groups-voulgarakis-b990",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-c-vournas-b990",
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "claim_type": "identity",
+      "claim_text": "Indexed George C Vournas is high-confidence identified as the lawyer and Army officer assigned to OSS in Europe and North Africa.",
+      "evidence_paraphrase": "Exact name, indexed Major rank, Army-to-OSS obituary and AHEPA wartime officer chronology converge.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and two independent wartime biographical sources.",
+      "temporal_assessment": "The sources explicitly place private legal practice before Army and Army assignment before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file remains necessary for exact dates.",
+      "sources": [
+        {
+          "source_key": "nara-index-b990"
+        },
+        {
+          "source_key": "washington-post-vournas-b990"
+        },
+        {
+          "source_key": "ahepa-vournas-b990"
+        }
+      ]
+    },
+    {
+      "key": "claim-vournas-us-army-b990",
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "George C. Vournas was a U.S. Army officer assigned to OSS in Europe and North Africa.",
+      "evidence_paraphrase": "The obituary explicitly describes the Army assignment; AHEPA history independently places him on Army duty in Egypt in 1943.",
+      "identity_match_assessment": "High-confidence identity from exact name, officer status and compatible wartime chronology.",
+      "temporal_assessment": "Explicit immediate Army-to-OSS assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "washington-post-vournas-b990"
+        },
+        {
+          "source_key": "ahepa-vournas-b990"
+        }
+      ],
+      "affiliation_key": "vournas-us-army-b990"
+    },
+    {
+      "key": "claim-vournas-private-practice-b990",
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "George C. Vournas practiced law privately before wartime Army service.",
+      "evidence_paraphrase": "A 1940 federal decision lists him as counsel, and his obituary describes more than six decades in private international-law practice.",
+      "identity_match_assessment": "High-confidence identity from the exact name and direct Army-to-OSS biography.",
+      "temporal_assessment": "Strongly date-bounded civilian work before Army service; no named firm is supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Recorded as self-employment rather than inventing a law-firm employer.",
+      "sources": [
+        {
+          "source_key": "court-vournas-1940-b990"
+        },
+        {
+          "source_key": "washington-post-vournas-b990"
+        }
+      ],
+      "affiliation_key": "vournas-private-practice-b990"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "aa89d58a-8da6-593e-8326-0cc9fd347daa",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Robert A Von Neuman and its indexed Box 808 context. A scholarly OSS history names a Robert von Neumann as a research assistant, while art-market and biographical leads point to different Robert von Neumanns. None supplies the indexed middle initial or a protected-identifier bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A scholarly OSS history names a Robert von Neumann as a research assistant, while art-market and biographical leads point to different Robert von Neumanns. None supplies the indexed middle initial or a protected-identifier bridge."
+    },
+    {
+      "person_id": "ff7f569a-385a-5a25-bcb8-4c3ad1482600",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Franz Von Seidler and its indexed Box 808 context. Exact-name, spelling-variant, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, spelling-variant, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "8a43d6b7-7310-5ded-b614-163865da9fe4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Joseph Vona and its indexed Box 808 context. A Joseph Vona obituary names a Westinghouse engineer and Army veteran, but the common name and absence of a matching middle initial or protected identifier make the candidate unsafe to assign.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A Joseph Vona obituary names a Westinghouse engineer and Army veteran, but the common name and absence of a matching middle initial or protected identifier make the candidate unsafe to assign."
+    },
+    {
+      "person_id": "54c6913a-3cf1-57fa-a0d1-c9fff105ba31",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves John G Vonetes and its indexed Box 808 context. Exact-name, middle-initial, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, middle-initial, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "d9f08064-0aa3-5dc0-aa1b-cc99525c59fe",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves John S Voorhees and its indexed Box 808 context. Exact-name, middle-initial, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, middle-initial, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "6726c8ad-2148-572f-b157-acaa6620b369",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Henri G.W. Vorbroker and its indexed Box 808 context. Exact-name, punctuation-variant, naval-grade, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, punctuation-variant, naval-grade, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "6a2fc444-1dc1-5918-a72c-3ce9f111875b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 485 row preserves Adam Voulgaris and its indexed Box 808 context. Exact-name, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "fe5b6b14-d45d-5d5f-97fe-d43b8dfbaa97",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 808 to identify any named employer behind the historical Army category and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "09daafe4-c14a-5f0b-827a-5ce19ecfb3b4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 808 to identify any named employer behind the historical Army category and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "f7484bdc-8aa4-52bf-a82f-8d9971ef4998",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 808 to identify any named employer behind the historical Army category and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "a64bc4dd-29e4-5aff-a951-d48b1d668310",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 808 to identify any named employer behind the historical Army category and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "b8227a87-17a5-52a4-80d7-d31ff6dee558",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "probable",
+      "identity_evidence": "The rare name and chronology agree with an institutional architecture biography, but the profile omits the indexed E.F. initials and does not mention OSS.",
+      "name_variants": [
+        "Wilhelm Viggo von Moltke"
+      ],
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 808 for an identity bridge and the Army-to-OSS chronology. Howe, Stonorov & Kahn is published only as qualified last civilian employment."
+    },
+    {
+      "person_id": "afe08b69-e1ee-5700-b66f-373c322ebc88",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army sources give the distinctive name, Charles middle name, 1942 Army entry, art service and later OSS recruitment.",
+      "name_variants": [
+        "Rudolf Charles von Ripper",
+        "Rudolf von Ripper"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 808 for exact Army-to-OSS transfer dates and any last civilian employer."
+    },
+    {
+      "person_id": "a4669b2c-e62f-5f67-8788-467466c49f16",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index separately prints Walter Von Schuschn in Box 808 and Walter Schuschnigg in Box 690. The rare truncated name suggests a possible duplicate, but different boxes and no protected identifier prohibit merging.",
+      "possible_duplicate_group": "p416-p485-walter-schuschnigg-b990",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare the Box 808 Walter Von Schuschn file with the Box 690 Walter Schuschnigg file before assigning identity or employment."
+    },
+    {
+      "person_id": "d644ca01-1045-5458-ac8d-3373d7a2ca4b",
+      "manual_review_required": true,
+      "possible_duplicate_group": "p416-p485-walter-schuschnigg-b990",
+      "archival_review_priority": "critical",
+      "next_action": "Compare the Box 690 Walter Schuschnigg file with the Box 808 Walter Von Schuschn file; preserve both source rows until direct evidence resolves duplication."
+    },
+    {
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "confirmed",
+      "identity_evidence": "The official exact-name protected-identifier bridge and Nicholas A. Vonneuman's own curriculum vitae independently establish Army entry, training and detached OSS service.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Box 808 can refine the transfer date and assignment, but the immediate Army pathway and National City Bank employment are documented.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Contemporary and institutional Harvard sources use the distinctive full name and document his 1942 resignation for Naval Intelligence.",
+      "name_variants": [
+        "Francis Skiddy von Stade Jr."
+      ],
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 808 to establish the Naval Intelligence-to-OSS transfer date; Harvard College is documented as the last civilian employer."
+    },
+    {
+      "person_id": "03ce197a-fcd3-5ea8-b9a4-cc3c83b02da0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and one-letter official surname variant connect James A Voorhees to Army entry James A Voorhes.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 808 for pre-OSS employment and Army-to-OSS chronology. Historical code 999 is undefined.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "335da26b-23b5-532f-b451-bbc3030ab3a4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The printed protected identifier is shared by separately indexed Bert D Voot and Bert D Vogt, while the official Army record uses Vogt. No identity, occupation or employer is transferred.",
+      "possible_duplicate_group": "p416-p485-bert-vogt-voot-b990",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both indexed personnel files together before assigning identity, occupation or pre-OSS affiliation."
+    },
+    {
+      "person_id": "4560d7c3-f72b-5ffd-be8c-e00d2ab655b8",
+      "manual_review_required": true,
+      "possible_duplicate_group": "p416-p485-bert-vogt-voot-b990",
+      "archival_review_priority": "critical",
+      "next_action": "Compare the Bert D Vogt and Bert D Voot personnel files; preserve both source rows until direct evidence resolves the protected-identifier conflict."
+    },
+    {
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact-name University employment, geography/cartography continuity, CIA predecessor-organization history and the compatible indexed naval rank establish the identity.",
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Box 808 can refine his OSS rank chronology; COI Cartography and University of Illinois employment are documented."
+    },
+    {
+      "person_id": "00cfd64f-fb8a-5b33-b745-65d7e28fd264",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official name and a nonshared protected-identifier agreement support the Army identity match; the protected value remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 808. The accepted Army identity record entered after OSS dissolution, so its occupation supplies no pre-OSS evidence.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare T./Taras Alexander Votichenko name and institutional Navy, military-government and OSS context agree.",
+      "name_variants": [
+        "Taras A. Votichenko"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 808 to resolve the memorial's imprecise OSS chronology and identify any civilian employer before Navy service."
+    },
+    {
+      "person_id": "09554b6e-359e-5d5c-9d23-c4083c684e43",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "A Resistance museum identifies the rare exact name as commander of Maquis C-134; the indexed first-lieutenant context is compatible, but no direct file bridge exists.",
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 808 for the exact OSS liaison or transfer chronology and civilian background."
+    },
+    {
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name, indexed Major rank, Army-to-OSS obituary and independent AHEPA wartime officer chronology converge.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Box 808 can refine dates; Army assignment to OSS and pre-service private legal practice are documented."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page485-row24-wilhelm-viggo-e-f-von-moltke-b990",
+      "person_id": "b8227a87-17a5-52a4-80d7-d31ff6dee558",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilhelm-Viggo E.F. Von Moltke; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Institutional architecture evidence produced a qualified 1942 last-civilian employer and probable identity. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row25-robert-a-von-neuman-b990",
+      "person_id": "aa89d58a-8da6-593e-8326-0cc9fd347daa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert A Von Neuman; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "A scholarly OSS history names a Robert von Neumann as a research assistant, while art-market and biographical leads point to different Robert von Neumanns. None supplies the indexed middle initial or a protected-identifier bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row26-rudolph-c-von-ripper-b990",
+      "person_id": "afe08b69-e1ee-5700-b66f-373c322ebc88",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rudolph C Von Ripper; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army histories established a high-confidence Army-to-OSS pathway. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row27-walter-von-schuschn-b990",
+      "person_id": "a4669b2c-e62f-5f67-8788-467466c49f16",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter Von Schuschn; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "No reliable identity or pre-OSS affiliation bridge was found. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row28-franz-von-seidler-b990",
+      "person_id": "ff7f569a-385a-5a25-bcb8-4c3ad1482600",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Franz Von Seidler; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Exact-name, spelling-variant, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row29-joseph-vona-b990",
+      "person_id": "8a43d6b7-7310-5ded-b614-163865da9fe4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Vona; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "A Joseph Vona obituary names a Westinghouse engineer and Army veteran, but the common name and absence of a matching middle initial or protected identifier make the candidate unsafe to assign. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row30-roy-p-vonel-b990",
+      "person_id": "fe5b6b14-d45d-5d5f-97fe-d43b8dfbaa97",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy P Vonel; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row31-john-g-vonetes-b990",
+      "person_id": "54c6913a-3cf1-57fa-a0d1-c9fff105ba31",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John G Vonetes; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Exact-name, middle-initial, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row32-nicholas-a-vonneuman-b990",
+      "person_id": "e0bfc44d-4a4f-5019-bdee-c27bf69ed7a7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas A Vonneuman; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army evidence and the subject's visually reviewed curriculum vitae established the bank, Army and OSS chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row33-francis-s-vonstade-b990",
+      "person_id": "aa840791-02df-5e25-82f1-0bd391955bb5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis S Vonstade; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Contemporary and institutional Harvard sources established the last civilian employer and Naval Intelligence transition. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row34-james-a-voorhees-b990",
+      "person_id": "03ce197a-fcd3-5ea8-b9a4-cc3c83b02da0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James A Voorhees; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row35-john-s-voorhees-b990",
+      "person_id": "d9f08064-0aa3-5dc0-aa1b-cc99525c59fe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John S Voorhees; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Exact-name, middle-initial, OSS, employer, occupation, obituary, directory, institutional and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row36-bert-d-voot-b990",
+      "person_id": "335da26b-23b5-532f-b451-bbc3030ab3a4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bert D Voot; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row37-henri-g-w-vorbroker-b990",
+      "person_id": "6726c8ad-2148-572f-b157-acaa6620b369",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henri G.W. Vorbroker; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Exact-name, punctuation-variant, naval-grade, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row38-donald-w-vose-b990",
+      "person_id": "09daafe4-c14a-5f0b-827a-5ce19ecfb3b4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald W Vose; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row39-robert-j-voskuil-b990",
+      "person_id": "7ed7291c-2f3a-5fc5-9ae7-8c34a10cd660",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert J Voskuil; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official CIA history and visually reviewed University minutes established the COI predecessor assignment and last civilian employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row40-raymond-g-vosper-b990",
+      "person_id": "00cfd64f-fb8a-5b33-b745-65d7e28fd264",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond G Vosper; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row41-t-alexander-votichenko-b990",
+      "person_id": "8d107515-262c-5fb5-8a0a-4e9f3f782c12",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "T.Alexander Votichenko; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Princeton's memorial established a high-confidence identity and qualified Navy pathway while leaving exact OSS timing uncertain. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row42-mario-j-votinelli-b990",
+      "person_id": "f7484bdc-8aa4-52bf-a82f-8d9971ef4998",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mario J Votinelli; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row43-claude-vougnon-b990",
+      "person_id": "09554b6e-359e-5d5c-9d23-c4083c684e43",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Claude Vougnon; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Resistance-museum evidence produced a qualified probable identity and Allied resistance affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row44-steve-voulgarakis-b990",
+      "person_id": "a64bc4dd-29e4-5aff-a951-d48b1d668310",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Steve Voulgarakis; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Official Army identity review produced the accepted identity, qualified historical occupation, identity-only or conflict outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row45-adam-voulgaris-b990",
+      "person_id": "6a2fc444-1dc1-5918-a72c-3ce9f111875b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Adam Voulgaris; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, institutional and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    },
+    {
+      "key": "page485-row46-george-c-vournas-b990",
+      "person_id": "2ca75e2b-edd4-5471-a531-c74859a0b266",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George C Vournas; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 807 or 808; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_990",
+      "started_at": "2026-10-30T16:30:00Z",
+      "completed_at": "2026-10-30T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Robert von Neumann candidates and Joseph Vona's obituary were not assigned without corroboration. Historical Army occupation categories were not converted into named employers. Walter Von Schuschn and Walter Schuschnigg, and Bert D Voot and Bert D Vogt, remain separate possible duplicates or conflicts.",
+      "research_notes": "Obituary, institutional history and a federal court record established Army assignment and pre-service legal practice. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The CIA adapter recorded its robots restriction without bypass. The LoC.gov adapter timed out and was not treated as negative evidence; a current collection check produced no publishable candidate for this review. The NARA index page and official Army technical evidence were inspected directly. Relevant PDF pages for Nicholas Vonneuman and Robert Voskuil were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b990-v1"
+    }
+  ]
+}

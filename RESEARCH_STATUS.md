@@ -1,5 +1,33 @@
 # Research status
 
+Batch 990 completed PDF page 485, rows 24-46, from **Wilhelm-Viggo E.F. Von
+Moltke** through **George C Vournas**, preserving all 23 printed rows as
+separate people with saved terminal research outcomes.
+
+Nicholas A Vonneuman's National City Bank employment, Francis S Vonstade's
+Harvard assistant-dean role, Robert J Voskuil's University of Illinois role
+and George C Vournas's private legal practice are separated from their
+immediate military or government pathways. Four Army categories remain broad
+qualified occupations, never named employers. Bert D Voot/Bert D Vogt and
+Walter Von Schuschn/Walter Schuschnigg remain separate visible conflict or
+possible-duplicate pairs. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,702/23,936 (65.5999%)**;
+verified-employer coverage is **514/23,936 (2.1474%)**; verified-affiliation
+coverage is **1,135/23,936 (4.7418%)**; archival-review coverage is
+**14,177/23,936 (59.2288%)**. There are **8,229** not-started people, **677**
+possible-duplicate groups and **529** conflicts. The public projection
+contains **3,943** affiliations, **1,302** organizations, **6,470** sources
+and **10,053** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 486, row
+1, **Jacques Voyer**. See `research/batch-990-progress.md`.
+
+Batch 990 passed evidence validation, repeat import, SQLite integrity, the
+complete ingest audit, the 200-profile audit, all 147 Python tests, Astro's
+zero-diagnostic build and the 30/30 targeted browser matrix. Full release and
+publication verification is recorded in `reports/release_batch_990.md`.
+
 Batch 987 completed PDF page 484, rows 1-23, from **Domonic Virdo** through
 **Floyd Tomas Vlasic**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.
