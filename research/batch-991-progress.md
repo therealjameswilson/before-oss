@@ -100,8 +100,26 @@ Archive location: 230/86/42/06
 - All 147 Python pipeline tests passed.
 - The targeted Batch 991 browser matrix passed all 30 checks across desktop,
   phone and tablet.
-- Full clean-release, link, accessibility, identifier, determinism and public
-  deployment checks are recorded in `reports/release_batch_991.md`.
+- The clean release suite passed all 99 current-batch, core-route, analysis
+  and accessibility checks, including 30 axe scans with no serious or
+  critical violations.
+- The exact content commit built twice from a clean archive: Astro checked 622
+  files with zero diagnostics and built 25,291 canonical pages. Both builds
+  reproduced 25,363 files, 422,788,354 bytes and tree SHA-256
+  `68d01ea3fa3494b068859e8248f58096d7e1aba2d635b6685f9bff773fa3c4f3`.
+- The clean internal-link check resolved every link in all 25,291 HTML files;
+  52,219 unique external URLs were inventoried separately.
+- The clean identifier audit checked 12,926 normalized private identifiers
+  and 120 formatted variants across 25,363 artifacts, finding zero unexpected
+  boundary matches. The production dependency audit found zero
+  vulnerabilities.
+- The checked-in 67-asset public manifest verifies locally at 132,965,437
+  bytes with SHA-256
+  `0a917647f633360fca8a780a8e109308b6219622472f3c02bbe6e233edb8ad53`.
+- The 70-file public tree totals 135,312,593 bytes and has SHA-256
+  `6ef5b1879c05dd5c7efb36de8c837c6d5b215930698ac13d2df497301eb10bb4`.
+- Full local and publication verification is recorded in
+  `reports/release_batch_991.md`.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable
   replay inputs. Batch 991 itself is replayable to the same authoritative
