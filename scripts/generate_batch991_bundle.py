@@ -1,0 +1,977 @@
+#!/usr/bin/env python3
+"""Generate the reviewed Batch 991 evidence bundle from audited constants."""
+
+from __future__ import annotations
+
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from oss_research.evidence import EvidenceBundle  # noqa: E402
+
+
+OUTPUT = ROOT / (
+    "research/evidence-page486-voyer-to-vydra-"
+    "review_batch-991_2026-10-30.json"
+)
+
+INDEX = "nara-index-b991"
+ARMY = "army-bulk-b991"
+TECH = "army-tech-b991"
+CODES = "army-codes-b991"
+VOYER_ARSOF = "arsof-voyer-b991"
+VOYER_LEVES = "leves-voyer-b991"
+WAYNE_OAC = "oac-wayne-vucinich-b991"
+WAYNE_STANFORD = "stanford-wayne-vucinich-b991"
+VUJNOVICH_CONGRESS_2010 = "congress-vujnovich-2010-b991"
+VUJNOVICH_CONGRESS_2009 = "congress-vujnovich-2009-b991"
+VUJNOVICH_LATIMES = "latimes-vujnovich-b991"
+VULETIC_ARSOF = "arsof-vuletic-b991"
+
+ORG_BCRA = "bcra-b991"
+ORG_FFL = "free-french-b991"
+ORG_BERKELEY = "uc-berkeley-b991"
+ORG_PAN_AM = "pan-american-b991"
+ORG_US_ARMY = "us-army-b991"
+ORG_BELGRADE = "university-belgrade-b991"
+
+VUCHINICH_GROUP = "p486-alexander-s-vuchinich-b991"
+VUJNOVICH_GROUP = "p486-daniel-vujnovich-vujovick-b991"
+
+
+PEOPLE = {
+    1: ("c7fba76e-2498-56be-bb26-d6fabae7a123", "Jacques Voyer"),
+    2: ("ce0ab4b5-f21b-5692-aa64-b75e024beaef", "Sylvia F Voyles"),
+    3: ("6abcba2e-783d-55a6-b766-376e028a33d8", "Lazareth Vracarich"),
+    4: ("1c11845b-68ff-54a0-8645-8a4ebf2f2b25", "Mary T Vranesh"),
+    5: ("83743d27-49fa-5a7b-91fe-76973264d6e9", "John Vratimos"),
+    6: ("92938c9b-c1b6-5108-84c8-ca104fa63ec6", "George Vrbanic"),
+    7: ("0fd3f691-04d3-5f03-8b44-c21c04131eaf", "George W Vredenburg"),
+    8: ("e4f9dedb-6239-548e-acb9-7d54c35b477d", "Herbert H Vreeland"),
+    9: ("926e67d9-b099-5b96-96a8-ca1eb5773d20", "Guysbert B Vroom Jr"),
+    10: ("25d86241-bfc2-5cbe-ac77-a27fb02568a1", "Frances Elinor Vrydaugh"),
+    11: ("5a881663-52ef-5d08-aaf9-cb63b2e82226", "James B Vuchetich"),
+    12: ("efb61ce0-073d-5e9b-9bba-8b431269cbd4", "Alexander S Vuchinich"),
+    13: ("a738b368-bb5d-5d15-aa15-b0a4fd9fd4cf", "Alexander S Vuchinich"),
+    14: ("afb6d918-6040-5af6-91c7-a3c7beb785d0", "Wayne S Vucinich"),
+    15: ("15d3793e-4e8d-59a5-a457-456c88f81599", "Pierre A Vuille"),
+    16: ("9804bef2-1724-5eb1-a183-8af866b465e5", "Daniel Vujnovich"),
+    17: ("c6369989-bb69-50c3-9261-c23238fce451", "George M Vujnovich"),
+    18: ("0dda0a24-099e-5087-be8b-4ec6ddc8bc8b", "Daniel Vujovick"),
+    19: ("ed3b928f-c092-5c14-9fe3-7b37d76383d5", "Theodore Vukelich"),
+    20: ("4cafb9d4-5abb-5f62-9c6f-0027da1298e8", "Joseph Vukmanic"),
+    21: ("0979107f-5ea1-5f62-ad16-eda43ef9d254", "George Vuletic"),
+    22: ("134d38fa-2e4a-5271-95a3-a4345cfce0ac", "Carr Vuletich"),
+    23: ("5c7062aa-6ba5-589e-9437-48cacb2995b9", "Ladislav Hugh Vydra"),
+}
+
+
+UNRESOLVED = {
+    2: "Exact-name, initial, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+    3: "An Eisenhower Library finding aid names a postwar First Lieutenant Lazareth Vracarich, but the 1948 unit record does not establish the indexed person's pre-OSS history.",
+    4: "Exact-name, middle-initial, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+    6: "Exact-name and spelling-variant searches produced no source with an OSS, personnel-file or protected-identifier bridge.",
+    8: "Wartime and institutional sources identify several Herbert H. Vreelands, including a colonel and his Army Air Forces son; the index supplies no rank or identifier to select one.",
+    10: "Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+    11: "A James B. Vuchetich obituary identifies a World War II Army veteran and later electrical engineer, but it supplies no OSS or protected-identifier bridge and cannot be assigned by name alone.",
+    15: "Exact-name and French- or Swiss-name-variant searches produced no reliable OSS identity or pre-OSS affiliation bridge.",
+    19: "A U.S. Navy cruise book names Theodore Vukelich in a wartime Seabee battalion, but the index supplies no branch or identifier connecting that sailor to Box 809.",
+    20: "Exact-name, spelling-variant, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+    22: "Exact-name, spelling-variant, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+    23: "Later philatelic references use Ladislav H. Vydra, but they neither establish the indexed identity nor document a pre-OSS employer or assignment.",
+}
+
+
+def slug(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def sources() -> list[dict[str, object]]:
+    return [
+        {
+            "key": INDEX,
+            "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+            "archival_identifier": "RG 226, Entry A1-224, Boxes 808-809",
+            "title": "OSS Personnel Files from Excel",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "2010-12-23",
+            "locator": "PDF page 486, rows 1-23; checked against layout-preserving text and an original-detail page render",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+            "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. The two Alexander S. Vuchinich rows and the Daniel Vujnovich/Vujovick rows are not merged.",
+        },
+        {
+            "key": ARMY,
+            "stable_url": "https://catalog.archives.gov/id/1263923",
+            "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+            "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+            "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "1938-1946; merged file created 2002",
+            "locator": "Official unrestricted ASNEF.FIN.DAT; three protected-identifier comparisons; identifiers and record ordinals withheld",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records",
+            "document_number": "ASNEF.FIN.DAT",
+            "rights_notes": "Three exact-name, nonshared protected-identifier bridges were accepted. No raw bulk row, record ordinal or full identifier enters public assets; code 993 is not interpreted.",
+        },
+        {
+            "key": TECH,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+            "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+            "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "1994-2005; reference copy modified 2011",
+            "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+        },
+        {
+            "key": CODES,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+            "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+            "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "2011-01-12; modified 2011-03-17",
+            "locator": "PDF physical pages 173-174 visually inspected; historical codes 448 and 905; code 993 absent from the reviewed list",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Historical categories identify broad occupations, not named employers, workplaces or exact OSS-transfer dates. Code 993 remains undefined and unpublished as an occupation.",
+        },
+        {
+            "key": VOYER_ARSOF,
+            "stable_url": "https://arsof-history.org/articles/v3n2_brucker_pt4_page_1.html",
+            "archival_identifier": "Veritas, Vol. 3, No. 2 (2007), Part IV and SUSSEX Teams sidebar",
+            "title": "Major Herbert R. Brucker, SF Pioneer: Part IV: Special Operations Team HERMIT in France",
+            "author_creator": "Charles H. Briscoe, PhD",
+            "repository_publisher": "U.S. Army Special Operations Command History Office",
+            "publication_record_date": "2007",
+            "locator": "SUSSEX Teams sidebar; joint OSS-SIS-BCRA program, Free French recruiting and Jacques Voyer of Team VITRAIL",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "ARSOF History / Veritas",
+        },
+        {
+            "key": VOYER_LEVES,
+            "stable_url": "https://www.leves.fr/actualites/jacques-voyer-heros-de-la-resistance--402.html",
+            "archival_identifier": "Mairie de Lèves historical notice, April 19, 2024",
+            "title": "Jacques Voyer, héros de la Résistance",
+            "author_creator": "Mairie de Lèves",
+            "repository_publisher": "Municipality of Lèves, France",
+            "publication_record_date": "2024-04-19",
+            "locator": "Biography; Free French enlistment, BCRA service and VITRAIL mission",
+            "access_date": "2026-10-30",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "Lèves municipal history",
+        },
+        {
+            "key": WAYNE_OAC,
+            "stable_url": "https://oac.cdlib.org/findaid/ark:/13030/kt4q2nf0c0/",
+            "archival_identifier": "Hoover Institution Archives collection 79047",
+            "title": "Guide to the Wayne S. Vucinich collection, 1881-1994",
+            "author_creator": "Hoover Institution Archives",
+            "repository_publisher": "Online Archive of California; Hoover Institution Archives",
+            "publication_record_date": None,
+            "locator": "Biographical chronology: 1939 teaching-assistant appointment, 1941 Ph.D. and 1942 OSS Research and Analysis service",
+            "access_date": "2026-10-30",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "Wayne S. Vucinich collection",
+        },
+        {
+            "key": WAYNE_STANFORD,
+            "stable_url": "https://creees.stanford.edu/sites/creees/files/media/file/2005_creees_chronicle.pdf",
+            "archival_identifier": "CREEES Chronicle, Summer 2005, page 3",
+            "title": "Wayne S. Vucinich, 1913-2005",
+            "author_creator": "Lisa Trei, Stanford Report",
+            "repository_publisher": "Stanford University Center for Russian, East European and Eurasian Studies",
+            "publication_record_date": "2005",
+            "locator": "PDF physical page 3; education through 1941, OSS entry, Naval Reserve service and State Department chronology; visually inspected",
+            "access_date": "2026-10-30",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "CREEES Chronicle",
+        },
+        {
+            "key": VUJNOVICH_CONGRESS_2010,
+            "stable_url": "https://www.govinfo.gov/content/pkg/CREC-2010-12-09/pdf/CREC-2010-12-09-pt1-PgS8711-4.pdf",
+            "archival_identifier": "Congressional Record, Senate, S8711-S8712",
+            "title": "Tribute to Captain George M. Vujnovich",
+            "author_creator": "Senator George Voinovich",
+            "repository_publisher": "United States Government Publishing Office",
+            "publication_record_date": "2010-12-09",
+            "locator": "PDF physical page 1, Congressional Record page S8711; medical-student and OSS chronology visually inspected",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "Congressional Record",
+        },
+        {
+            "key": VUJNOVICH_CONGRESS_2009,
+            "stable_url": "https://www.govinfo.gov/content/pkg/CREC-2009-03-16/pdf/CREC-2009-03-16-pt1-PgE669-4.pdf",
+            "archival_identifier": "Congressional Record, Extensions of Remarks, E669-E670",
+            "title": "Honoring Retired Major George Vujnovich",
+            "author_creator": "Representative Joseph Crowley",
+            "repository_publisher": "United States Government Publishing Office",
+            "publication_record_date": "2009-03-16",
+            "locator": "Ghana assistant-airport-manager job, Army commission, Nigeria command and OSS recruitment chronology",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "Congressional Record",
+        },
+        {
+            "key": VUJNOVICH_LATIMES,
+            "stable_url": "https://www.latimes.com/local/obituaries/la-me-george-vujnovich-20120501-story.html",
+            "archival_identifier": "Los Angeles Times obituary, May 1, 2012",
+            "title": "George Vujnovich dies at 96; leader of daring World War II rescue",
+            "author_creator": "Torsten Ove, McClatchy Newspapers",
+            "repository_publisher": "Los Angeles Times",
+            "publication_record_date": "2012-05-01",
+            "locator": "Biographical chronology from University of Belgrade through Pan American Airways, Army command and OSS recruitment",
+            "access_date": "2026-10-30",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "collection_name": "Los Angeles Times obituaries",
+        },
+        {
+            "key": VULETIC_ARSOF,
+            "stable_url": "https://arsof-history.org/articles/pdf/v5n1_operation_boston.pdf",
+            "archival_identifier": "Veritas, Vol. 5, No. 1, Operation BOSTON",
+            "title": "Operation BOSTON: An OSS Combined Operation in the Indian Ocean",
+            "author_creator": "Troy J. Sacquety",
+            "repository_publisher": "U.S. Army Special Operations Command History Office",
+            "publication_record_date": None,
+            "locator": "PDF physical page 10; P-101 crew roster naming Pfc George Vuletic; visually inspected",
+            "access_date": "2026-10-30",
+            "source_quality": "A_direct_official",
+            "collection_name": "ARSOF History / Veritas",
+        },
+    ]
+
+
+def organizations() -> list[dict[str, object]]:
+    return [
+        {
+            "key": ORG_BCRA,
+            "organization_id": "3056684e-4315-514a-b18b-27462862a489",
+            "canonical_name": "Bureau Central de Renseignements et d'Action",
+            "historical_name": "Bureau central de renseignements et d'action",
+            "aliases": ["BCRA"],
+            "organization_type": "wartime intelligence service",
+            "sector": "federal_government",
+            "country": "France",
+            "active_dates": "1942-1943; predecessor services from 1940",
+            "normalization_notes": "Free French wartime intelligence service; retained as a historical organization, not substituted with a modern successor.",
+        },
+        {
+            "key": ORG_FFL,
+            "organization_id": "e69cd54a-0807-54a9-b819-01cae8268999",
+            "canonical_name": "Free French Forces",
+            "historical_name": "Forces Françaises Libres",
+            "aliases": ["FFL", "Free French Forces"],
+            "organization_type": "allied armed forces",
+            "sector": "military",
+            "country": "France",
+            "active_dates": "1940-1943",
+            "normalization_notes": "Historical Free French military formation; distinct from BCRA and later French armed forces.",
+        },
+        {
+            "key": ORG_BERKELEY,
+            "organization_id": "dd5d0a44-0368-5e91-a5d3-074de36840ed",
+            "canonical_name": "University of California, Berkeley",
+            "historical_name": "University of California, Berkeley",
+            "aliases": ["UC Berkeley", "University of California-Berkeley"],
+            "organization_type": "university",
+            "sector": "academia_and_research",
+            "city": "Berkeley",
+            "state_or_region": "California",
+            "country": "United States",
+            "normalization_notes": "Teaching employment is kept separate from student status.",
+        },
+        {
+            "key": ORG_PAN_AM,
+            "organization_id": "763d34d1-e8fa-5d36-a33f-c0fb06843073",
+            "canonical_name": "Pan American Airways",
+            "historical_name": "Pan American Airways",
+            "aliases": ["Pan Am", "Pan American World Airways"],
+            "organization_type": "airline",
+            "sector": "business_and_industry",
+            "country": "United States",
+            "active_dates": "1927-1991",
+            "normalization_notes": "Historical airline name preserved; wartime militarization is modeled as a later Army assignment.",
+        },
+        {
+            "key": ORG_US_ARMY,
+            "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+            "canonical_name": "United States Army",
+            "historical_name": "United States Army",
+            "aliases": ["U.S. Army", "Army of the United States"],
+            "organization_type": "armed service",
+            "sector": "military",
+            "country": "United States",
+            "normalization_notes": "Military assignments are not counted as civilian employers.",
+        },
+        {
+            "key": ORG_BELGRADE,
+            "canonical_name": "University of Belgrade",
+            "historical_name": "University of Belgrade",
+            "aliases": ["Belgrade University"],
+            "organization_type": "university",
+            "sector": "student",
+            "city": "Belgrade",
+            "country": "Yugoslavia",
+            "normalization_notes": "Student status is not treated as employment.",
+        },
+    ]
+
+
+def affiliations() -> list[dict[str, object]]:
+    return [
+        {
+            "key": "voyer-free-french-b991",
+            "person_id": PEOPLE[1][0],
+            "organization_key": ORG_FFL,
+            "organization_name_as_found": "Forces Françaises Libres",
+            "role_title": "volunteer; later radio sergeant and officer",
+            "relationship_type": "military_assignment",
+            "start_date": "1940-07-27",
+            "date_precision": "The Lèves municipal history gives the exact enlistment date; the later BCRA and OSSEX transitions are modeled separately.",
+            "country": "United Kingdom",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "published",
+            "research_notes": "Allied military service, not civilian employment.",
+        },
+        {
+            "key": "voyer-bcra-b991",
+            "person_id": PEOPLE[1][0],
+            "organization_key": ORG_BCRA,
+            "organization_name_as_found": "BCRA (Bureau central de renseignements et d'action)",
+            "role_title": "intelligence officer; Team VITRAIL",
+            "relationship_type": "government_assignment",
+            "end_date": "1944-06-27",
+            "date_precision": "Institutional sources place Voyer in BCRA work before and during the joint SUSSEX/OSSEX program; the precise administrative transfer date is not stated.",
+            "country": "France",
+            "immediate_pre_oss": True,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "probable_immediate",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "medium",
+            "source_quality": "A_direct_official",
+            "publication_status": "publish_qualified",
+            "research_notes": "Qualified joint-Allied pathway; BCRA is not labeled a civilian employer.",
+        },
+        {
+            "key": "vratimos-occupation-b991",
+            "person_id": PEOPLE[5][0],
+            "occupation": "unskilled worker in transportation-equipment construction other than automobiles or aircraft, n.e.c.",
+            "relationship_type": "employment",
+            "end_date": "1942-11-05",
+            "date_precision": "Historical civilian-occupation code 905 was recorded at Army entry on 1942-11-05; no employer, workplace or OSS-transfer date is named.",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "identity_confidence": "confirmed",
+            "claim_confidence": "medium",
+            "source_quality": "A_direct_official",
+            "publication_status": "publish_qualified",
+            "research_notes": "Historical category only; no company or exact job is inferred.",
+        },
+        {
+            "key": "vredenburg-occupation-b991",
+            "person_id": PEOPLE[7][0],
+            "occupation": "pressman or plate printer",
+            "relationship_type": "employment",
+            "end_date": "1941-06-11",
+            "date_precision": "Historical civilian-occupation code 448 was recorded at Army entry on 1941-06-11; no employer, workplace or OSS-transfer date is named.",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "identity_confidence": "confirmed",
+            "claim_confidence": "medium",
+            "source_quality": "A_direct_official",
+            "publication_status": "publish_qualified",
+            "research_notes": "Historical printing category only; no publication or employer is inferred.",
+        },
+        {
+            "key": "wayne-vucinich-berkeley-b991",
+            "person_id": PEOPLE[14][0],
+            "organization_key": ORG_BERKELEY,
+            "organization_name_as_found": "University of California, Berkeley",
+            "role_title": "teaching assistant in history",
+            "occupation": "teaching assistant",
+            "relationship_type": "employment",
+            "start_date": "1939",
+            "end_date": "1942",
+            "date_precision": "The Hoover chronology records the 1939 appointment and 1942 OSS entry; Stanford places completion of his Berkeley degrees through 1941 immediately before OSS.",
+            "city": "Berkeley",
+            "state_or_region": "California",
+            "country": "United States",
+            "immediate_pre_oss": True,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "published",
+            "research_notes": "Teaching employment is distinct from his simultaneous graduate-student status.",
+        },
+        {
+            "key": "george-vujnovich-belgrade-b991",
+            "person_id": PEOPLE[17][0],
+            "organization_key": ORG_BELGRADE,
+            "organization_name_as_found": "University of Belgrade",
+            "role_title": "medical student",
+            "relationship_type": "student",
+            "end_date": "1941",
+            "date_precision": "Official and obituary sources place his medical study before the April 1941 Axis invasion; no degree completion is claimed.",
+            "city": "Belgrade",
+            "country": "Yugoslavia",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "A_direct_official",
+            "publication_status": "published",
+            "research_notes": "Student status is not employment.",
+        },
+        {
+            "key": "george-vujnovich-pan-am-b991",
+            "person_id": PEOPLE[17][0],
+            "organization_key": ORG_PAN_AM,
+            "organization_name_as_found": "Pan American Airways",
+            "role_title": "airbase employee",
+            "occupation": "assistant airport manager",
+            "relationship_type": "employment",
+            "start_date": "1941",
+            "end_date": "1942",
+            "date_precision": "A detailed obituary names Pan American Airways; the Congressional Record independently places an assistant-airport-manager job in Ghana before his Army commission.",
+            "city": "Accra",
+            "country": "Gold Coast",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "explicit_immediate",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "C_reputable_contemporary_or_scholarly",
+            "publication_status": "published",
+            "research_notes": "The historical company name is preserved; the subsequent militarization is modeled as Army service.",
+        },
+        {
+            "key": "george-vujnovich-army-b991",
+            "person_id": PEOPLE[17][0],
+            "organization_key": ORG_US_ARMY,
+            "organization_name_as_found": "U.S. Army",
+            "role_title": "commissioned officer and airbase commander",
+            "relationship_type": "military_assignment",
+            "start_date": "1942",
+            "end_date": "1943",
+            "date_precision": "The Congressional Record and obituary describe Pan Am's militarization, his Army commission and Nigeria command, followed by explicit OSS recruitment; exact dates require Box 809.",
+            "city": "Lagos",
+            "country": "Nigeria",
+            "immediate_pre_oss": True,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "explicit_immediate",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "A_direct_official",
+            "publication_status": "published",
+            "research_notes": "Military assignment, not civilian employment.",
+        },
+    ]
+
+
+def source_links(*keys: str) -> list[dict[str, str]]:
+    return [{"source_key": key} for key in keys]
+
+
+def identity_claim(
+    row: int,
+    text: str,
+    paraphrase: str,
+    assessment: str,
+    temporal: str,
+    quality: str,
+    confidence: str,
+    links: list[dict[str, str]],
+    notes: str,
+) -> dict[str, object]:
+    return {
+        "key": f"identity-{slug(PEOPLE[row][1])}-b991",
+        "person_id": PEOPLE[row][0],
+        "claim_type": "identity",
+        "claim_text": text,
+        "evidence_paraphrase": paraphrase,
+        "identity_match_assessment": assessment,
+        "temporal_assessment": temporal,
+        "source_quality": quality,
+        "claim_confidence": confidence,
+        "publication_status": "published" if confidence in {"confirmed", "high"} else "publish_qualified",
+        "match_notes": notes,
+        "sources": links,
+    }
+
+
+def affiliation_claim(
+    row: int,
+    key: str,
+    affiliation_key: str,
+    claim_type: str,
+    text: str,
+    paraphrase: str,
+    assessment: str,
+    temporal: str,
+    quality: str,
+    confidence: str,
+    links: list[dict[str, str]],
+    notes: str,
+    publication_status: str = "published",
+) -> dict[str, object]:
+    return {
+        "key": key,
+        "person_id": PEOPLE[row][0],
+        "affiliation_key": affiliation_key,
+        "claim_type": claim_type,
+        "claim_text": text,
+        "evidence_paraphrase": paraphrase,
+        "identity_match_assessment": assessment,
+        "temporal_assessment": temporal,
+        "source_quality": quality,
+        "claim_confidence": confidence,
+        "publication_status": publication_status,
+        "match_notes": notes,
+        "sources": links,
+    }
+
+
+def claims() -> list[dict[str, object]]:
+    values: list[dict[str, object]] = [
+        identity_claim(
+            1,
+            "Indexed Jacques Voyer is high-confidence identified as the Free French BCRA officer and OSSEX Team VITRAIL member killed in 1944.",
+            "U.S. Army history names Jacques Voyer of Team VITRAIL as an OSSEX casualty; the municipal biography independently supplies the Free French and BCRA chronology.",
+            "High confidence from the rare exact name, indexed French second-lieutenant status and two mutually consistent institutional histories.",
+            "The sources cover his 1940 Free French enlistment, BCRA work and 1944 VITRAIL mission.",
+            "A_direct_official",
+            "high",
+            source_links(INDEX, VOYER_ARSOF, VOYER_LEVES),
+            "The project does not recast the joint Allied intelligence role as civilian employment.",
+        ),
+        affiliation_claim(
+            1,
+            "free-french-jacques-voyer-b991",
+            "voyer-free-french-b991",
+            "other_pre_oss_affiliation",
+            "Jacques Voyer enlisted in the Free French Forces on 27 July 1940 and later served as a radio sergeant and officer.",
+            "The Lèves municipal history supplies the exact date and subsequent rank sequence.",
+            "High-confidence identity from the rare name, indexed French rank and official OSSEX history.",
+            "Documented wartime service before the joint OSS mission; not civilian employment.",
+            "B_authoritative_institutional",
+            "high",
+            source_links(VOYER_LEVES, VOYER_ARSOF),
+            "Recorded as an Allied military assignment.",
+        ),
+        affiliation_claim(
+            1,
+            "bcra-jacques-voyer-b991",
+            "voyer-bcra-b991",
+            "immediate_pre_oss_affiliation",
+            "Jacques Voyer served with the Free French BCRA before and during his Team VITRAIL role in the joint SUSSEX/OSSEX program.",
+            "Municipal history places him in BCRA operations; U.S. Army history describes SUSSEX as a joint OSS-SIS-BCRA program and identifies his VITRAIL team as OSSEX.",
+            "High-confidence identity from compatible French rank, rare name and direct Team VITRAIL identification.",
+            "Probable immediate institutional pathway; the administrative transfer date is not stated.",
+            "A_direct_official",
+            "medium",
+            source_links(VOYER_ARSOF, VOYER_LEVES),
+            "Qualified as a joint-Allied pathway and excluded from unqualified immediate-affiliation analytics.",
+            "publish_qualified",
+        ),
+        identity_claim(
+            5,
+            "Indexed John Vratimos is confirmed as the exact-name official Army entry record linked by the private protected identifier.",
+            "The index and Army bulk record agree in exact name and a nonshared protected identifier.",
+            "Confirmed by direct protected-identifier agreement; the identifier itself remains private.",
+            "The Army record dates entry to 5 November 1942 and supplies only a broad civilian-occupation code.",
+            "A_direct_official",
+            "confirmed",
+            source_links(INDEX, ARMY),
+            "Identity only; no named employer or OSS-transfer date is inferred.",
+        ),
+        affiliation_claim(
+            5,
+            "occupation-john-vratimos-b991",
+            "vratimos-occupation-b991",
+            "occupation",
+            "At Army entry on 5 November 1942, John Vratimos was recorded in an unskilled transportation-equipment construction category; no employer is identified.",
+            "The accepted Army record carries civilian-occupation code 905, decoded from NARA's official code list.",
+            "The occupation belongs only to the confirmed protected-identifier match.",
+            "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+            "A_direct_official",
+            "medium",
+            [
+                {"source_key": ARMY, "locator_override": "Army entry 1942-11-05; civilian occupation code 905; protected identifier withheld"},
+                {"source_key": TECH, "support_type": "context_only", "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"},
+                {"source_key": CODES, "locator_override": "PDF physical page 174; historical category 9-05", "excerpt_override": "Occupations in building transportation equipment (except automobiles and aircraft), n.e.c."},
+            ],
+            "Historical category preserved as a qualified occupation lead, not a company or exact job.",
+            "publish_qualified",
+        ),
+        identity_claim(
+            7,
+            "Indexed George W Vredenburg is confirmed as the exact-name official Army entry record linked by the private protected identifier.",
+            "The index and Army bulk record agree in full name, middle initial and a nonshared protected identifier.",
+            "Confirmed by direct protected-identifier agreement; the identifier itself remains private.",
+            "The Army record dates entry to 11 June 1941 and supplies only a broad civilian-occupation code.",
+            "A_direct_official",
+            "confirmed",
+            source_links(INDEX, ARMY),
+            "Identity only; no publication, company or OSS-transfer date is inferred.",
+        ),
+        affiliation_claim(
+            7,
+            "occupation-george-w-vredenburg-b991",
+            "vredenburg-occupation-b991",
+            "occupation",
+            "At Army entry on 11 June 1941, George W. Vredenburg was recorded as a pressman or plate printer; no employer is identified.",
+            "The accepted Army record carries civilian-occupation code 448, decoded from NARA's official code list.",
+            "The occupation belongs only to the confirmed protected-identifier match.",
+            "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+            "A_direct_official",
+            "medium",
+            [
+                {"source_key": ARMY, "locator_override": "Army entry 1941-06-11; civilian occupation code 448; protected identifier withheld"},
+                {"source_key": TECH, "support_type": "context_only", "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"},
+                {"source_key": CODES, "locator_override": "PDF physical page 173; historical category 4-48", "excerpt_override": "Pressmen and plate printers, printing"},
+            ],
+            "No newspaper, printing company or workplace is inferred from the category.",
+            "publish_qualified",
+        ),
+        identity_claim(
+            14,
+            "Indexed Wayne S Vucinich is high-confidence identified as the Berkeley-trained historian who joined OSS Research and Analysis in 1942 and later served as a U.S. Naval Reserve lieutenant.",
+            "Hoover and Stanford institutional histories provide the exact name, 1942 OSS entry, Balkan-analysis role and compatible Naval Reserve service.",
+            "High confidence from the distinctive exact name, indexed lieutenant junior-grade USNR notation and two institutional wartime chronologies.",
+            "The sources place Berkeley employment and degrees immediately before OSS entry.",
+            "B_authoritative_institutional",
+            "high",
+            source_links(INDEX, WAYNE_OAC, WAYNE_STANFORD),
+            "The teaching appointment is kept separate from his graduate-student status.",
+        ),
+        affiliation_claim(
+            14,
+            "berkeley-wayne-vucinich-immediate-b991",
+            "wayne-vucinich-berkeley-b991",
+            "immediate_pre_oss_affiliation",
+            "Wayne S. Vucinich was a teaching assistant in history at the University of California, Berkeley, immediately before joining OSS Research and Analysis in 1942.",
+            "The Hoover chronology records the 1939 appointment and 1942 OSS entry; Stanford places completion of his Berkeley degrees through 1941 before OSS.",
+            "High-confidence identity from exact name, USNR rank and mutually consistent institutional biographies.",
+            "Strongly date-bounded with no intervening affiliation in the reviewed chronology.",
+            "B_authoritative_institutional",
+            "high",
+            source_links(WAYNE_OAC, WAYNE_STANFORD),
+            "University employment is separately modeled from education.",
+        ),
+        affiliation_claim(
+            14,
+            "berkeley-wayne-vucinich-civilian-b991",
+            "wayne-vucinich-berkeley-b991",
+            "last_civilian_pre_service",
+            "The University of California, Berkeley, is the best-supported last civilian employer before Wayne S. Vucinich's OSS and Naval Reserve service.",
+            "Institutional chronologies connect his teaching-assistant appointment to his 1942 OSS entry and later Naval Reserve service.",
+            "High-confidence identity from exact name and direct institutional wartime context.",
+            "Strongly date-bounded last civilian employment; exact separation date is not stated.",
+            "B_authoritative_institutional",
+            "high",
+            source_links(WAYNE_OAC, WAYNE_STANFORD),
+            "Student status is not counted as employment.",
+        ),
+        identity_claim(
+            17,
+            "Indexed George M Vujnovich is high-confidence identified as Major George Mane Vujnovich, the OSS officer who organized Operation Halyard.",
+            "The official Congressional Record uses the exact indexed name and documents his medical study, OSS service and Operation Halyard role.",
+            "High confidence from the distinctive exact name, compatible indexed officer-style identifier and official wartime biography.",
+            "The sources provide a continuous University of Belgrade, Pan American Airways, Army and OSS chronology.",
+            "A_direct_official",
+            "high",
+            source_links(INDEX, VUJNOVICH_CONGRESS_2010, VUJNOVICH_CONGRESS_2009, VUJNOVICH_LATIMES),
+            "The full protected identifier is excluded from public claims.",
+        ),
+        affiliation_claim(
+            17,
+            "belgrade-george-vujnovich-b991",
+            "george-vujnovich-belgrade-b991",
+            "other_pre_oss_affiliation",
+            "George M. Vujnovich was a medical student at the University of Belgrade when the Axis invaded Yugoslavia in 1941.",
+            "The Congressional Record and obituary independently identify his medical studies and the 1941 invasion.",
+            "High-confidence identity from exact name and official Operation Halyard biography.",
+            "Documented prewar student status, not employment.",
+            "A_direct_official",
+            "high",
+            source_links(VUJNOVICH_CONGRESS_2010, VUJNOVICH_LATIMES),
+            "The university is not counted as an employer.",
+        ),
+        affiliation_claim(
+            17,
+            "pan-am-george-vujnovich-b991",
+            "george-vujnovich-pan-am-b991",
+            "last_civilian_pre_service",
+            "Pan American Airways is the best-supported last civilian employer before George M. Vujnovich's wartime Army commission.",
+            "The Los Angeles Times names Pan American Airways and Ghana; the Congressional Record independently identifies his Ghana assistant-airport-manager job before Army commission.",
+            "High-confidence identity from exact name and official OSS biography.",
+            "Explicit employer-to-military sequence; the exact employment dates are approximate.",
+            "C_reputable_contemporary_or_scholarly",
+            "high",
+            source_links(VUJNOVICH_LATIMES, VUJNOVICH_CONGRESS_2009),
+            "Pan Am's historical name is preserved; its militarization does not erase the prior civilian employment.",
+        ),
+        affiliation_claim(
+            17,
+            "army-george-vujnovich-b991",
+            "george-vujnovich-army-b991",
+            "immediate_pre_oss_affiliation",
+            "George M. Vujnovich's immediate pre-OSS affiliation was a U.S. Army airbase command in Lagos, Nigeria.",
+            "Official and obituary sources describe his Army commission and Lagos command, then state that OSS recruited him because of his Yugoslav knowledge and air-service experience.",
+            "High-confidence identity from exact name and official Operation Halyard biography.",
+            "Explicit Army-to-OSS recruitment sequence; exact transfer date requires the personnel file.",
+            "A_direct_official",
+            "high",
+            source_links(VUJNOVICH_CONGRESS_2009, VUJNOVICH_LATIMES),
+            "Military assignment, not civilian employment.",
+        ),
+        identity_claim(
+            21,
+            "Indexed George Vuletic is confirmed as the U.S. Army private who served aboard P-101 in the OSS Maritime Unit's Arakan operations.",
+            "A nonshared protected identifier confirms the Army identity; U.S. Army Special Operations history names Pfc George Vuletic on the OSS boat crew.",
+            "Confirmed by protected-identifier agreement, exact name and direct official OSS unit history.",
+            "The Army record dates entry to 15 April 1943; its occupation code 993 is undefined and is not interpreted.",
+            "A_direct_official",
+            "confirmed",
+            source_links(INDEX, ARMY, VULETIC_ARSOF),
+            "The OSS unit role establishes identity but does not supply a pre-service employer.",
+        ),
+    ]
+    return values
+
+
+def base_update(row: int, **overrides: object) -> dict[str, object]:
+    value: dict[str, object] = {
+        "person_id": PEOPLE[row][0],
+        "manual_review_required": True,
+        "personnel_file_digitized": False,
+        "personnel_file_reviewed": False,
+        "archival_review_priority": "high",
+    }
+    value.update(overrides)
+    return value
+
+
+def person_updates() -> list[dict[str, object]]:
+    values = [
+        base_update(
+            row,
+            identity_status="unresolved",
+            identity_evidence=f"The visually verified page 486 row preserves {PEOPLE[row][1]} and its Box 808 or 809 context. {reason}",
+            research_status="requires_archival_review",
+            next_action=f"Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. {reason}",
+        )
+        for row, reason in UNRESOLVED.items()
+    ]
+    values.extend(
+        [
+            base_update(
+                1,
+                identity_status="high_confidence",
+                identity_evidence="The rare exact name, indexed French second-lieutenant status, municipal Free French/BCRA chronology and official U.S. Army OSSEX Team VITRAIL history converge.",
+                name_variants=["Lucien Boyer"],
+                personnel_category="foreign_or_allied_military_personnel",
+                commissioned_officer=True,
+                allied_or_foreign_personnel=True,
+                research_status="completed",
+                next_action="Box 808 can refine the administrative BCRA-to-OSSEX transition; no civilian employer is claimed.",
+                archival_review_priority="medium",
+            ),
+            base_update(
+                5,
+                identity_status="confirmed",
+                identity_evidence="The exact official name and a nonshared protected identifier connect the visually verified index row to the Army record.",
+                personnel_category="enlisted_army_personnel",
+                commissioned_officer=False,
+                allied_or_foreign_personnel=False,
+                research_status="occupation_only_found",
+                next_action="Review Box 809 to identify any named employer behind historical code 905 and establish the Army-to-OSS chronology.",
+                nara_catalog_id="1263923",
+            ),
+            base_update(
+                7,
+                identity_status="confirmed",
+                identity_evidence="The exact official name, middle initial and a nonshared protected identifier connect the visually verified index row to the Army record.",
+                personnel_category="enlisted_army_personnel",
+                commissioned_officer=False,
+                allied_or_foreign_personnel=False,
+                research_status="occupation_only_found",
+                next_action="Review Box 809 to identify the printing employer behind historical code 448 and establish the Army-to-OSS chronology.",
+                nara_catalog_id="1263923",
+            ),
+            base_update(
+                9,
+                identity_status="unresolved",
+                identity_evidence="The index's unusual Guysbert spelling is preserved. A contemporary Lieutenant Guysbert B. Vroom Jr. lead is compatible but lacks a final OSS or protected-identifier bridge.",
+                personnel_category="unknown_or_indeterminate",
+                commissioned_officer=True,
+                allied_or_foreign_personnel=False,
+                research_status="requires_archival_review",
+                next_action="Review Box 809 to resolve the Guysbert/Gysbert spelling, service branch, promotion chronology and pre-service employment.",
+                archival_review_priority="high",
+            ),
+            base_update(
+                12,
+                identity_status="ambiguous",
+                identity_evidence="Two separately printed Alexander S Vuchinich rows share Box 809; only this row carries a protected identifier. Institutional biographies of Alexander S. Vucinich do not allocate the biography to either row.",
+                possible_duplicate_group=VUCHINICH_GROUP,
+                research_status="conflicting_sources",
+                next_action="Review both Alexander S Vuchinich files together before assigning the Alexander S. Vucinich biography, Army service or any pre-OSS affiliation.",
+                archival_review_priority="critical",
+            ),
+            base_update(
+                13,
+                identity_status="ambiguous",
+                identity_evidence="Two separately printed Alexander S Vuchinich rows share Box 809; this row has no protected identifier. They are not merged by name alone.",
+                possible_duplicate_group=VUCHINICH_GROUP,
+                research_status="conflicting_sources",
+                next_action="Review both Alexander S Vuchinich files together before assigning the Alexander S. Vucinich biography, Army service or any pre-OSS affiliation.",
+                archival_review_priority="critical",
+            ),
+            base_update(
+                14,
+                identity_status="high_confidence",
+                identity_evidence="The distinctive exact name, indexed Lt. (jg) USNR notation and Hoover and Stanford institutional OSS chronologies converge.",
+                personnel_category="commissioned_naval_officer",
+                commissioned_officer=True,
+                allied_or_foreign_personnel=False,
+                research_status="verified_employer_found",
+                next_action="Box 809 can refine the exact UC Berkeley-to-OSS and OSS-to-USNR dates; the teaching appointment is documented.",
+                archival_review_priority="low",
+            ),
+            base_update(
+                16,
+                identity_status="ambiguous",
+                identity_evidence="Daniel Vujnovich and Daniel Vujovick are separately printed in Box 809. Accessible sources do not establish whether the spelling difference reflects one person or two.",
+                possible_duplicate_group=VUJNOVICH_GROUP,
+                research_status="requires_archival_review",
+                next_action="Compare the Daniel Vujnovich and Daniel Vujovick personnel files before merging or assigning any external biography.",
+                archival_review_priority="critical",
+            ),
+            base_update(
+                17,
+                identity_status="high_confidence",
+                identity_evidence="The distinctive exact name, compatible officer-style indexed identifier and official Congressional Operation Halyard biography establish a high-confidence identity.",
+                name_variants=["George Mane Vujnovich"],
+                personnel_category="commissioned_army_officer",
+                commissioned_officer=True,
+                allied_or_foreign_personnel=False,
+                research_status="verified_employer_found",
+                next_action="Box 809 can supply exact Pan Am, Army and OSS dates; the employer and recruitment sequence are already supported.",
+                archival_review_priority="low",
+            ),
+            base_update(
+                18,
+                identity_status="ambiguous",
+                identity_evidence="Daniel Vujovick and Daniel Vujnovich are separately printed in Box 809. Accessible sources do not establish whether the spelling difference reflects one person or two.",
+                possible_duplicate_group=VUJNOVICH_GROUP,
+                research_status="requires_archival_review",
+                next_action="Compare the Daniel Vujovick and Daniel Vujnovich personnel files before merging or assigning any external biography.",
+                archival_review_priority="critical",
+            ),
+            base_update(
+                21,
+                identity_status="confirmed",
+                identity_evidence="A nonshared protected identifier and exact name connect the index to the official Army record; U.S. Army Special Operations history independently names Pfc George Vuletic in the OSS Maritime Unit.",
+                personnel_category="enlisted_army_personnel",
+                commissioned_officer=False,
+                allied_or_foreign_personnel=False,
+                research_status="requires_archival_review",
+                next_action="Review Box 809 for the pre-Army employer and Army-to-OSS transfer. Historical occupation code 993 is undefined and remains uninterpreted.",
+                nara_catalog_id="1263923",
+                archival_review_priority="medium",
+            ),
+        ]
+    )
+    return values
+
+
+def research_attempts() -> list[dict[str, object]]:
+    sourced = {1, 5, 7, 14, 17, 21}
+    details = {
+        1: "Official U.S. Army and municipal histories established a high-confidence Free French/BCRA-to-OSSEX pathway.",
+        5: "The protected-identifier Army bridge produced a confirmed identity and a qualified historical occupation category.",
+        7: "The protected-identifier Army bridge produced a confirmed identity and a qualified historical printing occupation.",
+        14: "Hoover and Stanford institutional histories established UC Berkeley teaching employment immediately before OSS.",
+        17: "Congressional and reputable obituary sources established the University of Belgrade, Pan American Airways, Army and OSS sequence.",
+        21: "The protected-identifier bridge and U.S. Army Special Operations history confirmed identity and OSS Maritime Unit service; code 993 remained undefined.",
+    }
+    attempts: list[dict[str, object]] = []
+    for row, (person_id, name) in PEOPLE.items():
+        if row in sourced:
+            outcome, reviewed, rejected = "source_reviewed", 8, 5
+            detail = details[row]
+        elif row in {12, 13, 16, 18}:
+            outcome, reviewed, rejected = "candidate_rejected", 7, 7
+            detail = "Plausible external biographies or spelling variants could not be safely allocated across separately printed source rows."
+        else:
+            outcome, reviewed, rejected = "no_result", 6, 6
+            detail = UNRESOLVED.get(row, "No reliable identity or pre-OSS affiliation bridge was found.")
+        attempts.append(
+            {
+                "key": f"page486-row{row}-{slug(name)}-b991",
+                "person_id": person_id,
+                "source_adapter": "manual_staged_protocol",
+                "query_text": f"{name}; NARA OSS index context; CIA Reading Room or equivalent official-source check; Library of Congress collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 808 or 809; protected identifiers used only in private official-record comparison",
+                "query_variant_type": "staged_identity_employment_archival_protocol_batch_991",
+                "started_at": "2026-10-30T16:55:00Z",
+                "completed_at": "2026-10-30T17:35:00Z",
+                "outcome": outcome,
+                "sources_reviewed": reviewed,
+                "candidate_sources_rejected": rejected,
+                "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Herbert H. Vreeland candidates, James B. Vuchetich's obituary, Lazareth Vracarich's postwar unit record, Theodore Vukelich's Seabee roster and later Ladislav Vydra material were not assigned without corroboration. The two Alexander S. Vuchinich rows and Daniel Vujnovich/Vujovick rows remain separate. Historical Army occupation categories were not converted into named employers.",
+                "research_notes": f"{detail} Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The current LoC collection route and permitted CIA-equivalent official sources yielded no additional publishable bridge for this review. The index, official Army bulk data, technical documentation and code-list pages were inspected directly; code-list physical pages 173-174, Stanford page 3, Congressional Record page S8711 and ARSOF Operation BOSTON page 10 were rendered and visually checked. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+                "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+                "attempt_number": 1,
+                "research_agent_version": "before-oss-b991-v1",
+            }
+        )
+    return attempts
+
+
+def main() -> None:
+    bundle = {
+        "bundle_version": "batch-991-v1",
+        "reviewer": "Before OSS Batch 991 evidence review",
+        "sources": sources(),
+        "organizations": organizations(),
+        "affiliations": affiliations(),
+        "claims": claims(),
+        "person_updates": person_updates(),
+        "research_attempts": research_attempts(),
+    }
+    EvidenceBundle.model_validate(bundle)
+    OUTPUT.write_text(
+        json.dumps(bundle, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+if __name__ == "__main__":
+    main()
