@@ -1,5 +1,41 @@
 # Research status
 
+Batch 976 completed PDF page 478, rows 24-46, from **Sylvester Vacek** through
+**Florencio A Valenzuela**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Reviewed evidence identifies Vincenzo Vacirca's 1942 Voice of America Italian
+Section work as the best-supported probable immediate pre-OSS institutional
+affiliation, with his 1937 La Strada directorship kept separate as earlier
+employment. Anthony S Vaivada's Naujienos city-editor role is his last
+documented civilian employer before 1942 Army entry, while Counter Intelligence
+Corps service remains a separate uncertain wartime pathway. Anthony Vaiksnoras's
+Cleveland School of Art student status is not treated as employment. Scholarly,
+institutional and direct OSS evidence strengthens the wartime identities of
+Vichien Vaivananda, Sotirios G Vakakas and Apollon P Valakis without inventing
+prior employers. Five official Army matches publish only qualified occupation
+or student categories. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,383/23,936 (64.2672%)**;
+verified-employer coverage is **497/23,936 (2.0764%)**;
+verified-affiliation coverage is **1,108/23,936 (4.6290%)**; archival-review
+coverage is **13,859/23,936 (57.9002%)**. There are **8,548** not-started
+people, **665** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,708 confirmed**, **5,174 high**, **2,458 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,808** affiliations, **1,270** organizations, **6,318** sources and
+**9,772** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 479, row 1.
+See `research/batch-976-progress.md`.
+
+Batch 976 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+24/24 batch browser matrix and the full 93/93 browser and accessibility release
+suite. All 25,257 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. Publication is pending the content commit,
+GitHub Actions Test and Pages workflows, and unauthenticated live verification.
+
 Batch 975 completed PDF page 478, rows 1-23, from **Henry Untermeyer** through
 **Robert Vacasovich**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.
