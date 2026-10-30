@@ -33,9 +33,12 @@ build, the 24/24 batch browser matrix and the full 93/93 browser and
 accessibility release suite. All 25,237 internal page links resolve, the
 protected-identifier audit found zero unexpected matches, and two consecutive
 builds reproduced the 67-asset public manifest and full static output tree.
-Publication is pending the immutable content commit, GitHub Actions checks and
-unauthenticated deployed-release verification. Full verification is recorded
-in `reports/release_batch_970.md`.
+Publication is public from immutable content commit
+`3e0bb36b12da7a2e92921411c754bd2b0b849e3f`; GitHub Actions Test run
+`41009050588` and Pages run `41009050610` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 970
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_970.md`.
 
 Batch 969 completed PDF page 475, rows 1-23, from **Gaston E Tuggle** through
 **Euclide Turcotte**, preserving all 23 printed rows as separate people with
