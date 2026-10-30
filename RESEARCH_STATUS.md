@@ -38,9 +38,12 @@ warnings or hints and builds 25,226 static pages. The 27/27 Batch 965 browser
 matrix and full 96/96 bounded browser and accessibility release suite pass, as
 do the complete internal-link check, protected-identifier audit, checked-in
 public manifest, zero-vulnerability production dependency audit and two
-deterministic consecutive builds. Publication is pending immutable-commit
-deployment and unauthenticated live verification; full local verification is
-recorded in `reports/release_batch_965.md`.
+deterministic consecutive builds. Publication is public from immutable content
+commit `73816a1dd927ed5204f1562ce183bf5b4e38046c`; GitHub Actions Test run
+`40996517156` and Pages run `40996517159` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 965
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_965.md`.
 
 Batch 964 completed PDF page 472, rows 26-46, from **Oliver E Trechter**
 through **Walter Treumann**, preserving all 21 printed rows as separate people
