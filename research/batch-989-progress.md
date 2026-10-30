@@ -117,6 +117,16 @@ Archive location: 230/86/42/06
 - The bounded release suite passed all 96 latest-batch, core-route, analysis
   and accessibility checks, including 30 axe scans with no serious or
   critical violations.
+- The exact committed tree built twice from a clean archive: Astro checked 620
+  files with zero diagnostics and built 25,280 canonical pages. Both builds
+  reproduced 25,352 files, 422,166,684 bytes and tree SHA-256
+  `400db4e65c75c4cb4eb9246296a758700782dd90bd27706e400a4b4fa2b3794c`.
+- The clean internal-link check resolved every link in all 25,280 HTML files;
+  52,186 unique external URLs were inventoried for separate live checking.
+- The clean identifier audit checked 12,926 normalized private identifiers
+  and 120 formatted variants across 25,352 artifacts, finding zero unexpected
+  boundary matches. The production dependency audit found zero
+  vulnerabilities.
 - The checked-in 67-asset public manifest verifies locally at 132,598,411
   bytes with SHA-256
   `c198e65be6bd8c7adc023b52e56501eec95813c0dd3e3aa8753c904cec6a51c8`.
