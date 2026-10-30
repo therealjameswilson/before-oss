@@ -1,5 +1,44 @@
 # Research status
 
+Batch 972 completed PDF page 476, rows 24-46, from **George B Tweed** through
+**John Tyson**, preserving all 23 printed rows as separate people with saved
+terminal research outcomes.
+
+Institutional rosters establish Otto Twingley's immediate military pathway
+from D Company, 99th Infantry Battalion (Separate), into the OSS Norwegian
+Operational Group; John B Tweedy's 86th Infantry assignment remains a
+qualified probable identity with uncertain sequence. Princeton and Miami
+obituaries identify John Tyson as a Hutchinson, Rivinus & Co. insurance partner
+immediately before OSS service and preserve his earlier Pennsylvania Railroad
+work separately. Four exact Army identity bridges publish qualified occupation
+or student categories without inventing employers. Marvin E Tyree's two
+post-OSS Army rows support identity only, while John E Tyczkowski's missing-
+initial conflict remains visible and receives no occupation. Fourteen unresolved
+identities retain archival-review outcomes. No authenticated NARA Catalog API
+request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,292/23,936 (63.8870%)**;
+verified-employer coverage is **490/23,936 (2.0471%)**;
+verified-affiliation coverage is **1,097/23,936 (4.5831%)**; archival-review
+coverage is **13,768/23,936 (57.5201%)**. There are **8,639** not-started
+people, **664** possible-duplicate groups and **523** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,114 high**, **2,426 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,759** affiliations, **1,255** organizations, **6,263** sources and
+**9,678** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 477, row 1,
+**Robert M Tyson**, in Box 792. See `research/batch-972-progress.md`.
+
+Batch 972 passed evidence-schema validation, idempotent import, SQLite
+integrity, the 200-profile audit, all 147 Python tests and 84 subtests, Astro's
+zero-diagnostic build, the 30/30 batch browser matrix and the full 99/99
+browser and accessibility release suite. All 25,241 internal page links
+resolve, the protected-identifier audit found zero unexpected matches, and two
+consecutive builds reproduced the 67-asset public manifest and full static
+output tree. Publication verification is recorded in
+`reports/release_batch_972.md`.
+
 Batch 971 completed PDF page 476, rows 1-23, from **Olive J Turner** through
 **Edgar H Twamley**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.

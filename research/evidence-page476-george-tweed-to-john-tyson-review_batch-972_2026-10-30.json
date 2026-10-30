@@ -1,0 +1,1552 @@
+{
+  "bundle_version": "batch-972-v1",
+  "reviewer": "Before OSS Batch 972 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b972",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 791-792",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 476, rows 24-46; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b972",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven Batch 972 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b972",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b972",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-172, 174 and 304; Batch 972 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employers nor workplaces and are retained only where needed for auditability."
+    },
+    {
+      "key": "denver-10th-mountain-roster-b972",
+      "stable_url": "https://history.denverlibrary.org/sites/history/files/10th_mountain_index.pdf",
+      "title": "Members of the 10th Mountain Division",
+      "author_creator": "Denver Public Library, Western History and Genealogy",
+      "repository_publisher": "Denver Public Library",
+      "locator": "PDF physical page 706; John B. Tweedy and Otto Twingley roster entries",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "10th Mountain Division Resource Center"
+    },
+    {
+      "key": "vesterheim-percy-red-b972",
+      "stable_url": "https://vesterheim.org/norwegian-special-operations-group-percy-red/",
+      "title": "Rieder Grunseth and the Norwegian Special Operations Group - Operation Percy Red",
+      "author_creator": "Jon Grunseth",
+      "repository_publisher": "Vesterheim Norwegian-American Museum",
+      "publication_record_date": "2025",
+      "locator": "Recruitment from the 99th Infantry Battalion; Percy Red memorial roster naming T/5 Otto Twingley",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Vesterheim Stories",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "mail-tribune-lawrence-tweedy-b972",
+      "stable_url": "https://www.legacy.com/us/obituaries/mailtribune/name/lawrence-tweedy-obituary?id=28539063",
+      "title": "Lawrence L. Tweedy obituary",
+      "author_creator": "Mail Tribune obituary contributors",
+      "repository_publisher": "Mail Tribune; Legacy.com archive",
+      "publication_record_date": "2009-05-07",
+      "locator": "Biographical chronology: Texas ranching, wartime underwater-demolition group and OSS context",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Mail Tribune obituaries",
+      "rights_notes": "Used with the exact protected-identifier Army match; only short excerpts and paraphrases are retained."
+    },
+    {
+      "key": "princeton-john-tyson-b972",
+      "stable_url": "https://www.princeton.edu/~paw/archive_new/PAW04-05/09-0223/memorials.html",
+      "title": "John Tyson '27 memorial",
+      "author_creator": "Princeton Class of 1927",
+      "repository_publisher": "Princeton Alumni Weekly, Princeton University",
+      "publication_record_date": "2005-02-23",
+      "locator": "Memorials; John Tyson '27",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Princeton Alumni Weekly memorials",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "miami-herald-john-tyson-b972",
+      "stable_url": "https://www.legacy.com/us/obituaries/herald/name/john-tyson-obituary?id=13743165",
+      "title": "John Tyson obituary",
+      "author_creator": "Miami Herald obituary contributors",
+      "repository_publisher": "Miami Herald; Legacy.com archive",
+      "publication_record_date": "2004-10",
+      "locator": "Biographical chronology: Hutchinson, Rivinus & Co., OSS headquarters and England training role",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Miami Herald obituaries",
+      "rights_notes": "Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "arsof-john-tyson-b972",
+      "stable_url": "https://arsof-history.org/articles/v3n1_brucker_pt3_page_1.html",
+      "title": "Major Herbert R. Brucker, SF Pioneer, Part III: SOE Training and Team HERMIT into France",
+      "author_creator": "Charles H. Briscoe",
+      "repository_publisher": "U.S. Army Special Operations Command History Office",
+      "publication_record_date": "2007",
+      "locator": "Part III; Captain John Tyson's July 1943 OSS training report",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Veritas: Journal of Army Special Operations History"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "86th-infantry-regiment-b972",
+      "organization_id": "f8e9ea53-68e2-5383-8740-d36e9631a47c",
+      "canonical_name": "86th Infantry Regiment, 10th Mountain Division",
+      "historical_name": "86TH INF",
+      "aliases": [
+        "86th Infantry",
+        "86th Mountain Infantry Regiment"
+      ],
+      "organization_type": "U.S. Army infantry regiment",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "Second World War",
+      "normalization_notes": "E Company is preserved in the affiliation field; sequence relative to OSS remains uncertain."
+    },
+    {
+      "key": "99th-infantry-battalion-b972",
+      "organization_id": "a9ed25cf-8cdc-56e7-a6de-0ab28065fb8c",
+      "canonical_name": "99th Infantry Battalion (Separate)",
+      "historical_name": "99th Infantry Battalion (Separate)",
+      "aliases": [
+        "Battalion 99",
+        "99th Mountain Battalion",
+        "99th Infantry Battalion",
+        "Norwegian-American Ski Battalion"
+      ],
+      "organization_type": "United States Army battalion",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Historical naming variants are preserved; the unit is separate from the later OSS Norwegian Operational Group. D Company is preserved in Otto Twingley's affiliation evidence."
+    },
+    {
+      "key": "hutchinson-rivinus-b972",
+      "canonical_name": "Hutchinson, Rivinus & Co.",
+      "historical_name": "Hutchinson and Rivinus",
+      "aliases": [
+        "Hutchinson, Rivinus",
+        "Hutchinson. Rivinus & Co."
+      ],
+      "organization_type": "insurance brokerage",
+      "sector": "finance_and_banking",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "active_dates": "John Tyson joined in 1927 and was a partner by 1936",
+      "normalization_notes": "Historical punctuation varies across the reviewed sources; no modern successor name is substituted."
+    },
+    {
+      "key": "pennsylvania-railroad-b972",
+      "canonical_name": "Pennsylvania Railroad",
+      "historical_name": "Pennsylvania Railroad",
+      "aliases": [
+        "Pennsylvania RR"
+      ],
+      "organization_type": "railroad",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "active_dates": "1846-1968",
+      "normalization_notes": "Earlier documented employment, kept separate from John Tyson's later insurance career."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "lawrence-l-tweedy-occupation-b972",
+      "person_id": "63e7b2e7-5900-57c9-bf2e-02804ac80b1a",
+      "occupation": "animal or livestock farm hand",
+      "relationship_type": "unknown",
+      "end_date": "1941-12-22",
+      "date_precision": "Historical civilian-occupation code 317 was recorded at Army entry on 1941-12-22; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-j-twork-occupation-b972",
+      "person_id": "8754e68e-3a1a-54b9-859e-b25ebe364d1c",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1944-01-18",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1944-01-18; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "robert-w-tyler-occupation-b972",
+      "person_id": "618f6c30-1e41-5ada-8c0b-0e34b248be5e",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-02-02",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-02-02; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "stephen-tymonko-occupation-b972",
+      "person_id": "9ab0881e-5f03-5657-9c8d-c894f22e7b96",
+      "occupation": "chauffeur or bus, taxi, truck or tractor driver",
+      "relationship_type": "unknown",
+      "end_date": "1943-05-13",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1943-05-13; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-b-tweedy-86th-infantry-b972",
+      "person_id": "d9440d10-fe0c-509f-a09c-0691f2c95fcb",
+      "organization_key": "86th-infantry-regiment-b972",
+      "organization_name_as_found": "E Company, 86th Infantry",
+      "relationship_type": "military_assignment",
+      "date_precision": "Second World War; the roster does not establish whether the assignment preceded, followed or overlapped OSS service",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact full name is distinctive, but the roster has no service number or explicit OSS bridge. Published only as a qualified wartime assignment."
+    },
+    {
+      "key": "otto-twingley-99th-infantry-b972",
+      "person_id": "4c0af134-6060-5ddd-9ce5-2e5b449dce2e",
+      "organization_key": "99th-infantry-battalion-b972",
+      "organization_name_as_found": "D Company, 99th Infantry",
+      "role_title": "soldier; later T/5 in OSS Percy Red",
+      "relationship_type": "military_assignment",
+      "end_date": "1943-07",
+      "date_precision": "The division roster places Twingley in D Company, 99th Infantry; Vesterheim describes July 1943 OSS recruitment from the 99th and names T/5 Otto Twingley in Percy Red",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is a military pathway into OSS, not a civilian employer. A service-number discrepancy found in secondary discovery material remains private and unresolved."
+    },
+    {
+      "key": "john-tyson-hutchinson-rivinus-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "organization_key": "hutchinson-rivinus-b972",
+      "organization_name_as_found": "Hutchinson and Rivinus",
+      "role_title": "partner",
+      "occupation": "insurance broker",
+      "relationship_type": "employment",
+      "start_date": "1927",
+      "end_date": "1941-12",
+      "date_precision": "The memorial says Tyson became a partner in 1936 and volunteered for OSS shortly after Pearl Harbor; the obituary gives the 1927 start year",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Princeton memorial directly sequences the insurance partnership before OSS; the Army Special Operations history independently corroborates Captain John Tyson's distinctive England training role."
+    },
+    {
+      "key": "john-tyson-pennsylvania-railroad-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "organization_key": "pennsylvania-railroad-b972",
+      "organization_name_as_found": "Pennsylvania Railroad",
+      "role_title": "fireman",
+      "occupation": "railroad fireman",
+      "relationship_type": "employment",
+      "end_date": "1927",
+      "date_precision": "Earlier work after Princeton and before joining Hutchinson, Rivinus & Co. in 1927; exact dates are not supplied",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Earlier documented employment, kept separate from the immediate and last-civilian insurance affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-lawrence-l-tweedy-b972",
+      "person_id": "63e7b2e7-5900-57c9-bf2e-02804ac80b1a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Lawrence L Tweedy is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The indexed full name and protected identifier agree with an official Army row that adds Jr.; the Mail Tribune chronology independently matches a 1919-born rancher who entered OSS underwater-demolition work.",
+      "identity_match_assessment": "The indexed full name and protected identifier agree with an official Army row that adds Jr.; the Mail Tribune chronology independently matches a 1919-born rancher who entered OSS underwater-demolition work.",
+      "temporal_assessment": "The Army evidence is dated 1941-12-22; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "army-bulk-b972"
+        },
+        {
+          "source_key": "army-tech-b972"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-j-twork-b972",
+      "person_id": "8754e68e-3a1a-54b9-859e-b25ebe364d1c",
+      "claim_type": "identity",
+      "claim_text": "Indexed John J Twork is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1944-01-18; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "army-bulk-b972"
+        },
+        {
+          "source_key": "army-tech-b972"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-w-tyler-b972",
+      "person_id": "618f6c30-1e41-5ada-8c0b-0e34b248be5e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert W Tyler is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1943-02-02; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "army-bulk-b972"
+        },
+        {
+          "source_key": "army-tech-b972"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-tymonko-b972",
+      "person_id": "9ab0881e-5f03-5657-9c8d-c894f22e7b96",
+      "claim_type": "identity",
+      "claim_text": "Indexed Stephen Tymonko is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1943-05-13; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "army-bulk-b972"
+        },
+        {
+          "source_key": "army-tech-b972"
+        }
+      ]
+    },
+    {
+      "key": "identity-marvin-e-tyree-b972",
+      "person_id": "1ca517cd-d3fd-559e-b1bc-d23db10ac78a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Marvin E Tyree is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "Two official Army rows share the indexed protected identifier and agree on Marvin Tyree; one carries the indexed middle initial. Both entry dates follow OSS dissolution and are not projected backward.",
+      "identity_match_assessment": "Two official Army rows share the indexed protected identifier and agree on Marvin Tyree; one carries the indexed middle initial. Both entry dates follow OSS dissolution and are not projected backward.",
+      "temporal_assessment": "The Army evidence is dated 1946-01; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "army-bulk-b972"
+        },
+        {
+          "source_key": "army-tech-b972"
+        }
+      ]
+    },
+    {
+      "key": "occupation-lawrence-l-tweedy-b972",
+      "person_id": "63e7b2e7-5900-57c9-bf2e-02804ac80b1a",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-12-22, Lawrence L Tweedy's historical civilian-occupation category was farm hands, animal and livestock.",
+      "evidence_paraphrase": "The official Army field carries historical code 317; NARA's code list defines it as Farm hands, animal and livestock.",
+      "identity_match_assessment": "The indexed full name and protected identifier agree with an official Army row that adds Jr.; the Mail Tribune chronology independently matches a 1919-born rancher who entered OSS underwater-demolition work.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b972",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b972",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b972",
+          "locator_override": "Historical category 3-17; farm hands, animal and livestock"
+        }
+      ],
+      "affiliation_key": "lawrence-l-tweedy-occupation-b972"
+    },
+    {
+      "key": "occupation-john-j-twork-b972",
+      "person_id": "8754e68e-3a1a-54b9-859e-b25ebe364d1c",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-01-18, John J Twork's historical civilian-occupation category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b972",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b972",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b972",
+          "locator_override": "Corrected Code No. 30, PDF physical page 304; 9-92 Students"
+        }
+      ],
+      "affiliation_key": "john-j-twork-occupation-b972"
+    },
+    {
+      "key": "occupation-robert-w-tyler-b972",
+      "person_id": "618f6c30-1e41-5ada-8c0b-0e34b248be5e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-02, Robert W Tyler's historical civilian-occupation category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b972",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b972",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b972",
+          "locator_override": "Corrected Code No. 30, PDF physical page 304; 9-92 Students"
+        }
+      ],
+      "affiliation_key": "robert-w-tyler-occupation-b972"
+    },
+    {
+      "key": "occupation-stephen-tymonko-b972",
+      "person_id": "9ab0881e-5f03-5657-9c8d-c894f22e7b96",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-13, Stephen Tymonko's historical civilian-occupation category was chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "evidence_paraphrase": "The official Army field carries historical code 736; NARA's code list defines it as Chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b972",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b972",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b972",
+          "locator_override": "Historical category 5,7-36; chauffeurs and drivers, bus, taxi, truck and tractor"
+        }
+      ],
+      "affiliation_key": "stephen-tymonko-occupation-b972"
+    },
+    {
+      "key": "identity-john-b-tweedy-b972",
+      "person_id": "d9440d10-fe0c-509f-a09c-0691f2c95fcb",
+      "claim_type": "identity",
+      "claim_text": "Indexed John B Tweedy is a probable match to the 10th Mountain Division roster entry of that exact name.",
+      "evidence_paraphrase": "The Denver Public Library roster gives the distinctive exact full name and assigns it to E Company, 86th Infantry.",
+      "identity_match_assessment": "Probable, not high confidence: exact distinctive name and compatible Army context, but no service number or explicit OSS bridge appears in the roster.",
+      "temporal_assessment": "Second World War; sequence relative to OSS is not established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified identity and wartime assignment; Box 791 must confirm the match.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "denver-10th-mountain-roster-b972",
+          "excerpt_override": "JOHN B TWEEDY E 86TH INF"
+        }
+      ],
+      "evidence_excerpt": "JOHN B TWEEDY E 86TH INF"
+    },
+    {
+      "key": "affiliation-john-b-tweedy-86th-b972",
+      "person_id": "d9440d10-fe0c-509f-a09c-0691f2c95fcb",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable John B. Tweedy identity served in E Company, 86th Infantry during the Second World War.",
+      "evidence_paraphrase": "The division roster supplies the exact full name, company and regiment.",
+      "identity_match_assessment": "Probable identity only; the roster lacks the indexed identifier and direct OSS context.",
+      "temporal_assessment": "Documented wartime military assignment with uncertain sequence relative to OSS; it is not labeled immediate.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified military assignment, not civilian employment; excluded from default employer analytics.",
+      "sources": [
+        {
+          "source_key": "denver-10th-mountain-roster-b972",
+          "excerpt_override": "JOHN B TWEEDY E 86TH INF"
+        }
+      ],
+      "affiliation_key": "john-b-tweedy-86th-infantry-b972"
+    },
+    {
+      "key": "context-lawrence-l-tweedy-ranching-b972",
+      "person_id": "63e7b2e7-5900-57c9-bf2e-02804ac80b1a",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Lawrence L. Tweedy was engaged in ranching before his wartime service and OSS underwater-demolition assignment.",
+      "evidence_paraphrase": "The obituary places him on the Texas family ranch before wartime service; the dated Army code independently records animal or livestock farm work.",
+      "identity_match_assessment": "High confidence from the exact protected-identifier Army match, compatible Jr. suffix, exact-name obituary, birth chronology and unusual OSS underwater-demolition detail.",
+      "temporal_assessment": "Strongly date-bounded before Army entry and OSS, but no named employer or self-employment status is stated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation context only; no ranch organization or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "mail-tribune-lawrence-tweedy-b972",
+          "excerpt_override": "There Larry found his true love- ranching."
+        },
+        {
+          "source_key": "army-bulk-b972",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b972",
+          "locator_override": "Historical category 3-17; farm hands, animal and livestock"
+        }
+      ],
+      "affiliation_key": "lawrence-l-tweedy-occupation-b972"
+    },
+    {
+      "key": "identity-otto-twingley-b972",
+      "person_id": "4c0af134-6060-5ddd-9ce5-2e5b449dce2e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Otto Twingley is high-confidence matched to T/5 Otto Twingley of the OSS Norwegian Operational Group Percy Red.",
+      "evidence_paraphrase": "The rare exact name appears in both the 10th Mountain roster and Vesterheim's named Percy Red roster; the latter explicitly places the group in OSS.",
+      "identity_match_assessment": "High confidence from a rare exact name, two compatible institutional rosters, 99th Infantry origin and explicit OSS Percy Red membership.",
+      "temporal_assessment": "The sources document 99th Infantry service before the July 1943 NORSO recruitment and the 1944 Percy Red mission.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A one-digit service-number discrepancy seen in secondary discovery material is retained privately as a conflict and not exposed or resolved by convenience.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "denver-10th-mountain-roster-b972",
+          "excerpt_override": "OTTO TWINGLEY D 99TH INF"
+        },
+        {
+          "source_key": "vesterheim-percy-red-b972",
+          "excerpt_override": "T/5 Otto Twingley"
+        }
+      ],
+      "evidence_excerpt": "T/5 Otto Twingley"
+    },
+    {
+      "key": "immediate-otto-twingley-99th-b972",
+      "person_id": "4c0af134-6060-5ddd-9ce5-2e5b449dce2e",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Otto Twingley's best-supported immediate affiliation before OSS NORSO was D Company, 99th Infantry Battalion (Separate).",
+      "evidence_paraphrase": "The division roster places him in D Company, 99th Infantry; Vesterheim says NORSO began by recruiting volunteers from the 99th and names him in Percy Red.",
+      "identity_match_assessment": "High-confidence rare-name match across the NARA index and two institutional rosters.",
+      "temporal_assessment": "Strongly date-bounded: recruitment from the 99th into OSS NORSO is placed in July 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Classified as a military pathway, not a civilian employer; no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "denver-10th-mountain-roster-b972",
+          "excerpt_override": "OTTO TWINGLEY D 99TH INF"
+        },
+        {
+          "source_key": "vesterheim-percy-red-b972",
+          "excerpt_override": "volunteers from the Norwegian Americans in the 99th"
+        }
+      ],
+      "affiliation_key": "otto-twingley-99th-infantry-b972"
+    },
+    {
+      "key": "identity-conflict-john-e-tyczkowski-b972",
+      "person_id": "2d652241-1006-531e-b802-5ee7a40e937c",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier on indexed John E Tyczkowski leads to an Army row printed without the initial J; the identity remains conflicting.",
+      "evidence_paraphrase": "The protected identifier agrees, but the official Army name field is printed as Tyczkowski Ohn E.",
+      "identity_match_assessment": "Conflicting: a strong identifier bridge is offset by a substantive missing-initial name defect that the personnel file must resolve.",
+      "temporal_assessment": "The Army entry is dated 20 June 1941, but no occupation or chronology is assigned while identity remains disputed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The records remain separate; the machinist category is not transferred and no public employer fact is created.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "army-bulk-b972"
+        },
+        {
+          "source_key": "army-tech-b972"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-tyson-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "claim_type": "identity",
+      "claim_text": "Indexed John Tyson is high-confidence matched to the Philadelphia insurance partner and OSS training officer Captain John Tyson.",
+      "evidence_paraphrase": "Princeton and a newspaper obituary share his insurance and OSS chronology; Army Special Operations history independently names Captain John Tyson's OSS England training report.",
+      "identity_match_assessment": "High confidence from the exact name plus a distinctive combination of Philadelphia insurance partnership, immediate OSS entry, England training role and captain rank across independent sources.",
+      "temporal_assessment": "The sources place the insurance career before OSS and Captain Tyson in the European theater by July 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is not treated as confirmed because no reviewed source reproduces the protected index identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-b972"
+        },
+        {
+          "source_key": "princeton-john-tyson-b972"
+        },
+        {
+          "source_key": "miami-herald-john-tyson-b972",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "arsof-john-tyson-b972",
+          "excerpt_override": "one of his training officers, Captain John Tyson, to evaluate SOE instruction"
+        }
+      ]
+    },
+    {
+      "key": "immediate-john-tyson-hutchinson-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "John Tyson's best-supported immediate civilian affiliation before OSS was partner at Hutchinson, Rivinus & Co. in Philadelphia.",
+      "evidence_paraphrase": "The Princeton memorial sequences his partnership directly before volunteering for OSS shortly after Pearl Harbor.",
+      "identity_match_assessment": "High-confidence identity from the distinctive career and OSS training chronology across institutional and newspaper sources.",
+      "temporal_assessment": "Explicitly immediate in the memorial's chronology; exact departure date is not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is civilian employment; his later captain rank and OSS training work remain separate.",
+      "sources": [
+        {
+          "source_key": "princeton-john-tyson-b972",
+          "excerpt_override": "Shortly after the attack on Pearl Harbor, John volunteered for service in the OSS"
+        },
+        {
+          "source_key": "miami-herald-john-tyson-b972",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "john-tyson-hutchinson-rivinus-b972",
+      "evidence_excerpt": "Shortly after the attack on Pearl Harbor, John volunteered for service in the OSS"
+    },
+    {
+      "key": "last-civilian-john-tyson-hutchinson-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Hutchinson, Rivinus & Co. is John Tyson's last documented civilian employer before OSS service.",
+      "evidence_paraphrase": "The sources state that he joined the insurance brokerage in 1927, became a partner in 1936 and volunteered for OSS shortly after Pearl Harbor.",
+      "identity_match_assessment": "High-confidence identity from matching insurance, Princeton, OSS and England-training details.",
+      "temporal_assessment": "Strongly date-bounded as the final named civilian employment before OSS; no intervening employer is documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Kept distinct from both OSS service and his earlier railroad employment.",
+      "sources": [
+        {
+          "source_key": "princeton-john-tyson-b972",
+          "excerpt_override": "eventually joining Hutchinson and Rivinus (an insurance firm), of which he became a partner in 1936"
+        },
+        {
+          "source_key": "miami-herald-john-tyson-b972",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "john-tyson-hutchinson-rivinus-b972"
+    },
+    {
+      "key": "earlier-john-tyson-pennsylvania-railroad-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before entering insurance, John Tyson worked as a fireman on the Pennsylvania Railroad.",
+      "evidence_paraphrase": "The Princeton memorial lists railroad fireman among his post-Princeton jobs before he joined Hutchinson and Rivinus.",
+      "identity_match_assessment": "High-confidence identity through the same distinctive insurance-to-OSS chronology.",
+      "temporal_assessment": "Documented earlier prewar employment; exact dates are not supplied and it is not the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled separately so earlier employment is not conflated with the last civilian employer.",
+      "sources": [
+        {
+          "source_key": "princeton-john-tyson-b972",
+          "excerpt_override": "as a fireman on the Pennsylvania Railroad"
+        }
+      ],
+      "affiliation_key": "john-tyson-pennsylvania-railroad-b972",
+      "evidence_excerpt": "as a fireman on the Pennsylvania Railroad"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "58664c19-dff1-59b7-8b78-f8d3d0fb7134",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George B Tweed, Box 791 and archive location 230/86/42/03. The famous George R. Tweed and other namesakes were rejected because the indexed middle initial is B and no source bridged a candidate to Box 791.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The famous George R. Tweed and other namesakes were rejected because the indexed middle initial is B and no source bridged a candidate to Box 791."
+    },
+    {
+      "person_id": "cbb28220-65d3-5096-bdc3-ac76c719bc38",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Grant M Tweiten, Box 791 and archive location 230/86/42/03. Exact-name searches produced only weak genealogical leads and no defensible OSS, employer or institutional identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name searches produced only weak genealogical leads and no defensible OSS, employer or institutional identity bridge."
+    },
+    {
+      "person_id": "920fc446-1a31-561d-bea6-7de943b1183d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Wayne Twigg, Box 791 and archive location 230/86/42/03. The index note 'Charged' was preserved but not interpreted; exact-name and variant searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The index note 'Charged' was preserved but not interpreted; exact-name and variant searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "03fe9760-0057-5e5f-a8c2-3fbad2123d37",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Jack W Twist, Box 791 and archive location 230/86/42/03. Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "f8cd2018-0b24-52b7-a54b-ff805ed8f002",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Thomas S Twohy, Box 791 and archive location 230/86/42/03. Exact-name and variant searches produced no source linking this person to Box 791 or a dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and variant searches produced no source linking this person to Box 791 or a dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "a917da94-edb9-51ff-ab9d-7d067a29016b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Francis R Tworzydlo, Box 791 and archive location 230/86/42/03. The distinctive surname still produced no inspectable source bridging the indexed record to a dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The distinctive surname still produced no inspectable source bridging the indexed record to a dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "db95a650-f77e-5d14-8a1b-fd0a03bcb7f9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Esther M Tyler, Box 791 and archive location 230/86/42/03. The common name produced multiple namesakes without two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple namesakes without two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "29e02dfb-fe5a-5617-82a1-3a72e9cc81a7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lucia L Tyler, Box 791 and archive location 230/86/42/03. Exact-name and variant searches produced no defensible identity bridge to Box 791 or a dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and variant searches produced no defensible identity bridge to Box 791 or a dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "21ae02a6-ad5d-5e51-a847-c5429c6701ae",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary G Tyler, Box 791 and archive location 230/86/42/03. The common name produced multiple namesakes without two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple namesakes without two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "aadc6e66-f287-5979-ad3f-0e8eb337e09a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary L Tynan, Box 792 and archive location 230/86/42/04. A possible San Francisco namesake was rejected because no official or institutional source connected her to OSS, the indexed naval-style number or Box 792.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 792 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A possible San Francisco namesake was rejected because no official or institutional source connected her to OSS, the indexed naval-style number or Box 792."
+    },
+    {
+      "person_id": "ee586699-07ca-5a36-8d67-f6b5cf0c34b0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James P Tyrell, Box 792 and archive location 230/86/42/04. Exact-name searches produced no defensible identity bridge; similarly named Tyrrell records were rejected as spelling or middle-initial conflicts.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 792 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name searches produced no defensible identity bridge; similarly named Tyrrell records were rejected as spelling or middle-initial conflicts."
+    },
+    {
+      "person_id": "763b648a-9219-5440-ae6d-aafa51b4e55a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Evan S Tyrrell, Box 792 and archive location 230/86/42/04. Exact-name and variant searches produced no defensible identity bridge to Box 792 or a dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 792 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and variant searches produced no defensible identity bridge to Box 792 or a dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "4b8b68f4-0e75-5e11-932f-ab77cbe27d57",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dorothy A Tyson, Box 792 and archive location 230/86/42/04. The common name produced multiple chronologically incompatible namesakes and no source bridged one to Box 792.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 792 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced multiple chronologically incompatible namesakes and no source bridged one to Box 792."
+    },
+    {
+      "person_id": "31f19a9c-0486-5883-8a2e-c584bee93d49",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James L Tyson, Box 792 and archive location 230/86/42/04. A later conservative-organization trustee and other namesakes were rejected because no source linked them to the indexed OSS record.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 792 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A later conservative-organization trustee and other namesakes were rejected because no source linked them to the indexed OSS record."
+    },
+    {
+      "person_id": "63e7b2e7-5900-57c9-bf2e-02804ac80b1a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name and protected identifier agree with an official Army row that adds Jr.; the Mail Tribune chronology independently matches a 1919-born rancher who entered OSS underwater-demolition work.",
+      "name_variants": [
+        "Lawrence L Tweedy Jr"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 791 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "8754e68e-3a1a-54b9-859e-b25ebe364d1c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 791 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "618f6c30-1e41-5ada-8c0b-0e34b248be5e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 791 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "9ab0881e-5f03-5657-9c8d-c894f22e7b96",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 792 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "d9440d10-fe0c-509f-a09c-0691f2c95fcb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The distinctive exact name appears in the Denver Public Library 10th Mountain Division roster as E Company, 86th Infantry, but the roster lacks the indexed identifier and direct OSS context.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 to confirm the 86th Infantry identity candidate, determine sequence relative to OSS and establish any civilian employer before service."
+    },
+    {
+      "person_id": "4c0af134-6060-5ddd-9ce5-2e5b449dce2e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name appears in the Denver Public Library roster as D Company, 99th Infantry and in Vesterheim's OSS Percy Red roster as T/5 Otto Twingley; Vesterheim describes recruitment from the 99th into NORSO.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 791 to resolve the private service-number discrepancy, confirm the 99th-to-NORSO accession date and identify the last civilian employer before Army service."
+    },
+    {
+      "person_id": "2d652241-1006-531e-b802-5ee7a40e937c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier leads to an official Army row printed as Tyczkowski Ohn E, conflicting with indexed John E Tyczkowski. No occupation is transferred.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 791 to determine whether the missing initial is source damage, transcription loss or a different person; establish pre-OSS affiliation only after resolution."
+    },
+    {
+      "person_id": "1ca517cd-d3fd-559e-b1bc-d23db10ac78a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two official Army rows share the indexed protected identifier and agree on Marvin Tyree; one carries the indexed middle initial. Both entry dates follow OSS dissolution and are not projected backward.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 792 to establish the pre-OSS identity chronology and civilian affiliation; the duplicate 1946 Army rows cannot supply pre-OSS occupation evidence."
+    },
+    {
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Princeton and a newspaper obituary share the distinctive Philadelphia insurance-to-OSS chronology; Army Special Operations history independently names Captain John Tyson's OSS England training report.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 792 to confirm the protected identifier, exact OSS accession date and assignments; Hutchinson, Rivinus & Co. remains the verified last civilian employer in accessible sources."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page476-row24-george-b-tweed-b972",
+      "person_id": "58664c19-dff1-59b7-8b78-f8d3d0fb7134",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George B Tweed; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. George R. Tweed was rejected because the indexed middle initial differs and no protected identifier or file evidence connects him.",
+      "research_notes": "The famous George R. Tweed and other namesakes were rejected because the indexed middle initial is B and no source bridged a candidate to Box 791. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row25-john-b-tweedy-b972",
+      "person_id": "d9440d10-fe0c-509f-a09c-0691f2c95fcb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John B Tweedy; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. The 86th Infantry roster is published only as a probable identity because it lacks a service-number or direct OSS bridge.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row26-lawrence-l-tweedy-b972",
+      "person_id": "63e7b2e7-5900-57c9-bf2e-02804ac80b1a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lawrence L Tweedy; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row27-grant-m-tweiten-b972",
+      "person_id": "cbb28220-65d3-5096-bdc3-ac76c719bc38",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Grant M Tweiten; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name searches produced only weak genealogical leads and no defensible OSS, employer or institutional identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row28-wayne-twigg-b972",
+      "person_id": "920fc446-1a31-561d-bea6-7de943b1183d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wayne Twigg; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The index note 'Charged' was preserved but not interpreted; exact-name and variant searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row29-otto-twingley-b972",
+      "person_id": "4c0af134-6060-5ddd-9ce5-2e5b449dce2e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Otto Twingley; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. A secondary service-number discrepancy remains unresolved and was not exposed or silently corrected.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row30-jack-w-twist-b972",
+      "person_id": "03fe9760-0057-5e5f-a8c2-3fbad2123d37",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack W Twist; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name, initial, OSS, employer, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row31-thomas-s-twohy-b972",
+      "person_id": "f8cd2018-0b24-52b7-a54b-ff805ed8f002",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas S Twohy; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name and variant searches produced no source linking this person to Box 791 or a dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row32-john-j-twork-b972",
+      "person_id": "8754e68e-3a1a-54b9-859e-b25ebe364d1c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John J Twork; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row33-francis-r-tworzydlo-b972",
+      "person_id": "a917da94-edb9-51ff-ab9d-7d067a29016b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis R Tworzydlo; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The distinctive surname still produced no inspectable source bridging the indexed record to a dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row34-john-e-tyczkowski-b972",
+      "person_id": "2d652241-1006-531e-b802-5ee7a40e937c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John E Tyczkowski; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 to resolve the protected-identifier/name conflict before assigning the Army machinist category or any pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row35-esther-m-tyler-b972",
+      "person_id": "db95a650-f77e-5d14-8a1b-fd0a03bcb7f9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Esther M Tyler; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The common name produced multiple namesakes without two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row36-lucia-l-tyler-b972",
+      "person_id": "29e02dfb-fe5a-5617-82a1-3a72e9cc81a7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lucia L Tyler; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name and variant searches produced no defensible identity bridge to Box 791 or a dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row37-mary-g-tyler-b972",
+      "person_id": "21ae02a6-ad5d-5e51-a847-c5429c6701ae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary G Tyler; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The common name produced multiple namesakes without two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row38-robert-w-tyler-b972",
+      "person_id": "618f6c30-1e41-5ada-8c0b-0e34b248be5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Tyler; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 791; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 791 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row39-stephen-tymonko-b972",
+      "person_id": "9ab0881e-5f03-5657-9c8d-c894f22e7b96",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stephen Tymonko; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row40-mary-l-tynan-b972",
+      "person_id": "aadc6e66-f287-5979-ad3f-0e8eb337e09a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary L Tynan; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. A San Francisco Mary L. Tynan lead was rejected because birth and death data alone do not establish OSS identity or employment.",
+      "research_notes": "A possible San Francisco namesake was rejected because no official or institutional source connected her to OSS, the indexed naval-style number or Box 792. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row41-marvin-e-tyree-b972",
+      "person_id": "1ca517cd-d3fd-559e-b1bc-d23db10ac78a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marvin E Tyree; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row42-james-p-tyrell-b972",
+      "person_id": "ee586699-07ca-5a36-8d67-f6b5cf0c34b0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James P Tyrell; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name searches produced no defensible identity bridge; similarly named Tyrrell records were rejected as spelling or middle-initial conflicts. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row43-evan-s-tyrrell-b972",
+      "person_id": "763b648a-9219-5440-ae6d-aafa51b4e55a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Evan S Tyrrell; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name and variant searches produced no defensible identity bridge to Box 792 or a dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row44-dorothy-a-tyson-b972",
+      "person_id": "4b8b68f4-0e75-5e11-932f-ab77cbe27d57",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dorothy A Tyson; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The common name produced multiple chronologically incompatible namesakes and no source bridged one to Box 792. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row45-james-l-tyson-b972",
+      "person_id": "31f19a9c-0486-5883-8a2e-c584bee93d49",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James L Tyson; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. A later James L. Tyson trustee lead was rejected because it supplied no wartime or OSS identity bridge.",
+      "research_notes": "A later conservative-organization trustee and other namesakes were rejected because no source linked them to the indexed OSS record. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    },
+    {
+      "key": "page476-row46-john-tyson-b972",
+      "person_id": "838a228f-60b7-598a-a781-d2e985aca146",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Tyson; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_972",
+      "started_at": "2026-10-30T22:00:00Z",
+      "completed_at": "2026-10-30T23:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or conflict outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-172, 174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b972-v1"
+    }
+  ]
+}
