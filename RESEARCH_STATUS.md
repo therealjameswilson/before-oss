@@ -33,8 +33,12 @@ the complete ingest audit, the 200-profile audit, all 147 Python tests and 84
 subtests, Astro's zero-diagnostic build, the 24/24 batch browser matrix and the
 full 93/93 browser and accessibility release suite. All 25,268 internal page
 links resolve, and the protected-identifier audit found zero unexpected
-matches. Publication verification is recorded in
-`reports/release_batch_982.md`.
+matches. Publication is public from immutable content commit
+`5da90cbddaa104daca4cb3ad9ed743f485b2820f`; GitHub Actions Test run
+`41051374636` and Pages run `41051374565` succeeded. Unauthenticated
+verification matched the 67-asset manifest, eight core routes, 43 source-
+register pages and all 23 Batch 982 affected profile routes to that commit.
+Full verification is recorded in `reports/release_batch_982.md`.
 
 Batch 981 completed PDF page 481, rows 1-23, from **E L Vanduesen** through
 **1st Lt Thomas A Varnson**, preserving all 23 printed rows as separate people
