@@ -1,5 +1,42 @@
 # Research status
 
+Batch 973 completed PDF page 477, rows 1-23, from **Robert M Tyson** through
+**Doris B Ulmer**, preserving all 23 printed rows as separate people with saved
+terminal research outcomes.
+
+Reviewed institutional evidence identifies Bruno Uberti's immediate U.S. Army
+Medical Corps assignment, Robert Ulich's Harvard professorship, Edward L
+Ullman's University of Chicago student status and Alfred C Ulmer's Naval
+Intelligence pathway. Paul Ullman's stockbroker, American Field Service and
+artistic evidence remain separate qualified relationships; Robert Ullman's
+Pathé match remains probable and outside default analytics. Five exact Army
+identity bridges publish qualified occupation or student categories, while
+Edward J Uchno's undefined category supports identity only. Eleven unresolved
+identities retain archival-review outcomes. No authenticated NARA Catalog API
+request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,315/23,936 (63.9831%)**;
+verified-employer coverage is **491/23,936 (2.0513%)**;
+verified-affiliation coverage is **1,100/23,936 (4.5956%)**; archival-review
+coverage is **13,791/23,936 (57.6161%)**. There are **8,616** not-started
+people, **664** possible-duplicate groups and **523** conflicts. Claim
+confidence counts are **1,706 confirmed**, **5,129 high**, **2,439 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,774** affiliations, **1,258** organizations, **6,280** sources and
+**9,706** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 477, row 24,
+**Joe W Ulmer**, in Box 793. See `research/batch-973-progress.md`.
+
+Batch 973 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+36/36 batch browser matrix and the full 105/105 browser and accessibility
+release suite. All 25,244 internal page links resolve, the protected-identifier
+audit found zero unexpected matches, and two consecutive builds reproduced the
+67-asset public manifest and full static output tree. Publication remains
+pending until the immutable content commit, GitHub Actions checks and
+unauthenticated deployed-release comparison succeed.
+
 Batch 972 completed PDF page 476, rows 24-46, from **George B Tweed** through
 **John Tyson**, preserving all 23 printed rows as separate people with saved
 terminal research outcomes.

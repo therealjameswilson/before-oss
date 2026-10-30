@@ -1,0 +1,2065 @@
+{
+  "bundle_version": "batch-973-v1",
+  "reviewer": "Before OSS Batch 973 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b973",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 792-793",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 477, rows 1-23; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b973",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven Batch 973 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b973",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b973",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-174 and 304; Batch 973 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employers nor workplaces and are retained only where needed for auditability."
+    },
+    {
+      "key": "va-john-uccellini-b973",
+      "stable_url": "https://www.vlm.cem.va.gov/JOHNNUCCELLINI/5DBA016",
+      "archival_identifier": "Long Island National Cemetery, Section V, Site 596",
+      "title": "John N Uccellini Veterans Legacy Memorial",
+      "author_creator": "National Cemetery Administration",
+      "repository_publisher": "United States Department of Veterans Affairs",
+      "publication_record_date": "Veteran dates 1922-1992",
+      "locator": "Service panel: United States Army sergeant, World War II",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Veterans Legacy Memorial"
+    },
+    {
+      "key": "nps-bruno-uberti-b973",
+      "stable_url": "https://www.nps.gov/parkhistory/online_books/oss/chap8.pdf",
+      "title": "OSS Training in the National Parks and Service Abroad in World War II, Chapter 8",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2008",
+      "locator": "Chapter 8, Area B training and Dr. Bruno Uberti's service in Italy",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Park Service history of OSS training"
+    },
+    {
+      "key": "clemente-bruno-uberti-b973",
+      "stable_url": "https://www.tandfonline.com/toc/rjih20/2/1?nav=tocList",
+      "archival_identifier": "Journal of Intelligence History 2:1 (2002), pages 37-64",
+      "title": "OSS Medical Intelligence in the Mediterranean Theater: A Brief History",
+      "author_creator": "Jonathan D. Clemente",
+      "repository_publisher": "Journal of Intelligence History; Taylor & Francis",
+      "publication_record_date": "2002; online 2012-10-05",
+      "locator": "Pages 47-48; Bruno Uberti chronology and Max Corvo recruitment; article footnotes cite RG 226 and Max Corvo's memoir",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Journal of Intelligence History",
+      "rights_notes": "Citation metadata and a short project-authored paraphrase only; no article copy is stored."
+    },
+    {
+      "key": "harvard-robert-ulich-papers-b973",
+      "stable_url": "https://hollisarchives.lib.harvard.edu/catalog/hua92020",
+      "archival_identifier": "Harvard University Archives HUG 4860.xx",
+      "title": "Papers of Robert Ulich, 1919-1977 and undated",
+      "author_creator": "Harvard University Archives",
+      "repository_publisher": "Harvard Library",
+      "publication_record_date": "Finding aid created 2021; updated 2023-09-26",
+      "locator": "Biographical note: Harvard Graduate School of Education employment, 1935-1960",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Harvard University Archives"
+    },
+    {
+      "key": "harvard-defense-robert-ulich-b973",
+      "stable_url": "https://hollisarchives.lib.harvard.edu/download_collection_pdf/hua12007.pdf",
+      "archival_identifier": "Harvard University Archives HUD 3139",
+      "title": "Records of American Defense, Harvard Group: an inventory",
+      "author_creator": "Harvard University Archives",
+      "repository_publisher": "Harvard Library",
+      "publication_record_date": "Records 1940-1945; finding aid current 2026",
+      "locator": "PDF page 54; Box 44 OSS Special Requests, 1943; Box 45 Robert Ulich, CVII, 1943",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "American Defense, Harvard Group records"
+    },
+    {
+      "key": "barnes-edward-ullman-b973",
+      "stable_url": "https://blogs.ubc.ca/trevorbarnes/files/2015/01/PAPER_Geographical_Intelligence.pdf",
+      "title": "Geographical intelligence: American geographers and research and analysis in the Office of Strategic Services 1941-1945",
+      "author_creator": "Trevor J. Barnes",
+      "repository_publisher": "Journal of Historical Geography; University of British Columbia author copy",
+      "publication_record_date": "2006-01",
+      "locator": "Article abstract and discussion of Edward Ullman's JANIS work for OSS Research and Analysis",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Journal of Historical Geography 32:1",
+      "document_number": "doi:10.1016/j.jhg.2005.06.001"
+    },
+    {
+      "key": "berkeley-edward-ullman-b973",
+      "stable_url": "https://digicoll.lib.berkeley.edu/nanna/record/217627/files/versatilebotanist00consrich.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+      "archival_identifier": "Regional Oral History Office interview, page 69",
+      "title": "A versatile American botanist: plant taxonomy and university governance",
+      "author_creator": "Lincoln Constance; interview by Suzanne B. Riess",
+      "repository_publisher": "Bancroft Library, University of California, Berkeley",
+      "publication_record_date": "1987",
+      "locator": "Page 69; Edward Ullman completing his geography doctorate in Chicago in 1942",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Regional Oral History Office"
+    },
+    {
+      "key": "newschool-paul-ullman-b973",
+      "stable_url": "https://aspace.archives.newschool.edu/repositories/3/resources/34",
+      "archival_identifier": "Eugene Paul Ullman papers, KA.0042",
+      "title": "Guide to the Eugene Paul Ullman papers",
+      "author_creator": "New School Archives and Special Collections staff",
+      "repository_publisher": "The New School Archives and Special Collections",
+      "publication_record_date": "2012-02-16; revised 2025-07-11",
+      "locator": "Biographical note and Series 2; Paul Ullman's artistic work, American Field Service volunteering and OSS work",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Eugene Paul Ullman papers"
+    },
+    {
+      "key": "us-war-memorials-paul-ullman-b973",
+      "stable_url": "https://www.uswarmemorials.org/html/people_details.php?PeopleID=34481",
+      "title": "Paul Eugene Ullman",
+      "author_creator": "U.S. War Memorials Overseas",
+      "repository_publisher": "U.S. War Memorials Overseas",
+      "publication_record_date": null,
+      "locator": "Biographical chronology: painter-illustrator, stockbroker at OSS recruitment, civilian OSS service and 1944 death",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "People honored on overseas memorials",
+      "rights_notes": "The page attributes its biographical information to Find a Grave; employment claims remain visibly qualified."
+    },
+    {
+      "key": "cia-pforzheimer-robert-ullman-b973",
+      "stable_url": "https://www.cia.gov/resources/csi/static/interviewing-an-intelligence-icon.pdf",
+      "title": "Interviewing an Intelligence Icon: A CIA Oral History of Walter Pforzheimer",
+      "author_creator": "Central Intelligence Agency Center for the Study of Intelligence",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2001",
+      "locator": "Page 40; Robert Ullman and Donald Downes at the early OSS-connected dinner",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence"
+    },
+    {
+      "key": "taylor-robert-ullman-b973",
+      "stable_url": "https://dataylor1.medium.com/https-medium-com-dataylor1-back-when-the-oss-meant-business-f0863bbdf8f7",
+      "title": "Back When the OSS Meant Business",
+      "author_creator": "D. A. Taylor",
+      "repository_publisher": "Medium",
+      "publication_record_date": "2018-03-19",
+      "locator": "Recruiting for Success section; Robert Ullman's Pathé News employment and work with Donald Downes",
+      "access_date": "2026-10-30",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Used only with the official CIA oral-history identity context; the resulting claim is qualified and requires Box 793 confirmation."
+    },
+    {
+      "key": "princeton-alfred-ulmer-b973",
+      "stable_url": "https://paw.princeton.edu/memorial/alfred-conrad-ulmer-jr-39",
+      "archival_identifier": "Princeton Class of 1939 memorial",
+      "title": "Alfred Conrad Ulmer Jr. '39",
+      "author_creator": "The Princeton Class of 1939",
+      "repository_publisher": "Princeton Alumni Weekly",
+      "publication_record_date": "2013-12-04",
+      "locator": "Memorial chronology: U.S. Naval Intelligence in North Africa and Italy, followed by OSS in occupied Vienna",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Princeton Alumni Memorials"
+    },
+    {
+      "key": "cia-encyclopedia-alfred-ulmer-b973",
+      "stable_url": "https://www.marco-carboni.it/wp-content/uploads/2023/11/Encyclopedia-of-the-Central-Intelligence-Agency.pdf",
+      "archival_identifier": "Encyclopedia of the Central Intelligence Agency, Alfred Conrad Ulmer Jr. entry",
+      "title": "Encyclopedia of the Central Intelligence Agency",
+      "author_creator": "W. Thomas Smith Jr.",
+      "repository_publisher": "Facts On File / Infobase Publishing; accessible reference scan",
+      "publication_record_date": "2003",
+      "locator": "Alfred Conrad Ulmer Jr. entry, page 231 of the printed volume",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only citation metadata and short evidence paraphrases are retained; no scan is stored or republished."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-medical-corps-b973",
+      "organization_id": "684d8dc3-57fe-51f0-88a2-084514015c8f",
+      "canonical_name": "United States Army Medical Corps",
+      "historical_name": "U.S. Army Medical Corps",
+      "aliases": [
+        "Army Medical Corps",
+        "Medical Corps, United States Army"
+      ],
+      "organization_type": "United States Army medical corps",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1818-present; historical Second World War name preserved",
+      "normalization_notes": "Modeled as a military organization, not a civilian medical employer."
+    },
+    {
+      "key": "harvard-graduate-school-education-b973",
+      "canonical_name": "Harvard Graduate School of Education",
+      "historical_name": "Harvard Graduate School of Education",
+      "aliases": [
+        "Harvard University Graduate School of Education"
+      ],
+      "organization_type": "university graduate school",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Preserved as the employing school named by Harvard rather than silently collapsed into the parent university."
+    },
+    {
+      "key": "university-chicago-b973",
+      "organization_id": "f2c878b0-ee44-573d-ab30-7e4282bc85e5",
+      "canonical_name": "University of Chicago",
+      "historical_name": "University of Chicago",
+      "aliases": [
+        "Chicago"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "Student status is separate from employment and excluded from employer analytics."
+    },
+    {
+      "key": "american-field-service-b973",
+      "organization_id": "393fb75c-520a-5a51-91d6-0df0f0983f58",
+      "canonical_name": "American Field Service",
+      "historical_name": "American Field Service",
+      "aliases": [
+        "AFS",
+        "American Field Service ambulance corps"
+      ],
+      "organization_type": "volunteer ambulance service",
+      "sector": "labor_nonprofit_and_religion",
+      "country": "United States",
+      "active_dates": "1914-present; wartime ambulance service before later educational mission",
+      "normalization_notes": "Paul Ullman's relationship is recorded as volunteering, not employment."
+    },
+    {
+      "key": "pathe-news-b973",
+      "canonical_name": "Pathé News",
+      "historical_name": "Pathé",
+      "aliases": [
+        "Pathé news agency",
+        "Pathé News agency"
+      ],
+      "organization_type": "newsreel and news agency",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical name preserved; the uncertain Robert Ullman identity is not included in default employer analytics."
+    },
+    {
+      "key": "office-naval-intelligence-b973",
+      "organization_id": "f45dd890-7883-5272-9f32-4eb34218760f",
+      "canonical_name": "Office of Naval Intelligence",
+      "historical_name": "U.S. Naval Intelligence",
+      "aliases": [
+        "United States Naval Intelligence",
+        "ONI"
+      ],
+      "organization_type": "United States Navy intelligence organization",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The Princeton memorial's wording is preserved; normalization to ONI reflects the historical U.S. Navy organization."
+    },
+    {
+      "key": "benton-bowles-b973",
+      "organization_id": "fd1f6ea8-99fa-58a9-b81f-b9f9f2f47a08",
+      "canonical_name": "Benton & Bowles",
+      "historical_name": "Benton & Bowles",
+      "aliases": [
+        "Benton and Bowles"
+      ],
+      "organization_type": "advertising agency",
+      "sector": "advertising_and_public_relations",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1929-1985",
+      "normalization_notes": "Historical agency name retained without substituting a successor organization."
+    },
+    {
+      "key": "jacksonville-journal-b973",
+      "canonical_name": "Jacksonville Journal",
+      "historical_name": "Jacksonville Journal",
+      "aliases": [
+        "The Jacksonville Journal"
+      ],
+      "organization_type": "newspaper",
+      "sector": "journalism_and_media",
+      "city": "Jacksonville",
+      "state_or_region": "Florida",
+      "country": "United States",
+      "active_dates": "1887-1988",
+      "normalization_notes": "Earlier documented newspaper employment, separate from Benton & Bowles and wartime service."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "robert-m-tyson-occupation-b973",
+      "person_id": "ee68d2b2-2b29-57ae-b381-2afa4762953f",
+      "occupation": "manager or official, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1945-02-17",
+      "date_precision": "Historical civilian-occupation code 097 was recorded at Army entry on 1945-02-17; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-d-tyus-occupation-b973",
+      "person_id": "bb632a58-a6c6-517a-8fa5-84e250185644",
+      "occupation": "barber, beautician or manicurist",
+      "relationship_type": "unknown",
+      "end_date": "1943-06-14",
+      "date_precision": "Historical civilian-occupation code 232 was recorded at Army entry on 1943-06-14; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "basil-tzitzis-occupation-b973",
+      "person_id": "e4a178e3-5b78-53a9-b5d6-384661eec6e5",
+      "occupation": "construction or maintenance painter",
+      "relationship_type": "unknown",
+      "end_date": "1943-04-22",
+      "date_precision": "Historical civilian-occupation code 527 was recorded at Army entry on 1943-04-22; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-n-uccellini-occupation-b973",
+      "person_id": "e57fb641-762d-5337-973a-e483baec31dd",
+      "occupation": "machinist",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-25",
+      "date_precision": "Historical civilian-occupation code 475 was recorded at Army entry on 1942-11-25; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "john-d-ukrop-occupation-b973",
+      "person_id": "48260e6b-f244-57b6-be8f-5c2d8ee2c74d",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-11-02",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-11-02; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation or student status only. The historical category is not a named employer and is excluded from verified-employer analytics."
+    },
+    {
+      "key": "bruno-uberti-army-medical-corps-b973",
+      "person_id": "085ff861-6de1-5f7e-817e-8b7f0edf1734",
+      "organization_key": "us-army-medical-corps-b973",
+      "organization_name_as_found": "U.S. Army Medical Corps",
+      "role_title": "medical officer",
+      "occupation": "physician",
+      "relationship_type": "military_assignment",
+      "end_date": "1942",
+      "date_precision": "By 1942 he was a Medical Corps officer stationed in Washington; Max Corvo then recruited him for OSS Italian Secret Intelligence",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Explicit military pathway into OSS, not a civilian employer. No pre-Army medical employer is inferred from education or profession."
+    },
+    {
+      "key": "robert-ulich-harvard-gse-b973",
+      "person_id": "51db351b-7ebb-5bb8-baef-1dbcf923876c",
+      "organization_key": "harvard-graduate-school-education-b973",
+      "organization_name_as_found": "Harvard Graduate School of Education",
+      "role_title": "Professor of the History and Philosophy of Education",
+      "occupation": "professor",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1960",
+      "date_precision": "Harvard documents continuous teaching from 1935 to 1960; a separate 1943 defense-group file names Robert Ulich beside OSS special-request material",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Harvard employment spans the 1943 OSS-request context. The sources do not establish whether he took leave or served concurrently."
+    },
+    {
+      "key": "edward-l-ullman-university-chicago-student-b973",
+      "person_id": "674731e3-d0e1-5de5-bf5d-a53ed586b806",
+      "organization_key": "university-chicago-b973",
+      "organization_name_as_found": "Chicago",
+      "role_title": "doctoral student in geography",
+      "occupation": "geographer",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "An institutional oral history places him completing his geography doctorate in Chicago in 1942; scholarly research places him in OSS R&A during the war",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not employment. The exact OSS accession date and any intervening role require Box 793 review."
+    },
+    {
+      "key": "paul-ullman-stockbroker-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "occupation": "stockbroker",
+      "relationship_type": "unknown",
+      "end_date": "1943",
+      "date_precision": "A memorial biography says he was working as a stockbroker when recruited by OSS; neither firm nor exact date is supplied",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation-only evidence from a secondary memorial page; no brokerage or self-employment status is invented."
+    },
+    {
+      "key": "paul-ullman-american-field-service-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "organization_key": "american-field-service-b973",
+      "organization_name_as_found": "American Field Service's ambulance corps",
+      "role_title": "ambulance corps volunteer",
+      "relationship_type": "volunteer",
+      "end_date": "1944",
+      "date_precision": "The New School finding aid says he volunteered to return to France with AFS and engaged in confidential OSS work; exact sequence is not supplied",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Volunteer service is kept separate from both stockbroker occupation and OSS work."
+    },
+    {
+      "key": "paul-ullman-painter-illustrator-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "occupation": "painter and illustrator",
+      "relationship_type": "unknown",
+      "end_date": "1940",
+      "date_precision": "The New School finding aid describes his prewar artistic career and return from France in 1940; no employing organization is named",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier documented occupation. The source does not establish employment or self-employment status, and no gallery or employer is inferred."
+    },
+    {
+      "key": "robert-ullman-pathe-b973",
+      "person_id": "35fcd984-3c1b-5d81-9860-e78ae844988d",
+      "organization_key": "pathe-news-b973",
+      "organization_name_as_found": "Pathé",
+      "occupation": "news-agency employee",
+      "relationship_type": "employment",
+      "date_precision": "A secondary historical article places a Robert Ullman at Pathé while assisting Donald Downes; the official CIA oral history corroborates the Downes-Ullman OSS context but not the employer",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified identity candidate only. Box 793 must establish that the indexed Robert Ullman is this Pathé employee."
+    },
+    {
+      "key": "alfred-c-ulmer-naval-intelligence-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "organization_key": "office-naval-intelligence-b973",
+      "organization_name_as_found": "US Naval Intelligence",
+      "role_title": "naval intelligence officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1945",
+      "date_precision": "Princeton places Naval Intelligence service in North Africa and Italy before OSS Vienna; the reference biography says he was detached to OSS from Naval Intelligence",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Military assignment immediately preceding OSS, not civilian employment."
+    },
+    {
+      "key": "alfred-c-ulmer-benton-bowles-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "organization_key": "benton-bowles-b973",
+      "organization_name_as_found": "Benton & Bowles",
+      "role_title": "public-relations staff member",
+      "occupation": "advertising and public-relations executive",
+      "relationship_type": "employment",
+      "end_date": "1941",
+      "date_precision": "The reference biography places the role after Princeton in 1939 and before U.S. Naval Reserve service after American entry into the war",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Best-supported last civilian employer before Navy and OSS; qualified because one accessible reference biography supplies the employer sequence."
+    },
+    {
+      "key": "alfred-c-ulmer-jacksonville-journal-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "organization_key": "jacksonville-journal-b973",
+      "organization_name_as_found": "Jacksonville Journal",
+      "role_title": "newspaper reporter",
+      "occupation": "reporter",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1937",
+      "date_precision": "The reference biography gives 1935-1937, before Princeton graduation and later Benton & Bowles employment",
+      "city": "Jacksonville",
+      "state_or_region": "Florida",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier documented civilian employment, kept separate from Benton & Bowles and Naval Intelligence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-robert-m-tyson-b973",
+      "person_id": "ee68d2b2-2b29-57ae-b381-2afa4762953f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert M Tyson is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1945-02-17; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "army-bulk-b973"
+        },
+        {
+          "source_key": "army-tech-b973"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-d-tyus-b973",
+      "person_id": "bb632a58-a6c6-517a-8fa5-84e250185644",
+      "claim_type": "identity",
+      "claim_text": "Indexed John D Tyus is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1943-06-14; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "army-bulk-b973"
+        },
+        {
+          "source_key": "army-tech-b973"
+        }
+      ]
+    },
+    {
+      "key": "identity-basil-tzitzis-b973",
+      "person_id": "e4a178e3-5b78-53a9-b5d6-384661eec6e5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Basil Tzitzis is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1943-04-22; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "army-bulk-b973"
+        },
+        {
+          "source_key": "army-tech-b973"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-n-uccellini-b973",
+      "person_id": "e57fb641-762d-5337-973a-e483baec31dd",
+      "claim_type": "identity",
+      "claim_text": "Indexed John N Uccellini is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and nonshared protected identifier agree with the reviewed official Army row; the VA memorial independently confirms a World War II Army sergeant of that exact name.",
+      "identity_match_assessment": "The exact indexed full name and nonshared protected identifier agree with the reviewed official Army row; the VA memorial independently confirms a World War II Army sergeant of that exact name.",
+      "temporal_assessment": "The Army evidence is dated 1942-11-25; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "army-bulk-b973"
+        },
+        {
+          "source_key": "army-tech-b973"
+        },
+        {
+          "source_key": "va-john-uccellini-b973",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-j-uchno-b973",
+      "person_id": "cd11446a-8c89-5d7a-9df0-1aab4f038ea3",
+      "claim_type": "identity",
+      "claim_text": "Indexed Edward J Uchno is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1943-04-16; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "army-bulk-b973"
+        },
+        {
+          "source_key": "army-tech-b973"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-d-ukrop-b973",
+      "person_id": "48260e6b-f244-57b6-be8f-5c2d8ee2c74d",
+      "claim_type": "identity",
+      "claim_text": "Indexed John D Ukrop is high-confidence matched to reviewed official Army evidence.",
+      "evidence_paraphrase": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "The Army evidence is dated 1942-11-02; it supports identity and military-entry chronology but not the exact OSS transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "army-bulk-b973"
+        },
+        {
+          "source_key": "army-tech-b973"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-m-tyson-b973",
+      "person_id": "ee68d2b2-2b29-57ae-b381-2afa4762953f",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-02-17, Robert M Tyson's historical civilian-occupation category was managers and officials, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 097; NARA's code list defines it as Managers and officials, not elsewhere classified.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b973",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b973",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b973",
+          "locator_override": "Historical category 0-97; managers and officials, not elsewhere classified"
+        }
+      ],
+      "affiliation_key": "robert-m-tyson-occupation-b973"
+    },
+    {
+      "key": "occupation-john-d-tyus-b973",
+      "person_id": "bb632a58-a6c6-517a-8fa5-84e250185644",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-14, John D Tyus's historical civilian-occupation category was barbers, beauticians, and manicurists.",
+      "evidence_paraphrase": "The official Army field carries historical code 232; NARA's code list defines it as Barbers, beauticians, and manicurists.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b973",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b973",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b973",
+          "locator_override": "Historical category 2-32; barbers, beauticians, and manicurists"
+        }
+      ],
+      "affiliation_key": "john-d-tyus-occupation-b973"
+    },
+    {
+      "key": "occupation-basil-tzitzis-b973",
+      "person_id": "e4a178e3-5b78-53a9-b5d6-384661eec6e5",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-22, Basil Tzitzis's historical civilian-occupation category was painters, construction and maintenance.",
+      "evidence_paraphrase": "The official Army field carries historical code 527; NARA's code list defines it as Painters, construction and maintenance.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b973",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b973",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b973",
+          "locator_override": "Historical category 5-27; painters, construction and maintenance"
+        }
+      ],
+      "affiliation_key": "basil-tzitzis-occupation-b973"
+    },
+    {
+      "key": "occupation-john-n-uccellini-b973",
+      "person_id": "e57fb641-762d-5337-973a-e483baec31dd",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-25, John N Uccellini's historical civilian-occupation category was machinists.",
+      "evidence_paraphrase": "The official Army field carries historical code 475; NARA's code list defines it as Machinists.",
+      "identity_match_assessment": "The exact indexed full name and nonshared protected identifier agree with the reviewed official Army row; the VA memorial independently confirms a World War II Army sergeant of that exact name.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b973",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b973",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b973",
+          "locator_override": "Historical category 4-75; machinists"
+        }
+      ],
+      "affiliation_key": "john-n-uccellini-occupation-b973"
+    },
+    {
+      "key": "occupation-john-d-ukrop-b973",
+      "person_id": "48260e6b-f244-57b6-be8f-5c2d8ee2c74d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-02, John D Ukrop's historical civilian-occupation category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b973",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b973",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b973",
+          "locator_override": "Corrected Code No. 30, PDF physical page 304; 9-92 Students"
+        }
+      ],
+      "affiliation_key": "john-d-ukrop-occupation-b973"
+    },
+    {
+      "key": "identity-bruno-uberti-b973",
+      "person_id": "085ff861-6de1-5f7e-817e-8b7f0edf1734",
+      "claim_type": "identity",
+      "claim_text": "Indexed Bruno Uberti is high-confidence matched to Captain Bruno Uberti, the Italian-born physician recruited into OSS Italian Secret Intelligence.",
+      "evidence_paraphrase": "The rare exact name, NPS Area B context and scholarly Army Medical Corps-to-OSS chronology identify one person.",
+      "identity_match_assessment": "High confidence from the rare exact name plus independent official and archive-based scholarly OSS contexts.",
+      "temporal_assessment": "The sources place him in the Army Medical Corps by 1942 and then in OSS Italian SI.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No education, refugee history or physician title is converted into an unnamed civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "nps-bruno-uberti-b973"
+        },
+        {
+          "source_key": "clemente-bruno-uberti-b973"
+        }
+      ]
+    },
+    {
+      "key": "immediate-bruno-uberti-army-medical-corps-b973",
+      "person_id": "085ff861-6de1-5f7e-817e-8b7f0edf1734",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Bruno Uberti's best-supported immediate affiliation before OSS was the U.S. Army Medical Corps in Washington.",
+      "evidence_paraphrase": "Clemente states that Uberti was a Medical Corps officer in Washington by 1942 and that Max Corvo recruited him into OSS.",
+      "identity_match_assessment": "High-confidence rare-name identity with official NPS corroboration.",
+      "temporal_assessment": "Explicitly immediate military pathway; exact recruitment day is not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment; no pre-Army employer has been identified.",
+      "sources": [
+        {
+          "source_key": "clemente-bruno-uberti-b973",
+          "excerpt_override": "By 1942, Uberti was an officer in the U.S. Army Medical Corps stationed in Washington."
+        },
+        {
+          "source_key": "nps-bruno-uberti-b973",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "bruno-uberti-army-medical-corps-b973",
+      "evidence_excerpt": "Max Corvo, who was then organizing Italian SI, recruited him into OSS."
+    },
+    {
+      "key": "identity-robert-ulich-b973",
+      "person_id": "51db351b-7ebb-5bb8-baef-1dbcf923876c",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert Ulich is high-confidence matched to the Harvard education professor named in a 1943 American Defense, Harvard Group file beside OSS special-request material.",
+      "evidence_paraphrase": "Harvard's finding aids supply the rare exact name, continuous professorship and a 1943 OSS-request collection context.",
+      "identity_match_assessment": "High confidence from rare exact name, matching 1943 OSS context and Harvard institutional chronology.",
+      "temporal_assessment": "Harvard employment ran continuously across 1943; exact OSS accession or leave status is not documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 793 should confirm the precise nature of Ulich's OSS relationship, but the employer chronology is strongly supported.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "harvard-robert-ulich-papers-b973"
+        },
+        {
+          "source_key": "harvard-defense-robert-ulich-b973"
+        }
+      ]
+    },
+    {
+      "key": "immediate-robert-ulich-harvard-b973",
+      "person_id": "51db351b-7ebb-5bb8-baef-1dbcf923876c",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Robert Ulich's best-supported immediate civilian affiliation before or at OSS entry was the Harvard Graduate School of Education.",
+      "evidence_paraphrase": "Harvard states that Ulich taught there from 1935 to 1960; a separate 1943 defense-group file places him in OSS special-request context.",
+      "identity_match_assessment": "High-confidence rare-name institutional match.",
+      "temporal_assessment": "Strongly date-bounded across the 1943 OSS context; leave versus concurrent service remains unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The same documented affiliation is the best-supported last civilian employer before wartime OSS work.",
+      "sources": [
+        {
+          "source_key": "harvard-robert-ulich-papers-b973",
+          "excerpt_override": "taught at the Harvard Graduate School of Education from 1935 to 1960"
+        },
+        {
+          "source_key": "harvard-defense-robert-ulich-b973"
+        }
+      ],
+      "affiliation_key": "robert-ulich-harvard-gse-b973",
+      "evidence_excerpt": "taught at the Harvard Graduate School of Education from 1935 to 1960"
+    },
+    {
+      "key": "last-civilian-robert-ulich-harvard-b973",
+      "person_id": "51db351b-7ebb-5bb8-baef-1dbcf923876c",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Harvard Graduate School of Education is Robert Ulich's last documented civilian employer before the indexed OSS context.",
+      "evidence_paraphrase": "Harvard's institutional chronology documents uninterrupted employment spanning the 1943 OSS-request file.",
+      "identity_match_assessment": "High-confidence rare-name match across two Harvard finding aids and the NARA index.",
+      "temporal_assessment": "Strongly date-bounded; no intervening employer is documented, though concurrent service remains possible.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Employer and role are supported; the exact OSS duty status still requires file review.",
+      "sources": [
+        {
+          "source_key": "harvard-robert-ulich-papers-b973"
+        },
+        {
+          "source_key": "harvard-defense-robert-ulich-b973"
+        }
+      ],
+      "affiliation_key": "robert-ulich-harvard-gse-b973"
+    },
+    {
+      "key": "identity-edward-l-ullman-b973",
+      "person_id": "674731e3-d0e1-5de5-bf5d-a53ed586b806",
+      "claim_type": "identity",
+      "claim_text": "Indexed Edward L Ullman is high-confidence matched to geographer Edward Louis Ullman of OSS Research and Analysis.",
+      "evidence_paraphrase": "The exact name and middle initial align with a scholarly OSS geography history and a 1942 institutional oral-history chronology.",
+      "identity_match_assessment": "High confidence from exact middle initial, distinctive profession and direct OSS R&A evidence.",
+      "temporal_assessment": "The sources place doctoral completion and OSS geography work in 1942 and the wartime period.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No postwar university employer is projected backward into the pre-OSS period.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "barnes-edward-ullman-b973"
+        },
+        {
+          "source_key": "berkeley-edward-ullman-b973"
+        }
+      ]
+    },
+    {
+      "key": "immediate-edward-l-ullman-chicago-b973",
+      "person_id": "674731e3-d0e1-5de5-bf5d-a53ed586b806",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Edward L. Ullman's best-supported immediate pre-OSS status was geography doctoral student at the University of Chicago.",
+      "evidence_paraphrase": "A Berkeley oral history places him completing his doctorate in Chicago in 1942; Barnes documents his OSS R&A geographic-intelligence work.",
+      "identity_match_assessment": "High-confidence exact-name, middle-initial and professional match.",
+      "temporal_assessment": "Probably immediate in 1942, but no source explicitly states that he left the university directly for OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not an employer and is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "berkeley-edward-ullman-b973",
+          "excerpt_override": "Edward Ullman, who had been my friend at Pullman and who was completing his doctorate there in geography."
+        },
+        {
+          "source_key": "barnes-edward-ullman-b973"
+        }
+      ],
+      "affiliation_key": "edward-l-ullman-university-chicago-student-b973"
+    },
+    {
+      "key": "identity-paul-eugene-ullman-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "claim_type": "identity",
+      "claim_text": "Indexed Paul Ullman is high-confidence matched to Paul Eugene Ullman, the artist and American Field Service volunteer who performed confidential OSS work.",
+      "evidence_paraphrase": "The New School's family papers identify Paul Ullman, his artistic career, AFS volunteering, OSS work and 1944 death in France.",
+      "identity_match_assessment": "High confidence from exact name, rare life chronology, institutional family papers and explicit OSS service.",
+      "temporal_assessment": "The chronology is wartime and ends with his 1944 mission and death.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Name variants and occupational claims remain tied to the institutional chronology; disputed details are not promoted.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "newschool-paul-ullman-b973"
+        },
+        {
+          "source_key": "us-war-memorials-paul-ullman-b973",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "immediate-paul-ullman-stockbroker-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Paul Ullman's reported occupation at OSS recruitment was stockbroker; no brokerage has yet been identified.",
+      "evidence_paraphrase": "U.S. War Memorials says he was working as a stockbroker when recruited by OSS.",
+      "identity_match_assessment": "High-confidence identity from the New School finding aid; employment detail comes from a secondary memorial page.",
+      "temporal_assessment": "Explicitly immediate in the secondary account, but no date or firm is supplied.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation-only finding; neither an employer nor self-employment is invented.",
+      "sources": [
+        {
+          "source_key": "us-war-memorials-paul-ullman-b973",
+          "excerpt_override": "He was working as a stockbroker when he was recruited by the OSS."
+        },
+        {
+          "source_key": "newschool-paul-ullman-b973",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "paul-ullman-stockbroker-b973",
+      "evidence_excerpt": "He was working as a stockbroker when he was recruited by the OSS."
+    },
+    {
+      "key": "other-paul-ullman-afs-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Paul Ullman volunteered with the American Field Service ambulance corps before or alongside his confidential OSS work.",
+      "evidence_paraphrase": "The New School finding aid documents the AFS relationship and OSS work but does not state their exact sequence.",
+      "identity_match_assessment": "High-confidence identity from institutional family papers and explicit OSS chronology.",
+      "temporal_assessment": "Wartime relationship with uncertain sequence; not labeled immediate and not counted as employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Volunteer relationship kept distinct from his reported stockbroker occupation.",
+      "sources": [
+        {
+          "source_key": "newschool-paul-ullman-b973",
+          "excerpt_override": "volunteered to return to France with the American Field Service's ambulance corps"
+        }
+      ],
+      "affiliation_key": "paul-ullman-american-field-service-b973"
+    },
+    {
+      "key": "earlier-paul-ullman-artist-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Paul Ullman worked as a painter and illustrator before wartime service.",
+      "evidence_paraphrase": "The New School finding aid describes his long prewar artistic career in Europe and return to the United States in 1940.",
+      "identity_match_assessment": "High-confidence identity from institutional family papers.",
+      "temporal_assessment": "Documented prewar occupation, not shown to be the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employing organization is named; recorded separately from AFS and stockbroker evidence.",
+      "sources": [
+        {
+          "source_key": "newschool-paul-ullman-b973",
+          "excerpt_override": "Paul, an artist and illustrator who had spent much of his life in Europe"
+        }
+      ],
+      "affiliation_key": "paul-ullman-painter-illustrator-b973"
+    },
+    {
+      "key": "identity-robert-ullman-pathe-candidate-b973",
+      "person_id": "35fcd984-3c1b-5d81-9860-e78ae844988d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert Ullman is probably the Pathé News employee who assisted OSS recruiter Donald Downes, but Box 793 must confirm the match.",
+      "evidence_paraphrase": "A CIA oral history places Robert Ullman with Downes in early OSS context; a secondary history supplies the Pathé employment detail.",
+      "identity_match_assessment": "Probable only: the indexed record has no middle initial or public identifier, and the official source does not name the employer.",
+      "temporal_assessment": "The sources describe wartime activity but do not establish whether Pathé preceded or overlapped OSS service.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The candidate remains excluded from default analytics and requires personnel-file confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "cia-pforzheimer-robert-ullman-b973"
+        },
+        {
+          "source_key": "taylor-robert-ullman-b973"
+        }
+      ]
+    },
+    {
+      "key": "other-robert-ullman-pathe-b973",
+      "person_id": "35fcd984-3c1b-5d81-9860-e78ae844988d",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable Robert Ullman identity worked for Pathé News in Manhattan while assisting Donald Downes with OSS-related work.",
+      "evidence_paraphrase": "Taylor names Pathé and describes the office and recruiting work; the CIA oral history independently links Robert Ullman and Downes.",
+      "identity_match_assessment": "Probable identity only; Box 793 is needed because the index supplies no middle initial or public service identifier.",
+      "temporal_assessment": "Temporal relationship to formal OSS entry is uncertain, so the employer is not labeled immediate or last civilian.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Visible qualification and exclusion from default employer analytics are required until archival confirmation.",
+      "sources": [
+        {
+          "source_key": "taylor-robert-ullman-b973",
+          "excerpt_override": "a Yale friend named Robert Ullman, who worked for the news agency Pathé in Manhattan"
+        },
+        {
+          "source_key": "cia-pforzheimer-robert-ullman-b973",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "robert-ullman-pathe-b973"
+    },
+    {
+      "key": "identity-alfred-conrad-ulmer-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Alfred C Ulmer is high-confidence matched to Alfred Conrad Ulmer Jr., Princeton '39, U.S. Naval Intelligence and OSS officer.",
+      "evidence_paraphrase": "The exact name and middle initial align with a Princeton institutional memorial and a detailed reference biography sharing Navy-to-OSS chronology.",
+      "identity_match_assessment": "High confidence from exact middle initial and distinctive Naval Intelligence, Italy and OSS Vienna chronology.",
+      "temporal_assessment": "The sources place civilian employment before Navy service and Navy intelligence immediately before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No relationship to indexed Doris B Ulmer is used as identity evidence for either record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b973"
+        },
+        {
+          "source_key": "princeton-alfred-ulmer-b973"
+        },
+        {
+          "source_key": "cia-encyclopedia-alfred-ulmer-b973"
+        }
+      ]
+    },
+    {
+      "key": "immediate-alfred-ulmer-naval-intelligence-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Alfred C. Ulmer's best-supported immediate affiliation before OSS was U.S. Naval Intelligence.",
+      "evidence_paraphrase": "Princeton places Naval Intelligence service in North Africa and Italy before OSS Vienna; the reference biography says he was detached to OSS from Naval Intelligence.",
+      "identity_match_assessment": "High-confidence exact-name and distinctive service-chronology match.",
+      "temporal_assessment": "Explicit military pathway into OSS; exact detachment date is not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "princeton-alfred-ulmer-b973",
+          "excerpt_override": "served overseas with US Naval Intelligence in North Africa and Italy, staying on in occupied Vienna with the OSS"
+        },
+        {
+          "source_key": "cia-encyclopedia-alfred-ulmer-b973"
+        }
+      ],
+      "affiliation_key": "alfred-c-ulmer-naval-intelligence-b973",
+      "evidence_excerpt": "served overseas with US Naval Intelligence in North Africa and Italy, staying on in occupied Vienna with the OSS"
+    },
+    {
+      "key": "last-civilian-alfred-ulmer-benton-bowles-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Benton & Bowles is Alfred C. Ulmer's last documented civilian employer before U.S. Naval Reserve and OSS service.",
+      "evidence_paraphrase": "The reference biography places him on the agency's public-relations staff after Princeton and before joining the Naval Reserve.",
+      "identity_match_assessment": "High-confidence identity from Princeton and the reference biography's matching full name and service chronology.",
+      "temporal_assessment": "Strongly date-bounded before wartime military service; exact employment dates are not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified because the accessible employer sequence rests on one reputable reference biography.",
+      "sources": [
+        {
+          "source_key": "cia-encyclopedia-alfred-ulmer-b973",
+          "excerpt_override": "Following Princeton, he served on the public relations staff of Benton & Bowles"
+        },
+        {
+          "source_key": "princeton-alfred-ulmer-b973",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "alfred-c-ulmer-benton-bowles-b973"
+    },
+    {
+      "key": "earlier-alfred-ulmer-jacksonville-journal-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Alfred C. Ulmer worked as a Jacksonville Journal reporter from 1935 to 1937.",
+      "evidence_paraphrase": "The reference biography gives the newspaper, role and dates before his 1939 Princeton graduation.",
+      "identity_match_assessment": "High-confidence identity from the matching full name and distinctive Navy-to-OSS chronology.",
+      "temporal_assessment": "Documented earlier prewar employment, not the last civilian role before service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Kept separate from Benton & Bowles and wartime Naval Intelligence.",
+      "sources": [
+        {
+          "source_key": "cia-encyclopedia-alfred-ulmer-b973",
+          "excerpt_override": "worked as a newspaper reporter for the Jacksonville (Florida) Journal from 1935 until 1937"
+        }
+      ],
+      "affiliation_key": "alfred-c-ulmer-jacksonville-journal-b973"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "609741dd-dcbd-52f6-a07c-7e787ea110ff",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis D Udvari, Box 793 and archive location 230/86/42/04. Searches found postwar people-directory results and other Louis Udvari namesakes, but no source bridged one to Box 793 or a dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Searches found postwar people-directory results and other Louis Udvari namesakes, but no source bridged one to Box 793 or a dated pre-OSS affiliation."
+    },
+    {
+      "person_id": "3fcd03ff-e331-5ef4-9204-1398a6af1584",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles Uehara, Box 793 and archive location 230/86/42/04. Exact-name, OSS, employment, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employment, obituary, institutional, newspaper and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "29f4b909-e41b-526c-8445-a39db466fad9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Philip P Ugiss, Box 793 and archive location 230/86/42/04. The printed officer-style identifier was preserved privately, but accessible sources did not connect Philip P Ugiss to an occupation, employer or OSS assignment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The printed officer-style identifier was preserved privately, but accessible sources did not connect Philip P Ugiss to an occupation, employer or OSS assignment."
+    },
+    {
+      "person_id": "50a6b801-5bcc-502f-9446-b52a9d70b963",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph E Uher, Box 793 and archive location 230/86/42/04. The common name produced unrelated records and no source with two corroborating identifiers beyond the name.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The common name produced unrelated records and no source with two corroborating identifiers beyond the name."
+    },
+    {
+      "person_id": "c89e5ba9-8b2e-5002-aecf-0f932f13f8da",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Katherine L Uhler, Box 793 and archive location 230/86/42/04. Exact-name and middle-initial searches produced unrelated modern and historical namesakes without an OSS or Box 793 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and middle-initial searches produced unrelated modern and historical namesakes without an OSS or Box 793 bridge."
+    },
+    {
+      "person_id": "740604f3-1388-57f3-803f-96cf7120b0c5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Lottie Uhlfelder, Box 793 and archive location 230/86/42/04. Exact-name, spelling-variant, obituary, institutional and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, spelling-variant, obituary, institutional and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "f82fa3bc-3391-50ca-ba0e-c1c52b1e73f0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John Ulivelli, Box 793 and archive location 230/86/42/04. A John Ulivelli born in 1920 is only an unsourced genealogical lead; the official Army file had no exact protected-identifier match and no employer evidence was found.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A John Ulivelli born in 1920 is only an unsourced genealogical lead; the official Army file had no exact protected-identifier match and no employer evidence was found."
+    },
+    {
+      "person_id": "c869743e-850c-5045-bbef-5ca46c834aa8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Maurice S Ullman, Box 793 and archive location 230/86/42/04. Exact-name, middle-initial, OSS, occupation, obituary and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, middle-initial, OSS, occupation, obituary and archival searches produced no defensible identity bridge."
+    },
+    {
+      "person_id": "9ccd8f48-5c5e-5ca1-95d2-477a6e5e473a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elinor Ulman, Box 793 and archive location 230/86/42/04. An art-therapy namesake was rejected because no source connected her to OSS, Box 793 or the indexed spelling Elinor Ulman.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An art-therapy namesake was rejected because no source connected her to OSS, Box 793 or the indexed spelling Elinor Ulman."
+    },
+    {
+      "person_id": "db799a3d-911d-5efb-885b-e26e9597189a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis M Ulmann, Box 793 and archive location 230/86/42/04. A Louisiana Louis M. Ulmann Jr. born in 1926 and other namesakes were rejected because none had an OSS, Box 793 or wartime identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A Louisiana Louis M. Ulmann Jr. born in 1926 and other namesakes were rejected because none had an OSS, Box 793 or wartime identity bridge."
+    },
+    {
+      "person_id": "f9fdff5e-bd5e-5a02-81c7-b5da3fb2f350",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Doris B Ulmer, Box 793 and archive location 230/86/42/04. Alfred Ulmer's wife Doris Gibson Bridges was not adopted as the indexed Doris B Ulmer because a spousal relationship is not independent OSS identity evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Alfred Ulmer's wife Doris Gibson Bridges was not adopted as the indexed Doris B Ulmer because a spousal relationship is not independent OSS identity evidence."
+    },
+    {
+      "person_id": "ee68d2b2-2b29-57ae-b381-2afa4762953f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 792 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "bb632a58-a6c6-517a-8fa5-84e250185644",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 792 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "e4a178e3-5b78-53a9-b5d6-384661eec6e5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 792 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "e57fb641-762d-5337-973a-e483baec31dd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and nonshared protected identifier agree with the reviewed official Army row; the VA memorial independently confirms a World War II Army sergeant of that exact name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 793 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "cd11446a-8c89-5d7a-9df0-1aab4f038ea3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 to establish Edward J Uchno's pre-OSS occupation and employer; the official Army identity match carries undefined category 999, which is not interpreted."
+    },
+    {
+      "person_id": "48260e6b-f244-57b6-be8f-5c2d8ee2c74d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed full name and a nonshared protected identifier agree with the reviewed official Army row.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 793 to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "085ff861-6de1-5f7e-817e-8b7f0edf1734",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name appears in an official NPS OSS history and an archive-based scholarly study that explicitly sequences U.S. Army Medical Corps service before Max Corvo's OSS recruitment.",
+      "name_variants": [
+        "Dr. Bruno Uberti",
+        "Captain Bruno Uberti",
+        "Capt. Bruno Uberti, MC"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 793 to confirm the exact Army-to-OSS transfer date and identify any civilian medical employer before Army service."
+    },
+    {
+      "person_id": "51db351b-7ebb-5bb8-baef-1dbcf923876c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Harvard's finding aids supply the rare exact name, continuous 1935-1960 professorship and a 1943 American Defense, Harvard Group file entry beside OSS special-request material.",
+      "name_variants": [
+        "Robert Ulich, 1890-1977"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 793 to establish Ulich's precise OSS duty, accession or leave status; Harvard remains the verified best-supported civilian employer."
+    },
+    {
+      "person_id": "674731e3-d0e1-5de5-bf5d-a53ed586b806",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact middle initial and distinctive geography profession align with a scholarly history of Edward Ullman's OSS R&A work and an institutional oral history placing doctoral completion in Chicago in 1942.",
+      "name_variants": [
+        "Edward Louis Ullman",
+        "Edward L. Ullman"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 793 to confirm the exact OSS accession date, any intervening affiliation and whether University of Chicago student status immediately preceded service."
+    },
+    {
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The New School's institutional family papers identify Paul Ullman, his artistic career, American Field Service volunteering, confidential OSS work and 1944 death in France.",
+      "name_variants": [
+        "Paul Eugene Ullman",
+        "Paul Ullman, 1906-1944"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 793 to identify the brokerage behind the reported stockbroker occupation and establish the exact AFS-to-OSS sequence."
+    },
+    {
+      "person_id": "35fcd984-3c1b-5d81-9860-e78ae844988d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "probable",
+      "identity_evidence": "A CIA oral history links Robert Ullman to Donald Downes in early OSS context; a secondary historical article identifies Downes's Yale friend Robert Ullman as a Pathé employee. The index has no middle initial or public identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 793 to confirm or reject the Pathé News identity candidate and determine whether that employment preceded or overlapped formal OSS service."
+    },
+    {
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact middle initial and distinctive Princeton, U.S. Naval Intelligence, North Africa, Italy and OSS Vienna chronology agree across institutional and scholarly reference sources.",
+      "name_variants": [
+        "Alfred Conrad Ulmer Jr.",
+        "Alfred C. Ulmer Jr.",
+        "Al Ulmer"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 793 to confirm the exact Naval Intelligence-to-OSS detachment date and seek primary employment documentation for Benton & Bowles and the Jacksonville Journal."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page477-row1-robert-m-tyson-b973",
+      "person_id": "ee68d2b2-2b29-57ae-b381-2afa4762953f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert M Tyson; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row2-john-d-tyus-b973",
+      "person_id": "bb632a58-a6c6-517a-8fa5-84e250185644",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John D Tyus; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row3-basil-tzitzis-b973",
+      "person_id": "e4a178e3-5b78-53a9-b5d6-384661eec6e5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Basil Tzitzis; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 792; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 792 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row4-bruno-uberti-b973",
+      "person_id": "085ff861-6de1-5f7e-817e-8b7f0edf1734",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bruno Uberti; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row5-john-n-uccellini-b973",
+      "person_id": "e57fb641-762d-5337-973a-e483baec31dd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John N Uccellini; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row6-edward-j-uchno-b973",
+      "person_id": "cd11446a-8c89-5d7a-9df0-1aab4f038ea3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward J Uchno; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row7-louis-d-udvari-b973",
+      "person_id": "609741dd-dcbd-52f6-a07c-7e787ea110ff",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis D Udvari; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Searches found postwar people-directory results and other Louis Udvari namesakes, but no source bridged one to Box 793 or a dated pre-OSS affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row8-charles-uehara-b973",
+      "person_id": "3fcd03ff-e331-5ef4-9204-1398a6af1584",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles Uehara; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name, OSS, employment, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row9-philip-p-ugiss-b973",
+      "person_id": "29f4b909-e41b-526c-8445-a39db466fad9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip P Ugiss; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The printed officer-style identifier was preserved privately, but accessible sources did not connect Philip P Ugiss to an occupation, employer or OSS assignment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row10-joseph-e-uher-b973",
+      "person_id": "50a6b801-5bcc-502f-9446-b52a9d70b963",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph E Uher; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "The common name produced unrelated records and no source with two corroborating identifiers beyond the name. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row11-katherine-l-uhler-b973",
+      "person_id": "c89e5ba9-8b2e-5002-aecf-0f932f13f8da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Katherine L Uhler; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name and middle-initial searches produced unrelated modern and historical namesakes without an OSS or Box 793 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row12-lottie-uhlfelder-b973",
+      "person_id": "740604f3-1388-57f3-803f-96cf7120b0c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lottie Uhlfelder; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name, spelling-variant, obituary, institutional and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row13-john-d-ukrop-b973",
+      "person_id": "48260e6b-f244-57b6-be8f-5c2d8ee2c74d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John D Ukrop; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row14-robert-ulich-b973",
+      "person_id": "51db351b-7ebb-5bb8-baef-1dbcf923876c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Ulich; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row15-john-ulivelli-b973",
+      "person_id": "f82fa3bc-3391-50ca-ba0e-c1c52b1e73f0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Ulivelli; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. A birth-and-death-only John Ulivelli genealogy lead was rejected as unbridged; the official Army protected identifier did not match.",
+      "research_notes": "A John Ulivelli born in 1920 is only an unsourced genealogical lead; the official Army file had no exact protected-identifier match and no employer evidence was found. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row16-edward-l-ullman-b973",
+      "person_id": "674731e3-d0e1-5de5-bf5d-a53ed586b806",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward L Ullman; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row17-maurice-s-ullman-b973",
+      "person_id": "c869743e-850c-5045-bbef-5ca46c834aa8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Maurice S Ullman; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Exact-name, middle-initial, OSS, occupation, obituary and archival searches produced no defensible identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row18-paul-ullman-b973",
+      "person_id": "5eda059a-79a4-53cf-88a7-af55d8361f31",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Ullman; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row19-robert-ullman-b973",
+      "person_id": "35fcd984-3c1b-5d81-9860-e78ae844988d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Ullman; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. The Pathé candidate remains probable because the index supplies no middle initial and the official CIA oral history does not state the employer.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row20-elinor-ulman-b973",
+      "person_id": "9ccd8f48-5c5e-5ca1-95d2-477a6e5e473a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elinor Ulman; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. An art-therapy namesake was rejected for lack of OSS and Box 793 evidence and because the indexed surname is Ulman.",
+      "research_notes": "An art-therapy namesake was rejected because no source connected her to OSS, Box 793 or the indexed spelling Elinor Ulman. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row21-louis-m-ulmann-b973",
+      "person_id": "db799a3d-911d-5efb-885b-e26e9597189a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis M Ulmann; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. A Louisiana namesake born in 1926 was rejected as unbridged and chronologically weak.",
+      "research_notes": "A Louisiana Louis M. Ulmann Jr. born in 1926 and other namesakes were rejected because none had an OSS, Box 793 or wartime identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row22-alfred-c-ulmer-b973",
+      "person_id": "f097cf61-b748-5a27-af34-8021a6b6e43d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred C Ulmer; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional, scholarly, contemporary or archival evidence produced the identity, occupation, military-pathway, employer or qualified-candidate outcome recorded in the evidence bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    },
+    {
+      "key": "page477-row23-doris-b-ulmer-b973",
+      "person_id": "f9fdff5e-bd5e-5a02-81c7-b5da3fb2f350",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Doris B Ulmer; NARA OSS index and official Archives context; CIA Reading Room exact-name check; exact-name and meaningful variants; OSS, Army, Navy, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 793; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_973",
+      "started_at": "2026-10-30T23:50:00Z",
+      "completed_at": "2026-10-31T01:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only employment leads and sources without an OSS, protected-identifier or personnel-file bridge were rejected. Historical occupation codes and military service were not silently converted into employers. Doris Gibson Bridges was not accepted merely because she was Alfred Ulmer's spouse.",
+      "research_notes": "Alfred Ulmer's wife Doris Gibson Bridges was not adopted as the indexed Doris B Ulmer because a spousal relationship is not independent OSS identity evidence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain, CIA Reading Room and Library of Congress searches were checked as applicable. The index page, Army bulk file, technical documentation and relevant occupation-code pages were inspected directly; code pages 171-174 and 304 were visually checked. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review Box 793 for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b973-v1"
+    }
+  ]
+}
