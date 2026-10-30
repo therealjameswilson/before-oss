@@ -101,7 +101,7 @@ Archive location: 230/86/42/02
 - Astro checked 591 files with zero diagnostics and generated 25,217 static
   pages.
 - All 27 Batch 960 browser checks passed across desktop, phone and tablet.
-- The bounded release suite passed all 66 browser and accessibility checks,
+- The bounded release suite passed all 96 browser and accessibility checks,
   including 30 axe scans with no serious or critical violations.
 - All internal links across 25,217 HTML files resolve; 51,978 unique external
   URLs were inventoried for the separate live check.

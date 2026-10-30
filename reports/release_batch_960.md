@@ -36,7 +36,7 @@ Date: 2026-10-29 America/New_York
 - Astro: 591 files checked with zero errors, warnings or hints; 25,217 static
   pages built.
 - Batch browser suite: 27/27 checks pass on desktop, phone and tablet.
-- Browser release suite: 66/66 checks pass across desktop, phone, tablet and
+- Browser release suite: 96/96 checks pass across desktop, phone, tablet and
   accessibility coverage, including 30 axe scans with no serious or critical
   violations.
 - Internal links: 25,217 HTML files checked; all links resolve. The checker
