@@ -119,5 +119,14 @@ Continue with PDF page 480, row 1, Elizabeth Van Kuyk.
 
 ## Publication verification
 
-Publication is pending the immutable content commit, GitHub Actions checks and
-unauthenticated deployed-release verification.
+- Public content commit:
+  `710cce6da677031da3b25c254b53f4f739cf69f8`.
+- GitHub Actions Test run `41037316460` completed successfully for that exact
+  commit.
+- GitHub Pages run `41037316418` completed successfully for that exact commit.
+- The unauthenticated deployed-release verifier matched 67 manifest assets
+  totaling 131,098,343 bytes, eight core routes, 43 source-register pages and
+  all 24 affected direct profile routes to the immutable commit.
+- Deployed manifest SHA-256:
+  `4cc98ed4f443633e4d4f0b3b2daabc23f88721d3166513181da948ec78d23b03`.
+- Public site: https://therealjameswilson.github.io/before-oss/
