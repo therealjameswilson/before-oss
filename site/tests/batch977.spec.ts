@@ -157,7 +157,7 @@ test("same-name William R Van Cleef rows stay separate and visibly grouped", asy
   expect(first.possible_duplicate_group).toBeTruthy();
   expect(first.possible_duplicate_group).toBe(second.possible_duplicate_group);
   expect(first.research_status).toBe("requires_archival_review");
-  expect(second.research_status).toBe("not_started");
+  expect(second.research_status).toBe("requires_archival_review");
 });
 
 test("unbridged prominent namesakes publish no affiliation", async ({ request }) => {

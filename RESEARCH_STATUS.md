@@ -1,5 +1,43 @@
 # Research status
 
+Batch 978 completed PDF page 479, rows 24-46, from the Box 797 **William R Van
+Cleef** through **Samuel Van Hyning**, preserving all 23 printed rows as
+separate people with saved terminal research outcomes.
+
+Reviewed evidence identifies Thomas Curtis Van Cleve at high confidence and
+documents Bowdoin College as his last civilian employer before wartime Army
+service, without claiming an explicit direct transfer into OSS. Ides van der
+Gracht's April 1943 345th Bombardment Squadron intelligence assignment is
+kept distinct from his last civilian architectural partnership and earlier
+Delano & Aldrich employment. Paul R Van DerStricht is confirmed through a
+signed OSS record, but the evidence supports only a qualified former-attorney
+occupation, not a named firm. Official UK National Archives catalogue records
+support three SOE-file identities without creating employers. Two exact Army
+identity bridges publish dated occupations only; Cecil Van Den Beldt's
+conflicting Army namesake is rejected. The two William R Van Cleef rows and
+the Paul Van DerStricht / VanDenstricht spelling variants remain separate and
+visibly grouped. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,429/23,936 (64.4594%)**;
+verified-employer coverage is **499/23,936 (2.0847%)**;
+verified-affiliation coverage is **1,113/23,936 (4.6499%)**; archival-review
+coverage is **13,905/23,936 (58.0924%)**. There are **8,502** not-started
+people, **667** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,709 confirmed**, **5,196 high**, **2,468 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,824** affiliations, **1,274** organizations, **6,345** sources and
+**9,805** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 480, row 1,
+**Elizabeth Van Kuyk**. See `research/batch-978-progress.md`.
+
+Batch 978 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+33/33 batch browser matrix and the full 102/102 browser and accessibility
+release suite. All 25,261 internal page links resolve, and the protected-
+identifier audit found zero unexpected matches. Publication verification is
+recorded in `reports/release_batch_978.md`.
+
 Batch 977 completed PDF page 479, rows 1-23, from **Melchiore Valeriano**
 through the Box 798 **William R Van Cleef**, preserving all 23 printed rows as
 separate people with saved terminal research outcomes.
