@@ -1,0 +1,1351 @@
+{
+  "bundle_version": "batch-980-v1",
+  "reviewer": "Before OSS Batch 980 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b980",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 798-799",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 480, rows 24-46; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate; identifiers, ranks, notes and locations remain recoverable while public identifiers are masked."
+    },
+    {
+      "key": "army-bulk-b980",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; three Batch 980 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b980",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b980",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170, 171 and 304; all three Batch 980 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employers nor workplaces and are retained only where needed for auditability."
+    },
+    {
+      "key": "army-register-hoyt-vandenberg-b980",
+      "stable_url": "https://www.archives.gov/files/foia/pdf/nprc-crg-part5-508.pdf",
+      "archival_identifier": "Official Army Register, 1943",
+      "title": "Official Army Register, 1943",
+      "author_creator": "War Department",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1943",
+      "locator": "PDF physical page 126, printed page 907; Hoyt S. Vandenberg entry visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Personnel Records Center consolidated reference guide",
+      "rights_notes": "The exact private officer-number agreement supports identity resolution; the number is not reproduced publicly."
+    },
+    {
+      "key": "unlv-charles-vanda-b980",
+      "stable_url": "https://www.library.unlv.edu/speccol/finding-aids/MS-00299.pdf",
+      "archival_identifier": "MS-00299; ARK ark:/62930/f1130f",
+      "title": "Guide to the Charles Vanda Collection",
+      "author_creator": "John Grygo and Melise Leech",
+      "repository_publisher": "University of Nevada, Las Vegas University Libraries, Special Collections and Archives",
+      "publication_record_date": "2019-02-28",
+      "locator": "PDF page 3, Biographical Note",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Charles Vanda Collection"
+    },
+    {
+      "key": "latimes-charles-vanda-b980",
+      "stable_url": "https://www.latimes.com/archives/la-xpm-1988-06-11-mn-4160-story.html",
+      "title": "Charles Vanda; Ex-CBS Program Chief",
+      "author_creator": "Los Angeles Times Archives",
+      "repository_publisher": "Los Angeles Times",
+      "publication_record_date": "1988-06-11",
+      "locator": "Career paragraphs identifying the 1935 CBS appointment and 1946 departure",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Los Angeles Times obituary archive"
+    },
+    {
+      "key": "uk-political-science-amry-vandenbosch-b980",
+      "stable_url": "https://polisci.as.uky.edu/history-political-science-department",
+      "title": "History of the Political Science Department",
+      "author_creator": "University of Kentucky Department of Political Science",
+      "repository_publisher": "University of Kentucky College of Arts & Sciences",
+      "publication_record_date": "Undated institutional history",
+      "locator": "The Early Years: 1923-63; Amry Vandenbosch department-head chronology",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Kentucky departmental histories"
+    },
+    {
+      "key": "uk-patterson-amry-vandenbosch-b980",
+      "stable_url": "https://pattersonschool.uky.edu/history-leadership",
+      "title": "History & Leadership",
+      "author_creator": "Patterson School of Diplomacy and International Commerce",
+      "repository_publisher": "University of Kentucky",
+      "publication_record_date": "Undated institutional history",
+      "locator": "Amry Vandenbosch, founding director, 1959-1972",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Patterson School institutional history"
+    },
+    {
+      "key": "state-frus-amry-vandenbosch-b980",
+      "stable_url": "https://history.state.gov/historicaldocuments/frus1943/d366",
+      "archival_identifier": "Foreign Relations of the United States, 1943, document 366; Lot 60 D 224",
+      "title": "Boundary Problems of Germany",
+      "author_creator": "United States Department of State",
+      "repository_publisher": "Office of the Historian, United States Department of State",
+      "publication_record_date": "1943-08-18; Vandenbosch memorandum dated 1943-07-16",
+      "locator": "Enclosure 8, printed page 760; memorandum by Amry Vandenbosch of the Division of Political Studies",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Foreign Relations of the United States"
+    },
+    {
+      "key": "arsof-charles-vanderblue-b980",
+      "stable_url": "https://arsof-history.org/articles/v3n1_supplying_resistance_page_1.html",
+      "title": "Supplying the Resistance: OSS Logistics Support to Special Operations in Europe",
+      "author_creator": "Troy J. Sacquety, PhD",
+      "repository_publisher": "United States Army Special Operations Command History Office",
+      "publication_record_date": "2007",
+      "locator": "Veritas, volume 3, number 1; paragraph describing the 1943 Area H planning memorandum",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "General ARSOF History"
+    },
+    {
+      "key": "nara-arnold-vandervalk-b980",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "JFK Assassination Records release 104-10165-10120",
+      "title": "OSS awards board recommendations",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945",
+      "locator": "PDF physical page 6; board summary listing Lt Arnold Vandervalk under Morale Operations",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120"
+    },
+    {
+      "key": "nara-william-vanderwege-b980",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10121.pdf",
+      "archival_identifier": "JFK Assassination Records release 104-10165-10121",
+      "title": "Office of Strategic Services Operational Group Command Special Orders Number 9",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-05-09",
+      "locator": "PDF physical page 7; assignment to Company B, Special Reconnaissance Battalion",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10121",
+      "rights_notes": "The exact private service-number agreement supports identity resolution; the number is not reproduced publicly."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "cbs-radio-b980",
+      "canonical_name": "Columbia Broadcasting System",
+      "historical_name": "CBS Radio",
+      "aliases": [
+        "CBS",
+        "CBS radio network"
+      ],
+      "organization_type": "radio network",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1927-present",
+      "normalization_notes": "The historical CBS Radio name is preserved; no later corporate successor is substituted."
+    },
+    {
+      "key": "university-of-kentucky-b980",
+      "canonical_name": "University of Kentucky",
+      "historical_name": "University of Kentucky",
+      "aliases": [
+        "UK",
+        "UK Political Science Department"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Lexington",
+      "state_or_region": "Kentucky",
+      "country": "United States",
+      "active_dates": "1865-present",
+      "normalization_notes": "The Political Science Department is retained as a historical unit of the university rather than a separate employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-vandenberg-occupation-b980",
+      "person_id": "30c22d38-7915-5f57-8585-292943753050",
+      "occupation": "actor or actress",
+      "relationship_type": "unknown",
+      "start_date": "1942-01-30",
+      "end_date": "1942-01-30",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "john-r-vandervoort-occupation-b980",
+      "person_id": "a9c9f92d-a305-5d98-a4a6-940de93eb2c8",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1943-03-22",
+      "end_date": "1943-03-22",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "dale-s-vandervort-occupation-b980",
+      "person_id": "78af1878-86e8-5ea2-a87a-1ad2f9d18b3f",
+      "occupation": "paymaster, payroll clerk, or timekeeper",
+      "relationship_type": "unknown",
+      "start_date": "1943-01-08",
+      "end_date": "1943-01-08",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "charles-vanda-cbs-b980",
+      "person_id": "2a85f187-98b0-58de-beab-522352408edc",
+      "organization_key": "cbs-radio-b980",
+      "organization_name_as_found": "CBS Radio New York",
+      "role_title": "program manager overseeing Hollywood radio originations",
+      "occupation": "radio program manager, writer, producer and director",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1942",
+      "date_precision": "Appointed in 1935; institutional history places Army Intelligence and AFRS work in wartime and in 1942, while formal CBS departure was reported in 1946",
+      "city": "Hollywood",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Last documented civilian employer before wartime Army Intelligence service; the exact leave, formal employment and OSS accession dates remain unresolved."
+    },
+    {
+      "key": "amry-vandenbosch-university-kentucky-b980",
+      "person_id": "474d0397-9a79-50a6-80d2-223567f30d8a",
+      "organization_key": "university-of-kentucky-b980",
+      "organization_name_as_found": "UK's Political Science Department",
+      "role_title": "department head and professor of political science",
+      "occupation": "political scientist and university professor",
+      "relationship_type": "employment",
+      "start_date": "1933",
+      "end_date": "1943-07",
+      "date_precision": "Department head from 1933 through 1958; by July 1943 he was working in the State Department's Division of Political Studies, but the leave date is not stated",
+      "city": "Lexington",
+      "state_or_region": "Kentucky",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Last documented civilian employer before State Department and OSS service; the order and dates of those wartime assignments remain unresolved."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-vandenberg-army-b980-row27",
+      "person_id": "30c22d38-7915-5f57-8585-292943753050",
+      "claim_type": "identity",
+      "claim_text": "Indexed John Vandenberg is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The Army form inserts a space in Vandenberg; the exact nonshared protected identifier resolves the spacing-only disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "army-bulk-b980",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-vandenberg-b980-row27",
+      "person_id": "30c22d38-7915-5f57-8585-292943753050",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-30, John Vandenberg's historical civilian-occupation category was actors and actresses.",
+      "evidence_paraphrase": "The official Army field carries historical code 002; NARA's code list defines it as Actors and actresses.",
+      "identity_match_assessment": "The Army form inserts a space in Vandenberg; the exact nonshared protected identifier resolves the spacing-only disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b980",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b980",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b980",
+          "locator_override": "PDF physical page 170; historical category 0-02"
+        }
+      ],
+      "affiliation_key": "john-vandenberg-occupation-b980"
+    },
+    {
+      "key": "identity-john-r-vandervoort-army-b980-row43",
+      "person_id": "a9c9f92d-a305-5d98-a4a6-940de93eb2c8",
+      "claim_type": "identity",
+      "claim_text": "Indexed John R Vandervoort is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "army-bulk-b980",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-r-vandervoort-b980-row43",
+      "person_id": "a9c9f92d-a305-5d98-a4a6-940de93eb2c8",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-22, John R Vandervoort's historical civilian-occupation category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b980",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b980",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b980",
+          "locator_override": "PDF physical page 304; historical category 9-92"
+        }
+      ],
+      "affiliation_key": "john-r-vandervoort-occupation-b980"
+    },
+    {
+      "key": "identity-dale-s-vandervort-army-b980-row44",
+      "person_id": "78af1878-86e8-5ea2-a87a-1ad2f9d18b3f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Dale S Vandervort is high-confidence matched to the official Army entry used for the dated occupation finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "army-bulk-b980",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dale-s-vandervort-b980-row44",
+      "person_id": "78af1878-86e8-5ea2-a87a-1ad2f9d18b3f",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-08, Dale S Vandervort's historical civilian-occupation category was paymasters, payroll clerks, and timekeepers.",
+      "evidence_paraphrase": "The official Army field carries historical code 126; NARA's code list defines it as Paymasters, payroll clerks, and timekeepers.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b980",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b980",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b980",
+          "locator_override": "PDF physical page 171; historical category 1-26"
+        }
+      ],
+      "affiliation_key": "dale-s-vandervort-occupation-b980"
+    },
+    {
+      "key": "identity-charles-vanda-b980",
+      "person_id": "2a85f187-98b0-58de-beab-522352408edc",
+      "claim_type": "identity",
+      "claim_text": "Indexed Major Charles Vanda is high-confidence matched to radio executive Charles Vanda, who served in Army Intelligence during World War II.",
+      "evidence_paraphrase": "UNLV's finding aid links the rare exact name, broadcast career and wartime Army Intelligence service; the index supplies a compatible Major rank.",
+      "identity_match_assessment": "High confidence from rare exact name, compatible rank and authoritative wartime-service context.",
+      "temporal_assessment": "The same institutional chronology places his CBS career before and alongside wartime service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The sources do not establish a precise OSS accession date or the reason the indexed personnel file was created.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "unlv-charles-vanda-b980"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-charles-vanda-cbs-b980",
+      "person_id": "2a85f187-98b0-58de-beab-522352408edc",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "CBS Radio is Charles Vanda's last documented civilian employer before his wartime Army Intelligence service.",
+      "evidence_paraphrase": "UNLV dates his CBS appointment to 1935 and later wartime Army Intelligence work; the Los Angeles Times independently confirms the CBS role and career chronology.",
+      "identity_match_assessment": "High-confidence rare-name, broadcast-career and wartime-service match.",
+      "temporal_assessment": "Probable last civilian employer before military service; the exact leave and formal employment dates remain unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Not presented as an explicit direct transfer into OSS; the site preserves the distinction between last civilian employer and immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "unlv-charles-vanda-b980"
+        },
+        {
+          "source_key": "latimes-charles-vanda-b980"
+        }
+      ],
+      "affiliation_key": "charles-vanda-cbs-b980"
+    },
+    {
+      "key": "identity-amry-vandenbosch-b980",
+      "person_id": "474d0397-9a79-50a6-80d2-223567f30d8a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Amry Vandenbosch is high-confidence matched to the University of Kentucky political scientist who served in the State Department and OSS.",
+      "evidence_paraphrase": "The rare exact name, university career and explicit institutional OSS statement align with a 1943 State Department memorandum he authored.",
+      "identity_match_assessment": "High confidence from rare exact name, authoritative institutional career evidence and official wartime government documentation.",
+      "temporal_assessment": "The sources document university employment before State and OSS service but do not fully order the wartime assignments.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The State Department and OSS assignments are not collapsed into one relationship.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "uk-patterson-amry-vandenbosch-b980"
+        },
+        {
+          "source_key": "state-frus-amry-vandenbosch-b980",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-amry-vandenbosch-university-kentucky-b980",
+      "person_id": "474d0397-9a79-50a6-80d2-223567f30d8a",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The University of Kentucky was Amry Vandenbosch's last documented civilian employer before his State Department and OSS service.",
+      "evidence_paraphrase": "UK dates his department-head tenure from 1933; a 1943 State Department memorandum and UK history document his later government and OSS service.",
+      "identity_match_assessment": "High-confidence rare-name and continuous institutional-career match.",
+      "temporal_assessment": "Probable last civilian employer; the exact leave date and State-to-OSS sequence remain unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Not labeled an immediate OSS predecessor because State Department service may have intervened.",
+      "sources": [
+        {
+          "source_key": "uk-political-science-amry-vandenbosch-b980"
+        },
+        {
+          "source_key": "uk-patterson-amry-vandenbosch-b980"
+        },
+        {
+          "source_key": "state-frus-amry-vandenbosch-b980"
+        }
+      ],
+      "affiliation_key": "amry-vandenbosch-university-kentucky-b980"
+    },
+    {
+      "key": "identity-hoyt-vandenberg-army-register-b980",
+      "person_id": "add9eae0-db60-5d85-8936-ac4e094d404d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Hoyt S Vandenberg is confirmed as Army Air Forces officer Hoyt S. Vandenberg.",
+      "evidence_paraphrase": "The 1943 official Army register supplies the exact name and a private officer-number agreement with the index.",
+      "identity_match_assessment": "Confirmed by exact official name and protected officer-number agreement.",
+      "temporal_assessment": "The register documents his Army career through 1942 but does not establish OSS service or explain the indexed file.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The officer number remains private; Box 798 review is required before asserting any OSS assignment or pre-OSS transition.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "army-register-hoyt-vandenberg-b980"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-vanderblue-b980",
+      "person_id": "54cfb556-48df-5b54-a8e5-a1046de51372",
+      "claim_type": "identity",
+      "claim_text": "Indexed Colonel Charles S Vanderblue is high-confidence matched to Charles Vanderblue, chief of OSS Special Operations in London in 1943.",
+      "evidence_paraphrase": "The Army Special Operations history identifies Colonel Charles Vanderblue and his dated OSS SO London leadership role.",
+      "identity_match_assessment": "High confidence from exact rare name, compatible Colonel rank and explicit OSS role.",
+      "temporal_assessment": "The source documents a 1943 OSS assignment but no pre-OSS employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The middle initial is supplied by the index; Box 798 review remains necessary for his earlier career.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "arsof-charles-vanderblue-b980"
+        }
+      ]
+    },
+    {
+      "key": "identity-arnold-vandervalk-b980",
+      "person_id": "4c7e2eab-b7da-5572-95f5-51866b0da48a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Second Lieutenant Arnold Vandervalk is high-confidence matched to Lieutenant Arnold Vandervalk of OSS Morale Operations.",
+      "evidence_paraphrase": "An official OSS awards-board summary lists the rare exact name, compatible lieutenant rank and Morale Operations branch.",
+      "identity_match_assessment": "High confidence from rare exact name, compatible rank and explicit OSS branch; no identifier appears on the awards page.",
+      "temporal_assessment": "The source establishes wartime OSS context but no pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The physical personnel file remains necessary to confirm the full identity and earlier chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "nara-arnold-vandervalk-b980"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-vanderwege-b980",
+      "person_id": "b442e752-398e-5eda-b0bf-ed057c6b04d2",
+      "claim_type": "identity",
+      "claim_text": "Indexed William H Vanderwege is confirmed as the first lieutenant assigned to Company B, Special Reconnaissance Battalion in May 1945.",
+      "evidence_paraphrase": "An official OSS special order supplies the exact name, commissioned rank, assignment and a private identifier agreement with the index.",
+      "identity_match_assessment": "Confirmed by exact name and protected-identifier agreement in an official OSS order.",
+      "temporal_assessment": "The order documents a 1945 OSS assignment but no pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private; the Box 799 file is still required for pre-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b980"
+        },
+        {
+          "source_key": "nara-william-vanderwege-b980"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "0f666d7f-d608-5049-8bf5-5b04e9e5fbd2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Clarence H Vandellen, Box 798 or 799 and archive location 230/86/42/04 or 05. A 1966 directory lead places a Clarence H Vandellen in personnel work at Picatinny Arsenal, but it is postwar and supplies no OSS or Box 798 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A 1966 directory lead places a Clarence H Vandellen in personnel work at Picatinny Arsenal, but it is postwar and supplies no OSS or Box 798 bridge."
+    },
+    {
+      "person_id": "700a7d7e-7517-521b-879d-fa1a15c9ae12",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis W Vandenboom, Box 798 or 799 and archive location 230/86/42/04 or 05. Exact-name and spelling-variant searches produced no official, institutional, newspaper, obituary or archival source connecting Louis W Vandenboom to OSS or a pre-OSS employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no official, institutional, newspaper, obituary or archival source connecting Louis W Vandenboom to OSS or a pre-OSS employer."
+    },
+    {
+      "person_id": "c540901c-dce9-5947-b7a7-adda0862a5cc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John L Vander, Box 798 or 799 and archive location 230/86/42/04 or 05. The abbreviated surname and common given names produced multiple unbridged candidates; no source supplies the indexed box, rank, identifier or OSS context.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The abbreviated surname and common given names produced multiple unbridged candidates; no source supplies the indexed box, rank, identifier or OSS context."
+    },
+    {
+      "person_id": "aeeb28b1-d39c-5902-9069-0b7a8ec59850",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John Vanderleith, Box 798 or 799 and archive location 230/86/42/04 or 05. Exact-name and spelling-variant searches produced no reliable identity or employment bridge for John Vanderleith.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable identity or employment bridge for John Vanderleith."
+    },
+    {
+      "person_id": "b333225b-f27a-5e52-8f02-5ba3f178bd43",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elmer Vanderploeg, Box 798 or 799 and archive location 230/86/42/04 or 05. Exact-name official, institutional, newspaper, obituary and archival searches produced no reliable identity or employment bridge for Elmer Vanderploeg.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name official, institutional, newspaper, obituary and archival searches produced no reliable identity or employment bridge for Elmer Vanderploeg."
+    },
+    {
+      "person_id": "b1a6fccf-f0fc-54ed-9659-7626fbcc472d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John L Vandersys, Box 798 or 799 and archive location 230/86/42/04 or 05. A relative's obituary and modern namesakes do not establish John L Vandersys's identity, OSS context or pre-OSS employment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A relative's obituary and modern namesakes do not establish John L Vandersys's identity, OSS context or pre-OSS employment."
+    },
+    {
+      "person_id": "92e98d0c-a0c1-572b-a375-d1291257e81b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard J Vandertie, Box 798 or 799 and archive location 230/86/42/04 or 05. A postwar athletics result and modern namesakes are irrelevant to the indexed person and supply no wartime identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A postwar athletics result and modern namesakes are irrelevant to the indexed person and supply no wartime identity bridge."
+    },
+    {
+      "person_id": "2e9ea2cb-128d-55e1-a33d-10c76fd5bf9d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rollin N Vandervart, Box 798 or 799 and archive location 230/86/42/04 or 05. A burial lead supplies no OSS, Box 799 or employment bridge for Rollin N Vandervart.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A burial lead supplies no OSS, Box 799 or employment bridge for Rollin N Vandervart."
+    },
+    {
+      "person_id": "afe4e251-3894-5d87-be68-894289c9b3ca",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ollie R Vandervender, Box 798 or 799 and archive location 230/86/42/04 or 05. Exact-name and variant searches produced no source with corroborating wartime identifiers or a documented pre-OSS affiliation for Ollie R Vandervender.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and variant searches produced no source with corroborating wartime identifiers or a documented pre-OSS affiliation for Ollie R Vandervender."
+    },
+    {
+      "person_id": "a1146a1f-3102-5b31-8565-c93ccc980831",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row remains a separate person entity. An adjacent indexed Paul R Van DerStricht row is a plausible duplicate and has a documented New York legal career, but the separate Box 798 files have not established whether these rows represent one person.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "page479-480-paul-van-der-stricht-box798",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 798 or 799 file before merging identities or assigning a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An adjacent indexed Paul R Van DerStricht row is a plausible duplicate and has a documented New York legal career, but the separate Box 798 files have not established whether these rows represent one person."
+    },
+    {
+      "person_id": "4497dbbc-43c3-50b9-b0fa-738142ea95f8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row remains a separate person entity. A wartime Cornell alumni wedding notice names Vivian R Vanderpool only as a spouse and supplies neither an employer nor an OSS identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 798 or 799 file before merging identities or assigning a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A wartime Cornell alumni wedding notice names Vivian R Vanderpool only as a spouse and supplies neither an employer nor an OSS identity bridge."
+    },
+    {
+      "person_id": "faf6f135-3749-5acf-a7ef-e544c2e2b0c5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row remains a separate person entity. A well-documented airborne officer shares the name Benjamin H Vandervoort, but the index row has no rank or identifier; a name match alone cannot assign that biography.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 798 or 799 file before merging identities or assigning a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A well-documented airborne officer shares the name Benjamin H Vandervoort, but the index row has no rank or identifier; a name match alone cannot assign that biography."
+    },
+    {
+      "person_id": "63af3f89-4040-5005-8e8d-fdfb323c93bb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row remains a separate person entity. This no-identifier John R Vandervoort row remains separate from the adjacent protected-identifier row until the Box 799 files establish duplication or difference.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "possible_duplicate_group": "page480-john-r-vandervoort-box799",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 798 or 799 file before merging identities or assigning a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This no-identifier John R Vandervoort row remains separate from the adjacent protected-identifier row until the Box 799 files establish duplication or difference."
+    },
+    {
+      "person_id": "c83c2dae-c1eb-5d94-b5cb-124e4b7f0501",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row remains a separate person entity. Foreign Service Journal listings name a Martha V Vandiver, but they do not establish that she is the indexed person or identify her immediate pre-OSS sequence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 798 or 799 file before merging identities or assigning a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Foreign Service Journal listings name a Martha V Vandiver, but they do not establish that she is the indexed person or identify her immediate pre-OSS sequence."
+    },
+    {
+      "person_id": "30c22d38-7915-5f57-8585-292943753050",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army form inserts a space in Vandenberg; the exact nonshared protected identifier resolves the spacing-only disagreement. The protected identifier and raw record ordinal remain private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "a9c9f92d-a305-5d98-a4a6-940de93eb2c8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "page480-john-r-vandervoort-box799",
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "78af1878-86e8-5ea2-a87a-1ad2f9d18b3f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "2a85f187-98b0-58de-beab-522352408edc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "UNLV links the rare exact name Charles Vanda to wartime Army Intelligence service; the index supplies a compatible Major rank.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 798 to determine Vanda's exact military and OSS accession dates and whether CBS employment formally continued during service."
+    },
+    {
+      "person_id": "add9eae0-db60-5d85-8936-ac4e094d404d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "confirmed",
+      "identity_evidence": "The 1943 official Army register has the exact name and a private officer-number agreement with the index.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 798 to determine why Hoyt S Vandenberg is indexed and whether the file documents any OSS accession or assignment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "474d0397-9a79-50a6-80d2-223567f30d8a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "University of Kentucky explicitly connects the rare exact name Amry Vandenbosch to long university service, the State Department and OSS; a 1943 State memorandum independently confirms his wartime government role.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 798 and UK personnel records to establish the exact university leave, State Department and OSS sequence."
+    },
+    {
+      "person_id": "54cfb556-48df-5b54-a8e5-a1046de51372",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Army Special Operations history identifies Colonel Charles Vanderblue as chief of OSS Special Operations in London in 1943; the rare exact surname and rank align with the index.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 798 for Charles S Vanderblue's pre-OSS military or civilian chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "4c7e2eab-b7da-5572-95f5-51866b0da48a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An official OSS awards-board summary lists Lt Arnold Vandervalk in Morale Operations; the rare exact name and compatible lieutenant rank align with the index.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 798 to confirm the full identity and document Arnold Vandervalk's pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "b442e752-398e-5eda-b0bf-ed057c6b04d2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "An official OSS special order supplies William H Vanderwege's exact name, first-lieutenant rank, Special Reconnaissance Battalion assignment and a private identifier agreement with the index.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 799 for William H Vanderwege's earlier military assignment and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page480-row24-charles-vanda-b980",
+      "person_id": "2a85f187-98b0-58de-beab-522352408edc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles Vanda; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row25-clarence-h-vandellen-b980",
+      "person_id": "0f666d7f-d608-5049-8bf5-5b04e9e5fbd2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence H Vandellen; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "A 1966 directory lead places a Clarence H Vandellen in personnel work at Picatinny Arsenal, but it is postwar and supplies no OSS or Box 798 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row26-hoyt-s-vandenberg-b980",
+      "person_id": "add9eae0-db60-5d85-8936-ac4e094d404d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hoyt S Vandenberg; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row27-john-vandenberg-b980",
+      "person_id": "30c22d38-7915-5f57-8585-292943753050",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Vandenberg; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row28-louis-w-vandenboom-b980",
+      "person_id": "700a7d7e-7517-521b-879d-fa1a15c9ae12",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis W Vandenboom; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name and spelling-variant searches produced no official, institutional, newspaper, obituary or archival source connecting Louis W Vandenboom to OSS or a pre-OSS employer. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row29-amry-vandenbosch-b980",
+      "person_id": "474d0397-9a79-50a6-80d2-223567f30d8a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Amry Vandenbosch; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row30-paul-vandenstricht-b980",
+      "person_id": "a1146a1f-3102-5b31-8565-c93ccc980831",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul VanDenstricht; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "An adjacent indexed Paul R Van DerStricht row is a plausible duplicate and has a documented New York legal career, but the separate Box 798 files have not established whether these rows represent one person. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row31-john-l-vander-b980",
+      "person_id": "c540901c-dce9-5947-b7a7-adda0862a5cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Vander; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "The abbreviated surname and common given names produced multiple unbridged candidates; no source supplies the indexed box, rank, identifier or OSS context. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row32-charles-s-vanderblue-b980",
+      "person_id": "54cfb556-48df-5b54-a8e5-a1046de51372",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles S Vanderblue; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row33-john-vanderleith-b980",
+      "person_id": "aeeb28b1-d39c-5902-9069-0b7a8ec59850",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Vanderleith; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable identity or employment bridge for John Vanderleith. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row34-elmer-vanderploeg-b980",
+      "person_id": "b333225b-f27a-5e52-8f02-5ba3f178bd43",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elmer Vanderploeg; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name official, institutional, newspaper, obituary and archival searches produced no reliable identity or employment bridge for Elmer Vanderploeg. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row35-vivian-r-vanderpool-b980",
+      "person_id": "4497dbbc-43c3-50b9-b0fa-738142ea95f8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vivian R Vanderpool; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "A wartime Cornell alumni wedding notice names Vivian R Vanderpool only as a spouse and supplies neither an employer nor an OSS identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row36-john-l-vandersys-b980",
+      "person_id": "b1a6fccf-f0fc-54ed-9659-7626fbcc472d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Vandersys; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "A relative's obituary and modern namesakes do not establish John L Vandersys's identity, OSS context or pre-OSS employment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row37-richard-j-vandertie-b980",
+      "person_id": "92e98d0c-a0c1-572b-a375-d1291257e81b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard J Vandertie; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "A postwar athletics result and modern namesakes are irrelevant to the indexed person and supply no wartime identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row38-arnold-vandervalk-b980",
+      "person_id": "4c7e2eab-b7da-5572-95f5-51866b0da48a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arnold Vandervalk; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row39-rollin-n-vandervart-b980",
+      "person_id": "2e9ea2cb-128d-55e1-a33d-10c76fd5bf9d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rollin N Vandervart; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "A burial lead supplies no OSS, Box 799 or employment bridge for Rollin N Vandervart. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row40-ollie-r-vandervender-b980",
+      "person_id": "afe4e251-3894-5d87-be68-894289c9b3ca",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ollie R Vandervender; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name and variant searches produced no source with corroborating wartime identifiers or a documented pre-OSS affiliation for Ollie R Vandervender. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row41-benjamin-h-vandervoort-b980",
+      "person_id": "faf6f135-3749-5acf-a7ef-e544c2e2b0c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benjamin H Vandervoort; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "A well-documented airborne officer shares the name Benjamin H Vandervoort, but the index row has no rank or identifier; a name match alone cannot assign that biography. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row42-john-r-vandervoort-b980",
+      "person_id": "63af3f89-4040-5005-8e8d-fdfb323c93bb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John R Vandervoort; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "This no-identifier John R Vandervoort row remains separate from the adjacent protected-identifier row until the Box 799 files establish duplication or difference. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row43-john-r-vandervoort-b980",
+      "person_id": "a9c9f92d-a305-5d98-a4a6-940de93eb2c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John R Vandervoort; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row44-dale-s-vandervort-b980",
+      "person_id": "78af1878-86e8-5ea2-a87a-1ad2f9d18b3f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dale S Vandervort; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row45-william-h-vanderwege-b980",
+      "person_id": "b442e752-398e-5eda-b0bf-ed057c6b04d2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Vanderwege; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official or institutional evidence produced the identity, occupation or employer outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    },
+    {
+      "key": "page480-row46-martha-v-vandiver-b980",
+      "person_id": "c83c2dae-c1eb-5d94-b5cb-124e4b7f0501",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Martha V Vandiver; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 798-799; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_980",
+      "started_at": "2026-10-30T13:00:00Z",
+      "completed_at": "2026-10-30T14:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes and military assignments were not silently converted into employers.",
+      "research_notes": "Foreign Service Journal listings name a Martha V Vandiver, but they do not establish that she is the indexed person or identify her immediate pre-OSS sequence. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army code list, 1943 Army register and digitized OSS pages were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b980-v1"
+    }
+  ]
+}

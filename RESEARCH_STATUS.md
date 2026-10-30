@@ -1,5 +1,41 @@
 # Research status
 
+Batch 980 completed PDF page 480, rows 24-46, from **Charles Vanda** through
+**Martha V Vandiver**, preserving all 23 printed rows as separate people with
+saved terminal research outcomes.
+
+Reviewed institutional evidence identifies CBS Radio as Charles Vanda's last
+documented civilian employer before wartime Army Intelligence service and the
+University of Kentucky as Amry Vandenbosch's last documented civilian
+employer before State Department and OSS work. Neither is labeled an explicit
+immediate OSS predecessor. Official Army records publish three qualified,
+date-bounded occupations or student statuses and support identity or OSS-role
+findings for Hoyt S Vandenberg, Charles S Vanderblue, Arnold Vandervalk and
+William H Vanderwege without inventing employers. Two adjacent John R
+Vandervoort rows remain separate and visibly grouped for review. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,475/23,936 (64.6516%)**;
+verified-employer coverage is **503/23,936 (2.1014%)**;
+verified-affiliation coverage is **1,117/23,936 (4.6666%)**; archival-review
+coverage is **13,951/23,936 (58.2846%)**. There are **8,456** not-started
+people, **668** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,715 confirmed**, **5,212 high**, **2,476 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,837** affiliations, **1,279** organizations, **6,367** sources and
+**9,835** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 481, row
+1, **E L Vanduesen**. See `research/batch-980-progress.md`.
+
+Batch 980 passed evidence-schema validation, repeat import, SQLite integrity,
+the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
+24/24 batch browser matrix and the full 93/93 browser and accessibility release
+suite. All 25,266 internal page links resolve, and the protected-identifier
+audit found zero unexpected matches. Publication verification is recorded in
+`reports/release_batch_980.md` and will be completed against the immutable
+content commit.
+
 Batch 979 completed PDF page 480, rows 1-23, from **Elizabeth Van Kuyk**
 through **Robert G Vance**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
