@@ -104,24 +104,27 @@ Archive location: 230/86/42/05
   check.
 - The targeted Batch 987 browser matrix passed all 21 checks across desktop,
   phone and tablet.
-- The bounded release suite passed the current-batch, core-route, analysis and
-  accessibility suites, including 30 axe scans with no serious or critical
-  violations.
-- A dirty-checkout build checked 625 Astro files with zero diagnostics. Its
-  49,216 pages include duplicate routes created by unrelated, user-owned
-  untracked page files; those files remain untouched and are excluded from the
-  release through the clean-worktree gate.
-- All internal links across those 49,216 HTML files resolve; 100,051 unique
+- The clean-worktree bounded release suite passed all 90 current-batch,
+  core-route, analysis and accessibility checks, including 30 axe scans with
+  no serious or critical violations.
+- The clean worktree checked 618 Astro files with zero diagnostics and built
+  25,274 canonical static pages. Unrelated, user-owned untracked duplicate
+  page files in the working checkout remain untouched and are not part of the
+  release.
+- All internal links across the 25,274 clean HTML files resolve; 52,173 unique
   external URLs were inventoried for the separate live check.
-- The protected-identifier audit checked 12,926 normalized identifiers and 120
-  formatted variants across 49,289 artifacts, inspected 1,888 candidate
-  substrings and found zero unexpected boundary matches.
+- The clean protected-identifier audit checked 12,926 normalized identifiers
+  and 120 formatted variants across 25,346 artifacts, inspected 1,438
+  candidate substrings and found zero unexpected boundary matches.
 - The checked-in 67-asset public manifest verifies locally at 132,333,835
   bytes with SHA-256
   `902ff9b8c1c42a07e0514c44bbed6f0bb6968381cc80446581c5395fa81725a2`.
+- The 70-file public tree totals 134,680,991 bytes and has SHA-256
+  `1fee9d59095a12da1f544cc6020b4e33fc2db89f1f7ab53d7817353be6a80b5d`.
+- Two consecutive clean static builds reproduced the same 25,346-file tree,
+  421,716,883 bytes and tree SHA-256
+  `3938a85817c5d3758e686ce53174193904e4f4f7cdb67e1fd0ae8d71690d673b`.
 - The production dependency audit found zero vulnerabilities.
-- Clean-worktree build, link, identifier, manifest, browser and determinism
-  results will be recorded in `reports/release_batch_987.md` before push.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable replay
   inputs. Batch 987 itself is replayable to the same authoritative state.

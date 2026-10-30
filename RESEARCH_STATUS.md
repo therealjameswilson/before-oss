@@ -30,11 +30,13 @@ research remains unfinished. The next indexed boundary is PDF page 484, row
 Batch 987 passed evidence-schema validation, repeat import, SQLite integrity,
 the complete ingest audit, the 200-profile audit, all 147 Python tests, the
 21/21 targeted browser matrix and the bounded browser/accessibility release
-suite. The protected-identifier audit found zero unexpected matches, all
-internal links resolve, the checked-in 67-asset manifest verifies locally and
-the production dependency audit found zero vulnerabilities. Clean-worktree
-verification and publication evidence will be recorded in
-`reports/release_batch_987.md` before the release is pushed.
+suite. The 25,274-page clean worktree build has zero Astro diagnostics; all
+internal links resolve; the protected-identifier audit found zero unexpected
+matches; the checked-in 67-asset manifest verifies locally; the production
+dependency audit found zero vulnerabilities; and two clean builds are
+deterministic. Full local verification is recorded in
+`reports/release_batch_987.md`. Publication evidence will be added only after
+the release is pushed and independently verified.
 
 Batch 986 completed PDF page 483, rows 24-46, from **Joseph P Viggiani**
 through **Edward J Virant**, preserving all 23 printed rows as separate people

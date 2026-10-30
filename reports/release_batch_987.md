@@ -33,21 +33,25 @@ Date: 2026-10-30 America/New_York
 - Python: 147 tests pass.
 - Targeted Batch browser matrix: 21/21 checks pass across desktop, phone and
   tablet.
-- The bounded browser release suite passed the current-batch, core-route,
-  analysis and accessibility suites, including 30 axe scans with no serious
-  or critical violations.
-- Dirty-checkout Astro build: 625 files checked with zero diagnostics. The
-  unrelated user-owned duplicate page files remain untouched; their duplicate
-  routes are not part of the release and require clean-worktree verification.
-- Dirty-checkout internal links: 49,216 HTML files checked; all links resolve.
-- Dirty-checkout identifier audit: 12,926 normalized identifiers and 120
-  formatted variants checked across 49,289 artifacts; 1,888 candidate
+- Clean-worktree browser release suite: 90/90 current-batch, core-route,
+  analysis and accessibility checks pass, including 30 axe scans with no
+  serious or critical violations.
+- Clean-worktree Astro build: 618 files checked with zero diagnostics; 25,274
+  canonical static pages built. Unrelated user-owned duplicate page files in
+  the working checkout remain untouched and are not part of the release.
+- Clean-worktree internal links: 25,274 HTML files checked; all links resolve;
+  52,173 unique external URLs were inventoried separately.
+- Clean-worktree identifier audit: 12,926 normalized identifiers and 120
+  formatted variants checked across 25,346 artifacts; 1,438 candidate
   substrings and zero unexpected matches.
 - Public manifest: 67 assets, 132,333,835 bytes, SHA-256
   `902ff9b8c1c42a07e0514c44bbed6f0bb6968381cc80446581c5395fa81725a2`.
+- Public tree: 70 files, 134,680,991 bytes, SHA-256
+  `1fee9d59095a12da1f544cc6020b4e33fc2db89f1f7ab53d7817353be6a80b5d`.
+- Determinism: two consecutive clean builds reproduced 25,346 files,
+  421,716,883 bytes and tree SHA-256
+  `3938a85817c5d3758e686ce53174193904e4f4f7cdb67e1fd0ae8d71690d673b`.
 - Production dependency audit: zero vulnerabilities.
-- Clean-worktree build, browser, link, identifier, manifest and determinism
-  checks are pending and must pass before push.
 
 ## Coverage prepared for publication
 
