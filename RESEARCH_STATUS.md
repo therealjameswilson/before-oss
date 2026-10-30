@@ -1,5 +1,40 @@
 # Research status
 
+Batch 981 completed PDF page 481, rows 1-23, from **E L Vanduesen** through
+**1st Lt Thomas A Varnson**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Nine protected-identifier Army bridges support identity findings, and seven
+historical occupation or student categories are published only as qualified,
+date-bounded statuses. Two undefined Army codes remain identity-only. A
+declassified roster confirms Nicholas A Vanikiotis, a scholarly history
+identifies Leslie J Vanoncini's OSS command, and neither creates a pre-OSS
+employer claim. Riccardo Vanzetti's documented Air Force engineering service
+is modeled as a prior military assignment; Mary Vardoulakis's probable 1944
+Wellesley record remains student status with uncertain OSS chronology. No
+civilian employer is added by this batch. No authenticated NARA Catalog API
+request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,498/23,936 (64.7477%)**;
+verified-employer coverage is **503/23,936 (2.1014%)**;
+verified-affiliation coverage is **1,118/23,936 (4.6708%)**; archival-review
+coverage is **13,974/23,936 (58.3807%)**. There are **8,433** not-started
+people, **668** possible-duplicate groups and **524** conflicts. Claim
+confidence counts are **1,716 confirmed**, **5,224 high**, **2,485 medium**,
+**255 low**, **436 conflicting** and **2 unresolved**. The public projection
+contains **3,846** affiliations, **1,281** organizations, **6,375** sources and
+**9,857** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 481, row
+24, **Spyridon S Varthis**. See `research/batch-981-progress.md`.
+
+Batch 981 passed evidence-schema validation, repeat import, SQLite integrity,
+the complete ingest audit, the 200-profile audit, all 147 Python tests,
+Astro's zero-diagnostic build, the 27/27 batch browser matrix and the full
+96/96 browser and accessibility release suite. All 25,268 internal page links
+resolve, and the protected-identifier audit found zero unexpected matches.
+Publication preparation is recorded in `reports/release_batch_981.md`.
+
 Batch 980 completed PDF page 480, rows 24-46, from **Charles Vanda** through
 **Martha V Vandiver**, preserving all 23 printed rows as separate people with
 saved terminal research outcomes.

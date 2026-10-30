@@ -7540,3 +7540,16 @@ student and military pathways kept distinct from civilian employment, the two
 separately preserved Carl Tjerandsen rows, twelve unresolved archival outcomes,
 protected-identifier masking, exact coverage, and the unchanged oil-company
 category. All 30 axe scans reported no serious accessibility violations.
+
+## Batch 981 accessibility and responsive regression
+
+The bounded release suite passed **96 / 96** checks: 27 Batch 981 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and tablet
+widths. It verifies all 23 direct profiles, nine reviewed Army identity
+matches, seven qualified historical occupations or student statuses, the
+separation of Riccardo Vanzetti's military assignment and Mary Vardoulakis's
+student status from civilian employment, two undefined Army codes kept
+identity-only, protected-identifier masking, exact coverage, and the unchanged
+oil-company category. All 30 axe scans reported no serious or critical
+accessibility violations.

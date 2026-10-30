@@ -1,0 +1,1540 @@
+{
+  "bundle_version": "batch-981-v1",
+  "reviewer": "Before OSS Batch 981 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b981",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 799-801",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 481, rows 1-23; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate; identifiers, ranks, boxes and locations remain recoverable while public identifiers are masked."
+    },
+    {
+      "key": "army-bulk-b981",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; nine Batch 981 identity comparisons; protected identifiers and record ordinals withheld",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw bulk row, record ordinal or full protected identifier enters the evidence bundle or public assets."
+    },
+    {
+      "key": "army-tech-b981",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b981",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175 and 304; all seven published Batch 981 categories visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Codes 993 and 999 were not assigned an occupation because the audited pages supplied no defensible definition."
+    },
+    {
+      "key": "cia-riccardo-vanzetti-b981",
+      "stable_url": "https://www.cia.gov/resources/csi/studies-in-intelligence/archives/vol-41-no-5/the-oss-and-italian-partisans-in-world-war-ii/",
+      "archival_identifier": "Studies in Intelligence, volume 41, number 5",
+      "title": "The OSS and Italian Partisans in World War II",
+      "author_creator": "Peter Tompkins",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "1997-1998",
+      "locator": "PDF physical page 5, printed page 99; visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence, Historical Perspectives"
+    },
+    {
+      "key": "elia-nicholas-vanikiotis-b981",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%209-1544%20Date%20Estimated%2C%20OSS%20Missions%2C%20SOE%2C%20Train%20Sabotage%2C%20Katerini%2C%20Tsirmulas%2C%20226-99-45-5%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226-99-45-5 (Admin), declassified OSS mission records",
+      "title": "OSS missions and operational-group roster",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive (ELIA)",
+      "publication_record_date": "1944; date estimated by repository",
+      "locator": "PDF physical page 17; visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Digitized declassified OSS records",
+      "rights_notes": "The exact protected identifier supports private resolution but is not reproduced in public evidence."
+    },
+    {
+      "key": "ilsrec-leslie-vanoncini-b981",
+      "stable_url": "https://www.ilsrec.it/wp-content/uploads/2016/01/STORIA-E-MEMORIA-2-2015_Web-1.pdf",
+      "title": "La famiglia Lazagna tra antifascismo e Resistenza",
+      "author_creator": "Paola Pesci",
+      "repository_publisher": "Istituto Ligure per la Storia della Resistenza e dell'Eta Contemporanea",
+      "publication_record_date": "2015",
+      "locator": "Storia e Memoria 2-2015, printed pages 154-155; PDF physical pages 150-151; visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Storia e Memoria"
+    },
+    {
+      "key": "ahepa-mary-vardoulakis-b981",
+      "stable_url": "https://ahepahistory.org/AHEPA-Magazines/1945-Ahepa-Magazines-Opt.pdf",
+      "title": "Literature and the Arts: Gold in the Streets, by Mary Vardoulakis",
+      "author_creator": "The Ahepan editorial staff",
+      "repository_publisher": "The Ahepan; AHEPA History",
+      "publication_record_date": "1945-11/12",
+      "locator": "PDF physical page 185, printed page 35; visually and textually checked",
+      "access_date": "2026-10-30",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Ahepan magazine"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "italian-air-force-b981",
+      "canonical_name": "Italian Air Force (service not further specified)",
+      "historical_name": "Air Force",
+      "aliases": [],
+      "organization_type": "military air service",
+      "sector": "military",
+      "country": "Italy",
+      "active_dates": "World War II",
+      "normalization_notes": "The CIA article uses the generic phrase 'Air Force'; no specific Italian service arm or modern successor is inferred."
+    },
+    {
+      "key": "wellesley-college-b981",
+      "canonical_name": "Wellesley College",
+      "historical_name": "Wellesley College",
+      "aliases": [
+        "Wellesley"
+      ],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Wellesley",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "1870-present",
+      "normalization_notes": "Student attendance is kept separate from employment and does not make the college an employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "delbert-e-vangampleare-occupation-b981",
+      "person_id": "791fbd05-3b8c-5f79-b29e-80d5886abab5",
+      "occupation": "general farm hand",
+      "relationship_type": "unknown",
+      "start_date": "1943-05-14",
+      "end_date": "1943-05-14",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "vito-vangi-occupation-b981",
+      "person_id": "34190b8b-4744-50ec-8155-762be392e07e",
+      "occupation": "sailor or deckhand outside the U.S. Navy",
+      "relationship_type": "unknown",
+      "start_date": "1941-10-08",
+      "end_date": "1941-10-08",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "nicholas-a-vanikiotis-occupation-b981",
+      "person_id": "cc145a7a-d0ec-59d5-ac75-b2d4803beb18",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1943-07-07",
+      "end_date": "1943-07-07",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "francis-r-varacalli-occupation-b981",
+      "person_id": "f4e69784-6ef4-5a55-b00e-9e185ae2676c",
+      "occupation": "engraver",
+      "relationship_type": "unknown",
+      "start_date": "1942-01-14",
+      "end_date": "1942-01-14",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "ernest-j-vardales-occupation-b981",
+      "person_id": "035cd9e5-a925-5452-ba91-94c9c7d93f19",
+      "occupation": "bootblack",
+      "relationship_type": "unknown",
+      "start_date": "1942-12-17",
+      "end_date": "1942-12-17",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "walter-p-vargo-occupation-b981",
+      "person_id": "92b42abf-a44e-5d43-a297-059b899b5601",
+      "occupation": "metal filer, grinder, buffer, or polisher",
+      "relationship_type": "unknown",
+      "start_date": "1943-01-04",
+      "end_date": "1943-01-04",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "dimitry-v-varley-occupation-b981",
+      "person_id": "f56c93f0-5f47-5259-9a4f-d1902526e795",
+      "occupation": "professional occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": "1943-06-02",
+      "end_date": "1943-06-02",
+      "date_precision": "Dated at Army entry; the historical category does not name an employer, workplace or duration",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Official historical occupation or student category only; excluded from employer analytics."
+    },
+    {
+      "key": "riccardo-vanzetti-italian-air-force-b981",
+      "person_id": "872fd96b-01dd-5c08-a89e-750b02488fc5",
+      "organization_key": "italian-air-force-b981",
+      "organization_name_as_found": "Air Force",
+      "role_title": "engineer",
+      "occupation": "Air Force engineer",
+      "relationship_type": "military_assignment",
+      "end_date": "before 1944-03-17",
+      "date_precision": "The source says he had served in the war as an Air Force engineer before his OSS team was dropped on 17 March 1944",
+      "country": "Italy",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Documented military assignment before the OSS mission; not a civilian employer and not labeled the immediate predecessor because an intervening affiliation is not excluded."
+    },
+    {
+      "key": "mary-vardoulakis-wellesley-b981",
+      "person_id": "4f7b6da3-c8bd-53c9-ad9c-8b5580843a18",
+      "organization_key": "wellesley-college-b981",
+      "organization_name_as_found": "Wellesley College",
+      "relationship_type": "student",
+      "end_date": "1944",
+      "date_precision": "Contemporary 1945 profile states that Mary Vardoulakis graduated in 1944; exact attendance and OSS-entry dates are not supplied",
+      "city": "Wellesley",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Probable rare-name contemporary match. Student status is not employment, and its sequence relative to OSS service remains unproven."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-delbert-e-vangampleare-army-b981-row2",
+      "person_id": "791fbd05-3b8c-5f79-b29e-80d5886abab5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Delbert E Vangampleare is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The Army form separates Van Gampleare while the index prints Vangampleare; the nonshared protected identifier resolves the spacing-only disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-delbert-e-vangampleare-b981-row2",
+      "person_id": "791fbd05-3b8c-5f79-b29e-80d5886abab5",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-14, Delbert E Vangampleare's historical civilian-occupation category was farm hands, general farms.",
+      "evidence_paraphrase": "The official Army field carries historical code 316; NARA's code list defines it as Farm hands, general farms.",
+      "identity_match_assessment": "The Army form separates Van Gampleare while the index prints Vangampleare; the nonshared protected identifier resolves the spacing-only disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical page 172; historical category 3-16"
+        }
+      ],
+      "affiliation_key": "delbert-e-vangampleare-occupation-b981"
+    },
+    {
+      "key": "identity-vito-vangi-army-b981-row3",
+      "person_id": "34190b8b-4744-50ec-8155-762be392e07e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Vito Vangi is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-vito-vangi-b981-row3",
+      "person_id": "34190b8b-4744-50ec-8155-762be392e07e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-10-08, Vito Vangi's historical civilian-occupation category was sailors and deckhands, except u.s. navy.",
+      "evidence_paraphrase": "The official Army field carries historical code 948; NARA's code list defines it as Sailors and deckhands, except U.S. Navy.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical page 174; historical category 9-48"
+        }
+      ],
+      "affiliation_key": "vito-vangi-occupation-b981"
+    },
+    {
+      "key": "identity-nicholas-a-vanikiotis-army-b981-row5",
+      "person_id": "cc145a7a-d0ec-59d5-ac75-b2d4803beb18",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nicholas A Vanikiotis is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-nicholas-a-vanikiotis-b981-row5",
+      "person_id": "cc145a7a-d0ec-59d5-ac75-b2d4803beb18",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-07, Nicholas A Vanikiotis's historical civilian-occupation category was students.",
+      "evidence_paraphrase": "The official Army field carries historical code 992; NARA's code list defines it as Students.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical page 304; historical category 9-92"
+        }
+      ],
+      "affiliation_key": "nicholas-a-vanikiotis-occupation-b981"
+    },
+    {
+      "key": "identity-francis-r-varacalli-army-b981-row12",
+      "person_id": "f4e69784-6ef4-5a55-b00e-9e185ae2676c",
+      "claim_type": "identity",
+      "claim_text": "Indexed Francis R Varacalli is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-francis-r-varacalli-b981-row12",
+      "person_id": "f4e69784-6ef4-5a55-b00e-9e185ae2676c",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-14, Francis R Varacalli's historical civilian-occupation category was engravers.",
+      "evidence_paraphrase": "The official Army field carries historical code 473; NARA's code list defines it as Engravers.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical page 173; historical category 4-73"
+        }
+      ],
+      "affiliation_key": "francis-r-varacalli-occupation-b981"
+    },
+    {
+      "key": "identity-ernest-j-vardales-army-b981-row14",
+      "person_id": "035cd9e5-a925-5452-ba91-94c9c7d93f19",
+      "claim_type": "identity",
+      "claim_text": "Indexed Ernest J Vardales is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The Army form prints Vardalas rather than Vardales; the exact nonshared protected identifier resolves the one-letter surname disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-ernest-j-vardales-b981-row14",
+      "person_id": "035cd9e5-a925-5452-ba91-94c9c7d93f19",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-17, Ernest J Vardales's historical civilian-occupation category was bootblacks.",
+      "evidence_paraphrase": "The official Army field carries historical code 234; NARA's code list defines it as Bootblacks.",
+      "identity_match_assessment": "The Army form prints Vardalas rather than Vardales; the exact nonshared protected identifier resolves the one-letter surname disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical pages 172 and 304; historical category 2-34"
+        }
+      ],
+      "affiliation_key": "ernest-j-vardales-occupation-b981"
+    },
+    {
+      "key": "identity-nicholas-j-vardales-army-b981-row15",
+      "person_id": "25db07f4-cf35-5db2-9dab-b70cf2a4a523",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nicholas J Vardales is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The Army form prints Vardalas rather than Vardales; the exact nonshared protected identifier resolves the one-letter surname disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-s-varga-army-b981-row17",
+      "person_id": "8ddc329b-5166-58be-a81b-05c9de8a832f",
+      "claim_type": "identity",
+      "claim_text": "Indexed George S Varga is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The Army form carries source-damaged VAR A rather than VARGA; the exact nonshared protected identifier resolves the missing-letter disagreement. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-p-vargo-army-b981-row19",
+      "person_id": "92b42abf-a44e-5d43-a297-059b899b5601",
+      "claim_type": "identity",
+      "claim_text": "Indexed Walter P Vargo is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-walter-p-vargo-b981-row19",
+      "person_id": "92b42abf-a44e-5d43-a297-059b899b5601",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-04, Walter P Vargo's historical civilian-occupation category was filers, grinders, buffers, and polishers (metal).",
+      "evidence_paraphrase": "The official Army field carries historical code 667; NARA's code list defines it as Filers, grinders, buffers, and polishers (metal).",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical page 174; historical category 6-77"
+        }
+      ],
+      "affiliation_key": "walter-p-vargo-occupation-b981"
+    },
+    {
+      "key": "identity-dimitry-v-varley-army-b981-row21",
+      "person_id": "f56c93f0-5f47-5259-9a4f-d1902526e795",
+      "claim_type": "identity",
+      "claim_text": "Indexed Dimitry V Varley is high-confidence matched to the official Army entry used for the dated finding.",
+      "evidence_paraphrase": "Official Army name comparison and a nonshared protected-identifier agreement support the match.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "The Army entry date is preserved separately from the later OSS-index context.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers were used only for private resolution and remain absent from the evidence bundle and public output.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dimitry-v-varley-b981-row21",
+      "person_id": "f56c93f0-5f47-5259-9a4f-d1902526e795",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-02, Dimitry V Varley's historical civilian-occupation category was professional occupations, not elsewhere classified.",
+      "evidence_paraphrase": "The official Army field carries historical code 039; NARA's code list defines it as Professional occupations, not elsewhere classified.",
+      "identity_match_assessment": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "temporal_assessment": "Dated at Army entry before the later OSS-index context; no named employer, school, workplace or exact OSS-transfer date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation or student status only; excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b981",
+          "locator_override": "Accepted identity bridge; protected identifier and raw record withheld"
+        },
+        {
+          "source_key": "army-tech-b981",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "army-codes-b981",
+          "locator_override": "PDF physical page 171; historical category 0-39"
+        }
+      ],
+      "affiliation_key": "dimitry-v-varley-occupation-b981"
+    },
+    {
+      "key": "identity-nicholas-vanikiotis-oss-roster-b981",
+      "person_id": "cc145a7a-d0ec-59d5-ac75-b2d4803beb18",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nicholas A Vanikiotis is confirmed as the technician fifth grade listed in a declassified OSS operational-group roster.",
+      "evidence_paraphrase": "The roster supplies the exact full name, enlisted grade and a private protected-identifier agreement with the index.",
+      "identity_match_assessment": "Confirmed by exact full name and protected-identifier agreement in a declassified OSS record.",
+      "temporal_assessment": "The roster documents OSS context but no named pre-OSS employer or school.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private; Box 799 review is needed for the pre-OSS sequence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "elia-nicholas-vanikiotis-b981"
+        }
+      ]
+    },
+    {
+      "key": "identity-leslie-vanoncini-peedee-b981",
+      "person_id": "380abb97-902d-5951-a1d8-6bd6eb32ffa5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Captain Leslie J Vanoncini is high-confidence matched to Leslie Vanoncini, commander of the OSS Peedee mission in Liguria.",
+      "evidence_paraphrase": "A scholarly resistance-history article identifies Leslie Vanoncini as the American OSS mission commander; the rare name and commissioned rank align with the index.",
+      "identity_match_assessment": "High confidence from rare full name, compatible commissioned rank and explicit OSS mission context.",
+      "temporal_assessment": "The source documents his 1945 OSS assignment but supplies no pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The article uses Major for the mission period while the index prints Captain; this may reflect promotion and is not used to infer an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "ilsrec-leslie-vanoncini-b981"
+        }
+      ]
+    },
+    {
+      "key": "identity-riccardo-vanzetti-oss-b981",
+      "person_id": "872fd96b-01dd-5c08-a89e-750b02488fc5",
+      "claim_type": "identity",
+      "claim_text": "Indexed Riccardo Vanzetti is high-confidence matched to the Riccardo Vanzetti on an OSS team dropped into the Alps in March 1944.",
+      "evidence_paraphrase": "The CIA historical article gives the rare exact name, OSS team context, date and wartime Air Force engineering background.",
+      "identity_match_assessment": "High confidence from rare exact name, explicit OSS team context and coherent wartime chronology.",
+      "temporal_assessment": "The article dates the OSS mission to 17 March 1944 and describes earlier Air Force service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 800 review remains necessary to confirm the personnel-file linkage and the exact service chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "cia-riccardo-vanzetti-b981"
+        }
+      ]
+    },
+    {
+      "key": "pre-oss-military-riccardo-vanzetti-b981",
+      "person_id": "872fd96b-01dd-5c08-a89e-750b02488fc5",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before his March 1944 OSS mission, Riccardo Vanzetti had served in the war as an Air Force engineer.",
+      "evidence_paraphrase": "The CIA article explicitly says Vanzetti had served in the war as an Air Force engineer before describing his OSS field activities.",
+      "identity_match_assessment": "High-confidence rare-name and explicit OSS-context match.",
+      "temporal_assessment": "Strongly date-bounded before the 17 March 1944 OSS drop; the source does not exclude an intervening affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment; excluded from verified-employer analytics and not labeled immediate.",
+      "sources": [
+        {
+          "source_key": "cia-riccardo-vanzetti-b981"
+        }
+      ],
+      "affiliation_key": "riccardo-vanzetti-italian-air-force-b981"
+    },
+    {
+      "key": "identity-mary-vardoulakis-author-b981",
+      "person_id": "4f7b6da3-c8bd-53c9-ad9c-8b5580843a18",
+      "claim_type": "identity",
+      "claim_text": "Indexed Mary Vardoulakis is probably the contemporary Wellesley graduate and author profiled in The Ahepan in 1945.",
+      "evidence_paraphrase": "The contemporary profile supplies the rare exact name, Massachusetts context and a 1944 graduation date compatible with the wartime index.",
+      "identity_match_assessment": "Probable rare-name contemporary match; no protected identifier or explicit OSS statement appears in the profile.",
+      "temporal_assessment": "The profile is contemporary but does not establish the date or nature of OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a visibly qualified probable identity; Box 800 review is required for confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b981"
+        },
+        {
+          "source_key": "ahepa-mary-vardoulakis-b981"
+        }
+      ]
+    },
+    {
+      "key": "student-mary-vardoulakis-wellesley-b981",
+      "person_id": "4f7b6da3-c8bd-53c9-ad9c-8b5580843a18",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "The probable Mary Vardoulakis match graduated from Wellesley College in 1944.",
+      "evidence_paraphrase": "A contemporary 1945 profile states that Mary Vardoulakis attended Wellesley College and graduated in 1944.",
+      "identity_match_assessment": "Probable rare-name contemporary match; no protected identifier or explicit OSS statement appears in the profile.",
+      "temporal_assessment": "The relationship to her OSS service is temporally uncertain; student status is not employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified student-status finding only; excluded from employer analytics and not labeled immediate pre-OSS.",
+      "sources": [
+        {
+          "source_key": "ahepa-mary-vardoulakis-b981",
+          "excerpt_override": "attended Wellesley College, being graduated in 1944"
+        }
+      ],
+      "affiliation_key": "mary-vardoulakis-wellesley-b981"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "95480abb-10c7-5e64-86a1-2d47edb5637e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies E L Vanduesen, Box 799, 800 or 801 and archive location 230/86/42/05. The initials-only name produced no source with a corroborating rank, identifier, box or OSS assignment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The initials-only name produced no source with a corroborating rank, identifier, box or OSS assignment."
+    },
+    {
+      "person_id": "837f23b5-5159-52e9-a811-1fcf59e9f569",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Raymond VanHoven, Box 799, 800 or 801 and archive location 230/86/42/05. Exact-name and spelling-variant searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "09a4a886-06b6-5156-b4f1-d88ed8723f39",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harvey T Vann, Box 799, 800 or 801 and archive location 230/86/42/05. A genealogy lead for a Harvey T Vann supplies no protected-identifier, Box 799, OSS or pre-OSS employment bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A genealogy lead for a Harvey T Vann supplies no protected-identifier, Box 799, OSS or pre-OSS employment bridge."
+    },
+    {
+      "person_id": "ddc13795-1aed-514d-8d8e-0577a0e70c39",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ida W Van't Hooft, Box 799, 800 or 801 and archive location 230/86/42/05. Exact-name and punctuation-variant searches produced no reliable identity or pre-OSS affiliation bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and punctuation-variant searches produced no reliable identity or pre-OSS affiliation bridge."
+    },
+    {
+      "person_id": "177435e9-1e16-5a09-a1ff-8a03541111c1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Francis E Vantimmeren, Box 799, 800 or 801 and archive location 230/86/42/05. A cemetery record supplies a death date but no OSS, Box 800, occupation or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A cemetery record supplies a death date but no OSS, Box 800, occupation or employer bridge."
+    },
+    {
+      "person_id": "cbacfe58-f834-5547-a2ad-978d4cd2a3c9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Anne M Varacalli, Box 799, 800 or 801 and archive location 230/86/42/05. A burial record identifies an Anne M Varacalli as a serviceman's spouse, but a relative relationship is irrelevant and does not establish OSS identity or employment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A burial record identifies an Anne M Varacalli as a serviceman's spouse, but a relative relationship is irrelevant and does not establish OSS identity or employment."
+    },
+    {
+      "person_id": "b43fa505-c460-52ad-9e03-30ad478e12d6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Theodore S Varalyay, Box 799, 800 or 801 and archive location 230/86/42/05. A veterans-burial lead identifies a Theodore S Varalyay in the U.S. Navy, but supplies no OSS, Box 800 or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A veterans-burial lead identifies a Theodore S Varalyay in the U.S. Navy, but supplies no OSS, Box 800 or employer bridge."
+    },
+    {
+      "person_id": "f60d655c-d626-561d-8975-05062679d8ec",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Michael S Vargo, Box 799, 800 or 801 and archive location 230/86/42/05. Common-name results and modern namesakes produced no source with a wartime OSS or Box 800 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results and modern namesakes produced no source with a wartime OSS or Box 800 bridge."
+    },
+    {
+      "person_id": "51f8ab95-fc49-5670-b757-ba89db8b5657",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Peter G Varlan, Box 799, 800 or 801 and archive location 230/86/42/05. A Maryland death index identifies a Peter G Varlan but supplies no OSS, Box 800, occupation or employer bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A Maryland death index identifies a Peter G Varlan but supplies no OSS, Box 800, occupation or employer bridge."
+    },
+    {
+      "person_id": "de861165-a156-510b-8259-e9462adb0184",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Herbert W Varner, Box 799, 800 or 801 and archive location 230/86/42/05. Common-name obituary and people-finder results produced no reliable wartime identity or employment bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name obituary and people-finder results produced no reliable wartime identity or employment bridge."
+    },
+    {
+      "person_id": "791fbd05-3b8c-5f79-b29e-80d5886abab5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army form separates Van Gampleare while the index prints Vangampleare; the nonshared protected identifier resolves the spacing-only disagreement. The protected identifier and raw record ordinal remain private.",
+      "name_variants": [
+        "Delbert E Van Gampleare"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "34190b8b-4744-50ec-8155-762be392e07e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "cc145a7a-d0ec-59d5-ac75-b2d4803beb18",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "f4e69784-6ef4-5a55-b00e-9e185ae2676c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "035cd9e5-a925-5452-ba91-94c9c7d93f19",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army form prints Vardalas rather than Vardales; the exact nonshared protected identifier resolves the one-letter surname disagreement. The protected identifier and raw record ordinal remain private.",
+      "name_variants": [
+        "Ernest J Vardalas"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "25db07f4-cf35-5db2-9dab-b70cf2a4a523",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army form prints Vardalas rather than Vardales; the exact nonshared protected identifier resolves the one-letter surname disagreement. The protected identifier and raw record ordinal remain private.",
+      "name_variants": [
+        "Nicholas J Vardalas"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 800 for the pre-OSS sequence. Historical Army occupation code 993 remains uninterpreted because no defensible definition was identified. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "8ddc329b-5166-58be-a81b-05c9de8a832f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army form carries source-damaged VAR A rather than VARGA; the exact nonshared protected identifier resolves the missing-letter disagreement. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 800 for the pre-OSS sequence. Historical Army occupation code 999 remains uninterpreted because no defensible definition was identified. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "92b42abf-a44e-5d43-a297-059b899b5601",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "f56c93f0-5f47-5259-9a4f-d1902526e795",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army and indexed names agree exactly and the protected identifier is nonshared. The protected identifier and raw record ordinal remain private.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to establish the immediate pre-OSS affiliation and named last civilian employer; do not convert the Army occupation category into a workplace."
+    },
+    {
+      "person_id": "380abb97-902d-5951-a1d8-6bd6eb32ffa5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A scholarly resistance-history article identifies Leslie Vanoncini as commander of the American OSS Peedee mission; the rare name and commissioned rank align with the index.",
+      "name_variants": [
+        "Les Vanoncini"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 800 for Leslie J Vanoncini's pre-OSS military and civilian chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "872fd96b-01dd-5c08-a89e-750b02488fc5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The CIA historical article gives the rare exact name Riccardo Vanzetti, an explicit OSS field-team role and coherent wartime Air Force engineering chronology.",
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "allied_or_foreign_personnel": true,
+      "research_status": "completed",
+      "next_action": "Review Box 800 to identify the specific Air Force organization, exact transition into OSS and any earlier civilian employer."
+    },
+    {
+      "person_id": "4f7b6da3-c8bd-53c9-ad9c-8b5580843a18",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "A contemporary 1945 profile supplies the rare exact name Mary Vardoulakis, Massachusetts context and a 1944 Wellesley graduation date, but no protected identifier or explicit OSS statement.",
+      "personnel_category": "unknown_or_indeterminate",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 800 to confirm the probable author identity, establish whether Wellesley preceded OSS service, and identify any civilian employment. Student status is not an employer."
+    },
+    {
+      "person_id": "93b0a921-de70-5a2a-b10b-72c9b3e3dde9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies 1st Lt Thomas A Varnson, a protected officer identifier, Box 801 and archive location 230/86/42/05, but no external identity or employment bridge was found.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 801 for Thomas A Varnson's identity, pre-OSS military assignment and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page481-row1-e-l-vanduesen-b981",
+      "person_id": "95480abb-10c7-5e64-86a1-2d47edb5637e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "E L Vanduesen; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "The initials-only name produced no source with a corroborating rank, identifier, box or OSS assignment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row2-delbert-e-vangampleare-b981",
+      "person_id": "791fbd05-3b8c-5f79-b29e-80d5886abab5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Delbert E Vangampleare; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row3-vito-vangi-b981",
+      "person_id": "34190b8b-4744-50ec-8155-762be392e07e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vito Vangi; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row4-raymond-vanhoven-b981",
+      "person_id": "837f23b5-5159-52e9-a811-1fcf59e9f569",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond VanHoven; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name and spelling-variant searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row5-nicholas-a-vanikiotis-b981",
+      "person_id": "cc145a7a-d0ec-59d5-ac75-b2d4803beb18",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas A Vanikiotis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row6-harvey-t-vann-b981",
+      "person_id": "09a4a886-06b6-5156-b4f1-d88ed8723f39",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harvey T Vann; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "A genealogy lead for a Harvey T Vann supplies no protected-identifier, Box 799, OSS or pre-OSS employment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row7-leslie-j-vanoncini-b981",
+      "person_id": "380abb97-902d-5951-a1d8-6bd6eb32ffa5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leslie J Vanoncini; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row8-ida-w-van-t-hooft-b981",
+      "person_id": "ddc13795-1aed-514d-8d8e-0577a0e70c39",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ida W Van't Hooft; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Exact-name and punctuation-variant searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row9-francis-e-vantimmeren-b981",
+      "person_id": "177435e9-1e16-5a09-a1ff-8a03541111c1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis E Vantimmeren; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "A cemetery record supplies a death date but no OSS, Box 800, occupation or employer bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row10-riccardo-vanzetti-b981",
+      "person_id": "872fd96b-01dd-5c08-a89e-750b02488fc5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Riccardo Vanzetti; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row11-anne-m-varacalli-b981",
+      "person_id": "cbacfe58-f834-5547-a2ad-978d4cd2a3c9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anne M Varacalli; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "A burial record identifies an Anne M Varacalli as a serviceman's spouse, but a relative relationship is irrelevant and does not establish OSS identity or employment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row12-francis-r-varacalli-b981",
+      "person_id": "f4e69784-6ef4-5a55-b00e-9e185ae2676c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis R Varacalli; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row13-theodore-s-varalyay-b981",
+      "person_id": "b43fa505-c460-52ad-9e03-30ad478e12d6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Theodore S Varalyay; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "A veterans-burial lead identifies a Theodore S Varalyay in the U.S. Navy, but supplies no OSS, Box 800 or employer bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row14-ernest-j-vardales-b981",
+      "person_id": "035cd9e5-a925-5452-ba91-94c9c7d93f19",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest J Vardales; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row15-nicholas-j-vardales-b981",
+      "person_id": "25db07f4-cf35-5db2-9dab-b70cf2a4a523",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nicholas J Vardales; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row16-mary-vardoulakis-b981",
+      "person_id": "4f7b6da3-c8bd-53c9-ad9c-8b5580843a18",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary Vardoulakis; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row17-george-s-varga-b981",
+      "person_id": "8ddc329b-5166-58be-a81b-05c9de8a832f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George S Varga; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row18-michael-s-vargo-b981",
+      "person_id": "f60d655c-d626-561d-8975-05062679d8ec",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Michael S Vargo; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name results and modern namesakes produced no source with a wartime OSS or Box 800 bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row19-walter-p-vargo-b981",
+      "person_id": "92b42abf-a44e-5d43-a297-059b899b5601",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter P Vargo; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row20-peter-g-varlan-b981",
+      "person_id": "51f8ab95-fc49-5670-b757-ba89db8b5657",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Peter G Varlan; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "A Maryland death index identifies a Peter G Varlan but supplies no OSS, Box 800, occupation or employer bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row21-dimitry-v-varley-b981",
+      "person_id": "f56c93f0-5f47-5259-9a4f-d1902526e795",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dimitry V Varley; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Reviewed official, institutional or contemporary evidence produced the identity, occupation, student-status or military-assignment outcome recorded in the bundle. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row22-herbert-w-varner-b981",
+      "person_id": "de861165-a156-510b-8259-e9462adb0184",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert W Varner; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "Common-name obituary and people-finder results produced no reliable wartime identity or employment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    },
+    {
+      "key": "page481-row23-thomas-a-varnson-b981",
+      "person_id": "93b0a921-de70-5a2a-b10b-72c9b3e3dde9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas A Varnson; NARA OSS index and official Archives context; CIA Reading Room or equivalent official-source context; exact-name and meaningful variants; OSS, Army, rank, mission and unit clues; employer and occupation 1940; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Boxes 799-801; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_981",
+      "started_at": "2026-10-30T15:00:00Z",
+      "completed_at": "2026-10-30T18:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search snippets, unsourced genealogy, commercial people-finder pages, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank or personnel-file bridge were rejected. Historical occupation codes, student status and military assignments were not silently converted into employers.",
+      "research_notes": "The commissioned rank remains source-indexed, but external searches produced no reliable identity or pre-OSS affiliation bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. The index, Army bulk match evidence, code list, CIA article, declassified OSS roster, resistance-history journal and contemporary AHEPA profile were inspected directly where relevant. No search-result snippet was used as sole final evidence, no access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b981-v1"
+    }
+  ]
+}
