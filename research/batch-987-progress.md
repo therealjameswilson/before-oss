@@ -125,6 +125,13 @@ Archive location: 230/86/42/05
   421,716,883 bytes and tree SHA-256
   `3938a85817c5d3758e686ce53174193904e4f4f7cdb67e1fd0ae8d71690d673b`.
 - The production dependency audit found zero vulnerabilities.
+- Batch 987 is public from immutable content commit
+  `e1a28363bb261c168375b7569198307d6e5d3e9a`. GitHub Actions Test run
+  `41076904752` and Pages run `41076904914` both succeeded. The unauthenticated
+  verifier matched all 67 manifested assets across 132,333,835 bytes, eight
+  core routes, all 43 source-register pages and all 23 direct cohort profiles,
+  reproducing manifest SHA-256
+  `902ff9b8c1c42a07e0514c44bbed6f0bb6968381cc80446581c5395fa81725a2`.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable replay
   inputs. Batch 987 itself is replayable to the same authoritative state.

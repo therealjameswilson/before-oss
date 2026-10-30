@@ -69,6 +69,10 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Not yet published. Immutable content commit, independent GitHub Actions Test
-and Pages runs, and unauthenticated deployed-release verification will be
-recorded only after they exist.
+Batch 987 is public from immutable content commit
+`e1a28363bb261c168375b7569198307d6e5d3e9a`. GitHub Actions Test run
+`41076904752` and Pages run `41076904914` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets byte for byte across
+132,333,835 bytes, verified eight core routes, all 43 source-register pages and
+all 23 direct cohort profiles, and reproduced manifest SHA-256
+`902ff9b8c1c42a07e0514c44bbed6f0bb6968381cc80446581c5395fa81725a2`.

@@ -35,8 +35,13 @@ internal links resolve; the protected-identifier audit found zero unexpected
 matches; the checked-in 67-asset manifest verifies locally; the production
 dependency audit found zero vulnerabilities; and two clean builds are
 deterministic. Full local verification is recorded in
-`reports/release_batch_987.md`. Publication evidence will be added only after
-the release is pushed and independently verified.
+`reports/release_batch_987.md`. Batch 987 is public from immutable content
+commit `e1a28363bb261c168375b7569198307d6e5d3e9a`; GitHub Actions Test run
+`41076904752` and Pages run `41076904914` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets across 132,333,835
+bytes, eight core routes, all 43 source-register pages and all 23 direct cohort
+profiles, with manifest SHA-256
+`902ff9b8c1c42a07e0514c44bbed6f0bb6968381cc80446581c5395fa81725a2`.
 
 Batch 986 completed PDF page 483, rows 24-46, from **Joseph P Viggiani**
 through **Edward J Virant**, preserving all 23 printed rows as separate people
