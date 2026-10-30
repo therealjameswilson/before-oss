@@ -84,6 +84,22 @@ Date: 2026-10-29 America/New_York
 
 ## Publication verification
 
-- Publication is pending the immutable content commit and GitHub Actions
-  deployment. This section will be replaced with commit, workflow and live
-  manifest evidence after the public deployment succeeds.
+- Immutable content commit:
+  [`5b387d7a7f4999d59c95cfddac1c07ce49e48c78`](https://github.com/therealjameswilson/before-oss/commit/5b387d7a7f4999d59c95cfddac1c07ce49e48c78).
+- GitHub Test run
+  [40984021459](https://github.com/therealjameswilson/before-oss/actions/runs/40984021459)
+  passed, including the Python tests, checked-in public-manifest check, bounded
+  browser release suite and public-identifier redaction audit.
+- GitHub Pages run
+  [40984021473](https://github.com/therealjameswilson/before-oss/actions/runs/40984021473)
+  passed and deployed the immutable content commit.
+- The unauthenticated deployed-release verifier compared 67 public assets
+  totaling 128,624,954 bytes to that commit's manifest; the deployed manifest
+  SHA-256 was
+  `a048c31a658219a4de487a65e9be2deeb1efa8a60a8248628e21f15b2dacb2a6`.
+- Eight core routes, 42 source-register pages and all 23 direct Batch 962
+  profile routes returned successfully from
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub emitted advisory runner notices about the Node.js 20 action-runtime
+  transition and the `ubuntu-latest` migration; neither caused a test or
+  deployment failure.

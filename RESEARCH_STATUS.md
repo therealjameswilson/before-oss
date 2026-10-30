@@ -40,7 +40,12 @@ files with zero errors, warnings or hints and builds 25,224 static pages. The
 accessibility release suite pass, as do the complete internal-link check,
 protected-identifier audit, checked-in public manifest, zero-vulnerability
 production dependency audit and two deterministic consecutive builds.
-Publication verification will be recorded in `reports/release_batch_962.md`.
+Publication is public from immutable content commit
+`5b387d7a7f4999d59c95cfddac1c07ce49e48c78`; GitHub Actions Test run
+`40984021459` and Pages run `40984021473` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 962
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_962.md`.
 
 Batch 961 completed PDF page 471, rows 3-25, from **Fulton B Torry** through
 **Campbell Townsend**, preserving all 23 printed rows as separate people with
