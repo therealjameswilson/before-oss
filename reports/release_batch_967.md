@@ -64,6 +64,19 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication identifiers will be added after the immutable content commit,
-GitHub Test run, Pages deployment and unauthenticated live verification pass.
+- Immutable content commit:
+  [`d44e77e0a557c86c5939e8ecd4790ade0e1f8ac9`](https://github.com/therealjameswilson/before-oss/commit/d44e77e0a557c86c5939e8ecd4790ade0e1f8ac9).
+- GitHub Test run
+  [41002440604](https://github.com/therealjameswilson/before-oss/actions/runs/41002440604)
+  passed, including the Python tests, checked-in manifest check, bounded browser
+  release suite and public-identifier redaction audit.
+- GitHub Pages run
+  [41002440687](https://github.com/therealjameswilson/before-oss/actions/runs/41002440687)
+  passed and deployed the immutable content commit.
+- The unauthenticated verifier compared 67 public assets totaling 129,429,255
+  bytes to the commit manifest; the deployed manifest SHA-256 was
+  `da825849226190445d9a225a987e216ac252bf76bc815f547a486d87b7f17153`.
+- Eight core routes, 42 source-register pages and all 23 direct Batch 967
+  profile routes returned successfully from
+  <https://therealjameswilson.github.io/before-oss/>.
 

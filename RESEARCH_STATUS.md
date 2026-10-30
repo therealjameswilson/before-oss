@@ -31,8 +31,12 @@ integrity, extraction validation, the 200-profile audit, all 147 Python tests,
 Astro's zero-diagnostic build, the 27/27 batch browser matrix and the full
 96/96 browser and accessibility release suite. All 25,236 internal page links
 resolve, the protected-identifier audit found zero unexpected matches, and the
-67-asset public manifest verifies locally. Publication verification is being
-recorded in `reports/release_batch_967.md`.
+67-asset public manifest verifies locally. Publication is public from immutable
+content commit `d44e77e0a557c86c5939e8ecd4790ade0e1f8ac9`; GitHub Actions Test run
+`41002440604` and Pages run `41002440687` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 967
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_967.md`.
 
 Batch 966 completed PDF page 473, rows 24-46, from **Michael J Troisi**
 through **John V Truden**, preserving all 23 printed rows as separate people
