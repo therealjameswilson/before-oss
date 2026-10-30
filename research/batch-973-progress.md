@@ -126,6 +126,11 @@ Continue with PDF page 477, row 24, **Joe W Ulmer**, Box 793, archive location
 
 ## Publication verification
 
-Publication is pending. The verified local release has not yet been represented
-as public until the immutable content commit, GitHub Actions checks and the
-unauthenticated deployed-release comparison all succeed.
+Published from immutable content commit
+`6bd6d4b1d446099dcae1e93ba5ff2c604af0ebd4`. GitHub Actions Test run
+`41020517246` and Pages run `41020517138` succeeded. The unauthenticated
+deployed-release verifier matched all 67 public assets (130,347,745 bytes;
+manifest SHA-256
+`45e73ffb606c12801ec465438bfb2f9c72070bd3f723261cc6c8a8cd432c6614`),
+eight core routes, 42 source-register pages and all 23 Batch 973 direct profile
+routes at <https://therealjameswilson.github.io/before-oss/>.

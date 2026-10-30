@@ -33,9 +33,13 @@ the 200-profile audit, all 147 Python tests, Astro's zero-diagnostic build, the
 36/36 batch browser matrix and the full 105/105 browser and accessibility
 release suite. All 25,244 internal page links resolve, the protected-identifier
 audit found zero unexpected matches, and two consecutive builds reproduced the
-67-asset public manifest and full static output tree. Publication remains
-pending until the immutable content commit, GitHub Actions checks and
-unauthenticated deployed-release comparison succeed.
+67-asset public manifest and full static output tree. Publication is public
+from immutable content commit
+`6bd6d4b1d446099dcae1e93ba5ff2c604af0ebd4`; GitHub Actions Test run
+`41020517246` and Pages run `41020517138` succeeded, and the unauthenticated
+manifest, eight core routes, 42 source-register pages and all 23 Batch 973
+profile routes match that commit. Full verification is recorded in
+`reports/release_batch_973.md`.
 
 Batch 972 completed PDF page 476, rows 24-46, from **George B Tweed** through
 **John Tyson**, preserving all 23 printed rows as separate people with saved
