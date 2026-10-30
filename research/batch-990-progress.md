@@ -108,11 +108,28 @@ Archive location: 230/86/42/06
 - SQLite integrity, foreign keys, complete ingest validation and the
   200-profile stratified audit passed every check.
 - All 147 Python pipeline tests passed.
-- Astro checked 628 files with zero diagnostics and built the static site.
 - The targeted Batch 990 browser matrix passed all 30 checks across desktop,
   phone and tablet.
-- Full clean-archive release, identifier, link, determinism, dependency and
-  deployed-site checks are recorded in `reports/release_batch_990.md`.
+- The clean release suite passed all 99 current-batch, core-route, analysis
+  and accessibility checks, including 30 axe scans with no serious or
+  critical violations.
+- The exact committed tree built twice from a clean archive: Astro checked 621
+  files with zero diagnostics and built 25,290 canonical pages. Both builds
+  reproduced 25,362 files, 422,575,960 bytes and tree SHA-256
+  `a589f230670128630e29fb40fb27eeae5ec688f58cac16070c84763dff2803b8`.
+- The clean internal-link check resolved every link in all 25,290 HTML files;
+  52,211 unique external URLs were inventoried for separate live checking.
+- The clean identifier audit checked 12,926 normalized private identifiers
+  and 120 formatted variants across 25,362 artifacts, finding zero unexpected
+  boundary matches. The production dependency audit found zero
+  vulnerabilities.
+- The checked-in 67-asset public manifest verifies locally at 132,835,276
+  bytes with SHA-256
+  `772ceea7fb76f85d985840e91b2495d8609a9569228872b5de68abc8fb26ea56`.
+- The 70-file public tree totals 135,182,431 bytes and has SHA-256
+  `2b0a9d657bed395d26ddac615a51244ddb54555d4bdd5ef85b0e0f85315504b9`.
+- Deployed-site verification is recorded in
+  `reports/release_batch_990.md` after GitHub Pages publication.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable
   replay inputs. Batch 990 itself is replayable to the same authoritative
