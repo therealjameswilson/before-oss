@@ -73,6 +73,19 @@ Date: 2026-10-30 America/New_York
 
 ## Publication verification
 
-Publication is pending the GitHub Actions Test and Pages workflows. This
-section will identify the immutable release commit and unauthenticated live
-verification only after both workflows succeed.
+- Immutable published release commit:
+  `fbe0a61e026a68c345778fa0d32eecd40270fe20`.
+- GitHub Actions Test run `41101760989` completed successfully.
+- GitHub Pages run `41101759540` completed successfully; its deploy job
+  completed at `2026-10-30T18:00:14Z`.
+- On 2026-11-02, the unauthenticated deployed-release verifier checked the
+  live GitHub Pages site against that exact commit and the Batch 991 evidence
+  bundle. It verified all 67 public assets (132,965,437 bytes; manifest
+  SHA-256
+  `0a917647f633360fca8a780a8e109308b6219622472f3c02bbe6e233edb8ad53`),
+  all eight core routes, all 44 source-register pages and all 23 direct Batch
+  991 profile routes.
+- Independent unauthenticated HTTP checks returned status 200 for the home
+  page, the Jacques Voyer, Wayne S. Vucinich and George M. Vujnovich profile
+  pages, and the oil-company category page.
+- Public release URL: <https://therealjameswilson.github.io/before-oss/>.

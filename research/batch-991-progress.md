@@ -118,7 +118,13 @@ Archive location: 230/86/42/06
   `0a917647f633360fca8a780a8e109308b6219622472f3c02bbe6e233edb8ad53`.
 - The 70-file public tree totals 135,312,593 bytes and has SHA-256
   `6ef5b1879c05dd5c7efb36de8c837c6d5b215930698ac13d2df497301eb10bb4`.
-- Full local and publication verification is recorded in
+- Release commit `fbe0a61e026a68c345778fa0d32eecd40270fe20` passed GitHub
+  Actions Test run `41101760989` and Pages run `41101759540`. On 2026-11-02,
+  the unauthenticated verifier reproduced the 67-asset public manifest and
+  verified all eight core routes, 44 source-register pages and 23 direct
+  cohort profiles on <https://therealjameswilson.github.io/before-oss/>.
+  Representative home, profile and oil-category URL checks also returned
+  status 200. Full local and publication verification is recorded in
   `reports/release_batch_991.md`.
 - The known older replay gap disclosed in Batch 959 remains open: 473
   pre-Batch-959 person-status changes are not yet represented in durable
