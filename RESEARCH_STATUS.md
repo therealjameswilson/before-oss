@@ -33,10 +33,15 @@ tests, Astro's zero-diagnostic 25,295-page build, the 30/30 targeted browser
 matrix and the 99/99 bounded browser/accessibility release suite. All internal
 links resolve, the protected-identifier audit found zero unexpected matches,
 the 67-asset public manifest verifies locally, the production dependency audit
-found zero vulnerabilities and two clean builds are deterministic. Immutable
-commit, GitHub Actions and unauthenticated deployed-release verification
-remain pending; the current public site is still the verified Batch 992
-release.
+found zero vulnerabilities and two clean builds are deterministic. Batch 993
+is public from immutable content commit
+`ba5591c4cf39df3f4d126a382f9fe535cb4ca542`; GitHub Actions Test run
+`41646553063` and Pages run `41646553232` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets across 133,183,387
+bytes, eight core routes, all 44 source-register pages and all 23 direct cohort
+profiles, with manifest SHA-256
+`3d6b8aa24c6bc13d11bfd940472033fb3e7f31689e23f947bee4c2e003bd47e5`.
+Full publication evidence is recorded in `reports/release_batch_993.md`.
 
 Batch 992 completed PDF page 486, rows 24-46, from **William Vyhnal** through
 **Claude V. Wadsworth**, preserving all 23 printed rows as separate people

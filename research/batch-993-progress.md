@@ -108,9 +108,15 @@ Archive location: 230/86/42/06
   tree SHA-256
   `15e1954fe7708368a2c200a5f4d74702ebaff780fcadb80b30227c948ea133ec`.
   The production dependency audit found zero vulnerabilities.
-- Local release gates are complete. Immutable commit, GitHub Actions and
-  unauthenticated deployed-release verification remain pending before Batch
-  993 can be described as published.
+- Immutable content commit
+  `ba5591c4cf39df3f4d126a382f9fe535cb4ca542` is published. GitHub Actions
+  Test run `41646553063` and Pages run `41646553232` both succeeded.
+- The unauthenticated deployed-release verifier matched all 67 manifested
+  assets across 133,183,387 bytes, all eight core routes, all 44 source-
+  register pages and all 23 direct Batch 993 profile routes. Independent HTTP
+  checks returned status 200 for the home page, oil-company category and the
+  Siegfried Wagener, Stuyvesant Wainwright, Ludwig Anton Wagner and Harvey W.
+  Wainwright profiles.
 
 ## Resume point
 
