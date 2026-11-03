@@ -1,5 +1,37 @@
 # Research status
 
+Batch 992 completed PDF page 486, rows 24-46, from **William Vyhnal** through
+**Claude V. Wadsworth**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Official Army bridges for Charles S Wade and Frederick J Wadley III support
+only qualified historical occupation categories, never named employers or
+agencies. John E Wachsmuth's probable University of Minnesota ROTC match is a
+student and institutional affiliation, not employment or commissioned proof.
+Bertus Harry Wabeke's probable postwar institutional biography remains an
+identity lead and creates no pre-OSS employer. Nineteen unresolved people
+retain explicit archival-review guidance and no invented affiliations. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,748/23,936 (65.7921%)**;
+verified-employer coverage is **516/23,936 (2.1557%)**; verified-affiliation
+coverage is **1,138/23,936 (4.7543%)**; archival-review coverage is
+**14,223/23,936 (59.4210%)**. There are **8,183** not-started people, **679**
+possible-duplicate groups and **531** conflicts. The public projection
+contains **3,954** affiliations, **1,303** organizations, **6,488** sources
+and **10,075** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 486, row
+47, **Geoffrey E. Wagner**. See `research/batch-992-progress.md`.
+
+Batch 992 passed evidence validation, durable import, SQLite integrity, the
+complete 522-page ingest audit, all 149 Python tests, Astro's zero-diagnostic
+25,291-page build, the 24/24 targeted browser matrix and the 93/93 bounded
+browser/accessibility release suite. All internal links resolve, the protected
+identifier audit found zero unexpected matches, the 67-asset public manifest
+verifies locally and two clean builds are deterministic. Publication status is
+recorded in `reports/release_batch_992.md`.
+
 Batch 991 completed PDF page 486, rows 1-23, from **Jacques Voyer** through
 **Ladislav Hugh Vydra**, preserving all 23 printed rows as
 separate people with saved terminal research outcomes.

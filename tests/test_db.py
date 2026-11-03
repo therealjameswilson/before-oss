@@ -3,12 +3,43 @@ from __future__ import annotations
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from oss_research.constants import PERSONNEL_CATEGORIES
 from oss_research.db import connect, migrate
 
 
 class DatabaseMigrationTests(unittest.TestCase):
+    def test_noncanonical_duplicate_migration_files_are_ignored(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            migrations = root / "migrations"
+            migrations.mkdir()
+            (migrations / "001_canonical.sql").write_text(
+                "CREATE TABLE canonical_marker(value TEXT);\n", encoding="utf-8"
+            )
+            (migrations / "001_canonical 2.sql").write_text(
+                "CREATE TABLE duplicate_marker(value TEXT);\n", encoding="utf-8"
+            )
+            (migrations / "notes.sql").write_text(
+                "CREATE TABLE notes_marker(value TEXT);\n", encoding="utf-8"
+            )
+            connection = connect(root / "test.sqlite")
+            try:
+                with patch("oss_research.db.MIGRATIONS_DIR", migrations):
+                    self.assertEqual(migrate(connection), ["001_canonical"])
+                tables = {
+                    row[0]
+                    for row in connection.execute(
+                        "SELECT name FROM sqlite_master WHERE type = 'table'"
+                    )
+                }
+                self.assertIn("canonical_marker", tables)
+                self.assertNotIn("duplicate_marker", tables)
+                self.assertNotIn("notes_marker", tables)
+            finally:
+                connection.close()
+
     def test_source_records_accept_every_normalized_personnel_category(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             connection = connect(Path(temp_dir) / "test.sqlite")

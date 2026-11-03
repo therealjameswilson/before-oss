@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 from oss_research.public import (
+    _canonical_public_manifest_paths,
     _redact_private_identifiers,
     _write_json,
     mask_serial,
@@ -78,6 +79,23 @@ class PublicProjectionTests(unittest.TestCase):
             second = path.with_suffix(".json.gz").read_bytes()
             self.assertEqual(first, second)
             self.assertEqual(first[4:8], b"\x00\x00\x00\x00")
+
+    def test_manifest_contract_ignores_unrelated_duplicate_files(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = _canonical_public_manifest_paths(
+                root / "data",
+                root / "downloads",
+                ["A", "other"],
+            )
+            relative = {str(path.relative_to(root)) for path in paths}
+            self.assertIn("data/analytics.json", relative)
+            self.assertIn("data/people/a.json.gz", relative)
+            self.assertIn("data/people/other.json", relative)
+            self.assertIn("downloads/personnel_public.jsonl", relative)
+            self.assertNotIn("data/analytics 2.json", relative)
+            self.assertNotIn("data/public_build_manifest 2.json", relative)
+            self.assertNotIn("downloads/personnel_public 2.csv", relative)
 
     def test_masks_service_number(self) -> None:
         self.assertEqual(mask_serial("RA3389449"), "••••9449")

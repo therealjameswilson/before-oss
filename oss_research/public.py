@@ -329,6 +329,54 @@ def _write_jsonl(path: Path, rows: list[dict[str, object]]) -> None:
             )
 
 
+def _canonical_public_manifest_paths(
+    data_root: Path,
+    downloads_root: Path,
+    shard_keys: list[str],
+) -> list[Path]:
+    """Return only assets produced by the current public-data build.
+
+    The working tree can contain unrelated or user-owned files. A manifest
+    must never absorb those merely because they happen to exist under the
+    output directories. Enumerating the build contract also prevents stale
+    copies and Finder-style duplicate filenames from becoming release assets.
+    """
+    json_names = (
+        "analytics.json",
+        "organizations.json",
+        "search-index.json",
+        "sources.json",
+        "stats.json",
+    )
+    paths = [
+        path
+        for name in json_names
+        for path in (
+            data_root / name,
+            data_root / f"{name}.gz",
+        )
+    ]
+    for key in sorted(shard_keys):
+        name = f"{key.lower()}.json"
+        paths.extend(
+            (
+                data_root / "people" / name,
+                data_root / "people" / f"{name}.gz",
+            )
+        )
+    paths.extend(
+        downloads_root / name
+        for name in (
+            "affiliations_public.csv",
+            "organizations_public.csv",
+            "personnel_public.csv",
+            "personnel_public.jsonl",
+            "sources_public.csv",
+        )
+    )
+    return sorted(paths)
+
+
 def _published_affiliations(
     connection: sqlite3.Connection,
 ) -> dict[str, list[dict[str, object]]]:
@@ -856,19 +904,23 @@ def build_public_data(
     if leaked_tokens:
         raise ValueError(f"Forbidden public fields detected: {leaked_tokens}")
 
-    manifest_entries = []
-    for path in sorted((data_root).rglob("*")) + sorted(downloads.rglob("*")):
-        if path.is_file() and path.name not in {
-            "public_build_manifest.json",
-            "public_build_manifest.json.gz",
-        }:
-            manifest_entries.append(
-                {
-                    "path": str(path.relative_to(PUBLIC_ROOT)),
-                    "size_bytes": path.stat().st_size,
-                    "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
-                }
-            )
+    manifest_paths = _canonical_public_manifest_paths(
+        data_root,
+        downloads,
+        list(shards),
+    )
+    missing_manifest_paths = [path for path in manifest_paths if not path.is_file()]
+    if missing_manifest_paths:
+        missing = [str(path.relative_to(PUBLIC_ROOT)) for path in missing_manifest_paths]
+        raise ValueError(f"Expected public build assets are missing: {missing}")
+    manifest_entries = [
+        {
+            "path": str(path.relative_to(PUBLIC_ROOT)),
+            "size_bytes": path.stat().st_size,
+            "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+        }
+        for path in manifest_paths
+    ]
     manifest = {
         "data_version": PUBLIC_DATA_VERSION,
         "generated_at": stats["generated_at"],

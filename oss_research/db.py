@@ -1,10 +1,14 @@
 from __future__ import annotations
 
+import re
 import sqlite3
 from datetime import UTC, datetime
 from pathlib import Path
 
 from .constants import DEFAULT_DB, MIGRATIONS_DIR
+
+
+CANONICAL_MIGRATION_NAME = re.compile(r"^\d{3}_[a-z0-9_]+\.sql$")
 
 
 def utc_now() -> str:
@@ -30,7 +34,12 @@ def migrate(connection: sqlite3.Connection) -> list[str]:
         row[0] for row in connection.execute("SELECT version FROM schema_migrations")
     }
     installed: list[str] = []
-    for migration in sorted(MIGRATIONS_DIR.glob("*.sql")):
+    migrations = (
+        path
+        for path in MIGRATIONS_DIR.glob("*.sql")
+        if CANONICAL_MIGRATION_NAME.fullmatch(path.name)
+    )
+    for migration in sorted(migrations):
         version = migration.stem
         if version in applied:
             continue
