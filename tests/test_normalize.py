@@ -52,6 +52,21 @@ class NormalizeTests(unittest.TestCase):
         )
         self.assertFalse(result.commissioned_officer)
 
+    def test_printed_civilian_status_is_civilian_and_not_an_officer(self) -> None:
+        result = classify_personnel("Civilian", None)
+        self.assertEqual(result.rank_normalized, "CIVILIAN")
+        self.assertEqual(
+            result.category, "civilian_professional_or_administrative_grade"
+        )
+        self.assertFalse(result.commissioned_officer)
+
+    def test_usnr_note_classifies_ambiguous_captain_as_naval_officer(self) -> None:
+        result = classify_personnel("Capt.", "USNR")
+        self.assertEqual(result.rank_normalized, "CAPT")
+        self.assertEqual(result.category, "commissioned_naval_officer")
+        self.assertTrue(result.commissioned_officer)
+        self.assertIn("notes", result.note or "")
+
     def test_unknown_rank_stays_unknown(self) -> None:
         result = classify_personnel("WAE", None)
         self.assertEqual(result.category, "unknown_or_indeterminate")

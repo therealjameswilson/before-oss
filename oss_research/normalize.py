@@ -80,7 +80,7 @@ NAVAL_ENLISTED_PREFIXES = (
     "SK ",
 )
 CIVILIAN_GRADE_RE = re.compile(r"^(?:CAF|P|CPC|SP)-?\d+[A-Z]?$", re.IGNORECASE)
-CIVILIAN_STATUS_RANKS = {"CIV"}
+CIVILIAN_STATUS_RANKS = {"CIV", "CIVILIAN"}
 TEMPORARY_GRADE_RE = re.compile(r"^(?:TEMP|CONTRACT|SPECIAL|CONSULTANT)\b", re.IGNORECASE)
 FOREIGN_NOTE_RE = re.compile(
     r"\b(?:POLISH|FRENCH|BRITISH|CANADIAN|DUTCH|BELGIAN|NORWEGIAN|"
@@ -270,6 +270,16 @@ def classify_personnel(rank_raw: str | None, notes_raw: str | None) -> Personnel
                 rank, "enlisted_coast_guard_personnel", False, False,
                 "Coast Guard branch is based on the printed notes field."
             )
+    if re.search(r"\bUSNR?\b", notes, re.IGNORECASE) and (
+        rank in ARMY_OFFICER_RANKS or rank in NAVAL_OFFICER_RANKS
+    ):
+        return PersonnelClassification(
+            rank,
+            "commissioned_naval_officer",
+            True,
+            foreign,
+            "Naval branch is based on the printed USN or USNR notes field.",
+        )
     if foreign and rank:
         return PersonnelClassification(
             rank, "foreign_or_allied_military_personnel", None, True,
@@ -281,7 +291,7 @@ def classify_personnel(rank_raw: str | None, notes_raw: str | None) -> Personnel
             "civilian_professional_or_administrative_grade",
             False,
             foreign,
-            "Civilian status is based on the printed Civ abbreviation in the rank or grade field.",
+            "Civilian status is based on the printed Civ or Civilian wording in the rank or grade field.",
         )
     if naval_rank != rank and naval_rank in NAVAL_OFFICER_RANKS.union({"LT"}):
         return PersonnelClassification(
