@@ -1,0 +1,1826 @@
+{
+  "bundle_version": "batch-994-v1",
+  "reviewer": "Before OSS Batch 994 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b994",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 811-812 and 815",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 487, rows 24-46; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. PDF page 488 row 1, Richard D Walk, is outside this cohort and begins the next batch."
+    },
+    {
+      "key": "army-bulk-b994",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; three accepted protected-identifier comparisons; identifiers and record ordinals withheld",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Three records were accepted after exact protected-identifier comparison. Carl O. Walden and James E. Walden share one indexed identifier, received no bulk match and remain separate conflicting rows."
+    },
+    {
+      "key": "army-tech-b994",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b994",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Historical civilian-occupation categories 0-02, 0-68 and 2-66",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify broad occupations, not named employers, agencies, productions, workplaces or exact OSS-transfer dates."
+    },
+    {
+      "key": "awm-nancy-wake-b994",
+      "stable_url": "https://www.awm.gov.au/collection/P332",
+      "archival_identifier": "Australian War Memorial person record P332",
+      "title": "Nancy Grace Augusta Wake",
+      "author_creator": "Australian War Memorial",
+      "repository_publisher": "Australian War Memorial",
+      "locator": "Description and timeline",
+      "access_date": "2026-11-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Australian War Memorial People collection",
+      "rights_notes": "The record documents Hearst journalism, French Resistance work and SOE service. It does not itself document OSS employment or assignment."
+    },
+    {
+      "key": "yale-eugene-waith-b994",
+      "stable_url": "https://news.yale.edu/2007/11/08/memoriam-eugene-m-waith-professor-english-literature",
+      "title": "In Memoriam: Eugene M. Waith, Professor of English Literature",
+      "author_creator": "Yale News",
+      "repository_publisher": "Yale University",
+      "publication_record_date": "2007-11-08",
+      "locator": "Biographical paragraphs 79-95",
+      "access_date": "2026-11-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Yale News In Memoriam",
+      "rights_notes": "The institutional biography explicitly documents the full name, 1939 Yale appointment, 1943-1946 Army service, promotion to first lieutenant and OSS counterintelligence service."
+    },
+    {
+      "key": "usni-george-walbridge-b994",
+      "stable_url": "https://www.usni.org/people/george-o-walbridge",
+      "title": "George O. Walbridge",
+      "author_creator": "U.S. Naval Institute",
+      "repository_publisher": "U.S. Naval Institute",
+      "locator": "Author biography",
+      "access_date": "2026-11-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "U.S. Naval Institute author biographies",
+      "rights_notes": "The biography directly states RCAF service, 1942 U.S. Navy commissioning, MTB Ron 7 and MTB Ron 2 service, and OSS service after Normandy D-Day."
+    },
+    {
+      "key": "gagosian-patrick-waldberg-b994",
+      "stable_url": "https://gagosian.com/quarterly/2020/09/09/isabelle-waldberg/",
+      "title": "Isabelle Waldberg",
+      "author_creator": "Jacquelynn Baas",
+      "repository_publisher": "Gagosian Quarterly",
+      "publication_record_date": "2020-09-09",
+      "locator": "Patrick Waldberg wartime chronology",
+      "access_date": "2026-11-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Gagosian Quarterly, Spring 2020 issue",
+      "rights_notes": "Used for Patrick Waldberg's French infantry and Office of War Information chronology. The article does not mention OSS or the K.C. initials."
+    },
+    {
+      "key": "med-dept-herbert-waldhorn-b994",
+      "stable_url": "https://www.med-dept.com/unit-histories/74th-general-hospital/",
+      "title": "74th General Hospital Unit History",
+      "author_creator": "WW2 US Medical Research Centre",
+      "repository_publisher": "WW2 US Medical Research Centre",
+      "locator": "1945 Neuropsychiatric Section and transfer roster",
+      "access_date": "2026-11-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "WW2 US Medical Research Centre unit histories",
+      "rights_notes": "The unit history reproduces an exact officer identifier that matches the index privately; the identifier remains excluded from public evidence."
+    },
+    {
+      "key": "ny-military-maturin-waldo-b994",
+      "stable_url": "https://museum.dmna.ny.gov/unit-history/conflict/world-war-2-1939-1945/27th-infantry-division-world-war-two/27th-infantry-division-world-war-two-men-who-were-federalized-1940/27th-infantry-division-world-war-two-men-who-were-federalized-1940-last-names-beginning-w",
+      "title": "27th Infantry Division World War Two Men Who Were Federalized In 1940: Last Names Beginning With W",
+      "author_creator": "New York State Military Museum and Veterans Research Center",
+      "repository_publisher": "New York State Division of Military and Naval Affairs",
+      "locator": "Waldo, Maturin roster entry",
+      "access_date": "2026-11-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "New York National Guard service records",
+      "rights_notes": "The roster's protected identifier independently agrees with the index and Army record; the identifier remains private."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "yale-university-b994",
+      "organization_id": "918dedde-f9d1-5db1-8304-5c218a06b9b5",
+      "canonical_name": "Yale University",
+      "historical_name": "Yale University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "normalization_notes": "Existing canonical university reused; this claim is employment, not student status."
+    },
+    {
+      "key": "us-army-b994",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical military organization reused."
+    },
+    {
+      "key": "hearst-newspapers-b994",
+      "canonical_name": "Hearst newspapers",
+      "historical_name": "Hearst group of newspapers",
+      "aliases": [
+        "Hearst group"
+      ],
+      "organization_type": "newspaper group",
+      "sector": "journalism_and_media",
+      "country": "United States",
+      "normalization_notes": "The source's collective historical wording is preserved; no individual newspaper is inferred."
+    },
+    {
+      "key": "french-resistance-b994",
+      "organization_id": "bfd3056a-78bb-5827-a68a-c0fd2144b1db",
+      "canonical_name": "French Resistance",
+      "historical_name": "French Resistance",
+      "aliases": [
+        "Resistance",
+        "Maquis"
+      ],
+      "organization_type": "resistance movement",
+      "sector": "military",
+      "country": "France",
+      "normalization_notes": "Existing broad historical resistance organization reused; recorded as volunteer service, not employment."
+    },
+    {
+      "key": "soe-b994",
+      "organization_id": "b917eced-da73-5c67-8579-3fdacb16a31a",
+      "canonical_name": "Special Operations Executive",
+      "historical_name": "Special Operations Executive",
+      "aliases": [
+        "SOE"
+      ],
+      "organization_type": "British wartime government organization",
+      "sector": "federal_government",
+      "country": "United Kingdom",
+      "active_dates": "1940-1946",
+      "normalization_notes": "Existing canonical wartime organization reused; not conflated with OSS."
+    },
+    {
+      "key": "us-navy-b994",
+      "organization_id": "3960fa8e-a551-56cf-8305-b2b9e4961b9d",
+      "canonical_name": "United States Navy",
+      "historical_name": "United States Navy",
+      "aliases": [
+        "U.S. Navy",
+        "U.S. Naval Reserve"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical military organization reused."
+    },
+    {
+      "key": "rcaf-b994",
+      "canonical_name": "Royal Canadian Air Force",
+      "historical_name": "Royal Canadian Air Force",
+      "aliases": [
+        "RCAF"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "Canada",
+      "normalization_notes": "Historical service name preserved."
+    },
+    {
+      "key": "owi-b994",
+      "organization_id": "c48b74b9-1a67-5480-bb47-8dd73d10abf4",
+      "canonical_name": "Office of War Information",
+      "historical_name": "American Office of War Information",
+      "aliases": [
+        "OWI"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Existing canonical wartime agency reused; government assignment is not labeled civilian private employment."
+    },
+    {
+      "key": "french-army-b994",
+      "organization_id": "f61aed47-47ad-5e11-82be-3835d1bc4365",
+      "canonical_name": "French Army",
+      "historical_name": "French infantry",
+      "aliases": [
+        "French infantry"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "France",
+      "normalization_notes": "Existing canonical French military organization reused."
+    },
+    {
+      "key": "74th-general-hospital-b994",
+      "canonical_name": "74th General Hospital",
+      "historical_name": "74th General Hospital",
+      "aliases": [
+        "74th Gen Hosp"
+      ],
+      "organization_type": "U.S. Army general hospital",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "activated 1942",
+      "normalization_notes": "Historical Army hospital unit kept distinct from modern institutions."
+    },
+    {
+      "key": "101st-cavalry-b994",
+      "canonical_name": "101st Cavalry Regiment",
+      "historical_name": "Troop E, 101st Cavalry",
+      "aliases": [
+        "101st Cavalry",
+        "Troop E"
+      ],
+      "organization_type": "National Guard cavalry regiment",
+      "sector": "military",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The source's troop and regiment wording is preserved."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "richard-p-wakefield-army-occupation-b994",
+      "person_id": "a45a141e-4073-5be4-a732-a9e38728c831",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "actors and actresses",
+      "end_date": "1943-03-11",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1943-03-11; no named employer, agency, production or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical occupation category only; no named employer is inferred."
+    },
+    {
+      "key": "maturin-f-waldo-army-occupation-b994",
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "semiprofessional occupations, n.e.c.",
+      "end_date": "1941-03-29",
+      "date_precision": "Historical civilian-occupation code 068 was recorded at Army entry on 1941-03-29; no named employer, agency, production or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical occupation category only; no named employer is inferred."
+    },
+    {
+      "key": "james-waldron-army-occupation-b994",
+      "person_id": "adc91fda-fcf0-528e-b9e7-03951e0a24e0",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "policemen and detectives, public service",
+      "end_date": "1945-03-07",
+      "date_precision": "Historical civilian-occupation code 266 was recorded at Army entry on 1945-03-07; no named employer, agency, production or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical occupation category only; no named employer is inferred."
+    },
+    {
+      "key": "eugene-waith-yale-b994",
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "yale-university-b994",
+      "organization_name_as_found": "Yale",
+      "role_title": "Instructor in English",
+      "occupation": "English literature scholar and teacher",
+      "start_date": "1939",
+      "end_date": "1943",
+      "date_precision": "Yale appointed Waith in 1939 and says he interrupted teaching duties for Army service in 1943.",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Explicit last civilian employment before Army service; not mislabeled as the immediate OSS institution."
+    },
+    {
+      "key": "eugene-waith-army-b994",
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "us-army-b994",
+      "organization_name_as_found": "United States Army",
+      "role_title": "private; later first lieutenant and OSS counterintelligence officer",
+      "start_date": "1943",
+      "end_date": "1946",
+      "date_precision": "Yale dates Army service to 1943-1946 and explicitly states promotion and OSS counterintelligence service in Europe.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Military pathway into OSS; not a civilian employer."
+    },
+    {
+      "key": "nancy-wake-hearst-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "hearst-newspapers-b994",
+      "organization_name_as_found": "Hearst group of newspapers",
+      "role_title": "journalist",
+      "occupation": "journalist",
+      "end_date": "1940",
+      "date_precision": "The Australian War Memorial places Hearst journalism in Paris before Wake joined the Resistance after France's 1940 surrender; exact employment dates are not supplied.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Best-supported last civilian employer before Resistance and SOE service; identity remains probable because the source does not mention OSS."
+    },
+    {
+      "key": "nancy-wake-resistance-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "relationship_type": "volunteer",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "french-resistance-b994",
+      "organization_name_as_found": "Resistance",
+      "role_title": "resistance organizer and courier",
+      "start_date": "1940",
+      "end_date": "1943-06",
+      "date_precision": "The Memorial dates her Resistance work from France's 1940 surrender until escape to England in June 1943.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Volunteer resistance service, not employment."
+    },
+    {
+      "key": "nancy-wake-soe-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "relationship_type": "government_assignment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "organization_key": "soe-b994",
+      "organization_name_as_found": "French Section of the Special Operations Executive",
+      "role_title": "French Section operative; ensign in FANY",
+      "start_date": "1943-06",
+      "end_date": "1944-10",
+      "date_precision": "The Memorial dates her arrival in England and SOE work to June 1943, France return to April 1944, and London headquarters return to October 1944.",
+      "country": "United Kingdom and France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Documented British service. It is not silently converted into an OSS assignment or immediate OSS predecessor."
+    },
+    {
+      "key": "george-walbridge-navy-b994",
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "us-navy-b994",
+      "organization_name_as_found": "U.S. Navy",
+      "role_title": "ensign; MTB Ron 7 and MTB Ron 2 officer",
+      "start_date": "1942",
+      "end_date": "1944-06",
+      "date_precision": "The Naval Institute dates commissioning to 1942 and states that OSS service followed Normandy D-Day.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "The Navy motor-torpedo-boat pathway is military service, not civilian employment."
+    },
+    {
+      "key": "george-walbridge-rcaf-b994",
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "rcaf-b994",
+      "organization_name_as_found": "Royal Canadian Air Force",
+      "role_title": "service member",
+      "end_date": "1942",
+      "date_precision": "The Naval Institute says one year of RCAF service preceded his 1942 U.S. Navy commission.",
+      "country": "Canada",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Earlier Allied military service."
+    },
+    {
+      "key": "patrick-waldberg-owi-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "relationship_type": "government_assignment",
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "organization_key": "owi-b994",
+      "organization_name_as_found": "American Office of War Information",
+      "role_title": "London assignment",
+      "start_date": "1942-09",
+      "date_precision": "The source dates marriage and departure for an OWI assignment to September 1942, then places work in London, North Africa and Paris.",
+      "city": "London",
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Documented wartime government assignment; the source does not establish its sequence relative to OSS or the indexed K.C. initials."
+    },
+    {
+      "key": "patrick-waldberg-french-army-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "organization_key": "french-army-b994",
+      "organization_name_as_found": "French infantry",
+      "role_title": "volunteer soldier",
+      "end_date": "1940-08",
+      "date_precision": "The source says Waldberg volunteered at war's onset, received the Croix de Guerre and was demobilized in August 1940.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Earlier military service, not employment."
+    },
+    {
+      "key": "patrick-waldberg-writer-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "relationship_type": "self_employment",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "occupation": "writer and political activist",
+      "end_date": "1939",
+      "date_precision": "The source describes Patrick Waldberg as an American writer and political activist before the war without naming an employer.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Occupation only; self-employment form is qualified and no employer is invented."
+    },
+    {
+      "key": "herbert-waldhorn-74gh-b994",
+      "person_id": "aca20a31-be9d-514c-8971-7b753de5cc51",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "organization_key": "74th-general-hospital-b994",
+      "organization_name_as_found": "74th General Hospital",
+      "role_title": "captain, Medical Corps; assistant chief of Neuropsychiatric Section",
+      "occupation": "physician and neuropsychiatrist",
+      "start_date": "1945-01",
+      "end_date": "1945",
+      "date_precision": "The unit history names him in the 1945 section and explicitly lists transfer to OSS headquarters; exact transfer day is not stated.",
+      "country": "United Kingdom",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Direct unit-to-OSS transfer. Protected officer identifier agrees privately and remains withheld."
+    },
+    {
+      "key": "maturin-waldo-101cav-b994",
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "101st-cavalry-b994",
+      "organization_name_as_found": "Troop E, 101st Cavalry",
+      "role_title": "corporal",
+      "start_date": "1938-03-29",
+      "end_date": "1941-03-27",
+      "date_precision": "The New York State roster explicitly gives the unit, rank and dates; Army entry followed two days later.",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Earlier National Guard assignment; not claimed as the immediate OSS predecessor."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-richard-p-wakefield-b994",
+      "person_id": "a45a141e-4073-5be4-a732-a9e38728c831",
+      "claim_type": "identity",
+      "claim_text": "Indexed Richard P Wakefield is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The official index and Army bulk record agree in name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and record ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1943-03-11 and supplies only historical civilian code 002.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "army-bulk-b994"
+        }
+      ]
+    },
+    {
+      "key": "occupation-richard-p-wakefield-b994",
+      "person_id": "a45a141e-4073-5be4-a732-a9e38728c831",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-11, Richard P Wakefield was recorded in the historical category actors and actresses; no named employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 002, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b994",
+          "locator_override": "Army entry 1943-03-11; civilian occupation code 002; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b994",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46"
+        },
+        {
+          "source_key": "army-codes-b994",
+          "locator_override": "Historical category 002",
+          "excerpt_override": "Actors and actresses"
+        }
+      ],
+      "affiliation_key": "richard-p-wakefield-army-occupation-b994"
+    },
+    {
+      "key": "identity-maturin-f-waldo-b994",
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Maturin F Waldo is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The official index and Army bulk record agree in name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and record ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1941-03-29 and supplies only historical civilian code 068.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "army-bulk-b994"
+        }
+      ]
+    },
+    {
+      "key": "occupation-maturin-f-waldo-b994",
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-29, Maturin F Waldo was recorded in the historical category semiprofessional occupations, n.e.c.; no named employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 068, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b994",
+          "locator_override": "Army entry 1941-03-29; civilian occupation code 068; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b994",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46"
+        },
+        {
+          "source_key": "army-codes-b994",
+          "locator_override": "Historical category 068",
+          "excerpt_override": "Semiprofessional occupations, n.e.c."
+        }
+      ],
+      "affiliation_key": "maturin-f-waldo-army-occupation-b994"
+    },
+    {
+      "key": "identity-james-waldron-b994",
+      "person_id": "adc91fda-fcf0-528e-b9e7-03951e0a24e0",
+      "claim_type": "identity",
+      "claim_text": "Indexed James Waldron is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The nonshared protected identifier links the index to the Army record, which supplies the middle initial A.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and record ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1945-03-07 and supplies only historical civilian code 266.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "army-bulk-b994"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-waldron-b994",
+      "person_id": "adc91fda-fcf0-528e-b9e7-03951e0a24e0",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-03-07, James Waldron was recorded in the historical category policemen and detectives, public service; no named employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 266, decoded from NARA's official code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b994",
+          "locator_override": "Army entry 1945-03-07; civilian occupation code 266; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b994",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46"
+        },
+        {
+          "source_key": "army-codes-b994",
+          "locator_override": "Historical category 266",
+          "excerpt_override": "Policemen and detectives, public service"
+        }
+      ],
+      "affiliation_key": "james-waldron-army-occupation-b994"
+    },
+    {
+      "key": "identity-eugene-waith-b994",
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "claim_type": "identity",
+      "claim_text": "Indexed Eugene Merse Waith is a high-confidence match to Eugene Mersereau Waith, Yale instructor and OSS counterintelligence officer.",
+      "evidence_paraphrase": "Yale supplies the full distinctive name, compatible shortened index form, first-lieutenant chronology and direct OSS service.",
+      "identity_match_assessment": "High confidence from the rare full name, matching indexed lieutenant note and explicit institutional OSS biography.",
+      "temporal_assessment": "Yale dates civilian teaching, Army entry and OSS service in sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file is still needed for an exact transfer date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "yale-eugene-waith-b994"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-eugene-waith-yale-b994",
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Yale University was Eugene Mersereau Waith's last documented civilian employer before Army and OSS service.",
+      "evidence_paraphrase": "Yale appointed him Instructor in English in 1939 and says he interrupted teaching duties for Army service in 1943.",
+      "identity_match_assessment": "High-confidence identity from the rare name, lieutenant note and direct OSS biography.",
+      "temporal_assessment": "Strongly date-bounded from the 1939 appointment to the 1943 interruption for Army service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Employment is kept separate from the later Army pathway.",
+      "sources": [
+        {
+          "source_key": "yale-eugene-waith-b994",
+          "locator_override": "Biographical paragraphs 93-95",
+          "excerpt_override": "upon completing his Ph.D. in English in 1939, he was appointed Instructor in English"
+        }
+      ],
+      "affiliation_key": "eugene-waith-yale-b994"
+    },
+    {
+      "key": "army-eugene-waith-b994",
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army was Eugene Mersereau Waith's institutional pathway into OSS counterintelligence service.",
+      "evidence_paraphrase": "Yale says he enlisted as a private, became a first lieutenant and served in Europe as an OSS counterintelligence officer.",
+      "identity_match_assessment": "High-confidence identity from the direct institutional biography and compatible index lieutenant note.",
+      "temporal_assessment": "Strong wartime pathway; the exact Army-to-OSS transfer date is not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, never mislabeled as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "yale-eugene-waith-b994",
+          "locator_override": "Biographical paragraph 94",
+          "excerpt_override": "served in Europe as a counterintelligence officer for the Office of Strategic Services"
+        }
+      ],
+      "affiliation_key": "eugene-waith-army-b994"
+    },
+    {
+      "key": "identity-nancy-wake-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "claim_type": "identity",
+      "claim_text": "Indexed Nancy Wake probably refers to Nancy Grace Augusta Wake, the Australian journalist, Resistance member and SOE officer.",
+      "evidence_paraphrase": "The Australian War Memorial supplies the famous exact name and compatible Allied clandestine-service chronology but does not mention OSS or this personnel file.",
+      "identity_match_assessment": "Probable, not settled: the distinctive name and chronology are strong, but famous-name assignment is not upgraded without a direct OSS or personnel-file bridge.",
+      "temporal_assessment": "The Memorial dates Hearst journalism, Resistance work and SOE service before and during the war.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 811 review is required to establish why the OSS index contains this allied personnel record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "awm-nancy-wake-b994"
+        }
+      ]
+    },
+    {
+      "key": "hearst-nancy-wake-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Hearst's newspaper group is the best-supported last civilian employer before Nancy Wake's Resistance and SOE service.",
+      "evidence_paraphrase": "The Memorial says Wake worked in Paris for the Hearst group as a journalist before joining the Resistance after France's surrender.",
+      "identity_match_assessment": "Probable identity from the distinctive name and compatible Allied wartime chronology.",
+      "temporal_assessment": "Documented prewar employment and best-supported last civilian role; not claimed as immediately before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No individual Hearst newspaper or exact employment date is inferred.",
+      "sources": [
+        {
+          "source_key": "awm-nancy-wake-b994",
+          "locator_override": "Description paragraphs 76-78",
+          "excerpt_override": "Wake settled in Paris, working for the Hearst group of newspapers as a journalist."
+        }
+      ],
+      "affiliation_key": "nancy-wake-hearst-b994"
+    },
+    {
+      "key": "resistance-nancy-wake-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nancy Wake joined the French Resistance after France's 1940 surrender.",
+      "evidence_paraphrase": "The Memorial documents escape-line work and later armed Resistance organization.",
+      "identity_match_assessment": "Probable identity from the distinctive name and compatible Allied wartime chronology.",
+      "temporal_assessment": "Documented wartime service before SOE; no OSS sequence is established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Volunteer resistance work, not employment.",
+      "sources": [
+        {
+          "source_key": "awm-nancy-wake-b994"
+        }
+      ],
+      "affiliation_key": "nancy-wake-resistance-b994"
+    },
+    {
+      "key": "soe-nancy-wake-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nancy Wake began work in the French Section of the Special Operations Executive after reaching England in June 1943.",
+      "evidence_paraphrase": "The Memorial gives the month, organization, France return and later SOE headquarters movements.",
+      "identity_match_assessment": "Probable identity from the distinctive name and compatible Allied wartime chronology.",
+      "temporal_assessment": "Strongly dated Allied service; not presented as OSS service or as a proven immediate predecessor.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "SOE remains distinct from OSS.",
+      "sources": [
+        {
+          "source_key": "awm-nancy-wake-b994",
+          "locator_override": "Description paragraph 78",
+          "excerpt_override": "In June 1943 she reached England where she began working in the French Section of the Special Operations Executive"
+        }
+      ],
+      "affiliation_key": "nancy-wake-soe-b994"
+    },
+    {
+      "key": "identity-george-walbridge-b994",
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "claim_type": "identity",
+      "claim_text": "Indexed George O Walbridge is a high-confidence match to the U.S. Navy officer who served in OSS after Normandy.",
+      "evidence_paraphrase": "The Naval Institute uses the exact distinctive name, supplies officer and unit chronology, and explicitly states OSS service.",
+      "identity_match_assessment": "High confidence from the exact name, direct OSS statement and compatible military chronology.",
+      "temporal_assessment": "The biography places Navy service directly before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed personnel file can refine the exact transfer date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "usni-george-walbridge-b994"
+        }
+      ]
+    },
+    {
+      "key": "navy-george-walbridge-b994",
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Navy, including MTB Ron 2, was George O. Walbridge's immediate documented pathway into OSS.",
+      "evidence_paraphrase": "The Naval Institute lists Navy commissioning and motor-torpedo squadrons before stating that OSS service followed Normandy D-Day.",
+      "identity_match_assessment": "High-confidence exact-name direct OSS biography.",
+      "temporal_assessment": "Strongly date-bounded by the explicit after-D-Day transition; no exact day is given.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "usni-george-walbridge-b994",
+          "locator_override": "Author biography",
+          "excerpt_override": "After Normandy D-Day he served in the OSS."
+        }
+      ],
+      "affiliation_key": "george-walbridge-navy-b994"
+    },
+    {
+      "key": "rcaf-george-walbridge-b994",
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "George O. Walbridge served for one year in the Royal Canadian Air Force before his 1942 U.S. Navy commission.",
+      "evidence_paraphrase": "The Naval Institute explicitly supplies the service and sequence.",
+      "identity_match_assessment": "High-confidence exact-name direct OSS biography.",
+      "temporal_assessment": "Documented earlier Allied military service, not immediate to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Earlier military assignment.",
+      "sources": [
+        {
+          "source_key": "usni-george-walbridge-b994"
+        }
+      ],
+      "affiliation_key": "george-walbridge-rcaf-b994"
+    },
+    {
+      "key": "identity-patrick-waldberg-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Patrick K.C. Waldberg is probably the American writer and wartime OWI assignee Patrick Waldberg.",
+      "evidence_paraphrase": "A scholarly profile supplies the unusual surname, American nationality and compatible France-to-U.S.-to-London wartime chronology.",
+      "identity_match_assessment": "Probable only: the source omits K.C., OSS and the indexed personnel file.",
+      "temporal_assessment": "The source documents French military service and a 1942 OWI assignment but not their relation to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 811 review is required before upgrading identity or immediacy.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "gagosian-patrick-waldberg-b994"
+        }
+      ]
+    },
+    {
+      "key": "owi-patrick-waldberg-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Patrick Waldberg received an Office of War Information assignment to London in September 1942.",
+      "evidence_paraphrase": "The profile dates his departure and names the American Office of War Information.",
+      "identity_match_assessment": "Probable identity from the unusual name and compatible wartime chronology.",
+      "temporal_assessment": "Documented wartime government assignment; the sequence relative to OSS is unknown.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Government assignment, not silently labeled a private employer.",
+      "sources": [
+        {
+          "source_key": "gagosian-patrick-waldberg-b994",
+          "locator_override": "Patrick Waldberg wartime chronology",
+          "excerpt_override": "he departed for London, where he had been assigned by the American Office of War Information"
+        }
+      ],
+      "affiliation_key": "patrick-waldberg-owi-b994"
+    },
+    {
+      "key": "french-army-patrick-waldberg-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Patrick Waldberg volunteered in the French infantry and was demobilized in August 1940.",
+      "evidence_paraphrase": "The profile documents the volunteer service, Croix de Guerre and demobilization.",
+      "identity_match_assessment": "Probable identity from the unusual name and compatible wartime chronology.",
+      "temporal_assessment": "Definitely earlier than the 1942 OWI assignment; not shown as immediately before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Earlier military service.",
+      "sources": [
+        {
+          "source_key": "gagosian-patrick-waldberg-b994"
+        }
+      ],
+      "affiliation_key": "patrick-waldberg-french-army-b994"
+    },
+    {
+      "key": "writer-patrick-waldberg-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "claim_type": "occupation",
+      "claim_text": "Patrick Waldberg was described as an American writer and political activist before the war; no employer is named.",
+      "evidence_paraphrase": "The profile identifies his work and Paris associations before wartime service.",
+      "identity_match_assessment": "Probable identity from the unusual name and compatible chronology.",
+      "temporal_assessment": "Documented prewar occupation only; no immediate or last-employer claim is made.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer is invented from an occupation.",
+      "sources": [
+        {
+          "source_key": "gagosian-patrick-waldberg-b994"
+        }
+      ],
+      "affiliation_key": "patrick-waldberg-writer-b994"
+    },
+    {
+      "key": "conflict-carl-walden-b994",
+      "person_id": "589acaac-0166-569b-a562-cdf5874509d9",
+      "claim_type": "identity",
+      "claim_text": "Carl O Walden remains separate from James E Walden despite a shared printed protected identifier.",
+      "evidence_paraphrase": "The visually verified adjacent rows print different names but the same protected identifier; the Army bulk comparison produced no resolving record.",
+      "identity_match_assessment": "Conflicting source data: neither person receives the other's rank, history or identity.",
+      "temporal_assessment": "No temporal conclusion is possible until the personnel files are reviewed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The duplicate group is visible and requires critical archival review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "army-bulk-b994"
+        }
+      ]
+    },
+    {
+      "key": "conflict-james-walden-b994",
+      "person_id": "3ca1371b-4df5-5f7a-97b6-f5799089d618",
+      "claim_type": "identity",
+      "claim_text": "James E Walden remains separate from Carl O Walden despite a shared printed protected identifier.",
+      "evidence_paraphrase": "The visually verified adjacent rows print different names but the same protected identifier; the Army bulk comparison produced no resolving record.",
+      "identity_match_assessment": "Conflicting source data: James retains his printed private rank, while no history is transferred between rows.",
+      "temporal_assessment": "No temporal conclusion is possible until the personnel files are reviewed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The duplicate group is visible and requires critical archival review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "army-bulk-b994"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-waldhorn-b994",
+      "person_id": "aca20a31-be9d-514c-8971-7b753de5cc51",
+      "claim_type": "identity",
+      "claim_text": "Indexed Herbert F Waldhorn is confirmed as the 74th General Hospital Medical Corps captain transferred to OSS headquarters.",
+      "evidence_paraphrase": "The index and unit history agree in exact name and a protected officer identifier; the unit history explicitly names the OSS transfer.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement and direct unit-to-OSS evidence; the identifier remains private.",
+      "temporal_assessment": "The 1945 hospital role directly precedes the listed OSS transfer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Direct military assignment evidence; no civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "med-dept-herbert-waldhorn-b994"
+        }
+      ]
+    },
+    {
+      "key": "hospital-herbert-waldhorn-b994",
+      "person_id": "aca20a31-be9d-514c-8971-7b753de5cc51",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The 74th General Hospital was Herbert F. Waldhorn's explicit immediate assignment before transfer to OSS headquarters.",
+      "evidence_paraphrase": "The unit history identifies Waldhorn as an assistant neuropsychiatric service chief and lists his transfer destination as OSS headquarters.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact name.",
+      "temporal_assessment": "Explicit immediate transfer; the precise day is not stated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Military hospital assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "med-dept-herbert-waldhorn-b994",
+          "locator_override": "1945 transfer roster",
+          "excerpt_override": "Capt. Herbert F. Waldhorn, MC ... HQ & HQ Office of Strategic Service"
+        }
+      ],
+      "affiliation_key": "herbert-waldhorn-74gh-b994"
+    },
+    {
+      "key": "cavalry-maturin-waldo-b994",
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Maturin F. Waldo served as a corporal in Troop E, 101st Cavalry through 27 March 1941.",
+      "evidence_paraphrase": "The New York State roster supplies the exact name, private matching identifier, unit, rank and service dates.",
+      "identity_match_assessment": "Confirmed by two official protected-identifier matches and exact name.",
+      "temporal_assessment": "Documented earlier military service ending two days before Army entry; not claimed as the immediate OSS predecessor.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The two-day transition is preserved without inferring the later OSS pathway.",
+      "sources": [
+        {
+          "source_key": "ny-military-maturin-waldo-b994"
+        },
+        {
+          "source_key": "nara-index-b994"
+        },
+        {
+          "source_key": "army-bulk-b994"
+        }
+      ],
+      "affiliation_key": "maturin-waldo-101cav-b994"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "30250cf6-d13f-56cc-b743-c639b9120535",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Wilma Isabel Waite and its archival context. Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "564b2773-158c-57e3-8e81-5895472d7d6d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Henry S Wakabayashi and its archival context. A 1995 Congressional Record index names a Japanese-American Veterans Association representative, but it does not establish that he is the indexed wartime person or document pre-OSS work.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A 1995 Congressional Record index names a Japanese-American Veterans Association representative, but it does not establish that he is the indexed wartime person or document pre-OSS work."
+    },
+    {
+      "person_id": "dbec9a7e-ed97-59bb-af82-7a3034cbe822",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Arthur Francis Walber and its archival context. The distinctive full name produced no source with an OSS, protected-identifier, employer or personnel-file bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The distinctive full name produced no source with an OSS, protected-identifier, employer or personnel-file bridge."
+    },
+    {
+      "person_id": "a8860eb7-afc7-5794-a905-342135ea2d22",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Charles R Walbert and its archival context. Exact-name and spelling-variant searches produced no source with an OSS, protected-identifier, employer or personnel-file bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and spelling-variant searches produced no source with an OSS, protected-identifier, employer or personnel-file bridge."
+    },
+    {
+      "person_id": "48a25f31-02b3-5b89-bb49-45eb86e6fb6d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Albert R Walcott and its archival context. Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge."
+    },
+    {
+      "person_id": "87af7bcc-1d6f-5870-96fa-87a2ab2778e2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Robert G Waldman and its archival context. The index note is incomplete, and common-name searches produced no source with the indexed identifier or a direct OSS bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The index note is incomplete, and common-name searches produced no source with the indexed identifier or a direct OSS bridge."
+    },
+    {
+      "person_id": "cc40a1b0-633e-5130-8d49-07e45610864a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Phyllis H Waldo and its archival context. Exact-name, OSS, occupation, obituary, institutional and archival searches produced no reliable result.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, occupation, obituary, institutional and archival searches produced no reliable result."
+    },
+    {
+      "person_id": "64650a84-e326-5e9d-b3f8-c63c1a95202f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Henry H Waldon and its archival context. Rank-aware and exact-name searches produced no source with the indexed identifier or a direct OSS assignment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Rank-aware and exact-name searches produced no source with the indexed identifier or a direct OSS assignment bridge."
+    },
+    {
+      "person_id": "502814b4-df38-5b53-ab06-c9ba62dcbc5f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Arthur Leonard Waldo-Stefans and its archival context. The visually verified hyphenated surname produced no source with an OSS, employer, occupation or personnel-file bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The visually verified hyphenated surname produced no source with an OSS, employer, occupation or personnel-file bridge."
+    },
+    {
+      "person_id": "ae88568f-37ac-58d6-9ab8-6db3262e3d81",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Howard T Waldron and its archival context. Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge."
+    },
+    {
+      "person_id": "3b16058e-9339-533b-a096-14304185c887",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves John Waldron and its archival context. Official records document an OSS historian named Dr. John Waldron, but the common indexed name has no middle name, rank or identifier linking that biography to this row.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official records document an OSS historian named Dr. John Waldron, but the common indexed name has no middle name, rank or identifier linking that biography to this row."
+    },
+    {
+      "person_id": "9debd6e3-7228-5e20-8735-277c7704a997",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Thomas H Waldron and its archival context. Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge."
+    },
+    {
+      "person_id": "6602744c-b6d8-5828-8a48-e3b5d695f6f7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Everett G Walk and its archival context. Exact-name and initial-variant searches produced no source with an OSS, protected-identifier, employer or personnel-file bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and initial-variant searches produced no source with an OSS, protected-identifier, employer or personnel-file bridge."
+    },
+    {
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Yale documents Eugene Mersereau Waith's rare full name, 1939 appointment, promotion to first lieutenant and explicit OSS counterintelligence service; the index's Merse truncation and lieutenant note are compatible.",
+      "name_variants": [
+        "Eugene Mersereau Waith"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 811 only to refine the exact Army-to-OSS transition date; Yale is the verified last civilian employer."
+    },
+    {
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The Australian War Memorial documents the distinctive name and compatible Hearst-to-Resistance-to-SOE chronology but does not mention OSS or the indexed file.",
+      "name_variants": [
+        "Nancy Grace Augusta Wake"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 811 to establish why this Allied SOE officer appears in the OSS index and whether any OSS liaison followed SOE service; Hearst remains qualified last civilian employment."
+    },
+    {
+      "person_id": "a45a141e-4073-5be4-a732-a9e38728c831",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name and a nonshared protected identifier connect the visually verified index row to the official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 811 to identify any employer or production behind the broad actors and actresses category and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The U.S. Naval Institute uses the exact distinctive name, documents the Navy units and explicitly states that Walbridge served in OSS after Normandy D-Day.",
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "No online research action is required. Review Box 811 only to refine the exact Navy-to-OSS transfer date."
+    },
+    {
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "A scholarly profile documents the unusual Patrick Waldberg name and compatible France-to-U.S.-to-London wartime chronology, but omits K.C., OSS and the personnel file.",
+      "name_variants": [
+        "Patrick Waldberg"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 811 to confirm the K.C. identity and determine whether OWI preceded OSS; current affiliations remain qualified."
+    },
+    {
+      "person_id": "589acaac-0166-569b-a562-cdf5874509d9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "Carl O Walden and adjacent James E Walden print different names but the same protected identifier. No Army bulk record resolves the conflict.",
+      "possible_duplicate_group": "page487-walden-shared-identifier-b994",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "research_status": "conflicting_sources",
+      "next_action": "Jointly review both Box 812 files before accepting any identifier, rank or pre-OSS history."
+    },
+    {
+      "person_id": "3ca1371b-4df5-5f7a-97b6-f5799089d618",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "James E Walden and adjacent Carl O Walden print different names but the same protected identifier. No Army bulk record resolves the conflict.",
+      "possible_duplicate_group": "page487-walden-shared-identifier-b994",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "conflicting_sources",
+      "next_action": "Jointly review both Box 812 files before accepting any identifier or pre-OSS history; retain James's printed private rank only on this row."
+    },
+    {
+      "person_id": "aca20a31-be9d-514c-8971-7b753de5cc51",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name and a protected officer identifier privately connect the index row to the 74th General Hospital captain directly transferred to OSS headquarters.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "No online research action is required. Review Box 812 only for a precise transfer date and any last civilian medical employer."
+    },
+    {
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name and nonshared protected identifier agree across the index, official Army bulk record and New York State Military Museum roster.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "Review Box 812 to identify the Army-to-OSS pathway and any named civilian employer behind historical occupation code 068.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "adc91fda-fcf0-528e-b9e7-03951e0a24e0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier links the index to the official Army record, which supplies the middle initial A while the index omits it.",
+      "name_variants": [
+        "James A Waldron"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 812 to identify the public-service agency behind historical occupation code 266 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page487-row24-wilma-isabel-waite-b994",
+      "person_id": "30250cf6-d13f-56cc-b743-c639b9120535",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilma Isabel Waite; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row25-eugene-merse-waith-b994",
+      "person_id": "0556f56a-4bdf-5b63-af67-4f0629913e00",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eugene Merse Waith; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Yale directly documented the rare-name identity, verified last civilian employment and Army-to-OSS counterintelligence pathway. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row26-henry-s-wakabayashi-b994",
+      "person_id": "564b2773-158c-57e3-8e81-5895472d7d6d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry S Wakabayashi; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "A 1995 Congressional Record index names a Japanese-American Veterans Association representative, but it does not establish that he is the indexed wartime person or document pre-OSS work. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row27-nancy-wake-b994",
+      "person_id": "b0e63804-da34-5d6e-a559-54e8bc27a9d3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nancy Wake; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The Australian War Memorial supported a probable identity, Hearst employment and separate Resistance and SOE service; it did not establish OSS service. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row28-richard-p-wakefield-b994",
+      "person_id": "a45a141e-4073-5be4-a732-a9e38728c831",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard P Wakefield; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The accepted protected-identifier Army bridge confirmed identity and the qualified historical actors and actresses category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row29-arthur-francis-walber-b994",
+      "person_id": "dbec9a7e-ed97-59bb-af82-7a3034cbe822",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Francis Walber; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The distinctive full name produced no source with an OSS, protected-identifier, employer or personnel-file bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row30-charles-r-walbert-b994",
+      "person_id": "a8860eb7-afc7-5794-a905-342135ea2d22",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles R Walbert; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name and spelling-variant searches produced no source with an OSS, protected-identifier, employer or personnel-file bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row31-george-o-walbridge-b994",
+      "person_id": "cf66a9eb-8b52-5e53-99d6-83f98ef83371",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George O Walbridge; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The Naval Institute directly documented RCAF and Navy service followed by OSS after Normandy. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row32-albert-r-walcott-b994",
+      "person_id": "48a25f31-02b3-5b89-bb49-45eb86e6fb6d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Albert R Walcott; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row33-patrick-k-c-waldberg-b994",
+      "person_id": "626accf6-7831-58fd-8cb0-0f6698ecdee8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Patrick K.C. Waldberg; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "A scholarly institutional profile supported a probable identity and qualified French infantry, writer and OWI chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row34-carl-o-walden-b994",
+      "person_id": "589acaac-0166-569b-a562-cdf5874509d9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl O Walden; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The shared protected identifier conflicts with the distinct adjacent Carl and James Walden names and produced no resolving Army record. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row35-james-e-walden-b994",
+      "person_id": "3ca1371b-4df5-5f7a-97b6-f5799089d618",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James E Walden; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The shared protected identifier conflicts with the distinct adjacent Carl and James Walden names and produced no resolving Army record. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row36-herbert-f-waldhorn-b994",
+      "person_id": "aca20a31-be9d-514c-8971-7b753de5cc51",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert F Waldhorn; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "A protected-identifier match and unit history documented the 74th General Hospital role and direct transfer to OSS headquarters. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row37-robert-g-waldman-b994",
+      "person_id": "87af7bcc-1d6f-5870-96fa-87a2ab2778e2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert G Waldman; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The index note is incomplete, and common-name searches produced no source with the indexed identifier or a direct OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row38-maturin-f-waldo-b994",
+      "person_id": "aa96ec67-10e8-5dfc-89bb-e8433076bf1d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Maturin F Waldo; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Army and New York State protected-identifier matches confirmed identity, a qualified occupation category and earlier 101st Cavalry service. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row39-phyllis-h-waldo-b994",
+      "person_id": "cc40a1b0-633e-5130-8d49-07e45610864a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Phyllis H Waldo; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name, OSS, occupation, obituary, institutional and archival searches produced no reliable result. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row40-henry-h-waldon-b994",
+      "person_id": "64650a84-e326-5e9d-b3f8-c63c1a95202f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry H Waldon; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Rank-aware and exact-name searches produced no source with the indexed identifier or a direct OSS assignment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row41-arthur-leonard-waldo-stefans-b994",
+      "person_id": "502814b4-df38-5b53-ab06-c9ba62dcbc5f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Leonard Waldo-Stefans; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The visually verified hyphenated surname produced no source with an OSS, employer, occupation or personnel-file bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row42-howard-t-waldron-b994",
+      "person_id": "ae88568f-37ac-58d6-9ab8-6db3262e3d81",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Howard T Waldron; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row43-james-waldron-b994",
+      "person_id": "adc91fda-fcf0-528e-b9e7-03951e0a24e0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James Waldron; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "The protected-identifier Army match confirmed identity, middle initial A and a qualified historical police and detective category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row44-john-waldron-b994",
+      "person_id": "3b16058e-9339-533b-a096-14304185c887",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Waldron; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Official records document an OSS historian named Dr. John Waldron, but the common indexed name has no middle name, rank or identifier linking that biography to this row. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row45-thomas-h-waldron-b994",
+      "person_id": "9debd6e3-7228-5e20-8735-277c7704a997",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas H Waldron; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Common-name searches produced no source with the middle initial, indexed identifier or a direct OSS assignment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    },
+    {
+      "key": "page487-row46-everett-g-walk-b994",
+      "person_id": "6602744c-b6d8-5828-8a48-e3b5d695f6f7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Everett G Walk; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 811, 812 or 815; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_994",
+      "started_at": "2026-11-03T15:00:00Z",
+      "completed_at": "2026-11-03T16:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. The official Dr. John Waldron OSS history was not assigned to the common-name index row without another corroborating identifier. Henry S. Wakabayashi's 1995 veterans-association reference was not treated as a wartime identity bridge. Historical occupation codes and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name and initial-variant searches produced no source with an OSS, protected-identifier, employer or personnel-file bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable employer source for the cohort. The NARA index page was text-extracted, rendered and visually checked; official Army bulk data and code documentation were inspected locally. Final sources were opened in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b994-v1"
+    }
+  ]
+}
