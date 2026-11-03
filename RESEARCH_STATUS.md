@@ -1,5 +1,43 @@
 # Research status
 
+Batch 993 completed PDF page 487, rows 1-23, from **Albert H. Waffle**
+through **James P. Waite**, preserving all 23 printed rows as separate people
+with saved terminal research outcomes.
+
+Seven reviewed official Army bridges support five qualified historical
+occupation or student categories and two identity-only outcomes whose Army
+entry dates postdate OSS dissolution. An authoritative Boulder County record
+links Siegfried Wagener to OSS and supports qualified Chicago Times and KFEL
+pathways. The official House biography documents Stuyvesant Wainwright's
+Yale-to-Army-to-OSS chronology while keeping Yale student status separate
+from his military assignment. Ludwig Anton Wagner's rare-name institutional
+biography remains a probable identity with qualified earlier employment and
+professional affiliation. Thirteen unresolved people retain explicit
+archival-review guidance and no invented affiliations. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **15,771/23,936 (65.8882%)**;
+verified-employer coverage is **516/23,936 (2.1557%)**; verified-affiliation
+coverage is **1,139/23,936 (4.7585%)**; archival-review coverage is
+**14,246/23,936 (59.5170%)**. There are **8,160** not-started people, **679**
+possible-duplicate groups and **531** conflicts. The public projection
+contains **3,965** affiliations, **1,307** organizations, **6,496** sources
+and **10,097** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 487, row
+24, **Wilma Isabel Waite**. See `research/batch-993-progress.md`.
+
+Batch 993 passed evidence validation, durable import, SQLite foreign keys,
+the complete 522-page ingest audit, the 200-profile audit, all 149 Python
+tests, Astro's zero-diagnostic 25,295-page build, the 30/30 targeted browser
+matrix and the 99/99 bounded browser/accessibility release suite. All internal
+links resolve, the protected-identifier audit found zero unexpected matches,
+the 67-asset public manifest verifies locally, the production dependency audit
+found zero vulnerabilities and two clean builds are deterministic. Immutable
+commit, GitHub Actions and unauthenticated deployed-release verification
+remain pending; the current public site is still the verified Batch 992
+release.
+
 Batch 992 completed PDF page 486, rows 24-46, from **William Vyhnal** through
 **Claude V. Wadsworth**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
@@ -21,8 +59,8 @@ coverage is **1,138/23,936 (4.7543%)**; archival-review coverage is
 possible-duplicate groups and **531** conflicts. The public projection
 contains **3,954** affiliations, **1,303** organizations, **6,488** sources
 and **10,075** published, qualified or conflict claims. Full-index historical
-research remains unfinished. The next indexed boundary is PDF page 486, row
-47, **Geoffrey E. Wagner**. See `research/batch-992-progress.md`.
+research remains unfinished. The next indexed boundary is PDF page 487, row
+1, **Albert H. Waffle**. See `research/batch-992-progress.md`.
 
 Batch 992 passed evidence validation, durable import, SQLite integrity, the
 complete 522-page ingest audit, all 149 Python tests, Astro's zero-diagnostic

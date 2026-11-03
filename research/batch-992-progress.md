@@ -12,8 +12,8 @@ Archive location: 230/86/42/06
 ## Extraction and identity safeguards
 
 - Visually audited all 23 printed rows and preserved each as a separate
-  source-linked person. PDF page 486, row 47, Geoffrey E. Wagner, is the next
-  cohort boundary.
+  source-linked person. PDF page 486 ends at row 46; page 487, row 1, Albert
+  H. Waffle, is the next cohort boundary.
 - Accepted two official Army identity bridges only after exact-name and
   nonshared protected-identifier agreement. Historical occupation codes 583
   and 266 are published only as qualified broad categories; neither is
@@ -50,7 +50,7 @@ Archive location: 230/86/42/06
 - Batch claim confidence: 2 confirmed and 5 medium; 2 claims publish normally
   and 5 publish only with qualification.
 - Evidence-bundle SHA-256:
-  `382b5aa58163023fce5bb162030582607a92f29a93ca312333dd772d34dd164b`.
+  `68df4a5428fe86ee1a833a57ca1d0128fad730d9ad0061f3268eb87d7cf1905d`.
 
 ## Exact post-import coverage
 
@@ -105,5 +105,4 @@ matched to the immutable release commit.
 
 ## Resume point
 
-Publish and independently verify Batch 992. Then continue with PDF page 486,
-row 47, Geoffrey E. Wagner.
+Continue with PDF page 487, row 1, Albert H. Waffle.

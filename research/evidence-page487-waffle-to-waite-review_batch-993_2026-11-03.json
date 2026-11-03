@@ -1,0 +1,1622 @@
+{
+  "bundle_version": "batch-993-v1",
+  "reviewer": "Before OSS Batch 993 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b993",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 810-811",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 487, rows 1-23; checked against layout-preserving text and an original-detail page render",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. PDF page 487 row 24, Wilma Isabel Waite, is outside this cohort and begins the next batch."
+    },
+    {
+      "key": "army-bulk-b993",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven accepted protected-identifier comparisons; identifiers and record ordinals withheld",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Five exact-name records and two documented spelling variants were accepted with nonshared protected identifiers. The 1945-11-16 and 1946-05-28 Army entries postdate OSS dissolution and are identity evidence only."
+    },
+    {
+      "key": "army-tech-b993",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation"
+    },
+    {
+      "key": "army-codes-b993",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 172, 174 and 304; categories 3-16, 3-40, 6-78 and amended 9-92",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify broad occupations or student status, not named employers, schools, workplaces or exact OSS-transfer dates. The amended page 304 maps code 992 to Students."
+    },
+    {
+      "key": "boulder-county-wagener-b993",
+      "stable_url": "https://assets.bouldercounty.gov/wp-content/uploads/2018/02/hpab-agenda-and-meeting-packet-20180301.pdf",
+      "archival_identifier": "Boulder County Historic Preservation Advisory Board packet, HP-17-0005",
+      "title": "Historic Preservation Advisory Board Agenda and Meeting Packet",
+      "author_creator": "Boulder County Land Use Department, Historic Preservation Program",
+      "repository_publisher": "Boulder County, Colorado",
+      "publication_record_date": "2018-03-01",
+      "locator": "PDF physical page 5, Tahosa Valley Land Office history and significance; visually inspected",
+      "access_date": "2026-11-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Boulder County Historic Preservation Advisory Board records",
+      "rights_notes": "The county record directly links Siegfried Wagener to OSS and documents Chicago Times and KFEL work. Employment form and exact OSS entry remain qualified."
+    },
+    {
+      "key": "house-stuyvesant-wainwright-b993",
+      "stable_url": "https://history.house.gov/People/Detail/23247",
+      "archival_identifier": "Biographical Directory identifier W000024",
+      "title": "WAINWRIGHT, Stuyvesant, II",
+      "author_creator": "Office of the Historian and Office of Art and Archives",
+      "repository_publisher": "U.S. House of Representatives",
+      "publication_record_date": "updated 2026-09-01",
+      "locator": "Concise Biography",
+      "access_date": "2026-11-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "History, Art & Archives, U.S. House of Representatives",
+      "rights_notes": "The official biography supplies a direct Yale-to-Army chronology and explicitly identifies command of OSS units of the First Army."
+    },
+    {
+      "key": "harvey-wainright-obituary-b993",
+      "stable_url": "https://owenspavlotrogers.com/tribute/details/106/Harvey-Wainright/obituary.html",
+      "title": "Obituary of Harvey W. Wainright",
+      "author_creator": "Harvey W. Wainright; family and funeral-home publication",
+      "repository_publisher": "Owens-Pavlot & Rogers Funeral Service",
+      "publication_record_date": "2010-11",
+      "locator": "Self-authored biographical section",
+      "access_date": "2026-11-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Owens-Pavlot & Rogers obituaries",
+      "rights_notes": "Used for the Wainright spelling and explicit OSS service context. Postwar General Electric work is excluded from pre-OSS claims."
+    },
+    {
+      "key": "graz-ludwig-wagner-b993",
+      "stable_url": "https://agso.uni-graz.at/archive/marienthal/biografien/wagner_ludwig.htm",
+      "title": "Ludwig Wagner",
+      "author_creator": "Reinhard Müller; based on biographical work by Herbert Exenberger and Eckart Früh",
+      "repository_publisher": "Archive for the History of Sociology in Austria, University of Graz",
+      "publication_record_date": "updated 2012-08",
+      "locator": "Biographical chronology and bibliography",
+      "access_date": "2026-11-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Marienthal study biographical archive",
+      "rights_notes": "The rare exact name and compatible U.S. wartime chronology support a probable identity only; the biography does not itself mention OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "chicago-daily-times-b993",
+      "canonical_name": "Chicago Daily Times",
+      "historical_name": "Chicago Times",
+      "aliases": [
+        "Chicago Daily Times",
+        "Chicago Times"
+      ],
+      "organization_type": "newspaper",
+      "sector": "journalism_and_media",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "active_dates": "1929-1948 under the Chicago Daily Times name",
+      "normalization_notes": "The source's Chicago Times wording is preserved. The later Chicago Sun-Times is a successor, not substituted as the wartime employer."
+    },
+    {
+      "key": "kfel-radio-b993",
+      "canonical_name": "KFEL",
+      "historical_name": "KFEL",
+      "aliases": [
+        "KFEL Denver"
+      ],
+      "organization_type": "radio station",
+      "sector": "journalism_and_media",
+      "city": "Denver",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "normalization_notes": "Historical call sign preserved; no modern successor is silently substituted."
+    },
+    {
+      "key": "us-army-canonical-b993",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical military organization reused; Stuyvesant Wainwright's First Army OSS command remains a role, not a separate employer."
+    },
+    {
+      "key": "yale-law-school-canonical-b993",
+      "organization_id": "779938ea-1d26-5c1f-81a8-9155c71c0a64",
+      "canonical_name": "Yale Law School",
+      "historical_name": "Yale University Law School",
+      "aliases": [
+        "Yale law faculty",
+        "Yale Law"
+      ],
+      "organization_type": "university law school",
+      "sector": "academia_and_research",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "normalization_notes": "Existing organization reused. Student status is not employment."
+    },
+    {
+      "key": "assembly-democratic-austrian-republic-b993",
+      "canonical_name": "Assembly for a Democratic Austrian Republic",
+      "historical_name": "Assembly for a Democratic Austrian Republic",
+      "aliases": [],
+      "organization_type": "political exile organization",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1942-1943",
+      "normalization_notes": "Preserved as a professional or political affiliation, not employment."
+    },
+    {
+      "key": "das-kleine-blatt-b993",
+      "canonical_name": "Das Kleine Blatt",
+      "historical_name": "Das Kleine Blatt",
+      "aliases": [],
+      "organization_type": "newspaper",
+      "sector": "journalism_and_media",
+      "city": "Vienna",
+      "country": "Austria",
+      "normalization_notes": "Historical newspaper title preserved."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "stanley-s-wager-army-category-b993",
+      "person_id": "f823b41c-13ff-5735-8b5c-21117a39475e",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-03-03",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-03-03; no named employer, school, workplace or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Broad historical category or student status only; no named employer or school is inferred."
+    },
+    {
+      "key": "albert-wagner-army-category-b993",
+      "person_id": "1ff34c99-84d5-539b-a946-635ee8d7b323",
+      "occupation": "farm hands, general farms",
+      "relationship_type": "employment",
+      "end_date": "1942-02-05",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1942-02-05; no named employer, school, workplace or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Broad historical category or student status only; no named employer or school is inferred."
+    },
+    {
+      "key": "lloyd-a-wagner-army-category-b993",
+      "person_id": "8663f075-bcc3-50b2-9de0-e9fdfac8a682",
+      "occupation": "machine shop and related occupations, n.e.c.",
+      "relationship_type": "employment",
+      "end_date": "1942-03-05",
+      "date_precision": "Historical civilian-occupation code 678 was recorded at Army entry on 1942-03-05; no named employer, school, workplace or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Broad historical category or student status only; no named employer or school is inferred."
+    },
+    {
+      "key": "paul-a-wagner-army-category-b993",
+      "person_id": "02ed2ba0-c9e3-56cf-81c7-8142e8da4f2a",
+      "occupation": "gardeners and grounds keepers, parks, cemeteries, etc.",
+      "relationship_type": "employment",
+      "end_date": "1942-02-13",
+      "date_precision": "Historical civilian-occupation code 340 was recorded at Army entry on 1942-02-13; no named employer, school, workplace or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Broad historical category or student status only; no named employer or school is inferred."
+    },
+    {
+      "key": "harvey-w-wainwright-army-category-b993",
+      "person_id": "7717ded8-388f-5cf9-8dea-cbc41c69f1c7",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-10-03",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-10-03; no named employer, school, workplace or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Broad historical category or student status only; no named employer or school is inferred."
+    },
+    {
+      "key": "siegfried-wagener-chicago-times-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "organization_key": "chicago-daily-times-b993",
+      "organization_name_as_found": "Chicago Times",
+      "role_title": "journalist, propaganda analyst and columnist",
+      "relationship_type": "employment",
+      "start_date": "1942-01",
+      "date_precision": "Boulder County reports that one month after U.S. entry into World War II, Wagener's We're Listening column was picked up by the Chicago Times; the exact contract and end date are not stated.",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The county chronology places this work before a brief OSS position, but does not prove there was no intervening affiliation or define his employment contract."
+    },
+    {
+      "key": "siegfried-wagener-kfel-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "organization_key": "kfel-radio-b993",
+      "organization_name_as_found": "KFEL",
+      "role_title": "twice-weekly radio broadcaster",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1941",
+      "date_precision": "The county record dates the beginning of twice-weekly KFEL broadcasts to 1941; the end date and employment form are not stated.",
+      "city": "Denver and Tahosa Valley",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented broadcasting affiliation; not silently converted into salaried employment."
+    },
+    {
+      "key": "ludwig-wagner-assembly-b993",
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "organization_key": "assembly-democratic-austrian-republic-b993",
+      "organization_name_as_found": "Assembly for a Democratic Austrian Republic",
+      "role_title": "leading figure",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1942-04",
+      "end_date": "1943-07",
+      "date_precision": "The institutional biography dates the Assembly's formation to April 1942 and its merger into the Austro American Association to July 1943.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Rare-name probable identity. The affiliation is not employment and its sequence relative to OSS is not established."
+    },
+    {
+      "key": "ludwig-wagner-kleine-blatt-b993",
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "organization_key": "das-kleine-blatt-b993",
+      "organization_name_as_found": "Das Kleine Blatt",
+      "role_title": "editor",
+      "relationship_type": "employment",
+      "start_date": "1932-10",
+      "end_date": "1933-04",
+      "date_precision": "The University of Graz biography explicitly dates his editorial tenure from October 1932 through April 1933.",
+      "city": "Vienna",
+      "country": "Austria",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented earlier employment for the probable rare-name identity; not presented as immediate or the last civilian employer."
+    },
+    {
+      "key": "stuyvesant-wainwright-army-b993",
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "organization_key": "us-army-canonical-b993",
+      "organization_name_as_found": "United States Army",
+      "role_title": "private; later commanding officer of OSS units of the First Army",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-01-30",
+      "date_precision": "The official House biography dates enlistment to 30 January 1942 and states that he later commanded OSS units of the First Army; the exact OSS transfer date is not given.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Army pathway is a military assignment, not a civilian employer."
+    },
+    {
+      "key": "stuyvesant-wainwright-yale-b993",
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "organization_key": "yale-law-school-canonical-b993",
+      "organization_name_as_found": "Yale University",
+      "role_title": "law student",
+      "relationship_type": "student",
+      "end_date": "1942-01-30",
+      "date_precision": "The official biography says his legal studies were interrupted when he enlisted on 30 January 1942.",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Student status immediately before Army enlistment; Yale is not classified as an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-stanley-s-wager-b993",
+      "person_id": "f823b41c-13ff-5735-8b5c-21117a39475e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Stanley S Wager is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The official index and Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and bulk ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1943-03-03 and supplies only historical civilian code 992.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer, school or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        }
+      ]
+    },
+    {
+      "key": "army-category-stanley-s-wager-b993",
+      "person_id": "f823b41c-13ff-5735-8b5c-21117a39475e",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-03-03, Stanley S Wager was recorded as student; no named employer or school is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official amended code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer, school or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b993",
+          "locator_override": "Army entry 1943-03-03; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b993",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b993",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "stanley-s-wager-army-category-b993"
+    },
+    {
+      "key": "identity-albert-wagner-b993",
+      "person_id": "1ff34c99-84d5-539b-a946-635ee8d7b323",
+      "claim_type": "identity",
+      "claim_text": "Indexed Albert Wagner is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The official index and Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and bulk ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1942-02-05 and supplies only historical civilian code 316.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer, school or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        }
+      ]
+    },
+    {
+      "key": "army-category-albert-wagner-b993",
+      "person_id": "1ff34c99-84d5-539b-a946-635ee8d7b323",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-02-05, Albert Wagner was recorded as farm hands, general farms; no named employer or school is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 316, decoded from NARA's official amended code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer, school or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b993",
+          "locator_override": "Army entry 1942-02-05; civilian occupation code 316; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b993",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b993",
+          "locator_override": "PDF physical page 172; historical category 3-16",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ],
+      "affiliation_key": "albert-wagner-army-category-b993"
+    },
+    {
+      "key": "identity-lloyd-a-wagner-b993",
+      "person_id": "8663f075-bcc3-50b2-9de0-e9fdfac8a682",
+      "claim_type": "identity",
+      "claim_text": "Indexed Lloyd A Wagner is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The official index and Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and bulk ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1942-03-05 and supplies only historical civilian code 678.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer, school or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        }
+      ]
+    },
+    {
+      "key": "army-category-lloyd-a-wagner-b993",
+      "person_id": "8663f075-bcc3-50b2-9de0-e9fdfac8a682",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-05, Lloyd A Wagner was recorded as machine shop and related occupations, n.e.c.; no named employer or school is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 678, decoded from NARA's official amended code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer, school or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b993",
+          "locator_override": "Army entry 1942-03-05; civilian occupation code 678; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b993",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b993",
+          "locator_override": "PDF physical page 174; historical category 6-78",
+          "excerpt_override": "Machine shop and related occupations, n.e.c."
+        }
+      ],
+      "affiliation_key": "lloyd-a-wagner-army-category-b993"
+    },
+    {
+      "key": "identity-paul-a-wagner-b993",
+      "person_id": "02ed2ba0-c9e3-56cf-81c7-8142e8da4f2a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Paul A Wagner is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The official index and Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and bulk ordinal remain private.",
+      "temporal_assessment": "The Army record dates entry to 1942-02-13 and supplies only historical civilian code 340.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer, school or exact OSS-transfer date is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        }
+      ]
+    },
+    {
+      "key": "army-category-paul-a-wagner-b993",
+      "person_id": "02ed2ba0-c9e3-56cf-81c7-8142e8da4f2a",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-02-13, Paul A Wagner was recorded as gardeners and grounds keepers, parks, cemeteries, etc.; no named employer or school is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 340, decoded from NARA's official amended code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer, school or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b993",
+          "locator_override": "Army entry 1942-02-13; civilian occupation code 340; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b993",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b993",
+          "locator_override": "PDF physical page 172; historical category 3-40",
+          "excerpt_override": "Gardeners and grounds keepers, parks, cemeteries, etc."
+        }
+      ],
+      "affiliation_key": "paul-a-wagner-army-category-b993"
+    },
+    {
+      "key": "identity-harvey-w-wainwright-b993",
+      "person_id": "7717ded8-388f-5cf9-8dea-cbc41c69f1c7",
+      "claim_type": "identity",
+      "claim_text": "Indexed Harvey W Wainwright is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "A nonshared protected identifier links the index to the Army record, while the self-authored obituary independently uses Wainright and explicitly names OSS service.",
+      "identity_match_assessment": "Confirmed by the protected identifier, compatible middle name and independent Wainright/OSS biography; the identifier remains private.",
+      "temporal_assessment": "The Army record dates entry to 1942-10-03 and supplies only historical civilian code 992.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The index spelling Wainwright and documented spelling Wainright remain visible variants.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        },
+        {
+          "source_key": "harvey-wainright-obituary-b993"
+        }
+      ]
+    },
+    {
+      "key": "army-category-harvey-w-wainwright-b993",
+      "person_id": "7717ded8-388f-5cf9-8dea-cbc41c69f1c7",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1942-10-03, Harvey W Wainwright was recorded as student; no named employer or school is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official amended code list.",
+      "identity_match_assessment": "The category belongs only to the confirmed protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish a named employer, school or immediate OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is published with its limits and excluded from verified-employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b993",
+          "locator_override": "Army entry 1942-10-03; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b993",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b993",
+          "locator_override": "PDF physical page 304; amended historical category 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "harvey-w-wainwright-army-category-b993"
+    },
+    {
+      "key": "identity-siegfried-wagener-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "claim_type": "identity",
+      "claim_text": "Indexed Siegfried Wagener is a high-confidence match to the Boulder County journalist and OSS staff member.",
+      "evidence_paraphrase": "The official county history uses the exact distinctive name, documents his Chicago and Colorado work, and explicitly states that he held an OSS position.",
+      "identity_match_assessment": "High confidence from the rare exact name, compatible chronology and direct OSS statement in an authoritative county record.",
+      "temporal_assessment": "The county chronology places his journalism and broadcasting before a brief OSS position.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file is still needed for the exact employment contract and OSS entry date.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "boulder-county-wagener-b993"
+        }
+      ]
+    },
+    {
+      "key": "immediate-siegfried-wagener-chicago-times-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Siegfried Wagener's Chicago Times journalism is the best-supported probable immediate civilian affiliation before his brief OSS position.",
+      "evidence_paraphrase": "Boulder County dates the newspaper column to one month after U.S. entry into the war and places the later OSS position after this work.",
+      "identity_match_assessment": "High-confidence identity from the same exact-name county chronology that explicitly names OSS.",
+      "temporal_assessment": "Probable immediate: the sequence is strong, but the source gives neither an exact OSS entry date nor proof that no affiliation intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified employment; excluded from default high/confirmed employer analytics.",
+      "sources": [
+        {
+          "source_key": "boulder-county-wagener-b993",
+          "locator_override": "PDF physical page 5",
+          "excerpt_override": "his column ‘We're Listening’ ... was picked up by the Chicago Times"
+        }
+      ],
+      "affiliation_key": "siegfried-wagener-chicago-times-b993"
+    },
+    {
+      "key": "last-civilian-siegfried-wagener-chicago-times-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Chicago Times is the best-supported probable last civilian employer or publishing affiliation before Siegfried Wagener's OSS position.",
+      "evidence_paraphrase": "The county record describes reporter work, a newspaper column and later OSS service, but does not define whether he was staff, contract or syndicated.",
+      "identity_match_assessment": "High-confidence identity from the exact-name direct OSS biography.",
+      "temporal_assessment": "Probable rather than settled because employment form and the exact transition date are unstated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical newspaper name is preserved; the modern successor is not substituted.",
+      "sources": [
+        {
+          "source_key": "boulder-county-wagener-b993"
+        }
+      ],
+      "affiliation_key": "siegfried-wagener-chicago-times-b993"
+    },
+    {
+      "key": "kfel-siegfried-wagener-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Siegfried Wagener began twice-weekly broadcasts on KFEL in 1941 while analyzing foreign propaganda.",
+      "evidence_paraphrase": "Boulder County documents the 1941 broadcasts and the Tahosa Valley listening post before describing his later OSS position.",
+      "identity_match_assessment": "High-confidence identity from the exact-name direct OSS biography.",
+      "temporal_assessment": "Definitely wartime and pre-OSS in the county chronology; the employment form and end date remain unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Recorded as a professional affiliation, not assumed salaried employment.",
+      "sources": [
+        {
+          "source_key": "boulder-county-wagener-b993",
+          "locator_override": "PDF physical page 5",
+          "excerpt_override": "in 1941, Wagener started broadcasting twice weekly from KFEL in Denver"
+        }
+      ],
+      "affiliation_key": "siegfried-wagener-kfel-b993"
+    },
+    {
+      "key": "identity-ludwig-anton-wagner-b993",
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "claim_type": "identity",
+      "claim_text": "Indexed Ludwig Anton Wagner is probably the Austrian journalist and economist documented by the University of Graz archive.",
+      "evidence_paraphrase": "The institutional biography uses the exact rare three-part name and supplies a compatible emigration and New York wartime chronology.",
+      "identity_match_assessment": "Probable from the exceptionally distinctive exact name and compatible U.S. wartime context; the biography does not mention OSS or the personnel file.",
+      "temporal_assessment": "The biography documents employment and affiliations before and during the war but does not establish their sequence relative to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 811 is required before upgrading identity or treating any role as immediate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "graz-ludwig-wagner-b993"
+        }
+      ]
+    },
+    {
+      "key": "assembly-ludwig-wagner-b993",
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ludwig Anton Wagner was a leading figure in New York's Assembly for a Democratic Austrian Republic from its 1942 formation until its 1943 merger.",
+      "evidence_paraphrase": "The University of Graz biography identifies him and dates the organization's formation and merger.",
+      "identity_match_assessment": "Probable identity from the rare exact name and compatible wartime U.S. chronology.",
+      "temporal_assessment": "Documented wartime affiliation; its relation to OSS entry is unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Professional or political affiliation only, not employment.",
+      "sources": [
+        {
+          "source_key": "graz-ludwig-wagner-b993"
+        }
+      ],
+      "affiliation_key": "ludwig-wagner-assembly-b993"
+    },
+    {
+      "key": "employment-ludwig-wagner-kleine-blatt-b993",
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ludwig Anton Wagner worked as an editor for Vienna's Das Kleine Blatt from October 1932 through April 1933.",
+      "evidence_paraphrase": "The institutional biography explicitly gives the newspaper, role and date range.",
+      "identity_match_assessment": "Probable identity from the rare exact name; direct personnel-file confirmation remains absent.",
+      "temporal_assessment": "Explicitly dated earlier employment, not shown to be immediate or the last civilian job before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified earlier employment only.",
+      "sources": [
+        {
+          "source_key": "graz-ludwig-wagner-b993"
+        }
+      ],
+      "affiliation_key": "ludwig-wagner-kleine-blatt-b993"
+    },
+    {
+      "key": "identity-richard-d-wagner-b993",
+      "person_id": "66344d4e-7120-5bca-9cdb-259bab783be8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Richard D Wagner is confirmed as the official Army record printed as Agner Richard D.",
+      "evidence_paraphrase": "The records share a nonshared protected identifier, and the Army spelling differs only by the loss of the initial W.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement and a narrowly explained one-letter loss; the identifier remains private.",
+      "temporal_assessment": "The Army entry date is 28 May 1946, after OSS dissolution, so its student code supplies no pre-OSS evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no post-OSS occupation code is transferred into the pre-OSS history.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        },
+        {
+          "source_key": "army-tech-b993"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-e-wagner-b993",
+      "person_id": "44f08118-cc69-5e8c-85b5-d0555cd2ae14",
+      "claim_type": "identity",
+      "claim_text": "Indexed William E Wagner is confirmed as the reviewed official Army entry record.",
+      "evidence_paraphrase": "The index and Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "Confirmed by direct protected-identifier agreement; the identifier and bulk ordinal remain private.",
+      "temporal_assessment": "The Army entry date is 16 November 1945, after OSS dissolution, so the civil-engineer code supplies no pre-OSS evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; the post-OSS occupation code is deliberately withheld from the pre-OSS affiliation model.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "army-bulk-b993"
+        },
+        {
+          "source_key": "army-tech-b993"
+        }
+      ]
+    },
+    {
+      "key": "identity-stuyvesant-wainwright-b993",
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Stuyvesant Wainwright is a high-confidence match to the U.S. Representative and wartime OSS unit commander.",
+      "evidence_paraphrase": "The official House biography uses the distinctive exact name and explicitly states that he commanded OSS units of the First Army.",
+      "identity_match_assessment": "High confidence from an exact distinctive name and direct official OSS biography.",
+      "temporal_assessment": "The same biography supplies the Yale-to-Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No famous-name assignment was made from name alone; the direct OSS statement is the identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b993"
+        },
+        {
+          "source_key": "house-stuyvesant-wainwright-b993"
+        }
+      ]
+    },
+    {
+      "key": "army-stuyvesant-wainwright-b993",
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army was Stuyvesant Wainwright's immediate institutional pathway into OSS command.",
+      "evidence_paraphrase": "The official biography dates Army enlistment and later identifies him as commanding officer of OSS units of the First Army.",
+      "identity_match_assessment": "High-confidence identity from the distinctive exact name and direct official OSS statement.",
+      "temporal_assessment": "Strongly date-bounded military pathway; the exact transfer date is not given.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, never mislabeled as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "house-stuyvesant-wainwright-b993",
+          "locator_override": "Concise Biography",
+          "excerpt_override": "was commanding officer of O.S.S. units of the First Army"
+        }
+      ],
+      "affiliation_key": "stuyvesant-wainwright-army-b993"
+    },
+    {
+      "key": "student-stuyvesant-wainwright-yale-b993",
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Stuyvesant Wainwright was a Yale law student immediately before enlisting in the Army on 30 January 1942.",
+      "evidence_paraphrase": "The official House biography says his legal studies at Yale were interrupted by that dated enlistment.",
+      "identity_match_assessment": "High-confidence identity from the distinctive exact name and direct official OSS biography.",
+      "temporal_assessment": "Explicitly bounded to the day of Army enlistment; student status is not employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Yale is excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "house-stuyvesant-wainwright-b993"
+        }
+      ],
+      "affiliation_key": "stuyvesant-wainwright-yale-b993"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "c9d24217-4daf-54c1-a360-7bbf1130d951",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Albert H Waffle and its Box 810 or 811 context. Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge."
+    },
+    {
+      "person_id": "74f95699-9431-5381-bd4f-f58c95d8e856",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves David E Waggoner and its Box 810 or 811 context. A cemetery transcription names a World War II Army technician fifth grade with the exact name, but it supplies no indexed identifier, OSS link or pre-service chronology.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A cemetery transcription names a World War II Army technician fifth grade with the exact name, but it supplies no indexed identifier, OSS link or pre-service chronology."
+    },
+    {
+      "person_id": "a83ac3b9-2f7f-59b1-a87b-9800dc64f475",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Allan Wagner and its Box 810 or 811 context. Common-name and spelling-variant searches produced no source with the indexed identifier or a direct OSS assignment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name and spelling-variant searches produced no source with the indexed identifier or a direct OSS assignment bridge."
+    },
+    {
+      "person_id": "c902112c-4321-5c6d-bfc8-e1d5f69fd0db",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Allen Oscar Wagner and its Box 810 or 811 context. The distinctive full name produced no source with an OSS, protected-identifier, employer or personnel-file bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The distinctive full name produced no source with an OSS, protected-identifier, employer or personnel-file bridge."
+    },
+    {
+      "person_id": "4c8b55c7-eb17-5490-893c-32f05e62e8de",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Bernard G Wagner and its Box 810 or 811 context. Multiple genealogy and cemetery namesakes lacked the indexed identifier and an OSS or employment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Multiple genealogy and cemetery namesakes lacked the indexed identifier and an OSS or employment bridge."
+    },
+    {
+      "person_id": "e05bbae5-7976-5f5e-90df-21c66096b8da",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Charles B Wagner and its Box 810 or 811 context. Common-name results lacked the indexed identifier, OSS assignment and corroborating identifiers required for assignment.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results lacked the indexed identifier, OSS assignment and corroborating identifiers required for assignment."
+    },
+    {
+      "person_id": "614f3952-4274-5c62-8bc4-a44b1b82abe3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Harry Eugene Wagner and its Box 810 or 811 context. A modern namesake and a local veterans list were rejected because their chronology is incompatible with World War II service.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A modern namesake and a local veterans list were rejected because their chronology is incompatible with World War II service."
+    },
+    {
+      "person_id": "f38438b9-058a-5208-95c5-616f37265236",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Herta Gloria Wagner and its Box 810 or 811 context. The distinctive exact name produced no reliable biographical, institutional, military or employment source.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The distinctive exact name produced no reliable biographical, institutional, military or employment source."
+    },
+    {
+      "person_id": "917d8c7a-0983-5730-934e-314ff181e146",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Shirley Carol Wagner and its Box 810 or 811 context. Exact-name, OSS, occupation, obituary, directory, institutional and archival searches produced no reliable result.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, OSS, occupation, obituary, directory, institutional and archival searches produced no reliable result."
+    },
+    {
+      "person_id": "146c48fa-7fb8-5a02-adfe-4938e195d561",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Joseph Wago Jr. and its Box 810 or 811 context. Exact-name and suffix searches produced no source with an OSS, protected-identifier or personnel-file bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and suffix searches produced no source with an OSS, protected-identifier or personnel-file bridge."
+    },
+    {
+      "person_id": "80c9aa4f-6fe5-5fe4-b790-12ed4fb6f446",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves Florence E Wagoner and its Box 810 or 811 context. People-finder and genealogy results exposed multiple namesakes and sensitive personal data but no defensible OSS identity; they were rejected and not retained.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. People-finder and genealogy results exposed multiple namesakes and sensitive personal data but no defensible OSS identity; they were rejected and not retained."
+    },
+    {
+      "person_id": "1485beb4-f02c-5159-9abe-7b10a9fdae8c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves David R Wahl and its Box 810 or 811 context. Common-name results produced no source with the middle initial, indexed identifier or direct OSS bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results produced no source with the middle initial, indexed identifier or direct OSS bridge."
+    },
+    {
+      "person_id": "f26f02bd-08ba-58d2-b7a7-13c6b1f7f485",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 487 row preserves James P Waite and its Box 810 or 811 context. Common-name results produced no source with the middle initial, indexed identifier, rank, unit or direct OSS bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Common-name results produced no source with the middle initial, indexed identifier, rank, unit or direct OSS bridge."
+    },
+    {
+      "person_id": "f823b41c-13ff-5735-8b5c-21117a39475e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact official name and a nonshared protected identifier connect the visually verified index row to the Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 810 to identify any named employer or school behind historical code 992 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "1ff34c99-84d5-539b-a946-635ee8d7b323",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact official name and a nonshared protected identifier connect the visually verified index row to the Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 811 to identify any named employer or school behind historical code 316 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8663f075-bcc3-50b2-9de0-e9fdfac8a682",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact official name and a nonshared protected identifier connect the visually verified index row to the Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 811 to identify any named employer or school behind historical code 678 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "02ed2ba0-c9e3-56cf-81c7-8142e8da4f2a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact official name and a nonshared protected identifier connect the visually verified index row to the Army record.",
+      "name_variants": null,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 811 to identify any named employer or school behind historical code 340 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "7717ded8-388f-5cf9-8dea-cbc41c69f1c7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier connects the index to the official Army record. The documented Wainright spelling and self-authored OSS biography independently resolve the index spelling variant.",
+      "name_variants": [
+        "Harvey W Wainright"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 811 to identify any named employer or school behind historical code 992 and establish the Army-to-OSS chronology.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An authoritative Boulder County history uses the distinctive exact name, documents wartime journalism and broadcasting, and explicitly states that Wagener briefly held an OSS position.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 810 to confirm the Chicago Times employment form, determine whether Chicago Times or KFEL was the exact immediate predecessor, and establish the OSS entry date."
+    },
+    {
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The University of Graz archive documents an exceptionally distinctive exact name and a compatible Austrian-emigre and New York wartime chronology, but does not itself mention OSS or the indexed file.",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 811 to confirm the rare-name identity and determine whether the 1942-1943 Austrian exile organization preceded OSS service; Das Kleine Blatt remains qualified earlier employment only."
+    },
+    {
+      "person_id": "66344d4e-7120-5bca-9cdb-259bab783be8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier connects the index to the Army record printed as Agner Richard D; the one-letter loss is retained as a documented source variant.",
+      "name_variants": [
+        "Agner Richard D"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 811 for the pre-OSS history. The accepted Army entry is dated 28 May 1946, so its student code is not pre-OSS evidence.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "44f08118-cc69-5e8c-85b5-d0555cd2ae14",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact official name and a nonshared protected identifier connect the visually verified index row to the Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 811 for the pre-OSS history. The accepted Army entry is dated 16 November 1945, so its civil-engineer code is not pre-OSS evidence.",
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "low",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official House biography uses the distinctive exact name, supplies the Yale-to-Army chronology and explicitly states that Wainwright commanded OSS units of the First Army.",
+      "name_variants": [
+        "Stuyvesant Wainwright II"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "completed",
+      "next_action": "No online research action is required. The indexed file may still refine the exact Army-to-OSS transfer date."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page487-row1-albert-h-waffle-b993",
+      "person_id": "c9d24217-4daf-54c1-a360-7bbf1130d951",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Albert H Waffle; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name, OSS, employer, occupation, obituary, institutional, newspaper and archival searches produced no reliable identity bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row2-siegfried-wagener-b993",
+      "person_id": "aaf02551-6b0f-5358-ac5b-09d04eb45d59",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Siegfried Wagener; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "A Boulder County preservation record directly linked the exact name to OSS and documented qualified Chicago Times and KFEL work. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row3-stanley-s-wager-b993",
+      "person_id": "f823b41c-13ff-5735-8b5c-21117a39475e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stanley S Wager; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The accepted protected-identifier Army bridge produced a confirmed identity and qualified generic student status at 1943 Army entry. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row4-david-e-waggoner-b993",
+      "person_id": "74f95699-9431-5381-bd4f-f58c95d8e856",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "David E Waggoner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "A cemetery transcription names a World War II Army technician fifth grade with the exact name, but it supplies no indexed identifier, OSS link or pre-service chronology. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row5-albert-wagner-b993",
+      "person_id": "1ff34c99-84d5-539b-a946-635ee8d7b323",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Albert Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The accepted protected-identifier Army bridge produced a confirmed identity and qualified historical general-farm-hand category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row6-allan-wagner-b993",
+      "person_id": "a83ac3b9-2f7f-59b1-a87b-9800dc64f475",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Allan Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Common-name and spelling-variant searches produced no source with the indexed identifier or a direct OSS assignment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row7-allen-oscar-wagner-b993",
+      "person_id": "c902112c-4321-5c6d-bfc8-e1d5f69fd0db",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Allen Oscar Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The distinctive full name produced no source with an OSS, protected-identifier, employer or personnel-file bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row8-bernard-g-wagner-b993",
+      "person_id": "4c8b55c7-eb17-5490-893c-32f05e62e8de",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernard G Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Multiple genealogy and cemetery namesakes lacked the indexed identifier and an OSS or employment bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row9-charles-b-wagner-b993",
+      "person_id": "e05bbae5-7976-5f5e-90df-21c66096b8da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles B Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Common-name results lacked the indexed identifier, OSS assignment and corroborating identifiers required for assignment. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row10-harry-eugene-wagner-b993",
+      "person_id": "614f3952-4274-5c62-8bc4-a44b1b82abe3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry Eugene Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "A modern namesake and a local veterans list were rejected because their chronology is incompatible with World War II service. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row11-herta-gloria-wagner-b993",
+      "person_id": "f38438b9-058a-5208-95c5-616f37265236",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herta Gloria Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The distinctive exact name produced no reliable biographical, institutional, military or employment source. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row12-lloyd-a-wagner-b993",
+      "person_id": "8663f075-bcc3-50b2-9de0-e9fdfac8a682",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lloyd A Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The accepted protected-identifier Army bridge produced a confirmed identity and qualified historical machine-shop category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row13-ludwig-anton-wagner-b993",
+      "person_id": "8e2548e9-16a4-5e4d-ac17-2d14a40834ae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ludwig Anton Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "A University of Graz biography produced a probable rare-name identity, qualified Das Kleine Blatt employment and a wartime Austrian exile affiliation. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row14-paul-a-wagner-b993",
+      "person_id": "02ed2ba0-c9e3-56cf-81c7-8142e8da4f2a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul A Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The accepted protected-identifier Army bridge produced a confirmed identity and qualified historical gardener and groundskeeper category. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row15-richard-d-wagner-b993",
+      "person_id": "66344d4e-7120-5bca-9cdb-259bab783be8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard D Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "A nonshared identifier resolved the Army file's one-letter name loss; the post-OSS entry was used for identity only. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row16-shirley-carol-wagner-b993",
+      "person_id": "917d8c7a-0983-5730-934e-314ff181e146",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shirley Carol Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name, OSS, occupation, obituary, directory, institutional and archival searches produced no reliable result. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row17-william-e-wagner-b993",
+      "person_id": "44f08118-cc69-5e8c-85b5-d0555cd2ae14",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William E Wagner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The accepted protected-identifier Army record dates after OSS dissolution and was used for identity only, not for its engineering code. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row18-joseph-wago-jr-b993",
+      "person_id": "146c48fa-7fb8-5a02-adfe-4938e195d561",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Wago Jr.; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Exact-name and suffix searches produced no source with an OSS, protected-identifier or personnel-file bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row19-florence-e-wagoner-b993",
+      "person_id": "80c9aa4f-6fe5-5fe4-b790-12ed4fb6f446",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Florence E Wagoner; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "People-finder and genealogy results exposed multiple namesakes and sensitive personal data but no defensible OSS identity; they were rejected and not retained. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row20-david-r-wahl-b993",
+      "person_id": "1485beb4-f02c-5159-9abe-7b10a9fdae8c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "David R Wahl; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Common-name results produced no source with the middle initial, indexed identifier or direct OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row21-harvey-w-wainwright-b993",
+      "person_id": "7717ded8-388f-5cf9-8dea-cbc41c69f1c7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harvey W Wainwright; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "The protected-identifier bridge, documented Wainright spelling and self-authored OSS obituary confirmed identity and qualified generic student status at Army entry. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row22-stuyvesant-wainwright-b993",
+      "person_id": "55ab49e4-7b19-5746-9576-de7f1c8cc8d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stuyvesant Wainwright; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "An official House biography directly documented Yale study, dated Army enlistment and command of OSS units of the First Army. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    },
+    {
+      "key": "page487-row23-james-p-waite-b993",
+      "person_id": "f26f02bd-08ba-58d2-b7a7-13c6b1f7f485",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James P Waite; NARA OSS index context; CIA Reading Room exact-name domain check; Library of Congress exact-name collection check; exact-name and meaningful variants; OSS, rank, branch, identifier and assignment clues; employer and occupation 1940; obituary, institutional, newspaper, directory and archival searches; indexed Box 810 or 811; protected identifiers used only in private official-record comparison",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_993",
+      "started_at": "2026-11-03T12:45:00Z",
+      "completed_at": "2026-11-03T13:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Unbridged namesakes, snippets, commercial people-finder pages, relatives, unsourced genealogy, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Modern Harry Eugene Wagner results, multiple Florence E. Wagoner people-finder records, an incompatible Albert Wagner military casualty and ambiguous Bernard G. Wagner records were not assigned. Historical Army categories, student status and military service were not silently converted into named employers.",
+      "research_notes": "Common-name results produced no source with the middle initial, indexed identifier, rank, unit or direct OSS bridge. Exact-name OSS, employer, occupation, obituary, institutional, newspaper, official-domain and archival searches were checked as applicable. Grouped CIA Reading Room and Library of Congress discovery checks produced no additional publishable source for the cohort. The NARA index, official Army bulk data, technical documentation and code-list pages were inspected directly; Boulder County packet physical page 5 was downloaded, text-extracted and visually checked. The official House biography and University of Graz institutional biography were inspected in context. No search-result snippet was used as sole final evidence, no paywall or access control was bypassed, and no authenticated NARA Catalog API call was made.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers, the immediate pre-OSS affiliation and the last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b993-v1"
+    }
+  ]
+}

@@ -5,8 +5,8 @@ Date: 2026-11-03 America/New_York
 ## Release contents
 
 - NARA index page 486, rows 24-46: William Vyhnal through Claude V.
-  Wadsworth. Page 486, row 47, Geoffrey E. Wagner, is the next cohort
-  boundary.
+  Wadsworth. Page 486 ends at row 46; page 487, row 1, Albert H. Waffle, is
+  the next cohort boundary.
 - All 23 printed rows remain separate people and have saved terminal research
   outcomes: 2 `occupation_only_found` and 21 `requires_archival_review`.
 - Official Army identity bridges for Charles S Wade and Frederick J Wadley
@@ -26,7 +26,7 @@ Date: 2026-11-03 America/New_York
 - Audited content commit:
   `976a7e2e78255919a408ddc64b2159e864daf5a8`.
 - Evidence-bundle SHA-256:
-  `382b5aa58163023fce5bb162030582607a92f29a93ca312333dd772d34dd164b`.
+  `68df4a5428fe86ee1a833a57ca1d0128fad730d9ad0061f3268eb87d7cf1905d`.
 - Durable import: 6 sources, 1 organization update, 3 affiliations, 7 claims,
   15 claim-source links, 23 person updates and 23 research attempts.
 - Review decisions: two accepted official Army identity candidates.

@@ -96,7 +96,7 @@ def sources() -> list[dict[str, object]]:
             "access_date": "2026-11-03",
             "source_quality": "A_direct_official",
             "collection_name": "Records of the Office of Strategic Services, Record Group 226",
-            "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. Page 486 row 47, Geoffrey E. Wagner, is outside this cohort.",
+            "rights_notes": "All 23 printed rows remain separate. Protected identifiers remain private. PDF page 487 row 1, Albert H. Waffle, is outside this cohort and begins the next batch.",
         },
         {
             "key": ARMY,
