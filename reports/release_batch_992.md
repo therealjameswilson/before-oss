@@ -23,7 +23,8 @@ Date: 2026-11-03 America/New_York
 
 ## Reproducible local release checks
 
-- Audited content commit: pending publication commit.
+- Audited content commit:
+  `976a7e2e78255919a408ddc64b2159e864daf5a8`.
 - Evidence-bundle SHA-256:
   `382b5aa58163023fce5bb162030582607a92f29a93ca312333dd772d34dd164b`.
 - Durable import: 6 sources, 1 organization update, 3 affiliations, 7 claims,
@@ -74,8 +75,20 @@ Date: 2026-11-03 America/New_York
 
 ## Publication verification
 
-Pending the reviewed content push, successful GitHub Actions Test and Pages
-runs, and an unauthenticated deployed-release verification against the
-immutable publication commit.
+- Immutable published release commit:
+  `976a7e2e78255919a408ddc64b2159e864daf5a8`.
+- GitHub Actions Test run `41641804166` completed successfully.
+- GitHub Pages run `41641803447` completed successfully; its deploy job
+  completed at `2026-11-03T13:11:33Z`.
+- On 2026-11-03, the unauthenticated deployed-release verifier checked the
+  live GitHub Pages site against that exact commit and the Batch 992 evidence
+  bundle. It verified all 67 public assets (133,029,131 bytes; manifest
+  SHA-256
+  `6218e159c9c99f82bf28942ac29485da6b9ca7fbbaf74019ff4e241c3b56ddff`),
+  all eight core routes, all 44 source-register pages and all 23 direct Batch
+  992 profile routes.
+- Independent unauthenticated HTTP checks returned status 200 for the home
+  page, the oil-company category, and the Bertus Harry Wabeke, John E
+  Wachsmuth, Charles S Wade and Frederick J Wadley III profile pages.
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.

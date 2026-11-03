@@ -29,8 +29,15 @@ complete 522-page ingest audit, all 149 Python tests, Astro's zero-diagnostic
 25,291-page build, the 24/24 targeted browser matrix and the 93/93 bounded
 browser/accessibility release suite. All internal links resolve, the protected
 identifier audit found zero unexpected matches, the 67-asset public manifest
-verifies locally and two clean builds are deterministic. Publication status is
-recorded in `reports/release_batch_992.md`.
+verifies locally and two clean builds are deterministic. Batch 992 is public
+from immutable content commit
+`976a7e2e78255919a408ddc64b2159e864daf5a8`; GitHub Actions Test run
+`41641804166` and Pages run `41641803447` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets across 133,029,131
+bytes, eight core routes, all 44 source-register pages and all 23 direct
+cohort profiles, with manifest SHA-256
+`6218e159c9c99f82bf28942ac29485da6b9ca7fbbaf74019ff4e241c3b56ddff`.
+Full publication evidence is recorded in `reports/release_batch_992.md`.
 
 Batch 991 completed PDF page 486, rows 1-23, from **Jacques Voyer** through
 **Ladislav Hugh Vydra**, preserving all 23 printed rows as
