@@ -161,7 +161,7 @@ test("Clarence Weems has a qualified MIS predecessor and is not added to the oil
   });
   expect(person.immediate_pre_oss_affiliations).toEqual([
     expect.objectContaining({
-      canonical_organization: "Military Intelligence Service",
+      canonical_organization: "Military Intelligence Service (U.S. Army)",
       organization_name_as_found: "M.I.S. Far East Branch",
       relationship_type: "government_assignment",
       temporal_basis: "probable_immediate",
