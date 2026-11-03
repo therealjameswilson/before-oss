@@ -19,6 +19,7 @@ ARMY_OFFICER_RANKS = {
     "LT",
     "CAPT",
     "MAJ",
+    "MAJOR",
     "LT COL",
     "COL",
     "BRIG GEN",
