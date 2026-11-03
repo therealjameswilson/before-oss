@@ -63,6 +63,7 @@ ARMY_ENLISTED_RANKS = {
 }
 NAVAL_ENLISTED_PREFIXES = (
     "CSK",
+    "PHM ",
     "S 1/C",
     "S 2/C",
     "S 3/C",
@@ -231,6 +232,7 @@ def normalize_rank(value: str | None) -> str | None:
     normalized = re.sub(r"^TEC-([345])$", r"TEC \1", normalized)
     normalized = re.sub(r"^S([123])\s+C$", r"S \1/C", normalized)
     normalized = re.sub(r"^(RM)([123])/?C$", r"\1 \2/C", normalized)
+    normalized = re.sub(r"^(PHM)([123])\s*/?C$", r"\1 \2/C", normalized)
     return normalized
 
 

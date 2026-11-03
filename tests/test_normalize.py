@@ -146,6 +146,18 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(result.category, "enlisted_naval_personnel")
         self.assertFalse(result.commissioned_officer)
 
+    def test_pharmacists_mate_variants_are_naval_enlisted(self) -> None:
+        for printed_rank, normalized_rank in (
+            ("PhM 1/c USNR", "PHM 1/C USNR"),
+            ("PHM1C", "PHM 1/C"),
+            ("PHM1 C", "PHM 1/C"),
+        ):
+            with self.subTest(printed_rank=printed_rank):
+                result = classify_personnel(printed_rank, None)
+                self.assertEqual(result.rank_normalized, normalized_rank)
+                self.assertEqual(result.category, "enlisted_naval_personnel")
+                self.assertFalse(result.commissioned_officer)
+
     def test_compact_radioman_second_class_is_naval_enlisted(self) -> None:
         for printed_rank in ("RM2/c", "RM2c"):
             with self.subTest(printed_rank=printed_rank):
