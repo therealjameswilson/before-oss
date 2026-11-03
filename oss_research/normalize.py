@@ -80,6 +80,7 @@ NAVAL_ENLISTED_PREFIXES = (
     "SK ",
 )
 CIVILIAN_GRADE_RE = re.compile(r"^(?:CAF|P|CPC|SP)-?\d+[A-Z]?$", re.IGNORECASE)
+CIVILIAN_STATUS_RANKS = {"CIV"}
 TEMPORARY_GRADE_RE = re.compile(r"^(?:TEMP|CONTRACT|SPECIAL|CONSULTANT)\b", re.IGNORECASE)
 FOREIGN_NOTE_RE = re.compile(
     r"\b(?:POLISH|FRENCH|BRITISH|CANADIAN|DUTCH|BELGIAN|NORWEGIAN|"
@@ -273,6 +274,14 @@ def classify_personnel(rank_raw: str | None, notes_raw: str | None) -> Personnel
         return PersonnelClassification(
             rank, "foreign_or_allied_military_personnel", None, True,
             "Foreign or Allied classification is based on the printed notes field."
+        )
+    if rank in CIVILIAN_STATUS_RANKS:
+        return PersonnelClassification(
+            rank,
+            "civilian_professional_or_administrative_grade",
+            False,
+            foreign,
+            "Civilian status is based on the printed Civ abbreviation in the rank or grade field.",
         )
     if naval_rank != rank and naval_rank in NAVAL_OFFICER_RANKS.union({"LT"}):
         return PersonnelClassification(
