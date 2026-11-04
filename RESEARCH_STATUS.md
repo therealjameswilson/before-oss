@@ -1,5 +1,49 @@
 # Research status
 
+Batch 1009 completed PDF page 499, rows 1-46, from **Westphal Mau M. Weston**
+through **William M. Wheeler Jr.** All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Elkins Wetherill's possible
+transposed duplicate and the two separately printed Jack R. Wheat rows remain
+grouped for review rather than silently merged.
+
+Every cohort person has a saved terminal research outcome: 36
+`requires_archival_review`, five `occupation_only_found`, one
+`conflicting_sources` and four `completed`. Five reviewed exact-name,
+nonshared protected-identifier Army bridges support five qualified historical
+occupation or student categories. None is converted into a named employer,
+school, workplace or exact OSS-transfer date.
+
+Institutional and archival evidence supports high-confidence Elkins Wetherill,
+Gosta C. F. Wetterhall, Nathaniel Weyl and Donald Niven Wheeler identities.
+The evidence keeps student status, civilian employment, government assignment
+and military service distinct. Nathaniel Weyl's Board of Economic Warfare
+assignment is the last documented civilian affiliation before Army service;
+no immediate pre-OSS affiliation is asserted. Conflicting Army candidates for
+John P. Wheat remain explicit and neither coded occupation is published as
+settled fact. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,343/23,935 (68.2808%)**;
+verified-employer coverage is **528/23,935 (2.2060%)**; verified-affiliation
+coverage is **1,161/23,935 (4.8506%)**; archival-review coverage is
+**14,820/23,935 (61.9177%)**. There are **7,587** not-started people, **688**
+possible-duplicate groups and **544** conflicts. The public projection
+contains **4,161** affiliations, **1,339** organizations, **6,620** sources
+and **10,456** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 500, row
+1, **Harold J. Wheelock**.
+
+Batch 1009 passed evidence validation, durable import, SQLite integrity, the
+complete 522-page ingest audit, the 200-profile audit, all 154 Python tests,
+Astro's zero-diagnostic 25,327-page build and the 99/99 bounded browser,
+analysis and accessibility release suite across desktop, phone and tablet.
+All internal links resolve; the protected-identifier audit found zero
+unexpected matches; and the 67-asset public manifest verifies locally across
+135,940,897 bytes with SHA-256
+`2b4dc24785c78c1dcb50538a7cb7deb897e6ca8cc4e927a60f15f5660fe71ecf`.
+Publication and independent live verification remain pending; full evidence
+is recorded in `reports/release_batch_1009.md`.
+
 Batch 1008 completed PDF page 498, rows 1-46, from **Marjorie J. Werner**
 through **T. B. Weston**. All 46 printed rows remain separately recoverable as
 46 cautious person entities; the two separately printed Robert C. West rows

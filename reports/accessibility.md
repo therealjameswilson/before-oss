@@ -1,5 +1,15 @@
 # Accessibility and responsive QA
 
+Batch 1009 local validation, 2026-11-03 America/New_York: the bounded release
+suite passed **99/99** Playwright checks across desktop, phone and tablet. This
+includes 30 Batch 1009 evidence/profile checks, 33 core route and interaction
+checks, six confidence-aware analysis checks and 30 axe accessibility checks.
+All tested pages had no serious axe violations. All **154** Python tests and 87
+subtests passed. Astro checked 640 files with zero diagnostics and built
+**25,327** static pages. The protected-identifier audit found zero unexpected
+matches and all internal links resolve. CI and live-release verification are
+separate pending gates.
+
 Batch 1008 local validation, 2026-11-03 America/New_York: the bounded release
 suite passed **96/96** Playwright checks across desktop, phone and tablet. This
 includes 27 Batch 1008 evidence/profile checks, 33 core route and interaction
