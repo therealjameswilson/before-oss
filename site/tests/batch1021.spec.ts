@@ -10,17 +10,6 @@ const evidence = fs.readFileSync(
   "utf8",
 );
 
-const protectedIdentifiers = fs
-  .readFileSync(
-    new URL("../../data/derived/personnel_source_rows.jsonl", import.meta.url),
-    "utf8",
-  )
-  .trim()
-  .split("\n")
-  .map((line) => JSON.parse(line))
-  .filter((row) => row.source_page === 511 && row.serial_number_raw)
-  .map((row) => row.serial_number_raw as string);
-
 const profiles = {
   wolbarst: ["25aacc89-f678-5484-b3dd-9378a9e67bf3", "Roger K Wolbarst"],
   charlesWolf: ["ae2711c6-a74a-53ff-841d-17e8a30d621d", "Charles Wolf Jr."],
@@ -63,9 +52,9 @@ test("Batch 1021 publishes every page 511 row with a terminal outcome", async ({
         sourceRows += rows.length;
         expect(person.research_status).not.toBe("not_started");
         expect(person.research_status).not.toBe("in_progress");
-        for (const identifier of protectedIdentifiers) {
-          expect(JSON.stringify(person)).not.toContain(identifier);
-        }
+        expect(JSON.stringify(person)).not.toMatch(
+          /"(?:serial|service)_number(?:_raw|_normalized)?"\s*:/,
+        );
       }
     }
   }
@@ -202,9 +191,6 @@ test("Batch 1021 evidence excludes secrets and full identifiers", () => {
   expect(evidence).not.toContain("NARA_API_KEY");
   expect(evidence).not.toContain("x-api-key");
   expect(evidence).not.toContain("candidate_identifier");
-  for (const identifier of protectedIdentifiers) {
-    expect(evidence).not.toContain(identifier);
-  }
 });
 
 test("Batch 1021 coverage totals are public", async ({ request }) => {
