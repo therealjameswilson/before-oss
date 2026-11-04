@@ -1,0 +1,2507 @@
+{
+  "bundle_version": "batch-1023-v1",
+  "reviewer": "Before OSS Batch 1023 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 851-853",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 513, rows 1-46; visually checked at 180 dpi against the source table",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 46 printed rows remain separate. Full service or serial numbers remain private."
+    },
+    {
+      "key": "army-bulk-b1023",
+      "access_date": "2026-11-04",
+      "source_id": "cf280d3e-1262-5963-90d7-40ffa66c53a3",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eight Batch 1023 protected-identifier candidates reviewed",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record or full protected identifier is retained in public assets. Coded occupations identify neither employer nor workplace."
+    },
+    {
+      "key": "army-tech-b1023",
+      "access_date": "2026-11-04",
+      "source_id": "f24044fe-5fcd-5d78-96d4-25d577e90703",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b1023",
+      "access_date": "2026-11-04",
+      "source_id": "ace136c1-722a-5af0-a43b-bab53792ae6a",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-171 and 304; Batch 1023 categories visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer, institution nor workplace. Undefined code 999 is not interpreted."
+    },
+    {
+      "key": "kcl-special-forces-woodhouse-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.kcl.ac.uk/library/assets/archives/specialforces.pdf",
+      "archival_identifier": "Liddell Hart Centre for Military Archives, Woodhouse papers",
+      "title": "Special Forces Research Guide",
+      "author_creator": "Liddell Hart Centre for Military Archives",
+      "repository_publisher": "King's College London",
+      "locator": "PDF page 3, WOODHOUSE, Col C M, 5th Baron Terrington entry",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "King's College London Archives research guides"
+    },
+    {
+      "key": "iwm-woodhouse-interview-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://film.iwmcollections.org.uk/record/27037",
+      "archival_identifier": "Film MGH 1301",
+      "title": "ALL OUR YESTERDAYS: INTERVIEW WITH C M WOODHOUSE",
+      "author_creator": "Imperial War Museums",
+      "repository_publisher": "Imperial War Museums",
+      "locator": "Collection record identifying Colonel Christopher Montague Woodhouse and the Allied Military Mission in Greece",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "IWM Film"
+    },
+    {
+      "key": "jstor-woolbert-foreign-affairs-1941-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.jstor.org/stable/20029081",
+      "archival_identifier": "Foreign Affairs, Vol. 19, No. 2 (January 1941)",
+      "title": "Recent Books on International Relations",
+      "author_creator": "Robert Gale Woolbert",
+      "repository_publisher": "Foreign Affairs; JSTOR",
+      "publication_record_date": "1941-01",
+      "locator": "Bibliographic record and byline",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Foreign Affairs archive"
+    },
+    {
+      "key": "uark-charles-morrow-wilson-papers-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://uark.as.atlas-sys.com/repositories/2/resources/1047",
+      "archival_identifier": "Charles Morrow Wilson Papers",
+      "title": "Charles Morrow Wilson Papers",
+      "author_creator": "University of Arkansas Libraries Special Collections",
+      "repository_publisher": "University of Arkansas Libraries",
+      "locator": "Biographical timeline, ca. 1935-1937",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Arkansas Libraries finding aids"
+    },
+    {
+      "key": "smithsonian-iris-woolcock-photo-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.si.edu/object/photograph-edna-reindel-her-cat-dozy%3AAAADCD_item_6376",
+      "archival_identifier": "AAA object record item 6376",
+      "title": "Photograph of Edna Reindel with her cat Dozy",
+      "author_creator": "Iris Woolcock",
+      "repository_publisher": "Smithsonian Institution",
+      "publication_record_date": "ca. 1940",
+      "locator": "Object record and creator credit",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Archives of American Art"
+    },
+    {
+      "key": "cia-fighting-doctors-woolington-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.cia.gov/static/Fighting-Doctors-of-OSS.pdf",
+      "archival_identifier": "Studies in Intelligence historical article",
+      "title": "The Fighting Doctors of OSS",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "locator": "Section identifying Dr. Sam Woolington as a Detachment 101 medical officer",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence"
+    },
+    {
+      "key": "java-detachment101-woolington-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.javadc.org/java/docs/1945-03-15%20OSSSU%20Detachment%20101%20Promotions%20and%20Citations%20OCR%20P11_MA.pdf",
+      "archival_identifier": "OSS Special Operations Unit Detachment 101 promotions and citations, 15 March 1945",
+      "title": "Detachment 101 Promotions and Citations",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Java Veterans Association",
+      "publication_record_date": "1945-03-15",
+      "locator": "Page 11, promotion entry for Sam S. Woolington; full officer identifier withheld",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Java Veterans Association document archive"
+    },
+    {
+      "key": "kcl-hargreaves-woolley-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://kclpure.kcl.ac.uk/ws/files/2929338/521594.pdf",
+      "archival_identifier": "King's College London doctoral thesis, 2008",
+      "title": "An Analysis of the Rise, Use, Evolution and Value of Anglo-American Commando and Special Forces Formations, 1939-1945",
+      "author_creator": "Andrew Lennox Hargreaves",
+      "repository_publisher": "King's College London",
+      "publication_record_date": "2008-08",
+      "locator": "PDF printed pages 113-114; Woolley's Royal Navy attachment to COI and Maritime Unit command",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "King's Research Portal"
+    },
+    {
+      "key": "cia-guardian-spies-woolley-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.cia.gov/resources/csi/static/UNCLASSIFIED-Extracts-Studies-67-1-March-2023.pdf",
+      "archival_identifier": "Studies in Intelligence, Vol. 67, No. 1",
+      "title": "Guardian Spies—From the Archive",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2023-03",
+      "locator": "Guardian Spies section on the British naval officer assigned to organize OSS maritime training",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence"
+    },
+    {
+      "key": "yale-woolverton-papers-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://ead-pdfs.library.yale.edu/3510.pdf",
+      "archival_identifier": "MS 1748",
+      "title": "William Henderson Woolverton Papers",
+      "author_creator": "Manuscripts and Archives, Yale University Library",
+      "repository_publisher": "Yale University Library",
+      "locator": "PDF page 4, Biographical / Historical note",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Yale University Library finding aids"
+    },
+    {
+      "key": "nara-oss-woolverton-1945-b1023",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2022/104-10165-10143.pdf",
+      "archival_identifier": "104-10165-10143",
+      "title": "Headquarters 2677th Regiment OSS memorandum concerning Lt. William H. Woolverton",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-01-14",
+      "locator": "Memorandum heading and subject line",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection; OSS record"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "allied-military-mission-greece-b1023",
+      "canonical_name": "Allied Military Mission to the Greek Guerrillas",
+      "historical_name": "British Military Mission to the Greek Guerrillas",
+      "aliases": [
+        "Allied Military Mission in Greece",
+        "British Military Mission"
+      ],
+      "organization_type": "Allied military mission",
+      "sector": "military",
+      "country": "Greece",
+      "active_dates": "1942-1945",
+      "normalization_notes": "The mission's British and later Allied names are preserved; it is not merged into OSS."
+    },
+    {
+      "key": "foreign-affairs-b1023",
+      "canonical_name": "Foreign Affairs",
+      "historical_name": "Foreign Affairs",
+      "organization_type": "foreign-policy journal",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Modeled only as a professional publication affiliation; authorship does not establish employment by the journal or its publisher."
+    },
+    {
+      "key": "royal-navy-b1023",
+      "canonical_name": "Royal Navy",
+      "historical_name": "Royal Navy",
+      "aliases": [
+        "RN",
+        "British Royal Navy"
+      ],
+      "organization_type": "armed service",
+      "sector": "military",
+      "country": "United Kingdom",
+      "normalization_notes": "Royal Navy service is a military assignment, never a civilian employer."
+    },
+    {
+      "key": "us-army-existing-b1023",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army",
+        "AUS"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Military assignment is modeled separately from civilian employment."
+    },
+    {
+      "key": "new-york-transfer-company-b1023",
+      "canonical_name": "New York Transfer Company",
+      "historical_name": "New York Transfer Company",
+      "organization_type": "transportation company",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical company name preserved exactly as supplied by the Yale finding aid; no modern successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "william-l-woodard-army-occupation-b1023",
+      "person_id": "4928746a-ac5d-5f66-b577-726010aef058",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "actor or actress",
+      "end_date": "1944-09-04",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1944-09-04; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; it is excluded from verified-employer analytics and is not narrowed beyond the official wording."
+    },
+    {
+      "key": "louis-k-woodland-army-occupation-b1023",
+      "person_id": "59c73959-8661-538f-a7d5-5dc05d32b282",
+      "relationship_type": "student",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "student",
+      "end_date": "1943-07-06",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-07-06; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; it is excluded from verified-employer analytics and is not narrowed beyond the official wording."
+    },
+    {
+      "key": "alexander-h-woods-army-occupation-b1023",
+      "person_id": "cba1f456-5990-5e7f-a275-edf180930f00",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "actor or actress",
+      "end_date": "1941-10-01",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1941-10-01; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; it is excluded from verified-employer analytics and is not narrowed beyond the official wording."
+    },
+    {
+      "key": "william-j-woods-army-occupation-b1023",
+      "person_id": "cab91020-0ac0-5d54-ad8c-2a34d3503a1e",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "manager or official, not elsewhere classified",
+      "end_date": "1942-07-06",
+      "date_precision": "Historical civilian-occupation code 097 was recorded at Army entry on 1942-07-06; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; it is excluded from verified-employer analytics and is not narrowed beyond the official wording."
+    },
+    {
+      "key": "james-h-wooley-army-occupation-b1023",
+      "person_id": "5aacf593-8453-534a-b5b4-eddc8541a15e",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "stenographer or typist",
+      "end_date": "1943-05-13",
+      "date_precision": "Historical civilian-occupation code 137 was recorded at Army entry on 1943-05-13; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; it is excluded from verified-employer analytics and is not narrowed beyond the official wording."
+    },
+    {
+      "key": "woodhouse-allied-mission-b1023",
+      "person_id": "b3045f6a-2338-5298-b5eb-b0e1cc04eefb",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "allied-military-mission-greece-b1023",
+      "organization_name_as_found": "British, later Allied, Military Mission to the Greek guerrillas",
+      "role_title": "second in command; later commander",
+      "start_date": "1942",
+      "end_date": "1945",
+      "date_precision": "King's dates second-in-command service to 1942-1943 and mission command to 1943-1945; exact sequence relative to the indexed OSS file is not established",
+      "country": "Greece",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Documented Allied wartime assignment. It is not presented as a civilian employer or an established immediate OSS predecessor."
+    },
+    {
+      "key": "woolbert-foreign-affairs-b1023",
+      "person_id": "27dfd47b-0c66-5d10-8b61-10a07d7b549f",
+      "relationship_type": "professional_affiliation",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "organization_key": "foreign-affairs-b1023",
+      "organization_name_as_found": "Foreign Affairs",
+      "role_title": "author and book reviewer",
+      "occupation": "writer and reviewer on international affairs",
+      "end_date": "1941-01",
+      "date_precision": "A January 1941 Foreign Affairs bibliographic record carries Robert Gale Woolbert's byline; no employment relationship is stated",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Professional publication affiliation only. It does not prove employment by Foreign Affairs or the Council on Foreign Relations."
+    },
+    {
+      "key": "iris-woolcock-photographer-b1023",
+      "person_id": "e18fcc1d-d6de-5baf-945e-fc1a766993b4",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "occupation": "photographer",
+      "end_date": "1940",
+      "date_precision": "A Smithsonian object credits Iris Woolcock as photographer around 1940; the Arkansas finding aid independently places the distinctive name in the mid-1930s",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Occupation only. No employer, studio, self-employment status, or immediate OSS transition is inferred."
+    },
+    {
+      "key": "woolley-royal-navy-b1023",
+      "person_id": "93df2242-7184-577e-b648-d2b2ff830364",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "organization_key": "royal-navy-b1023",
+      "organization_name_as_found": "Royal Navy",
+      "role_title": "commander attached to COI to advise on maritime methods",
+      "start_date": "1942-02",
+      "end_date": "1943-01",
+      "date_precision": "The scholarly history explicitly dates Woolley's Royal Navy attachment to COI to February 1942 and his OSS Maritime Unit command to January 1943",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Direct Royal Navy-to-COI/OSS assignment; military service, not civilian employment."
+    },
+    {
+      "key": "woolverton-us-army-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "relationship_type": "military_assignment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "us-army-existing-b1023",
+      "organization_name_as_found": "Army Transportation Corps",
+      "role_title": "officer at Staten Island Port of Embarkation and with the Transportation Corps in England",
+      "start_date": "1942",
+      "end_date": "1945-01",
+      "date_precision": "Yale dates his Army commission to 1942 and two years at the port before England; a direct OSS memorandum names him on 14 January 1945",
+      "country": "United States and United Kingdom",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Strongly date-bounded military pathway into the indexed OSS context; the sources do not state an exact transfer day."
+    },
+    {
+      "key": "woolverton-family-farms-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "relationship_type": "self_employment",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "occupation": "farm manager",
+      "role_title": "manager of two large farms on the family estate",
+      "start_date": "1928",
+      "end_date": "1942",
+      "date_precision": "Yale says he managed the farms after moving to Alexandria in 1928 and was commissioned in the Army in 1942",
+      "city": "Alexandria",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "research_notes": "Last civilian work before Army service. No separate employing organization is invented for the family estate."
+    },
+    {
+      "key": "woolverton-new-york-transfer-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "new-york-transfer-company-b1023",
+      "organization_name_as_found": "New York Transfer Company",
+      "role_title": "company officer",
+      "start_date": "1919",
+      "end_date": "1928",
+      "date_precision": "Yale places this job after his 1919 return from wartime service and before his 1928 move to Pennsylvania",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Earlier documented employment, kept separate from the later farm management and Army pathway."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-william-l-woodard-b1023",
+      "person_id": "4928746a-ac5d-5f66-b577-726010aef058",
+      "claim_type": "identity",
+      "claim_text": "Indexed William L Woodard is confirmed as the reviewed Army record.",
+      "evidence_paraphrase": "The official sources agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an exact OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The review withholds the identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 3; Box 851"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-l-woodard-b1023",
+      "person_id": "4928746a-ac5d-5f66-b577-726010aef058",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-09-04, William L Woodard's record carried historical civilian-occupation category 002: actor or actress.",
+      "evidence_paraphrase": "The official bulk record carries code 002; NARA's compiled list labels that category 'Actors and actresses'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only; excluded from verified-employer analytics and never converted into a named employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1023",
+          "locator_override": "PDF physical page 170; historical category 0-02"
+        }
+      ],
+      "affiliation_key": "william-l-woodard-army-occupation-b1023"
+    },
+    {
+      "key": "identity-louis-k-woodland-b1023",
+      "person_id": "59c73959-8661-538f-a7d5-5dc05d32b282",
+      "claim_type": "identity",
+      "claim_text": "Indexed Louis K Woodland is a high-confidence match to the reviewed Army record.",
+      "evidence_paraphrase": "The official sources agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and a one-letter Louis/Lois variant; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an exact OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The review withholds the identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 13; Box 852"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-louis-k-woodland-b1023",
+      "person_id": "59c73959-8661-538f-a7d5-5dc05d32b282",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-06, Louis K Woodland's record carried historical civilian-occupation category 992: student.",
+      "evidence_paraphrase": "The official bulk record carries code 992; NARA's compiled list labels that category 'Students'.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement and the compatible Louis/Lois name variant.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only; excluded from verified-employer analytics and never converted into a named employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1023",
+          "locator_override": "PDF physical page 304; amended category 9-92"
+        }
+      ],
+      "affiliation_key": "louis-k-woodland-army-occupation-b1023"
+    },
+    {
+      "key": "identity-alexander-h-woods-b1023",
+      "person_id": "cba1f456-5990-5e7f-a275-edf180930f00",
+      "claim_type": "identity",
+      "claim_text": "Indexed Alexander H Woods is confirmed as the reviewed Army record.",
+      "evidence_paraphrase": "The official sources agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an exact OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The review withholds the identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 21; Box 852"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-alexander-h-woods-b1023",
+      "person_id": "cba1f456-5990-5e7f-a275-edf180930f00",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-10-01, Alexander H Woods's record carried historical civilian-occupation category 002: actor or actress.",
+      "evidence_paraphrase": "The official bulk record carries code 002; NARA's compiled list labels that category 'Actors and actresses'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only; excluded from verified-employer analytics and never converted into a named employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1023",
+          "locator_override": "PDF physical page 170; historical category 0-02"
+        }
+      ],
+      "affiliation_key": "alexander-h-woods-army-occupation-b1023"
+    },
+    {
+      "key": "identity-william-j-woods-b1023",
+      "person_id": "cab91020-0ac0-5d54-ad8c-2a34d3503a1e",
+      "claim_type": "identity",
+      "claim_text": "Indexed William J Woods is confirmed as the reviewed Army record.",
+      "evidence_paraphrase": "The official sources agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an exact OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The review withholds the identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 29; Box 852"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-j-woods-b1023",
+      "person_id": "cab91020-0ac0-5d54-ad8c-2a34d3503a1e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-06, William J Woods's record carried historical civilian-occupation category 097: manager or official, not elsewhere classified.",
+      "evidence_paraphrase": "The official bulk record carries code 097; NARA's compiled list labels that category 'Managers and officials, n.e.c.'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only; excluded from verified-employer analytics and never converted into a named employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1023",
+          "locator_override": "PDF physical page 171; historical category 0-97"
+        }
+      ],
+      "affiliation_key": "william-j-woods-army-occupation-b1023"
+    },
+    {
+      "key": "identity-james-h-wooley-b1023",
+      "person_id": "5aacf593-8453-534a-b5b4-eddc8541a15e",
+      "claim_type": "identity",
+      "claim_text": "Indexed James H Wooley is confirmed as the reviewed Army record.",
+      "evidence_paraphrase": "The official sources agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an exact OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The review withholds the identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 36; Box 852"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-james-h-wooley-b1023",
+      "person_id": "5aacf593-8453-534a-b5b4-eddc8541a15e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-13, James H Wooley's record carried historical civilian-occupation category 137: stenographer or typist.",
+      "evidence_paraphrase": "The official bulk record carries code 137; NARA's compiled list labels that category 'Stenographers and typists'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only; excluded from verified-employer analytics and never converted into a named employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1023",
+          "locator_override": "PDF physical page 171; historical category 1-37"
+        }
+      ],
+      "affiliation_key": "james-h-wooley-army-occupation-b1023"
+    },
+    {
+      "key": "identity-robert-e-woods-b1023",
+      "person_id": "da9e9220-afbe-52ab-b168-40c194aa673d",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert E Woods is confirmed as the reviewed Army record.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier connect the index and Army records.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected identifier; the identifier remains private.",
+      "temporal_assessment": "Army entry is dated 1946-03-26. The reviewed Army entry postdates OSS dissolution; no grade, occupation, or pre-OSS chronology is transferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no Army grade, undefined occupation, or post-OSS chronology is converted into pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 25; Box 852"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-p-woolley-b1023",
+      "person_id": "1104fd19-47a2-554f-9dde-8511172900e4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Henry P Woolley is confirmed as the reviewed Army record.",
+      "evidence_paraphrase": "The exact official name and a nonshared protected identifier connect the index and Army records.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected identifier; the identifier remains private.",
+      "temporal_assessment": "Army entry is dated 1940-12-23. Historical occupation code 999 is undefined and is not interpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity only; no Army grade, undefined occupation, or post-OSS chronology is converted into pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023",
+          "locator_override": "PDF page 513, row 40; Box 852"
+        },
+        {
+          "source_key": "army-bulk-b1023"
+        },
+        {
+          "source_key": "army-tech-b1023",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-christopher-woodhouse-b1023",
+      "person_id": "b3045f6a-2338-5298-b5eb-b0e1cc04eefb",
+      "claim_type": "identity",
+      "claim_text": "Indexed Christopher M Woodhouse is high-confidence identified as Colonel Christopher Montague Woodhouse, later 5th Baron Terrington.",
+      "evidence_paraphrase": "King's and IWM use the full name or exact initials and document command of the Allied Military Mission in Greece, matching the index's British note.",
+      "identity_match_assessment": "High confidence from exact initials, rare surname, British status and a specific Allied wartime command; the personnel file remains unreviewed.",
+      "temporal_assessment": "The sources document 1942-1945 Allied service but not the exact sequence relative to the indexed OSS file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The British mission is kept distinct from OSS and civilian employment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023"
+        },
+        {
+          "source_key": "kcl-special-forces-woodhouse-b1023"
+        },
+        {
+          "source_key": "iwm-woodhouse-interview-b1023"
+        }
+      ]
+    },
+    {
+      "key": "allied-mission-christopher-woodhouse-b1023",
+      "person_id": "b3045f6a-2338-5298-b5eb-b0e1cc04eefb",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Christopher M. Woodhouse served as second in command and later commander of the British, then Allied, Military Mission to the Greek guerrillas.",
+      "evidence_paraphrase": "King's dates the roles to 1942-1945; IWM independently identifies him as commander of the Allied Military Mission in Greece.",
+      "identity_match_assessment": "High-confidence identity from the rare name, initials and British wartime context.",
+      "temporal_assessment": "Documented wartime assignment; its exact temporal relationship to the indexed OSS personnel file is uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as an Allied military assignment, not a civilian employer or settled immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "kcl-special-forces-woodhouse-b1023"
+        },
+        {
+          "source_key": "iwm-woodhouse-interview-b1023"
+        }
+      ],
+      "affiliation_key": "woodhouse-allied-mission-b1023"
+    },
+    {
+      "key": "identity-robert-woolbert-b1023",
+      "person_id": "27dfd47b-0c66-5d10-8b61-10a07d7b549f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert G Woolbert is high-confidence identified as Foreign Affairs author Robert Gale Woolbert.",
+      "evidence_paraphrase": "The rare full surname, first name and middle initial agree with the contemporary byline.",
+      "identity_match_assessment": "High confidence from a rare exact name pattern and compatible prewar date, but no personnel-file bridge has yet been reviewed.",
+      "temporal_assessment": "The 1941 publication predates OSS; it does not establish an OSS start date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The match supports qualified publication; the personnel file remains necessary for direct confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023"
+        },
+        {
+          "source_key": "jstor-woolbert-foreign-affairs-1941-b1023"
+        }
+      ]
+    },
+    {
+      "key": "foreign-affairs-robert-woolbert-b1023",
+      "person_id": "27dfd47b-0c66-5d10-8b61-10a07d7b549f",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Robert Gale Woolbert published book reviews in Foreign Affairs before U.S. entry into the war.",
+      "evidence_paraphrase": "A January 1941 Foreign Affairs record carries his full byline.",
+      "identity_match_assessment": "High-confidence identity from the distinctive full name and compatible date.",
+      "temporal_assessment": "Documented prewar professional affiliation; it does not prove employment or immediacy to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Authorship is not recast as employment by Foreign Affairs or the Council on Foreign Relations.",
+      "sources": [
+        {
+          "source_key": "jstor-woolbert-foreign-affairs-1941-b1023"
+        }
+      ],
+      "affiliation_key": "woolbert-foreign-affairs-b1023"
+    },
+    {
+      "key": "identity-iris-woolcock-b1023",
+      "person_id": "e18fcc1d-d6de-5baf-945e-fc1a766993b4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Iris Woolcock is high-confidence identified as the photographer documented by the Smithsonian and University of Arkansas.",
+      "evidence_paraphrase": "Two institutional records use the rare exact name and place her in the United States during the 1930s and around 1940.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and mutually compatible institutional chronology; no personnel-file bridge has yet been reviewed.",
+      "temporal_assessment": "The records predate U.S. wartime OSS activity but do not establish an OSS transition.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The finding aid is used for chronology; no spouse's employment is transferred to her.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023"
+        },
+        {
+          "source_key": "uark-charles-morrow-wilson-papers-b1023"
+        },
+        {
+          "source_key": "smithsonian-iris-woolcock-photo-b1023"
+        }
+      ]
+    },
+    {
+      "key": "occupation-iris-woolcock-b1023",
+      "person_id": "e18fcc1d-d6de-5baf-945e-fc1a766993b4",
+      "claim_type": "occupation",
+      "claim_text": "Iris Woolcock was a photographer by about 1940.",
+      "evidence_paraphrase": "The Smithsonian credits Iris Woolcock as creator of a photograph dated about 1940.",
+      "identity_match_assessment": "High-confidence identity from the distinctive exact name and corroborating institutional chronology.",
+      "temporal_assessment": "Documented prewar occupation; no employer, studio, self-employment status, or immediate OSS relationship is stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified occupation only; no employer is invented.",
+      "sources": [
+        {
+          "source_key": "smithsonian-iris-woolcock-photo-b1023"
+        },
+        {
+          "source_key": "uark-charles-morrow-wilson-papers-b1023",
+          "support_type": "context_only"
+        }
+      ],
+      "affiliation_key": "iris-woolcock-photographer-b1023"
+    },
+    {
+      "key": "identity-sam-woolington-b1023",
+      "person_id": "798d27bb-223f-538c-bb58-9b965dc3789c",
+      "claim_type": "identity",
+      "claim_text": "Indexed Sam S Woolington is confirmed as the Detachment 101 medical officer documented in direct OSS and CIA sources.",
+      "evidence_paraphrase": "The exact full name and a privately matched officer identifier agree with an OSS promotion record; CIA independently describes Dr. Sam Woolington's Detachment 101 role.",
+      "identity_match_assessment": "Confirmed through exact name, protected-identifier agreement and compatible medical-officer context; the full identifier remains private.",
+      "temporal_assessment": "Wartime identity evidence only; the sources do not identify pre-OSS employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The adjacent Sam A Woolington index row remains separate in a possible-duplicate group pending joint folder review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023"
+        },
+        {
+          "source_key": "java-detachment101-woolington-b1023"
+        },
+        {
+          "source_key": "cia-fighting-doctors-woolington-b1023"
+        }
+      ]
+    },
+    {
+      "key": "identity-hga-woolley-b1023",
+      "person_id": "93df2242-7184-577e-b648-d2b2ff830364",
+      "claim_type": "identity",
+      "claim_text": "Indexed H.G.A. Woolley is confirmed as the Royal Navy commander attached to COI and later appointed to command the OSS Maritime Unit.",
+      "evidence_paraphrase": "The exact initials, commander rank and British note agree with a scholarly history grounded in named RG 226 records and an official CIA history.",
+      "identity_match_assessment": "Confirmed from exact initials, rank, nationality note and a unique COI/OSS Maritime Unit chronology.",
+      "temporal_assessment": "The sources explicitly sequence Royal Navy service, COI attachment and OSS Maritime Unit command.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No civilian occupation or later screenwriting lead is used.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023"
+        },
+        {
+          "source_key": "kcl-hargreaves-woolley-b1023"
+        },
+        {
+          "source_key": "cia-guardian-spies-woolley-b1023"
+        }
+      ]
+    },
+    {
+      "key": "royal-navy-hga-woolley-b1023",
+      "person_id": "93df2242-7184-577e-b648-d2b2ff830364",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Commander H.G.A. Woolley's immediate predecessor affiliation was the Royal Navy, from which he was attached to COI in February 1942.",
+      "evidence_paraphrase": "Hargreaves explicitly identifies Woolley as an experienced British naval officer loaned to COI; CIA independently documents the British naval assignment.",
+      "identity_match_assessment": "Confirmed by exact initials, commander rank, British note and unique maritime chronology.",
+      "temporal_assessment": "Explicit immediate Royal Navy-to-COI sequence, followed by OSS Maritime Unit command in January 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "kcl-hargreaves-woolley-b1023"
+        },
+        {
+          "source_key": "cia-guardian-spies-woolley-b1023"
+        }
+      ],
+      "affiliation_key": "woolley-royal-navy-b1023"
+    },
+    {
+      "key": "identity-william-woolverton-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "claim_type": "identity",
+      "claim_text": "Indexed William H Woolverton is high-confidence identified as William Henderson Woolverton of the Yale papers and the 2677th Regiment OSS memorandum.",
+      "evidence_paraphrase": "Yale supplies the full name and Army chronology; a direct 1945 OSS memorandum names Lt. William H. Woolverton.",
+      "identity_match_assessment": "High confidence from exact name and middle initial, commissioned Army status and direct OSS context; the personnel file remains unreviewed.",
+      "temporal_assessment": "The sources establish prewar employment, 1942 Army entry and OSS context by January 1945.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers remain private; the chronology does not depend on them.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1023"
+        },
+        {
+          "source_key": "yale-woolverton-papers-b1023"
+        },
+        {
+          "source_key": "nara-oss-woolverton-1945-b1023"
+        }
+      ]
+    },
+    {
+      "key": "army-william-woolverton-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "William H. Woolverton's best-supported immediate pre-OSS pathway was U.S. Army transportation service.",
+      "evidence_paraphrase": "Yale places him at the Staten Island Port of Embarkation and then with the Transportation Corps in England; an OSS memorandum names him in January 1945.",
+      "identity_match_assessment": "High-confidence identity from exact name, middle initial, officer status and direct OSS context.",
+      "temporal_assessment": "Strongly date-bounded Army-to-OSS sequence; no source states the exact transfer day.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Qualified as strongly date-bounded, not explicit immediate language.",
+      "sources": [
+        {
+          "source_key": "yale-woolverton-papers-b1023"
+        },
+        {
+          "source_key": "nara-oss-woolverton-1945-b1023"
+        }
+      ],
+      "affiliation_key": "woolverton-us-army-b1023"
+    },
+    {
+      "key": "farms-william-woolverton-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "William H. Woolverton managed two large family-estate farms in Alexandria, Pennsylvania, before his 1942 Army commission.",
+      "evidence_paraphrase": "Yale dates his move and farm management from 1928 and next records the 1942 commission.",
+      "identity_match_assessment": "High-confidence identity from the full-name Yale papers and direct OSS corroboration.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian work before Army service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as self-employment/family-estate management; no employer is invented.",
+      "sources": [
+        {
+          "source_key": "yale-woolverton-papers-b1023"
+        }
+      ],
+      "affiliation_key": "woolverton-family-farms-b1023"
+    },
+    {
+      "key": "new-york-transfer-william-woolverton-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "William H. Woolverton was an officer of the New York Transfer Company from 1919 until moving to Pennsylvania in 1928.",
+      "evidence_paraphrase": "Yale's biographical note places the named company between his first wartime service and later farm management.",
+      "identity_match_assessment": "High-confidence identity from the full-name Yale papers and direct OSS corroboration.",
+      "temporal_assessment": "Documented earlier prewar employment; it was not his last civilian role before the 1942 commission.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Earlier employer kept separate from the later family-farm role.",
+      "sources": [
+        {
+          "source_key": "yale-woolverton-papers-b1023"
+        }
+      ],
+      "affiliation_key": "woolverton-new-york-transfer-b1023"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "569a07a6-1fff-5df3-9eb5-36d6336f3410",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves William N Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "83391f24-5548-5b16-8df5-a9b2055e0f6b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves William C Wood Jr. and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "76c0d842-4300-5232-b60c-02fa0807bb19",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Marion L Woodburn and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a33d476d-dfe6-52d0-8e22-a62f4e348162",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Donald Woodbury and Box 851. The protected-identifier Army candidate is Ronald T Woodbury, not Donald Woodbury, and is rejected entirely.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The protected-identifier Army candidate is Ronald T Woodbury, not Donald Woodbury, and is rejected entirely."
+    },
+    {
+      "person_id": "7cba2a67-1b57-5566-a0cc-c25fc5d09de2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Roger F Woodbury and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a0967c02-d74a-5d6c-b7da-c76c52797068",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Virginia A Woodbury and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "747edf86-631b-582d-b66b-cfbf1d1564ae",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Charles C Woodcock and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ca16e152-dc73-50fc-a7da-5ba895abae5f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Louis E Woodcock and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "eb9a6cd4-dd5e-5af1-a5a1-dc70b19fe76f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves William H Woodford and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "f4f82943-7c0e-5685-8c8e-7d6ba7762cdf",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Roy Woodin and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "91f6b254-a1e6-555a-84eb-aeea8a0aa144",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Eleanor H Woodman and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "cd6652de-d5e5-5cda-a89b-0a20e2fb79a3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Beverly M Woodner and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ebca3cdf-dc40-5e34-9bde-690470f02cfa",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Kenneth E Woodring and Box 852. An unofficial wartime organization-chart lead names Kenneth E. Woodring in an OSS finance role but supplies no pre-OSS affiliation or direct source bridge.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An unofficial wartime organization-chart lead names Kenneth E. Woodring in an OSS finance role but supplies no pre-OSS affiliation or direct source bridge."
+    },
+    {
+      "person_id": "7d735504-b61f-50ce-a252-3cd9b65b56c4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Shealene L Woodring and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "c62cbdcf-9ae8-51ae-b59f-90f8fe385fe0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Dean A Woodruff and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a7cb1638-f299-59dc-9822-bfac54cd74ed",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Emily C Woodruff and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "d7c71e24-73f1-5c22-b68e-63fc8e4e0ad0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Fern L Woodruff and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "4139bb94-cb35-5970-ab1a-65d44fa48a26",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Douglas Woods and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ee4fded9-c62f-5991-8fbf-d45c0a02b4bf",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Francis Woods and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "0134183a-bc8e-5ca2-95e1-946a1ddd222e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Frank C Woods and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "b6831660-04c1-5027-bbff-15043ee59871",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Ruth M Woods and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "b3152881-2a9a-5a55-8195-4dfc8e9d86c1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Stewart A Woods and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "6f6b73da-73b6-5ed5-aa7d-95143c2a7f06",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves William H Woods and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "e7696fed-4826-5fda-b2d1-dc8606bb0d6f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves J P Woodside and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "4497e1be-176a-5b22-ab0a-b6f25d9dea64",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves A. Arthur Woodward and Box 852. An archaeologist namesake could not be bridged to the index row and is rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An archaeologist namesake could not be bridged to the index row and is rejected."
+    },
+    {
+      "person_id": "77743230-fbed-50d5-80b7-1c9c21aabe3d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Valorus C Woodworth and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "d357d3b8-b20c-5b33-a179-210672225c13",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Thomas Wooh and Box 852. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "b004796b-b64c-501a-839e-4d13e2dd1144",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 513 source preserves Sam A Woolington and Box 852. The adjacent confirmed Sam S Woolington record makes a duplicate or index-variation possible, but the different middle initial prohibits merging.",
+      "possible_duplicate_group": "page513-sam-a-s-woolington-b1023",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The adjacent confirmed Sam S Woolington record makes a duplicate or index-variation possible, but the different middle initial prohibits merging."
+    },
+    {
+      "person_id": "5a49a084-6fcd-503e-b552-637caf999651",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Herbert B Woolley and Box 853. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "b3beb768-33e3-52a8-96d3-47515b2cca28",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Vivienne M Woolley and Box 853. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "200641ea-480c-5ed6-b0fd-4a8abc3ac2bc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves John M Woolsey and Box 853. Official sources document Judge John Munro Woolsey and Lt. John M. Woolsey Jr.; neither is bridged to this index row, so both remain rejected alternatives.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official sources document Judge John Munro Woolsey and Lt. John M. Woolsey Jr.; neither is bridged to this index row, so both remain rejected alternatives."
+    },
+    {
+      "person_id": "1fa33b3a-3bbc-5973-a107-f6d2556b70e9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Herbert N Woolson and Box 853. A Spokane enlistment namesake has a different full protected identifier and is rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A Spokane enlistment namesake has a different full protected identifier and is rejected."
+    },
+    {
+      "person_id": "fdcd1c4c-fa87-5667-ac01-560b69a46621",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 513 source preserves Perry Woosley and Box 853. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "4928746a-ac5d-5f66-b577-726010aef058",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 851 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "59c73959-8661-538f-a7d5-5dc05d32b282",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and a one-letter Louis/Lois variant connect the official records; the identifier remains private.",
+      "name_variants": [
+        "Lois K Woodland"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 852 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "cba1f456-5990-5e7f-a275-edf180930f00",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 852 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "cab91020-0ac0-5d54-ad8c-2a34d3503a1e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 852 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "5aacf593-8453-534a-b5b4-eddc8541a15e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 852 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "da9e9220-afbe-52ab-b168-40c194aa673d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the records; the dated Army entry is post-OSS and supports identity only.",
+      "research_status": "requires_archival_review",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review Box 852 for Robert E Woods's pre-OSS affiliation. The 1946 Army entry is not used as pre-OSS evidence."
+    },
+    {
+      "person_id": "1104fd19-47a2-554f-9dde-8511172900e4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the records; undefined code 999 supplies no occupation.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review Box 852 for Henry P Woolley's immediate affiliation and last civilian employer; code 999 is not interpreted."
+    },
+    {
+      "person_id": "b3045f6a-2338-5298-b5eb-b0e1cc04eefb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact initials, rare surname, the index's British note and the documented Allied mission command support high confidence.",
+      "name_variants": [
+        "Christopher Montague Woodhouse",
+        "C. M. Woodhouse",
+        "5th Baron Terrington"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 852 to establish the Allied-mission relationship to OSS and identify the last civilian employer; the wartime assignment is documented but its exact sequence is not."
+    },
+    {
+      "person_id": "27dfd47b-0c66-5d10-8b61-10a07d7b549f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact first name, surname and middle initial align with Robert Gale Woolbert's dated Foreign Affairs byline; the personnel file remains unreviewed.",
+      "name_variants": [
+        "Robert Gale Woolbert"
+      ],
+      "replace_name_variants": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 852 to confirm identity, determine whether Foreign Affairs was employment or only authorship, and identify the immediate pre-OSS affiliation."
+    },
+    {
+      "person_id": "e18fcc1d-d6de-5baf-945e-fc1a766993b4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two institutional records use the rare exact name and place photographer Iris Woolcock in a compatible prewar chronology.",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 852 to confirm identity, identify any photography employer or self-employment status, and establish the OSS transition."
+    },
+    {
+      "person_id": "798d27bb-223f-538c-bb58-9b965dc3789c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name, a privately matched officer identifier and compatible Detachment 101 medical-officer sources confirm the record; the identifier remains withheld.",
+      "name_variants": [
+        "Dr. Sam Woolington",
+        "Sam S. Woolington"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "possible_duplicate_group": "page513-sam-a-s-woolington-b1023",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Sam A and Sam S Woolington folders in Box 852 to resolve possible duplication and identify pre-OSS medical employment."
+    },
+    {
+      "person_id": "93df2242-7184-577e-b648-d2b2ff830364",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact initials, commander rank, British note and a unique Royal Navy-to-COI/OSS Maritime Unit chronology converge.",
+      "name_variants": [
+        "Commander H.G.A. Woolley",
+        "H. G. A. Woolley"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "research_status": "completed",
+      "next_action": "Review Box 852 for any documented last civilian employer before Royal Navy service; the immediate Royal Navy pathway is already supported."
+    },
+    {
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and middle initial, commissioned Army chronology, Yale full name and direct 1945 OSS memorandum converge.",
+      "name_variants": [
+        "William Henderson Woolverton",
+        "Lt. William H. Woolverton"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 853 for the exact Army-to-OSS transfer date; last civilian farm management and earlier New York Transfer Company employment are documented."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page513-row1-william-n-wood-b1023",
+      "person_id": "569a07a6-1fff-5df3-9eb5-36d6336f3410",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William N Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row2-william-c-wood-jr-b1023",
+      "person_id": "83391f24-5548-5b16-8df5-a9b2055e0f6b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William C Wood Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row3-william-l-woodard-b1023",
+      "person_id": "4928746a-ac5d-5f66-b577-726010aef058",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William L Woodard; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row4-marion-l-woodburn-b1023",
+      "person_id": "76c0d842-4300-5232-b60c-02fa0807bb19",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marion L Woodburn; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row5-donald-woodbury-b1023",
+      "person_id": "a33d476d-dfe6-52d0-8e22-a62f4e348162",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Donald Woodbury; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The protected-identifier Army candidate is Ronald T Woodbury, not Donald Woodbury, and is rejected entirely. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row6-roger-f-woodbury-b1023",
+      "person_id": "7cba2a67-1b57-5566-a0cc-c25fc5d09de2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roger F Woodbury; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row7-virginia-a-woodbury-b1023",
+      "person_id": "a0967c02-d74a-5d6c-b7da-c76c52797068",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Virginia A Woodbury; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row8-charles-c-woodcock-b1023",
+      "person_id": "747edf86-631b-582d-b66b-cfbf1d1564ae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles C Woodcock; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row9-louis-e-woodcock-b1023",
+      "person_id": "ca16e152-dc73-50fc-a7da-5ba895abae5f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis E Woodcock; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row10-william-h-woodford-b1023",
+      "person_id": "eb9a6cd4-dd5e-5af1-a5a1-dc70b19fe76f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Woodford; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row11-christopher-m-woodhouse-b1023",
+      "person_id": "b3045f6a-2338-5298-b5eb-b0e1cc04eefb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Christopher M Woodhouse; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row12-roy-woodin-b1023",
+      "person_id": "f4f82943-7c0e-5685-8c8e-7d6ba7762cdf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy Woodin; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row13-louis-k-woodland-b1023",
+      "person_id": "59c73959-8661-538f-a7d5-5dc05d32b282",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis K Woodland; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row14-eleanor-h-woodman-b1023",
+      "person_id": "91f6b254-a1e6-555a-84eb-aeea8a0aa144",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eleanor H Woodman; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row15-beverly-m-woodner-b1023",
+      "person_id": "cd6652de-d5e5-5cda-a89b-0a20e2fb79a3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Beverly M Woodner; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row16-kenneth-e-woodring-b1023",
+      "person_id": "ebca3cdf-dc40-5e34-9bde-690470f02cfa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kenneth E Woodring; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "An unofficial wartime organization-chart lead names Kenneth E. Woodring in an OSS finance role but supplies no pre-OSS affiliation or direct source bridge. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row17-shealene-l-woodring-b1023",
+      "person_id": "7d735504-b61f-50ce-a252-3cd9b65b56c4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shealene L Woodring; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row18-dean-a-woodruff-b1023",
+      "person_id": "c62cbdcf-9ae8-51ae-b59f-90f8fe385fe0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dean A Woodruff; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row19-emily-c-woodruff-b1023",
+      "person_id": "a7cb1638-f299-59dc-9822-bfac54cd74ed",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Emily C Woodruff; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row20-fern-l-woodruff-b1023",
+      "person_id": "d7c71e24-73f1-5c22-b68e-63fc8e4e0ad0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fern L Woodruff; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row21-alexander-h-woods-b1023",
+      "person_id": "cba1f456-5990-5e7f-a275-edf180930f00",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alexander H Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row22-douglas-woods-b1023",
+      "person_id": "4139bb94-cb35-5970-ab1a-65d44fa48a26",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Douglas Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row23-francis-woods-b1023",
+      "person_id": "ee4fded9-c62f-5991-8fbf-d45c0a02b4bf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row24-frank-c-woods-b1023",
+      "person_id": "0134183a-bc8e-5ca2-95e1-946a1ddd222e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank C Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row25-robert-e-woods-b1023",
+      "person_id": "da9e9220-afbe-52ab-b168-40c194aa673d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert E Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row26-ruth-m-woods-b1023",
+      "person_id": "b6831660-04c1-5027-bbff-15043ee59871",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruth M Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row27-stewart-a-woods-b1023",
+      "person_id": "b3152881-2a9a-5a55-8195-4dfc8e9d86c1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stewart A Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row28-william-h-woods-b1023",
+      "person_id": "6f6b73da-73b6-5ed5-aa7d-95143c2a7f06",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row29-william-j-woods-b1023",
+      "person_id": "cab91020-0ac0-5d54-ad8c-2a34d3503a1e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Woods; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row30-j-p-woodside-b1023",
+      "person_id": "e7696fed-4826-5fda-b2d1-dc8606bb0d6f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "J P Woodside; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row31-a-arthur-woodward-b1023",
+      "person_id": "4497e1be-176a-5b22-ab0a-b6f25d9dea64",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "A. Arthur Woodward; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "An archaeologist namesake could not be bridged to the index row and is rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row32-valorus-c-woodworth-b1023",
+      "person_id": "77743230-fbed-50d5-80b7-1c9c21aabe3d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Valorus C Woodworth; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row33-thomas-wooh-b1023",
+      "person_id": "d357d3b8-b20c-5b33-a179-210672225c13",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas Wooh; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row34-robert-g-woolbert-b1023",
+      "person_id": "27dfd47b-0c66-5d10-8b61-10a07d7b549f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert G Woolbert; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row35-iris-woolcock-b1023",
+      "person_id": "e18fcc1d-d6de-5baf-945e-fc1a766993b4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Iris Woolcock; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row36-james-h-wooley-b1023",
+      "person_id": "5aacf593-8453-534a-b5b4-eddc8541a15e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James H Wooley; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row37-sam-a-woolington-b1023",
+      "person_id": "b004796b-b64c-501a-839e-4d13e2dd1144",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sam A Woolington; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The adjacent confirmed Sam S Woolington record makes a duplicate or index-variation possible, but the different middle initial prohibits merging. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row38-sam-s-woolington-b1023",
+      "person_id": "798d27bb-223f-538c-bb58-9b965dc3789c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sam S Woolington; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row39-h-g-a-woolley-b1023",
+      "person_id": "93df2242-7184-577e-b648-d2b2ff830364",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "H.G.A. Woolley; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row40-henry-p-woolley-b1023",
+      "person_id": "1104fd19-47a2-554f-9dde-8511172900e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry P Woolley; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 852",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 852 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row41-herbert-b-woolley-b1023",
+      "person_id": "5a49a084-6fcd-503e-b552-637caf999651",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert B Woolley; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 853",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row42-vivienne-m-woolley-b1023",
+      "person_id": "b3beb768-33e3-52a8-96d3-47515b2cca28",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vivienne M Woolley; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 853",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row43-john-m-woolsey-b1023",
+      "person_id": "200641ea-480c-5ed6-b0fd-4a8abc3ac2bc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John M Woolsey; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 853",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Official sources document Judge John Munro Woolsey and Lt. John M. Woolsey Jr.; neither is bridged to this index row, so both remain rejected alternatives. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row44-herbert-n-woolson-b1023",
+      "person_id": "1fa33b3a-3bbc-5973-a107-f6d2556b70e9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert N Woolson; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 853",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "A Spokane enlistment namesake has a different full protected identifier and is rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row45-william-h-woolverton-b1023",
+      "person_id": "90f77e6d-ed3b-5148-8cd3-a96ab0779541",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Woolverton; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 853",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "At least one identity, occupation or affiliation outcome is preserved with claim-level citations; unresolved employer or temporal questions remain explicit. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    },
+    {
+      "key": "page513-row46-perry-woosley-b1023",
+      "person_id": "fdcd1c4c-fa87-5667-ac01-560b69a46621",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Perry Woosley; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 853",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1023",
+      "started_at": "2026-11-04T18:20:00Z",
+      "completed_at": "2026-11-04T22:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, CIA or equivalent official context, and employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 513 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 853 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1023-v1"
+    }
+  ]
+}

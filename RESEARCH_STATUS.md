@@ -1,5 +1,44 @@
 # Research status
 
+Batch 1023 completed PDF page 513, rows 1-46, from **William N. Wood**
+through **Perry Woosley**. All 46 printed rows remain separately recoverable
+as 46 cautious person entities. Every cohort person now has a saved terminal
+outcome: 37 `requires_archival_review`, seven `occupation_only_found`, one
+`completed`, and one `verified_employer_found`.
+
+Seven protected-identifier Army candidates were accepted and one incompatible
+Donald Woodbury candidate was rejected. Five accepted records support only
+broad historical occupation categories; one supports student status and one
+is identity-only because code 999 is undefined. A post-OSS 1946 Army record
+for Robert E. Woods supports identity only, not his pre-OSS chronology.
+
+The strongest documented pathways remain carefully separated. H.G.A. Woolley
+has a confirmed Royal Navy assignment immediately before his COI/OSS Maritime
+Unit work. William H. Woolverton has a strongly date-bounded U.S. Army
+transportation pathway, family-estate farm management modeled as his last
+civilian self-employment, and an earlier New York Transfer Company role.
+Christopher M. Woodhouse's British and Allied military service, Robert G.
+Woolbert's *Foreign Affairs* byline, and Iris Woolcock's documented
+photography are published without being converted into unsupported employers.
+Sam A. Woolington and Sam S. Woolington remain separate in a visible possible-
+duplicate group. Common-name, archaeologist, and judicial namesakes were
+rejected without person-specific OSS identity bridges. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,979/23,935 (70.9380%)**;
+verified-employer coverage is **548/23,935 (2.2895%)**;
+verified-affiliation coverage is **1,194/23,935 (4.9885%)**; archival-review
+coverage is **15,460/23,935 (64.5916%)**. There are **6,951** not-started and
+**1,879** in-progress people. The public projection contains **4,362**
+affiliations, **1,375** organizations, **6,752** sources and **10,858**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 514, row 1,
+**Mallery O. Wooster**.
+
+Batch 1023 publication and deployment verification are recorded in
+`reports/release_batch_1023.md`.
+
 Batch 1022 completed PDF page 512, rows 1-46, from **William H. Wolverton
 Jr.** through **William D. Wood**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Every cohort person now has a

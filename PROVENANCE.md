@@ -39,6 +39,33 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 1023 page 513 review
+
+PDF page 513, rows 1-46, was visually checked at 180 dpi and preserved as 46
+separate source records and person entities. Seven protected-identifier Army
+bridges were accepted and the incompatible Donald Woodbury candidate was
+rejected. The official three-digit table pages were visually checked before
+publishing five broad historical occupation categories and one student
+category; code 999 remains undefined. A 1946 Robert E. Woods Army record is
+used only as identity evidence because it postdates the OSS.
+
+Direct and authoritative evidence supports H.G.A. Woolley's Royal Navy to
+COI/OSS Maritime Unit pathway and William H. Woolverton's U.S. Army
+transportation pathway. Woolverton's family-estate farm management is modeled
+separately as self-employment, and his earlier New York Transfer Company role
+is not mislabeled as immediate. Institutional evidence supports Christopher
+M. Woodhouse's wartime British/Allied assignment, Robert G. Woolbert's
+professional byline, and Iris Woolcock's occupation without inferring an
+unnamed employer. Sam A. and Sam S. Woolington remain separate possible
+duplicates. Archaeologist, judicial, famous, and common-name leads were not
+transferred without person-specific OSS evidence.
+
+No authenticated NARA Catalog API request was made. The durable, redacted
+evidence bundle is
+`research/evidence-page513-william-wood-to-perry-woosley-review_batch-1023_2026-11-04.json`;
+the associated review decisions are
+`research/army_entity_review_decisions_2026-11-04_batch1023.csv`.
+
 ### Batch 1022 page 512 review
 
 PDF page 512, rows 1-46, was visually checked at 180 dpi and preserved as 46
