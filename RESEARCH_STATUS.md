@@ -1,5 +1,63 @@
 # Research status
 
+Batch 1014 completed PDF page 504, rows 1-46, from **Norman B. Wiley** through
+**Arthur J. Williams**. All 46 printed rows remain separately recoverable as
+46 cautious person entities. Every cohort person has a saved terminal outcome:
+35 `requires_archival_review`, nine `occupation_only_found`, one `completed`
+and one `conflicting_sources`.
+
+Eight exact-name, nonshared protected-identifier Army bridges received
+explicit acceptance review and support broad historical occupation categories
+only. The official date field was decoded as day-month-year against the
+technical documentation and previously audited records. No category is
+converted into a named employer, workplace, institution or exact OSS-transfer
+date. The same protected identifier appears on the separate Jack A. William
+and William A. Jack index rows; the Army name order is ambiguous, so no Army
+identity, occupation, grade or chronology was transferred.
+
+Official and institutional evidence confirms Captain Hubert L. Will as Hubert
+Louis Will. His 1943 tax-counsel assignment to the Alien Property Custodian is
+published as the explicitly sequenced immediate and last civilian government
+affiliation before OSS, while his earlier Justice Department and Office of
+Price Administration assignments remain separate. A scholarly citation links
+Max Willenz to the exact OSS personnel file in Box 838; Wienbibliothek and AFI
+records establish pre-OSS singer and actor activity without inventing a named
+immediate employer. Three same-box spelling or exact-name clusters remain
+visible possible-duplicate groups rather than silent merges.
+
+The bounded CIA adapter check encountered `CiaRobotsUnavailable`, and the
+Library of Congress adapter encountered `URLError`; both errors remain
+auditable and are not treated as negative search results. Accessible official,
+institutional, contemporary and archival alternatives were reviewed. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,571/23,935 (69.2333%)**;
+verified-employer coverage is **536/23,935 (2.2394%)**;
+verified-affiliation coverage is **1,173/23,935 (4.9008%)**; archival-review
+coverage is **15,048/23,935 (62.8703%)**. There are **7,359** not-started
+people, **691** possible-duplicate groups and **549** conflicts. The public
+projection contains **4,239** affiliations, **1,349** organizations, **6,668**
+sources and **10,603** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+505, row 1, **Asa E. Williams**.
+
+Batch 1014 passed evidence-schema validation, a twice-proven idempotent
+durable import, SQLite integrity, the complete 522-page ingest audit, the
+deterministic 200-profile audit and all 154 Python tests plus 87 subtests.
+Astro checked 645 files with zero diagnostics and built 25,337 pages. The
+bounded browser release suite passed 96/96 checks across desktop, phone and
+tablet: 27 Batch 1014 checks, 33 core-route and interaction checks, six
+analysis checks and 30 accessibility scans with no serious axe violations.
+All 25,337 internal HTML routes resolve. The protected-identifier audit found
+zero unexpected boundary matches. Two consecutive builds reproduced 25,409
+artifacts and 429,635,111 bytes at SHA-256
+`98e9a5e9d58603b95aaad1d4c5bb87a0d0239f69b695c002b49982f23ee72404`.
+The 67-asset public manifest verifies across 137,093,086 bytes at SHA-256
+`03d81453c08cb68a0f0c6a477c2504256f2f40984b376d9a8557924115befd1c`.
+The production dependency audit found zero vulnerabilities. Publication and
+deployed-release verification are pending.
+
 Batch 1013 completed PDF page 503, rows 1-46, from **Thomas Wiener** through
 **John C. Wiley**. All 46 printed rows remain separately recoverable as 46
 cautious person entities. Henry W. Wieringa and John A. Wilbert each retain a
