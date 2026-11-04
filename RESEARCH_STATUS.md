@@ -1,5 +1,43 @@
 # Research status
 
+Batch 1032 completed the final PDF page, page 522, rows 1-12, from **Anthony
+N. Zucco** through **John A. Zwergel**. All 12 printed rows remain separately
+recoverable as 12 cautious person entities, and all 12 now have saved terminal
+outcomes: seven `occupation_only_found`, three `requires_archival_review`, one
+`needs_identity_review`, and one `documented_prewar_employer_found`.
+
+Seven protected-identifier Army candidates received explicit review and were
+accepted. Six date-bounded Army-entry categories support qualified historical
+occupations; James R. Zurfluh's code 999 remains uninterpreted. John V.
+Zuckerman's two adjacent source rows remain separate in a visible duplicate
+group because they carry different protected identifiers and the first row is
+marked “also AS.” No occupation was transferred to the second row.
+
+Cecilia Sieu-ling Zung has the cohort's strongest documented civilian
+pathway. A contemporary United Nations biography explicitly documents her
+1934-37 Shanghai private law practice, later U.S. postal-censor and senior-
+translator work, and former OSS biographical-research role; an independent
+scholarly institutional history corroborates her education and name. The law
+practice is modeled as earlier self-employment, New York University as student
+status, and the postal-censor role as a government assignment with uncertain
+sequence—not as a silently inferred immediate employer. Official NARA and
+Hoover records support Angelo A. Zurlo's commissioned-officer classification
+and wartime OSS context but do not establish a pre-OSS affiliation. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,357/23,935 (72.5172%)**;
+verified-employer coverage is **554/23,935 (2.3146%)**;
+verified-affiliation coverage is **1,216/23,935 (5.0804%)**; archival-review
+coverage is **15,839/23,935 (66.1751%)**. There are **6,573** not-started and
+**1,878** in-progress people. The public projection contains **4,537**
+affiliations, **1,400** organizations, **6,848** sources and **11,119**
+published, qualified or conflict claims. Research has now reached the index's
+final printed row, but full-index historical research remains unfinished.
+
+Batch 1032 publication verification is recorded in
+`reports/release_batch_1032.md`.
+
 Batch 1031 completed PDF page 521, rows 1-46, from **Ernest W. Zimmerman**
 through **Charles A. Zuccardy**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and all 46 now have saved terminal
