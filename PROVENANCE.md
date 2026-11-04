@@ -39,6 +39,35 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 1013 page 503 review
+
+PDF page 503, rows 1-46, was visually checked at 180 dpi and preserved as 46
+separate source records and person entities. Ten exact-name, nonshared Army
+identifier bridges were accepted through the official fixed-width file and
+its published technical documentation; the resulting occupation categories
+remain qualified and do not name employers. Henry W. Wieringa and John A.
+Wilbert instead produced materially different Army names, so those cases are
+published as conflicts without transferring Army fields or identifiers.
+
+Heinrich A. Wieschhoff's pre-OSS museum work uses institutional histories from
+FernUniversität in Hagen and the University of Pennsylvania Museum, with a
+United Nations obituary as corroboration. Frederick Wight's Naval Reserve and
+self-employment sequence uses the University of California Academic Senate
+memorial and a gallery biography. Louis A. Wiesner's Harvard, Council on
+Foreign Relations and OSS chronology uses the American Foreign Service
+Association obituary. A contemporary *Harvard Crimson* item supports Payson
+S. Wild's professorship but not its sequence relative to OSS, so that
+affiliation remains temporally uncertain. The Department of State biography of
+John Cooper Wiley is retained only as a rejected public-fact candidate because
+it does not bridge the indexed John C. Wiley to the diplomat.
+
+No authenticated NARA Catalog API request was made. CIA robots restrictions
+and a bounded Library of Congress timeout are recorded as access limitations,
+not negative evidence. The durable, redacted evidence bundle is
+`research/evidence-page503-wiener-to-wiley-review_batch-1013_2026-11-04.json`;
+the associated review decisions are
+`research/army_loc_entity_review_decisions_2026-11-04_batch1013.csv`.
+
 ### Batch 922 Robert Storey, Hans Storhaug and John Stoyka review
 
 For Batch 922, the official Army bulk file was checked through the page- and
