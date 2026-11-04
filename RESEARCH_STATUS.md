@@ -42,8 +42,8 @@ published, qualified or conflict claims. Full-index historical research
 remains unfinished. The next indexed boundary is PDF page 511, row 1,
 **Ernest H. Wohlleben**.
 
-Batch 1020 local release verification is recorded in
-`reports/release_batch_1020.md`; live deployment verification remains pending.
+Batch 1020 publication and live-deployment verification are recorded in
+`reports/release_batch_1020.md`.
 
 Batch 1018 completed PDF page 508, rows 1-46, from **Gladys A. Wilson**
 through **Frederick C. Wing**. All 46 printed rows remain separately
