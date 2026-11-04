@@ -1,5 +1,60 @@
 # Research status
 
+Batch 1016 completed PDF page 506, rows 1-46, from **Lansing Williams**
+through **Lawrence J. Willinger**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Every cohort person has a saved
+explicit outcome: 38 `requires_archival_review`, six `occupation_only_found`,
+one `needs_identity_review` and one `conflicting_sources`.
+
+Eight protected-identifier Army bridges received explicit acceptance review.
+Six safely documented historical occupation or student categories are
+published with qualification and are not converted into named employers,
+schools, workplaces or exact OSS-transfer dates. Milton D. Williams's Army
+entry postdates OSS dissolution, Peter W. Williams's code 478 is not defined
+in the inspected official table, and a duplicated Norman Williams identifier
+points to incompatible Army rows; those limitations remain visible.
+
+Ball State institutional records support a probable Jayo Williamson identity
+and qualified Class of 1939 student affiliation, never an employer claim.
+Direct CIA OSS records and Foreign Service Journal evidence support a
+high-confidence David Williamson identity and his 1942 Foreign Service
+resignation as the best-supported probable immediate government affiliation
+before documented OSS European and Mediterranean operations leadership. The
+gap and common name remain explicit reasons for Box 841 review.
+
+The bounded Library of Congress adapter check encountered `URLError`, and the
+CIA adapter check encountered `CiaRobotsUnavailable`. Both errors remain
+auditable and are not treated as negative search results. Accessible official
+and institutional alternatives were reviewed. No authenticated NARA Catalog
+API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,661/23,935 (69.6094%)**;
+verified-employer coverage is **538/23,935 (2.2478%)**;
+verified-affiliation coverage is **1,176/23,935 (4.9133%)**; archival-review
+coverage is **15,140/23,935 (63.2546%)**. There are **7,269** not-started
+people, **691** possible-duplicate groups and **551** conflicts. The public
+projection contains **4,260** affiliations, **1,351** organizations, **6,687**
+sources and **10,650** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+507, row 1, **Arthur J. Willis**.
+
+Batch 1016 passed evidence-schema validation, a twice-proven idempotent
+durable import, SQLite integrity, the complete 522-page ingest audit, the
+deterministic 200-profile audit and all 154 Python tests. Astro checked 647
+files with zero diagnostics and built 25,339 pages. The bounded browser
+release suite passed 96/96 checks across desktop, phone and tablet: 27 Batch
+1016 checks, 33 core-route and interaction checks, six analysis checks and 30
+accessibility scans with no serious axe violations. All 25,339 internal HTML
+routes resolve. The protected-identifier audit found zero unexpected boundary
+matches. Two consecutive builds reproduced 25,411 artifacts and 430,294,346
+bytes at SHA-256
+`e142b2c1bbd7cd1d150f36ae95a48dd18d8a1aa3c48a0ee47f151aa5af974360`.
+The 67-asset public manifest verifies across 137,493,997 bytes at SHA-256
+`b1e79cdbdd41cf8e8adc6f2389dfcfd29855805471b9ef9b21b63c3012864be1`.
+The production dependency audit found zero vulnerabilities. CI, Pages and
+live-release verification remain separate publication gates.
+
 Batch 1015 completed PDF page 505, rows 1-46, from **Asa E. Williams**
 through **June Williams**. All 46 printed rows remain separately recoverable
 as 46 cautious person entities. Every cohort person has a saved terminal

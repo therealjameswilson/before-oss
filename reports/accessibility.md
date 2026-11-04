@@ -7675,3 +7675,16 @@ student status from civilian employment, two undefined Army codes kept
 identity-only, protected-identifier masking, exact coverage, and the unchanged
 oil-company category. All 30 axe scans reported no serious or critical
 accessibility violations.
+
+## Batch 1016 accessibility and responsive regression
+
+The bounded release suite passed **96 / 96** checks: 27 Batch 1016 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and
+tablet widths. It verifies all 46 direct profiles, six qualified Army
+occupation or student categories, identity-only handling for Milton D.
+Williams and Peter W. Williams, the Norman Williams conflict, David
+Williamson's probable-immediate government affiliation, Jayo Williamson's
+student/employer distinction, protected-identifier masking, exact coverage,
+and the oil-company category. All 30 axe scans reported no serious
+accessibility violations.
