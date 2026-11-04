@@ -43,6 +43,13 @@ unexpected matches; and the 67-asset public manifest verifies locally across
 135,583,547 bytes with SHA-256
 `5e374ad280bf3bf5e946484df54da309264f9a98f8107b6c0aa26213d733c0a6`.
 
+Batch 1007 is public from immutable content commit
+`9abecf3e3e3b3c1728a8dbda3023a56748260494`; GitHub Actions Test run
+`41762709958` and Pages run `41762709947` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 45 source-register pages and all 46 direct cohort profiles. Full
+publication evidence is recorded in `reports/release_batch_1007.md`.
+
 Batch 1006 completed PDF page 496, rows 1-46, from **William S. Weisch**
 through **Walter J. Wellman**. All 46 printed rows remain separately
 recoverable and link to 45 cautious person entities after the two Edward
