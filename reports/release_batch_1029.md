@@ -93,9 +93,19 @@ Date: 2026-11-04 America/New_York
 
 ## Deployment status
 
-- Publication commit: pending.
-- GitHub Actions Test run: pending.
-- GitHub Pages run: pending.
-- Immutable-commit verification: pending.
+- Publication commit:
+  `606f7d6074553d483d73e01fdbced7c238e28d0e`.
+- GitHub Actions Test run
+  [41894266937](https://github.com/therealjameswilson/before-oss/actions/runs/41894266937)
+  passed, including the complete Python suite, checked-in manifest check,
+  bounded browser release suite, and public-identifier audit.
+- GitHub Pages run
+  [41894266883](https://github.com/therealjameswilson/before-oss/actions/runs/41894266883)
+  built and deployed successfully.
+- The read-only immutable-commit verifier matched all 67 canonical public
+  assets (140,489,074 bytes) to manifest SHA-256
+  `78ab323328ea2fc5e7d5082e10e1bae80b341f4dc24747143dd5ceea43fb4e43`.
+  It also verified eight core routes, all 46 source-register pages, and all 46
+  direct Batch 1029 profile routes.
 - Public base URL:
   <https://therealjameswilson.github.io/before-oss/>.
