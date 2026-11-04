@@ -41,9 +41,8 @@ published, qualified or conflict claims. Full-index historical research
 remains unfinished. The next indexed boundary is PDF page 510, row 1,
 **Hedwig Wirowski**.
 
-Batch 1019 local publication verification is recorded in
-`reports/release_batch_1019.md`; CI, Pages and live-release verification are
-recorded there only after they succeed.
+Batch 1019 publication and live-deployment verification are recorded in
+`reports/release_batch_1019.md`.
 
 Batch 1018 completed PDF page 508, rows 1-46, from **Gladys A. Wilson**
 through **Frederick C. Wing**. All 46 printed rows remain separately
