@@ -1,5 +1,49 @@
 # Research status
 
+Batch 1021 completed PDF page 511, rows 1-46, from **Ernest H. Wohlleben**
+through **Joseph Wolverton**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Every cohort person now has a
+saved terminal outcome: 42 `requires_archival_review`, two `completed`, one
+`verified_employer_found` and one `documented_prewar_employer_found`; Roger K.
+Wolbarst remains in `requires_archival_review` despite a high-confidence
+identity because the accessible evidence does not establish his exact OSS
+transition.
+
+Five profiles receive publishable evidence while evidence boundaries remain
+explicit. Charles Wolf Jr.'s Harvard student status is separated from his
+immediate U.S. Army pathway into OSS service in Italy. Milton Wolff's Army
+enlistment before OSS-linked intelligence work is a military affiliation, not
+a civilian employer. Robert Lee Wolff's Harvard teaching fellowship is now
+strongly date-bounded from 1937 until OSS Balkan Section service began in
+1942, supporting both immediate affiliation and last civilian employer.
+Peter N. Wolkonsky's Army intelligence service is his immediate military
+pathway; Library of Congress Photoduplication Service is published only as a
+medium-confidence, qualified probable last civilian employer because exact
+employment and leave dates remain unavailable. Roger Wolbarst's Dartmouth
+Class of 1943 relationship is student status, not employment.
+
+The 41 unresolved profiles retain archival guidance. A 1935 Dorothy E.
+Wolgamott directory entry, an Anthony A. Wollner film-industry biography and
+combat-camera roster, and relatives named in Peter Wolkonsky's obituary were
+not transferred without person-specific OSS identity bridges. Common
+Wolf/Wolfe/Wolff namesakes remain unresolved. The bounded CIA and Library of
+Congress adapter errors remain recorded as access failures, not negative
+search results. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,887/23,935 (70.5536%)**;
+verified-employer coverage is **547/23,935 (2.2854%)**;
+verified-affiliation coverage is **1,192/23,935 (4.9802%)**; archival-review
+coverage is **15,368/23,935 (64.2072%)**. There are **7,043** not-started and
+**1,879** in-progress people. The public projection contains **4,341**
+affiliations, **1,371** organizations, **6,739** sources and **10,813**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 512, row 1,
+**William H. Wolverton Jr.**
+
+Batch 1021 publication and deployment verification are recorded in
+`reports/release_batch_1021.md`.
+
 Batch 1020 completed PDF page 510, rows 1-46, from **Hedwig Wirowski**
 through **Chester G. Wohlert**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Every cohort person has a saved
