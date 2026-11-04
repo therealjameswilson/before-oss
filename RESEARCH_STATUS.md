@@ -1,5 +1,43 @@
 # Research status
 
+Batch 1022 completed PDF page 512, rows 1-46, from **William H. Wolverton
+Jr.** through **William D. Wood**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Every cohort person now has a
+saved terminal outcome: 35 `requires_archival_review`, nine
+`occupation_only_found`, and two `conflicting_sources`.
+
+Nine protected-identifier Army candidates were accepted. Six exact-name
+agreements support confirmed identities, while Pak Hoy Wong, Simon P. Wooby,
+and Philip H. Wood remain high-confidence because the official Army names
+contain minor spelling or transcription differences. Their broad historical
+categories at Army entry are published only as qualified occupation or
+student evidence. None is converted into a named employer, school, workplace,
+or exact OSS-transition date.
+
+Shen T. Wong and Shew T. Wong remain separate and visibly conflicting: the
+protected identifier is printed on the Shen row, but the associated Army name
+instead agrees with the adjacent Shew row. Neither receives the Army
+occupation pending joint review of Box 850. The incompatible Thomas F.
+Wombacher and Andrew M. Wood Army candidates were rejected. Famous or common-
+name leads for William H. Womble Jr., Charles M. Wood, Garfield A. Wood Jr.,
+James E. Wood, Leona Wood, and Louise B. Wood were not transferred without
+person-specific OSS identity bridges. No authenticated NARA Catalog API
+request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,933/23,935 (70.7458%)**;
+verified-employer coverage is **547/23,935 (2.2854%)**;
+verified-affiliation coverage is **1,192/23,935 (4.9802%)**; archival-review
+coverage is **15,414/23,935 (64.3994%)**. There are **6,997** not-started and
+**1,879** in-progress people. The public projection contains **4,350**
+affiliations, **1,371** organizations, **6,740** sources and **10,833**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 513, row 1,
+**William N. Wood**.
+
+Batch 1022 publication and deployment verification are recorded in
+`reports/release_batch_1022.md`.
+
 Batch 1021 completed PDF page 511, rows 1-46, from **Ernest H. Wohlleben**
 through **Joseph Wolverton**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Every cohort person now has a

@@ -39,6 +39,31 @@ date was not recoverable and is not invented. See the machine-readable
 `reports/army_bulk_crosswalk.md`. The source file is not committed, and its
 private identifiers do not enter public assets.
 
+### Batch 1022 page 512 review
+
+PDF page 512, rows 1-46, was visually checked at 180 dpi and preserved as 46
+separate source records and person entities. Nine protected-identifier Army
+bridges were accepted: six exact-name agreements and three distinctive names
+with minor official-file spelling or transcription differences. The official
+three-digit table pages were visually checked before publishing the broad
+historical categories. Student status remains distinct from employment, and
+no Army category is converted into a named employer, institution, workplace,
+or exact OSS-transfer date.
+
+The identifier printed for Shen T. Wong leads to an Army name matching the
+adjacent, separately preserved Shew T. Wong row. The pair remains a visible
+identity conflict and neither receives Army occupation evidence. The Thomas
+F. Wombacher and Andrew M. Wood candidates were rejected because the official
+names and other fields are materially incompatible. Famous biographies,
+postwar records, relatives, and common-name directory leads were not used
+without an OSS or protected-identifier bridge.
+
+No authenticated NARA Catalog API request was made. The durable, redacted
+evidence bundle is
+`research/evidence-page512-william-wolverton-to-william-wood-review_batch-1022_2026-11-04.json`;
+the associated review decisions are
+`research/army_entity_review_decisions_2026-11-04_batch1022.csv`.
+
 ### Batch 1013 page 503 review
 
 PDF page 503, rows 1-46, was visually checked at 180 dpi and preserved as 46

@@ -1,0 +1,2129 @@
+{
+  "bundle_version": "batch-1022-v1",
+  "reviewer": "Before OSS Batch 1022 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b1022",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "access_date": "2026-11-04",
+      "source_quality": "A_direct_official",
+      "locator": "PDF page 512, rows 1-46; visually checked at 180 dpi; RG 226, Entry A1-224, Boxes 850-851",
+      "collection_name": "Records of the Office of Strategic Services"
+    },
+    {
+      "key": "army-bulk-b1022",
+      "source_id": "cf280d3e-1262-5963-90d7-40ffa66c53a3",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; six accepted Batch 926 protected-identifier candidates",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record or full protected identifier is retained in public assets. Coded occupations identify neither employer nor workplace."
+    },
+    {
+      "key": "army-tech-b1022",
+      "source_id": "f24044fe-5fcd-5d78-96d4-25d577e90703",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b1022",
+      "source_id": "ace136c1-722a-5af0-a43b-bab53792ae6a",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171, 174-175 and 304; Batch 926 categories visually checked",
+      "access_date": "2026-10-26",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer, institution nor workplace. Amended labels on physical page 304 are retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "pak-hoy-wong-army-occupation-row8-b1022",
+      "person_id": "52eadd18-6063-5dd3-aaf1-82fbde9d6243",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1944-02-04",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1944-02-04; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "raymond-t-wong-army-occupation-row11-b1022",
+      "person_id": "a0f8c55f-c8c4-5e3b-8b45-33cb34318f30",
+      "occupation": "shipping and receiving clerk",
+      "relationship_type": "unknown",
+      "end_date": "1943-02-12",
+      "date_precision": "Historical civilian-occupation code 134 was recorded at Army entry on 1943-02-12; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "si-g-wong-army-occupation-row15-b1022",
+      "person_id": "5ed7bc84-4dd0-53cd-8fb1-fc979d7c1338",
+      "occupation": "mechanic or repairman, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1943-07-01",
+      "date_precision": "Historical civilian-occupation code 583 was recorded at Army entry on 1943-07-01; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "david-woo-army-occupation-row17-b1022",
+      "person_id": "83d2b7aa-b27c-5c3c-b862-4eff3fb1a440",
+      "occupation": "laundering, cleaning, dyeing or apparel-pressing worker",
+      "relationship_type": "unknown",
+      "end_date": "1941-03-14",
+      "date_precision": "Historical civilian-occupation code 757 was recorded at Army entry on 1941-03-14; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "simon-p-wooby-army-occupation-row18-b1022",
+      "person_id": "3e33786d-9dcc-5f54-bf46-d369454195d7",
+      "occupation": "steam fitter, gas fitter, or plumber",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-23",
+      "date_precision": "Historical civilian-occupation code 530 was recorded at Army entry on 1942-09-23; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "philip-h-wood-army-occupation-row37-b1022",
+      "person_id": "233b3b68-abaf-5dfc-b600-66d4430aa0fb",
+      "occupation": "general office clerk",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-06",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1942-10-06; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "richard-h-wood-army-occupation-row40-b1022",
+      "person_id": "b804840c-2aaf-5a80-bf47-6eaebdb5c913",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942-12-29",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-12-29; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "wallace-w-wood-army-occupation-row44-b1022",
+      "person_id": "4a085c67-97e0-5935-96b3-f944fe1f51ca",
+      "occupation": "general farm hand",
+      "relationship_type": "unknown",
+      "end_date": "1943-11-09",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1943-11-09; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    },
+    {
+      "key": "william-d-wood-army-occupation-row46-b1022",
+      "person_id": "a699fb3f-fdb2-5f46-b13f-787bda39291e",
+      "occupation": "salesman to consumers",
+      "relationship_type": "unknown",
+      "end_date": "1943-09-09",
+      "date_precision": "Historical civilian-occupation code 180 was recorded at Army entry on 1943-09-09; no named employer or institution is supplied.",
+      "country": "United States",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "A broad historical category only. It is not converted into a named employer, school, workplace, or exact OSS-transition date."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-pak-hoy-wong-row8-b1022",
+      "person_id": "52eadd18-6063-5dd3-aaf1-82fbde9d6243",
+      "claim_type": "identity",
+      "claim_text": "Indexed Pak Hoy Wong is a high-confidence match to the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier plus distinctive compatible name evidence; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 8; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-pak-hoy-wong-row8-b1022",
+      "person_id": "52eadd18-6063-5dd3-aaf1-82fbde9d6243",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-02-04, Pak Hoy Wong's record carried historical civilian-occupation category 992: student.",
+      "evidence_paraphrase": "The official bulk record carries code 992; NARA's compiled list labels that category 'Students'.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement and distinctive compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; amended category 9-92"
+        }
+      ],
+      "affiliation_key": "pak-hoy-wong-army-occupation-row8-b1022"
+    },
+    {
+      "key": "identity-raymond-t-wong-row11-b1022",
+      "person_id": "a0f8c55f-c8c4-5e3b-8b45-33cb34318f30",
+      "claim_type": "identity",
+      "claim_text": "Indexed Raymond T Wong is confirmed as the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 11; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-raymond-t-wong-row11-b1022",
+      "person_id": "a0f8c55f-c8c4-5e3b-8b45-33cb34318f30",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-12, Raymond T Wong's record carried historical civilian-occupation category 134: shipping and receiving clerk.",
+      "evidence_paraphrase": "The official bulk record carries code 134; NARA's compiled list labels that category 'Shipping and receiving clerks'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; historical category 1-34"
+        }
+      ],
+      "affiliation_key": "raymond-t-wong-army-occupation-row11-b1022"
+    },
+    {
+      "key": "identity-si-g-wong-row15-b1022",
+      "person_id": "5ed7bc84-4dd0-53cd-8fb1-fc979d7c1338",
+      "claim_type": "identity",
+      "claim_text": "Indexed Si G Wong is confirmed as the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 15; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-si-g-wong-row15-b1022",
+      "person_id": "5ed7bc84-4dd0-53cd-8fb1-fc979d7c1338",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-01, Si G Wong's record carried historical civilian-occupation category 583: mechanic or repairman, not elsewhere classified.",
+      "evidence_paraphrase": "The official bulk record carries code 583; NARA's compiled list labels that category 'Repairmen and mechanics, n.e.c.'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 178; historical category 5-83"
+        }
+      ],
+      "affiliation_key": "si-g-wong-army-occupation-row15-b1022"
+    },
+    {
+      "key": "identity-david-woo-row17-b1022",
+      "person_id": "83d2b7aa-b27c-5c3c-b862-4eff3fb1a440",
+      "claim_type": "identity",
+      "claim_text": "Indexed David Woo is confirmed as the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 17; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-david-woo-row17-b1022",
+      "person_id": "83d2b7aa-b27c-5c3c-b862-4eff3fb1a440",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-14, David Woo's record carried historical civilian-occupation category 757: laundering, cleaning, dyeing or apparel-pressing worker.",
+      "evidence_paraphrase": "The official bulk record carries code 757; NARA's compiled list labels that category 'Cleaning occupations, apparel and other articles'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 176; historical category 7-57"
+        }
+      ],
+      "affiliation_key": "david-woo-army-occupation-row17-b1022"
+    },
+    {
+      "key": "identity-simon-p-wooby-row18-b1022",
+      "person_id": "3e33786d-9dcc-5f54-bf46-d369454195d7",
+      "claim_type": "identity",
+      "claim_text": "Indexed Simon P Wooby is a high-confidence match to the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier plus distinctive compatible name evidence; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 18; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-simon-p-wooby-row18-b1022",
+      "person_id": "3e33786d-9dcc-5f54-bf46-d369454195d7",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-23, Simon P Wooby's record carried historical civilian-occupation category 530: steam fitter, gas fitter, or plumber.",
+      "evidence_paraphrase": "The official bulk record carries code 530; NARA's compiled list labels that category 'Steam fitters, gas fitters, and plumbers'.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement and distinctive compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 178; historical category 5-30"
+        }
+      ],
+      "affiliation_key": "simon-p-wooby-army-occupation-row18-b1022"
+    },
+    {
+      "key": "identity-philip-h-wood-row37-b1022",
+      "person_id": "233b3b68-abaf-5dfc-b600-66d4430aa0fb",
+      "claim_type": "identity",
+      "claim_text": "Indexed Philip H Wood is a high-confidence match to the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier plus distinctive compatible name evidence; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 37; Box 851"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-philip-h-wood-row37-b1022",
+      "person_id": "233b3b68-abaf-5dfc-b600-66d4430aa0fb",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-06, Philip H Wood's record carried historical civilian-occupation category 105: general office clerk.",
+      "evidence_paraphrase": "The official bulk record carries code 105; NARA's compiled list labels that category 'Clerks, general office'.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement and distinctive compatible name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; historical category 1-05"
+        }
+      ],
+      "affiliation_key": "philip-h-wood-army-occupation-row37-b1022"
+    },
+    {
+      "key": "identity-richard-h-wood-row40-b1022",
+      "person_id": "b804840c-2aaf-5a80-bf47-6eaebdb5c913",
+      "claim_type": "identity",
+      "claim_text": "Indexed Richard H Wood is confirmed as the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 40; Box 851"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-richard-h-wood-row40-b1022",
+      "person_id": "b804840c-2aaf-5a80-bf47-6eaebdb5c913",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-29, Richard H Wood's record carried historical civilian-occupation category 992: student.",
+      "evidence_paraphrase": "The official bulk record carries code 992; NARA's compiled list labels that category 'Students'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; amended category 9-92"
+        }
+      ],
+      "affiliation_key": "richard-h-wood-army-occupation-row40-b1022"
+    },
+    {
+      "key": "identity-wallace-w-wood-row44-b1022",
+      "person_id": "4a085c67-97e0-5935-96b3-f944fe1f51ca",
+      "claim_type": "identity",
+      "claim_text": "Indexed Wallace W Wood is confirmed as the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 44; Box 851"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-wallace-w-wood-row44-b1022",
+      "person_id": "4a085c67-97e0-5935-96b3-f944fe1f51ca",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-11-09, Wallace W Wood's record carried historical civilian-occupation category 316: general farm hand.",
+      "evidence_paraphrase": "The official bulk record carries code 316; NARA's compiled list labels that category 'Farm hands, general farms'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; historical category 3-16"
+        }
+      ],
+      "affiliation_key": "wallace-w-wood-army-occupation-row44-b1022"
+    },
+    {
+      "key": "identity-william-d-wood-row46-b1022",
+      "person_id": "a699fb3f-fdb2-5f46-b13f-787bda39291e",
+      "claim_type": "identity",
+      "claim_text": "Indexed William D Wood is confirmed as the matching Army record.",
+      "evidence_paraphrase": "The official index and Army record agree through a nonshared protected identifier and compatible name evidence.",
+      "identity_match_assessment": "Confirmed by a nonshared protected identifier and exact official name agreement; the identifier remains private.",
+      "temporal_assessment": "Identity evidence only; Army entry is not treated as an OSS-transition date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The accepted review withholds the full identifier and does not convert Army fields into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 46; Box 851"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-d-wood-row46-b1022",
+      "person_id": "a699fb3f-fdb2-5f46-b13f-787bda39291e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-09-09, William D Wood's record carried historical civilian-occupation category 180: salesman to consumers.",
+      "evidence_paraphrase": "The official bulk record carries code 180; NARA's compiled list labels that category 'Salesmen, to consumers'.",
+      "identity_match_assessment": "Confirmed by protected-identifier agreement and exact official name evidence.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but not proof of an immediate predecessor affiliation or an exact OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A historical category only. It is excluded from verified-employer analytics and never converted into a named employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF physical pages 171 and 247; historical category 1-80"
+        }
+      ],
+      "affiliation_key": "william-d-wood-army-occupation-row46-b1022"
+    },
+    {
+      "key": "identity-conflict-shen-t-wong-row13-b1022",
+      "person_id": "59e7eeb9-6bc4-516d-b4f2-4e98bee6508e",
+      "claim_type": "identity",
+      "claim_text": "Shen T Wong's identity remains conflicting because the protected identifier and Army name point to different adjacent index rows.",
+      "evidence_paraphrase": "A protected identifier printed on the Shen T Wong index row leads to an Army name that instead matches the adjacent, separately preserved Shew T Wong row.",
+      "identity_match_assessment": "Conflicting: the identifier belongs to the Shen row, while the Army spelling agrees with the separate Shew row. Neither record is merged or assigned the Army occupation.",
+      "temporal_assessment": "No chronology or occupation is transferred while identity is unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both printed rows remain separate and are grouped only for joint archival review of Box 850.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 13; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "contradicts"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-shew-t-wong-row14-b1022",
+      "person_id": "51f077a2-c1d2-5504-9917-8b4448140944",
+      "claim_type": "identity",
+      "claim_text": "Shew T Wong's identity remains conflicting because the protected identifier and Army name point to different adjacent index rows.",
+      "evidence_paraphrase": "A protected identifier printed on the Shen T Wong index row leads to an Army name that instead matches the adjacent, separately preserved Shew T Wong row.",
+      "identity_match_assessment": "Conflicting: the identifier belongs to the Shen row, while the Army spelling agrees with the separate Shew row. Neither record is merged or assigned the Army occupation.",
+      "temporal_assessment": "No chronology or occupation is transferred while identity is unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both printed rows remain separate and are grouped only for joint archival review of Box 850.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1022",
+          "support_type": "supports",
+          "locator_override": "PDF page 512, row 14; Box 850"
+        },
+        {
+          "source_key": "army-bulk-b1022",
+          "support_type": "contradicts"
+        },
+        {
+          "source_key": "army-tech-b1022",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "9cf0dcb6-b7d8-5c57-bc2c-9b2c07604fcc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves William H Wolverton Jr. and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "df2280f0-1f4d-5ab7-adf8-ba5e76082bf6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Thomas F Wombacher and Box 850. The protected-identifier Army candidate has a materially different damaged name and is rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The protected-identifier Army candidate has a materially different damaged name and is rejected."
+    },
+    {
+      "person_id": "12902f59-4ff1-5834-bd59-fb1662dac126",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves William H Womble Jr. and Box 850. A 1926-born Navy enlisted namesake conflicts with the indexed captain and is rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A 1926-born Navy enlisted namesake conflicts with the indexed captain and is rejected."
+    },
+    {
+      "person_id": "58b0b6e2-57c3-5f33-9403-579ad73fd5ec",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Benjamin Y.W. Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "3e5ad5ac-7a83-58ed-b92c-63e80409a53f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Fook L Wong and Box 850. The official Army bulk comparison produced no identifier match; that nonhit is not evidence against other service.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army bulk comparison produced no identifier match; that nonhit is not evidence against other service."
+    },
+    {
+      "person_id": "193cc3c8-3199-5460-a266-11acfbe9fb0e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Hans J.W. Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "eb7cb732-3d2f-5797-8121-5b42ada8d1f4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Henry P Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "b112c13f-722d-55c6-ad0f-1eb40e8962d4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Paul Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "72ec1228-3474-592a-9bdd-fc5cb677ce33",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Ping K Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a3ac93f1-0d1a-577a-a943-51a44c4b0a2a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Sam Q Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "1bc527a6-46a9-5789-818b-1103bf58eba6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Yack-tuk Wong and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "3231314c-5883-55eb-8109-19cf0f9ed908",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Andrew M Wood and Box 850. The protected-identifier Army candidate contains an incompatible name and impossible date code; it is rejected entirely.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The protected-identifier Army candidate contains an incompatible name and impossible date code; it is rejected entirely."
+    },
+    {
+      "person_id": "05009f19-3350-5513-bf4c-11a40c140fc4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Betty H.P. Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "050ba9c9-40d4-5aac-8179-dd4ad2e20dbf",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Charles M Wood and Box 850. A civilian-pilot-instructor biography lacks a bridge to this OSS index row and remains a rejected lead.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A civilian-pilot-instructor biography lacks a bridge to this OSS index row and remains a rejected lead."
+    },
+    {
+      "person_id": "aa641498-37c7-5f21-a4f2-fc112451e049",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Charles R Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ac211295-d5c4-5c85-b784-8c29bf171534",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Eric F Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "6532fd47-ac27-5c69-8a79-abf560b72b6f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves G F Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a83ab0a8-523f-5b2b-84ca-34d8d38c0c1f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Garfield A Wood Jr. and Box 850. The famous Garfield Wood Jr. biography lacks a direct index or personnel-file bridge and is not assigned to this row.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The famous Garfield Wood Jr. biography lacks a direct index or personnel-file bridge and is not assigned to this row."
+    },
+    {
+      "person_id": "ef02a95c-4ae7-5363-ac95-e44bea581186",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Helen O Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "1f688b42-b13d-5b5c-9e7f-fbb8e243dca8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Jack G Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "1d0d6a8d-ae51-5dab-b4e4-8a47d7d1d74b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves James E Wood and Box 850. A 459th Bomb Group namesake lacks corroborating index identifiers and is rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A 459th Bomb Group namesake lacks corroborating index identifiers and is rejected."
+    },
+    {
+      "person_id": "a2e44d8b-721d-5150-9852-ba85ada1ce12",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves James J Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "8afa4af6-7fb5-52c3-a1b9-b73466fd0460",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Jeruska S Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "d050b758-a141-51c0-8e51-a4806026aac6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves John L Wood and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "67adaa44-43a4-5fc3-9a9a-fb3835d1b128",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves John S Wood Jr. and Box 850. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "da71f9b2-ad7f-55cd-a204-54c240a3e838",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Leona Wood and Box 851. An artist biography lacks an OSS or protected-identifier bridge and is rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. An artist biography lacks an OSS or protected-identifier bridge and is rejected."
+    },
+    {
+      "person_id": "847d16f3-1419-51ea-bc0e-a8ab463a4834",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Louise B Wood and Box 851. Competing directory and teaching records cannot be assigned to this common name without Box 851 evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Competing directory and teaching records cannot be assigned to this common name without Box 851 evidence."
+    },
+    {
+      "person_id": "eaa72e2a-2df7-510c-965c-9f8d923b8372",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Myrtle B Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "e29282e1-dd8c-5282-a288-b61bb1d09be0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Percy S Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "911121ce-d93f-5b85-aea1-ffed2903b497",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Reuben E Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a877411d-ffbb-5c60-b721-7cb133964279",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Richard Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "16f5f26d-20ed-555c-a76a-ed0badd42c34",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Richardson K Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "9024551d-8067-5e01-b949-2bd19b012acd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Robert L Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ef392d70-b074-56a3-8d53-6420bffbc7d2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves Thomas M Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "474608cd-0dc5-55fb-b3aa-d994cb9be7c0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 512 source preserves William B Wood and Box 851. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "52eadd18-6063-5dd3-aaf1-82fbde9d6243",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and distinctive compatible name evidence connect the records; the Army name has a minor spelling or transcription variation and the identifier remains private.",
+      "name_variants": [
+        "Pak Hoy Won",
+        "Wong Pak Hoy"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 850 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "a0f8c55f-c8c4-5e3b-8b45-33cb34318f30",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 850 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "5ed7bc84-4dd0-53cd-8fb1-fc979d7c1338",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 850 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "83d2b7aa-b27c-5c3c-b862-4eff3fb1a440",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 850 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "3e33786d-9dcc-5f54-bf46-d369454195d7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and distinctive compatible name evidence connect the records; the Army name has a minor spelling or transcription variation and the identifier remains private.",
+      "name_variants": [
+        "Simon P Wooby",
+        "Simom P Wooby"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 850 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "233b3b68-abaf-5dfc-b600-66d4430aa0fb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and distinctive compatible name evidence connect the records; the Army name has a minor spelling or transcription variation and the identifier remains private.",
+      "name_variants": [
+        "Philip H Wood",
+        "Phillip H Wood"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 851 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "b804840c-2aaf-5a80-bf47-6eaebdb5c913",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 851 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "4a085c67-97e0-5935-96b3-f944fe1f51ca",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 851 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "a699fb3f-fdb2-5f46-b13f-787bda39291e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "name_variants": null,
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 851 to identify a named employer or institution and establish Army-to-OSS chronology; the bulk record supplies only a historical category at Army entry."
+    },
+    {
+      "person_id": "59e7eeb9-6bc4-516d-b4f2-4e98bee6508e",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier appears on the Shen T Wong row, but the associated Army name instead agrees with the adjacent Shew T Wong row. The two source rows remain separate and neither receives Army occupation evidence.",
+      "possible_duplicate_group": "page512-shen-shew-wong-protected-name-conflict",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Shen T Wong and Shew T Wong folders together in Box 850 to resolve the protected-identifier/name conflict; do not merge them or transfer the Army occupation meanwhile."
+    },
+    {
+      "person_id": "51f077a2-c1d2-5504-9917-8b4448140944",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier appears on the Shen T Wong row, but the associated Army name instead agrees with the adjacent Shew T Wong row. The two source rows remain separate and neither receives Army occupation evidence.",
+      "possible_duplicate_group": "page512-shen-shew-wong-protected-name-conflict",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Shen T Wong and Shew T Wong folders together in Box 850 to resolve the protected-identifier/name conflict; do not merge them or transfer the Army occupation meanwhile."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page512-row1-william-h-wolverton-jr-b1022",
+      "person_id": "9cf0dcb6-b7d8-5c57-bc2c-9b2c07604fcc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Wolverton Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row2-thomas-f-wombacher-b1022",
+      "person_id": "df2280f0-1f4d-5ab7-adf8-ba5e76082bf6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas F Wombacher; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "The protected-identifier Army candidate has a materially different damaged name and is rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row3-william-h-womble-jr-b1022",
+      "person_id": "12902f59-4ff1-5834-bd59-fb1662dac126",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Womble Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "A 1926-born Navy enlisted namesake conflicts with the indexed captain and is rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row4-benjamin-y-w-wong-b1022",
+      "person_id": "58b0b6e2-57c3-5f33-9403-579ad73fd5ec",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benjamin Y.W. Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row5-fook-l-wong-b1022",
+      "person_id": "3e5ad5ac-7a83-58ed-b92c-63e80409a53f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fook L Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "The official Army bulk comparison produced no identifier match; that nonhit is not evidence against other service. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row6-hans-j-w-wong-b1022",
+      "person_id": "193cc3c8-3199-5460-a266-11acfbe9fb0e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hans J.W. Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row7-henry-p-wong-b1022",
+      "person_id": "eb7cb732-3d2f-5797-8121-5b42ada8d1f4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry P Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row8-pak-hoy-wong-b1022",
+      "person_id": "52eadd18-6063-5dd3-aaf1-82fbde9d6243",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Pak Hoy Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row9-paul-wong-b1022",
+      "person_id": "b112c13f-722d-55c6-ad0f-1eb40e8962d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row10-ping-k-wong-b1022",
+      "person_id": "72ec1228-3474-592a-9bdd-fc5cb677ce33",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ping K Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row11-raymond-t-wong-b1022",
+      "person_id": "a0f8c55f-c8c4-5e3b-8b45-33cb34318f30",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond T Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row12-sam-q-wong-b1022",
+      "person_id": "a3ac93f1-0d1a-577a-a943-51a44c4b0a2a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sam Q Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row13-shen-t-wong-b1022",
+      "person_id": "59e7eeb9-6bc4-516d-b4f2-4e98bee6508e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shen T Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "The protected identifier and Army name point to different adjacent index rows; the conflict remains visible and neither row receives occupation evidence. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row14-shew-t-wong-b1022",
+      "person_id": "51f077a2-c1d2-5504-9917-8b4448140944",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Shew T Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "The protected identifier and Army name point to different adjacent index rows; the conflict remains visible and neither row receives occupation evidence. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row15-si-g-wong-b1022",
+      "person_id": "5ed7bc84-4dd0-53cd-8fb1-fc979d7c1338",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Si G Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row16-yack-tuk-wong-b1022",
+      "person_id": "1bc527a6-46a9-5789-818b-1103bf58eba6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Yack-tuk Wong; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row17-david-woo-b1022",
+      "person_id": "83d2b7aa-b27c-5c3c-b862-4eff3fb1a440",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "David Woo; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row18-simon-p-wooby-b1022",
+      "person_id": "3e33786d-9dcc-5f54-bf46-d369454195d7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Simon P Wooby; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row19-andrew-m-wood-b1022",
+      "person_id": "3231314c-5883-55eb-8109-19cf0f9ed908",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andrew M Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "The protected-identifier Army candidate contains an incompatible name and impossible date code; it is rejected entirely. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row20-betty-h-p-wood-b1022",
+      "person_id": "05009f19-3350-5513-bf4c-11a40c140fc4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Betty H.P. Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row21-charles-m-wood-b1022",
+      "person_id": "050ba9c9-40d4-5aac-8179-dd4ad2e20dbf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles M Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "A civilian-pilot-instructor biography lacks a bridge to this OSS index row and remains a rejected lead. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row22-charles-r-wood-b1022",
+      "person_id": "aa641498-37c7-5f21-a4f2-fc112451e049",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles R Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row23-eric-f-wood-b1022",
+      "person_id": "ac211295-d5c4-5c85-b784-8c29bf171534",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eric F Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row24-g-f-wood-b1022",
+      "person_id": "6532fd47-ac27-5c69-8a79-abf560b72b6f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "G F Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row25-garfield-a-wood-jr-b1022",
+      "person_id": "a83ab0a8-523f-5b2b-84ca-34d8d38c0c1f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Garfield A Wood Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "The famous Garfield Wood Jr. biography lacks a direct index or personnel-file bridge and is not assigned to this row. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row26-helen-o-wood-b1022",
+      "person_id": "ef02a95c-4ae7-5363-ac95-e44bea581186",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Helen O Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row27-jack-g-wood-b1022",
+      "person_id": "1f688b42-b13d-5b5c-9e7f-fbb8e243dca8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack G Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row28-james-e-wood-b1022",
+      "person_id": "1d0d6a8d-ae51-5dab-b4e4-8a47d7d1d74b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James E Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "A 459th Bomb Group namesake lacks corroborating index identifiers and is rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row29-james-j-wood-b1022",
+      "person_id": "a2e44d8b-721d-5150-9852-ba85ada1ce12",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James J Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row30-jeruska-s-wood-b1022",
+      "person_id": "8afa4af6-7fb5-52c3-a1b9-b73466fd0460",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jeruska S Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row31-john-l-wood-b1022",
+      "person_id": "d050b758-a141-51c0-8e51-a4806026aac6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John L Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row32-john-s-wood-jr-b1022",
+      "person_id": "67adaa44-43a4-5fc3-9a9a-fb3835d1b128",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John S Wood Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 850",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 850 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row33-leona-wood-b1022",
+      "person_id": "da71f9b2-ad7f-55cd-a204-54c240a3e838",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leona Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An artist biography lacks an OSS or protected-identifier bridge and is rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row34-louise-b-wood-b1022",
+      "person_id": "847d16f3-1419-51ea-bc0e-a8ab463a4834",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louise B Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Competing directory and teaching records cannot be assigned to this common name without Box 851 evidence. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row35-myrtle-b-wood-b1022",
+      "person_id": "eaa72e2a-2df7-510c-965c-9f8d923b8372",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Myrtle B Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row36-percy-s-wood-b1022",
+      "person_id": "e29282e1-dd8c-5282-a288-b61bb1d09be0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Percy S Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row37-philip-h-wood-b1022",
+      "person_id": "233b3b68-abaf-5dfc-b600-66d4430aa0fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip H Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row38-reuben-e-wood-b1022",
+      "person_id": "911121ce-d93f-5b85-aea1-ffed2903b497",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Reuben E Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row39-richard-wood-b1022",
+      "person_id": "a877411d-ffbb-5c60-b721-7cb133964279",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row40-richard-h-wood-b1022",
+      "person_id": "b804840c-2aaf-5a80-bf47-6eaebdb5c913",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard H Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row41-richardson-k-wood-b1022",
+      "person_id": "16f5f26d-20ed-555c-a76a-ed0badd42c34",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richardson K Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row42-robert-l-wood-b1022",
+      "person_id": "9024551d-8067-5e01-b949-2bd19b012acd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row43-thomas-m-wood-b1022",
+      "person_id": "ef392d70-b074-56a3-8d53-6420bffbc7d2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas M Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row44-wallace-w-wood-b1022",
+      "person_id": "4a085c67-97e0-5935-96b3-f944fe1f51ca",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wallace W Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row45-william-b-wood-b1022",
+      "person_id": "474608cd-0dc5-55fb-b3aa-d994cb9be7c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William B Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "Accessible exact-name, official, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    },
+    {
+      "key": "page512-row46-william-d-wood-b1022",
+      "person_id": "a699fb3f-fdb2-5f46-b13f-787bda39291e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William D Wood; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 851",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1022",
+      "started_at": "2026-11-04T12:45:00Z",
+      "completed_at": "2026-11-04T18:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, famous biographies and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers or institutions.",
+      "research_notes": "An accepted official Army bridge supports identity and one qualified historical occupation category at Army entry; it supplies no named employer or exact OSS-transfer date. The official index, exact-name searches, official OSS context and available employer, occupation, obituary, institutional, newspaper, directory and archival leads were reviewed as applicable. Page 512 and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 851 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1022-v1"
+    }
+  ]
+}
