@@ -1,5 +1,47 @@
 # Research status
 
+Batch 1018 completed PDF page 508, rows 1-46, from **Gladys A. Wilson**
+through **Frederick C. Wing**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Every cohort person has a saved
+terminal or explicit review outcome: 27 `requires_archival_review`, 16
+`occupation_only_found`, one `documented_prewar_employer_found`, one
+`needs_identity_review` and one `conflicting_sources`.
+
+Eighteen protected-identifier Army candidates received explicit review:
+seventeen were accepted and one was classified conflicting. Sixteen broad
+historical occupation categories remain qualified and unnamed. John H.
+Wilson's candidate points to the incompatible Army name Roy H. Mc Adams, so
+no Army data were transferred.
+
+Direct OSS, institutional and scholarly evidence confirms Sivert Windh's
+identity without turning his Army-entry occupation category into an employer.
+John Skinner Wilson's Gilwell Park role is modeled as a professional
+affiliation, not employment. Major Gerald K. Wines has qualified documented-
+prewar work as an advertising representative for an unnamed major Dallas-area
+newspaper. The adjacent Gerald K. Wines row remains a separate probable entity
+in a visible possible-duplicate group. Leonard S. Wilson is correctly
+classified as a commissioned naval officer.
+
+The bounded CIA adapter check encountered `CiaRobotsUnavailable`, and the
+Library of Congress check encountered `URLError`. Both errors remain auditable
+and are not treated as negative search results. No authenticated NARA Catalog
+API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,752/23,935 (69.9896%)**;
+verified-employer coverage is **542/23,935 (2.2645%)**;
+verified-affiliation coverage is **1,181/23,935 (4.9342%)**; archival-review
+coverage is **15,232/23,935 (63.6390%)**. There are **7,178** not-started and
+**1,880** in-progress people. The public projection contains **4,298**
+affiliations, **1,356** organizations, **6,709** sources and **10,731**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 509, row 1,
+**George P. Wing**.
+
+Batch 1018 local release validation is recorded in
+`reports/release_batch_1018.md`. CI and live-publication verification remain
+separate until the release commit is deployed and checked.
+
 Batch 1017 completed PDF page 507, rows 1-46, from **Arthur J. Willis**
 through **Georgia Wilson**. All 46 printed rows remain separately recoverable
 as 46 cautious person entities. Every cohort person has a saved explicit
