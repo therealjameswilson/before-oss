@@ -1,5 +1,52 @@
 # Research status
 
+Batch 1025 completed PDF page 515, rows 1-46, from **Mundy P. Wright**
+through **Hans Wyner**. All 46 printed rows remain separately recoverable as
+46 cautious person entities. George S. Wuchinich's earlier reviewed profile
+was preserved without replacement; the other 45 people received new saved
+terminal outcomes. The full cohort now contains 29
+`requires_archival_review`, eight `occupation_only_found`, three `completed`,
+two `verified_employer_found`, two `documented_prewar_employer_found`, and two
+`conflicting_sources` outcomes.
+
+Ten protected-identifier Army candidates were accepted, one materially
+damaged-name candidate for Mundy P. Wright was rejected, and the shared
+identifier printed for Robert C. Wright and one Robert G. Wright row was
+preserved as a visible conflict. The people remain separate and no Army
+evidence was transferred to either. Nine accepted records support only broad
+historical occupation or student categories at Army entry. Francis B. Wyeth
+is identity-only because code 999 could not be defensibly interpreted. The
+second Robert G. Wright row has a different protected identifier and also
+remains separate.
+
+The strongest documented pathways preserve employer and military categories.
+Columbia University's contemporaneous 1944 report identifies John H.
+Wuorinen as an associate professor of history and OSS Scandinavian-Baltic
+Section chief. Hans Wynberg's Charles Pfizer & Co. summer job remains his
+last documented civilian employer, while Army service is modeled separately
+as the immediate military pathway to OSS; the documented Hans Wijnberg
+spelling is preserved as a variant. Betty Jane Wylie's General Mills job is
+an explicit but medium-confidence obituary-supported immediate employer.
+Walter B. Wriston's Department of State Special Division assignment and Army
+service, Arthur O. Wurtmann's State Department and Navy sequence, and Richard
+D. Wylly's Marine Corps first-lieutenant pathway are separately modeled and
+qualified where exact transfer dates remain unknown. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,070/23,935 (71.3182%)**;
+verified-employer coverage is **550/23,935 (2.2979%)**;
+verified-affiliation coverage is **1,197/23,935 (5.0010%)**; archival-review
+coverage is **15,551/23,935 (64.9718%)**. There are **6,860** not-started and
+**1,879** in-progress people. The public projection contains **4,395**
+affiliations, **1,378** organizations, **6,765** sources and **10,922**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 516, row 1,
+**William J. Wynn**.
+
+Batch 1025 publication verification will be recorded in
+`reports/release_batch_1025.md`.
+
 Batch 1024 completed PDF page 514, rows 1-46, from **Mallery O. Wooster**
 through **Margaret E. Wright**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Every cohort person now has a
