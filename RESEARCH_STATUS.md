@@ -1,5 +1,66 @@
 # Research status
 
+Batch 1012 completed PDF page 502, rows 1-46, from **Jack Whitley** through
+**Max Wiener**. All 46 printed rows remain separately recoverable as 46
+cautious person entities. The page-502 Charles W. Whittaker and page-500
+Charles W. Whitaker remain separate conflicting entities despite sharing a
+protected index identifier; the private number is not published.
+
+Every cohort person has a saved terminal research outcome: 30
+`requires_archival_review`, 11 `occupation_only_found`, two
+`verified_employer_found`, two `documented_prewar_employer_found` and one
+`conflicting_sources`. Eleven exact-name, nonshared protected-identifier Army
+bridges received explicit acceptance review and support broad historical
+occupation categories only. No broad category is converted into a named
+employer, workplace or exact OSS-transfer date.
+
+Contemporary official and institutional evidence strengthens four profiles
+while preserving chronology and relationship types. Thomas Porter Whitney is
+documented as a Bennett College social-sciences instructor before OSS analyst
+service, without silently choosing between the institution's campuses. George
+D. Whittinghill's State Department clerk and vice-consul record is retained as
+documented civilian government service rather than asserted as his immediate
+pre-OSS role. A direct May 1944 OSS personnel-board report confirms Robert B.
+Whittinghill and identifies his immediate military assignment as the Prisoner
+of War Section, G-2, AFHQ; his separate Time magazine and private-school
+teaching work is not ordered beyond the evidence. Derwent Stainthorpe
+Whittlesey's Harvard geography employment is documented prewar but not marked
+immediate.
+
+The bounded CIA adapter check was refused under the host's robots policy and
+the Library of Congress adapter check timed out; both errors remain auditable
+and are not treated as negative search results. Accessible official,
+institutional, contemporary-directory and archival alternatives were
+reviewed. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,480/23,935 (68.8531%)**;
+verified-employer coverage is **533/23,935 (2.2269%)**;
+verified-affiliation coverage is **1,168/23,935 (4.8799%)**; archival-review
+coverage is **14,957/23,935 (62.4901%)**. There are **7,450** not-started
+people, **688** possible-duplicate groups and **546** conflicts. The public
+projection contains **4,210** affiliations, **1,348** organizations, **6,648**
+sources and **10,544** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+503, row 1, **Thomas Wiener**.
+
+Batch 1012 passed evidence-schema validation, a twice-proven idempotent
+durable import, SQLite integrity, the complete 522-page ingest audit, the
+deterministic 200-profile audit and all 154 Python tests. Astro checked 643
+files with zero diagnostics and built 25,336 pages. The bounded browser
+release suite passed 96/96 checks across desktop, phone and tablet: 27 Batch
+1012 checks, 33 core-route and interaction checks, six analysis checks and 30
+accessibility scans with no serious axe violations. All 25,336 internal HTML
+routes resolve. The protected-identifier audit checked 25,408 artifacts and
+found zero unexpected matches. Two consecutive builds reproduced 25,408
+artifacts and 428,907,914 bytes at SHA-256
+`4b1462589881e9362ac841f3a874acefc3d0c8989f7a38caf38d8b7c1ee5af8b`.
+The 67-asset public manifest verifies across 136,654,118 bytes at SHA-256
+`171f95873611a522631e92890e01fede3a30734ae092593f98492c02e911f7b7`.
+The production dependency audit found zero vulnerabilities. CI, Pages and
+unauthenticated live verification remain separate publication gates; these
+local results are not represented as public deployment.
+
 Batch 1011 completed PDF page 501, rows 1-46, from **Herbert W. White**
 through **Herbert Whiting**. All 46 printed rows remain separately recoverable
 as 46 cautious person entities, including two independently documented John A.
