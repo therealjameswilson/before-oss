@@ -1,5 +1,50 @@
 # Research status
 
+Batch 1008 completed PDF page 498, rows 1-46, from **Marjorie J. Werner**
+through **T. B. Weston**. All 46 printed rows remain separately recoverable as
+46 cautious person entities; the two separately printed Robert C. West rows
+remain separate pending direct duplication evidence.
+
+Every cohort person has a saved terminal research outcome: 31
+`requires_archival_review`, 12 `occupation_only_found`, one
+`documented_prewar_employer_found` and two `conflicting_sources`. Eleven
+reviewed exact-name, nonshared protected-identifier Army bridges support eleven
+qualified historical occupation or student categories. None is converted into
+a named employer, school, workplace or exact OSS-transfer date.
+
+A visually inspected 1941 directory supports a probable Doris M. Werntz
+identity and qualified accountant-at-Firestone employment, but neither
+immediacy nor last-civilian status is inferred. Contemporary official evidence
+supports a high-confidence Colonel Paul West identity in Greece and a
+high-confidence British Guy Randolph Westmacott identity with a temporally
+unresolved Grenadier Guards affiliation. Theodore A. Wertime is confirmed by
+the protected Army bridge and a direct OSS obituary statement; Logan E. Weston
+remains a probable official-Army-history lead. Roland E. Weschler's shared
+protected identifier and Arthur J. Westgard's Captain-versus-T/5 discrepancy
+remain explicit conflicts. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,297/23,935 (68.0886%)**;
+verified-employer coverage is **528/23,935 (2.2060%)**; verified-affiliation
+coverage is **1,159/23,935 (4.8423%)**; archival-review coverage is
+**14,773/23,935 (61.7213%)**. There are **7,633** not-started people, **686**
+possible-duplicate groups and **543** conflicts. The public projection
+contains **4,147** affiliations, **1,335** organizations, **6,611** sources
+and **10,437** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 499, row
+1, **Westphal Mau M. Weston**.
+
+Batch 1008 passed evidence validation, durable import, SQLite integrity, the
+complete 522-page ingest audit, the 200-profile audit, all 154 Python tests,
+Astro's zero-diagnostic 25,323-page build and the 96/96 bounded browser,
+analysis and accessibility release suite across desktop, phone and tablet.
+All internal links resolve; the protected-identifier audit found zero
+unexpected matches; and the 67-asset public manifest verifies locally across
+135,759,064 bytes with SHA-256
+`58c746d03a02fc703fd81d7c9ece3f1055bb77f8ec95a7afde7f14ab871726db`.
+Publication and deployed-release verification remain pending until the Batch
+1008 content commit is pushed and GitHub Actions Pages succeeds.
+
 Batch 1007 completed PDF page 497, rows 1-46, from **Dorson S. Wells**
 through **Louis Werner Jr.** All 46 printed rows remain separately recoverable
 as 46 cautious person entities; the two same-name Robert J. Wentworth rows
