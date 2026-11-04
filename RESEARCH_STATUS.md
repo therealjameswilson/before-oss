@@ -1,5 +1,56 @@
 # Research status
 
+Batch 1010 completed PDF page 500, rows 1-46, from **Harold J. Wheelock**
+through **Harold B. White**. All 46 printed rows remain separately recoverable
+as 46 cautious person entities. Charles W. Whitaker and Charles W. Whittaker
+remain separate despite sharing a protected index identifier; the public site
+uses an opaque conflict-group label rather than exposing that number.
+
+Every cohort person has a saved terminal research outcome: 33
+`requires_archival_review`, seven `occupation_only_found`, three `completed`,
+two `verified_employer_found` and one `conflicting_sources`. Seven reviewed
+exact-name, nonshared protected-identifier Army bridges support qualified
+historical occupation or student categories. None is converted into a named
+employer, school, workplace or exact OSS-transfer date.
+
+Contemporary and institutional evidence supports high-confidence Theodore M.
+Whicher, John T. Whitaker and Alan Perine White identities while keeping
+student, civilian-employment and military relationships distinct. John T.
+Whitaker's Chicago Daily News Foreign Service work is his last documented
+civilian employment before wartime service, with earlier newspaper roles kept
+separate. A declassified FBI chronology strengthens George Hunter White's
+Federal Bureau of Narcotics affiliation as his last civilian government role
+before Army service while preserving uncertainty about the immediate OSS
+transition. Bennett S. White Jr.'s University of Kentucky lead remains only a
+probable professional affiliation and is excluded from employer analytics. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,388/23,935 (68.4688%)**;
+verified-employer coverage is **530/23,935 (2.2143%)**; verified-affiliation
+coverage is **1,164/23,935 (4.8632%)**; archival-review coverage is
+**14,865/23,935 (62.1057%)**. There are **7,542** not-started people, **688**
+possible-duplicate groups and **545** conflicts. The public projection
+contains **4,178** affiliations, **1,344** organizations, **6,631** sources
+and **10,479** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 501, row
+1, **Helen K. White**.
+
+Batch 1010 passed evidence validation, durable import, SQLite integrity, the
+complete 522-page ingest audit, the 200-profile audit, all 154 Python tests,
+Astro's zero-diagnostic 25,332-page build and the 102/102 bounded browser,
+analysis and accessibility release suite across desktop, phone and tablet.
+All internal links resolve; the protected-identifier audit found zero
+unexpected matches; and the 67-asset public manifest verifies locally across
+136,161,820 bytes with SHA-256
+`1ba039a1c86fae91feaaf0420ddf77041d01629108217389812fef2b3094da40`.
+Batch 1010 is public from immutable content commit
+`7840f6d038362fbacd6ad090904c50158b777f09`; GitHub Actions Test run
+`41774635455` and Pages run `41774635575` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 45 source-register pages and all 46 directly affected profiles. Full
+publication evidence is recorded in `reports/release_batch_1010.md`.
+
 Batch 1009 completed PDF page 499, rows 1-46, from **Westphal Mau M. Weston**
 through **William M. Wheeler Jr.** All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Elkins Wetherill's possible
