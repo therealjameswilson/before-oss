@@ -1,5 +1,45 @@
 # Research status
 
+Batch 1027 completed PDF page 517, rows 1-46, from **Janet C. Yasunobu**
+through **Merle S. Youkers**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and all 46 now have saved terminal
+outcomes: 30 `requires_archival_review`, ten `occupation_only_found`, three
+`needs_temporal_review`, one `needs_identity_review`, one
+`verified_employer_found`, and one `conflicting_sources`.
+
+Ten protected-identifier Army candidates were accepted and the Merle S.
+Youkers candidate was rejected because the associated Army record names Roger
+E. McCarren. No occupation, grade, service date, or other evidence was
+transferred to Youkers. The ten accepted matches support broad historical
+occupation categories only; none was converted into a named employer.
+
+Ralph T. Yempuku has the cohort's strongest documented pathway: official Army
+sources support the 442d Regimental Combat Team as his immediate military
+predecessor to OSS recruitment, while the University of Hawaii is separately
+modeled as his last civilian employer before military service. David N.
+Yerkes's Yale relationship remains `student`, not employment, and his Army
+Corps of Engineers pathway remains visibly qualified pending the personnel
+file. Arden Yinkley's War Production Board role, Jutaro Yokoi's Methodist
+ministry, and Takehiko Yoshihashi's Office of War Information translation work
+are documented without inventing the missing OSS transition dates. A direct
+OSS travel order strengthens the identities of Shizuo Yoshida and the indexed
+`Usuda Yoshisada` while supporting no pre-OSS employer claim. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,162/23,935 (71.7025%)**;
+verified-employer coverage is **552/23,935 (2.3062%)**;
+verified-affiliation coverage is **1,202/23,935 (5.0219%)**; archival-review
+coverage is **15,643/23,935 (65.3562%)**. There are **6,768** not-started and
+**1,879** in-progress people. The public projection contains **4,437**
+affiliations, **1,383** organizations, **6,788** sources and **10,980**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 518, row 1,
+**Cecile W. Youmanns**.
+
+Batch 1027 publication verification is recorded in
+`reports/release_batch_1027.md`.
+
 Batch 1025 completed PDF page 515, rows 1-46, from **Mundy P. Wright**
 through **Hans Wyner**. All 46 printed rows remain separately recoverable as
 46 cautious person entities. George S. Wuchinich's earlier reviewed profile
