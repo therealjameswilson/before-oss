@@ -60,8 +60,12 @@ bytes at SHA-256
 `54bdc3ae97d6a7151f279800a334040a32b708c5a4118e76dadd334b0296bde7`.
 The 67-asset public manifest verifies across 136,892,989 bytes at SHA-256
 `78691a5ccd4c4f02da8336c6459f5bf322f6b6a03da3bc0f10caae30c303d3bc`.
-The production dependency audit found zero vulnerabilities. Publication and
-the exact deployed-commit audit are pending.
+The production dependency audit found zero vulnerabilities. Batch 1013 is
+public from immutable content commit
+`092a299f2075c352ee0be1270edb6cc57197a49c`; GitHub Actions Test run
+`41789497923` and Pages run `41789497880` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 45 source-register pages and all 46 directly affected profile routes.
 
 Batch 1011 completed PDF page 501, rows 1-46, from **Herbert W. White**
 through **Herbert Whiting**. All 46 printed rows remain separately recoverable
