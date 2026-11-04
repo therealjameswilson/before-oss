@@ -71,7 +71,14 @@ Date: 2026-11-04 America/New_York
   `75f9cf41f11be22e16a1f363d9b5dba657902ea43b67dbdcea4e622dce13938b`.
 - The production dependency audit found zero vulnerabilities.
 
-Deployment verification will be appended after the content commit passes both
-GitHub Actions workflows and the unauthenticated live verifier.
+Content commit `5cbdf45acd4a2c2d9c5cd3be5f0339661c02e7fb` passed the full
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41847358542)
+and the
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41847358566).
+The unauthenticated deployed-release verifier matched all 67 canonical assets
+and 139,086,412 bytes to the committed manifest at SHA-256
+`72855640b7060f9cbe87dd7c0030ec97217441119ec1629b69761750a3f5c99a`.
+It also returned successful main content for all eight core routes, all 46
+source-register pages, and all 46 Batch 1023 direct profile URLs.
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.
