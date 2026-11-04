@@ -1,0 +1,2447 @@
+{
+  "bundle_version": "batch-1028-v1",
+  "reviewer": "Before OSS Batch 1028 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 858-860",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 518, rows 1-46; page 519 boundary and all page 518 rows visually checked at 180 dpi",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 46 printed rows remain separate. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; fourteen Batch 1028 protected-identifier candidates reviewed",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record or full protected identifier is retained in public assets. Coded occupations identify neither employer nor workplace."
+    },
+    {
+      "key": "army-tech-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, name conversion, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-175 and 304; Batch 1028 categories visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer, institution nor workplace. Petroleum-refining and filling-station categories are not oil-company evidence."
+    },
+    {
+      "key": "cambridge-cuyler-young-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4EA1FB9402AB5F3784F362721D11DA94/S0026318400004971a.pdf/in-memoriam.pdf",
+      "archival_identifier": "DOI 10.1017/S0026318400004971",
+      "title": "In Memoriam: T. Cuyler Young",
+      "author_creator": "Jerome W. Clinton",
+      "repository_publisher": "Iranian Studies; Cambridge University Press",
+      "publication_record_date": "1976",
+      "locator": "Printed page 115; University of Toronto faculty and World War II OSS transition",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "A concise project-authored paraphrase is retained; the memorial establishes sequence without an exact OSS appointment date."
+    },
+    {
+      "key": "nps-evelle-younger-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.nps.gov/articles/postwar-period-end-of-the-oss-and-return-to-the-park-service.htm",
+      "title": "Postwar Period: End of the OSS and Return to the Park Service",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "updated 2017-08-14",
+      "locator": "Postwar Careers of OSS Veterans section, paragraph naming J. Evelle Younger",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "The official historical study explicitly describes recruitment from an FBI section-chief role."
+    },
+    {
+      "key": "ca-ag-evelle-younger-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://oag.ca.gov/history/26younger",
+      "title": "Evelle J. Younger, 26th Attorney General",
+      "repository_publisher": "State of California Department of Justice, Office of the Attorney General",
+      "locator": "Biographical paragraph identifying law education, FBI Special Agent service and later Armed Forces service",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used to corroborate the uncommon identity and FBI career; the NPS source supplies the OSS transition."
+    },
+    {
+      "key": "cia-rodney-young-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.cia.gov/stories/story/digging-up-secrets/",
+      "title": "Digging Up Secrets",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2023-06-30",
+      "locator": "Rodney Young: Codename Pigeon section",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The agency history supplies the full name, Greek Red Cross volunteer role, return to Washington and subsequent OSS recruitment."
+    },
+    {
+      "key": "oss-rodney-young-report-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%2011-1744%20OSS%20Missions%2C%20SOE%2C%20Georgiades%2C%20Pericles%2C%20Helios%20%5B25%20pgs%5D%20226-210-WN15277%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226, Entry 210, WN15277",
+      "title": "Activities of the Middle East Field Group for the Period 1 October 1943 through 30 September 1944",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive digital archive",
+      "publication_record_date": "1944-10",
+      "locator": "Section describing the first OSS wave into Greece under Rodney Young",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services",
+      "rights_notes": "Direct OSS operational context corroborates the identity; no sensitive operational detail is reproduced."
+    },
+    {
+      "key": "cia-peter-yovanovich-b1028",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.cia.gov/readingroom/docs/OSS%20-%20SSU%20-%20CIG%20EARLY%20CIA%20DOCUMENTS%20%20%20VOL.%205_0016.pdf",
+      "archival_identifier": "OSS-SSU-CIG Early CIA Documents, volume 5, part 16",
+      "title": "Report of Marko, Member of British-American Mission to General Mihailovich",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "locator": "Passage on Dr. Peter Yovanovich, American physician in Yugoslavia, and request to determine recruitment status",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS-SSU-CIG Early CIA Documents",
+      "rights_notes": "OCR damages the surname, but the document supplies the full given name, physician role, citizenship and recruitment context."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-toronto-existing-b1028",
+      "organization_id": "2688e5a3-ecca-570a-865a-4cc3f7442eaf",
+      "canonical_name": "University of Toronto",
+      "historical_name": "University of Toronto",
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Toronto",
+      "state_or_region": "Ontario",
+      "country": "Canada",
+      "normalization_notes": "Existing canonical organization reused; the memorial's historical name is preserved."
+    },
+    {
+      "key": "fbi-existing-b1028",
+      "organization_id": "e88a4c18-5e0d-58aa-9ed4-787529fac74f",
+      "canonical_name": "Federal Bureau of Investigation",
+      "historical_name": "Federal Bureau of Investigation",
+      "aliases": [
+        "FBI"
+      ],
+      "organization_type": "federal law-enforcement agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; federal government service remains separate from private employment."
+    },
+    {
+      "key": "greek-red-cross-b1028",
+      "canonical_name": "Greek Red Cross",
+      "historical_name": "Greek Red Cross",
+      "organization_type": "humanitarian relief organization",
+      "sector": "medicine_and_public_health",
+      "country": "Greece",
+      "normalization_notes": "The CIA source describes volunteer ambulance service; it is not recast as paid employment."
+    },
+    {
+      "key": "ascsa-existing-b1028",
+      "organization_id": "29abce5d-fe96-5ed8-beb4-93560d4604cb",
+      "canonical_name": "American School of Classical Studies at Athens",
+      "historical_name": "American School of Classical Studies",
+      "aliases": [
+        "American School of Classical Studies in Greece"
+      ],
+      "organization_type": "archaeological research and educational institution",
+      "sector": "academia_and_research",
+      "city": "Athens",
+      "country": "Greece",
+      "normalization_notes": "Existing canonical organization reused; attendance and excavation participation are not labeled employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "aaron-young-army-occupation-b1028",
+      "person_id": "0349d1c8-8fad-580e-948f-3838e7ab9c9d",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "accountant or auditor",
+      "end_date": "1942-12-08",
+      "date_precision": "Historical civilian-occupation code 001 was recorded at Army entry on 1942-12-08; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "edward-l-young-army-occupation-b1028",
+      "person_id": "abf3052e-b6d2-5a36-ba78-d4fe67385f52",
+      "relationship_type": "student",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "student",
+      "end_date": "1942-11-05",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-11-05; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "everett-young-army-occupation-b1028",
+      "person_id": "ac679997-dee1-5ae4-893a-119dd3954672",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "general farm hand",
+      "end_date": "1943-06-30",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1943-06-30; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "herbert-b-young-army-occupation-b1028",
+      "person_id": "11d88fdb-760e-513a-ad1b-3614b054aaad",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "general office clerk",
+      "end_date": "1942-05-15",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1942-05-15; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "james-g-young-army-occupation-b1028",
+      "person_id": "87b7b0e5-face-550b-bd59-a594dc9bcafc",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "motor-vehicle mechanic or repairman",
+      "end_date": "1942-09-15",
+      "date_precision": "Historical civilian-occupation code 781 was recorded at Army entry on 1942-09-15; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "lewis-e-young-army-occupation-b1028",
+      "person_id": "451c4fad-8a65-56c9-9571-52d0c424d0ec",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "stenographer or typist",
+      "end_date": "1943-02-23",
+      "date_precision": "Historical civilian-occupation code 137 was recorded at Army entry on 1943-02-23; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "richard-k-young-army-occupation-b1028",
+      "person_id": "84daf75f-418f-5a3a-943f-59520de47f1d",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "filling-station or parking-lot attendant",
+      "end_date": "1943-03-15",
+      "date_precision": "Historical civilian-occupation code 760 was recorded at Army entry on 1943-03-15; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "russell-l-young-army-occupation-b1028",
+      "person_id": "76e499cb-c269-51e9-9724-c58fc5176e93",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "bookkeeper or cashier, except bank cashier",
+      "end_date": "1942-12-21",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1942-12-21; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "vernon-l-young-army-occupation-b1028",
+      "person_id": "2faa3545-1c3f-5b89-bf8d-c6f318e46a36",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "pattern or model maker, except paper",
+      "end_date": "1942-06-25",
+      "date_precision": "Historical civilian-occupation code 717 was recorded at Army entry on 1942-06-25; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "victor-e-young-army-occupation-b1028",
+      "person_id": "57be2d80-3ed9-58ff-81b7-0e8d38c92c6f",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "general farm hand",
+      "end_date": "1941-06-03",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1941-06-03; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "william-e-youngs-army-occupation-b1028",
+      "person_id": "2b34c859-063a-59e1-83f4-3d11a3ef16fb",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "skilled petroleum-refining occupation",
+      "end_date": "1943-09-29",
+      "date_precision": "Historical civilian-occupation code 555 was recorded at Army entry on 1943-09-29; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "robert-l-younkin-army-occupation-b1028",
+      "person_id": "23470a98-0e23-5f22-b099-2ded95aca4cf",
+      "relationship_type": "student",
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "occupation": "student",
+      "end_date": "1942-09-17",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-09-17; no named employer or institution is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Broad historical category only; excluded from verified-employer analytics and not narrowed beyond the official wording."
+    },
+    {
+      "key": "cuyler-young-university-toronto-b1028",
+      "person_id": "2a713c79-9136-5570-a860-487b8f8d9730",
+      "relationship_type": "employment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "organization_key": "university-toronto-existing-b1028",
+      "organization_name_as_found": "faculty of the University of Toronto",
+      "role_title": "faculty member and teacher",
+      "start_date": "1938",
+      "date_precision": "The memorial says Young joined the faculty three years after 1935 and set aside his teaching career during World War II to serve OSS; the exact end and OSS appointment dates are not stated.",
+      "city": "Toronto",
+      "state_or_region": "Ontario",
+      "country": "Canada",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "research_notes": "Best-supported immediate and last civilian employer; exact OSS entry date awaits Box 859."
+    },
+    {
+      "key": "evelle-younger-fbi-b1028",
+      "person_id": "e8b40847-8897-5d2a-8d44-03dbd47d705f",
+      "relationship_type": "government_assignment",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "fbi-existing-b1028",
+      "organization_name_as_found": "FBI",
+      "role_title": "section chief; Special Agent",
+      "date_precision": "The NPS history calls him a former FBI section chief recruited by OSS X-2; the California Attorney General biography independently identifies FBI Special Agent service. Exact dates are not stated.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "research_notes": "Federal civilian service is both the immediate affiliation and last civilian employer; exact transfer date awaits Box 860."
+    },
+    {
+      "key": "rodney-young-greek-red-cross-b1028",
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "relationship_type": "volunteer",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "greek-red-cross-b1028",
+      "organization_name_as_found": "Greek Red Cross",
+      "role_title": "volunteer ambulance driver",
+      "date_precision": "CIA history says Young volunteered when war began, was injured in an Italian air raid, returned to Washington and was soon recruited into OSS; exact dates are not stated.",
+      "country": "Greece",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Immediate volunteer status, not employment; no named last civilian employer is established."
+    },
+    {
+      "key": "rodney-young-ascsa-b1028",
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "relationship_type": "professional_affiliation",
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "organization_key": "ascsa-existing-b1028",
+      "organization_name_as_found": "American School of Classical Studies in Greece",
+      "role_title": "archaeologist and excavation participant",
+      "start_date": "1929",
+      "date_precision": "CIA history says he attended the school from 1929 and participated in excavations before wartime Red Cross service; the end date is not stated.",
+      "city": "Athens",
+      "country": "Greece",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "research_notes": "Professional and educational affiliation; not classified as a named employer."
+    },
+    {
+      "key": "peter-yovanovich-physician-b1028",
+      "person_id": "a859c7a1-daa0-5e28-8fba-ff3236d4cf26",
+      "relationship_type": "unknown",
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "role_title": "medico",
+      "occupation": "physician",
+      "date_precision": "The OSS report identifies Dr. Peter Yovanovich as remaining in Yugoslavia as a medico immediately before a request to determine how he could be recruited; the exact date is not established.",
+      "country": "Yugoslavia",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "research_notes": "Immediate professional status is documented, but neither employer nor exact recruitment outcome is named."
+    }
+  ],
+  "claims": [
+    {
+      "key": "occupation-aaron-young-b1028",
+      "person_id": "0349d1c8-8fad-580e-948f-3838e7ab9c9d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-08, Aaron Young was recorded in the broad historical category: accountant or auditor.",
+      "evidence_paraphrase": "The official merged Army record carries category 001; the NARA code list labels it Accountants and auditors.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 170"
+        }
+      ],
+      "affiliation_key": "aaron-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-edward-l-young-b1028",
+      "person_id": "abf3052e-b6d2-5a36-ba78-d4fe67385f52",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-05, Edward L Young was recorded in the broad historical category: student.",
+      "evidence_paraphrase": "The official merged Army record carries category 992; the NARA code list labels it Students.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 304; amended category 9-92"
+        }
+      ],
+      "affiliation_key": "edward-l-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-everett-young-b1028",
+      "person_id": "ac679997-dee1-5ae4-893a-119dd3954672",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-30, Everett Young was recorded in the broad historical category: general farm hand.",
+      "evidence_paraphrase": "The official merged Army record carries category 316; the NARA code list labels it Farm hands, general.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 173"
+        }
+      ],
+      "affiliation_key": "everett-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-herbert-b-young-b1028",
+      "person_id": "11d88fdb-760e-513a-ad1b-3614b054aaad",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-15, Herbert B Young was recorded in the broad historical category: general office clerk.",
+      "evidence_paraphrase": "The official merged Army record carries category 105; the NARA code list labels it General office clerks.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 171"
+        }
+      ],
+      "affiliation_key": "herbert-b-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-james-g-young-b1028",
+      "person_id": "87b7b0e5-face-550b-bd59-a594dc9bcafc",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-15, James G Young was recorded in the broad historical category: motor-vehicle mechanic or repairman.",
+      "evidence_paraphrase": "The official merged Army record carries category 781; the NARA code list labels it Motor vehicle mechanics and repairmen.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 175"
+        }
+      ],
+      "affiliation_key": "james-g-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-lewis-e-young-b1028",
+      "person_id": "451c4fad-8a65-56c9-9571-52d0c424d0ec",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-23, Lewis E Young was recorded in the broad historical category: stenographer or typist.",
+      "evidence_paraphrase": "The official merged Army record carries category 137; the NARA code list labels it Stenographers and typists.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 171"
+        }
+      ],
+      "affiliation_key": "lewis-e-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-richard-k-young-b1028",
+      "person_id": "84daf75f-418f-5a3a-943f-59520de47f1d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-15, Richard K Young was recorded in the broad historical category: filling-station or parking-lot attendant.",
+      "evidence_paraphrase": "The official merged Army record carries category 760; the NARA code list labels it Filling station and parking lot attendants.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 174"
+        }
+      ],
+      "affiliation_key": "richard-k-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-russell-l-young-b1028",
+      "person_id": "76e499cb-c269-51e9-9724-c58fc5176e93",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-21, Russell L Young was recorded in the broad historical category: bookkeeper or cashier, except bank cashier.",
+      "evidence_paraphrase": "The official merged Army record carries category 101; the NARA code list labels it Bookkeepers and cashiers, except bank cashiers.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 171"
+        }
+      ],
+      "affiliation_key": "russell-l-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-vernon-l-young-b1028",
+      "person_id": "2faa3545-1c3f-5b89-bf8d-c6f318e46a36",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-25, Vernon L Young was recorded in the broad historical category: pattern or model maker, except paper.",
+      "evidence_paraphrase": "The official merged Army record carries category 717; the NARA code list labels it Pattern and model makers, except paper.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 174"
+        }
+      ],
+      "affiliation_key": "vernon-l-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-victor-e-young-b1028",
+      "person_id": "57be2d80-3ed9-58ff-81b7-0e8d38c92c6f",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-06-03, Victor E Young was recorded in the broad historical category: general farm hand.",
+      "evidence_paraphrase": "The official merged Army record carries category 316; the NARA code list labels it Farm hands, general.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 173"
+        }
+      ],
+      "affiliation_key": "victor-e-young-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-william-e-youngs-b1028",
+      "person_id": "2b34c859-063a-59e1-83f4-3d11a3ef16fb",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-09-29, William E Youngs was recorded in the broad historical category: skilled petroleum-refining occupation.",
+      "evidence_paraphrase": "The official merged Army record carries category 555; the NARA code list labels it Skilled occupations in petroleum refining.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 173"
+        }
+      ],
+      "affiliation_key": "william-e-youngs-army-occupation-b1028"
+    },
+    {
+      "key": "occupation-robert-l-younkin-b1028",
+      "person_id": "23470a98-0e23-5f22-b099-2ded95aca4cf",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-17, Robert L Younkin was recorded in the broad historical category: student.",
+      "evidence_paraphrase": "The official merged Army record carries category 992; the NARA code list labels it Students.",
+      "identity_match_assessment": "Confirmed by exact name and a nonshared protected identifier; the identifier is not published.",
+      "temporal_assessment": "The category was recorded at Army entry and is strongly date-bounded, but its exact duration and relation to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified occupation only. It is not a named employer, institution or workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        },
+        {
+          "source_key": "army-codes-b1028",
+          "locator_override": "PDF physical page 304; amended category 9-92"
+        }
+      ],
+      "affiliation_key": "robert-l-younkin-army-occupation-b1028"
+    },
+    {
+      "key": "identity-billy-young-b1028",
+      "person_id": "0ab2055a-bbd9-5e7e-8c64-df1be9ae4073",
+      "claim_type": "identity",
+      "claim_text": "Billy B Young is strongly supported as the person represented by a damaged official Army record linked to the index.",
+      "evidence_paraphrase": "A nonshared protected identifier links the records, while name damage, a middle-initial conflict and the 1946 Army-entry date remain explicit.",
+      "identity_match_assessment": "High confidence from the unique identifier; not confirmed because the official name rendering and middle initial conflict.",
+      "temporal_assessment": "The Army record is post-OSS and supplies identity context only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No occupation or pre-OSS affiliation is transferred from the postwar record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1028"
+        },
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-b-young-b1028",
+      "person_id": "a1b5ac23-70e5-5d15-b958-eb13f0df4cf1",
+      "claim_type": "identity",
+      "claim_text": "James B Young is strongly supported as the person in an official Army record that omits the middle initial.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the index and Army record, but the Army name omits the indexed middle initial.",
+      "identity_match_assessment": "High confidence from the unique identifier with a minor name-form difference.",
+      "temporal_assessment": "The record supplies no interpretable pre-OSS occupation because category 999 is not converted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; no employer or occupation is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1028"
+        },
+        {
+          "source_key": "army-bulk-b1028"
+        },
+        {
+          "source_key": "army-tech-b1028"
+        }
+      ]
+    },
+    {
+      "key": "identity-cuyler-young-b1028",
+      "person_id": "2a713c79-9136-5570-a860-487b8f8d9730",
+      "claim_type": "identity",
+      "claim_text": "The indexed Cuyler T Young is strongly supported as scholar T. Cuyler Young, who left University of Toronto teaching for OSS service.",
+      "evidence_paraphrase": "The memorial uses the same uncommon name components and directly links the University of Toronto faculty member to OSS.",
+      "identity_match_assessment": "High confidence from the distinctive reversed given-name form, civilian P-6 index grade and direct OSS biography.",
+      "temporal_assessment": "The biography explicitly places the teaching post before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The original indexed order remains preserved; T. Cuyler Young is added as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1028"
+        },
+        {
+          "source_key": "cambridge-cuyler-young-b1028"
+        }
+      ]
+    },
+    {
+      "key": "immediate-cuyler-young-toronto-b1028",
+      "person_id": "2a713c79-9136-5570-a860-487b8f8d9730",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "T. Cuyler Young taught at the University of Toronto immediately before setting aside teaching to serve OSS.",
+      "evidence_paraphrase": "The memorial says he joined the Toronto faculty and set aside his teaching career during World War II to serve OSS.",
+      "identity_match_assessment": "High-confidence uncommon-name identity with a direct OSS bridge.",
+      "temporal_assessment": "Explicit career-to-OSS transition; exact appointment day remains unavailable.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as the best-supported immediate affiliation.",
+      "sources": [
+        {
+          "source_key": "cambridge-cuyler-young-b1028"
+        }
+      ],
+      "affiliation_key": "cuyler-young-university-toronto-b1028"
+    },
+    {
+      "key": "last-civilian-cuyler-young-toronto-b1028",
+      "person_id": "2a713c79-9136-5570-a860-487b8f8d9730",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "University of Toronto is the best-supported last civilian employer before T. Cuyler Young's OSS service.",
+      "evidence_paraphrase": "The memorial places no intervening employer between the Toronto teaching career and OSS service.",
+      "identity_match_assessment": "High-confidence uncommon-name identity with a direct OSS bridge.",
+      "temporal_assessment": "The sequence is explicit, though exact dates remain approximate.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Employment is kept separate from earlier missionary and student affiliations.",
+      "sources": [
+        {
+          "source_key": "cambridge-cuyler-young-b1028"
+        }
+      ],
+      "affiliation_key": "cuyler-young-university-toronto-b1028"
+    },
+    {
+      "key": "identity-rodney-young-b1028",
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "claim_type": "identity",
+      "claim_text": "Indexed Rodney S Young is confirmed as archaeologist Rodney Stuart Young, who ran the OSS Secret Intelligence Unit for Greece.",
+      "evidence_paraphrase": "CIA supplies the full middle name and direct OSS role; a 1944 OSS report independently places Rodney Young in Greek operations.",
+      "identity_match_assessment": "Confirmed by exact first and surname, expanded middle name, profession, regional expertise and two direct OSS sources.",
+      "temporal_assessment": "Both sources describe wartime OSS service; CIA supplies the pre-recruitment sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Rodney Stuart Young is added as a documented name variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1028"
+        },
+        {
+          "source_key": "cia-rodney-young-b1028"
+        },
+        {
+          "source_key": "oss-rodney-young-report-b1028"
+        }
+      ]
+    },
+    {
+      "key": "immediate-rodney-young-red-cross-b1028",
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Rodney Stuart Young volunteered as a Greek Red Cross ambulance driver immediately before returning to Washington and being recruited into OSS.",
+      "evidence_paraphrase": "CIA describes the Red Cross service, air-raid injury, return to Washington and recruitment as a single sequence.",
+      "identity_match_assessment": "Confirmed by full-name and direct OSS-role evidence.",
+      "temporal_assessment": "Explicit immediate volunteer pathway; this is not paid employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as volunteer service, not employer evidence.",
+      "sources": [
+        {
+          "source_key": "cia-rodney-young-b1028"
+        }
+      ],
+      "affiliation_key": "rodney-young-greek-red-cross-b1028"
+    },
+    {
+      "key": "ascsa-rodney-young-b1028",
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Rodney Stuart Young attended the American School of Classical Studies and participated in excavations before wartime service.",
+      "evidence_paraphrase": "CIA says he went to the school in 1929 and participated in archaeological excavations.",
+      "identity_match_assessment": "Confirmed by full-name and direct OSS-role evidence.",
+      "temporal_assessment": "Documented prewar affiliation; it precedes the Greek Red Cross pathway and is not shown to be employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Professional or educational affiliation, excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "cia-rodney-young-b1028"
+        }
+      ],
+      "affiliation_key": "rodney-young-ascsa-b1028"
+    },
+    {
+      "key": "identity-evelle-younger-b1028",
+      "person_id": "e8b40847-8897-5d2a-8d44-03dbd47d705f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Evelle J Younger is strongly supported as former FBI section chief J. Evelle Younger, recruited by OSS X-2 for the Far East.",
+      "evidence_paraphrase": "The NPS history gives the uncommon name and direct OSS recruitment; the California Attorney General biography independently confirms FBI service.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, middle initial and matching FBI career; the index supplies no second public identifier.",
+      "temporal_assessment": "NPS explicitly places FBI service before OSS recruitment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No commissioned status is inferred from his later military career.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1028"
+        },
+        {
+          "source_key": "nps-evelle-younger-b1028"
+        },
+        {
+          "source_key": "ca-ag-evelle-younger-b1028"
+        }
+      ]
+    },
+    {
+      "key": "immediate-evelle-younger-fbi-b1028",
+      "person_id": "e8b40847-8897-5d2a-8d44-03dbd47d705f",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Evelle J Younger served as an FBI section chief immediately before OSS X-2 recruited him for the Far East.",
+      "evidence_paraphrase": "The NPS official history explicitly describes a former FBI section chief recruited by OSS X-2.",
+      "identity_match_assessment": "High-confidence uncommon-name identity corroborated by the California Attorney General biography.",
+      "temporal_assessment": "Explicit recruitment-from relationship; exact transfer date remains unavailable.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Federal civilian government service is not mislabeled as private employment.",
+      "sources": [
+        {
+          "source_key": "nps-evelle-younger-b1028"
+        },
+        {
+          "source_key": "ca-ag-evelle-younger-b1028"
+        }
+      ],
+      "affiliation_key": "evelle-younger-fbi-b1028"
+    },
+    {
+      "key": "last-civilian-evelle-younger-fbi-b1028",
+      "person_id": "e8b40847-8897-5d2a-8d44-03dbd47d705f",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The Federal Bureau of Investigation is the best-supported last civilian employer before Evelle J Younger's OSS service.",
+      "evidence_paraphrase": "NPS places the FBI section-chief role directly before recruitment; the state biography independently confirms Special Agent service.",
+      "identity_match_assessment": "High-confidence uncommon-name identity.",
+      "temporal_assessment": "Explicit immediate sequence, though the exact intervening military status requires the personnel file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as federal civilian employment with the military-sequence caveat.",
+      "sources": [
+        {
+          "source_key": "nps-evelle-younger-b1028"
+        },
+        {
+          "source_key": "ca-ag-evelle-younger-b1028"
+        }
+      ],
+      "affiliation_key": "evelle-younger-fbi-b1028"
+    },
+    {
+      "key": "identity-peter-yovanovich-b1028",
+      "person_id": "a859c7a1-daa0-5e28-8fba-ff3236d4cf26",
+      "claim_type": "identity",
+      "claim_text": "The indexed Peter, Dr. Yovanovich is strongly supported as Dr. Peter Yovanovich, an American physician considered for recruitment in Yugoslavia.",
+      "evidence_paraphrase": "An OSS report supplies the same distinctive name, medical title, American citizenship and recruitment context despite OCR damage to the surname.",
+      "identity_match_assessment": "High confidence from the rare exact name and direct OSS-era recruitment document.",
+      "temporal_assessment": "The document records his status immediately before the recruitment question.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Original indexed punctuation and order remain preserved; Dr. Peter Yovanovich is added as a variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1028"
+        },
+        {
+          "source_key": "cia-peter-yovanovich-b1028"
+        }
+      ]
+    },
+    {
+      "key": "immediate-peter-yovanovich-physician-b1028",
+      "person_id": "a859c7a1-daa0-5e28-8fba-ff3236d4cf26",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Dr. Peter Yovanovich remained in Yugoslavia as a physician immediately before an OSS recruitment-status request.",
+      "evidence_paraphrase": "The OSS report says he remained as a medico and asks under what status he could be recruited.",
+      "identity_match_assessment": "High-confidence rare-name identity from direct OSS-era evidence.",
+      "temporal_assessment": "Explicitly immediate professional status; no named employer or final recruitment disposition is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Occupation only, not a named employer.",
+      "sources": [
+        {
+          "source_key": "cia-peter-yovanovich-b1028"
+        }
+      ],
+      "affiliation_key": "peter-yovanovich-physician-b1028"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "11b19ea5-9d24-5408-863a-2d24d8c44328",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Cecile W Youmanns. The indexed surname spelling and plausible Youmans variant produced no source that bridges the person to OSS or a pre-OSS employer.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 858 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed surname spelling and plausible Youmans variant produced no source that bridges the person to OSS or a pre-OSS employer."
+    },
+    {
+      "person_id": "af6d7359-29c0-573d-b80f-26c4b8b7afc6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Key S Youn. Exact-name, transliteration and punctuation variants produced no reliable identity or employment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 858 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name, transliteration and punctuation variants produced no reliable identity or employment bridge."
+    },
+    {
+      "person_id": "745f8df7-3127-53ce-89c8-4c11cc9780e3",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Alan Young. Actor and broadcaster namesakes lacked an OSS, Box 859 or protected-identifier bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Actor and broadcaster namesakes lacked an OSS, Box 859 or protected-identifier bridge."
+    },
+    {
+      "person_id": "56038dc1-0636-539f-bb0d-851ca9599d26",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Anne B Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "a91d3006-7d5f-5ba3-bd8d-0aabbb31929d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Arthur C Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "f7b9a623-ea38-5c6a-8458-0f56a893f01c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Austin Young. A same-name later CIA employee and other namesakes lacked an index or wartime OSS identity bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A same-name later CIA employee and other namesakes lacked an index or wartime OSS identity bridge."
+    },
+    {
+      "person_id": "dfb75d1e-8ed0-5032-95b2-892893a6b6cb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Beatrice E Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ff12edd0-667f-5eb9-b987-e06221021280",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Carleton Young. The actor and Army Air Corps officer Carleton Young lacks a protected-identifier or personnel-file bridge to this row.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The actor and Army Air Corps officer Carleton Young lacks a protected-identifier or personnel-file bridge to this row."
+    },
+    {
+      "person_id": "10c02aa8-0e40-5fd7-b6cd-75941cd76887",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Charles W Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "ca30c960-5ec7-584e-b685-48aeebc6da49",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Elwood W Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "d26f561b-cea7-5c7b-a950-7aa0db24f408",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Emma M Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "8a4a6554-627f-53b0-ab01-aaa64da2f9de",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Gerald S Young Jr.. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "9a6ec6eb-234a-53f9-aec2-540fc7142211",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Grace Young. Modern author and other Grace Young namesakes lacked an OSS or Box 859 bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Modern author and other Grace Young namesakes lacked an OSS or Box 859 bridge."
+    },
+    {
+      "person_id": "c5d30738-9513-5f14-97c8-d4c3398f8263",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves James M Young. A same-name paratrooper lead lacked a protected-identifier, OSS or Box 859 bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A same-name paratrooper lead lacked a protected-identifier, OSS or Box 859 bridge."
+    },
+    {
+      "person_id": "8404f04b-6992-53f5-a788-5b7ca99d4ba5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves James S Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "bbe100b9-b736-5d03-988f-874253a18574",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves John C Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "70cae759-bc66-55a4-9e55-71e65b5e8d26",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Lionel Young. A same-name RAF veteran and other Lionel Young namesakes lacked an OSS or index bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A same-name RAF veteran and other Lionel Young namesakes lacked an OSS or index bridge."
+    },
+    {
+      "person_id": "2ac60fdc-bbe0-52ff-a5ba-42cd14aa4ee8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Lloyd D Young. The protected identifier produced no Army bulk match, and accessible searches did not establish the indexed person.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The protected identifier produced no Army bulk match, and accessible searches did not establish the indexed person."
+    },
+    {
+      "person_id": "fb98a849-35a6-5ec0-a711-6e287d76ec7a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Marie H Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "736166e0-2cab-5231-aa3b-6c7db8d533d7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Olga D Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "cc2c514e-2909-5417-a53e-07d08742182c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Raymond B Young Jr.. The suffix and middle initial did not produce a reliable identity-and-employment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The suffix and middle initial did not produce a reliable identity-and-employment bridge."
+    },
+    {
+      "person_id": "36ed6e32-da25-5788-96e0-ea6e4c77040b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Velma F Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "71bd3b70-34e0-5ed4-b5e0-dc341b565500",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Vergil A Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "8b25f4b8-9f57-55ef-b484-f2621aed1fdd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Victor S Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "0489b48e-5f7b-5250-83ea-b09019b64000",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves William W Young. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected."
+    },
+    {
+      "person_id": "34da1faa-540f-5d54-abb5-90c26275038a",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Jack S Younger. Exact-name results did not establish Jack S Younger's wartime identity or pre-OSS affiliation.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name results did not establish Jack S Younger's wartime identity or pre-OSS affiliation."
+    },
+    {
+      "person_id": "937fdce7-70ba-520c-b764-c089b78668ef",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Arthur Yshira. Yshira, Ishira and likely OCR-variant searches produced no reliable identity, OSS or employment bridge.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Yshira, Ishira and likely OCR-variant searches produced no reliable identity, OSS or employment bridge."
+    },
+    {
+      "person_id": "59596457-3383-5bce-9046-757979567629",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 518 source preserves Renie Yuen. Exact-name and variant searches returned modern namesakes but no reliable wartime identity or employment evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Exact-name and variant searches returned modern namesakes but no reliable wartime identity or employment evidence."
+    },
+    {
+      "person_id": "0349d1c8-8fad-580e-948f-3838e7ab9c9d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 859 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "abf3052e-b6d2-5a36-ba78-d4fe67385f52",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 859 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "ac679997-dee1-5ae4-893a-119dd3954672",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 859 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "11d88fdb-760e-513a-ad1b-3614b054aaad",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 859 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "87b7b0e5-face-550b-bd59-a594dc9bcafc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 859 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "451c4fad-8a65-56c9-9571-52d0c424d0ec",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 859 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "84daf75f-418f-5a3a-943f-59520de47f1d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 860 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "76e499cb-c269-51e9-9724-c58fc5176e93",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 860 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "2faa3545-1c3f-5b89-bf8d-c6f318e46a36",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 860 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "57be2d80-3ed9-58ff-81b7-0e8d38c92c6f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 860 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "2b34c859-063a-59e1-83f4-3d11a3ef16fb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 860 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "23470a98-0e23-5f22-b099-2ded95aca4cf",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "confirmed",
+      "identity_evidence": "A nonshared protected identifier and exact official name agreement connect the index and Army records; the identifier remains private.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review indexed Box 860 to identify a named employer or institution and establish Army-to-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the bulk record supplies only a historical occupation category."
+    },
+    {
+      "person_id": "0ab2055a-bbd9-5e7e-8c64-df1be9ae4073",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the index to an official Army record, but damaged name rendering, a middle-initial conflict and a post-OSS 1946 entry date remain explicit.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review Box 859 to resolve the name-form conflict and identify a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; the postwar Army record is identity evidence only."
+    },
+    {
+      "person_id": "2a713c79-9136-5570-a860-487b8f8d9730",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon indexed components Cuyler and T align with T. Cuyler Young, whose scholarly memorial directly links University of Toronto teaching to OSS service.",
+      "name_variants": [
+        "T. Cuyler Young"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 859 to confirm the exact University of Toronto end date and OSS appointment date; the immediate and last civilian employer are already strongly supported."
+    },
+    {
+      "person_id": "a1b5ac23-70e5-5d15-b958-eb13f0df4cf1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the index to an official Army record that omits the indexed middle initial; historical code 999 is not interpreted.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "nara_catalog_id": "1263923",
+      "next_action": "Review Box 859 to confirm the middle initial and identify a pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no occupation is inferred from code 999."
+    },
+    {
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "confirmed",
+      "identity_evidence": "CIA supplies the full name Rodney Stuart Young and direct OSS Greek-unit role; a 1944 OSS report independently names Rodney Young in Greek operations.",
+      "name_variants": [
+        "Rodney Stuart Young"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 860 for the last named civilian employer and exact recruitment date. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; Greek Red Cross volunteer service is the immediate documented affiliation."
+    },
+    {
+      "person_id": "e8b40847-8897-5d2a-8d44-03dbd47d705f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name and initial align with official NPS and California Attorney General biographies that identify FBI service and direct OSS X-2 recruitment.",
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 860 to confirm the exact FBI end date, military component and OSS appointment; the immediate affiliation and last civilian employer are already strongly supported."
+    },
+    {
+      "person_id": "a859c7a1-daa0-5e28-8fba-ff3236d4cf26",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A direct OSS-era report supplies Dr. Peter Yovanovich's distinctive name, American citizenship, medical role and recruitment context despite surname OCR damage.",
+      "name_variants": [
+        "Dr. Peter Yovanovich",
+        "Peter Yovanovich"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 860 to identify the named prewar medical employer and final recruitment status. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; physician status is directly documented."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page518-row1-cecile-w-youmanns-b1028",
+      "person_id": "11b19ea5-9d24-5408-863a-2d24d8c44328",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Cecile W Youmanns; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 858",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "The indexed surname spelling and plausible Youmans variant produced no source that bridges the person to OSS or a pre-OSS employer. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 858 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row2-key-s-youn-b1028",
+      "person_id": "af6d7359-29c0-573d-b80f-26c4b8b7afc6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Key S Youn; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 858",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Exact-name, transliteration and punctuation variants produced no reliable identity or employment bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 858 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row3-aaron-young-b1028",
+      "person_id": "0349d1c8-8fad-580e-948f-3838e7ab9c9d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Aaron Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row4-alan-young-b1028",
+      "person_id": "745f8df7-3127-53ce-89c8-4c11cc9780e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alan Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Actor and broadcaster namesakes lacked an OSS, Box 859 or protected-identifier bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row5-anne-b-young-b1028",
+      "person_id": "56038dc1-0636-539f-bb0d-851ca9599d26",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anne B Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row6-arthur-c-young-b1028",
+      "person_id": "a91d3006-7d5f-5ba3-bd8d-0aabbb31929d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur C Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row7-austin-young-b1028",
+      "person_id": "f7b9a623-ea38-5c6a-8458-0f56a893f01c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Austin Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "A same-name later CIA employee and other namesakes lacked an index or wartime OSS identity bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row8-beatrice-e-young-b1028",
+      "person_id": "dfb75d1e-8ed0-5032-95b2-892893a6b6cb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Beatrice E Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row9-billy-b-young-b1028",
+      "person_id": "0ab2055a-bbd9-5e7e-8c64-df1be9ae4073",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Billy B Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row10-carleton-young-b1028",
+      "person_id": "ff12edd0-667f-5eb9-b987-e06221021280",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carleton Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "The actor and Army Air Corps officer Carleton Young lacks a protected-identifier or personnel-file bridge to this row. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row11-charles-w-young-b1028",
+      "person_id": "10c02aa8-0e40-5fd7-b6cd-75941cd76887",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles W Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row12-cuyler-t-young-b1028",
+      "person_id": "2a713c79-9136-5570-a860-487b8f8d9730",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Cuyler T Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row13-edward-l-young-b1028",
+      "person_id": "abf3052e-b6d2-5a36-ba78-d4fe67385f52",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward L Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row14-elwood-w-young-b1028",
+      "person_id": "ca30c960-5ec7-584e-b685-48aeebc6da49",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elwood W Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row15-emma-m-young-b1028",
+      "person_id": "d26f561b-cea7-5c7b-a950-7aa0db24f408",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Emma M Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row16-everett-young-b1028",
+      "person_id": "ac679997-dee1-5ae4-893a-119dd3954672",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Everett Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row17-gerald-s-young-jr-b1028",
+      "person_id": "8a4a6554-627f-53b0-ab01-aaa64da2f9de",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gerald S Young Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row18-grace-young-b1028",
+      "person_id": "9a6ec6eb-234a-53f9-aec2-540fc7142211",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Grace Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Modern author and other Grace Young namesakes lacked an OSS or Box 859 bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row19-herbert-b-young-b1028",
+      "person_id": "11d88fdb-760e-513a-ad1b-3614b054aaad",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert B Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row20-james-b-young-b1028",
+      "person_id": "a1b5ac23-70e5-5d15-b958-eb13f0df4cf1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James B Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row21-james-g-young-b1028",
+      "person_id": "87b7b0e5-face-550b-bd59-a594dc9bcafc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James G Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row22-james-m-young-b1028",
+      "person_id": "c5d30738-9513-5f14-97c8-d4c3398f8263",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James M Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "A same-name paratrooper lead lacked a protected-identifier, OSS or Box 859 bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row23-james-s-young-b1028",
+      "person_id": "8404f04b-6992-53f5-a788-5b7ca99d4ba5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James S Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row24-john-c-young-b1028",
+      "person_id": "bbe100b9-b736-5d03-988f-874253a18574",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John C Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row25-lewis-e-young-b1028",
+      "person_id": "451c4fad-8a65-56c9-9571-52d0c424d0ec",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lewis E Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row26-lionel-young-b1028",
+      "person_id": "70cae759-bc66-55a4-9e55-71e65b5e8d26",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lionel Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "A same-name RAF veteran and other Lionel Young namesakes lacked an OSS or index bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row27-lloyd-d-young-b1028",
+      "person_id": "2ac60fdc-bbe0-52ff-a5ba-42cd14aa4ee8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lloyd D Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "The protected identifier produced no Army bulk match, and accessible searches did not establish the indexed person. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row28-marie-h-young-b1028",
+      "person_id": "fb98a849-35a6-5ec0-a711-6e287d76ec7a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marie H Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row29-olga-d-young-b1028",
+      "person_id": "736166e0-2cab-5231-aa3b-6c7db8d533d7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Olga D Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row30-raymond-b-young-jr-b1028",
+      "person_id": "cc2c514e-2909-5417-a53e-07d08742182c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymond B Young Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 859",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "The suffix and middle initial did not produce a reliable identity-and-employment bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 859 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row31-richard-k-young-b1028",
+      "person_id": "84daf75f-418f-5a3a-943f-59520de47f1d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard K Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row32-rodney-s-young-b1028",
+      "person_id": "3875835c-ef00-57d8-8ffd-dd1e7eed5857",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rodney S Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row33-russell-l-young-b1028",
+      "person_id": "76e499cb-c269-51e9-9724-c58fc5176e93",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Russell L Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row34-velma-f-young-b1028",
+      "person_id": "36ed6e32-da25-5788-96e0-ea6e4c77040b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Velma F Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row35-vergil-a-young-b1028",
+      "person_id": "71bd3b70-34e0-5ed4-b5e0-dc341b565500",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vergil A Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row36-vernon-l-young-b1028",
+      "person_id": "2faa3545-1c3f-5b89-bf8d-c6f318e46a36",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vernon L Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row37-victor-e-young-b1028",
+      "person_id": "57be2d80-3ed9-58ff-81b7-0e8d38c92c6f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor E Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row38-victor-s-young-b1028",
+      "person_id": "8b25f4b8-9f57-55ef-b484-f2621aed1fdd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor S Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row39-william-w-young-b1028",
+      "person_id": "0489b48e-5f7b-5250-83ea-b09019b64000",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William W Young; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Accessible exact-name, official, CIA, OSS, employer, occupation, obituary, institutional, newspaper, directory and archival searches produced no reliable identity-and-affiliation bridge; unbridged namesakes and postwar-only leads were rejected. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row40-evelle-j-younger-b1028",
+      "person_id": "e8b40847-8897-5d2a-8d44-03dbd47d705f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Evelle J Younger; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row41-jack-s-younger-b1028",
+      "person_id": "34da1faa-540f-5d54-abb5-90c26275038a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack S Younger; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Exact-name results did not establish Jack S Younger's wartime identity or pre-OSS affiliation. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row42-william-e-youngs-b1028",
+      "person_id": "2b34c859-063a-59e1-83f4-3d11a3ef16fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William E Youngs; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row43-robert-l-younkin-b1028",
+      "person_id": "23470a98-0e23-5f22-b099-2ded95aca4cf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert L Younkin; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row44-peter-dr-yovanovich-b1028",
+      "person_id": "a859c7a1-daa0-5e28-8fba-ff3236d4cf26",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Peter, Dr. Yovanovich; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "At least one identity, occupation, employer, volunteer or professional-status outcome is preserved with claim-level citations; remaining employer or temporal questions remain explicit. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row45-arthur-yshira-b1028",
+      "person_id": "937fdce7-70ba-520c-b764-c089b78668ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Yshira; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Yshira, Ishira and likely OCR-variant searches produced no reliable identity, OSS or employment bridge. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    },
+    {
+      "key": "page518-row46-renie-yuen-b1028",
+      "person_id": "59596457-3383-5bce-9046-757979567629",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Renie Yuen; NARA OSS index context; exact-name and meaningful initial, suffix, punctuation, transliteration and OCR variants; OSS, CIA Reading Room, rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 860",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1028",
+      "started_at": "2026-11-04T12:00:00-05:00",
+      "completed_at": "2026-11-04T18:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads and sources without an OSS, protected-identifier, rank, unit or personnel-file bridge were rejected. Army categories were not converted into named employers, and the petroleum categories were not treated as oil-company evidence.",
+      "research_notes": "Exact-name and variant searches returned modern namesakes but no reliable wartime identity or employment evidence. The official index, exact-name OSS searches, grouped CIA Reading Room checks, and employer, occupation, obituary, institutional, newspaper, directory and archival searches were reviewed as applicable. Page 518, the page 519 boundary and every cited NARA code-list page were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 860 for corroborating identifiers, immediate pre-OSS affiliation and last civilian employer before wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1028-v1"
+    }
+  ]
+}
