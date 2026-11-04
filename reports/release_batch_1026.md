@@ -91,5 +91,16 @@ Date: 2026-11-04 America/New_York
 
 ## Public deployment verification
 
-Publication and immutable live verification are pending the Batch 1026 content
-commit and GitHub Pages workflows.
+- Published from commit
+  `f48dd6f19f7cecebb819193b7e5c7011e05e705e`.
+- The Test workflow completed successfully in GitHub Actions run
+  [41872223679](https://github.com/therealjameswilson/before-oss/actions/runs/41872223679).
+- The Deploy GitHub Pages workflow completed successfully in run
+  [41872223220](https://github.com/therealjameswilson/before-oss/actions/runs/41872223220).
+- An immutable live check against that exact commit verified 67 manifest assets
+  totaling 139,825,103 bytes, all eight core routes, all 46 source-register
+  pages, and all 46 Batch 1026 direct profile routes. The public manifest
+  SHA-256 was
+  `a2e3f2b5eb7c3961f14b95e3ae356f6864d24ef34feb182eaf760a459279c303`.
+- Verified public base URL:
+  <https://therealjameswilson.github.io/before-oss/>.
