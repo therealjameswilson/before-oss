@@ -74,6 +74,21 @@ Date: 2026-11-04 America/New_York
   `b5976a76f544a692a816eff3c87fbe33142d9480c1bd355dc54531669c4a7a04`.
 - The production dependency audit found zero vulnerabilities.
 
-Deployment verification is pending the immutable content commit and GitHub
-Actions runs. The exact workflow links and deployed-manifest verification
-will be added after the public release is observed.
+## Public deployment verification
+
+- Published content commit:
+  [`3aef7efa5646f4495b132ac047a8784b76aa599f`](https://github.com/therealjameswilson/before-oss/commit/3aef7efa5646f4495b132ac047a8784b76aa599f).
+- GitHub Actions
+  [Test run 41856989261](https://github.com/therealjameswilson/before-oss/actions/runs/41856989261)
+  passed, including the research pipeline, checked-in public manifest,
+  bounded browser suite, and private-identifier redaction audit.
+- GitHub Actions
+  [Deploy GitHub Pages run 41856989035](https://github.com/therealjameswilson/before-oss/actions/runs/41856989035)
+  passed its build and deployment jobs.
+- The public deployment at
+  <https://therealjameswilson.github.io/before-oss/> was re-read after the
+  workflow completed. All 67 public assets matched the checked-in manifest:
+  139,286,488 bytes and manifest SHA-256
+  `bfa0026b50f69375ed49064510e80ba99a27be2ef50d9c4aff42b151c13de440`.
+- Eight core routes, all 46 Batch 1024 direct person profiles, and all 46
+  Batch 1024 source-register pages returned the expected release content.
