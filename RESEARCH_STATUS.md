@@ -41,8 +41,12 @@ All internal links resolve; the protected-identifier audit found zero
 unexpected matches; and the 67-asset public manifest verifies locally across
 135,940,897 bytes with SHA-256
 `2b4dc24785c78c1dcb50538a7cb7deb897e6ca8cc4e927a60f15f5660fe71ecf`.
-Publication and independent live verification remain pending; full evidence
-is recorded in `reports/release_batch_1009.md`.
+Batch 1009 is public from immutable content commit
+`506f210557a0c28164146506d45dfde62599b061`; GitHub Actions Test run
+`41770903757` and Pages run `41770903746` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 45 source-register pages and all 47 directly affected profiles. Full
+publication evidence is recorded in `reports/release_batch_1009.md`.
 
 Batch 1008 completed PDF page 498, rows 1-46, from **Marjorie J. Werner**
 through **T. B. Weston**. All 46 printed rows remain separately recoverable as

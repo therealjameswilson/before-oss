@@ -44,7 +44,8 @@ Date: 2026-11-03 America/New_York
 
 ## Reproducible release checks
 
-- Audited content commit: pending publication.
+- Audited content commit:
+  `506f210557a0c28164146506d45dfde62599b061`.
 - Evidence-bundle SHA-256:
   `9dc137a732e65d95db118017d2a0e0e229275fa1ede7a39e7bb9b874065d0c16`.
 - Army-review-decision SHA-256:
@@ -91,7 +92,20 @@ Date: 2026-11-03 America/New_York
 
 ## Publication verification
 
-Publication, independent CI and unauthenticated live verification are pending.
-Local validation does not by itself establish deployment.
+- Immutable published release commit:
+  `506f210557a0c28164146506d45dfde62599b061`.
+- GitHub Actions Test run
+  [41770903757](https://github.com/therealjameswilson/before-oss/actions/runs/41770903757)
+  completed successfully on 2026-11-03.
+- GitHub Pages run
+  [41770903746](https://github.com/therealjameswilson/before-oss/actions/runs/41770903746)
+  completed successfully on 2026-11-03.
+- On 2026-11-03, the unauthenticated deployed-release verifier checked the
+  live GitHub Pages site against that exact commit and evidence bundle. It
+  verified all 67 public assets (135,940,897 bytes; manifest SHA-256
+  `2b4dc24785c78c1dcb50538a7cb7deb897e6ca8cc4e927a60f15f5660fe71ecf`),
+  all eight core routes, all 45 source-register pages and all 47 directly
+  affected profile routes (46 cohort profiles plus one grouped possible
+  duplicate).
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.

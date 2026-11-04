@@ -8,8 +8,12 @@ formatted variants against 25,399 output artifacts and finds zero unexpected
 boundary matches. The manifest lists **67** assets and **135,940,897** bytes at
 manifest SHA-256
 `2b4dc24785c78c1dcb50538a7cb7deb897e6ca8cc4e927a60f15f5660fe71ecf`.
-External URLs were inventoried, not all requested; CI and live-release
-verification are separate pending gates.
+External URLs were inventoried, not all requested. GitHub Actions Test run
+`41770903757` and Pages run `41770903746` passed for immutable content commit
+`506f210557a0c28164146506d45dfde62599b061`. The unauthenticated live verifier
+matched all 67 assets, eight core routes, 45 source-register pages and 47
+directly affected profiles against the checked-in manifest and evidence
+bundle.
 
 Batch 1008 local validation, 2026-11-03 America/New_York: the static build
 contains **25,323** HTML files. Every internal link resolves, and the checker
