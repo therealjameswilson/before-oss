@@ -93,8 +93,16 @@ Date: 2026-11-04 America/New_York
 
 ## Publication verification
 
-- Local release candidate is complete and verified. The content commit,
-  GitHub Actions runs and unauthenticated deployed-site verification remain
-  pending and will be recorded here after publication.
+- Immutable content commit
+  `4b38ba607c1b6574d26fe13fe8a6c0718ddcdd5a` is published. GitHub Actions
+  Test run `41793681898` and Pages run `41793681845` both completed
+  successfully.
+- The unauthenticated deployed-release verifier matched all 67 manifest
+  assets (137,093,086 bytes), eight core routes, 45 source-register pages and
+  all 46 directly affected profiles to the immutable commit. The deployed
+  manifest SHA-256 is
+  `03d81453c08cb68a0f0c6a477c2504256f2f40984b376d9a8557924115befd1c`.
+- Test: <https://github.com/therealjameswilson/before-oss/actions/runs/41793681898>.
+- Pages: <https://github.com/therealjameswilson/before-oss/actions/runs/41793681845>.
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.
