@@ -1,5 +1,45 @@
 # Research status
 
+Batch 1033 completed PDF page 288, rows 1-46, from **Sylvia H. MacDonald**
+through **Roderick S. MacLennan**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and all 46 now have saved terminal
+outcomes: 27 `requires_archival_review`, 11 `occupation_only_found`, five
+`needs_identity_review`, two `verified_employer_found`, and one `completed`.
+
+Twelve protected-identifier Army candidates received explicit review: eleven
+were accepted and one damaged-name Andrew S. MacDowell candidate was rejected.
+Ten accepted, date-bounded Army-entry categories support qualified historical
+occupations or student status. No coded occupation was converted into a named
+employer. The adjacent Clark MacGregor rows remain separate; only the ranked
+row has the protected Army bridge and matching official chronology. The two
+Malcolm S. MacKenzie rows also remain separate because their indexed grades
+differ and no personnel-file evidence establishes duplication.
+
+The strongest documented civilian pathways are Lanning MacFarland and Donald
+W. MacKinnon. A contemporary banking journal identifies MacFarland as a
+Northern Trust Company vice president before his December 1942 OSS entry; the
+seven-month gap means the bank is modeled as his last civilian employer, not
+an explicit immediate predecessor. University of California institutional
+histories document MacKinnon's 1933-47 Bryn Mawr professorship and 1944-46
+leave to direct OSS Station S, supporting Bryn Mawr as both immediate and last
+civilian employer. Clark MacGregor's Dartmouth student relationship remains
+separate from his immediate U.S. Army pathway, and Gerstle Mack remains a
+documented prewar writer and biographer without an invented employer or self-
+employment status. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,402/23,935 (72.7052%)**;
+verified-employer coverage is **556/23,935 (2.3230%)**;
+verified-affiliation coverage is **1,220/23,935 (5.0971%)**; archival-review
+coverage is **15,880/23,935 (66.3464%)**. There are **6,528** not-started and
+**1,878** in-progress people. The public projection contains **4,552**
+affiliations, **1,401** organizations, **6,861** sources and **11,135**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1033 publication verification is recorded in
+`reports/release_batch_1033.md`.
+
 Batch 1032 completed the final PDF page, page 522, rows 1-12, from **Anthony
 N. Zucco** through **John A. Zwergel**. All 12 printed rows remain separately
 recoverable as 12 cautious person entities, and all 12 now have saved terminal
