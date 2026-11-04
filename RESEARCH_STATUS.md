@@ -34,7 +34,7 @@ possible-duplicate groups and **545** conflicts. The public projection
 contains **4,178** affiliations, **1,344** organizations, **6,631** sources
 and **10,479** published, qualified or conflict claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 501, row
-1, **Helen K. White**.
+1, **Herbert W. White**.
 
 Batch 1010 passed evidence validation, durable import, SQLite integrity, the
 complete 522-page ingest audit, the 200-profile audit, all 154 Python tests,
