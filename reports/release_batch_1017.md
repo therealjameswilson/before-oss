@@ -83,5 +83,14 @@ Local release checks passed before publication:
   bytes at output-tree SHA-256
   `1e5c3b5f5b3e3810a8443d7dec560df7b81993b054a0a087a0c8bcf2fa9209bb`.
 
-GitHub Actions and unauthenticated live-release verification will be appended
-after publication of the immutable content commit.
+Content commit `c38a75123495ab129e53afdb748c8b0b5377f080` passed the full
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41809958838)
+and the
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41809958916).
+The unauthenticated deployed-release verifier matched all 67 canonical assets
+and 137,794,447 bytes to the committed manifest at SHA-256
+`f2dfa18fc3e1ad526e874057f06798aafc411c9b32dfb4f719e57c7c12bc011b`.
+It also returned successful main content for all eight core routes, all 45
+source-register pages and all 46 Batch 1017 direct profile URLs.
+
+Public release URL: <https://therealjameswilson.github.io/before-oss/>.

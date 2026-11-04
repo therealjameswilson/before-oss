@@ -8,7 +8,11 @@ All tested pages had no serious axe violations. All **154** Python tests
 passed. Astro checked 648 files with zero diagnostics and built **25,342**
 static pages. The protected-identifier audit found zero unexpected matches,
 all internal links resolve and two consecutive builds were byte-reproducible.
-
+GitHub Actions Test run `41809958838` and Pages run `41809958916`
+subsequently passed for immutable content commit
+`c38a75123495ab129e53afdb748c8b0b5377f080`; the unauthenticated deployed-
+release verifier then matched every manifested asset and all 46 directly
+affected profiles.
 
 Batch 1015 local validation, 2026-11-04 America/New_York: the bounded release
 suite passed **96/96** Playwright checks across desktop, phone and tablet. This
