@@ -1,5 +1,63 @@
 # Research status
 
+Batch 1015 completed PDF page 505, rows 1-46, from **Asa E. Williams**
+through **June Williams**. All 46 printed rows remain separately recoverable
+as 46 cautious person entities. Every cohort person has a saved terminal
+outcome: 33 `requires_archival_review`, ten `occupation_only_found`, two
+`documented_prewar_employer_found` and one `conflicting_sources`.
+
+Eleven exact-name, nonshared protected-identifier Army bridges received
+explicit acceptance review. Ten safely documented historical occupation or
+student categories are published with qualification and are not converted
+into named employers, schools, workplaces or exact OSS-transfer dates. Army
+code 958 remains uninterpreted. Harold D. Williams has a protected-identifier
+match to a materially different Army name, so no Army identity, occupation,
+grade or chronology was transferred.
+
+University of the West Indies institutional sources support a high-confidence
+Eric Eustace Williams identity and his 1939-1948 Howard University assistant
+professorship. Because that appointment overlaps his documented OSS research
+employment, Howard is published only as documented prewar employment, not as
+the immediate or last civilian affiliation. Contemporary *Broadcasting*
+notices support a high-confidence Ian Wythe Williams identity, his January
+1942 NBC International Division announcing role and earlier U.S. Embassy in
+Paris staff work; neither role is labeled immediate. A Hoover Institution
+item record makes Garland H. Williams only a probable identity lead and
+supports no employer claim.
+
+The bounded Library of Congress adapter check timed out and the CIA check was
+refused under the host's robots policy. Both errors remain auditable and are
+not treated as negative search results. Accessible official, institutional,
+contemporary and archival alternatives were reviewed. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,617/23,935 (69.4255%)**;
+verified-employer coverage is **538/23,935 (2.2478%)**;
+verified-affiliation coverage is **1,175/23,935 (4.9091%)**; archival-review
+coverage is **15,094/23,935 (63.0625%)**. There are **7,313** not-started
+people, **691** possible-duplicate groups and **550** conflicts. The public
+projection contains **4,252** affiliations, **1,350** organizations, **6,677**
+sources and **10,631** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+506, row 1, **Lansing Williams**.
+
+Batch 1015 passed evidence-schema validation, a twice-proven idempotent
+durable import, SQLite integrity, the complete 522-page ingest audit, the
+deterministic 200-profile audit and all 154 Python tests. Astro checked 646
+files with zero diagnostics and built 25,338 pages. The bounded browser
+release suite passed 96/96 checks across desktop, phone and tablet: 27 Batch
+1015 checks, 33 core-route and interaction checks, six analysis checks and 30
+accessibility scans with no serious axe violations. All 25,338 internal HTML
+routes resolve. The protected-identifier audit found zero unexpected boundary
+matches. Two consecutive builds reproduced 25,410 artifacts and 429,998,224
+bytes at SHA-256
+`7b32d79d5a8a6b44745d786c94e9d6983cc92c68bb96096028fe0135fee319ca`.
+The 67-asset public manifest verifies across 137,312,547 bytes at SHA-256
+`f11afb2340f94c301f5682d333c104ef9ead740221a94b6bfe8902c412d1fdbc`.
+The production dependency audit found zero vulnerabilities. CI, Pages and
+live-release verification remain separate publication gates.
+
 Batch 1014 completed PDF page 504, rows 1-46, from **Norman B. Wiley** through
 **Arthur J. Williams**. All 46 printed rows remain separately recoverable as
 46 cautious person entities. Every cohort person has a saved terminal outcome:

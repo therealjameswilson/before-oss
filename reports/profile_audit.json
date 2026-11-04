@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:29:32+00:00",
+  "generated_at": "2026-11-04T08:07:34+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -27,18 +27,18 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 66,
+    "1": 65,
     "2": 71,
-    "3": 28,
+    "3": 29,
     "4": 35
   },
   "identity_status_counts": {
     "ambiguous": 25,
-    "confirmed": 12,
+    "confirmed": 13,
     "conflicting": 11,
     "high_confidence": 38,
     "probable": 7,
-    "unresolved": 107
+    "unresolved": 106
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -49,9 +49,9 @@
     "needs_identity_review": 11,
     "needs_temporal_review": 1,
     "no_reliable_result_after_protocol": 12,
-    "not_started": 45,
-    "occupation_only_found": 10,
-    "requires_archival_review": 73,
+    "not_started": 43,
+    "occupation_only_found": 11,
+    "requires_archival_review": 74,
     "verified_employer_found": 10
   },
   "special_strata_counts": {
@@ -61,10 +61,10 @@
     "allied_or_foreign": 21,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 53,
-    "medium_published_claim": 24,
+    "confirmed_or_high_published_claim": 54,
+    "medium_published_claim": 25,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 107
+    "unresolved_identity": 106
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -230,8 +230,8 @@
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
     "fe57eba0-5439-5a46-b6b6-4c5bdf7943e4",
     "10ffbb81-0232-52fd-a256-06c9b48e0686",
+    "05746991-eb18-528a-8127-d1728b9a6023",
     "e81bf272-edef-5a3a-94f7-87ac7a542d9c",
-    "dd60dccf-c3e9-531a-98fe-2e3f2a33dc09",
     "6d812892-46d2-5de5-8c65-cd9264901268",
     "37ea2669-6cb0-53ba-b88d-f47577d4eb99",
     "59596457-3383-5bce-9046-757979567629",
