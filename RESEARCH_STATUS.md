@@ -42,8 +42,13 @@ All internal links resolve; the protected-identifier audit found zero
 unexpected matches; and the 67-asset public manifest verifies locally across
 135,759,064 bytes with SHA-256
 `58c746d03a02fc703fd81d7c9ece3f1055bb77f8ec95a7afde7f14ab871726db`.
-Publication and deployed-release verification remain pending until the Batch
-1008 content commit is pushed and GitHub Actions Pages succeeds.
+Batch 1008 is public from immutable content commit
+`db853306c2f7fc86d0bcc3cd105ebfd45233d1ae`; GitHub Actions Test run
+`41767468308` and Pages run `41767468252` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 45 source-register pages and all 47 directly affected profiles (46 cohort
+profiles plus one privacy correction). Full publication evidence is recorded
+in `reports/release_batch_1008.md`.
 
 Batch 1007 completed PDF page 497, rows 1-46, from **Dorson S. Wells**
 through **Louis Werner Jr.** All 46 printed rows remain separately recoverable

@@ -7,8 +7,10 @@ checks, six confidence-aware analysis checks and 30 axe accessibility checks.
 All tested pages had no serious axe violations. All **154** Python tests and 87
 subtests passed. Astro checked 639 files with zero diagnostics and built
 **25,323** static pages. The protected-identifier audit found zero unexpected
-matches and all internal links resolve. These local results do not by
-themselves establish CI or public deployment.
+matches and all internal links resolve. GitHub Actions Test run `41767468308`
+and Pages run `41767468252` subsequently passed for immutable content commit
+`db853306c2f7fc86d0bcc3cd105ebfd45233d1ae`; the deployed-release verifier
+then matched every manifested asset and all directly affected profiles.
 
 Batch 985 local validation, 2026-10-30 America/New_York: the bounded release
 suite passed **96/96** desktop, phone and tablet checks: 27 Batch 985 direct-
