@@ -15206,3 +15206,11 @@ inspected **1,552** candidate substrings, and found zero unexpected boundary,
 aggregate or manifest-size matches. Two consecutive builds reproduced the
 same **25,411-file**, **430,294,346-byte** output tree at SHA-256
 `e142b2c1bbd7cd1d150f36ae95a48dd18d8a1aa3c48a0ee47f151aa5af974360`.
+
+Published content commit `a818516f9611f8140ce81626a5ea0b5d943c9958`
+passed Test run 41804388078 and Pages run 41804388024. The unauthenticated
+deployed-release verifier matched all **67** manifest assets and
+**137,493,997** bytes at SHA-256
+`b1e79cdbdd41cf8e8adc6f2389dfcfd29855805471b9ef9b21b63c3012864be1`,
+then checked all eight core routes, all **45** source-register pages and all
+**46** Batch 1016 direct profile URLs.

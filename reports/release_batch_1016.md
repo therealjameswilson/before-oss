@@ -93,7 +93,14 @@ Date: 2026-11-04 America/New_York
 
 ## Publication verification
 
-CI, GitHub Pages and unauthenticated deployed-release verification remain
-pending for the immutable content commit.
+Content commit `a818516f9611f8140ce81626a5ea0b5d943c9958` passed the full
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41804388078)
+and the
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41804388024).
+The unauthenticated deployed-release verifier matched all 67 canonical assets
+and 137,493,997 bytes to the committed manifest at SHA-256
+`b1e79cdbdd41cf8e8adc6f2389dfcfd29855805471b9ef9b21b63c3012864be1`.
+It also returned successful main content for all eight core routes, all 45
+source-register pages and all 46 Batch 1016 direct profile URLs.
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.

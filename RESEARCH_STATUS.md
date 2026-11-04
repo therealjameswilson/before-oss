@@ -52,8 +52,12 @@ bytes at SHA-256
 `e142b2c1bbd7cd1d150f36ae95a48dd18d8a1aa3c48a0ee47f151aa5af974360`.
 The 67-asset public manifest verifies across 137,493,997 bytes at SHA-256
 `b1e79cdbdd41cf8e8adc6f2389dfcfd29855805471b9ef9b21b63c3012864be1`.
-The production dependency audit found zero vulnerabilities. CI, Pages and
-live-release verification remain separate publication gates.
+The production dependency audit found zero vulnerabilities. Content commit
+`a818516f9611f8140ce81626a5ea0b5d943c9958` passed Test run 41804388078 and
+Pages run 41804388024. Unauthenticated live verification matched all 67
+manifest assets and checked eight core routes, all 45 source-register pages
+and all 46 cohort profiles. Batch 1016 is published at
+<https://therealjameswilson.github.io/before-oss/>.
 
 Batch 1015 completed PDF page 505, rows 1-46, from **Asa E. Williams**
 through **June Williams**. All 46 printed rows remain separately recoverable
