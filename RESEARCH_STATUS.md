@@ -1,5 +1,49 @@
 # Research status
 
+Batch 1006 completed PDF page 496, rows 1-46, from **William S. Weisch**
+through **Walter J. Wellman**. All 46 printed rows remain separately
+recoverable and link to 45 cautious person entities after the two Edward
+Weismiller rows were manually reviewed and linked to one person.
+
+Every cohort person has a saved terminal research outcome: 30
+`requires_archival_review`, 12 `occupation_only_found`, one
+`verified_employer_found`, one `documented_prewar_employer_found` and one
+`completed`. Thirteen reviewed official Army identity bridges support twelve
+qualified historical occupation or student categories; Joseph H. Welch's
+late Army record remains identity evidence only because its relationship to
+OSS service is unresolved. No coded occupation is converted into a named
+employer.
+
+Official OSS evidence confirms Edward Ronald Weismiller, Rudi Weiss and
+Benjamin Welles. Weismiller's qualified Harvard teaching is kept separate
+from earlier Random House translation and Cornell and Oxford student status.
+Benjamin Welles's immediate Army pathway is kept separate from his last
+civilian employer, The New York Times. Edward O. Welles has a high-confidence
+British-intelligence-to-OSS pathway; Emanuel Weisgal, Philip S. Weld and
+Marilyn R. Wellemeyer retain visibly qualified student leads and archival-
+review requirements. Same-name Russell G. Weissinger and John F. Welch rows
+remain separate. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,205/23,935 (67.7042%)**;
+verified-employer coverage is **527/23,935 (2.2018%)**; verified-affiliation
+coverage is **1,158/23,935 (4.8381%)**; archival-review coverage is
+**14,681/23,935 (61.3370%)**. There are **7,725** not-started people, **684**
+possible-duplicate groups and **541** conflicts. The public projection
+contains **4,119** affiliations, **1,329** organizations, **6,594** sources
+and **10,399** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 497, row
+1, **Dorson S. Wells**.
+
+Batch 1006 passed evidence validation, durable import, SQLite integrity, the
+200-profile audit, all 154 Python tests, Astro's zero-diagnostic 25,316-page
+build, the 33/33 targeted browser matrix and the 102/102 bounded browser,
+analysis and accessibility release suite. All internal links resolve; the
+protected-identifier audit found zero unexpected matches; and the 67-asset
+public manifest verifies locally across 135,392,859 bytes with SHA-256
+`a3183fc99f04174cd25e91c8e44a6ca26ce7ecc26bfade53921e6de5f018ffb8`.
+Publication verification is recorded in `reports/release_batch_1006.md`.
+
 Batch 993 completed PDF page 487, rows 1-23, from **Albert H. Waffle**
 through **James P. Waite**, preserving all 23 printed rows as separate people
 with saved terminal research outcomes.
