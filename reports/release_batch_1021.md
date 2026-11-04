@@ -75,7 +75,20 @@ Date: 2026-11-04 America/New_York
   `f063249e95ef652f619a5119d34f51c11d8cbd22b9e518c7d3d4f3374742cb92`.
 - The production dependency audit found zero vulnerabilities.
 
-CI, Pages and unauthenticated deployed-release verification are pending for
-this content commit.
+The initial Test run `41835493069` exposed a checkout-portability defect in a
+new browser test: it referenced a private, generated local file that is absent
+from a clean checkout. The test was changed to validate the public schema
+without that local dependency, and the full 96-check release suite passed
+again locally before the correction was pushed.
+
+Content commit `7057dc1bd4847a43afe0b798d3ec0bf843649147` passed the full
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41836202147)
+and the
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/41836202185).
+The unauthenticated deployed-release verifier matched all 67 canonical assets
+and 138,749,397 bytes to the committed manifest at SHA-256
+`1be826a94589bf0168153fc32d8fa351276e2ab721615f38891e15ac3babc28d`.
+It also returned successful main content for all eight core routes, all 45
+source-register pages and all 46 Batch 1021 direct profile URLs.
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.
