@@ -42,7 +42,12 @@ analysis and accessibility release suite. All internal links resolve; the
 protected-identifier audit found zero unexpected matches; and the 67-asset
 public manifest verifies locally across 135,392,859 bytes with SHA-256
 `a3183fc99f04174cd25e91c8e44a6ca26ce7ecc26bfade53921e6de5f018ffb8`.
-Publication verification is recorded in `reports/release_batch_1006.md`.
+Batch 1006 is public from immutable content commit
+`9b9840806f5531e8451b57662323856168b0ccd0`; GitHub Actions Test run
+`41755562658` and Pages run `41755562615` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 44 source-register pages and all 45 direct cohort profiles. Full
+publication evidence is recorded in `reports/release_batch_1006.md`.
 
 Batch 993 completed PDF page 487, rows 1-23, from **Albert H. Waffle**
 through **James P. Waite**, preserving all 23 printed rows as separate people
