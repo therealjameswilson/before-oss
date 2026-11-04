@@ -38,9 +38,8 @@ published, qualified or conflict claims. Full-index historical research
 remains unfinished. The next indexed boundary is PDF page 509, row 1,
 **George P. Wing**.
 
-Batch 1018 local release validation is recorded in
-`reports/release_batch_1018.md`. CI and live-publication verification remain
-separate until the release commit is deployed and checked.
+Batch 1018 publication and live-deployment verification are recorded in
+`reports/release_batch_1018.md`.
 
 Batch 1017 completed PDF page 507, rows 1-46, from **Arthur J. Willis**
 through **Georgia Wilson**. All 46 printed rows remain separately recoverable
