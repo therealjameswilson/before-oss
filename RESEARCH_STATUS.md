@@ -1,5 +1,40 @@
 # Research status
 
+Batch 1017 completed PDF page 507, rows 1-46, from **Arthur J. Willis**
+through **Georgia Wilson**. All 46 printed rows remain separately recoverable
+as 46 cautious person entities. Every cohort person has a saved explicit
+outcome: 27 `requires_archival_review`, 13 `occupation_only_found`, three
+`verified_employer_found`, two `conflicting_sources` and one
+`documented_prewar_employer_found`.
+
+Fifteen protected-identifier Army bridges received explicit acceptance
+review. Thirteen safely documented occupation or student categories remain
+qualified and unnamed. One candidate maps Joe W. Willis to the incompatible
+name Jacob Talenco, so no Army data were transferred. Institutional, official
+and scholarly sources support the substantive pathways for Allan A. Willman,
+Donald R. Willmott, Paul R. Wilner, Donald C. Wilson and E. Bright Wilson Jr.
+Immediate affiliation, last civilian employer and other documented prewar
+employment remain separate. Paul R. Wilner's Army-versus-Marine branch
+conflict remains visible and excluded from default analytics.
+
+The bounded CIA adapter check encountered `CiaRobotsUnavailable`, and the
+Library of Congress check encountered `URLError`. Both errors remain auditable
+and are not treated as negative search results. No authenticated NARA Catalog
+API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,706/23,935 (69.7974%)**;
+verified-employer coverage is **542/23,935 (2.2645%)**;
+verified-affiliation coverage is **1,180/23,935 (4.9300%)**; archival-review
+coverage is **15,186/23,935 (63.4468%)**. There are **7,224** not-started and
+**1,880** in-progress people. The public projection contains **4,280**
+affiliations, **1,354** organizations, **6,699** sources and **10,693**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 508.
+
+Batch 1017 publication and live-deployment verification are recorded in
+`reports/release_batch_1017.md`.
+
 Batch 1016 completed PDF page 506, rows 1-46, from **Lansing Williams**
 through **Lawrence J. Willinger**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Every cohort person has a saved
