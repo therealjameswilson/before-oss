@@ -89,7 +89,16 @@ Date: 2026-11-04 America/New_York
 
 ## Publication verification
 
-CI, GitHub Pages and unauthenticated deployed-release verification remain
-pending for the immutable content commit.
+- Immutable content commit
+  `e410d9c0333142a53c6a9540471660e83ea607e3` is published. GitHub Actions
+  Test run `41798269645` and Pages run `41798269709` both completed
+  successfully.
+- The unauthenticated deployed-release verifier matched all 67 manifest
+  assets (137,312,547 bytes), eight core routes, 45 source-register pages and
+  all 46 directly affected profiles to the immutable commit. The deployed
+  manifest SHA-256 is
+  `f11afb2340f94c301f5682d333c104ef9ead740221a94b6bfe8902c412d1fdbc`.
+- Test: <https://github.com/therealjameswilson/before-oss/actions/runs/41798269645>.
+- Pages: <https://github.com/therealjameswilson/before-oss/actions/runs/41798269709>.
 
 Public release URL: <https://therealjameswilson.github.io/before-oss/>.

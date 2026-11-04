@@ -55,8 +55,11 @@ bytes at SHA-256
 `7b32d79d5a8a6b44745d786c94e9d6983cc92c68bb96096028fe0135fee319ca`.
 The 67-asset public manifest verifies across 137,312,547 bytes at SHA-256
 `f11afb2340f94c301f5682d333c104ef9ead740221a94b6bfe8902c412d1fdbc`.
-The production dependency audit found zero vulnerabilities. CI, Pages and
-live-release verification remain separate publication gates.
+The production dependency audit found zero vulnerabilities. Immutable content
+commit `e410d9c0333142a53c6a9540471660e83ea607e3` passed GitHub Actions Test
+run `41798269645` and Pages run `41798269709`. The unauthenticated live
+verifier matched all 67 assets, eight core routes, 45 source-register pages
+and all 46 directly affected profiles to that commit.
 
 Batch 1014 completed PDF page 504, rows 1-46, from **Norman B. Wiley** through
 **Arthur J. Williams**. All 46 printed rows remain separately recoverable as
