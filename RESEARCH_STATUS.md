@@ -1,5 +1,44 @@
 # Research status
 
+Batch 1035 completed PDF page 290, rows 1-46, from **Nelle E. Maertens**
+through **Robert J. Maisonpierre**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Forty-five people received new
+saved research outcomes; John Magruder's previously confirmed, completed
+profile was preserved. The full cohort now contains 30
+`requires_archival_review`, 15 `occupation_only_found`, and one `completed`
+outcome.
+
+Sixteen protected-identifier Army candidates received explicit review: 15
+exact-name candidates were accepted and the damaged-name Clyde M. Maffin
+candidate was rejected. No occupation was transferred to Maffin. The accepted
+records support broad, date-bounded occupation or student categories at Army
+entry only; none was converted into a named employer, institution, workplace,
+or immediate pre-OSS affiliation.
+
+A direct wartime OSS Detachment 101 report confirms Capt. John D. Maharg's
+identity and unit context but supplies no pre-OSS employer. Orrin R. Magill
+Jr.'s student status is supported by the protected Army link, while an OSS
+report rendered as Orrin F. Magill Jr. remains an explicit middle-initial
+conflict pending Box 474 review. An American Council of Learned Societies
+finding aid contains a William Louis Magistretti file dated 1937-41, but the
+file title does not state the relationship and therefore was not treated as
+employment evidence. Shirley K. Mains's indexed “Aka Ray” note is preserved as
+a search variant rather than silently resolving her identity. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,492/23,935 (73.0813%)**;
+verified-employer coverage is **558/23,935 (2.3313%)**;
+verified-affiliation coverage is **1,223/23,935 (5.1097%)**; archival-review
+coverage is **15,967/23,935 (66.7098%)**. There are **6,438** not-started and
+**1,878** in-progress people. The public projection contains **4,583**
+affiliations, **1,401** organizations, **6,876** sources and **11,167**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1035 publication verification will be recorded in
+`reports/release_batch_1035.md`.
+
 Batch 1034 completed PDF page 289, rows 1-46, from **Cyril MacLeod** through
 **Tore Maehle**. All 46 printed rows remain separately recoverable as 46
 cautious person entities. Forty-five people received new saved research
