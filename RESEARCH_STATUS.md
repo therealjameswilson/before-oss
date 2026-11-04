@@ -1,5 +1,48 @@
 # Research status
 
+Batch 1007 completed PDF page 497, rows 1-46, from **Dorson S. Wells**
+through **Louis Werner Jr.** All 46 printed rows remain separately recoverable
+as 46 cautious person entities; the two same-name Robert J. Wentworth rows
+remain separate pending direct duplication evidence.
+
+Every cohort person has a saved terminal research outcome: 36
+`requires_archival_review`, nine `occupation_only_found` and one
+`verified_employer_found`. Eleven reviewed official Army identity bridges
+support nine qualified historical occupation categories; damaged code 990 and
+undefined code 999 remain identity evidence only. Army occupation categories
+are not converted into named employers.
+
+Two official NARA-released records confirm Mitchell Livingston WerBell III
+and directly document Palmer Radar Development Laboratories as his last
+civilian employer before Army service, with earlier work at Strawbridge &
+Clothier and L'Artisan and separate student status at the Charles Morris Price
+School. His Army pathway is visibly qualified because the exact unit, grade
+and transfer date remain undocumented. An authoritative National Academy of
+Sciences memoir supports a probable John West Wells identity and qualified
+Ohio State University employment, but the common-name index row still
+requires personnel-file confirmation. No authenticated NARA Catalog API
+request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,251/23,935 (67.8964%)**;
+verified-employer coverage is **528/23,935 (2.2060%)**; verified-affiliation
+coverage is **1,159/23,935 (4.8423%)**; archival-review coverage is
+**14,727/23,935 (61.5291%)**. There are **7,679** not-started people, **685**
+possible-duplicate groups and **541** conflicts. The public projection
+contains **4,134** affiliations, **1,333** organizations, **6,601** sources
+and **10,417** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 498, row
+1, **Marjorie J. Werner**.
+
+Batch 1007 passed evidence validation, durable import, SQLite integrity, the
+complete 522-page ingest audit, the 200-profile audit, all 154 Python tests,
+Astro's zero-diagnostic 25,321-page build and the 99/99 bounded browser,
+analysis and accessibility release suite across desktop, phone and tablet.
+All internal links resolve; the protected-identifier audit found zero
+unexpected matches; and the 67-asset public manifest verifies locally across
+135,583,547 bytes with SHA-256
+`5e374ad280bf3bf5e946484df54da309264f9a98f8107b6c0aa26213d733c0a6`.
+
 Batch 1006 completed PDF page 496, rows 1-46, from **William S. Weisch**
 through **Walter J. Wellman**. All 46 printed rows remain separately
 recoverable and link to 45 cautious person entities after the two Edward
