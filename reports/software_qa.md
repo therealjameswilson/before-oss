@@ -16,7 +16,11 @@ assets / 136,393,621 bytes at manifest SHA-256
 Two builds reproduce output-tree SHA-256
 `0c80f75289c1a6f4293cace2ad46fed75f9a0ed11c74e53b095fac7535c1ed20`.
 The production dependency audit finds zero vulnerabilities. CI, Pages and
-unauthenticated live verification remain separate publication gates.
+live verification pass for content commit
+`5b662c40333bf60abae6102aca8c05e5939b6a4d`: Test run `41779345587` and Pages
+run `41779345485` succeeded, and the unauthenticated verifier matched 67 assets
+across 136,393,621 bytes, eight core routes, 45 source-register pages and all
+46 directly affected profiles. See `reports/release_batch_1011.md`.
 
 Run: 2026-10-27 America/New_York, Batch 933 public release. All
 **147/147** Python tests pass; SQLite integrity, foreign-key, and

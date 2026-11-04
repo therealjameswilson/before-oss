@@ -57,9 +57,12 @@ with no serious axe violations. All internal links resolve, the protected-
 identifier audit found zero unexpected matches and two consecutive builds
 reproduced 25,406 artifacts and 428,476,931 bytes at SHA-256
 `0c80f75289c1a6f4293cace2ad46fed75f9a0ed11c74e53b095fac7535c1ed20`.
-The production dependency audit found zero vulnerabilities. CI, Pages and
-unauthenticated live verification remain separate publication gates; these
-local results are not represented as public deployment.
+The production dependency audit found zero vulnerabilities. Batch 1011 is
+public from immutable content commit
+`5b662c40333bf60abae6102aca8c05e5939b6a4d`; GitHub Actions Test run
+`41779345587` and Pages run `41779345485` both succeeded. The unauthenticated
+deployed-release verifier matched all 67 manifested assets, eight core routes,
+all 45 source-register pages and all 46 directly affected profile routes.
 
 Batch 1010 completed PDF page 500, rows 1-46, from **Harold J. Wheelock**
 through **Harold B. White**. All 46 printed rows remain separately recoverable

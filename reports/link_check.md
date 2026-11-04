@@ -11,8 +11,12 @@ substrings and finds zero unexpected boundary matches. The manifest lists
 Two consecutive builds reproduce 25,406 files and 428,476,931 bytes at
 output-tree SHA-256
 `0c80f75289c1a6f4293cace2ad46fed75f9a0ed11c74e53b095fac7535c1ed20`.
-External URLs were inventoried, not all requested. CI, Pages and live-release
-verification remain separate gates.
+External URLs were inventoried, not all requested. GitHub Actions Test run
+`41779345587` and Pages run `41779345485` passed for immutable content commit
+`5b662c40333bf60abae6102aca8c05e5939b6a4d`. The unauthenticated live verifier
+matched all 67 assets, eight core routes, 45 source-register pages and 46
+directly affected profiles against the checked-in manifest and evidence
+bundle.
 
 Batch 1010 local validation, 2026-11-03 America/New_York: the static build
 contains **25,332** HTML files. Every internal link resolves, and the checker
