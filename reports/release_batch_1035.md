@@ -92,7 +92,24 @@ Date: 2026-11-04 America/New_York
 
 ## Deployment status
 
-- Publication is pending commit, GitHub Actions, Pages deployment, and live
-  immutable-release verification.
+- Publication commit:
+  [`0d75256c86bfa59b027c558dd6cc0d92841f654e`](https://github.com/therealjameswilson/before-oss/commit/0d75256c86bfa59b027c558dd6cc0d92841f654e).
+- GitHub Actions Test run
+  [41932816595](https://github.com/therealjameswilson/before-oss/actions/runs/41932816595)
+  passed, including Python tests, the public-manifest check, the clean static
+  build, the bounded browser suite, and a rebuilt private-identifier audit.
+- GitHub Pages run
+  [41932816842](https://github.com/therealjameswilson/before-oss/actions/runs/41932816842)
+  built and deployed successfully.
+- The unauthenticated deployed-release verifier matched all 67 manifested
+  assets and 141,595,026 bytes at SHA-256
+  `26b57fc0138e34fe5aa1edc74e885fecc869b870f2025dd49614a3f778a706bf`,
+  then checked eight core routes, all 46 source-register pages, and all 45
+  newly reviewed direct profile URLs against the immutable content commit.
+  John Magruder's preserved 46th cohort profile was checked separately at its
+  direct public URL and returned HTTP 200 with the expected confirmed,
+  completed outcome.
+- The deployed stats endpoint exactly reports the Batch 1035 totals recorded
+  above.
 - Public base URL:
   <https://therealjameswilson.github.io/before-oss/>.
