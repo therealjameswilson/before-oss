@@ -1,5 +1,45 @@
 # Research status
 
+Batch 1034 completed PDF page 289, rows 1-46, from **Cyril MacLeod** through
+**Tore Maehle**. All 46 printed rows remain separately recoverable as 46
+cautious person entities. Forty-five people received new saved research
+outcomes; Gus Macriyanni's previously terminal outcome was preserved. The full
+cohort now contains 30 `requires_archival_review`, ten
+`occupation_only_found`, three `needs_identity_review`, two
+`verified_employer_found`, and one `completed` outcome.
+
+Ten protected-identifier Army candidates received explicit accepted decisions.
+Their date-bounded Army-entry records support broad historical occupation or
+student categories only; no coded occupation was converted into a named
+employer. The three Robert B. MacLeod rows remain separate ambiguous entities
+in one visible possible-duplicate group, and no evidence was transferred
+between them.
+
+The strongest documented pathways preserve military, employment, and student
+relationships separately. An official Marine Corps history traces William B.
+Macomber from Yale student status through the Marine Corps Reserve to a planned
+OSS assignment. Louis E. Madison's obituary documents George Washington
+University, Department of Labor economist work, Army service, and OSS, while a
+direct CIA record independently corroborates his wartime identity. Max T.
+Madson's Department of Agriculture motion-picture work is published as a
+qualified last civilian employer, not as an immediate predecessor. George H.
+Maddock receives only the student category recorded at Army entry; direct OSS
+team evidence does not establish a pre-OSS organization. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,447/23,935 (72.8933%)**;
+verified-employer coverage is **558/23,935 (2.3313%)**;
+verified-affiliation coverage is **1,223/23,935 (5.1097%)**; archival-review
+coverage is **15,922/23,935 (66.5218%)**. There are **6,483** not-started and
+**1,878** in-progress people. The public projection contains **4,568**
+affiliations, **1,401** organizations, **6,871** sources and **11,151**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1034 publication verification is recorded in
+`reports/release_batch_1034.md`.
+
 Batch 1033 completed PDF page 288, rows 1-46, from **Sylvia H. MacDonald**
 through **Roderick S. MacLennan**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and all 46 now have saved terminal
