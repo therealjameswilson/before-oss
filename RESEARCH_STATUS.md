@@ -1,5 +1,45 @@
 # Research status
 
+Batch 1024 completed PDF page 514, rows 1-46, from **Mallery O. Wooster**
+through **Margaret E. Wright**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Every cohort person now has a
+saved terminal outcome: 33 `requires_archival_review` and 13
+`occupation_only_found`.
+
+Twelve protected-identifier Army candidates were accepted after review.
+Eleven records support only broad historical occupation or student
+categories at Army entry; the twelfth, Kenneth M. Wright, is identity-only
+because his November 1945 Army entry postdates OSS dissolution. George E.
+Wrachford remains high-confidence rather than confirmed because the index
+middle initial E conflicts with Army and official CCC forms using F or
+Franklin. Leslie E. Wright Jr.'s damaged Army grade is not interpreted.
+
+Two additional qualified profiles preserve category boundaries. Emily H.
+Workum's acting and Northern Westchester clinic volunteer activity remain
+earlier prewar evidence, not employment or a claimed immediate OSS
+predecessor. Edwin M. Wright's official Truman Library oral history supports
+doctoral student status at Columbia as his best date-bounded immediate
+affiliation and earlier school-principal work in Iran without named schools;
+the common-name index match remains `probable` pending Box 854 review. A
+historical Detachment 101 search result naming Allen D. Wooten and Edward F.
+Wrenn was rejected as final evidence because its original host now redirects
+to unrelated content and no stable preserved copy was found. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,025/23,935 (71.1301%)**;
+verified-employer coverage is **548/23,935 (2.2895%)**;
+verified-affiliation coverage is **1,194/23,935 (4.9885%)**; archival-review
+coverage is **15,506/23,935 (64.7838%)**. There are **6,905** not-started and
+**1,879** in-progress people. The public projection contains **4,377**
+affiliations, **1,376** organizations, **6,757** sources and **10,887**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 515, row 1,
+**Mundy P. Wright**.
+
+Batch 1024 publication verification is recorded in
+`reports/release_batch_1024.md`.
+
 Batch 1023 completed PDF page 513, rows 1-46, from **William N. Wood**
 through **Perry Woosley**. All 46 printed rows remain separately recoverable
 as 46 cautious person entities. Every cohort person now has a saved terminal
