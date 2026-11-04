@@ -1,5 +1,66 @@
 # Research status
 
+Batch 1011 completed PDF page 501, rows 1-46, from **Herbert W. White**
+through **Herbert Whiting**. All 46 printed rows remain separately recoverable
+as 46 cautious person entities, including two independently documented John A.
+White records that are not merged.
+
+Every cohort person has a saved terminal research outcome: 32
+`requires_archival_review`, 13 `occupation_only_found` and one `completed`.
+Sixteen exact-name, nonshared protected-identifier Army bridges received
+explicit acceptance review. Thirteen safely decoded historical occupation or
+student categories are published with qualification and no named employer,
+school, workplace or exact OSS-transfer date is inferred. Codes 999, 479 and
+993 remain uninterpreted because the inspected official tables did not safely
+document them. Ralph E. Whitecotton's matched November 1945 Army record is used
+for identity only because it postdates OSS dissolution.
+
+Official Army fields and an OSS Society obituary distinguish the page-501 John
+A. White without a printed rank from the separate first-sergeant namesake. The
+former is documented as a Massachusetts-born OSS Jedburgh and has the broad
+Army-entry category `boarding-house or lodging-house keeper`; the latter has a
+different private identifier, birth year, residence pattern and `actor`
+category. Neither broad category is converted into a named employer.
+
+Visually inspected Phillips Academy and Library of Congress pages establish
+Jordan M. Whitelaw as a 1938 student and a June 1942 Lowell House Musical
+Society production-committee member. Student and committee relationships are
+kept distinct from employment. A scholarly Operation Medusa lead for Homer
+White remains an unassigned common-name candidate because the index row has no
+second corroborating identifier. The candidate is withheld from public facts
+and Box 832 remains the next evidentiary step.
+
+The bounded CIA adapter check was refused under the host's robots policy and
+the Library of Congress adapter check timed out; both errors remain separately
+auditable and are not treated as negative search results. Accessible official,
+institutional, obituary, newspaper, directory and archival alternatives were
+reviewed. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,434/23,935 (68.6610%)**;
+verified-employer coverage is **530/23,935 (2.2143%)**; verified-affiliation
+coverage is **1,165/23,935 (4.8673%)**; archival-review coverage is
+**14,911/23,935 (62.2979%)**. There are **7,496** not-started people, **688**
+possible-duplicate groups and **545** conflicts. The public projection contains
+**4,193** affiliations, **1,346** organizations, **6,638** sources and
+**10,510** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 502, row 1,
+**Jack Whitley**.
+
+Batch 1011 passed evidence-schema validation, idempotent durable import,
+SQLite integrity, the complete 522-page ingest audit, the deterministic
+200-profile audit and all 154 Python tests. Astro checked 642 files with zero
+diagnostics and built 25,334 pages. The bounded browser release suite passed
+93/93 checks across desktop, phone and tablet: 24 Batch 1011 checks, 33 core
+route and interaction checks, six analysis checks and 30 accessibility scans
+with no serious axe violations. All internal links resolve, the protected-
+identifier audit found zero unexpected matches and two consecutive builds
+reproduced 25,406 artifacts and 428,476,931 bytes at SHA-256
+`0c80f75289c1a6f4293cace2ad46fed75f9a0ed11c74e53b095fac7535c1ed20`.
+The production dependency audit found zero vulnerabilities. CI, Pages and
+unauthenticated live verification remain separate publication gates; these
+local results are not represented as public deployment.
+
 Batch 1010 completed PDF page 500, rows 1-46, from **Harold J. Wheelock**
 through **Harold B. White**. All 46 printed rows remain separately recoverable
 as 46 cautious person entities. Charles W. Whitaker and Charles W. Whittaker

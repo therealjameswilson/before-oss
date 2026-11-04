@@ -1,5 +1,19 @@
 # Link check
 
+Batch 1011 local validation, 2026-11-04 America/New_York: the static build
+contains **25,334** HTML files. Every internal link resolves, and the checker
+inventories **52,333** unique external URLs for the separate live check. The
+public-identifier audit compares **12,926** normalized identifiers and **120**
+formatted variants against 25,406 output artifacts, inspects 1,552 candidate
+substrings and finds zero unexpected boundary matches. The manifest lists
+**67** assets and **136,393,621** bytes at manifest SHA-256
+`65fbc2c83d1cdb73fa33d16b43cb5827cd6afb53eb1d6cd2e7884ce6904340a5`.
+Two consecutive builds reproduce 25,406 files and 428,476,931 bytes at
+output-tree SHA-256
+`0c80f75289c1a6f4293cace2ad46fed75f9a0ed11c74e53b095fac7535c1ed20`.
+External URLs were inventoried, not all requested. CI, Pages and live-release
+verification remain separate gates.
+
 Batch 1010 local validation, 2026-11-03 America/New_York: the static build
 contains **25,332** HTML files. Every internal link resolves, and the checker
 inventories **52,328** unique external URLs for the separate live check. The
