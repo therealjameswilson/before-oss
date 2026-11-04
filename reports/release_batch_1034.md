@@ -94,9 +94,24 @@ Date: 2026-11-04 America/New_York
 
 ## Deployment status
 
-- Publication commit: pending.
-- GitHub Actions Test run: pending.
-- GitHub Pages run: pending.
-- Immutable deployed-release verification: pending.
+- Publication commit:
+  [`3411a27be0f1f7fa94a4d3ce7f78e33863278b6e`](https://github.com/therealjameswilson/before-oss/commit/3411a27be0f1f7fa94a4d3ce7f78e33863278b6e).
+- GitHub Actions Test run
+  [41927979996](https://github.com/therealjameswilson/before-oss/actions/runs/41927979996)
+  passed, including Python tests, the public-manifest check, the clean static
+  build, the bounded browser suite, and a rebuilt private-identifier audit.
+- GitHub Pages run
+  [41927979832](https://github.com/therealjameswilson/before-oss/actions/runs/41927979832)
+  built and deployed successfully.
+- The unauthenticated deployed-release verifier matched all 67 manifested
+  assets and 141,442,769 bytes at SHA-256
+  `039c76313ba67f15fce179f74de6112f7e5c955f011fd959c9927d015095154c`,
+  then checked eight core routes, all 46 source-register pages, and all 45
+  newly reviewed direct profile URLs against the immutable content commit.
+  Gus Macriyanni's preserved 46th cohort profile was checked separately at
+  its direct public URL and returned HTTP 200 with the expected unresolved,
+  archival-review outcome.
+- The deployed stats endpoint exactly reports the Batch 1034 totals recorded
+  above.
 - Public base URL:
   <https://therealjameswilson.github.io/before-oss/>.
