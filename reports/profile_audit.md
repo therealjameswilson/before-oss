@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-11-04T10:11:00+00:00
+Generated: 2026-11-04T10:54:49+00:00
 
 Deterministic profiles audited: **200**.
 
@@ -18,7 +18,7 @@ Deterministic profiles audited: **200**.
 
 - commissioned: 31
 - civilian: 20
-- enlisted: 38
+- enlisted: 37
 - allied or foreign: 21
 - incomplete or initial only name: 20
 - possible duplicate group: 30

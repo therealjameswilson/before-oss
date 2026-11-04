@@ -1,5 +1,50 @@
 # Research status
 
+Batch 1019 completed PDF page 509, rows 1-46, from **George P. Wing**
+through **Wimon Wiriyawit**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities. Every cohort person has a saved
+terminal or explicit review outcome: 28 `requires_archival_review`, 13
+`occupation_only_found`, two `verified_employer_found`, one `completed`, one
+`needs_identity_review` and one `conflicting_sources`.
+
+Fourteen protected-identifier Army candidates received explicit review:
+thirteen were accepted and one was classified conflicting. The accepted
+records support thirteen historical occupation or student categories only;
+none is converted into a named employer or workplace. Visual review corrected
+the initial decoding of code 891 to the unskilled class of “furnacemen,
+smelters, and pourers” before publication. Thomas J. Wing Wo's candidate has
+the materially different Army surname Wingawo, so no Army identity, grade,
+occupation or chronology was transferred. The adjacent George Winner and
+George L. Winner rows remain separate and visibly grouped for Box 846 review.
+
+Direct, institutional and contemporary-directory evidence supports three
+substantive pathways. Kai G. Winkelhorn's immediate predecessor was the War
+Production Board, while Goldman, Sachs & Co. remains separately modeled as his
+last civilian employer. Rudolph A. Winnacker left the University of Nebraska
+for Washington and OSS research after earlier teaching at the University of
+Michigan. Wimon Wiriyawit was an MIT student immediately before volunteering
+for Free Thai service; MIT and Chulalongkorn University are not mislabeled as
+employers.
+
+The bounded CIA and Library of Congress adapter checks each failed closed with
+an access error recorded separately. Those failures are not negative search
+results. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **16,797/23,935 (70.1776%)**;
+verified-employer coverage is **544/23,935 (2.2728%)**;
+verified-affiliation coverage is **1,184/23,935 (4.9467%)**; archival-review
+coverage is **15,278/23,935 (63.8312%)**. There are **7,133** not-started and
+**1,879** in-progress people. The public projection contains **4,319**
+affiliations, **1,364** organizations, **6,720** sources and **10,770**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 510, row 1,
+**Hedwig Wirowski**.
+
+Batch 1019 local publication verification is recorded in
+`reports/release_batch_1019.md`; CI, Pages and live-release verification are
+recorded there only after they succeed.
+
 Batch 1018 completed PDF page 508, rows 1-46, from **Gladys A. Wilson**
 through **Frederick C. Wing**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Every cohort person has a saved
