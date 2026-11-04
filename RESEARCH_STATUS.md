@@ -1,5 +1,46 @@
 # Research status
 
+Batch 1031 completed PDF page 521, rows 1-46, from **Ernest W. Zimmerman**
+through **Charles A. Zuccardy**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and all 46 now have saved terminal
+outcomes: 20 `occupation_only_found`, 18 `requires_archival_review`, three
+`needs_identity_review`, three `conflicting_sources`, and two
+`needs_temporal_review`.
+
+Twenty-seven protected-identifier Army candidates received explicit review:
+22 were accepted and five were retained as conflicting. Nineteen accepted,
+date-bounded categories support qualified occupation or student affiliations.
+Undefined, shared, conflicting, and late records were withheld rather than
+being converted into unsupported employers or occupations.
+
+The strongest documented pathways preserve military, student, professional,
+and employment categories separately. Edmund F. Zinder is documented as
+Edmund F. Linder, also known as Eddie Zinder; his British Army assignment is
+the documented immediate predecessor to OSS Morale Operations, while the
+French Foreign Legion is an earlier military assignment. Paul E. Zinner and
+Maurice J. Zubkoff retain Tufts and Cornell student relationships rather than
+employer claims. Jack Zlotnick's Army pathway and earlier date-bounded
+stenographer/typist occupation remain separately qualified. Jack H. Zoschke's
+Institute of Radio Engineers relationship remains a professional affiliation,
+and Louis Zotter Jr.'s military chronology remains temporally qualified.
+Frank V. Zobatta, James Zonas, John W. Zonenberg, and the Edmund/Edward Zinder
+cross-reference remain visible conflicts. No authenticated NARA Catalog API
+request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,345/23,935 (72.4671%)**;
+verified-employer coverage is **553/23,935 (2.3104%)**;
+verified-affiliation coverage is **1,215/23,935 (5.0762%)**; archival-review
+coverage is **15,827/23,935 (66.1249%)**. There are **6,585** not-started and
+**1,878** in-progress people. The public projection contains **4,528**
+affiliations, **1,399** organizations, **6,840** sources and **11,106**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished. The next indexed boundary is PDF page 522, row 1,
+**Anthony N. Zucco**.
+
+Batch 1031 publication verification is recorded in
+`reports/release_batch_1031.md`.
+
 Batch 1027 completed PDF page 517, rows 1-46, from **Janet C. Yasunobu**
 through **Merle S. Youkers**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and all 46 now have saved terminal
