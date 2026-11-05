@@ -1,5 +1,59 @@
 # Research status
 
+Batch 1039 completed PDF page 294, rows 1-46, from **Clarence J. Marah**
+through **Norman B. Margolyes**. All 46 printed rows remain separately
+recoverable and link cautiously to 44 person entities: the duplicate Augustine
+J. Maratzo and Edward Marchigiani rows remain visible under their respective
+entities. Every entity now has a saved terminal research outcome. The cohort
+contains 18 `occupation_only_found`, 15 `requires_archival_review`, four
+`needs_identity_review`, three `documented_prewar_employer_found`, two
+`conflicting_sources`, one `verified_employer_found`, and one `completed`
+outcome.
+
+Twenty-one protected Army identity candidates received explicit review:
+nineteen were accepted and two rejected. The two duplicate Edward Marchigiani
+Army rows agree on all publishable fields and produce one qualified occupation
+claim. Eighteen accepted people have date-bounded Army-entry occupation or
+student categories; none was converted into a named employer, institution,
+workplace, or immediate OSS predecessor. The damaged one-character Alfred E.
+Marchand source name was accepted only through a nonshared protected link and
+agreement on every other name element. The different-name Herbert D. Marcy
+candidate and the Daniel P./Daniel F. Margolies middle-initial conflict were
+rejected without transferring fields. No protected identifier, raw Army row,
+or bulk ordinal entered public data.
+
+The Library of Congress finding aid confirms Reconstruction Finance
+Corporation assistant manager Daniel F. Margolies in 1942-43, immediately
+followed by Army/OSS service. UC Berkeley documents Elwin Marg's faculty
+employment before World War II communications-officer service. French
+military archives and a NARA OSS award record confirm Paul Marchadier as a
+BCRA sous-lieutenant on the Marcel mission; that Allied assignment is not
+misrepresented as American OSS employment. Arnold D. Margolin's U.S. law
+practice and Greer M. Marechal's Marechal & Noe legal work remain visibly
+qualified, medium-confidence documented-prewar claims because their exact
+transitions into the indexed relationships are not established.
+
+Robert K. March and Robert K. Marck remain separate in a visible possible-
+duplicate group. Orfeo A. Marcelli's malformed nine-digit index number and
+Corrinem Marcey's unusual given name and Box 312 cross-reference require
+original-card review. Unbridged namesakes, snippets, genealogy pages, and
+postwar-only leads were rejected. Direct CIA adapter access was robots-
+disallowed and was not treated as a negative search result. No authenticated
+NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,627/23,935 (73.6453%)**;
+verified-employer coverage is **563/23,935 (2.3522%)**;
+verified-affiliation coverage is **1,231/23,935 (5.1431%)**; archival-review
+coverage is **16,139/23,935 (67.4285%)**. There are **6,303** not-started and
+**1,832** in-progress people. The public projection contains **4,654**
+affiliations, **1,407** organizations, **6,913** sources and **11,255**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1039 publication verification is recorded in
+`reports/release_batch_1039.md`.
+
 Batch 1038 completed PDF page 293, rows 1-46, from **James P. Mann**
 through **Kenneth Mar**. All 46 printed rows remain separately recoverable as
 46 cautious person entities. Forty-five people received new saved terminal
