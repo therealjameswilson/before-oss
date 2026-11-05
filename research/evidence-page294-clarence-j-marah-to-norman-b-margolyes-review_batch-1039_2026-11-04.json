@@ -1,0 +1,2599 @@
+{
+  "bundle_version": "batch-1039-v1",
+  "reviewer": "Before OSS Batch 1039 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 481-483",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 294, rows 1-46; page and every printed row visually checked at 180 dpi",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 46 printed rows remain separate. Duplicate Maratzo and Marchigiani rows link cautiously to one entity each without deleting source rows."
+    },
+    {
+      "key": "army-bulk-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; twenty-one Batch 1039 identity candidates explicitly reviewed; nineteen accepted and two rejected",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record, full protected identifier, or bulk-record ordinal is retained in public assets. Two duplicate Edward Marchigiani rows were reviewed explicitly."
+    },
+    {
+      "key": "army-tech-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits, and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-175 and 304; all eighteen published categories visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer, institution, workplace, nor exact Army-to-OSS sequence."
+    },
+    {
+      "key": "shd-paul-marchadier-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2019-10/SHDGR_INV_28P11_BCRA-AGENTS-RESEAUX_0.pdf",
+      "archival_identifier": "GR 28 P 11/20, dossier 1142; GR 28 P 4 171/81; GR 16 P 391417",
+      "title": "BCRA Agents and Networks Inventory",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense",
+      "publication_record_date": "Inventory published online 2019",
+      "locator": "Dossier 1142, Paul Henri Edmond Marchadier, alias Paul Henri Chamard; related individual file dated 1943-1945",
+      "source_quality": "A_direct_official",
+      "collection_name": "Bureau central de renseignements et d'action agent files",
+      "rights_notes": "The archival inventory supports BCRA identity and file references, not a civilian employer."
+    },
+    {
+      "key": "nara-paul-marchadier-award-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "104-10165-10120",
+      "title": "OSS awards list",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-07-18",
+      "locator": "PDF page 23; Bronze Star list, S/Lt Paul Marchadier, Marcel mission",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection; declassified OSS record",
+      "rights_notes": "Supports the exact indexed rank, name, and Marcel mission; it does not identify civilian employment."
+    },
+    {
+      "key": "uc-elwin-marg-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://senate.universityofcalifornia.edu/_files/inmemoriam/html/elwinmarg.html",
+      "title": "Elwin Marg, Professor of Optometry, Emeritus",
+      "author_creator": "Gerald Westheimer",
+      "repository_publisher": "University of California Academic Senate",
+      "publication_record_date": "2010",
+      "locator": "Biographical notice; 1938 entry, 1940 degree and faculty chronology; wartime communications-officer service",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of California In Memoriam",
+      "rights_notes": "The notice supports a faculty relationship before wartime service but not the exact administrative connection to the OSS index."
+    },
+    {
+      "key": "loc-daniel-margolies-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms019011/ms019011.pdf",
+      "archival_identifier": "MSS86306",
+      "title": "Daniel F. Margolies Papers",
+      "author_creator": "Manuscript Division, Library of Congress",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "Finding aid revised 2019",
+      "locator": "PDF page 3, biographical note; Reconstruction Finance Corporation 1942-1943 followed by Army/OSS 1943-1946",
+      "source_quality": "A_direct_official",
+      "collection_name": "Daniel F. Margolies Papers",
+      "rights_notes": "The official chronology supports the immediate pre-OSS government employer and precise transition."
+    },
+    {
+      "key": "encyclopedia-ukraine-arnold-margolin-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CM%5CA%5CMargolinArnold.htm",
+      "title": "Margolin, Arnold",
+      "author_creator": "Larysa Bilous",
+      "repository_publisher": "Internet Encyclopedia of Ukraine, Canadian Institute of Ukrainian Studies",
+      "publication_record_date": "Updated 2023",
+      "locator": "Biographical entry; United States law practice and university lecturing after 1922",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Internet Encyclopedia of Ukraine",
+      "rights_notes": "Supports documented prewar professional activity, but not its immediacy before the indexed OSS relationship."
+    },
+    {
+      "key": "federal-reporter-greer-marechal-b1039",
+      "access_date": "2026-11-04",
+      "stable_url": "https://law.justia.com/cases/federal/district-courts/FSupp/26/162/2593562/",
+      "archival_identifier": "26 F. Supp. 162; No. 365",
+      "title": "Sprout, Waldron & Co. v. Bauer Bros. Co.",
+      "author_creator": "United States District Court for the Southern District of Ohio",
+      "repository_publisher": "Justia, reproducing Federal Supplement",
+      "publication_record_date": "1938-08-04",
+      "locator": "Counsel listing on page 163; Greer Marechal and Marechal & Noe of Dayton",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Federal court decisions",
+      "rights_notes": "Supports documented 1938 law-firm practice. The exact transition into the indexed file is not established."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "bcra-b1039",
+      "canonical_name": "Bureau central de renseignements et d'action",
+      "historical_name": "Bureau central de renseignements et d'action (BCRA)",
+      "aliases": [
+        "BCRA"
+      ],
+      "organization_type": "Free French intelligence service",
+      "sector": "military",
+      "country": "France",
+      "active_dates": "1942-1943 under this name",
+      "normalization_notes": "Preserved as a Free French organization; not silently normalized to the OSS or a modern French service."
+    },
+    {
+      "key": "uc-berkeley-optometry-b1039",
+      "canonical_name": "University of California, Berkeley School of Optometry",
+      "historical_name": "School of Optometry, University of California, Berkeley",
+      "aliases": [
+        "UC Berkeley School of Optometry"
+      ],
+      "organization_type": "university school",
+      "sector": "academia_and_research",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Part of the University of California, Berkeley. Student attendance and faculty employment are modeled separately; only employment is counted here."
+    },
+    {
+      "key": "reconstruction-finance-corporation-b1039",
+      "canonical_name": "Reconstruction Finance Corporation",
+      "historical_name": "Reconstruction Finance Corporation",
+      "aliases": [
+        "RFC"
+      ],
+      "organization_type": "federal government corporation",
+      "sector": "federal_government",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "active_dates": "1932-1957",
+      "normalization_notes": "The Library of Congress finding aid places Margolies in the corporation's Rio de Janeiro office in 1942-1943."
+    },
+    {
+      "key": "marechal-noe-b1039",
+      "canonical_name": "Marechal & Noe",
+      "historical_name": "Marechal & Noe",
+      "aliases": [],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "Dayton",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "The 1938 historical firm name is preserved; no later firm or successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "angelo-p-marano-army-association-b1039",
+      "person_id": "12592f5d-93aa-55ae-8df9-722ebf15ce5c",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-08",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1942-09-08; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "stock clerk"
+    },
+    {
+      "key": "arthur-r-marceau-army-association-b1039",
+      "person_id": "ea447f86-4d25-56c5-8e2a-9afad602713a",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-09",
+      "date_precision": "Historical civilian-occupation code 242 was recorded at Army entry on 1942-11-09; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "hospital or institutional attendant, not elsewhere classified"
+    },
+    {
+      "key": "irving-a-march-army-association-b1039",
+      "person_id": "fbbcd7af-fe1f-512a-8442-55f2f3b600e3",
+      "relationship_type": "unknown",
+      "end_date": "1941-04-05",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1941-04-05; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "bookkeeper or cashier, except bank"
+    },
+    {
+      "key": "alfred-e-marchand-army-association-b1039",
+      "person_id": "bb66ec2f-10c0-5d22-a818-73b048fb7414",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-28",
+      "date_precision": "Historical civilian-occupation code 678 was recorded at Army entry on 1942-11-28; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "worker in a machine-shop or related occupation, not elsewhere classified"
+    },
+    {
+      "key": "frederick-a-marchese-army-association-b1039",
+      "person_id": "a0636f5d-a506-59d9-9534-eec5c1f41de5",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-19",
+      "date_precision": "Historical civilian-occupation code 949 was recorded at Army entry on 1942-10-19; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "worker in an unskilled transportation occupation, not elsewhere classified"
+    },
+    {
+      "key": "edward-marchigiani-army-association-b1039",
+      "person_id": "04f9bd64-030a-54eb-83e9-97c40d3f1e0d",
+      "relationship_type": "unknown",
+      "end_date": "1940-11-30",
+      "date_precision": "Historical civilian-occupation code 773 was recorded at Army entry on 1940-11-30; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "crane, derrick, hoist, or shovel operator"
+    },
+    {
+      "key": "victor-j-marchino-army-association-b1039",
+      "person_id": "5a76af0e-05a1-52a6-88e3-c0a7632fb1ee",
+      "relationship_type": "unknown",
+      "end_date": "1942-05-05",
+      "date_precision": "Historical civilian-occupation code 152 was recorded at Army entry on 1942-05-05; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "salesman for a brokerage or commission firm, not elsewhere classified"
+    },
+    {
+      "key": "joseph-a-marciari-army-association-b1039",
+      "person_id": "d953f990-b90c-5c40-9c9c-6873e7ca640e",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-30",
+      "date_precision": "Historical civilian-occupation code 170 was recorded at Army entry on 1942-11-30; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "sales clerk"
+    },
+    {
+      "key": "joseph-marcolla-army-association-b1039",
+      "person_id": "0e1f0369-dc6d-51bb-ad34-57ca60e583f6",
+      "relationship_type": "unknown",
+      "end_date": "1942-08-18",
+      "date_precision": "Historical civilian-occupation code 932 was recorded at Army entry on 1942-08-18; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "worker in an unskilled construction occupation, not elsewhere classified"
+    },
+    {
+      "key": "vincent-e-marcone-army-association-b1039",
+      "person_id": "db960f67-3957-5428-8a88-1529ec29895c",
+      "relationship_type": "unknown",
+      "end_date": "1942-12-30",
+      "date_precision": "Historical civilian-occupation code 678 was recorded at Army entry on 1942-12-30; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "worker in a machine-shop or related occupation, not elsewhere classified"
+    },
+    {
+      "key": "hughie-j-marcum-army-association-b1039",
+      "person_id": "7a03c877-d52f-5391-8816-373d9afb762e",
+      "relationship_type": "unknown",
+      "end_date": "1943-04-28",
+      "date_precision": "Historical civilian-occupation code 583 was recorded at Army entry on 1943-04-28; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "mechanic or repairman, not elsewhere classified"
+    },
+    {
+      "key": "clarence-marcus-army-association-b1039",
+      "person_id": "dc96e106-bf65-543c-bbc6-86c1a4e53550",
+      "relationship_type": "student",
+      "end_date": "1942-10-22",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-10-22; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "role_title": "student"
+    },
+    {
+      "key": "emil-e-marcus-army-association-b1039",
+      "person_id": "3b9f32a7-eb0c-5c92-a3a4-5b55f7338d59",
+      "relationship_type": "unknown",
+      "end_date": "1941-05-23",
+      "date_precision": "Historical civilian-occupation code 156 was recorded at Army entry on 1941-05-23; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "demonstrator"
+    },
+    {
+      "key": "joseph-e-marcus-army-association-b1039",
+      "person_id": "de994a4b-8d1d-5b4f-a8a5-27e7ce3daf86",
+      "relationship_type": "unknown",
+      "end_date": "1941-03-17",
+      "date_precision": "Historical civilian-occupation code 137 was recorded at Army entry on 1941-03-17; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "stenographer or typist"
+    },
+    {
+      "key": "panagiotis-p-mareskas-army-association-b1039",
+      "person_id": "1ebf20aa-ff35-5dfa-8072-9a6b57574a52",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-08",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1942-10-08; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "actor"
+    },
+    {
+      "key": "anthony-margherita-army-association-b1039",
+      "person_id": "5a02d6a6-9a60-5b75-b308-226ea2c2ab8b",
+      "relationship_type": "unknown",
+      "end_date": "1941-11-06",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1941-11-06; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "driver or chauffeur"
+    },
+    {
+      "key": "herman-l-margoles-army-association-b1039",
+      "person_id": "e705e02d-7271-5558-9e67-ac647f1c44a5",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-25",
+      "date_precision": "Historical civilian-occupation code 072 was recorded at Army entry on 1942-11-25; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "retail manager"
+    },
+    {
+      "key": "norman-b-margolyes-army-association-b1039",
+      "person_id": "dcb2bf93-bcfc-508d-98cf-59ac081fa9c2",
+      "relationship_type": "unknown",
+      "end_date": "1942-07-14",
+      "date_precision": "Historical civilian-occupation code 072 was recorded at Army entry on 1942-07-14; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization.",
+      "occupation": "retail manager"
+    },
+    {
+      "key": "paul-marchadier-bcra-b1039",
+      "person_id": "1b39ff16-f29b-588b-9f83-be63a822917f",
+      "organization_key": "bcra-b1039",
+      "organization_name_as_found": "BCRA",
+      "role_title": "sous-lieutenant",
+      "relationship_type": "military_assignment",
+      "end_date": "1944-09",
+      "date_precision": "The official French file spans 1943-1945 and the NARA award list places S/Lt Marchadier on the Marcel mission in 1944.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is an Allied wartime affiliation concurrent with OSS cooperation, not a claim that Marchadier was an American OSS employee."
+    },
+    {
+      "key": "elwin-marg-berkeley-faculty-b1039",
+      "person_id": "3718a624-ff8b-5ce0-ac0f-7fa4030586f5",
+      "organization_key": "uc-berkeley-optometry-b1039",
+      "organization_name_as_found": "School of Optometry at the University of California, Berkeley",
+      "role_title": "faculty member",
+      "occupation": "optometry faculty member",
+      "relationship_type": "employment",
+      "start_date": "1940",
+      "end_date": "before or during World War II",
+      "date_precision": "The institutional biography says he received his degree in 1940, then served on the faculty, and during World War II served as an Air Force communications officer.",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The faculty role is the best-supported last civilian employment before wartime service; the exact OSS relationship remains unverified."
+    },
+    {
+      "key": "daniel-f-margolies-rfc-b1039",
+      "person_id": "9189a5cf-b440-53a6-b31a-50a40ac9692c",
+      "organization_key": "reconstruction-finance-corporation-b1039",
+      "organization_name_as_found": "Reconstruction Finance Corp.",
+      "role_title": "assistant manager",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "end_date": "1943",
+      "date_precision": "The Library of Congress biographical chronology places this role in 1942-1943, immediately before Army/OSS service beginning in 1943.",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "A federal government assignment, modeled separately from private-sector employment."
+    },
+    {
+      "key": "arnold-d-margolin-law-practice-b1039",
+      "person_id": "fc845180-4288-530b-a1ac-d9b7f70f97da",
+      "organization_name_as_found": "private law practice in the United States",
+      "role_title": "lawyer",
+      "occupation": "lawyer",
+      "relationship_type": "self_employment",
+      "start_date": "after 1922",
+      "end_date": "before or during World War II",
+      "date_precision": "The institutional encyclopedia states that after emigrating in 1922 he practiced law and lectured at universities; it does not date the end of that work.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as other documented prewar employment, not as the immediate predecessor to OSS."
+    },
+    {
+      "key": "greer-m-marechal-marechal-noe-b1039",
+      "person_id": "b8b22870-60ab-5c76-91ee-bf451d391956",
+      "organization_key": "marechal-noe-b1039",
+      "organization_name_as_found": "Marechal & Noe",
+      "role_title": "attorney",
+      "occupation": "patent lawyer",
+      "relationship_type": "employment",
+      "end_date": "1938-08-04",
+      "date_precision": "A contemporary federal court opinion lists Greer Marechal and Marechal & Noe of Dayton as counsel in 1938; no later pre-OSS chronology is established.",
+      "city": "Dayton",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The uncommon name and middle initial align, but the indexed personnel file is still needed to bridge the legal career to the OSS record."
+    }
+  ],
+  "claims": [
+    {
+      "key": "army-angelo-p-marano-b1039",
+      "person_id": "12592f5d-93aa-55ae-8df9-722ebf15ce5c",
+      "affiliation_key": "angelo-p-marano-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-08, Angelo P Marano was recorded as stock clerk; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 138, and the visually checked official code list defines the category as Stock clerks.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 1-38"
+        }
+      ]
+    },
+    {
+      "key": "army-arthur-r-marceau-b1039",
+      "person_id": "ea447f86-4d25-56c5-8e2a-9afad602713a",
+      "affiliation_key": "arthur-r-marceau-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-09, Arthur R Marceau was recorded as hospital or institutional attendant, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 242, and the visually checked official code list defines the category as Attendants, hospitals and other institutions, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 172; historical category 2-42"
+        }
+      ]
+    },
+    {
+      "key": "army-irving-a-march-b1039",
+      "person_id": "fbbcd7af-fe1f-512a-8442-55f2f3b600e3",
+      "affiliation_key": "irving-a-march-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-04-05, Irving A March was recorded as bookkeeper or cashier, except bank; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 101, and the visually checked official code list defines the category as Bookkeepers and cashiers, except bank.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 1-01"
+        }
+      ]
+    },
+    {
+      "key": "army-alfred-e-marchand-b1039",
+      "person_id": "bb66ec2f-10c0-5d22-a818-73b048fb7414",
+      "affiliation_key": "alfred-e-marchand-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-28, Alfred E Marchand was recorded as worker in a machine-shop or related occupation, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 678, and the visually checked official code list defines the category as Machine shop and related occupations, n.e.c..",
+      "identity_match_assessment": "Confirmed by a nonshared protected linkage and agreement on every name element except one visibly damaged surname character; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 174; historical category 6,7-78"
+        }
+      ]
+    },
+    {
+      "key": "army-frederick-a-marchese-b1039",
+      "person_id": "a0636f5d-a506-59d9-9534-eec5c1f41de5",
+      "affiliation_key": "frederick-a-marchese-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-19, Frederick A Marchese was recorded as worker in an unskilled transportation occupation, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 949, and the visually checked official code list defines the category as Transportation occupations, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 174; historical category 9-49"
+        }
+      ]
+    },
+    {
+      "key": "army-edward-marchigiani-b1039",
+      "person_id": "04f9bd64-030a-54eb-83e9-97c40d3f1e0d",
+      "affiliation_key": "edward-marchigiani-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1940-11-30, Edward Marchigiani was recorded as crane, derrick, hoist, or shovel operator; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 773, and the visually checked official code list defines the category as Cranemen, derrickmen, hoistmen, and shovelmen.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private. Two duplicate official Army rows agree on all publishable fields and were both accepted explicitly.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 175; historical category 7-73"
+        }
+      ]
+    },
+    {
+      "key": "army-victor-j-marchino-b1039",
+      "person_id": "5a76af0e-05a1-52a6-88e3-c0a7632fb1ee",
+      "affiliation_key": "victor-j-marchino-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-05, Victor J Marchino was recorded as salesman for a brokerage or commission firm, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 152, and the visually checked official code list defines the category as Salesmen, brokerage and commission firms, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 1-52"
+        }
+      ]
+    },
+    {
+      "key": "army-joseph-a-marciari-b1039",
+      "person_id": "d953f990-b90c-5c40-9c9c-6873e7ca640e",
+      "affiliation_key": "joseph-a-marciari-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-30, Joseph A Marciari was recorded as sales clerk; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 170, and the visually checked official code list defines the category as Sales clerks.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 1-70"
+        }
+      ]
+    },
+    {
+      "key": "army-joseph-marcolla-b1039",
+      "person_id": "0e1f0369-dc6d-51bb-ad34-57ca60e583f6",
+      "affiliation_key": "joseph-marcolla-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-18, Joseph Marcolla was recorded as worker in an unskilled construction occupation, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 932, and the visually checked official code list defines the category as Construction occupations, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 174; historical category 9-32"
+        }
+      ]
+    },
+    {
+      "key": "army-vincent-e-marcone-b1039",
+      "person_id": "db960f67-3957-5428-8a88-1529ec29895c",
+      "affiliation_key": "vincent-e-marcone-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-30, Vincent E Marcone was recorded as worker in a machine-shop or related occupation, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 678, and the visually checked official code list defines the category as Machine shop and related occupations, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 174; historical category 6,7-78"
+        }
+      ]
+    },
+    {
+      "key": "army-hughie-j-marcum-b1039",
+      "person_id": "7a03c877-d52f-5391-8816-373d9afb762e",
+      "affiliation_key": "hughie-j-marcum-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-28, Hughie J Marcum was recorded as mechanic or repairman, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 583, and the visually checked official code list defines the category as Mechanics and repairmen, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 175; historical category 5,8-83"
+        }
+      ]
+    },
+    {
+      "key": "army-clarence-marcus-b1039",
+      "person_id": "dc96e106-bf65-543c-bbc6-86c1a4e53550",
+      "affiliation_key": "clarence-marcus-army-association-b1039",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1942-10-22, Clarence Marcus was recorded as student; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 992, and the visually checked official code list defines the category as Students.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ]
+    },
+    {
+      "key": "army-emil-e-marcus-b1039",
+      "person_id": "3b9f32a7-eb0c-5c92-a3a4-5b55f7338d59",
+      "affiliation_key": "emil-e-marcus-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-05-23, Emil E Marcus was recorded as demonstrator; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 156, and the visually checked official code list defines the category as Demonstrators.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 1-56"
+        }
+      ]
+    },
+    {
+      "key": "army-joseph-e-marcus-b1039",
+      "person_id": "de994a4b-8d1d-5b4f-a8a5-27e7ce3daf86",
+      "affiliation_key": "joseph-e-marcus-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-17, Joseph E Marcus was recorded as stenographer or typist; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 137, and the visually checked official code list defines the category as Stenographers and typists.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 1-37"
+        }
+      ]
+    },
+    {
+      "key": "army-panagiotis-p-mareskas-b1039",
+      "person_id": "1ebf20aa-ff35-5dfa-8072-9a6b57574a52",
+      "affiliation_key": "panagiotis-p-mareskas-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-08, Panagiotis P Mareskas was recorded as actor; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 002, and the visually checked official code list defines the category as Actors and actresses.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 170; historical category 0-02"
+        }
+      ]
+    },
+    {
+      "key": "army-anthony-margherita-b1039",
+      "person_id": "5a02d6a6-9a60-5b75-b308-226ea2c2ab8b",
+      "affiliation_key": "anthony-margherita-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-11-06, Anthony Margherita was recorded as driver or chauffeur; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 736, and the visually checked official code list defines the category as Drivers and chauffeurs, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 175; historical category 7-36"
+        }
+      ]
+    },
+    {
+      "key": "army-herman-l-margoles-b1039",
+      "person_id": "e705e02d-7271-5558-9e67-ac647f1c44a5",
+      "affiliation_key": "herman-l-margoles-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-25, Herman L Margoles was recorded as retail manager; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 072, and the visually checked official code list defines the category as Retail managers.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 0-72"
+        }
+      ]
+    },
+    {
+      "key": "army-norman-b-margolyes-b1039",
+      "person_id": "dcb2bf93-bcfc-508d-98cf-59ac081fa9c2",
+      "affiliation_key": "norman-b-margolyes-army-association-b1039",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-14, Norman B Margolyes was recorded as retail manager; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 072, and the visually checked official code list defines the category as Retail managers.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1039"
+        },
+        {
+          "source_key": "army-bulk-b1039"
+        },
+        {
+          "source_key": "army-tech-b1039",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1039",
+          "locator_override": "PDF physical page 171; historical category 0-72"
+        }
+      ]
+    },
+    {
+      "key": "bcra-paul-marchadier-b1039",
+      "person_id": "1b39ff16-f29b-588b-9f83-be63a822917f",
+      "affiliation_key": "paul-marchadier-bcra-b1039",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Paul Marchadier was a French BCRA sous-lieutenant who served with the Marcel mission alongside OSS personnel.",
+      "evidence_paraphrase": "French military inventories identify his BCRA file, while a NARA OSS awards record names S/Lt Paul Marchadier and the Marcel mission.",
+      "identity_match_assessment": "Confirmed by the exact uncommon name, matching indexed French S/Lt rank, BCRA file, and direct NARA mission record.",
+      "temporal_assessment": "Strongly date-bounded wartime Allied assignment; it is not labeled a civilian employer or an American OSS employment relationship.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The public profile preserves the distinction between Allied BCRA affiliation and OSS cooperation.",
+      "sources": [
+        {
+          "source_key": "shd-paul-marchadier-b1039"
+        },
+        {
+          "source_key": "nara-paul-marchadier-award-b1039"
+        },
+        {
+          "source_key": "nara-index-b1039",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "berkeley-elwin-marg-b1039",
+      "person_id": "3718a624-ff8b-5ce0-ac0f-7fa4030586f5",
+      "affiliation_key": "elwin-marg-berkeley-faculty-b1039",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Elwin Marg's best-supported last civilian employer before wartime service was UC Berkeley's School of Optometry.",
+      "evidence_paraphrase": "The UC Academic Senate chronology places his 1940 degree, ensuing faculty service, and World War II Air Force communications duty in sequence.",
+      "identity_match_assessment": "High confidence from the exact distinctive name, UC chronology, and compatible wartime military context; the indexed Box 482 file remains unreviewed.",
+      "temporal_assessment": "Strongly date-bounded as civilian faculty employment before wartime service, but not proven to be the immediate predecessor to an OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student attendance is not mislabeled as employment; only the separately documented faculty role is counted.",
+      "sources": [
+        {
+          "source_key": "uc-elwin-marg-b1039"
+        },
+        {
+          "source_key": "nara-index-b1039",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "rfc-daniel-f-margolies-b1039",
+      "person_id": "9189a5cf-b440-53a6-b31a-50a40ac9692c",
+      "affiliation_key": "daniel-f-margolies-rfc-b1039",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Daniel F. Margolies served as an assistant manager for the Reconstruction Finance Corporation immediately before Army/OSS service.",
+      "evidence_paraphrase": "The Library of Congress dates the Rio de Janeiro RFC role to 1942-1943 and Army/OSS service to 1943-1946.",
+      "identity_match_assessment": "Confirmed by the exact full name, Library of Congress career chronology, indexed officer identifier pattern, and direct OSS service statement.",
+      "temporal_assessment": "Strongly date-bounded and directly sequential; RFC is also the best-supported last civilian government employer before military service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Kept as a government assignment rather than private employment.",
+      "sources": [
+        {
+          "source_key": "loc-daniel-margolies-b1039"
+        },
+        {
+          "source_key": "nara-index-b1039",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "law-practice-arnold-d-margolin-b1039",
+      "person_id": "fc845180-4288-530b-a1ac-d9b7f70f97da",
+      "affiliation_key": "arnold-d-margolin-law-practice-b1039",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Arnold D. Margolin practiced law in the United States before the war; accessible evidence does not establish that it immediately preceded OSS work.",
+      "evidence_paraphrase": "The Canadian Institute of Ukrainian Studies biography states that after his 1922 emigration he practiced law and lectured at universities.",
+      "identity_match_assessment": "Probable from the uncommon exact name, senior civilian indexed grade, and documented U.S. legal and public-affairs career; the Box 482 file remains unreviewed.",
+      "temporal_assessment": "Documented prewar professional activity with uncertain end date and uncertain immediacy.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No specific university is treated as an employer without a dated source.",
+      "sources": [
+        {
+          "source_key": "encyclopedia-ukraine-arnold-margolin-b1039"
+        },
+        {
+          "source_key": "nara-index-b1039",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "marechal-noe-greer-m-marechal-b1039",
+      "person_id": "b8b22870-60ab-5c76-91ee-bf451d391956",
+      "affiliation_key": "greer-m-marechal-marechal-noe-b1039",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Greer M. Marechal is probably the Dayton attorney documented with Marechal & Noe in 1938.",
+      "evidence_paraphrase": "A contemporary federal court opinion lists Greer Marechal and the Dayton law firm Marechal & Noe as counsel.",
+      "identity_match_assessment": "Probable from the uncommon name and matching middle initial, but the indexed Box 482 file has not been compared to the legal record.",
+      "temporal_assessment": "Documented prewar employment; no source establishes that it was the immediate predecessor to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Visibly qualified and excluded from default high-confidence analytics.",
+      "sources": [
+        {
+          "source_key": "federal-reporter-greer-marechal-b1039"
+        },
+        {
+          "source_key": "nara-index-b1039",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a023bc7e-95dc-5d4a-9c09-3d24829f1bdf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Clarence J Marah, Box 481, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "12592f5d-93aa-55ae-8df9-722ebf15ce5c",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 481 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "7c8e6346-307a-5b5f-b9bf-7dd3c8969573",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Victor J Marasa, Box 481, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b8ae54d3-5969-5238-a9bb-2300b9407a78",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Augustine J Maratzo, Box 481, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bcd4303e-fffa-5ebc-b501-6b30019416da",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves John C Marbach, Box 481, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ea447f86-4d25-56c5-8e2a-9afad602713a",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 481 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "9a9d713b-fcb0-58d9-ae14-f2a902bbede3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints a nine-digit numeric value for Orfeo A. Marcelli, unlike the usual Army format. A namesake airborne-service page was rejected because it does not bridge to this OSS-indexed record.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 481 and the original index card to verify the printed number and distinguish the airborne namesake before assigning any biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "batch1039-orfeo-marcelli-malformed-number"
+    },
+    {
+      "person_id": "5b454610-8c9d-567d-8dfa-431411c7c78d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Alice D Marcellus, Box 481, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0d636e5f-4d1e-5eac-99de-cbda3c9e6665",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints the unusual given name 'Corrinem' and note 'Also 312'. Search variants did not establish a safe identity.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Boxes 481 and 312 and the original index card to recover the intended spelling and cross-reference before further research.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "batch1039-corrinem-marcey-cross-reference"
+    },
+    {
+      "person_id": "6fe600b4-3ee1-5a5b-a852-02566adbba44",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Doris G March, Box 481, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3fa31fbc-ce95-5cb3-b99b-ce72ac39f897",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Harold M March, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fbbcd7af-fe1f-512a-8442-55f2f3b600e3",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "4db308d3-43af-5fa2-a297-2c27383e429b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Robert K. March and Robert K. Marck appear on the same page with closely related spellings and nearly identical printed numbers differing in the first digit. They remain separate.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Jointly review both Box 482 records and original index cards before deciding whether March and Marck are duplicates or different people.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "batch1039-robert-k-march-marck"
+    },
+    {
+      "person_id": "50ddfd89-8677-5c51-aa34-ae437787e445",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Robert A March, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1b39ff16-f29b-588b-9f83-be63a822917f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact uncommon name, matching French S/Lt rank, official BCRA file, and NARA Marcel-mission record establish Paul Marchadier.",
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 482 and SHD files GR 28 P 11/20 and GR 28 P 4 171/81 to identify Marchadier's civilian employment before BCRA service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Paul Henri Edmond Marchadier",
+        "Paul Henri Chamard"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true
+    },
+    {
+      "person_id": "bb66ec2f-10c0-5d22-a818-73b048fb7414",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by a nonshared protected linkage and agreement on every name element except one visibly damaged surname character; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "a0636f5d-a506-59d9-9534-eec5c1f41de5",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "6a0e77e5-6026-5d9e-a7dc-6a1eb4d66e8e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Vincent J Marchese, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04f9bd64-030a-54eb-83e9-97c40d3f1e0d",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private. Two duplicate official Army rows agree on all publishable fields and were both accepted explicitly.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "5a76af0e-05a1-52a6-88e3-c0a7632fb1ee",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "d953f990-b90c-5c40-9c9c-6873e7ca640e",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "ea9d802b-77c3-5615-85ec-b549f52b237e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Robert K. Marck and Robert K. March appear on the same page with closely related spellings and nearly identical printed numbers differing in the first digit. They remain separate.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Jointly review both Box 482 records and original index cards before deciding whether Marck and March are duplicates or different people.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "batch1039-robert-k-march-marck"
+    },
+    {
+      "person_id": "0e1f0369-dc6d-51bb-ad34-57ca60e583f6",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "db960f67-3957-5428-8a88-1529ec29895c",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "747a00e8-9697-50dd-a3c3-bf52c7413706",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Anthony Marcucci, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7a03c877-d52f-5391-8816-373d9afb762e",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "dc96e106-bf65-543c-bbc6-86c1a4e53550",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "3b9f32a7-eb0c-5c92-a3a4-5b55f7338d59",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "de994a4b-8d1d-5b4f-a8a5-27e7ce3daf86",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "9b0ff9af-64d8-592f-8dd8-bd8fe60ad1e6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Mildred S Marcus, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "45a59ffc-eaac-581c-80ff-393af6e87fb4",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected-linkage Army lead names a different person and the identifier is shared across different indexed names. It was rejected and no fields were transferred.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Jointly review Box 482 and the conflicting identifier-bearing files before assigning any Army identity or occupation to Herbert D. Marcy.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a65eb747-2057-5d0b-97fc-26ce687aa869",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Laura E Marden, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b8b22870-60ab-5c76-91ee-bf451d391956",
+      "identity_status": "probable",
+      "identity_evidence": "The uncommon name and middle initial align with contemporary federal-court records for Dayton patent attorney Greer Marechal, but the personnel file has not been cross-compared.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 482 to confirm the Dayton lawyer identity and determine whether Marechal & Noe immediately preceded the indexed OSS relationship.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1ebf20aa-ff35-5dfa-8072-9a6b57574a52",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "3718a624-ff8b-5ce0-ac0f-7fa4030586f5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact distinctive name, UC Berkeley chronology, and compatible World War II Air Force communications-officer service support Elwin Marg.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 482 to establish Marg's exact OSS administrative relationship and whether Air Force service directly preceded it.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "13906f4d-b773-5252-a24d-b5937b67336b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Helen E Marg, Box 482, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5a02d6a6-9a60-5b75-b308-226ea2c2ab8b",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "e705e02d-7271-5558-9e67-ac647f1c44a5",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "acd47508-c324-503f-89d1-f5282323109c",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected-linkage Army lead has middle initial F, while this index row prints Daniel P. Margolies and separately lists Daniel F. Margolies. It was rejected and no fields were transferred.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Jointly review the Daniel P. and Daniel F. Margolies Box 482 files before merging or transferring any Army evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9189a5cf-b440-53a6-b31a-50a40ac9692c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact name and Library of Congress chronology explicitly connect Daniel F. Margolies's Reconstruction Finance Corporation, Army, and OSS service.",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 482 to enrich the confirmed RFC-to-Army/OSS chronology with assignment dates and claim-level personnel-file evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "fc845180-4288-530b-a1ac-d9b7f70f97da",
+      "identity_status": "probable",
+      "identity_evidence": "The uncommon exact name, senior CAF-11 grade, and authoritative U.S. legal/public-affairs biography support but do not conclusively prove the Arnold D. Margolin identity.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 482 to confirm identity and determine which law practice, lecture appointment, or government role immediately preceded OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "2375edcc-abd5-5184-9114-ddd91db13879",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Bernard Margolis, Box 483, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 483 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6be45386-3cf5-5767-b97a-8ed733de65f4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 294 source preserves Harry Margolis, Box 483, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 483 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dcb2bf93-bcfc-508d-98cf-59ac081fa9c2",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 483 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page294-row1-clarence-j-marah-b1039",
+      "person_id": "a023bc7e-95dc-5d4a-9c09-3d24829f1bdf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence J Marah; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row2-angelo-p-marano-b1039",
+      "person_id": "12592f5d-93aa-55ae-8df9-722ebf15ce5c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Angelo P Marano; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 481 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row3-victor-j-marasa-b1039",
+      "person_id": "7c8e6346-307a-5b5f-b9bf-7dd3c8969573",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor J Marasa; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row4-augustine-j-maratzo-b1039",
+      "person_id": "b8ae54d3-5969-5238-a9bb-2300b9407a78",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Augustine J Maratzo; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row6-john-c-marbach-b1039",
+      "person_id": "bcd4303e-fffa-5ebc-b501-6b30019416da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John C Marbach; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row7-arthur-r-marceau-b1039",
+      "person_id": "ea447f86-4d25-56c5-8e2a-9afad602713a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur R Marceau; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 481 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row8-orfeo-a-marcelli-b1039",
+      "person_id": "9a9d713b-fcb0-58d9-ae14-f2a902bbede3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Orfeo A Marcelli; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The malformed index number and unbridged airborne namesake require original-file review. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 481 and the original index card to verify the printed number and distinguish the airborne namesake before assigning any biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row9-alice-d-marcellus-b1039",
+      "person_id": "5b454610-8c9d-567d-8dfa-431411c7c78d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alice D Marcellus; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row10-corrinem-marcey-b1039",
+      "person_id": "0d636e5f-4d1e-5eac-99de-cbda3c9e6665",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Corrinem Marcey; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The unusual given name and Box 312 cross-reference require original-card review. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Boxes 481 and 312 and the original index card to recover the intended spelling and cross-reference before further research.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row11-doris-g-march-b1039",
+      "person_id": "6fe600b4-3ee1-5a5b-a852-02566adbba44",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Doris G March; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 481",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 481 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row12-harold-m-march-b1039",
+      "person_id": "3fa31fbc-ce95-5cb3-b99b-ce72ac39f897",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold M March; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row13-irving-a-march-b1039",
+      "person_id": "fbbcd7af-fe1f-512a-8442-55f2f3b600e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irving A March; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row14-robert-k-march-b1039",
+      "person_id": "4db308d3-43af-5fa2-a297-2c27383e429b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert K March; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The Robert K. March/Marck near-duplicate remains unresolved. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Jointly review both Box 482 records and original index cards before deciding whether March and Marck are duplicates or different people.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row15-robert-a-march-b1039",
+      "person_id": "50ddfd89-8677-5c51-aa34-ae437787e445",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert A March; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row16-paul-marchadier-b1039",
+      "person_id": "1b39ff16-f29b-588b-9f83-be63a822917f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Marchadier; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Official French and NARA records support BCRA identity and the Marcel mission, but no civilian employer. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 and SHD files GR 28 P 11/20 and GR 28 P 4 171/81 to identify Marchadier's civilian employment before BCRA service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row17-alfred-e-marchand-b1039",
+      "person_id": "bb66ec2f-10c0-5d22-a818-73b048fb7414",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred E Marchand; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row18-frederick-a-marchese-b1039",
+      "person_id": "a0636f5d-a506-59d9-9534-eec5c1f41de5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederick A Marchese; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row19-vincent-j-marchese-b1039",
+      "person_id": "6a0e77e5-6026-5d9e-a7dc-6a1eb4d66e8e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vincent J Marchese; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row20-edward-marchigiani-b1039",
+      "person_id": "04f9bd64-030a-54eb-83e9-97c40d3f1e0d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward Marchigiani; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row22-victor-j-marchino-b1039",
+      "person_id": "5a76af0e-05a1-52a6-88e3-c0a7632fb1ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor J Marchino; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row23-joseph-a-marciari-b1039",
+      "person_id": "d953f990-b90c-5c40-9c9c-6873e7ca640e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph A Marciari; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row24-robert-k-marck-b1039",
+      "person_id": "ea9d802b-77c3-5615-85ec-b549f52b237e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert K Marck; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Jointly review both Box 482 records and original index cards before deciding whether Marck and March are duplicates or different people.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row25-joseph-marcolla-b1039",
+      "person_id": "0e1f0369-dc6d-51bb-ad34-57ca60e583f6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Marcolla; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row26-vincent-e-marcone-b1039",
+      "person_id": "db960f67-3957-5428-8a88-1529ec29895c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vincent E Marcone; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row27-anthony-marcucci-b1039",
+      "person_id": "747a00e8-9697-50dd-a3c3-bf52c7413706",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony Marcucci; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row28-hughie-j-marcum-b1039",
+      "person_id": "7a03c877-d52f-5391-8816-373d9afb762e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hughie J Marcum; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row29-clarence-marcus-b1039",
+      "person_id": "dc96e106-bf65-543c-bbc6-86c1a4e53550",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence Marcus; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row30-emil-e-marcus-b1039",
+      "person_id": "3b9f32a7-eb0c-5c92-a3a4-5b55f7338d59",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Emil E Marcus; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row31-joseph-e-marcus-b1039",
+      "person_id": "de994a4b-8d1d-5b4f-a8a5-27e7ce3daf86",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph E Marcus; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row32-mildred-s-marcus-b1039",
+      "person_id": "9b0ff9af-64d8-592f-8dd8-bd8fe60ad1e6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mildred S Marcus; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row33-herbert-d-marcy-b1039",
+      "person_id": "45a59ffc-eaac-581c-80ff-393af6e87fb4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert D Marcy; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "A different-name, shared-identifier Army lead was rejected and no fields were transferred. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Jointly review Box 482 and the conflicting identifier-bearing files before assigning any Army identity or occupation to Herbert D. Marcy.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row34-laura-e-marden-b1039",
+      "person_id": "a65eb747-2057-5d0b-97fc-26ce687aa869",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Laura E Marden; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row35-greer-m-marechal-b1039",
+      "person_id": "b8b22870-60ab-5c76-91ee-bf451d391956",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Greer M Marechal; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "A contemporary court record supports Marechal & Noe as qualified documented prewar employment. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to confirm the Dayton lawyer identity and determine whether Marechal & Noe immediately preceded the indexed OSS relationship.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row36-panagiotis-p-mareskas-b1039",
+      "person_id": "1ebf20aa-ff35-5dfa-8072-9a6b57574a52",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Panagiotis P Mareskas; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row37-elwin-marg-b1039",
+      "person_id": "3718a624-ff8b-5ce0-ac0f-7fa4030586f5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elwin Marg; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The UC biography supports Berkeley faculty employment before wartime military service. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to establish Marg's exact OSS administrative relationship and whether Air Force service directly preceded it.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row38-helen-e-marg-b1039",
+      "person_id": "13906f4d-b773-5252-a24d-b5937b67336b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Helen E Marg; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 482 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row39-anthony-margherita-b1039",
+      "person_id": "5a02d6a6-9a60-5b75-b308-226ea2c2ab8b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anthony Margherita; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row40-herman-l-margoles-b1039",
+      "person_id": "e705e02d-7271-5558-9e67-ac647f1c44a5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herman L Margoles; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row41-daniel-p-margolies-b1039",
+      "person_id": "acd47508-c324-503f-89d1-f5282323109c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel P Margolies; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The Daniel P./Daniel F. middle-initial conflict remains separate and no Army fields were transferred. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Jointly review the Daniel P. and Daniel F. Margolies Box 482 files before merging or transferring any Army evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row42-daniel-f-margolies-b1039",
+      "person_id": "9189a5cf-b440-53a6-b31a-50a40ac9692c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel F Margolies; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The Library of Congress establishes the Reconstruction Finance Corporation as the immediate predecessor to Army/OSS service. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to enrich the confirmed RFC-to-Army/OSS chronology with assignment dates and claim-level personnel-file evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row43-arnold-d-margolin-b1039",
+      "person_id": "fc845180-4288-530b-a1ac-d9b7f70f97da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arnold D Margolin; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 482",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "The institutional biography supports qualified prewar U.S. legal practice but not its immediacy. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 482 to confirm identity and determine which law practice, lecture appointment, or government role immediately preceded OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row44-bernard-margolis-b1039",
+      "person_id": "2375edcc-abd5-5184-9114-ddd91db13879",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernard Margolis; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 483",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 483 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row45-harry-margolis-b1039",
+      "person_id": "6be45386-3cf5-5767-b97a-8ed733de65f4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry Margolis; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 483",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 483 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    },
+    {
+      "key": "page294-row46-norman-b-margolyes-b1039",
+      "person_id": "dcb2bf93-bcfc-508d-98cf-59ac081fa9c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norman B Margolyes; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 483",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1039",
+      "started_at": "2026-11-04T23:40:00-05:00",
+      "completed_at": "2026-11-05T01:20:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Different-name or conflicting-initial Army candidates were rejected. Army categories were not converted into named employers.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. CIA direct adapter access was robots-disallowed and was not treated as a negative result; official-domain web discovery was used instead. Page 294 and cited PDF evidence pages were visually checked. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 483 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1039-v1"
+    }
+  ]
+}
