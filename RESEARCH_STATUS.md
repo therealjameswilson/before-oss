@@ -1,5 +1,53 @@
 # Research status
 
+Batch 1041 completed PDF page 296, rows 1-46, from **Richard S. Marnocha**
+through **Robert F. Marszalek**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and every entity has a saved
+terminal research outcome. The cohort contains 23 `requires_archival_review`,
+15 `occupation_only_found`, three `needs_identity_review`, two
+`verified_employer_found`, two `documented_prewar_employer_found`, and one
+`conflicting_sources` outcome.
+
+Sixteen protected Army identity candidates received explicit review: fifteen
+were accepted and one rejected. The fifteen accepted, date-bounded records
+support broad occupation or student categories only; none was converted into
+a named employer, workplace, or immediate OSS predecessor. William L.
+Marritts's shared protected candidate was rejected and the conflict remains
+visible. No protected identifier, raw Army row, or bulk ordinal entered public
+data.
+
+Official National Archives and Navy evidence confirms Carl F. Marquard as a
+Navy photographer attached to OSS; contemporary film-industry evidence
+supports Mascot Pictures assistant-cameraman work as an earlier, qualified
+prewar affiliation rather than an immediate predecessor. University of
+Washington records support Hildegarde R. Marsales's 1943 German-instructor
+employment as her last civilian employer and probable immediate pre-OSS
+affiliation, with the Knox School preserved as an earlier role. NBC evidence
+supports John H. Marsching as a German-section chief at medium confidence and
+as documented prewar employment only. Maclean Marshall's Civil Air Patrol and
+Office of Civilian Defense volunteer service is distinct from both his broad
+Army-entry occupation and a named employer.
+
+James H. Marshall-Corn is a high-confidence match to Sir James
+Marshall-Cornwall, with British Army and Special Operations Executive liaison
+affiliations, but remains in identity review because the same index box also
+contains a Cornwall Marshall row. Richard S. Marnocha remains separate from
+Richard S. Marnocaa. Unbridged namesakes and postwar-only evidence were not
+used to fill pre-OSS gaps. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,717/23,935 (74.0213%)**;
+verified-employer coverage is **565/23,935 (2.3606%)**;
+verified-affiliation coverage is **1,236/23,935 (5.1640%)**; archival-review
+coverage is **16,226/23,935 (67.7919%)**. There are **6,213** not-started and
+**1,832** in-progress people. The public projection contains **4,697**
+affiliations, **1,418** organizations, **6,938** sources and **11,307**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1041 local publication verification is recorded in
+`reports/release_batch_1041.md`.
+
 Batch 1040 completed PDF page 295, rows 1-46, from **Laura Margulas**
 through **Richard S. Marnocaa**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and every entity has a saved
