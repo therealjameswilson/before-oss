@@ -1,5 +1,45 @@
 # Research status
 
+Batch 1047 completed PDF page 302, rows 1-46, from **Philip J. May** through
+**Richard Mazzarini**. All 46 printed rows remain separately recoverable as 46
+cautious person entities, and every entity has a saved terminal research
+outcome. Two Frederick Mayer entities already had terminal, sourced outcomes
+and were preserved unchanged; the other 44 people received new reviewed
+outcomes. The full cohort contains 30 `requires_archival_review`, eight
+`occupation_only_found`, four `needs_identity_review`, three
+`documented_prewar_employer_found`, and one `completed` outcome.
+
+Eight reviewed Army identity bridges support broad, date-bounded occupation
+categories only; none was converted into a named employer, institution,
+workplace, or immediate OSS predecessor. Official and institutional sources
+support Ferdinand Lathrop Mayer's State Department and Foreign Service career,
+Bruce H. Mazlish's Columbia student status and OSS identity, and Wendell
+Mayfield's wartime Chief Yeoman assignment. A contemporary profile,
+corroborated by an official Medal of Freedom list, supports Pan American
+Airways as Richard Mazzarini's qualified last civilian employer before OSS
+service. The exact transition is not explicit, so the claim remains medium
+confidence and `probable_immediate` rather than an unqualified immediate
+predecessor.
+
+Gerald Mayer's common-name candidate, Jean Mazou's French military candidate,
+and Riccardo Mazzarini's adjacent conflicting-name row remain private or
+visibly unresolved. No evidence was transferred across the Richard/Riccardo
+rows, and no protected identifier or raw Army record entered public data. No
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,899/23,935 (74.7817%)**;
+verified-employer coverage is **565/23,935 (2.3606%)**;
+verified-affiliation coverage is **1,242/23,935 (5.1891%)**; archival-review
+coverage is **16,491/23,935 (68.8991%)**. There are **6,031** not-started and
+**1,745** in-progress people. The public projection contains **4,782**
+affiliations, **1,423** organizations, **6,989** sources, and **11,421**
+published, qualified, or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1047 publication verification is recorded in
+`reports/release_batch_1047.md`.
+
 Batch 1041 completed PDF page 296, rows 1-46, from **Richard S. Marnocha**
 through **Robert F. Marszalek**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and every entity has a saved
