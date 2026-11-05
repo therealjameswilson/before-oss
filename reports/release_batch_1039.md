@@ -107,8 +107,19 @@ Date: 2026-11-04 America/New_York
 
 ## Deployment status
 
-- Publication commit: pending.
-- GitHub Actions Test run: pending.
-- GitHub Pages run: pending.
-- Deployed-release verification: pending.
+- Publication commit:
+  [`d96768038c1d9fa166901dcbf047419c920200ac`](https://github.com/therealjameswilson/before-oss/commit/d96768038c1d9fa166901dcbf047419c920200ac).
+- GitHub Actions Test run:
+  [41951387995](https://github.com/therealjameswilson/before-oss/actions/runs/41951387995)
+  completed successfully, including the Python suite, checked-in manifest
+  verification, bounded browser release suite, rebuilt private-identifier
+  audit source, and public redaction audit.
+- GitHub Pages run:
+  [41951388041](https://github.com/therealjameswilson/before-oss/actions/runs/41951388041)
+  completed successfully for the same publication commit.
+- Deployed-release verification matched all 67 canonical assets totaling
+  142,364,188 bytes at manifest SHA-256
+  `f6f0777c99b7539a93dbf65cee9db4a4120a9d31fe901d6a1698b5fc772fdf8b`.
+  The verifier also passed eight core routes, 47 source-register pages, and
+  all 44 newly updated direct profile URLs.
 - Public base URL: <https://therealjameswilson.github.io/before-oss/>.
