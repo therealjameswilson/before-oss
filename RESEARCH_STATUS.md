@@ -1,5 +1,49 @@
 # Research status
 
+Batch 1040 completed PDF page 295, rows 1-46, from **Laura Margulas**
+through **Richard S. Marnocaa**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and every entity has a saved
+terminal research outcome. The cohort contains 23 `requires_archival_review`,
+17 `occupation_only_found`, two `verified_employer_found`, two
+`conflicting_sources`, one `needs_identity_review`, and one `completed`
+outcome.
+
+Twenty-four protected Army identity candidates received explicit review:
+twenty were accepted and four rejected. Seventeen accepted, date-bounded
+records support broad occupation or student categories only; none was
+converted into a named employer, workplace, or immediate OSS predecessor.
+Two code-999 records and one January 1945 entry support identity only. The
+different-name or different-middle-initial Fred G. Mario and Dennis A.
+Marketos candidates were rejected without transferring fields. Richard S.
+Marnocaa remains separate and visibly ambiguous pending original-card and
+personnel-file review. No protected identifier, raw Army row, or bulk ordinal
+entered public data.
+
+Official National Park Service history explicitly documents Raymond E.
+Maritz leaving the architecture firm Maritz, Young and Dusard in 1942 to join
+OSS, independently corroborated by an American Institute of Architects
+periodical. An official OSS report supports George C. Markoutsas's U.S. Army
+assignment immediately before OSS, correctly classified as a military
+pathway rather than a civilian employer. Official Irish diplomatic records
+support Ervin R. Marlin's Federal Security Agency work as his last civilian
+government role before wartime overseas assignments; Trinity College remains
+separate student status. Official records for Antoni Markotny and Raymond
+Marmande support identity or mission context only and are not stretched into
+employer claims. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,673/23,935 (73.8375%)**;
+verified-employer coverage is **564/23,935 (2.3564%)**;
+verified-affiliation coverage is **1,234/23,935 (5.1556%)**; archival-review
+coverage is **16,184/23,935 (67.6165%)**. There are **6,257** not-started and
+**1,832** in-progress people. The public projection contains **4,675**
+affiliations, **1,411** organizations, **6,924** sources and **11,281**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1040 publication verification is recorded in
+`reports/release_batch_1040.md`.
+
 Batch 1039 completed PDF page 294, rows 1-46, from **Clarence J. Marah**
 through **Norman B. Margolyes**. All 46 printed rows remain separately
 recoverable and link cautiously to 44 person entities: the duplicate Augustine
