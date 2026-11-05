@@ -45,7 +45,7 @@ affiliations, **1,418** organizations, **6,938** sources and **11,307**
 published, qualified or conflict claims. Full-index historical research
 remains unfinished.
 
-Batch 1041 local publication verification is recorded in
+Batch 1041 publication verification is recorded in
 `reports/release_batch_1041.md`.
 
 Batch 1040 completed PDF page 295, rows 1-46, from **Laura Margulas**

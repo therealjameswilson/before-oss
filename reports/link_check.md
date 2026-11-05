@@ -12,8 +12,14 @@ SHA-256
 Two consecutive builds reproduce 25,480 files and 439,263,983 bytes at output-
 tree SHA-256
 `bc93f07191efb5a8d4585ece49d479512c8d7c9f5b3235b57561022d4ed7b1ee`.
-External URLs were inventoried, not all requested. Local publication
-verification is recorded in `reports/release_batch_1041.md`.
+External URLs were inventoried, not all requested. CI and live-release
+verification passed for immutable content commit
+`f1ea82ea785ca5e4e113820f0a3bd6905d486c7f`: GitHub Actions Test run
+`42044987263` and Pages run `42044987223` both succeeded. The unauthenticated
+live verifier matched all 67 assets, eight core routes, 47 source-register
+pages and all 46 directly affected profiles against the checked-in manifest
+and evidence bundle. Full verification is recorded in
+`reports/release_batch_1041.md`.
 
 Batch 1040 local validation, 2026-11-05 America/New_York: the static build
 contains **25,401** HTML files. Every internal link resolves, and the checker

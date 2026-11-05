@@ -8,7 +8,7 @@ All tested pages had no serious axe violations. All **313** Python tests and
 **87** subtests passed. Astro checked 672 files with zero diagnostics and built
 **25,408** static pages. The protected-identifier audit found zero unexpected
 matches, all internal links resolve and two consecutive builds were byte-
-reproducible. Local publication verification is recorded in
+reproducible. Live GitHub Pages verification is recorded in
 `reports/release_batch_1041.md`.
 
 Batch 1040 local validation, 2026-11-05 America/New_York: the bounded release
