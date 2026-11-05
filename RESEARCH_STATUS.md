@@ -36,7 +36,7 @@ affiliations, **1,401** organizations, **6,884** sources and **11,189**
 published, qualified or conflict claims. Full-index historical research
 remains unfinished.
 
-Batch 1036 publication verification will be recorded in
+Batch 1036 publication verification is recorded in
 `reports/release_batch_1036.md`.
 
 Batch 1035 completed PDF page 290, rows 1-46, from **Nelle E. Maertens**
