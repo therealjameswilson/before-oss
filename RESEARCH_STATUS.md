@@ -1,5 +1,52 @@
 # Research status
 
+Batch 1038 completed PDF page 293, rows 1-46, from **James P. Mann**
+through **Kenneth Mar**. All 46 printed rows remain separately recoverable as
+46 cautious person entities. Forty-five people received new saved terminal
+outcomes; Howard E. Manning's existing high-confidence, sourced employer
+profile was preserved. The full cohort now contains 25
+`requires_archival_review`, ten `occupation_only_found`, five
+`needs_identity_review`, three `conflicting_sources`, two
+`verified_employer_found`, and one `documented_prewar_employer_found` outcome.
+
+Nineteen protected Army candidates received explicit review: twelve were
+accepted and seven rejected. The two duplicate Michael Manno Army rows agree
+on every publishable field and were both accepted explicitly, while producing
+only one qualified occupation claim. Ten accepted, date-bounded records
+support broad occupation or student categories only. John O. Manula's code
+047 is absent from the visually checked official list and is retained for
+identity only. Shared-identifier or different-name candidates for Marcus
+Manoloe, Robert S. Mantho, and John Manual were rejected, as was the damaged-
+name Kenneth Mar candidate. No protected identifier, bulk ordinal, raw Army
+record, or unsupported code entered public data.
+
+The strongest documented civilian pathways are Jacques Mansion and Max
+Manus. The official Ordre de la Libération biography supports Renault's Sales
+Service in Paris as Mansion's last civilian employer before September 1939
+mobilization. Store norske leksikon, written by historians at the Norwegian
+Armed Forces Museum, supports Manus's unnamed family flower business as his
+last civilian employment before volunteering for Finland; no business name
+was invented. A digitized historical source directly supports Captain Nevio
+J. Manzani's OSS identity and unit. The official French resistance inventory
+for Emile Manuello remains a qualified identity lead only, and Fondation de la
+Résistance history supports André Manuel's BCRA identity without supplying a
+civilian employer. The adjacent Cyrus E. Manierre/Manniere spellings remain
+separate, and page 293's malformed rank-column number is preserved without
+silent correction. No authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,583/23,935 (73.4615%)**;
+verified-employer coverage is **562/23,935 (2.3480%)**;
+verified-affiliation coverage is **1,228/23,935 (5.1306%)**; archival-review
+coverage is **16,098/23,935 (67.2572%)**. There are **6,347** not-started and
+**1,832** in-progress people. The public projection contains **4,631**
+affiliations, **1,403** organizations, **6,903** sources and **11,232**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1038 publication verification is recorded in
+`reports/release_batch_1038.md`.
+
 Batch 1037 completed PDF page 292, rows 1-46, from **Robert Maloof**
 through **Gottfried T. Mann**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and all 46 now have saved terminal
