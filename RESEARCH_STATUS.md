@@ -1,5 +1,49 @@
 # Research status
 
+Batch 1037 completed PDF page 292, rows 1-46, from **Robert Maloof**
+through **Gottfried T. Mann**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and all 46 now have saved terminal
+outcomes: 23 `requires_archival_review`, 15 `occupation_only_found`, four
+`needs_identity_review`, two `verified_employer_found`, one
+`needs_temporal_review`, and one `completed`.
+
+Twenty-one protected-identifier Army candidates received explicit review: 18
+exact-name, nonshared candidates were accepted and three were rejected. The
+Marcus Manaloe candidates remain rejected because the protected identifier is
+shared with a separate Marcus Manoloe index record; the Morton C. Menaugh
+candidate was not transferred to indexed Morton C. Manaugh. Sixteen accepted,
+date-bounded Army-entry categories support only broad occupations or student
+status. Codes 993 and 999 remain uninterpreted. No coded occupation was
+converted into a named employer, institution, workplace, or immediate
+affiliation.
+
+The cohort's strongest documented civilian pathways are David G. Mandelbaum
+and Gottfried T. Mann. A Bancroft Library finding aid states that Mandelbaum
+went to OSS while on leave from the University of Minnesota, supporting the
+university as both immediate affiliation and last civilian employer.
+Authoritative German and OCLC records identify Gottfried T. Mann as Golo Mann
+and date his Olivet College lectureship to 1942-43 before U.S. Army/OSS service
+beginning in 1943. Erika Mann's 1942 Office of War Information work remains a
+qualified earlier government assignment, not an immediate or last-civilian-
+employer claim. Official National Park Service history supports Major Cyrus
+E. Manierre Jr.'s OSS identity but does not establish an earlier employer or
+unit transfer. The malformed numeric value printed in Nicholas M. Mancini's
+rank column was preserved without silent correction. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,538/23,935 (73.2734%)**;
+verified-employer coverage is **560/23,935 (2.3397%)**;
+verified-affiliation coverage is **1,226/23,935 (5.1222%)**; archival-review
+coverage is **16,057/23,935 (67.0859%)**. There are **6,392** not-started and
+**1,832** in-progress people. The public projection contains **4,619**
+affiliations, **1,402** organizations, **6,894** sources and **11,214**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1037 publication verification will be recorded in
+`reports/release_batch_1037.md`.
+
 Batch 1036 completed PDF page 291, rows 1-46, from **Sylvester Maiza**
 through **William J. Malone**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and all 46 now have saved terminal
