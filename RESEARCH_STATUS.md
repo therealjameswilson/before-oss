@@ -1,5 +1,47 @@
 # Research status
 
+Batch 1048 completed PDF page 303, rows 1-46, from **Luigi Mazzone** through
+**Richard J. McCann**. All 46 printed rows remain separately recoverable as 46
+cautious person entities, and every entity has a saved terminal research
+outcome. Three prior conflict outcomes for Ward McCabe, William W. McCabe and
+Curtis B. McCammon were preserved unchanged; the other 43 people received new
+reviewed outcomes. The full cohort contains 29 `requires_archival_review`,
+eight `occupation_only_found`, three `needs_identity_review`, two
+`verified_employer_found`, two `conflicting_sources`, one
+`documented_prewar_employer_found`, and one `needs_temporal_review` outcome.
+
+Eight accepted, protected-identifier Army bridges support broad,
+date-bounded occupation categories only; none was converted into a named
+employer, institution, workplace, or immediate OSS predecessor. Luigi
+Mazzone's official wartime report separates his U.S. Navy pathway from his
+last civilian occupation as an unnamed Pennsylvania truck driver. Turner H.
+McBaine's institutional oral history separates his Naval Reserve pathway,
+John Francis Neylan law-office employment, and earlier work at Orrick, Palmer
+& Dahlquist. William McAfee's oral history separates China Theater service,
+an unnamed last civilian high school, and earlier teaching that includes
+Ewing Christian College. Smithsonian research supports Nancy McCandlish's
+employment immediately before OSS without transferring that evidence to the
+separate Nancy M. McAnolish index row. Frederica McAfee's WASP service remains
+a qualified civilian government assignment pending exact temporal review.
+
+The William C. McAragle/McGaragle protected-identifier conflict remains
+visible, and Dale McAdoo's official OSS memo supports a qualified identity
+finding only. No protected identifier or raw Army record entered public data,
+and no authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,899/23,935 (74.7817%)**;
+verified-employer coverage is **568/23,935 (2.3731%)**;
+verified-affiliation coverage is **1,246/23,935 (5.2058%)**; archival-review
+coverage is **16,533/23,935 (69.0746%)**. There are **6,031** not-started and
+**1,702** in-progress people. The public projection contains **4,802**
+affiliations, **1,427** organizations, **7,003** sources, and **11,447**
+published, qualified, or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1048 publication verification is recorded in
+`reports/release_batch_1048.md`.
+
 Batch 1047 completed PDF page 302, rows 1-46, from **Philip J. May** through
 **Richard Mazzarini**. All 46 printed rows remain separately recoverable as 46
 cautious person entities, and every entity has a saved terminal research
