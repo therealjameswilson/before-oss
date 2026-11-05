@@ -1,5 +1,44 @@
 # Research status
 
+Batch 1036 completed PDF page 291, rows 1-46, from **Sylvester Maiza**
+through **William J. Malone**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and all 46 now have saved terminal
+outcomes: 23 `requires_archival_review`, 15 `occupation_only_found`, seven
+`needs_identity_review`, and one `completed`.
+
+Eighteen protected-identifier Army candidates received explicit review: 17
+were accepted and the materially different Thomas B. Majure candidate was
+rejected without transferring any fields. Fifteen accepted, date-bounded
+Army-entry categories support qualified occupations or student status. Toivo
+W. Maki's June 1945 Army record supports identity only because its chronology
+does not safely establish a pre-OSS relationship, and Clarence J. Malakowsky's
+undefined occupation code remains uninterpreted. No coded occupation was
+converted into a named employer, workplace, or immediate affiliation.
+
+The cohort's strongest documented pathway is Wilfred Malenbaum. The 1948
+Congressional Record places him at the Office of Price Administration in 1941
+before his 1941-45 OSS service; that role is modeled as a probable immediate
+government assignment, while Harvard is retained separately as documented
+graduate-student status rather than employment. A direct OSS Greek Operational
+Group roster confirms Lambros G. Makris's identity, and a historical BCRA/SOE
+infiltration table supports Maxime Malfettes and his documented aliases, but
+neither source establishes a pre-OSS employer. Three spelling-variant pairs
+remain separate, visible possible-duplicate groups. No authenticated NARA
+Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,492/23,935 (73.0813%)**;
+verified-employer coverage is **558/23,935 (2.3313%)**;
+verified-affiliation coverage is **1,224/23,935 (5.1139%)**; archival-review
+coverage is **16,013/23,935 (66.9020%)**. There are **6,438** not-started and
+**1,832** in-progress people. The public projection contains **4,600**
+affiliations, **1,401** organizations, **6,884** sources and **11,189**
+published, qualified or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1036 publication verification will be recorded in
+`reports/release_batch_1036.md`.
+
 Batch 1035 completed PDF page 290, rows 1-46, from **Nelle E. Maertens**
 through **Robert J. Maisonpierre**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities. Forty-five people received new
