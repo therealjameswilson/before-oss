@@ -1,0 +1,2459 @@
+{
+  "bundle_version": "batch-1036-v1",
+  "reviewer": "Before OSS Batch 1036 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 476-478",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 291, rows 1-46; page and every printed row visually checked at 180 dpi",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 46 printed rows remain separate. Full protected identifiers remain private, including the malformed John W. Malloy value."
+    },
+    {
+      "key": "army-bulk-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; eighteen Batch 1036 identity candidates explicitly reviewed; seventeen accepted and one rejected",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record, full protected identifier, or bulk-record ordinal is retained in public assets."
+    },
+    {
+      "key": "army-tech-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits, and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175 and 304; all fifteen published Batch 1036 categories visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories identify neither employer, institution, workplace, nor exact Army-to-OSS sequence. Undefined code 999 is not interpreted."
+    },
+    {
+      "key": "congressional-record-malenbaum-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1948-pt2/pdf/GPO-CRECB-1948-pt2-16.pdf",
+      "archival_identifier": "Congressional Record, Senate, March 12, 1948, printed page 2661",
+      "title": "Congressional Record—Senate",
+      "author_creator": "United States Congress",
+      "repository_publisher": "U.S. Government Publishing Office",
+      "publication_record_date": "1948-03-12",
+      "locator": "Printed page 2661; PDF physical page 54; Wilfred Malenbaum entry visually and textually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "Congressional Record",
+      "rights_notes": "The official chronology places OPA in 1941 immediately before OSS service dated 1941-1945, but supplies no exact transition month."
+    },
+    {
+      "key": "harvard-crimson-malenbaum-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.thecrimson.com/article/1936/4/14/stoughton-awards-go-all-to-dorchester/",
+      "title": "Stoughton Awards Go All to Dorchester Men",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1936-04-14",
+      "locator": "Scholarship announcement identifying Wilfred Malenbaum as a second-year graduate student in economics",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Harvard Crimson archive",
+      "rights_notes": "The contemporary item supports student status, not employment by Harvard."
+    },
+    {
+      "key": "oss-greek-og-makris-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%209-1544%20Date%20Estimated%2C%20OSS%20Missions%2C%20SOE%2C%20Train%20Sabotage%2C%20Katerini%2C%20Tsirmulas%2C%20226-99-45-5%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226-99-45-5 (Admin)",
+      "title": "OSS Greek Operational Group personnel roster",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive (ELIA-MIET)",
+      "publication_record_date": "1944-09 (estimated by repository)",
+      "locator": "PDF physical page 16, roster page 3; Lambros G. Makris entry visually and textually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Missions and SOE records",
+      "rights_notes": "The public claim withholds the full identifier printed in the roster; it is used only to confirm identity and wartime OSS context."
+    },
+    {
+      "key": "infiltrations-france-malfettes-b1036",
+      "access_date": "2026-11-04",
+      "stable_url": "https://www.resistance-brest.net/IMG/pdf/infiltrations_en_francedec2024.pdf",
+      "title": "Historique 2ieme GM: Infiltrations en France, 1940-1945",
+      "author_creator": "Pedro C. F. de Flers",
+      "repository_publisher": "Resistance-Brest.net",
+      "publication_record_date": "2024-12-31 revision",
+      "locator": "PDF physical page 118; 27 January 1944 Mission Varlin row visually and textually checked",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Historical table of agents infiltrated and exfiltrated in France",
+      "rights_notes": "The compiled table cites British and French archival series. It supports a qualified identity and mission context, not pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "opa-b1036",
+      "organization_id": "22df26e9-7191-58a7-a228-6a6cc8dfa4f1",
+      "canonical_name": "Office of Price Administration",
+      "historical_name": "Office of Price Administration",
+      "aliases": [
+        "OPA"
+      ],
+      "organization_type": "federal wartime agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1947",
+      "normalization_notes": "Existing canonical organization reused. Government service is modeled separately from private employment."
+    },
+    {
+      "key": "harvard-b1036",
+      "organization_id": "45ddf347-21c6-59f5-a8ae-517418adf941",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Student status and employment remain separate relationships."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "sylvester-maiza-army-association-b1036",
+      "person_id": "371b5cab-9753-52ef-8cc7-a84b8660853f",
+      "relationship_type": "unknown",
+      "end_date": "1942-03-02",
+      "date_precision": "Historical civilian-occupation code 770 was recorded at Army entry on 1942-03-02; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "fireman other than a process fireman"
+    },
+    {
+      "key": "paul-makanowitzky-army-association-b1036",
+      "person_id": "1585a5b0-ac2f-5d96-b31c-73de8d94b1ca",
+      "relationship_type": "unknown",
+      "end_date": "1942-08-24",
+      "date_precision": "Historical civilian-occupation code 024 was recorded at Army entry on 1942-08-24; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "musician or teacher of music"
+    },
+    {
+      "key": "george-s-makepeace-army-association-b1036",
+      "person_id": "fdf243b2-fe0a-59c1-a634-c3d1c63b4ab0",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-14",
+      "date_precision": "Historical civilian-occupation code 112 was recorded at Army entry on 1942-10-14; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "clerk in trade, not elsewhere classified"
+    },
+    {
+      "key": "antonio-a-malakis-army-association-b1036",
+      "person_id": "3315b0d4-1548-5977-a632-8e623693c9e4",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-07",
+      "date_precision": "Historical civilian-occupation code 229 was recorded at Army entry on 1942-11-07; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "kitchen worker in a hotel, restaurant, railroad, steamship, or related establishment"
+    },
+    {
+      "key": "victor-malaspina-army-association-b1036",
+      "person_id": "aa8aca81-09fa-55ba-a35b-d02680076044",
+      "relationship_type": "unknown",
+      "end_date": "1942-01-16",
+      "date_precision": "Historical civilian-occupation code 227 was recorded at Army entry on 1942-01-16; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "waiter or waitress outside private-family service"
+    },
+    {
+      "key": "john-f-malia-army-association-b1036",
+      "person_id": "32a41d50-11f3-5222-82a4-547e848f29d5",
+      "relationship_type": "unknown",
+      "end_date": "1943-03-06",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1943-03-06; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "actor or actress"
+    },
+    {
+      "key": "wilson-b-malick-army-association-b1036",
+      "person_id": "cc301165-edd8-5b23-9cc3-79842f6492a2",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-25",
+      "date_precision": "Historical civilian-occupation code 530 was recorded at Army entry on 1942-09-25; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "steam fitter, gas fitter, or plumber"
+    },
+    {
+      "key": "louis-t-malizia-jr-army-association-b1036",
+      "person_id": "ab42783f-5c5c-5aef-b80e-75cdd4083363",
+      "relationship_type": "unknown",
+      "end_date": "1943-03-06",
+      "date_precision": "Historical civilian-occupation code 170 was recorded at Army entry on 1943-03-06; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "sales clerk"
+    },
+    {
+      "key": "harry-s-mallon-army-association-b1036",
+      "person_id": "17814442-286b-58a5-9920-d4718da57410",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-17",
+      "date_precision": "Historical civilian-occupation code 781 was recorded at Army entry on 1942-11-17; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "motor-vehicle mechanic or repairman"
+    },
+    {
+      "key": "hal-n-mallory-army-association-b1036",
+      "person_id": "55b487ee-6a40-58c1-9408-c60cbb6b96a4",
+      "relationship_type": "student",
+      "end_date": "1943-05-06",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-05-06; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "role_title": "student"
+    },
+    {
+      "key": "lloyd-a-mallory-army-association-b1036",
+      "person_id": "418500f7-93a8-5ff2-8bc0-087d9396bdf2",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-05",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1942-11-05; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "bookkeeper or cashier outside bank cashiering"
+    },
+    {
+      "key": "philip-j-malmstedt-army-association-b1036",
+      "person_id": "658b52c4-3150-5edf-95d1-ed09d54845ae",
+      "relationship_type": "unknown",
+      "end_date": "1941-06-21",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1941-06-21; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "bookkeeper or cashier outside bank cashiering"
+    },
+    {
+      "key": "john-f-malone-army-association-b1036",
+      "person_id": "ba2d8b5a-f2fb-5b18-a1d3-f7e44bce0c86",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-28",
+      "date_precision": "Historical civilian-occupation code 781 was recorded at Army entry on 1942-10-28; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "motor-vehicle mechanic or repairman"
+    },
+    {
+      "key": "merrill-e-malone-army-association-b1036",
+      "person_id": "6c7964f4-a075-5be2-a9e2-57fa0ac70a32",
+      "relationship_type": "unknown",
+      "end_date": "1943-07-01",
+      "date_precision": "Historical civilian-occupation code 240 was recorded at Army entry on 1943-07-01; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "recreation or amusement attendant, not elsewhere classified"
+    },
+    {
+      "key": "william-j-malone-army-association-b1036",
+      "person_id": "12704c00-5626-5ae7-8142-e7f3fcbc7d44",
+      "relationship_type": "unknown",
+      "end_date": "1942-07-13",
+      "date_precision": "Historical civilian-occupation code 137 was recorded at Army entry on 1942-07-13; no named employer, institution, or workplace is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is not converted into a named employer and is excluded from verified-employer analytics.",
+      "occupation": "stenographer or typist"
+    },
+    {
+      "key": "wilfred-malenbaum-opa-b1036",
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "organization_key": "opa-b1036",
+      "organization_name_as_found": "OPA",
+      "role_title": "economist",
+      "occupation": "economist",
+      "relationship_type": "government_assignment",
+      "end_date": "1941",
+      "date_precision": "The Congressional Record dates both OPA and the start of OSS service to 1941 but gives no month or exact transfer date.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Best-supported immediate government affiliation. It is not labeled a private employer, and the exact 1941 transition remains unresolved."
+    },
+    {
+      "key": "wilfred-malenbaum-harvard-student-b1036",
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "organization_key": "harvard-b1036",
+      "organization_name_as_found": "Harvard",
+      "role_title": "graduate student in economics",
+      "occupation": "student",
+      "relationship_type": "student",
+      "date_precision": "A contemporary April 1936 notice identifies Malenbaum as a second-year graduate student in economics; it does not give the full enrollment span.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Student status is not employment. The OPA government assignment intervened before OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "army-sylvester-maiza-b1036",
+      "person_id": "371b5cab-9753-52ef-8cc7-a84b8660853f",
+      "affiliation_key": "sylvester-maiza-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-02, Sylvester Maiza was recorded as fireman other than a process fireman; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 770, and the visually checked official code list defines the category as Firemen, other than process firemen.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 174; historical category 7-70"
+        }
+      ]
+    },
+    {
+      "key": "army-paul-makanowitzky-b1036",
+      "person_id": "1585a5b0-ac2f-5d96-b31c-73de8d94b1ca",
+      "affiliation_key": "paul-makanowitzky-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-24, Paul Makanowitzky was recorded as musician or teacher of music; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 024, and the visually checked official code list defines the category as Musicians and teachers of music.",
+      "identity_match_assessment": "High confidence from a nonshared protected linkage and the close Makanowitzky/Makanowitsky spelling variant; the identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 171; historical category 0-24"
+        }
+      ]
+    },
+    {
+      "key": "army-george-s-makepeace-b1036",
+      "person_id": "fdf243b2-fe0a-59c1-a634-c3d1c63b4ab0",
+      "affiliation_key": "george-s-makepeace-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-14, George S Makepeace was recorded as clerk in trade, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 112, and the visually checked official code list defines the category as Clerks in trade, n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 171; historical category 1-12"
+        }
+      ]
+    },
+    {
+      "key": "army-antonio-a-malakis-b1036",
+      "person_id": "3315b0d4-1548-5977-a632-8e623693c9e4",
+      "affiliation_key": "antonio-a-malakis-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-07, Antonio A Malakis was recorded as kitchen worker in a hotel, restaurant, railroad, steamship, or related establishment; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 229, and the visually checked official code list defines the category as Kitchen workers in hotels, restaurants, railroads, steamships, etc., n.e.c..",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 172; historical category 2-29"
+        }
+      ]
+    },
+    {
+      "key": "army-victor-malaspina-b1036",
+      "person_id": "aa8aca81-09fa-55ba-a35b-d02680076044",
+      "affiliation_key": "victor-malaspina-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-16, Victor Malaspina was recorded as waiter or waitress outside private-family service; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 227, and the visually checked official code list defines the category as Waiters and waitresses, except private family.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 172; historical category 2-27"
+        }
+      ]
+    },
+    {
+      "key": "army-john-f-malia-b1036",
+      "person_id": "32a41d50-11f3-5222-82a4-547e848f29d5",
+      "affiliation_key": "john-f-malia-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-06, John F Malia was recorded as actor or actress; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 002, and the visually checked official code list defines the category as Actors and actresses.",
+      "identity_match_assessment": "High confidence from a nonshared protected linkage despite the indexed F and Army J middle-initial conflict; the discrepancy remains visible.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 175; alphabetical category 0-02"
+        }
+      ]
+    },
+    {
+      "key": "army-wilson-b-malick-b1036",
+      "person_id": "cc301165-edd8-5b23-9cc3-79842f6492a2",
+      "affiliation_key": "wilson-b-malick-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-25, Wilson B Malick was recorded as steam fitter, gas fitter, or plumber; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 530, and the visually checked official code list defines the category as Plumbers, gas fitters, and steam fitters.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 174; historical category 5-30"
+        }
+      ]
+    },
+    {
+      "key": "army-louis-t-malizia-jr-b1036",
+      "person_id": "ab42783f-5c5c-5aef-b80e-75cdd4083363",
+      "affiliation_key": "louis-t-malizia-jr-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-06, Louis T Malizia Jr. was recorded as sales clerk; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 170, and the visually checked official code list defines the category as Sales clerks.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 171; historical category 1-70"
+        }
+      ]
+    },
+    {
+      "key": "army-harry-s-mallon-b1036",
+      "person_id": "17814442-286b-58a5-9920-d4718da57410",
+      "affiliation_key": "harry-s-mallon-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-17, Harry S Mallon was recorded as motor-vehicle mechanic or repairman; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 781, and the visually checked official code list defines the category as Mechanics and repairmen, motor vehicle.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 175; historical category 7-81"
+        }
+      ]
+    },
+    {
+      "key": "army-hal-n-mallory-b1036",
+      "person_id": "55b487ee-6a40-58c1-9408-c60cbb6b96a4",
+      "affiliation_key": "hal-n-mallory-army-association-b1036",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 1943-05-06, Hal N Mallory was recorded as student; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 992, and the visually checked official code list defines the category as Students.",
+      "identity_match_assessment": "High confidence from a nonshared protected linkage and exact first and surname; the Army form omits the indexed middle initial N.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 304; corrected historical category 9-92"
+        }
+      ]
+    },
+    {
+      "key": "army-lloyd-a-mallory-b1036",
+      "person_id": "418500f7-93a8-5ff2-8bc0-087d9396bdf2",
+      "affiliation_key": "lloyd-a-mallory-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-05, Lloyd A Mallory was recorded as bookkeeper or cashier outside bank cashiering; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 101, and the visually checked official code list defines the category as Bookkeepers and cashiers, except bank cashiers.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 171; historical category 1-01"
+        }
+      ]
+    },
+    {
+      "key": "army-philip-j-malmstedt-b1036",
+      "person_id": "658b52c4-3150-5edf-95d1-ed09d54845ae",
+      "affiliation_key": "philip-j-malmstedt-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-06-21, Philip J Malmstedt was recorded as bookkeeper or cashier outside bank cashiering; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 101, and the visually checked official code list defines the category as Bookkeepers and cashiers, except bank cashiers.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 171; historical category 1-01"
+        }
+      ]
+    },
+    {
+      "key": "army-john-f-malone-b1036",
+      "person_id": "ba2d8b5a-f2fb-5b18-a1d3-f7e44bce0c86",
+      "affiliation_key": "john-f-malone-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-28, John F Malone was recorded as motor-vehicle mechanic or repairman; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 781, and the visually checked official code list defines the category as Mechanics and repairmen, motor vehicle.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 175; historical category 7-81"
+        }
+      ]
+    },
+    {
+      "key": "army-merrill-e-malone-b1036",
+      "person_id": "6c7964f4-a075-5be2-a9e2-57fa0ac70a32",
+      "affiliation_key": "merrill-e-malone-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-01, Merrill E Malone was recorded as recreation or amusement attendant, not elsewhere classified; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 240, and the visually checked official code list defines the category as Attendants, recreation and amusement, n.e.c..",
+      "identity_match_assessment": "High confidence from a nonshared protected linkage and the close Merrill/Morrill spelling variant; the identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 172; historical category 2-40"
+        }
+      ]
+    },
+    {
+      "key": "army-william-j-malone-b1036",
+      "person_id": "12704c00-5626-5ae7-8142-e7f3fcbc7d44",
+      "affiliation_key": "william-j-malone-army-association-b1036",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-07-13, William J Malone was recorded as stenographer or typist; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The Army bulk file records code 137, and the visually checked official code list defines the category as Stenographers and typists.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to be the immediately preceding role or status before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is qualified, excluded from verified-employer analytics, and not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1036",
+          "locator_override": "PDF physical page 171; historical category 1-37"
+        }
+      ]
+    },
+    {
+      "key": "identity-tovivo-maki-army-b1036",
+      "person_id": "d945d0d2-91b0-5c58-b940-5167da988687",
+      "claim_type": "identity",
+      "claim_text": "Indexed Tovivo Maki is a reviewed match to the official Army record.",
+      "evidence_paraphrase": "A nonshared protected linkage connects the official index and Army record; no full identifier or raw record is published.",
+      "identity_match_assessment": "High confidence from a nonshared protected linkage despite the indexed Tovivo and Army Toivo W name difference; the identifier remains private.",
+      "temporal_assessment": "Army entry is dated 1945-06-16. The late-war Army entry and student code are not used as pre-OSS evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity evidence only; no undefined or chronologically unsafe occupation is converted into pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-clarence-j-malakowsky-army-b1036",
+      "person_id": "1669aff3-3883-5ee9-b26b-e7786262cc8a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Clarence J Malakowsky is a reviewed match to the official Army record.",
+      "evidence_paraphrase": "A nonshared protected linkage connects the official index and Army record; no full identifier or raw record is published.",
+      "identity_match_assessment": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "temporal_assessment": "Army entry is dated 1943-06-09. Occupation code 999 is undefined and is not interpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Identity evidence only; no undefined or chronologically unsafe occupation is converted into pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1036"
+        },
+        {
+          "source_key": "army-bulk-b1036"
+        },
+        {
+          "source_key": "army-tech-b1036",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-wilfred-malenbaum-b1036",
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "claim_type": "identity",
+      "claim_text": "Indexed Wilfred Malenbaum is high-confidence identified as the economist who led the OSS Food and Agriculture Section.",
+      "evidence_paraphrase": "The Congressional Record uses the exact uncommon name and gives a 1941-1945 OSS section-chief chronology compatible with the indexed civilian grade.",
+      "identity_match_assessment": "High confidence from the rare exact name, matching civilian professional-grade context, and a direct official OSS chronology; Box 477 remains unreviewed.",
+      "temporal_assessment": "The official entry explicitly dates OPA and OSS activity to 1941 and OSS service through 1945.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No famous-name or postwar-only inference is required; the direct official chronology names both OPA and OSS.",
+      "sources": [
+        {
+          "source_key": "congressional-record-malenbaum-b1036"
+        },
+        {
+          "source_key": "nara-index-b1036",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "opa-wilfred-malenbaum-b1036",
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "affiliation_key": "wilfred-malenbaum-opa-b1036",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Wilfred Malenbaum's best-supported immediate pre-OSS affiliation was service as an economist with the Office of Price Administration in 1941.",
+      "evidence_paraphrase": "The Congressional Record lists economist, OPA, 1941 immediately before chief of the OSS Food and Agriculture Section, 1941-1945.",
+      "identity_match_assessment": "High confidence from the rare exact name, compatible civilian grade, and direct official OSS role chronology.",
+      "temporal_assessment": "Probable immediate predecessor: the sequence is explicit, but both entries are dated only to 1941 and an exact transfer date is absent.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Modeled as a government assignment, not a private employer. No last civilian employer is inferred from Harvard student status.",
+      "sources": [
+        {
+          "source_key": "congressional-record-malenbaum-b1036"
+        }
+      ]
+    },
+    {
+      "key": "harvard-student-wilfred-malenbaum-b1036",
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "affiliation_key": "wilfred-malenbaum-harvard-student-b1036",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Wilfred Malenbaum was a Harvard graduate student in economics by April 1936.",
+      "evidence_paraphrase": "A contemporary Harvard newspaper identifies Wilfred Malenbaum as a second-year graduate student studying economics.",
+      "identity_match_assessment": "High confidence from the rare exact name and the compatible Harvard and economics chronology in the later official record.",
+      "temporal_assessment": "Documented prewar student status; it is neither employment nor the immediate predecessor to OSS because OPA intervened.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is not labeled an employer. The notice does not establish the full enrollment span.",
+      "sources": [
+        {
+          "source_key": "harvard-crimson-malenbaum-b1036"
+        },
+        {
+          "source_key": "congressional-record-malenbaum-b1036",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-lambros-makris-greek-og-b1036",
+      "person_id": "f8b31500-28c6-5a2b-b839-6d808405d511",
+      "claim_type": "identity",
+      "claim_text": "Indexed Technician Fifth Grade Lambros G. Makris appears on a direct OSS Greek Operational Group roster.",
+      "evidence_paraphrase": "The wartime roster repeats the exact full name and technician grade and carries the same nonshared protected identifier as the index.",
+      "identity_match_assessment": "Confirmed by exact name, matching technician grade, and a matching protected identifier; the identifier is withheld.",
+      "temporal_assessment": "Direct wartime OSS identity evidence only; the roster does not identify a pre-OSS employer or affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The roster establishes OSS Greek Operational Group context, not an earlier employer or occupation.",
+      "sources": [
+        {
+          "source_key": "oss-greek-og-makris-b1036"
+        },
+        {
+          "source_key": "nara-index-b1036",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-maxime-malfettes-varlin-b1036",
+      "person_id": "faee7841-6790-53dc-9b93-262fe20be144",
+      "claim_type": "identity",
+      "claim_text": "Indexed Sergeant Maxime Malfettes is high-confidence associated with the BCRA/SOE RF Mission Varlin record.",
+      "evidence_paraphrase": "A sourced historical table records Sgt. Maxime Malfettes, aliases Tartuffe and Maxime Brunet, on Mission Varlin on January 27, 1944.",
+      "identity_match_assessment": "High confidence from the rare exact name, matching sergeant rank, and specific wartime special-operations context; the indexed personnel file is still needed.",
+      "temporal_assessment": "Wartime identity context only; the source does not establish a pre-OSS employer or sequence into the indexed file.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "BCRA/SOE service is not silently relabeled as OSS employment, and no prewar affiliation is inferred.",
+      "sources": [
+        {
+          "source_key": "infiltrations-france-malfettes-b1036"
+        },
+        {
+          "source_key": "nara-index-b1036",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "371b5cab-9753-52ef-8cc7-a84b8660853f",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "72814464-7e22-50a7-93ef-6d31a56597bd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Lillian Majar, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81295f7f-9ff4-5ca0-ab7d-5c75ebcacd42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Robert Major, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8a1107de-5180-5d37-b7cb-265d9f3fd7a2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Sarah Majors, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "847ceb18-40df-5905-b976-c9870688169a",
+      "identity_status": "unresolved",
+      "identity_evidence": "A protected Army candidate was explicitly rejected because the Army name is materially different from Thomas B. Majure. No identity, occupation, or chronology was transferred.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 476 and the original identifier-bearing index record to resolve the rejected Army candidate. No candidate occupation is published.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1585a5b0-ac2f-5d96-b31c-73de8d94b1ca",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High confidence from a nonshared protected linkage and the close Makanowitzky/Makanowitsky spelling variant; the identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923",
+      "name_variants": [
+        "Paul Makanowitsky"
+      ],
+      "replace_name_variants": false
+    },
+    {
+      "person_id": "fdf243b2-fe0a-59c1-a634-c3d1c63b4ab0",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "d945d0d2-91b0-5c58-b940-5167da988687",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High confidence from a nonshared protected linkage despite the indexed Tovivo and Army Toivo W name difference; the identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 476 to establish the immediate pre-OSS affiliation and last civilian employer. The accepted Army record is retained for identity only.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923",
+      "name_variants": [
+        "Toivo W Maki"
+      ],
+      "replace_name_variants": false
+    },
+    {
+      "person_id": "807b04ee-0902-5561-8d81-f852ac02f8b3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A distinctive professional-tennis namesake with USC and wartime Navy chronology was reviewed, but no independent OSS, protected-identifier, rank, or Box linkage establishes that he is the indexed Gene Mako. The biography is not assigned by name alone.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 476 for Gene Mako's full name, birth data, Navy or OSS assignment, and pre-service chronology before assigning the tennis biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f8b31500-28c6-5a2b-b839-6d808405d511",
+      "identity_status": "confirmed",
+      "identity_evidence": "A direct OSS Greek Operational Group roster repeats the exact full name and technician grade and carries the same nonshared protected identifier as the index; the identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 476 for Lambros G. Makris's pre-OSS employer, occupation, and military chronology. The roster establishes wartime OSS identity only.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "3315b0d4-1548-5977-a632-8e623693c9e4",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "1669aff3-3883-5ee9-b26b-e7786262cc8a",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 476 to establish the immediate pre-OSS affiliation and last civilian employer. The accepted Army record is retained for identity only.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8f06bce3-98b1-50ed-9374-ba87c380aec9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 291 source preserves John Malandre, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 476 spelling-variant rows in duplicate group page291-john-malandre-malanore-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "page291-john-malandre-malanore-b1036"
+    },
+    {
+      "person_id": "8d02c26f-1085-5787-9e03-309395bb1414",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 291 source preserves John Malanore, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 476 spelling-variant rows in duplicate group page291-john-malandre-malanore-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "page291-john-malandre-malanore-b1036"
+    },
+    {
+      "person_id": "aa8aca81-09fa-55ba-a35b-d02680076044",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923",
+      "possible_duplicate_group": "page291-victor-malaspina-malispino-b1036"
+    },
+    {
+      "person_id": "4c4fbefa-3115-57ea-bdc7-15aaf59fff5c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Frank Malavask Jr., Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5cb03613-df14-5b2c-8849-2e9ae2fcb4a4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Hanson J Malbrough, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1410b512-4857-595a-934c-0c9aa61e6993",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Edward V Malcom, Box 476, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "892d0768-822a-5d99-8ae9-f67429730287",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Raymund S Malec, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, compatible civilian professional grade, and official 1941-1945 chronology identifying Wilfred Malenbaum as chief of the OSS Food and Agriculture Section support a high-confidence match.",
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 477 for the exact 1941 OPA-to-OSS transition and any last civilian employer before the intervening federal assignment. Harvard is documented as student status, not employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "a76d70f9-a63b-5e3a-bdfd-d86b0e2dbe90",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Alexander B Maley, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "faee7841-6790-53dc-9b93-262fe20be144",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, matching sergeant rank, and specific BCRA/SOE RF Mission Varlin context support a high-confidence identity, while the indexed personnel file remains unreviewed.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 477 to establish Maxime Malfettes's relationship to the indexed OSS file and identify his prewar occupation or institutional affiliation. BCRA/SOE service is not treated as civilian employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "name_variants": [
+        "Tartuffe",
+        "Maxime Brunet"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true
+    },
+    {
+      "person_id": "32a41d50-11f3-5222-82a4-547e848f29d5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High confidence from a nonshared protected linkage despite the indexed F and Army J middle-initial conflict; the discrepancy remains visible.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923",
+      "name_variants": [
+        "John J Malia"
+      ],
+      "replace_name_variants": false
+    },
+    {
+      "person_id": "cc301165-edd8-5b23-9cc3-79842f6492a2",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8ba2be90-7d3d-5e8f-a50f-02e96c93c1ac",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Edith Malinofsky, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c99f9b22-6c95-5b97-9570-18b0e3a6a95f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 291 source preserves Victor Malispino, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 477 spelling-variant rows in duplicate group page291-victor-malaspina-malispino-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "page291-victor-malaspina-malispino-b1036"
+    },
+    {
+      "person_id": "ab42783f-5c5c-5aef-b80e-75cdd4083363",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8da5b625-0784-5c9d-a756-f39887196e3b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Martin L Malkin, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9b0d2874-1cea-5438-9407-68df938ca238",
+      "identity_status": "ambiguous",
+      "identity_evidence": "An exact-name psychologist and author affiliated with the American Jewish Committee was reviewed, but accessible authoritative sources did not independently connect that biography to the indexed P-5 row or establish the required OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 477 for Julius B. Maller's full biographical identifiers and employment history before assigning the psychologist biography or any named institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "17814442-286b-58a5-9920-d4718da57410",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "3489a66a-3e09-5b5e-8aba-fec001b9bd75",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Barbara S Mallory, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "55b487ee-6a40-58c1-9408-c60cbb6b96a4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High confidence from a nonshared protected linkage and exact first and surname; the Army form omits the indexed middle initial N.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923",
+      "name_variants": [
+        "Hal Mallory"
+      ],
+      "replace_name_variants": false
+    },
+    {
+      "person_id": "d7693575-ea82-52a6-858a-63baf05ac5f0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Jasper T Mallory, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "418500f7-93a8-5ff2-8bc0-087d9396bdf2",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "8326f585-6b57-53b5-bee7-acb760b305ed",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves John W Malloy, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 477 and the original index source for John W. Malloy. The printed identifier was ingested in malformed scientific notation and is unusable for identity resolution; it is not exposed publicly.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4b32f0b8-d82d-5fa9-bf72-b88c39ee77ba",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Valeria Mally, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d0beb127-df61-5886-91a3-53cc506b2075",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Harold N Malmin, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "abccd8f0-91f4-56d6-bfb8-267026bce6d2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 291 source preserves Patricia C Malmsted, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 477 spelling-variant rows in duplicate group page291-patricia-malmsted-malmstedt-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "page291-patricia-malmsted-malmstedt-b1036"
+    },
+    {
+      "person_id": "13077851-f1d4-5607-b882-418038025305",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page 291 source preserves Patricia C Malmstedt, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 477 spelling-variant rows in duplicate group page291-patricia-malmsted-malmstedt-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "page291-patricia-malmsted-malmstedt-b1036"
+    },
+    {
+      "person_id": "658b52c4-3150-5edf-95d1-ed09d54845ae",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "7113b95a-11f2-5c41-845c-d4898a48c124",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves Ethel M Malone, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b621093-42ff-560c-be18-66ea99a3c342",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves J D Malone, Box 477, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ba2d8b5a-f2fb-5b18-a1d3-f7e44bce0c86",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    },
+    {
+      "person_id": "6c7964f4-a075-5be2-a9e2-57fa0ac70a32",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High confidence from a nonshared protected linkage and the close Merrill/Morrill spelling variant; the identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 478 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923",
+      "name_variants": [
+        "Morrill E Malone"
+      ],
+      "replace_name_variants": false
+    },
+    {
+      "person_id": "54ad3523-641d-56d8-89f8-ee63d30ea3e0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page 291 source preserves William E Malone Jr., Box 478, rank or grade when printed, notes when present, and archive location. Staged official, exact-name, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity-and-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed Box 478 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "12704c00-5626-5ae7-8142-e7f3fcbc7d44",
+      "identity_status": "confirmed",
+      "identity_evidence": "Confirmed by exact official name agreement and a nonshared protected linkage; the protected identifier remains private.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 478 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "nara_catalog_id": "1263923"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page291-row1-sylvester-maiza-b1036",
+      "person_id": "371b5cab-9753-52ef-8cc7-a84b8660853f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sylvester Maiza; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row2-lillian-majar-b1036",
+      "person_id": "72814464-7e22-50a7-93ef-6d31a56597bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lillian Majar; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row3-robert-major-b1036",
+      "person_id": "81295f7f-9ff4-5ca0-ab7d-5c75ebcacd42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert Major; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row4-sarah-majors-b1036",
+      "person_id": "8a1107de-5180-5d37-b7cb-265d9f3fd7a2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sarah Majors; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row5-thomas-b-majure-b1036",
+      "person_id": "847ceb18-40df-5905-b976-c9870688169a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas B Majure; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "A materially different Army-name candidate was rejected; no identity or occupation was transferred. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 and the original identifier-bearing index record to resolve the rejected Army candidate. No candidate occupation is published.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row6-paul-makanowitzky-b1036",
+      "person_id": "1585a5b0-ac2f-5d96-b31c-73de8d94b1ca",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul Makanowitzky; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row7-george-s-makepeace-b1036",
+      "person_id": "fdf243b2-fe0a-59c1-a634-c3d1c63b4ab0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George S Makepeace; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row8-tovivo-maki-b1036",
+      "person_id": "d945d0d2-91b0-5c58-b940-5167da988687",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Tovivo Maki; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to establish the immediate pre-OSS affiliation and last civilian employer. The accepted Army record is retained for identity only.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row9-gene-mako-b1036",
+      "person_id": "807b04ee-0902-5561-8d81-f852ac02f8b3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gene Mako; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "A famous tennis namesake was reviewed but not assigned because no independent OSS or protected-identifier bridge was found. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 for Gene Mako's full name, birth data, Navy or OSS assignment, and pre-service chronology before assigning the tennis biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row10-lambros-g-makris-b1036",
+      "person_id": "f8b31500-28c6-5a2b-b839-6d808405d511",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lambros G Makris; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "A direct roster confirms Lambros G. Makris in the OSS Greek Operational Group but supplies no pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 for Lambros G. Makris's pre-OSS employer, occupation, and military chronology. The roster establishes wartime OSS identity only.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row11-antonio-a-malakis-b1036",
+      "person_id": "3315b0d4-1548-5977-a632-8e623693c9e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Antonio A Malakis; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row12-clarence-j-malakowsky-b1036",
+      "person_id": "1669aff3-3883-5ee9-b26b-e7786262cc8a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence J Malakowsky; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to establish the immediate pre-OSS affiliation and last civilian employer. The accepted Army record is retained for identity only.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row13-john-malandre-b1036",
+      "person_id": "8f06bce3-98b1-50ed-9374-ba87c380aec9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Malandre; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The adjacent Malandre and Malanore spellings remain separate possible-duplicate entities pending Box 476 review. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 476 spelling-variant rows in duplicate group page291-john-malandre-malanore-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row14-john-malanore-b1036",
+      "person_id": "8d02c26f-1085-5787-9e03-309395bb1414",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Malanore; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The adjacent Malandre and Malanore spellings remain separate possible-duplicate entities pending Box 476 review. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 476 spelling-variant rows in duplicate group page291-john-malandre-malanore-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row15-victor-malaspina-b1036",
+      "person_id": "aa8aca81-09fa-55ba-a35b-d02680076044",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor Malaspina; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 476 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row16-frank-malavask-jr-b1036",
+      "person_id": "4c4fbefa-3115-57ea-bdc7-15aaf59fff5c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank Malavask Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row17-hanson-j-malbrough-b1036",
+      "person_id": "5cb03613-df14-5b2c-8849-2e9ae2fcb4a4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hanson J Malbrough; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row18-edward-v-malcom-b1036",
+      "person_id": "1410b512-4857-595a-934c-0c9aa61e6993",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward V Malcom; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 476",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 476 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row19-raymund-s-malec-b1036",
+      "person_id": "892d0768-822a-5d99-8ae9-f67429730287",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Raymund S Malec; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row20-wilfred-malenbaum-b1036",
+      "person_id": "c075d283-bef5-5c80-a499-e8ae353455e0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilfred Malenbaum; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Official evidence supports OPA as Wilfred Malenbaum's probable immediate government affiliation and Harvard as earlier student status; no last civilian employer is established. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 for the exact 1941 OPA-to-OSS transition and any last civilian employer before the intervening federal assignment. Harvard is documented as student status, not employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row21-alexander-b-maley-b1036",
+      "person_id": "a76d70f9-a63b-5e3a-bdfd-d86b0e2dbe90",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alexander B Maley; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row22-maxime-malfettes-b1036",
+      "person_id": "faee7841-6790-53dc-9b93-262fe20be144",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Maxime Malfettes; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Mission Varlin evidence supports identity and aliases but not a pre-OSS employer or transition into the indexed file. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to establish Maxime Malfettes's relationship to the indexed OSS file and identify his prewar occupation or institutional affiliation. BCRA/SOE service is not treated as civilian employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row23-john-f-malia-b1036",
+      "person_id": "32a41d50-11f3-5222-82a4-547e848f29d5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John F Malia; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row24-wilson-b-malick-b1036",
+      "person_id": "cc301165-edd8-5b23-9cc3-79842f6492a2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilson B Malick; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row25-edith-malinofsky-b1036",
+      "person_id": "8ba2be90-7d3d-5e8f-a50f-02e96c93c1ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edith Malinofsky; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row26-victor-malispino-b1036",
+      "person_id": "c99f9b22-6c95-5b97-9570-18b0e3a6a95f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor Malispino; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The Malaspina and Malispino spellings remain separate possible-duplicate entities; only the Malaspina row has accepted Army evidence. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 477 spelling-variant rows in duplicate group page291-victor-malaspina-malispino-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row27-louis-t-malizia-jr-b1036",
+      "person_id": "ab42783f-5c5c-5aef-b80e-75cdd4083363",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis T Malizia Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row28-martin-l-malkin-b1036",
+      "person_id": "8da5b625-0784-5c9d-a756-f39887196e3b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Martin L Malkin; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row29-julius-b-maller-b1036",
+      "person_id": "9b0d2874-1cea-5438-9407-68df938ca238",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Julius B Maller; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The exact-name psychologist biography lacks an independent OSS or personnel-file bridge and remains unassigned. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 for Julius B. Maller's full biographical identifiers and employment history before assigning the psychologist biography or any named institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row30-harry-s-mallon-b1036",
+      "person_id": "17814442-286b-58a5-9920-d4718da57410",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry S Mallon; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row31-barbara-s-mallory-b1036",
+      "person_id": "3489a66a-3e09-5b5e-8aba-fec001b9bd75",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Barbara S Mallory; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row32-hal-n-mallory-b1036",
+      "person_id": "55b487ee-6a40-58c1-9408-c60cbb6b96a4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hal N Mallory; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row33-jasper-t-mallory-b1036",
+      "person_id": "d7693575-ea82-52a6-858a-63baf05ac5f0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jasper T Mallory; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row34-lloyd-a-mallory-b1036",
+      "person_id": "418500f7-93a8-5ff2-8bc0-087d9396bdf2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lloyd A Mallory; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row35-john-w-malloy-b1036",
+      "person_id": "8326f585-6b57-53b5-bee7-acb760b305ed",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Malloy; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The printed identifier is malformed scientific notation and cannot be used for identity resolution. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 and the original index source for John W. Malloy. The printed identifier was ingested in malformed scientific notation and is unusable for identity resolution; it is not exposed publicly.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row36-valeria-mally-b1036",
+      "person_id": "4b32f0b8-d82d-5fa9-bf72-b88c39ee77ba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Valeria Mally; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row37-harold-n-malmin-b1036",
+      "person_id": "d0beb127-df61-5886-91a3-53cc506b2075",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold N Malmin; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row38-patricia-c-malmsted-b1036",
+      "person_id": "abccd8f0-91f4-56d6-bfb8-267026bce6d2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Patricia C Malmsted; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The adjacent Malmsted and Malmstedt spellings remain separate possible-duplicate entities pending Box 477 review. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 477 spelling-variant rows in duplicate group page291-patricia-malmsted-malmstedt-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row39-patricia-c-malmstedt-b1036",
+      "person_id": "13077851-f1d4-5607-b882-418038025305",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Patricia C Malmstedt; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "The adjacent Malmsted and Malmstedt spellings remain separate possible-duplicate entities pending Box 477 review. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 477 spelling-variant rows in duplicate group page291-patricia-malmsted-malmstedt-b1036 before any merge or transfer of identity and affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row40-philip-j-malmstedt-b1036",
+      "person_id": "658b52c4-3150-5edf-95d1-ed09d54845ae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip J Malmstedt; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row41-ethel-m-malone-b1036",
+      "person_id": "7113b95a-11f2-5c41-845c-d4898a48c124",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ethel M Malone; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row42-j-d-malone-b1036",
+      "person_id": "3b621093-42ff-560c-be18-66ea99a3c342",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "J D Malone; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 477 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row43-john-f-malone-b1036",
+      "person_id": "ba2d8b5a-f2fb-5b18-a1d3-f7e44bce0c86",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John F Malone; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 477",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 477 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row44-merrill-e-malone-b1036",
+      "person_id": "6c7964f4-a075-5be2-a9e2-57fa0ac70a32",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Merrill E Malone; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 478",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 478 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row45-william-e-malone-jr-b1036",
+      "person_id": "54ad3523-641d-56d8-89f8-ee63d30ea3e0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William E Malone Jr.; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 478",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review indexed Box 478 for corroborating identifiers, immediate pre-OSS affiliation, and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    },
+    {
+      "key": "page291-row46-william-j-malone-b1036",
+      "person_id": "12704c00-5626-5ae7-8142-e7f3fcbc7d44",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Malone; NARA OSS index context; exact-name and meaningful initial, suffix, alias, punctuation and OCR variants; OSS and CIA Reading Room; rank, branch, assignment and protected-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 478",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1036",
+      "started_at": "2026-11-04T16:45:00-05:00",
+      "completed_at": "2026-11-04T18:42:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads were rejected. Army categories were not converted into named employers; the 1945 Maki category and undefined Malakowsky code were not published as occupations; and possible duplicates were not merged.",
+      "research_notes": "Unbridged namesakes, snippets, commercial people-finder pages, unsourced genealogy, relatives, and postwar-only leads did not establish this indexed person's identity or pre-OSS affiliation. The official index, exact-name OSS searches, targeted CIA context, employment and occupation searches, and institutional, newspaper, obituary, directory, and archival searches were reviewed as applicable. Page 291, the cited Army code-list pages, Congressional Record page 2661, the Makris roster, and the Malfettes mission table were visually checked where used. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 478 to identify a named employer or institution and establish Army-to-OSS chronology. The protected Army link supplies only a broad historical occupation or student-status category.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1036-v1"
+    }
+  ]
+}
