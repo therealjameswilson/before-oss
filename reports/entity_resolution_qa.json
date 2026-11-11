@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:25:24+00:00",
+  "generated_at": "2026-11-11T18:55:00+00:00",
   "source_rows": 23978,
   "person_entities": 23935,
   "stored_person_entities": 23941,
@@ -21,7 +21,7 @@
   "automatic_same_name_same_service_number_groups": 10,
   "possible_duplicate_groups": 710,
   "same_service_number_different_name_groups": 158,
-  "entities_requiring_manual_review": 22459,
+  "entities_requiring_manual_review": 22468,
   "checks": {
     "all_source_rows_linked": true,
     "no_name_only_automatic_merges": true,
