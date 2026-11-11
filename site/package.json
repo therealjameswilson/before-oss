@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "check": "astro check && tsc --noEmit -p tsconfig.tests.json",
+    "build": "npm run check && node scripts/build-static.mjs",
     "preview": "astro preview",
     "test:e2e": "playwright test",
     "test:a11y": "playwright test tests/accessibility.spec.ts",

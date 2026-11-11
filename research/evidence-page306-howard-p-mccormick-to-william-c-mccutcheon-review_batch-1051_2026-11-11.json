@@ -1,0 +1,2214 @@
+{
+  "bundle_version": "batch-1051-v1",
+  "reviewer": "Before OSS Batch 1051 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 499-502",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 306, rows 1-46; every printed row visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 46 printed rows remain separate. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; reviewed row-specific private identity crosswalks",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record, protected identifier, or bulk ordinal is retained in public assets. Shared or conflicting links are withheld."
+    },
+    {
+      "key": "army-tech-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; Army-entry date, grade, and civilian-occupation fields",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used only to interpret selected fields; the bulk file does not identify a named employer or prove the Army-to-OSS sequence."
+    },
+    {
+      "key": "army-codes-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "Code No. 30 in NAID 1263923 technical documentation",
+      "title": "World War II Army Enlistment Records: Civilian Occupation Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "locator": "PDF physical pages 171, 173-174, and amended page 304; printed code lists visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records code lists",
+      "rights_notes": "The codes supply broad dated categories, not employers, workplaces, institutions, or OSS chronology."
+    },
+    {
+      "key": "loc-frank-ross-mccoy-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://findingaids.loc.gov/repositories/19/resources/5729",
+      "archival_identifier": "Frank Ross McCoy Papers, Library of Congress Manuscript Division",
+      "title": "Frank Ross McCoy Papers",
+      "author_creator": "Frank Ross McCoy",
+      "repository_publisher": "Library of Congress Manuscript Division",
+      "publication_record_date": "1862-1957; finding aid current at access",
+      "locator": "Biographical Note; entries for 1938-1945",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Frank Ross McCoy Papers",
+      "rights_notes": "The finding aid supplies an institutional chronology; it does not establish why McCoy appears in the OSS personnel index."
+    },
+    {
+      "key": "washington-post-thomas-mccoy-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://www.washingtonpost.com/archive/local/2009/12/06/obituaries/6c638098-7ddf-4d38-97ec-2e7b98641abc/",
+      "title": "Obituaries: Thomas F. McCoy",
+      "author_creator": "Matt Schudel",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2009-12-06",
+      "locator": "Thomas F. McCoy obituary",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Obituaries",
+      "rights_notes": "Only a short supporting excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "smithsonian-joseph-mccrindle-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://www.aaa.si.edu/collections/joseph-f-mccrindle-papers-16085/biographical-note",
+      "archival_identifier": "Joseph F. McCrindle papers, 1877-2013",
+      "title": "Biographical Note | Joseph F. McCrindle papers, 1877-2013",
+      "repository_publisher": "Archives of American Art, Smithsonian Institution",
+      "locator": "Biographical note",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Joseph F. McCrindle papers",
+      "rights_notes": "The note supports only the lieutenant row; the separate corporal row has a different private identifier and remains distinct."
+    },
+    {
+      "key": "uc-memorial-george-mccune-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://digicoll.lib.berkeley.edu/nanna/record/81372/files/inmemoriam1948.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+      "archival_identifier": "University of California In Memoriam, 1948",
+      "title": "In Memoriam, 1948",
+      "author_creator": "University of California Academic Senate",
+      "repository_publisher": "University of California",
+      "publication_record_date": "1948",
+      "locator": "PDF physical page 19; George McAfee McCune memorial, internal pages 2-3",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of California In Memoriam",
+      "rights_notes": "The university memorial explicitly sequences Occidental College employment and leave for OSS work."
+    },
+    {
+      "key": "mccune-foundation-marshall-b1051",
+      "access_date": "2026-11-11",
+      "stable_url": "https://nmmccune.org/who-we-are/",
+      "title": "Who We Are",
+      "repository_publisher": "Marshall L. and Perrine D. McCune Charitable Foundation",
+      "locator": "Legacy section",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "McCune Foundation history",
+      "rights_notes": "The institutional biography supports identity and a wartime Army Special Services assignment, but not its exact sequence relative to OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "foreign-policy-association-b1051",
+      "organization_id": "a454df0d-8adb-50ba-81cf-b4da2bbfae73",
+      "canonical_name": "Foreign Policy Association",
+      "historical_name": "Foreign Policy Association",
+      "aliases": [],
+      "organization_type": "nonprofit civic organization",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. McCoy's presidency is modeled as a professional affiliation because the finding aid does not establish paid employment."
+    },
+    {
+      "key": "united-states-army-b1051",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": [
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. A military assignment is never labeled civilian employment."
+    },
+    {
+      "key": "harvard-university-b1051",
+      "organization_id": "45ddf347-21c6-59f5-a8ae-517418adf941",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "McCrindle's attendance is a student relationship, not employment."
+    },
+    {
+      "key": "occidental-college-b1051",
+      "canonical_name": "Occidental College",
+      "historical_name": "Occidental College",
+      "aliases": [
+        "Occidental"
+      ],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Historical college name retained. The memorial identifies employment on the history staff and leave for OSS work."
+    },
+    {
+      "key": "army-special-services-b1051",
+      "canonical_name": "U.S. Army Special Services",
+      "historical_name": "Special Services",
+      "aliases": [
+        "Army Special Services"
+      ],
+      "organization_type": "military program",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "World War II",
+      "normalization_notes": "The historical program is retained separately from the parent Army so the source wording and assignment remain visible."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "howard-p-mccormick-army-entry-occupation-b1051",
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "occupation": "general industry clerk",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-16",
+      "date_precision": "Historical civilian-occupation code 118 was recorded at Army entry on 1942-09-16; no named employer, institution, workplace, or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "john-f-mccormick-army-entry-occupation-b1051",
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "occupation": "semiskilled structural or ornamental metal worker",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-03",
+      "date_precision": "Historical civilian-occupation code 684 was recorded at Army entry on 1942-09-03; no named employer, institution, workplace, or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "joseph-f-mccrindle-army-entry-occupation-b1051",
+      "person_id": "4c8522f4-9712-584a-924e-ba55ee072e88",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943-05-25",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-05-25; no named employer, institution, workplace, or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "james-j-mccullough-army-entry-occupation-b1051",
+      "person_id": "b6fa8688-ffba-5d7d-b519-6cafd1b32633",
+      "occupation": "semiskilled welder or flame cutter",
+      "relationship_type": "unknown",
+      "end_date": "1943-03-26",
+      "date_precision": "Historical civilian-occupation code 685 was recorded at Army entry on 1943-03-26; no named employer, institution, workplace, or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "alexander-f-mccurdy-army-entry-occupation-b1051",
+      "person_id": "b9e3c574-7309-55a8-9474-e87b683a784d",
+      "occupation": "machinist",
+      "relationship_type": "unknown",
+      "end_date": "1944-06-22",
+      "date_precision": "Historical civilian-occupation code 475 was recorded at Army entry on 1944-06-22; no named employer, institution, workplace, or OSS-transfer date is supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "frank-ross-mccoy-fpa-b1051",
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "organization_key": "foreign-policy-association-b1051",
+      "organization_name_as_found": "Foreign Policy Association",
+      "role_title": "president",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1939",
+      "end_date": "1945",
+      "date_precision": "The Library of Congress finding aid dates the presidency to 1939-1945; it does not state whether this role explains the OSS index entry.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Documented prewar and wartime professional affiliation; not presented as an employer or immediate OSS predecessor."
+    },
+    {
+      "key": "thomas-f-mccoy-army-b1051",
+      "person_id": "14fd8141-1e60-5dc7-8822-fb74feedfc23",
+      "organization_key": "united-states-army-b1051",
+      "organization_name_as_found": "Army",
+      "role_title": "Army officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "The obituary states that McCoy served in the Army during World War II and was selected for OSS; no exact transfer date or unit is printed.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The military pathway is distinct from an unidentified last civilian employer."
+    },
+    {
+      "key": "joseph-feder-mccrindle-harvard-b1051",
+      "person_id": "9c68dd21-4877-5709-b14a-e757abb377f9",
+      "organization_key": "harvard-university-b1051",
+      "organization_name_as_found": "Harvard",
+      "relationship_type": "student",
+      "end_date": "1944",
+      "date_precision": "The Smithsonian note says McCrindle graduated from Harvard in 1944; it does not establish the exact sequence relative to his OSS service.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not an employer claim. This evidence belongs only to the lieutenant row, not the distinct corporal row."
+    },
+    {
+      "key": "george-mcafee-mccune-occidental-b1051",
+      "person_id": "c69ef820-17f0-5460-83df-d717087725f5",
+      "organization_key": "occidental-college-b1051",
+      "organization_name_as_found": "Occidental College",
+      "role_title": "history instructor and associate professor",
+      "occupation": "historian and college teacher",
+      "relationship_type": "employment",
+      "start_date": "1939",
+      "end_date": "1942",
+      "date_precision": "The 1948 university memorial says McCune served on Occidental's history staff from 1939 and received leave in 1942 to work for OSS; his staff affiliation formally continued to 1946.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The memorial explicitly sequences leave from Occidental for OSS work. The 1942 transition is used while the continuing leave-status relationship through 1946 is preserved in the date note."
+    },
+    {
+      "key": "marshall-lockhart-mccune-army-special-services-b1051",
+      "person_id": "b035428e-2bc2-5a6c-b645-7e5671b55de0",
+      "organization_key": "army-special-services-b1051",
+      "organization_name_as_found": "Special Services",
+      "role_title": "Special Services Officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "end_date": "1946",
+      "date_precision": "The foundation biography places his volunteer Army service and Far East Special Services assignment during World War II and gives a 1946 discharge; exact assignment dates and OSS sequence are unstated.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented wartime military assignment; not labeled the immediate OSS predecessor without a direct chronology."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-frank-ross-mccoy-b1051",
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "claim_type": "identity",
+      "claim_text": "Indexed Major General Frank R. McCoy is Frank Ross McCoy, whose papers are described by the Library of Congress.",
+      "evidence_paraphrase": "The finding aid supplies the full middle name and an exceptional major-general chronology matching the indexed name and rank.",
+      "identity_match_assessment": "High confidence from exact name and initial, exceptional rank, and a continuous authoritative military chronology.",
+      "temporal_assessment": "The finding aid documents prewar and wartime roles but not why the personnel index includes McCoy.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The stronger institutional bridge supplements an earlier probable identity review without inferring OSS duties.",
+      "sources": [
+        {
+          "source_key": "loc-frank-ross-mccoy-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-frederick-mccoy-b1051",
+      "person_id": "14fd8141-1e60-5dc7-8822-fb74feedfc23",
+      "claim_type": "identity",
+      "claim_text": "Indexed Major Thomas F. McCoy is Thomas Frederick McCoy, the Army officer selected for OSS service in London.",
+      "evidence_paraphrase": "The obituary gives the full middle name, World War II Army service, selection for OSS, London duty, and a compatible officer chronology.",
+      "identity_match_assessment": "High confidence from exact name and initial, compatible major rank, and explicit Army-to-OSS service.",
+      "temporal_assessment": "The source explicitly places Army service before OSS selection.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full middle name is retained as a sourced variant; no civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "washington-post-thomas-mccoy-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-feder-mccrindle-b1051",
+      "person_id": "9c68dd21-4877-5709-b14a-e757abb377f9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Joseph F. McCrindle is Joseph Feder McCrindle, the Harvard graduate who served with OSS in London and attained first lieutenant.",
+      "evidence_paraphrase": "The Smithsonian note supplies the full middle name, explicit London OSS service, and the exact first-lieutenant rank.",
+      "identity_match_assessment": "Confirmed for the lieutenant row by the rare exact name, matching rank, and explicit OSS service. The distinct corporal row is excluded.",
+      "temporal_assessment": "The student and wartime chronology is documented, although the exact Harvard-to-OSS transition is unstated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Different private identifiers keep the corporal and lieutenant rows separate; this biography is not transferred to the corporal.",
+      "sources": [
+        {
+          "source_key": "smithsonian-joseph-mccrindle-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-mcafee-mccune-b1051",
+      "person_id": "c69ef820-17f0-5460-83df-d717087725f5",
+      "claim_type": "identity",
+      "claim_text": "Indexed George M. McCune is George McAfee McCune, the Occidental historian placed on leave to work for OSS in 1942.",
+      "evidence_paraphrase": "The university memorial supplies the full middle name, exact OSS transition, occupation, and a continuous wartime chronology.",
+      "identity_match_assessment": "Confirmed by exact name and initial plus a direct institutional statement of OSS service.",
+      "temporal_assessment": "The memorial explicitly dates the move from Occidental employment to OSS work in 1942.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full middle name is retained as a sourced variant.",
+      "sources": [
+        {
+          "source_key": "uc-memorial-george-mccune-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-marshall-lockhart-mccune-b1051",
+      "person_id": "b035428e-2bc2-5a6c-b645-7e5671b55de0",
+      "claim_type": "identity",
+      "claim_text": "Indexed Lieutenant Marshall L. McCune is Marshall Lockhart McCune, the wartime Army Special Services officer described by his family foundation.",
+      "evidence_paraphrase": "The institutional biography supplies the rare full name, compatible Army officer service, Far East assignment, and 1946 discharge.",
+      "identity_match_assessment": "High confidence from a rare exact name, matching initial, compatible lieutenant rank, and detailed wartime Army chronology.",
+      "temporal_assessment": "The biography documents wartime service but does not state the exact relation between Special Services and OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is strong, but the assignment remains temporally qualified.",
+      "sources": [
+        {
+          "source_key": "mccune-foundation-marshall-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-melvin-l-mccrea-army-b1051",
+      "person_id": "885df8a2-155f-5c30-a3ab-420f739a67df",
+      "claim_type": "identity",
+      "claim_text": "The indexed Melvin L McCrea row has a high-confidence identity link to an official Army enlistment record.",
+      "evidence_paraphrase": "The official index name and the Army entry agree after fixed-width spacing is normalized, and the private identifier is nonshared for this row.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier link; the identifier remains private.",
+      "temporal_assessment": "The Army-entry date supports identity, not by itself the chronology of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The code 999 occupation field is indeterminate and is not published.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-samuel-h-mccrea-army-b1051",
+      "person_id": "dcdfe506-9da3-5c6c-a6c9-a3390f77923c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Samuel H McCrea row has a high-confidence identity link to an official Army enlistment record.",
+      "evidence_paraphrase": "The official index name and the Army entry agree after fixed-width spacing is normalized, and the private identifier is nonshared for this row.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier link; the identifier remains private. The official record supplies the variant Samuel H McCrea Jr..",
+      "temporal_assessment": "The Army-entry date supports identity, not by itself the chronology of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army suffix is retained as a sourced name variant; code 999 is not published.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-f-mccrindle-army-b1051",
+      "person_id": "4c8522f4-9712-584a-924e-ba55ee072e88",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph F McCrindle row has a high-confidence identity link to an official Army enlistment record.",
+      "evidence_paraphrase": "The official index name and the Army entry agree after fixed-width spacing is normalized, and the private identifier is nonshared for this row.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier link; the identifier remains private.",
+      "temporal_assessment": "The Army-entry date supports identity, not by itself the chronology of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The unique link belongs to the corporal row only; the separate lieutenant row remains distinct.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-j-mccullough-army-b1051",
+      "person_id": "b6fa8688-ffba-5d7d-b519-6cafd1b32633",
+      "claim_type": "identity",
+      "claim_text": "The indexed James J McCullough row has a high-confidence identity link to an official Army enlistment record.",
+      "evidence_paraphrase": "The official index name and the Army entry agree after fixed-width spacing is normalized, and the private identifier is nonshared for this row.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier link; the identifier remains private.",
+      "temporal_assessment": "The Army-entry date supports identity, not by itself the chronology of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The link supports a qualified Army-entry occupation category.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-wilton-e-mccullough-army-b1051",
+      "person_id": "b829d19d-21ec-5782-9a3a-6d8021c2e3a9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wilton E McCullough row has a high-confidence identity link to an official Army enlistment record.",
+      "evidence_paraphrase": "The official index name and the Army entry agree after fixed-width spacing is normalized, and the private identifier is nonshared for this row.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier link; the identifier remains private.",
+      "temporal_assessment": "The Army-entry date supports identity, not by itself the chronology of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry is dated 28 June 1946, so its occupation is withheld as postwar-dated.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-alexander-f-mccurdy-army-b1051",
+      "person_id": "b9e3c574-7309-55a8-9474-e87b683a784d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alexander F McCurdy row has a high-confidence identity link to an official Army enlistment record.",
+      "evidence_paraphrase": "The official index name and the Army entry agree after fixed-width spacing is normalized, and the private identifier is nonshared for this row.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier link; the identifier remains private.",
+      "temporal_assessment": "The Army-entry date supports identity, not by itself the chronology of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The link supports a qualified Army-entry occupation category.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-howard-p-mccormick-b1051",
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-16, Howard P McCormick was recorded as general industry clerk; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 118; the visually checked official list defines the category as General industry clerks.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "army-tech-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1051",
+          "locator_override": "PDF physical page 171; historical code 1-18"
+        }
+      ],
+      "affiliation_key": "howard-p-mccormick-army-entry-occupation-b1051"
+    },
+    {
+      "key": "army-entry-john-f-mccormick-b1051",
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-03, John F McCormick was recorded as semiskilled structural or ornamental metal worker; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 684; the visually checked official list defines the category as Semiskilled occupations in structural and ornamental metal work.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "army-tech-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1051",
+          "locator_override": "PDF physical page 174; historical code 6-84"
+        }
+      ],
+      "affiliation_key": "john-f-mccormick-army-entry-occupation-b1051"
+    },
+    {
+      "key": "army-entry-joseph-f-mccrindle-b1051",
+      "person_id": "4c8522f4-9712-584a-924e-ba55ee072e88",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-25, Joseph F McCrindle was recorded as student; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 992; the visually checked official list defines the category as Students.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "army-tech-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1051",
+          "locator_override": "PDF physical page 304; corrected historical code 9-92"
+        }
+      ],
+      "affiliation_key": "joseph-f-mccrindle-army-entry-occupation-b1051"
+    },
+    {
+      "key": "army-entry-james-j-mccullough-b1051",
+      "person_id": "b6fa8688-ffba-5d7d-b519-6cafd1b32633",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-26, James J McCullough was recorded as semiskilled welder or flame cutter; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 685; the visually checked official list defines the category as Semiskilled welders and flame cutters.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "army-tech-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1051",
+          "locator_override": "PDF physical page 174; historical code 6-85"
+        }
+      ],
+      "affiliation_key": "james-j-mccullough-army-entry-occupation-b1051"
+    },
+    {
+      "key": "army-entry-alexander-f-mccurdy-b1051",
+      "person_id": "b9e3c574-7309-55a8-9474-e87b683a784d",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-06-22, Alexander F McCurdy was recorded as machinist; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 475; the visually checked official list defines the category as Machinists.",
+      "identity_match_assessment": "High confidence from matching official name evidence and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-b1051"
+        },
+        {
+          "source_key": "army-tech-b1051",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b1051",
+          "locator_override": "PDF physical page 173; historical code 4-75"
+        }
+      ],
+      "affiliation_key": "alexander-f-mccurdy-army-entry-occupation-b1051"
+    },
+    {
+      "key": "fpa-frank-ross-mccoy-b1051",
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Frank Ross McCoy was president of the Foreign Policy Association from 1939 to 1945.",
+      "evidence_paraphrase": "The Library of Congress biographical chronology dates the presidency to 1939-1945 alongside other official wartime assignments.",
+      "identity_match_assessment": "High confidence from exact name and initial, exceptional rank, and the authoritative papers finding aid.",
+      "temporal_assessment": "Documented before and during the wartime period, but not established as the immediate OSS predecessor.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The presidency is a professional affiliation, not silently converted into paid employment.",
+      "sources": [
+        {
+          "source_key": "loc-frank-ross-mccoy-b1051",
+          "excerpt_override": "1939-1945 President, Foreign Policy Association"
+        }
+      ],
+      "affiliation_key": "frank-ross-mccoy-fpa-b1051"
+    },
+    {
+      "key": "army-thomas-frederick-mccoy-b1051",
+      "person_id": "14fd8141-1e60-5dc7-8822-fb74feedfc23",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Thomas Frederick McCoy served in the U.S. Army before he was selected for OSS service.",
+      "evidence_paraphrase": "The obituary explicitly sequences World War II Army service and selection for OSS, followed by London service.",
+      "identity_match_assessment": "High confidence from exact name and initial, compatible major rank, and explicit Army and OSS context.",
+      "temporal_assessment": "Explicit immediate military pathway; the exact transfer date and unit are unstated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army assignment is not labeled a civilian employer, and no last civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "washington-post-thomas-mccoy-b1051",
+          "excerpt_override": "He served in the Army during World War II and was selected to work for the Office of Strategic Services"
+        }
+      ],
+      "affiliation_key": "thomas-f-mccoy-army-b1051"
+    },
+    {
+      "key": "harvard-joseph-feder-mccrindle-b1051",
+      "person_id": "9c68dd21-4877-5709-b14a-e757abb377f9",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Joseph Feder McCrindle graduated from Harvard in 1944.",
+      "evidence_paraphrase": "The Smithsonian biographical note documents Harvard graduation in 1944 and separate wartime OSS service in London.",
+      "identity_match_assessment": "Confirmed for the lieutenant row by rare exact name, full middle name, matching first-lieutenant rank, and explicit OSS service.",
+      "temporal_assessment": "Student status is pre- or early-wartime, but its exact sequence relative to OSS is not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Harvard is recorded as an educational institution, never an employer; evidence is not transferred to the corporal row.",
+      "sources": [
+        {
+          "source_key": "smithsonian-joseph-mccrindle-b1051",
+          "excerpt_override": "He graduated from Harvard University in 1944"
+        }
+      ],
+      "affiliation_key": "joseph-feder-mccrindle-harvard-b1051"
+    },
+    {
+      "key": "occidental-george-mcafee-mccune-b1051",
+      "person_id": "c69ef820-17f0-5460-83df-d717087725f5",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "George McAfee McCune worked on the Occidental College history staff immediately before receiving leave in 1942 to work for OSS.",
+      "evidence_paraphrase": "The university memorial explicitly says he served on Occidental's history staff from 1939 and was given leave in 1942 for OSS work.",
+      "identity_match_assessment": "Confirmed by the full name, direct OSS statement, and continuous academic chronology in an institutional memorial.",
+      "temporal_assessment": "Explicit immediate civilian employment and last documented civilian employer before OSS work.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The formal staff affiliation continuing on leave to 1946 is preserved without obscuring the 1942 transition.",
+      "sources": [
+        {
+          "source_key": "uc-memorial-george-mccune-b1051",
+          "excerpt_override": "From 1939 to 1946 he served on the history staff at Occidental College"
+        }
+      ],
+      "affiliation_key": "george-mcafee-mccune-occidental-b1051"
+    },
+    {
+      "key": "army-special-services-marshall-mccune-b1051",
+      "person_id": "b035428e-2bc2-5a6c-b645-7e5671b55de0",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Marshall Lockhart McCune served as a U.S. Army Special Services Officer in the Far East during World War II.",
+      "evidence_paraphrase": "The family foundation biography documents his volunteer Army service, Far East Special Services assignment, and 1946 discharge.",
+      "identity_match_assessment": "High confidence from a rare full name, matching initial, compatible lieutenant rank, and detailed wartime Army chronology.",
+      "temporal_assessment": "The assignment is documented during the wartime period, but its relation to OSS is uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The assignment is not presented as an immediate OSS predecessor or civilian employment.",
+      "sources": [
+        {
+          "source_key": "mccune-foundation-marshall-b1051",
+          "excerpt_override": "stationed in the Far East as a Special Services Officer"
+        }
+      ],
+      "affiliation_key": "marshall-lockhart-mccune-army-special-services-b1051"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "Previously reviewed official index and Army entries agree in name and a nonshared private identifier. The link supports identity and a broad historical occupation category only.",
+      "nara_catalog_id": "1263923",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 500 for a named employer or institution and the Army-to-OSS sequence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "Previously reviewed official index and Army entries agree in name and a nonshared private identifier. The link supports identity and a broad historical occupation category only.",
+      "nara_catalog_id": "1263923",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 500 for a named employer or institution and the Army-to-OSS sequence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ce1f1a7b-e464-56e3-b497-5061e75aebeb",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d647f359-3158-50f9-bdef-260a88cf5e5c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4cbb3e26-30b0-53f0-9e1a-0e19a4af2684",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c26ef12a-eaa3-5b80-b868-781e4866491c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29170d7f-5242-5fd5-a271-647f2a89f820",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "The adjacent Virgina McCoud and Virgina C. McCould rows may be spelling variants, but the current evidence does not establish that they are one person.",
+      "possible_duplicate_group": "p306-virgina-mccoud-mccould-b623",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "118dd0d9-52fa-5f97-9806-5ba3f0dce348",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "The adjacent Virgina McCoud and Virgina C. McCould rows may be spelling variants, but the current evidence does not establish that they are one person.",
+      "possible_duplicate_group": "p306-virgina-mccoud-mccould-b623",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 499 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "32768128-71a0-59f9-a535-9a8eca39cd10",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4696b43a-af78-58b0-830a-e4bcc9c410e4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9ae63d13-d710-54ad-8223-1b7df9539013",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name, middle initial, and exceptional major-general rank align with the Library of Congress Frank Ross McCoy Papers and their continuous military chronology.",
+      "name_variants": [
+        "Frank Ross McCoy"
+      ],
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 to determine why McCoy appears in the OSS index and whether the Foreign Policy Association or another wartime role preceded any OSS assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "50f35fc0-e854-5221-ae4e-0742b47cc0ac",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "50fe03ef-69fd-51d6-8e68-5fa1a606a8e2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5dd734ac-994b-5ca4-b62b-c6294659106f",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "98efde88-d3cb-59fd-8682-c611443b12d5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4a702359-1c88-5f8b-9086-fe0532896069",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "14fd8141-1e60-5dc7-8822-fb74feedfc23",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and initial, compatible major rank, and obituary's explicit Army-to-OSS chronology identify Thomas Frederick McCoy.",
+      "name_variants": [
+        "Thomas Frederick McCoy"
+      ],
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 for the precise Army unit and OSS transfer date and for McCoy's last civilian employer before wartime service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6eed87e4-103e-554e-8386-328b3844cb48",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7cc8269b-4f1b-5de6-b103-6ad33435966b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d8350c53-c8c2-58dc-a145-bcc543ac508c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4ee3c4a3-b18c-55e5-a6ae-6605402b86de",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "conflicting",
+      "identity_evidence": "The private identifier printed for this index row maps to an official Army record for a different name. No occupation or identity evidence is transferred.",
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 501 to resolve the conflicting protected identifier before assigning any Army occupation or biography.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4917ebd7-ee43-5e3a-9461-7415c965375d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A previously reviewed official Army crosswalk agrees in name and a nonshared private identifier, but the Army entry is dated 10 July 1946.",
+      "nara_catalog_id": "1263923",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 to establish the OSS chronology before using the postwar-dated 10 July 1946 Army entry as pre-OSS evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "615d5039-2e2c-50fa-b8d4-9e772f537dc6",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "The Ivna W. McCrary and Ivan W. McCray rows share one private identifier, while the official Army entry uses Ivan W. McCray. Neither row receives the occupation pending file comparison.",
+      "possible_duplicate_group": "p306-ivna-mccrary-ivan-mccray-b623",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both Box 501 personnel files and the shared private identifier before merging or transferring Army evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4960f431-455c-5d03-a23d-90159edbc153",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "This row shares a private identifier with the page-304 Jack L. McCarary spelling variant. The official Army name resembles McCrary, but the two source rows remain separate.",
+      "possible_duplicate_group": "p304-306-jack-mccarary-mccrary-b623",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare the page-304 and page-306 personnel files before merging the Jack L. McCarary/McCrary rows or transferring Army evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "72d1dd8d-db1f-5147-8789-333c85d5e2f8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af0435c1-a04e-533d-9289-1ee6cdf53e12",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "ambiguous",
+      "identity_evidence": "The Ivna W. McCrary and Ivan W. McCray rows share one private identifier, while the official Army entry uses Ivan W. McCray. Neither row receives the occupation pending file comparison.",
+      "possible_duplicate_group": "p306-ivna-mccrary-ivan-mccray-b623",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both Box 501 personnel files and the shared private identifier before merging or transferring Army evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b9edcade-258b-53c5-99e9-762d1027d630",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f2f7ce7e-7889-5ccb-8ab9-d15249a99646",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "885df8a2-155f-5c30-a3ab-420f739a67df",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official index and Army entry agree after fixed-width name spacing is normalized, and the reviewed private identifier is nonshared. Army occupation code 999 is indeterminate and is not published.",
+      "nara_catalog_id": "1263923",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 for a named employer or occupation and the Army-to-OSS sequence; code 999 supplies no useful occupation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dcdfe506-9da3-5c6c-a6c9-a3390f77923c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official index and Army entry agree after fixed-width name spacing is normalized, and the reviewed private identifier is nonshared. Army occupation code 999 is indeterminate and is not published.",
+      "name_variants": [
+        "Samuel H McCrea Jr."
+      ],
+      "nara_catalog_id": "1263923",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 for a named employer or occupation and the Army-to-OSS sequence; code 999 supplies no useful occupation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5c8d3d2a-bf5e-5c0a-bbf5-cad9ad10f2c2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c8522f4-9712-584a-924e-ba55ee072e88",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared official Army link matches the corporal row and supports the student category at Army entry. The separate lieutenant row has a different private identifier.",
+      "possible_duplicate_group": "p306-joseph-f-mccrindle-distinct-identifiers-b623",
+      "nara_catalog_id": "1263923",
+      "research_status": "occupation_only_found",
+      "next_action": "Review both Box 501 Joseph F. McCrindle files to preserve the separate identities and identify the corporal's institution and OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9c68dd21-4877-5709-b14a-e757abb377f9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "The Smithsonian biography supplies the rare full name Joseph Feder McCrindle, explicit London OSS service, and the exact first-lieutenant rank. It belongs only to this lieutenant row.",
+      "name_variants": [
+        "Joseph Feder McCrindle"
+      ],
+      "possible_duplicate_group": "p306-joseph-f-mccrindle-distinct-identifiers-b623",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Box 501 files to establish the exact Harvard-to-OSS chronology and confirm why a distinct corporal row bears the same indexed name.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "32fa7614-3e98-5869-b8ab-fadd5dfb3c2b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5b2e97be-a6ac-585c-8051-c4b3a1524dd2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4fdbe340-445c-57cd-b750-4343e0bccc59",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b6fa8688-ffba-5d7d-b519-6cafd1b32633",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official index and Army entry agree in name and a nonshared private identifier, supporting a qualified Army-entry occupation category.",
+      "nara_catalog_id": "1263923",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 501 for a named employer and the Army-to-OSS sequence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "08656ac8-1885-55d6-bcf8-2f2c2fefe8b8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b829d19d-21ec-5782-9a3a-6d8021c2e3a9",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official index and Army entry agree in name and a nonshared private identifier, but the Army entry is dated 28 June 1946.",
+      "nara_catalog_id": "1263923",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 to establish the OSS chronology before using the postwar-dated 28 June 1946 Army entry as pre-OSS evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c69ef820-17f0-5460-83df-d717087725f5",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "confirmed",
+      "identity_evidence": "The university memorial supplies the full middle name, Occidental employment, and a direct statement that McCune received leave in 1942 to work for OSS.",
+      "name_variants": [
+        "George McAfee McCune"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 501 for McCune's exact OSS appointment date and the terms of his Occidental leave.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "b035428e-2bc2-5a6c-b645-7e5671b55de0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "A rare exact name, matching initial, compatible lieutenant rank, and institutional biography's detailed wartime Army chronology identify Marshall Lockhart McCune.",
+      "name_variants": [
+        "Marshall Lockhart McCune"
+      ],
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 501 to place the Far East Special Services assignment relative to OSS and identify McCune's last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f937b58-0d9e-50fc-a489-4b16b8006575",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e94dbad1-4b8b-5711-9848-15f87646bac8",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 502 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b9e3c574-7309-55a8-9474-e87b683a784d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official index and Army entry agree in name and a nonshared private identifier, supporting a qualified Army-entry machinist category.",
+      "nara_catalog_id": "1263923",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 502 for a named employer and the Army-to-OSS sequence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0d0bd61d-c89e-5141-b5bd-623cb4977c3d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and meaningful-variant checks across official index context and accessible official, institutional, military, newspaper, obituary, directory, and archival discovery sources produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 502 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page306-row1-howard-p-mccormick-b1051",
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Howard P McCormick; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation or student category but no named employer or OSS-transfer sequence. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 500 for a named employer or institution and the Army-to-OSS sequence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row2-john-f-mccormick-b1051",
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John F McCormick; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation or student category but no named employer or OSS-transfer sequence. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 500 for a named employer or institution and the Army-to-OSS sequence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row3-john-i-mccormick-b1051",
+      "person_id": "ce1f1a7b-e464-56e3-b497-5061e75aebeb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John I McCormick; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row4-lila-g-mccormick-b1051",
+      "person_id": "d647f359-3158-50f9-bdef-260a88cf5e5c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lila G McCormick; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row5-marjorie-m-mccormick-b1051",
+      "person_id": "4cbb3e26-30b0-53f0-9e1a-0e19a4af2684",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marjorie M McCormick; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row6-robert-w-mccormick-b1051",
+      "person_id": "c26ef12a-eaa3-5b80-b868-781e4866491c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W McCormick; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row7-virgina-mccoud-b1051",
+      "person_id": "29170d7f-5242-5fd5-a271-647f2a89f820",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Virgina McCoud; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "A repeated row, shared identifier, spelling conflict, or identifier-to-name conflict remains separate for direct personnel-file comparison. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row8-virgina-c-mccould-b1051",
+      "person_id": "118dd0d9-52fa-5f97-9806-5ba3f0dce348",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Virgina C McCould; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 499",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "A repeated row, shared identifier, spelling conflict, or identifier-to-name conflict remains separate for direct personnel-file comparison. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 499 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row9-benard-h-mccoy-b1051",
+      "person_id": "32768128-71a0-59f9-a535-9a8eca39cd10",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benard H McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row10-francis-t-mccoy-b1051",
+      "person_id": "4696b43a-af78-58b0-830a-e4bcc9c410e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis T McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 500",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 500 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row11-frank-p-mccoy-b1051",
+      "person_id": "9ae63d13-d710-54ad-8223-1b7df9539013",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank P McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row12-frank-r-mccoy-b1051",
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank R McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An authoritative institutional or reputable obituary source supports a specific identity and pre-OSS or wartime affiliation with explicit temporal qualification. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 to determine why McCoy appears in the OSS index and whether the Foreign Policy Association or another wartime role preceded any OSS assignment.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row13-george-a-mccoy-b1051",
+      "person_id": "50f35fc0-e854-5221-ae4e-0742b47cc0ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George A McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row14-james-v-mccoy-b1051",
+      "person_id": "50fe03ef-69fd-51d6-8e68-5fa1a606a8e2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James V McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row15-margaret-e-mccoy-b1051",
+      "person_id": "5dd734ac-994b-5ca4-b62b-c6294659106f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Margaret E McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row16-priscilla-l-mccoy-b1051",
+      "person_id": "98efde88-d3cb-59fd-8682-c611443b12d5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Priscilla L McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row17-ruth-m-mccoy-b1051",
+      "person_id": "4a702359-1c88-5f8b-9086-fe0532896069",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruth M McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row18-thomas-f-mccoy-b1051",
+      "person_id": "14fd8141-1e60-5dc7-8822-fb74feedfc23",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas F McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An authoritative institutional or reputable obituary source supports a specific identity and pre-OSS or wartime affiliation with explicit temporal qualification. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 for the precise Army unit and OSS transfer date and for McCoy's last civilian employer before wartime service.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row19-thomas-m-mccoy-b1051",
+      "person_id": "6eed87e4-103e-554e-8386-328b3844cb48",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas M McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row20-wade-w-mccoy-b1051",
+      "person_id": "7cc8269b-4f1b-5de6-b103-6ad33435966b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wade W McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row21-wilber-d-mccoy-b1051",
+      "person_id": "d8350c53-c8c2-58dc-a145-bcc543ac508c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilber D McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row22-william-j-mccoy-b1051",
+      "person_id": "4ee3c4a3-b18c-55e5-a6ae-6605402b86de",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J McCoy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "A repeated row, shared identifier, spelling conflict, or identifier-to-name conflict remains separate for direct personnel-file comparison. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 to resolve the conflicting protected identifier before assigning any Army occupation or biography.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row23-charles-mccracken-jr-b1051",
+      "person_id": "4917ebd7-ee43-5e3a-9461-7415c965375d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles McCracken Jr.; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An official Army link supports identity, but an indeterminate occupation code or postwar date prevents a pre-OSS occupation claim. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 to establish the OSS chronology before using the postwar-dated 10 July 1946 Army entry as pre-OSS evidence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row24-ivna-w-mccrary-b1051",
+      "person_id": "615d5039-2e2c-50fa-b8d4-9e772f537dc6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ivna W McCrary; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "A repeated row, shared identifier, spelling conflict, or identifier-to-name conflict remains separate for direct personnel-file comparison. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Compare both Box 501 personnel files and the shared private identifier before merging or transferring Army evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row25-jack-l-mccrary-b1051",
+      "person_id": "4960f431-455c-5d03-a23d-90159edbc153",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack L McCrary; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "A repeated row, shared identifier, spelling conflict, or identifier-to-name conflict remains separate for direct personnel-file comparison. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Compare the page-304 and page-306 personnel files before merging the Jack L. McCarary/McCrary rows or transferring Army evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row26-ruth-m-mccrary-b1051",
+      "person_id": "72d1dd8d-db1f-5147-8789-333c85d5e2f8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruth M McCrary; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row27-ivan-w-mccray-b1051",
+      "person_id": "af0435c1-a04e-533d-9289-1ee6cdf53e12",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ivan W McCray; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "A repeated row, shared identifier, spelling conflict, or identifier-to-name conflict remains separate for direct personnel-file comparison. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Compare both Box 501 personnel files and the shared private identifier before merging or transferring Army evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row28-jane-n-m-mccray-b1051",
+      "person_id": "b9edcade-258b-53c5-99e9-762d1027d630",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jane N/M McCray; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row29-willis-e-mccray-b1051",
+      "person_id": "f2f7ce7e-7889-5ccb-8ab9-d15249a99646",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Willis E McCray; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row30-melvin-l-mccrea-b1051",
+      "person_id": "885df8a2-155f-5c30-a3ab-420f739a67df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Melvin L McCrea; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An official Army link supports identity, but an indeterminate occupation code or postwar date prevents a pre-OSS occupation claim. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 for a named employer or occupation and the Army-to-OSS sequence; code 999 supplies no useful occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row31-samuel-h-mccrea-b1051",
+      "person_id": "dcdfe506-9da3-5c6c-a6c9-a3390f77923c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Samuel H McCrea; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An official Army link supports identity, but an indeterminate occupation code or postwar date prevents a pre-OSS occupation claim. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 for a named employer or occupation and the Army-to-OSS sequence; code 999 supplies no useful occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row32-julia-f-mccrimmon-b1051",
+      "person_id": "5c8d3d2a-bf5e-5c0a-bbf5-cad9ad10f2c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Julia F McCrimmon; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row33-joseph-f-mccrindle-b1051",
+      "person_id": "4c8522f4-9712-584a-924e-ba55ee072e88",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph F McCrindle; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation or student category but no named employer or OSS-transfer sequence. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 501 Joseph F. McCrindle files to preserve the separate identities and identify the corporal's institution and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row34-joseph-f-mccrindle-b1051",
+      "person_id": "9c68dd21-4877-5709-b14a-e757abb377f9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph F McCrindle; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An authoritative institutional or reputable obituary source supports a specific identity and pre-OSS or wartime affiliation with explicit temporal qualification. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review both Box 501 files to establish the exact Harvard-to-OSS chronology and confirm why a distinct corporal row bears the same indexed name.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row35-kenneth-a-mccrum-b1051",
+      "person_id": "32fa7614-3e98-5869-b8ab-fadd5dfb3c2b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kenneth A McCrum; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row36-john-i-mcculloch-b1051",
+      "person_id": "5b2e97be-a6ac-585c-8051-c4b3a1524dd2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John I McCulloch; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row37-george-b-mccullough-b1051",
+      "person_id": "4fdbe340-445c-57cd-b750-4343e0bccc59",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George B McCullough; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row38-james-j-mccullough-b1051",
+      "person_id": "b6fa8688-ffba-5d7d-b519-6cafd1b32633",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James J McCullough; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation or student category but no named employer or OSS-transfer sequence. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 for a named employer and the Army-to-OSS sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row39-james-l-mccullough-b1051",
+      "person_id": "08656ac8-1885-55d6-bcf8-2f2c2fefe8b8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James L McCullough; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row40-wilton-e-mccullough-b1051",
+      "person_id": "b829d19d-21ec-5782-9a3a-6d8021c2e3a9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilton E McCullough; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An official Army link supports identity, but an indeterminate occupation code or postwar date prevents a pre-OSS occupation claim. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 to establish the OSS chronology before using the postwar-dated 28 June 1946 Army entry as pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row41-george-m-mccune-b1051",
+      "person_id": "c69ef820-17f0-5460-83df-d717087725f5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George M McCune; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An authoritative institutional or reputable obituary source supports a specific identity and pre-OSS or wartime affiliation with explicit temporal qualification. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 for McCune's exact OSS appointment date and the terms of his Occidental leave.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row42-marshall-l-mccune-b1051",
+      "person_id": "b035428e-2bc2-5a6c-b645-7e5671b55de0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marshall L McCune; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An authoritative institutional or reputable obituary source supports a specific identity and pre-OSS or wartime affiliation with explicit temporal qualification. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 501 to place the Far East Special Services assignment relative to OSS and identify McCune's last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row43-richard-w-mccune-b1051",
+      "person_id": "5f937b58-0d9e-50fc-a489-4b16b8006575",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard W McCune; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 501",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 501 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row44-wallace-h-mccune-b1051",
+      "person_id": "e94dbad1-4b8b-5711-9848-15f87646bac8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wallace H McCune; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 502",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 502 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row45-alexander-f-mccurdy-b1051",
+      "person_id": "b9e3c574-7309-55a8-9474-e87b683a784d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alexander F McCurdy; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 502",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation or student category but no named employer or OSS-transfer sequence. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 502 for a named employer and the Army-to-OSS sequence.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b1051-v1"
+    },
+    {
+      "key": "page306-row46-william-c-mccutcheon-b1051",
+      "person_id": "0d0bd61d-c89e-5141-b5bd-623cb4977c3d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William C McCutcheon; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; accessible official CIA and Archives domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 502",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1051",
+      "started_at": "2026-11-11T06:35:00-05:00",
+      "completed_at": "2026-11-11T07:45:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Shared identifiers and duplicate rows remain separate. Army categories were not converted into named employers.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes and chronologically irrelevant results were rejected. The official index, earlier Library of Congress item-level work where available, accessible exact-name OSS and official-domain discovery, occupation and employer searches, and obituary, institutional, directory, military-history, newspaper, and archival checks were reviewed as applicable. A direct CIA adapter attempt ended at robots denial and a Library of Congress adapter query timed out; neither access failure was treated as a negative result. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 502 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b1051-v1"
+    }
+  ]
+}

@@ -1,5 +1,47 @@
 # Research status
 
+Batch 1051 completed PDF page 306, rows 1-46, from **Howard P. McCormick**
+through **William C. McCutcheon**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and every entity now has a saved
+terminal research outcome. The cohort contains 39
+`requires_archival_review`, five `occupation_only_found`, one
+`verified_employer_found`, and one `conflicting_sources` outcome.
+
+Five accepted, nonshared, wartime-dated Army identity links support qualified
+Army-entry occupation or student categories. None is converted into a named
+employer, institution, workplace, or immediate OSS predecessor. Indeterminate
+code-999 categories are not published, and accepted Army entries dated in
+1946 are withheld from pre-OSS occupation publication pending chronology
+review.
+
+Institutional and reputable biographical sources document Frank Ross McCoy's
+Foreign Policy Association presidency, Thomas Frederick McCoy's Army-to-OSS
+pathway, Joseph Feder McCrindle's Harvard student relationship, George McAfee
+McCune's explicit Occidental College-to-OSS transition, and Marshall Lockhart
+McCune's temporally uncertain Army Special Services assignment. Only
+Occidental is a verified employer; military, student, and professional-
+affiliation relationships remain separately typed and qualified.
+
+Repeated, variant, shared-identifier, and conflicting-identifier rows remain
+separate and visibly reviewable. The two Joseph F. McCrindle rows receive
+row-specific evidence rather than a silent merge. No private identifier, raw
+Army record, full copyrighted source, or authenticated NARA Catalog API
+payload entered public data, and no authenticated NARA Catalog API request was
+used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,922/23,935 (74.8778%)**;
+verified-employer coverage is **573/23,935 (2.3940%)**;
+verified-affiliation coverage is **1,253/23,935 (5.2350%)**; archival-review
+coverage is **16,646/23,935 (69.5467%)**. There are **6,013** not-started and
+**1,608** in-progress people. The public projection contains **4,842**
+affiliations, **1,432** organizations, **7,025** sources, and **11,501**
+published, qualified, or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1051 publication verification is recorded in
+`reports/release_batch_1051.md`.
+
 Batch 1050 completed PDF page 305, rows 1-46, from **Margaret J. McClellan**
 through **Charles H. McCormick**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and every entity now has a saved
