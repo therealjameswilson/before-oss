@@ -1,5 +1,46 @@
 # Research status
 
+Batch 1050 completed PDF page 305, rows 1-46, from **Margaret J. McClellan**
+through **Charles H. McCormick**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and every entity now has a saved
+terminal research outcome. The cohort contains 33
+`requires_archival_review`, nine `occupation_only_found`, three
+`verified_employer_found`, and one `conflicting_sources` outcome.
+
+Ten previously reviewed Army identity bridges support qualified Army-entry
+occupation or student categories. None is converted into a named employer,
+institution, workplace, or immediate OSS predecessor. Oscar D. McCollum's
+accepted Army entry is dated 27 April 1946, so its draftsman code is withheld
+from pre-OSS publication pending a service chronology.
+
+Institutional and contemporary sources support three verified-employer
+profiles. Stewart McClintic's Mellon National Bank and Trust Company
+employment remains separate from his immediate VIII Bomber Command pathway.
+Harold C. McCollom Jr.'s Benton & Bowles account-executive role is sequenced
+before two years of military service without inferring an OSS unit. James
+Lukens McConaughy's United China Relief presidency is modeled as his immediate
+professional affiliation, while Wesleyan University is his probable last
+civilian employer and his earlier academic employment remains separate.
+
+The repeated Ruth K. McClenon and Alice M. McCool rows remain separate for
+archival review. The Elmer L. McCcollum/McCollum spelling and rank conflict
+remains visible rather than merged. No protected identifier, raw Army record,
+full copyrighted source, or authenticated NARA Catalog API payload entered
+public data, and no authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,899/23,935 (74.7817%)**;
+verified-employer coverage is **572/23,935 (2.3898%)**;
+verified-affiliation coverage is **1,250/23,935 (5.2225%)**; archival-review
+coverage is **16,607/23,935 (69.3837%)**. There are **6,031** not-started and
+**1,627** in-progress people. The public projection contains **4,832**
+affiliations, **1,430** organizations, **7,016** sources, and **11,480**
+published, qualified, or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1050 publication verification is recorded in
+`reports/release_batch_1050.md`.
+
 Batch 1049 completed PDF page 304, rows 1-46, from **Thomas A. McCann**
 through **Grant S. McClelian**. All 46 printed rows remain separately
 recoverable as 46 cautious person entities, and every entity now has a saved
