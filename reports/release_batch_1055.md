@@ -91,6 +91,8 @@ Research and release date: 2026-11-11 America/New_York.
   harness. The complete Python suite is reserved for the clean GitHub runner
   because the local virtual environment contains macOS cloud placeholders that
   stall test discovery.
+- The clean GitHub runner subsequently passed all 154 Python tests, including
+  the eight Batch 1055 tests.
 - The 522-page, 23,978-row ingest validation passed every page, row, warning,
   visual-review, SQLite-integrity, and foreign-key gate.
 - Astro validation reported zero errors, warnings, or hints. The full local
@@ -115,10 +117,17 @@ Research and release date: 2026-11-11 America/New_York.
 
 ## Deployment status
 
-- Publication commit and GitHub Actions run links will be recorded after the
-  clean-runner tests and Pages deployment complete.
-- Independent live-manifest, route, source-page, and all 46 direct Batch 1055
-  profile checks will be recorded after deployment.
+- Publication commit:
+  [`9feb8f1599940ff7531a9f51d2882b1dda5c6eda`](https://github.com/therealjameswilson/before-oss/commit/9feb8f1599940ff7531a9f51d2882b1dda5c6eda).
+- The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/43115923271)
+  completed successfully in 5m48s, including all 154 Python tests, the
+  checked-in manifest, the clean Node/TypeScript build, 90 bounded browser
+  checks, a fresh source-index rebuild, and the private-identifier audit.
+- The [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/43115923234)
+  completed successfully.
+- Independent live verification matched all 67 canonical assets and
+  145,087,186 bytes to the audited manifest, then checked eight core routes, 48
+  source-register pages, and all 46 direct Batch 1055 profile URLs.
 
 Public base URL: <https://therealjameswilson.github.io/before-oss/>.
 
