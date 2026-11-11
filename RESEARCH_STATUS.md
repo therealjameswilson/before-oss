@@ -1,5 +1,42 @@
 # Research status
 
+Batch 1049 completed PDF page 304, rows 1-46, from **Thomas A. McCann**
+through **Grant S. McClelian**. All 46 printed rows remain separately
+recoverable as 46 cautious person entities, and every entity now has a saved
+terminal research outcome. The cohort contains 24
+`requires_archival_review`, ten `needs_identity_review`, ten
+`occupation_only_found`, one `documented_prewar_employer_found`, and one
+`conflicting_sources` outcome.
+
+Ten previously reviewed Army identity bridges support qualified,
+date-bounded civilian-occupation or student categories. None is converted
+into a named employer, institution, workplace, or immediate OSS predecessor.
+A direct 3 May 1944 OSS board report confirms that Thomas A. McCart went to
+OSS from the Vth Army Replacement Center on 12 October 1943 and separately
+states that he had worked for RCA in civilian life. The military assignment
+is modeled as his explicit immediate predecessor; RCA remains documented
+prewar employment rather than an unsupported last-civilian-employer claim.
+
+Rex H. McCauley's protected identifier conflicts with an official Army record
+for a different person, so no occupation was transferred. The McCargar/
+McCaroar and McCausland/McClausland rows, two John F. McCarthy rows, and other
+spelling or common-name cases remain separate and visibly reviewable. No
+protected identifier or raw Army record entered public data, and no
+authenticated NARA Catalog API request was used.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,935** active
+people. Research-attempt coverage is **17,899/23,935 (74.7817%)**;
+verified-employer coverage is **569/23,935 (2.3773%)**;
+verified-affiliation coverage is **1,247/23,935 (5.2099%)**; archival-review
+coverage is **16,567/23,935 (69.2166%)**. There are **6,031** not-started and
+**1,667** in-progress people. The public projection contains **4,814**
+affiliations, **1,427** organizations, **7,008** sources, and **11,460**
+published, qualified, or conflict claims. Full-index historical research
+remains unfinished.
+
+Batch 1049 publication verification is recorded in
+`reports/release_batch_1049.md`.
+
 Batch 1048 completed PDF page 303, rows 1-46, from **Luigi Mazzone** through
 **Richard J. McCann**. All 46 printed rows remain separately recoverable as 46
 cautious person entities, and every entity has a saved terminal research
