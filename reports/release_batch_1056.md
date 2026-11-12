@@ -123,10 +123,27 @@ Research and release date: 2026-11-11 America/New_York.
 
 ## Deployment status
 
-- Publication commit and GitHub Actions run links will be recorded after the
-  clean-runner tests and Pages deployment complete.
-- Independent live-manifest, route, source-page, oil-category, and all 45 direct
-  Batch 1056 profile checks will be recorded after deployment.
+- The reviewed data and site were published in commit `1278566`; current
+  release head `c39ec0b` also closes a CI discovery gap by running all
+  historical pytest-style batch tests after fresh ingest and derived export.
+  Two intermediate workflow failures exposed the missing gates and are retained
+  in the GitHub Actions history rather than being hidden.
+- The final Test workflow succeeded in 3 minutes 58 seconds:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43124973951>.
+  The clean runner passed 154 core Python tests, 293 historical batch tests,
+  the Node/TypeScript build, 96 browser checks, link validation, a fresh
+  ingest/export cycle, and the private-identifier audit.
+- The final GitHub Pages build and deployment succeeded:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43124973953>.
+- Independent verification against deployed commit
+  `c39ec0bfd2436d506d5f250da1bc4aae5bd305ab` matched all 67 canonical assets
+  (145,282,003 bytes), manifest SHA-256
+  `ded2d8ca86fa88e717d7132762a22b93a6e7b3991828721b34990b165a1fc30c`,
+  eight core routes, 48 source-register pages, and all 45 direct Batch 1056
+  profiles.
+- The live oil-company category lists 15 people associated with 16 historically
+  named companies and links to the shareable filtered personnel directory:
+  <https://therealjameswilson.github.io/before-oss/oil-companies/>.
 
 Public base URL: <https://therealjameswilson.github.io/before-oss/>.
 
