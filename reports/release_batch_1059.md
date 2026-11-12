@@ -119,9 +119,24 @@ Research and release preparation date: 2026-11-11 America/New_York.
 
 ## Deployment status
 
-- Local research, data, and publication gates have passed. Clean GitHub Test
-  and Pages workflow results and independent deployed verification will be
-  appended after publication.
+- Research commit `cc23327b3b8f7dfbd3832f096d692e41f210072a` was pushed to
+  `origin/main`.
+- GitHub Test run
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43140323970>
+  completed successfully in 5m58s. Its clean runner passed the core research
+  tests, checked-in public-manifest verification, bounded browser release
+  suite, private-identifier audit-source rebuild, historical-batch tests, and
+  public-identifier redaction audit.
+- GitHub Pages run
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43140324105>
+  completed successfully: the build job finished in 1m48s and the deploy job
+  in 19s.
+- Independent read-only verification of the deployed research commit matched
+  the checked-in manifest byte for byte (SHA-256
+  `1541adf54da885ba1f8231dd79b273aad2332f8c1b1fcf48b204a9626f9a56db`),
+  then verified all 67 canonical manifested assets (145,613,796 bytes), eight
+  core routes, all 48 source-register pages, and all 46 Batch 1059 direct
+  profile URLs.
 
 Public base URL: <https://therealjameswilson.github.io/before-oss/>.
 
