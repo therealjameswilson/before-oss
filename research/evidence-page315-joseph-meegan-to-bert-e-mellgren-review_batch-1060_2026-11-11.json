@@ -1,0 +1,1884 @@
+{
+  "bundle_version": "batch-1060-v1",
+  "reviewer": "Before OSS Batch 1060 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-page315-b1060",
+      "access_date": "2026-11-11",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 515-516",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 315, rows 1-46; every printed row visually checked against the official PDF",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 46 printed rows remain separately preserved. The rendered first row reads Joseph Meegan; the embedded text transposition remains in immutable raw fields. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-page315-b1060",
+      "access_date": "2026-11-11",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; reviewed row-specific private identity crosswalks",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw record, protected identifier, or bulk ordinal is retained in public assets."
+    },
+    {
+      "key": "army-tech-page315-b1060",
+      "access_date": "2026-11-11",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; Army-entry date and civilian-occupation fields",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used only to interpret selected fields; the bulk file does not identify a named employer or prove the Army-to-OSS sequence."
+    },
+    {
+      "key": "army-codes-page315-b1060",
+      "access_date": "2026-11-11",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "Code No. 30; National Archives Identifier 1263923",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1942; reference copy modified 2011",
+      "locator": "PDF physical pages 170-174; every published Batch 1060 category visually checked",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical categories are published only as qualified Army-entry occupations, never as named employers. Unlisted and identity-conflict codes remain unpublished."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "army-entry-donald-j-meehan-b1060",
+      "person_id": "1e06c56a-6808-58f4-abb1-d7a729d5c810",
+      "role_title": "file clerk",
+      "occupation": "file clerk",
+      "relationship_type": "unknown",
+      "start_date": "1942-11-30",
+      "end_date": "1942-11-30",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-william-r-meek-b1060",
+      "person_id": "f44ab699-af7c-5b2d-9d83-440c6e958da5",
+      "role_title": "construction occupation, n.e.c.",
+      "occupation": "construction occupation, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": "1942-10-23",
+      "end_date": "1942-10-23",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-joseph-c-megaro-b1060",
+      "person_id": "661658e7-cddd-55cc-8252-da52c0a3491a",
+      "role_title": "lawyer or judge",
+      "occupation": "lawyer or judge",
+      "relationship_type": "unknown",
+      "start_date": "1942-09-05",
+      "end_date": "1942-09-05",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-william-t-megill-b1060",
+      "person_id": "fe92904e-0079-5b27-87e4-782be9c55301",
+      "role_title": "chauffeur or bus, taxi, truck, or tractor driver",
+      "occupation": "chauffeur or bus, taxi, truck, or tractor driver",
+      "relationship_type": "unknown",
+      "start_date": "1943-06-29",
+      "end_date": "1943-06-29",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-walter-e-meier-b1060",
+      "person_id": "8ff12694-57c3-5592-9bc0-91e8462a35a9",
+      "role_title": "semiprofessional occupation, n.e.c.",
+      "occupation": "semiprofessional occupation, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": "1945-02-01",
+      "end_date": "1945-02-01",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-michael-s-meixner-b1060",
+      "person_id": "33ac230d-0524-5c61-92da-d087da50f79b",
+      "role_title": "pressman or plate printer in printing",
+      "occupation": "pressman or plate printer in printing",
+      "relationship_type": "unknown",
+      "start_date": "1945-02-06",
+      "end_date": "1945-02-06",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-leif-e-meland-b1060",
+      "person_id": "24a68ddd-d4f3-5d05-a9fb-7f3b382b52a9",
+      "role_title": "sailor or deckhand, except U.S. Navy",
+      "occupation": "sailor or deckhand, except U.S. Navy",
+      "relationship_type": "unknown",
+      "start_date": "1943-03-20",
+      "end_date": "1943-03-20",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-george-a-melanson-b1060",
+      "person_id": "2ec41bfb-73fd-5e8b-900b-819ecb628654",
+      "role_title": "welder or flame cutter",
+      "occupation": "welder or flame cutter",
+      "relationship_type": "unknown",
+      "start_date": "1943-06-08",
+      "end_date": "1943-06-08",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-robert-l-melberg-b1060",
+      "person_id": "b3624f10-4e5e-537f-a72c-1e4670ff7de7",
+      "role_title": "policeman or detective in public service",
+      "occupation": "policeman or detective in public service",
+      "relationship_type": "unknown",
+      "start_date": "1943-06-22",
+      "end_date": "1943-06-22",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-valeriano-melchiori-b1060",
+      "person_id": "828d8e69-0aff-5cf3-b128-0187b00e93e2",
+      "role_title": "waiter, except private family",
+      "occupation": "waiter, except private family",
+      "relationship_type": "unknown",
+      "start_date": "1943-02-08",
+      "end_date": "1943-02-08",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-charles-s-meledonis-b1060",
+      "person_id": "0941bebf-43dd-5cfa-b669-1fdfa3c6e161",
+      "role_title": "electrical engineer",
+      "occupation": "electrical engineer",
+      "relationship_type": "unknown",
+      "start_date": "1942-06-25",
+      "end_date": "1942-06-25",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-gustave-meligonis-b1060",
+      "person_id": "7db39dcf-751d-5747-a82e-60e38cfffb33",
+      "role_title": "office machine operator",
+      "occupation": "office machine operator",
+      "relationship_type": "unknown",
+      "start_date": "1941-03-13",
+      "end_date": "1941-03-13",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    },
+    {
+      "key": "army-entry-bert-e-mellgren-b1060",
+      "person_id": "1ae517c5-847f-5f78-a4c8-8dba7635158a",
+      "role_title": "showman",
+      "occupation": "showman",
+      "relationship_type": "unknown",
+      "start_date": "1943-01-18",
+      "end_date": "1943-01-18",
+      "date_precision": "Exact Army-entry date; the broad category may summarize civilian experience and does not identify an employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category is excluded from verified-employer analytics and is not converted into a named organization."
+    }
+  ],
+  "claims": [
+    {
+      "key": "army-entry-donald-j-meehan-b1060",
+      "person_id": "1e06c56a-6808-58f4-abb1-d7a729d5c810",
+      "affiliation_key": "army-entry-donald-j-meehan-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-30, Donald J Meehan was recorded as file clerk; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 117; the visually checked official list defines the category as File clerks.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 171; historical code 1-17"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-william-r-meek-b1060",
+      "person_id": "f44ab699-af7c-5b2d-9d83-440c6e958da5",
+      "affiliation_key": "army-entry-william-r-meek-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-23, William R Meek was recorded as construction occupation, n.e.c.; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 732; the visually checked official list defines the category as Construction occupations, n.e.c..",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 174; historical code 7-32"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-joseph-c-megaro-b1060",
+      "person_id": "661658e7-cddd-55cc-8252-da52c0a3491a",
+      "affiliation_key": "army-entry-joseph-c-megaro-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-05, Joseph C Megaro was recorded as lawyer or judge; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 022; the visually checked official list defines the category as Lawyers and judges.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 171; historical code 0-22"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-william-t-megill-b1060",
+      "person_id": "fe92904e-0079-5b27-87e4-782be9c55301",
+      "affiliation_key": "army-entry-william-t-megill-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-29, William T Megill was recorded as chauffeur or bus, taxi, truck, or tractor driver; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 736; the visually checked official list defines the category as Chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 174; historical code 7-36"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-walter-e-meier-b1060",
+      "person_id": "8ff12694-57c3-5592-9bc0-91e8462a35a9",
+      "affiliation_key": "army-entry-walter-e-meier-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-02-01, Walter E Meier was recorded as semiprofessional occupation, n.e.c.; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 068; the visually checked official list defines the category as Semiprofessional occupations, n.e.c..",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 171; historical code 0-68"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-michael-s-meixner-b1060",
+      "person_id": "33ac230d-0524-5c61-92da-d087da50f79b",
+      "affiliation_key": "army-entry-michael-s-meixner-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1945-02-06, Michael S Meixner was recorded as pressman or plate printer in printing; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 448; the visually checked official list defines the category as Pressmen and plate printers, printing.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 173; historical code 4-48"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-leif-e-meland-b1060",
+      "person_id": "24a68ddd-d4f3-5d05-a9fb-7f3b382b52a9",
+      "affiliation_key": "army-entry-leif-e-meland-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-20, Leif E Meland was recorded as sailor or deckhand, except U.S. Navy; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 748; the visually checked official list defines the category as Sailors and deckhands, except U.S. Navy.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 174; historical code 7-48"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-george-a-melanson-b1060",
+      "person_id": "2ec41bfb-73fd-5e8b-900b-819ecb628654",
+      "affiliation_key": "army-entry-george-a-melanson-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-08, George A Melanson was recorded as welder or flame cutter; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 685; the visually checked official list defines the category as Welders and flame cutters.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 174; historical code 6-85"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-robert-l-melberg-b1060",
+      "person_id": "b3624f10-4e5e-537f-a72c-1e4670ff7de7",
+      "affiliation_key": "army-entry-robert-l-melberg-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-22, Robert L Melberg was recorded as policeman or detective in public service; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 266; the visually checked official list defines the category as Policemen and detectives, public service.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 172; historical code 2-66"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-valeriano-melchiori-b1060",
+      "person_id": "828d8e69-0aff-5cf3-b128-0187b00e93e2",
+      "affiliation_key": "army-entry-valeriano-melchiori-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-08, Valeriano Melchiori was recorded as waiter, except private family; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 227; the visually checked official list defines the category as Waiters and waitresses, except private family.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 172; historical code 2-27"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-charles-s-meledonis-b1060",
+      "person_id": "0941bebf-43dd-5cfa-b669-1fdfa3c6e161",
+      "affiliation_key": "army-entry-charles-s-meledonis-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-25, Charles S Meledonis was recorded as electrical engineer; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 017; the visually checked official list defines the category as Engineers, electrical.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 170; historical code 0-17"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-gustave-meligonis-b1060",
+      "person_id": "7db39dcf-751d-5747-a82e-60e38cfffb33",
+      "affiliation_key": "army-entry-gustave-meligonis-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-13, Gustave Meligonis was recorded as office machine operator; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 125; the visually checked official list defines the category as Office machine operators.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 171; historical code 1-25"
+        }
+      ]
+    },
+    {
+      "key": "army-entry-bert-e-mellgren-b1060",
+      "person_id": "1ae517c5-847f-5f78-a4c8-8dba7635158a",
+      "affiliation_key": "army-entry-bert-e-mellgren-b1060",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-18, Bert E Mellgren was recorded as showman; no employer, institution, or workplace is identified.",
+      "evidence_paraphrase": "The official Army bulk file records code 062; the visually checked official list defines the category as Showmen.",
+      "identity_match_assessment": "High confidence from exact or documented variant-name agreement and a reviewed, nonshared private identifier linkage; the identifier remains private.",
+      "temporal_assessment": "The category is fixed to the Army-entry date, but its sequence relative to OSS service is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "An earlier reviewed identity claim already documents the official crosswalk. The historical category remains qualified, excluded from verified-employer analytics, and is not converted into a named organization.",
+      "sources": [
+        {
+          "source_key": "nara-index-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-bulk-page315-b1060"
+        },
+        {
+          "source_key": "army-tech-page315-b1060",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-page315-b1060",
+          "locator_override": "PDF physical page 171; historical code 0-62"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "fc2b05f3-2436-5ae9-b88b-01b7b6080717",
+      "identity_status": "unresolved",
+      "identity_evidence": "Visual inspection of the official page shows Joseph Meegan; the immutable embedded-text extraction transposed the first name as Jospeh. Saved exact-name and spelling-variant searches did not establish an external identity or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e719f2d2-4835-58e8-93d8-ab100bd90a77",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1e06c56a-6808-58f4-abb1-d7a729d5c810",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bad285ac-33c7-533d-b231-f8457734785a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "88b14f2c-a7f1-573b-bcc4-d95b8f2acce9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f44ab699-af7c-5b2d-9d83-440c6e958da5",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a5ef50b1-f406-5e62-a829-2be84a182538",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 515 for the exact Army-to-OSS selection date and any narrower Army assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fd12a334-6091-5c70-ae46-fe4b89f38b18",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ca050c6b-e20a-5e8e-bc73-4e88853d585f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7650b2d2-f90b-5d00-810f-a50369169b96",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5d5163d4-87c1-53ed-b29f-854b6314d64d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d163e1ef-2d9c-5a0f-8058-fe032bd1e07e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fd22f40f-6b02-56ac-9d71-af6fbda36e27",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f5823b9-e766-5a55-9e6e-05ec39b5ad1e",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 515 and the Gaudens Megaro papers for exact Queens College leave and COI-to-OSS appointment dates.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "661658e7-cddd-55cc-8252-da52c0a3491a",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fe92904e-0079-5b27-87e4-782be9c55301",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "45dd460f-d1d6-5053-ae37-e7246f5bc02f",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 515 before accepting the Mehillos/Mehilos spelling or transferring any Army occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e7928084-3eb3-5b1c-998e-c2c6c2e6fd2c",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 515 before accepting the Mehner/Mohner spelling or transferring any Army occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "aabc6afc-6a05-5342-b1c2-4ff5d7b48f55",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 515 for a direct bridge to the probable Lincoln Mei Army officer identity before researching pre-Army employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8ff12694-57c3-5592-9bc0-91e8462a35a9",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "203ca089-cf20-53cc-8364-7847b336f171",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 515 for a named pre-OSS employer and the Army-to-OSS sequence. The accepted Army identity bridge records an occupation code that was not defined in the visually reviewed official list and is not published as an occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be3a7372-3777-543f-ae83-aaa2dee1b0db",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 516 for a named pre-OSS employer and the Army-to-OSS sequence. The accepted Army identity bridge records an occupation code that was not defined in the visually reviewed official list and is not published as an occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "08962f8b-b560-5ce7-a3fc-ed9817e8f99c",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 516 for suffix, branch, birth date, and identifiers before choosing between the two John J. Meily candidates.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a00970fa-cadb-56d7-8d87-73f22771a320",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9f4d39d2-8975-5dd6-9ae5-58d479f3d0c8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "664ccf5c-d214-5170-934e-2b802372e457",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8b67db4e-ab10-54ef-ba38-974c36669054",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33ac230d-0524-5c61-92da-d087da50f79b",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "959b49ad-0879-52a8-a5a1-9c7a555d1e48",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "24a68ddd-d4f3-5d05-a9fb-7f3b382b52a9",
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 516 and Norwegian seamen's records to identify any 1940-1942 civilian work and document the exact 99th Infantry Battalion-to-OSS transfer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2ec41bfb-73fd-5e8b-900b-819ecb628654",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be740a24-8451-5af9-8c41-5d1ac6bfb2ad",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 516 to resolve why the printed identifier maps to William G. Wood; do not transfer that Army occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "adfbfd38-473f-5099-9e7a-3b8515c84c00",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b3624f10-4e5e-537f-a72c-1e4670ff7de7",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "09119446-f015-5b6e-b512-e2ad4104d5dc",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 516 for exact Army and OSS assignment dates while retaining Radio City Music Hall as the last documented civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "828d8e69-0aff-5cf3-b128-0187b00e93e2",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0941bebf-43dd-5cfa-b669-1fdfa3c6e161",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0b87149d-b1f9-542d-b53d-dbd99d2772bd",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 516 and Greenville-area prewar sources for Michael Melehes's employer or occupation; the direct OSS Detachment 101 identity remains high confidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a92c2143-79dc-5238-9772-9e5ba3082cb5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7db39dcf-751d-5747-a82e-60e38cfffb33",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e81bf272-edef-5a3a-94f7-87ac7a542d9c",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 516 before accepting the Melinkoff/Melnikoff spelling or transferring any Army occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7bd6f68b-0801-5068-93e8-7b56f4f8dfb6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2c99f3a1-3b85-543b-b2e0-0cb69b197ded",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect both Michael Melkonian entries in Box 516 before accepting the Melkonian/Milkonian spelling or transferring any Army occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b6a814ed-479e-5e1f-83a6-e0b6cb48de16",
+      "identity_status": "unresolved",
+      "identity_evidence": "The official index context and saved staged exact-name, meaningful-variant, OSS, CIA-domain, employment, occupation, institutional, newspaper, obituary, directory, and archival checks produced no reliable identity and pre-OSS affiliation bridge; unbridged namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1ae517c5-847f-5f78-a4c8-8dba7635158a",
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page315-row1-joseph-meegan-b1060",
+      "person_id": "fc2b05f3-2436-5ae9-b88b-01b7b6080717",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Joseph Meegan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The normalized display was corrected to the visually printed Joseph Meegan while the raw embedded-text transposition remains preserved; no external identity or affiliation was established. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row2-arthur-j-meehan-b1060",
+      "person_id": "e719f2d2-4835-58e8-93d8-ab100bd90a77",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Arthur J Meehan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row3-donald-j-meehan-b1060",
+      "person_id": "1e06c56a-6808-58f4-abb1-d7a729d5c810",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Donald J Meehan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row4-ruth-l-meehan-b1060",
+      "person_id": "bad285ac-33c7-533d-b231-f8457734785a",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Ruth L Meehan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row5-charles-r-meek-b1060",
+      "person_id": "88b14f2c-a7f1-573b-bcc4-d95b8f2acce9",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Charles R Meek; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row6-william-r-meek-b1060",
+      "person_id": "f44ab699-af7c-5b2d-9d83-440c6e958da5",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "William R Meek; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row7-leonard-c-meeker-b1060",
+      "person_id": "a5ef50b1-f406-5e62-a829-2be84a182538",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Leonard C Meeker; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The existing Treasury, Solicitor General, and Army-to-OSS chronology remains unchanged and distinct from private employment. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for the exact Army-to-OSS selection date and any narrower Army assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row8-donald-j-meeks-b1060",
+      "person_id": "fd12a334-6091-5c70-ae46-fe4b89f38b18",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Donald J Meeks; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row9-a-meeksdelbert-b1060",
+      "person_id": "ca050c6b-e20a-5e8e-bc73-4e88853d585f",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "A Meeksdelbert?; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row10-richard-c-meelar-b1060",
+      "person_id": "7650b2d2-f90b-5d00-810f-a50369169b96",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Richard C Meelar; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row11-peter-m-meenan-b1060",
+      "person_id": "5d5163d4-87c1-53ed-b29f-854b6314d64d",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Peter M Meenan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row12-mary-e-meenehan-b1060",
+      "person_id": "d163e1ef-2d9c-5a0f-8058-fe032bd1e07e",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Mary E Meenehan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row13-john-megan-b1060",
+      "person_id": "fd22f40f-6b02-56ac-9d71-af6fbda36e27",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "John Megan; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row14-gaudens-megaro-b1060",
+      "person_id": "7f5823b9-e766-5a55-9e6e-05ec39b5ad1e",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Gaudens Megaro; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The existing Queens College last-civilian-employer and COI immediate-predecessor claims remain unchanged. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 and the Gaudens Megaro papers for exact Queens College leave and COI-to-OSS appointment dates.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row15-joseph-c-megaro-b1060",
+      "person_id": "661658e7-cddd-55cc-8252-da52c0a3491a",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Joseph C Megaro; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row16-william-t-megill-b1060",
+      "person_id": "fe92904e-0079-5b27-87e4-782be9c55301",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "William T Megill; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row17-william-g-mehillos-b1060",
+      "person_id": "45dd460f-d1d6-5053-ae37-e7246f5bc02f",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "William G Mehillos; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The saved identity conflict remains visible; no employer or Army occupation crossed the unresolved name, identifier, suffix, or duplicate boundary. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect Box 515 before accepting the Mehillos/Mehilos spelling or transferring any Army occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row18-eugene-w-mehner-b1060",
+      "person_id": "e7928084-3eb3-5b1c-998e-c2c6c2e6fd2c",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Eugene W Mehner; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The saved identity conflict remains visible; no employer or Army occupation crossed the unresolved name, identifier, suffix, or duplicate boundary. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect Box 515 before accepting the Mehner/Mohner spelling or transferring any Army occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row19-lincoln-mei-b1060",
+      "person_id": "aabc6afc-6a05-5342-b1c2-4ff5d7b48f55",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Lincoln Mei; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The probable Lincoln Mei officer identity remains qualified; its postwar employer was excluded and no pre-OSS affiliation was assigned. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect Box 515 for a direct bridge to the probable Lincoln Mei Army officer identity before researching pre-Army employment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row20-walter-e-meier-b1060",
+      "person_id": "8ff12694-57c3-5592-9bc0-91e8462a35a9",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Walter E Meier; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row21-henry-h-meigs-b1060",
+      "person_id": "203ca089-cf20-53cc-8364-7847b336f171",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Henry H Meigs; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The accepted official Army identity bridge remains high confidence, but undefined code 992 was not converted into an occupation or employer. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 515 for a named pre-OSS employer and the Army-to-OSS sequence. The accepted Army identity bridge records an occupation code that was not defined in the visually reviewed official list and is not published as an occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row22-richard-l-meigs-b1060",
+      "person_id": "be3a7372-3777-543f-ae83-aaa2dee1b0db",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Richard L Meigs; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The accepted official Army identity bridge remains high confidence, but undefined code 992 was not converted into an occupation or employer. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named pre-OSS employer and the Army-to-OSS sequence. The accepted Army identity bridge records an occupation code that was not defined in the visually reviewed official list and is not published as an occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row23-john-j-meily-b1060",
+      "person_id": "08962f8b-b560-5ce7-a3fc-ed9817e8f99c",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "John J Meily; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The saved identity conflict remains visible; no employer or Army occupation crossed the unresolved name, identifier, suffix, or duplicate boundary. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect Box 516 for suffix, branch, birth date, and identifiers before choosing between the two John J. Meily candidates.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row24-harvey-h-meir-b1060",
+      "person_id": "a00970fa-cadb-56d7-8d87-73f22771a320",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Harvey H Meir; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row25-nancy-h-meirr-b1060",
+      "person_id": "9f4d39d2-8975-5dd6-9ae5-58d479f3d0c8",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Nancy H Meirr; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 515",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 515 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row26-frederick-a-meiser-b1060",
+      "person_id": "664ccf5c-d214-5170-934e-2b802372e457",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Frederick A Meiser; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row27-beny-j-meitoff-b1060",
+      "person_id": "8b67db4e-ab10-54ef-ba38-974c36669054",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Beny J Meitoff; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row28-michael-s-meixner-b1060",
+      "person_id": "33ac230d-0524-5c61-92da-d087da50f79b",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Michael S Meixner; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row29-donald-f-mela-b1060",
+      "person_id": "959b49ad-0879-52a8-a5a1-9c7a555d1e48",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Donald F Mela; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row30-leif-e-meland-b1060",
+      "person_id": "24a68ddd-d4f3-5d05-a9fb-7f3b382b52a9",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Leif E Meland; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The documented D/S Cate B merchant-sea work and 99th Infantry Battalion-to-OSS pathway remain unchanged; the Army category is qualified and does not fill the 1940-1942 chronology gap. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 and Norwegian seamen's records to identify any 1940-1942 civilian work and document the exact 99th Infantry Battalion-to-OSS transfer.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row31-george-a-melanson-b1060",
+      "person_id": "2ec41bfb-73fd-5e8b-900b-819ecb628654",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "George A Melanson; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row32-patrick-j-melanson-b1060",
+      "person_id": "be740a24-8451-5af9-8c41-5d1ac6bfb2ad",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Patrick J Melanson; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The saved identity conflict remains visible; no employer or Army occupation crossed the unresolved name, identifier, suffix, or duplicate boundary. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect Box 516 to resolve why the printed identifier maps to William G. Wood; do not transfer that Army occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row33-leon-c-melas-b1060",
+      "person_id": "adfbfd38-473f-5099-9e7a-3b8515c84c00",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Leon C Melas; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row34-robert-l-melberg-b1060",
+      "person_id": "b3624f10-4e5e-537f-a72c-1e4670ff7de7",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Robert L Melberg; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row35-i-j-melchior-b1060",
+      "person_id": "09119446-f015-5b6e-b512-e2ad4104d5dc",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "I J Melchior; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The existing Radio City Music Hall last-employer and Army pathway claims remain unchanged. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for exact Army and OSS assignment dates while retaining Radio City Music Hall as the last documented civilian employer.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row36-valeriano-melchiori-b1060",
+      "person_id": "828d8e69-0aff-5cf3-b128-0187b00e93e2",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Valeriano Melchiori; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row37-charles-s-meledonis-b1060",
+      "person_id": "0941bebf-43dd-5cfa-b669-1fdfa3c6e161",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Charles S Meledonis; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row38-michael-melehes-b1060",
+      "person_id": "0b87149d-b1f9-542d-b53d-dbd99d2772bd",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Michael Melehes; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "A direct OSS Detachment 101 record establishes the wartime identity, but accessible sources do not identify a reliable pre-OSS employer. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 and Greenville-area prewar sources for Michael Melehes's employer or occupation; the direct OSS Detachment 101 identity remains high confidence.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row39-angelo-meli-b1060",
+      "person_id": "a92c2143-79dc-5238-9772-9e5ba3082cb5",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Angelo Meli; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row40-gustave-meligonis-b1060",
+      "person_id": "7db39dcf-751d-5747-a82e-60e38cfffb33",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Gustave Meligonis; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row41-kosta-melinkoff-b1060",
+      "person_id": "e81bf272-edef-5a3a-94f7-87ac7a542d9c",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Kosta Melinkoff; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The saved identity conflict remains visible; no employer or Army occupation crossed the unresolved name, identifier, suffix, or duplicate boundary. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect Box 516 before accepting the Melinkoff/Melnikoff spelling or transferring any Army occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row42-nicholas-j-melito-b1060",
+      "person_id": "7bd6f68b-0801-5068-93e8-7b56f4f8dfb6",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Nicholas J Melito; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row43-michael-melkonian-b1060",
+      "person_id": "2c99f3a1-3b85-543b-b2e0-0cb69b197ded",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Michael Melkonian; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "The saved identity conflict remains visible; no employer or Army occupation crossed the unresolved name, identifier, suffix, or duplicate boundary. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Inspect both Michael Melkonian entries in Box 516 before accepting the Melkonian/Milkonian spelling or transferring any Army occupation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row45-constance-l-mellen-b1060",
+      "person_id": "b6a814ed-479e-5e1f-83a6-e0b6cb48de16",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Constance L Mellen; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "No reliable identity or pre-OSS affiliation was established; unbridged namesakes, snippets, and chronologically irrelevant results were rejected. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review the indexed Box 516 personnel file for corroborating identifiers, the immediate pre-OSS affiliation, and the last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    },
+    {
+      "key": "page315-row46-bert-e-mellgren-b1060",
+      "person_id": "1ae517c5-847f-5f78-a4c8-8dba7635158a",
+      "source_adapter": "manual_saved_protocol_completion",
+      "query_text": "Bert E Mellgren; NARA OSS index context; exact-name and meaningful initial, punctuation, spacing, spelling and OCR variants; CIA Reading Room/domain discovery; OSS, rank, branch, assignment and private-identifier clues; employer and occupation 1940; obituary, biography, institutional, newspaper, directory and archival searches; indexed Box 516",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_1060",
+      "started_at": "2026-11-11T20:45:00-05:00",
+      "completed_at": "2026-11-11T21:30:00-05:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged namesakes, search-result snippets, commercial people-finder pages, unsourced genealogy, relatives, postwar-only leads, and sources without an OSS, rank, private-identifier, unit, or personnel-file bridge were rejected. Army categories were not converted into named employers; duplicate-row, identifier, and spelling conflicts were not promoted.",
+      "research_notes": "An accepted official Army identity link supports a qualified dated occupation but no named employer, institution, workplace, or OSS-transfer sequence. Page 315 was visually checked against the official NARA index, and every published Army occupation code was visually checked against the official code-list PDF. Saved exact-name OSS, CIA-domain, employment, occupation, obituary, institutional, newspaper, directory, and archival outcomes from earlier staged passes were re-reviewed as applicable. Existing cited claims were preserved without duplication. No search-result snippet was used as final evidence and no authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 516 for a named employer or institution and establish the Army-to-OSS chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b1060-v1"
+    }
+  ]
+}

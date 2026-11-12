@@ -129,11 +129,27 @@ def public_rank_as_indexed(
 
 
 def public_source_row(row: sqlite3.Row) -> dict[str, object]:
+    try:
+        visually_corrected = row["visual_review_status"] == "reviewed_corrected"
+    except (IndexError, KeyError):
+        visually_corrected = False
     return {
         "source_record_id": row["source_record_id"],
-        "indexed_last_name": row["last_name_raw"],
-        "indexed_first_name": row["first_name_raw"],
-        "indexed_middle": row["middle_initial_raw"],
+        # Raw embedded-text cells remain immutable in SQLite. When a rendered
+        # page has been human-reviewed and corrected, the public "indexed"
+        # fields use those guarded normalized cells so the site reflects the
+        # visible PDF rather than a hidden text-layer error.
+        "indexed_last_name": (
+            row["last_name"] if visually_corrected else row["last_name_raw"]
+        ),
+        "indexed_first_name": (
+            row["first_name"] if visually_corrected else row["first_name_raw"]
+        ),
+        "indexed_middle": (
+            row["middle_name_or_initial"]
+            if visually_corrected
+            else row["middle_initial_raw"]
+        ),
         "rank_as_indexed": public_rank_as_indexed(
             row["rank_raw"], row["serial_number_normalized"]
         ),

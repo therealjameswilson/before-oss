@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .constants import NAMESPACE_GENERIC
 from .db import utc_now
-from .normalize import clean, name_key
+from .normalize import clean, name_key, normalize_name
 
 GENERIC_NAMESPACE = uuid.UUID(NAMESPACE_GENERIC)
 RESEARCH_STATUSES = {
@@ -511,6 +511,105 @@ def import_review_decisions(
                     ),
                 )
                 applied += cursor.rowcount
+            elif values["target_type"] == "source_record":
+                prefix = "normalized_name:"
+                if not values["decision"].startswith(prefix):
+                    raise ValueError(
+                        f"Unsupported source-record decision on row {row_number}."
+                    )
+                correction = json.loads(values["decision"][len(prefix):])
+                if not isinstance(correction, dict) or set(correction) != {
+                    "expected", "last", "first", "middle"
+                }:
+                    raise ValueError(
+                        "Source-name correction needs expected, last, first, and middle values."
+                    )
+                expected = correction["expected"]
+                last = correction["last"]
+                first = correction["first"]
+                middle = correction["middle"]
+                if (
+                    not isinstance(expected, str)
+                    or not clean(expected)
+                    or not isinstance(last, str)
+                    or not clean(last)
+                    or any(
+                        value is not None
+                        and (not isinstance(value, str) or not clean(value))
+                        for value in (first, middle)
+                    )
+                ):
+                    raise ValueError(
+                        "Source-name correction contains an empty or invalid name value."
+                    )
+                normalized = normalize_name(last, first, middle)
+                current = connection.execute(
+                    """
+                    SELECT display_name, normalized_name, last_name, first_name,
+                           middle_name_or_initial, suffix, name_variants_json,
+                           normalization_notes, visual_review_status
+                    FROM source_records WHERE source_record_id=?
+                    """,
+                    (values["target_id"],),
+                ).fetchone()
+                if current is None or current["display_name"] not in {
+                    expected,
+                    normalized.display_name,
+                }:
+                    raise ValueError(
+                        "Source-name correction target does not match its expected name."
+                    )
+                variants = sorted(
+                    {
+                        *json.loads(current["name_variants_json"] or "[]"),
+                        *json.loads(normalized.variants_json or "[]"),
+                        expected,
+                        normalized.display_name,
+                    },
+                    key=lambda value: (value.casefold(), value),
+                )
+                audit_note = (
+                    f"Human-reviewed normalized source-name correction "
+                    f"({values['decision_version']}; {values['reviewer']}): "
+                    f"{values['rationale']} Raw source cells remain unchanged."
+                )
+                notes = _merge_values(current["normalization_notes"], audit_note)
+                replacement = (
+                    normalized.display_name,
+                    normalized.normalized_name,
+                    normalized.last_name,
+                    normalized.first_name,
+                    normalized.middle,
+                    normalized.suffix,
+                    json.dumps(variants, ensure_ascii=False),
+                    notes,
+                    "reviewed_corrected",
+                )
+                observed = (
+                    current["display_name"],
+                    current["normalized_name"],
+                    current["last_name"],
+                    current["first_name"],
+                    current["middle_name_or_initial"],
+                    current["suffix"],
+                    current["name_variants_json"],
+                    current["normalization_notes"],
+                    current["visual_review_status"],
+                )
+                if observed != replacement:
+                    connection.execute(
+                        """
+                        UPDATE source_records
+                        SET display_name=?, normalized_name=?, last_name=?,
+                            first_name=?, middle_name_or_initial=?, suffix=?,
+                            name_variants_json=?, normalization_notes=?,
+                            visual_review_status=?
+                        WHERE source_record_id=?
+                        """,
+                        (*replacement, values["target_id"]),
+                    )
+                    applied += 1
+                continue
             elif values["target_type"] == "person_entity":
                 if values["decision"].startswith("display_name:"):
                     # A guarded editorial correction changes only the entity's

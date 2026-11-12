@@ -49,6 +49,99 @@ class ReviewDecisionTests(unittest.TestCase):
                 self.assertEqual(self.connection.execute("SELECT COUNT(*) FROM review_decisions").fetchone()[0], 0)
                 self.assertEqual(self.connection.execute("SELECT display_name FROM person_entities WHERE person_id='person-1'").fetchone()[0], "Example Person")
 
+    def _source_name_correction(
+        self,
+        expected="Exmaple Person",
+        last="Person",
+        first="Example",
+        middle=None,
+    ):
+        path = Path(self.temp_dir.name) / "source_name_review.csv"
+        with path.open("w", newline="", encoding="utf-8") as stream:
+            writer = csv.writer(stream)
+            writer.writerow(["target_type", "target_id", "decision", "rationale", "reviewer", "decision_version"])
+            writer.writerow([
+                "source_record",
+                "source-1",
+                "normalized_name:" + json.dumps({
+                    "expected": expected,
+                    "last": last,
+                    "first": first,
+                    "middle": middle,
+                }),
+                "The rendered source prints Example, while the embedded text transposes two letters.",
+                "Unit test",
+                "source-name-v1",
+            ])
+        return path
+
+    def test_guarded_source_name_correction_preserves_raw_cells_and_is_idempotent(self):
+        with self.connection:
+            self.connection.execute(
+                """
+                UPDATE source_records
+                SET raw_row_text='Person Exmaple', last_name_raw='Person',
+                    first_name_raw='Exmaple', display_name='Exmaple Person',
+                    normalized_name='EXMAPLE PERSON', last_name='Person',
+                    first_name='Exmaple', name_variants_json='["Person, Exmaple"]',
+                    visual_review_status='reviewed_matches'
+                WHERE source_record_id='source-1'
+                """
+            )
+        raw_before = tuple(self.connection.execute(
+            """
+            SELECT raw_row_text, last_name_raw, first_name_raw,
+                   middle_initial_raw FROM source_records
+            WHERE source_record_id='source-1'
+            """
+        ).fetchone())
+
+        first = import_review_decisions(self.connection, self._source_name_correction())
+        second = import_review_decisions(self.connection, self._source_name_correction())
+
+        self.assertEqual(first["state_changes_applied"], 1)
+        self.assertEqual(second["duplicates_skipped"], 1)
+        self.assertEqual(second["state_changes_applied"], 0)
+        row = self.connection.execute(
+            "SELECT * FROM source_records WHERE source_record_id='source-1'"
+        ).fetchone()
+        self.assertEqual(row["display_name"], "Example Person")
+        self.assertEqual(row["normalized_name"], "EXAMPLE PERSON")
+        self.assertEqual(row["first_name"], "Example")
+        self.assertEqual(row["last_name"], "Person")
+        self.assertEqual(row["visual_review_status"], "reviewed_corrected")
+        self.assertEqual(
+            json.loads(row["name_variants_json"]),
+            ["Example Person", "Exmaple Person", "Person, Example", "Person, Exmaple"],
+        )
+        self.assertIn("Raw source cells remain unchanged", row["normalization_notes"])
+        self.assertEqual(
+            raw_before,
+            tuple(self.connection.execute(
+                """
+                SELECT raw_row_text, last_name_raw, first_name_raw,
+                       middle_initial_raw FROM source_records
+                WHERE source_record_id='source-1'
+                """
+            ).fetchone()),
+        )
+
+    def test_source_name_correction_rejects_stale_or_invalid_values(self):
+        for kwargs in (
+            {"expected": "Another Person", "first": "Different"},
+            {"last": " "},
+        ):
+            with self.subTest(kwargs=kwargs):
+                with self.assertRaises(ValueError):
+                    import_review_decisions(
+                        self.connection,
+                        self._source_name_correction(**kwargs),
+                    )
+                self.assertEqual(
+                    self.connection.execute("SELECT COUNT(*) FROM review_decisions").fetchone()[0],
+                    0,
+                )
+
     def setUp(self) -> None:
         self.temp_dir = tempfile.TemporaryDirectory()
         self.database = Path(self.temp_dir.name) / "test.sqlite"

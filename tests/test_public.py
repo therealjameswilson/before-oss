@@ -167,6 +167,30 @@ class PublicProjectionTests(unittest.TestCase):
         self.assertEqual(public["serial_masked"], "••••2568")
         self.assertNotIn("4302568", str(public))
 
+    def test_source_projection_uses_guarded_visual_name_correction(self) -> None:
+        row = FakeRow(
+            source_record_id="row-3",
+            last_name_raw="Meegan",
+            first_name_raw="Jospeh",
+            middle_initial_raw=None,
+            last_name="Meegan",
+            first_name="Joseph",
+            middle_name_or_initial=None,
+            visual_review_status="reviewed_corrected",
+            rank_raw="Caf-9",
+            serial_number_normalized=None,
+            box_raw="515",
+            notes_raw=None,
+            archive_location="230/86/36/06",
+            source_page=315,
+        )
+
+        public = public_source_row(row)
+
+        self.assertEqual(public["indexed_last_name"], "Meegan")
+        self.assertEqual(public["indexed_first_name"], "Joseph")
+        self.assertNotIn("Jospeh", str(public))
+
     def test_medium_affiliation_does_not_count_as_verified(self) -> None:
         profiles = [
             {
