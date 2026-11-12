@@ -103,9 +103,17 @@ Research and release preparation date: 2026-11-11 America/New_York.
 
 ## Deployment status
 
-- Local release validation is complete. GitHub Actions and Pages deployment
-  links will be added after the reviewed commit is pushed and the immutable
-  public artifact is independently verified.
+- The reviewed data and site were published in commit `ccf545a`.
+- The clean Test workflow succeeded in 5 minutes 18 seconds:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43134792715>.
+- The GitHub Pages build and deployment succeeded:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43134792578>.
+- Independent verification against deployed commit
+  `ccf545a43da761396f8eae885446b7822b55c975` matched all 67 canonical assets
+  (145,513,712 bytes), manifest SHA-256
+  `a375d4d7bfae7b68b2408cfa48a8ac9c9b72fd536ba26e6261c40c5578cb37a5`,
+  eight core routes, 48 source-register pages, and all 46 direct Batch 1058
+  profiles.
 
 Public base URL: <https://therealjameswilson.github.io/before-oss/>.
 
