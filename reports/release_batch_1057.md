@@ -118,11 +118,21 @@ Research and release preparation date: 2026-11-11 America/New_York.
 
 ## Deployment status
 
-- The reviewed Batch 1057 data and site are prepared locally but have not yet
-  been committed or pushed. The clean Test and GitHub Pages workflows remain
-  required before publication can be claimed.
+- The reviewed data and site were published in commit `159c6ee`.
+- The clean Test workflow succeeded in 5 minutes 41 seconds:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43132215984>.
+  The clean runner passed 154 core Python tests, 302 historical batch tests,
+  the Node/TypeScript build, 87 browser checks, link validation, a fresh
+  522-page ingest/export cycle, and the private-identifier audit.
+- The GitHub Pages build and deployment succeeded:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/43132215925>.
+- Independent verification against deployed commit
+  `159c6eed733e6db9d6ce31f15ec452350b41e208` matched all 67 canonical assets
+  (145,405,290 bytes), manifest SHA-256
+  `6dc7e54ceec18823012cd8a1e6ca71caabd3620b03e7e54839c17f87a04006a6`,
+  eight core routes, 48 source-register pages, and all 45 direct Batch 1057
+  profiles.
 
-Public base URL after successful deployment:
-<https://therealjameswilson.github.io/before-oss/>.
+Public base URL: <https://therealjameswilson.github.io/before-oss/>.
 
 Full-index historical research remains unfinished.
